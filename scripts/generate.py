@@ -178,23 +178,21 @@ def render_md(text):
     MD.reset()
     return MD.convert(text or "")
 
-def header(title, active_brand=None, page_zh="", jsonld=None):
+def header(title, active_brand=None, page_zh="", jsonld=None, prefix=""):
+    """統一導航 header。prefix 係由當前頁面到 site root 嘅相對路徑：
+    根頁 = ''（空），品牌/角色頁 = '../../'。所有連結經 prefix 保證正確。"""
     brand_links = []
     for brand in sorted(brands.values(), key=lambda b: b["name"].lower()):
         cls = "active" if active_brand and brand["slug"] == active_brand else ""
-        brand_links.append(f'<a href="../index.html" class="{cls}">{html.escape(brand["name"])}</a>'
-                           if active_brand else
-                           f'<a href="brands/{brand["slug"]}/" class="{cls}">{html.escape(brand["name"])}</a>')
-    nav = ""
-    if active_brand:
-        nav = f'<nav class="brand-tabs">{"".join(brand_links)}</nav>'
+        brand_links.append(f'<a href="{prefix}brands/{brand["slug"]}/" class="{cls}">{html.escape(brand["name"])}</a>')
+    nav = f'<nav class="brand-tabs">{"".join(brand_links)}</nav>'
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
     return f"""<!DOCTYPE html><html lang="zh-Hant"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)} — Video Gen Cart</title>
 {ld}<style>{CSS}</style></head><body>
 <header class="site"><div class="wrap">
-  <h1><a href="index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
+  <h1><a href="{prefix}index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
   <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
 </div>{nav}</header>
 """
@@ -203,7 +201,7 @@ def page_brand_index(brand):
     """品牌頁：列出旗下角色。"""
     slug = brand["slug"]
     chars = characters.get(slug, [])
-    body = [f'<div class="wrap"><div class="breadcrumb"><a href="index.html">全部品牌</a> › {html.escape(brand["name"])}</div>']
+    body = [f'<div class="wrap"><div class="breadcrumb"><a href="../../index.html">全部品牌</a> › {html.escape(brand["name"])}</div>']
     body.append(f'<h1 class="page">{html.escape(brand["name"])} <span style="color:var(--muted);font-size:1rem;font-weight:400">{html.escape(brand.get("brand_zh",""))}</span></h1>')
     body.append('<table class="meta-table">')
     for label, key in [("出品", "country"), ("年代", "era"), ("原創作者", "creator"), ("原發行商", "original_publisher"),
@@ -256,7 +254,7 @@ def page_brand_index(brand):
 
 def page_character(brand, c):
     slug = c["slug"]
-    body = [f'<div class="wrap"><div class="breadcrumb"><a href="index.html">全部品牌</a> › <a href="index.html">{html.escape(brand["name"])}</a> › {html.escape(c["name"])}</div>']
+    body = [f'<div class="wrap"><div class="breadcrumb"><a href="../../index.html">全部品牌</a> › <a href="index.html">{html.escape(brand["name"])}</a> › {html.escape(c["name"])}</div>']
     body.append(f'<h1 class="page">{html.escape(c["name"])} <span style="color:var(--muted);font-size:1rem;font-weight:400">{html.escape(c.get("character_zh",""))}</span></h1>')
     # 角色圖片 + 來源
     # 角色頁面圖像：先睇角色 slug，冇就 fallback 到品牌 slug
@@ -466,7 +464,7 @@ def build():
     for slug, b in brands.items():
         bdir = OUT / "brands" / slug
         bdir.mkdir(parents=True, exist_ok=True)
-        htmlout = header(f'{b["name"]}', active_brand=slug) + page_brand_index(b) + PAGE_FOOT
+        htmlout = header(f'{b["name"]}', active_brand=slug, prefix="../../") + page_brand_index(b) + PAGE_FOOT
         (bdir / "index.html").write_text(htmlout, encoding="utf-8")
         for c in characters.get(slug, []):
             ld = {
@@ -481,7 +479,7 @@ def build():
             if main_img and main_img.get("file"):
                 ld["image"] = f"../../assets/img/{main_img['file']}"
             (bdir / f'{c["slug"]}.html').write_text(
-                header(f'{c["name"]}', active_brand=slug, jsonld=ld)
+                header(f'{c["name"]}', active_brand=slug, jsonld=ld, prefix="../../")
                 + page_character(b, c) + PAGE_FOOT, encoding="utf-8")
     (OUT / ".nojekyll").touch()
     (OUT / "assets").mkdir(exist_ok=True)
