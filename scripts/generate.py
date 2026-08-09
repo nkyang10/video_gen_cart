@@ -121,6 +121,14 @@ a { color: var(--forest); }
 .support-body .sup-label { color: var(--terracotta); font-weight: 700; font-size: .8rem; letter-spacing: .03em; margin-top: 10px; text-transform: uppercase; }
 .support-body blockquote { font-size: .9rem; }
 .support-hint { color: var(--muted); font-size: .85rem; margin-top: 6px; }
+/* 參考圖庫（動畫用多角度） */
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-top: 18px; }
+.gallery figure { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 0; }
+.gallery figure img { width: 100%; height: 170px; object-fit: cover; display: block; background: #fff; }
+.gallery figcaption { padding: 8px 12px; font-size: .82rem; color: var(--ink); }
+.gallery figcaption .g-angle { font-weight: 700; color: var(--forest); }
+.gallery figcaption .g-meta { color: var(--muted); font-size: .72rem; margin-top: 3px; }
+.gallery-hint { color: var(--muted); font-size: .85rem; margin-top: 8px; }
 """
 
 PAGE_FOOT = f"""\
@@ -139,6 +147,13 @@ _manifest_path = ROOT / "docs" / "assets" / "image_manifest.json"
 if _manifest_path.exists():
     import json as _json
     IMAGES = _json.loads(_manifest_path.read_text(encoding="utf-8"))
+
+# 參考圖庫 manifest（fetch_gallery.py 生成）— slug -> [ {file, angle, scene, license, ...} ]
+GALLERY = {}
+_gallery_path = ROOT / "docs" / "assets" / "gallery_manifest.json"
+if _gallery_path.exists():
+    import json as _json
+    GALLERY = _json.loads(_gallery_path.read_text(encoding="utf-8"))
 
 def strip_leading_h1(text):
     """移除內容檔最頂嘅 '#' 標題（因為頁面標題已顯示品牌/角色名）。"""
@@ -263,6 +278,25 @@ def page_character(brand, c):
     if c.get("trademark"): body.append(f'<li><b>Trademark</b>：{html.escape(str(c["trademark"]))}</li>')
     if c.get("verified"): body.append(f'<li><b>核實日期</b>：{html.escape(str(c["verified"]))}</li>')
     body.append('</ul></div></div>')
+    # 參考圖庫（動畫用多角度）
+    gallery_items = GALLERY.get(c.get("slug")) or GALLERY.get(brand["slug"]) or []
+    if gallery_items:
+        body.append('<div class="wrap">')
+        body.append(f'<h2>參考圖庫 <span style="font-size:.85rem;color:var(--muted);font-weight:400">({len(gallery_items)} 張，動畫參考用)</span></h2>')
+        body.append('<div class="gallery">')
+        for g in gallery_items:
+            lic = html.escape(g.get("license",""))
+            src = "Wikimedia" if g.get("source")=="commons" else "Openverse"
+            body.append(f'''<figure>
+              <img src="../../assets/gallery/{html.escape(g.get("file",""))}" alt="{html.escape(g.get("title",""))}" loading="lazy">
+              <figcaption>
+                <span class="g-angle">{html.escape(g.get("angle","") or g.get("scene",""))}</span> · {html.escape(g.get("scene",""))}
+                <div class="g-meta">🪪 {lic} · 來源 {src}</div>
+              </figcaption>
+            </figure>''')
+        body.append('</div>')
+        body.append('<div class="gallery-hint">💡 參考圖庫 = 角色嘅多角度/多場景參考圖，方便你喺 AI 動畫製作時保持造型一致。</div>')
+        body.append('</div>')
     body.append('<div class="wrap">' + render_md(strip_leading_h1(c["content"])) + '</div>')
     return "".join(body)
 

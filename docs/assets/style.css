@@ -104,3 +104,11 @@ a { color: var(--forest); }
 .support-body .sup-label { color: var(--terracotta); font-weight: 700; font-size: .8rem; letter-spacing: .03em; margin-top: 10px; text-transform: uppercase; }
 .support-body blockquote { font-size: .9rem; }
 .support-hint { color: var(--muted); font-size: .85rem; margin-top: 6px; }
+/* 參考圖庫（動畫用多角度） */
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-top: 18px; }
+.gallery figure { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 0; }
+.gallery figure img { width: 100%; height: 170px; object-fit: cover; display: block; background: #fff; }
+.gallery figcaption { padding: 8px 12px; font-size: .82rem; color: var(--ink); }
+.gallery figcaption .g-angle { font-weight: 700; color: var(--forest); }
+.gallery figcaption .g-meta { color: var(--muted); font-size: .72rem; margin-top: 3px; }
+.gallery-hint { color: var(--muted); font-size: .85rem; margin-top: 8px; }
