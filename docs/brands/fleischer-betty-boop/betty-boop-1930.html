@@ -1,0 +1,125 @@
+<!DOCTYPE html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Betty Boop (1930 original version) — Video Gen Cart</title>
+<style>:root {
+  --paper: #f7f4ef;
+  --ink: #2b2b28;
+  --muted: #6b6a63;
+  --forest: #3e5c4b;
+  --terracotta: #c05f3c;
+  --border: #e2dcd0;
+  --card: #ffffff;
+  --tag-bg: #efe9dd;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+               "PingFang TC", "Microsoft JhengHei", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  padding-bottom: 60px;
+}
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 22px; }
+header.site {
+  border-bottom: 1px solid var(--border);
+  padding: 26px 0 18px;
+  margin-bottom: 30px;
+  background: #fffdf9;
+}
+header.site .wrap { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+header.site h1 { font-size: 1.5rem; letter-spacing: 0.02em; }
+header.site h1 a { color: var(--ink); text-decoration: none; }
+header.site h1 span { color: var(--terracotta); }
+header.site .sub { color: var(--muted); font-size: 0.85rem; }
+nav.brand-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 6px; }
+nav.brand-tabs a {
+  padding: 6px 14px; border-radius: 8px; border: 1px solid var(--border);
+  background: #fff; color: var(--ink); text-decoration: none; font-size: 0.9rem;
+}
+nav.brand-tabs a:hover { border-color: var(--forest); }
+nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+.breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
+.breadcrumb a { color: var(--forest); text-decoration: none; }
+h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }
+h2 { font-family: "Noto Serif TC", Georgia, serif; color: var(--forest);
+     font-size: 1.25rem; margin: 34px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+h3 { color: var(--ink); font-size: 1.05rem; margin: 20px 0 8px; }
+p { margin: 8px 0; }
+ul, ol { margin: 8px 0 8px 24px; }
+li { margin: 4px 0; }
+blockquote { border-left: 3px solid var(--terracotta); background: #fffdf9;
+             padding: 8px 14px; margin: 10px 0; color: var(--ink); border-radius: 0 6px 6px 0; }
+a { color: var(--forest); }
+.meta-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.92rem; }
+.meta-table td { padding: 7px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.meta-table td:first-child { width: 34%; color: var(--muted); font-weight: 600; }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+.badge.pd { background: #dcebdd; color: #2c5e3a; }
+.badge.partial { background: #f5e8d3; color: #8a5a1e; }
+.badge.verify { background: #f4dcd9; color: #963a2e; }
+.character-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 18px; }
+.character-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 16px; text-decoration: none; color: var(--ink); display: block;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.character-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.character-card .name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1.05rem; }
+.character-card .zh { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
+.character-card .desc { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+.character-card .badge { margin-top: 10px; }
+.copyright-box { background: #f2efea; border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
+.copyright-box h3 { color: var(--terracotta); margin-top: 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: .04em; }
+.copyright-box ul { margin-left: 20px; }
+.footer-note { color: var(--muted); font-size: 0.8rem; margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--border); }
+.hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 26px; margin-bottom: 28px; }
+.hero h2 { border: none; margin-top: 0; font-size: 1.5rem; }
+.hero p { color: var(--muted); max-width: 70ch; }
+.stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
+.stat { font-size: 0.9rem; }
+.stat b { color: var(--forest); font-size: 1.2rem; }
+</style></head><body>
+<header class="site"><div class="wrap">
+  <h1><a href="index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
+  <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
+</div><nav class="brand-tabs"><a href="../index.html" class="">Disney Silent Era (Mickey &amp; Friends)</a><a href="../index.html" class="">Felix the Cat</a><a href="../index.html" class="active">Fleischer Studios (Betty Boop)</a><a href="../index.html" class="">Oswald the Lucky Rabbit</a><a href="../index.html" class="">Popeye</a><a href="../index.html" class="">Winnie-the-Pooh (Original Book)</a></nav></header>
+<div class="wrap"><div class="breadcrumb"><a href="index.html">全部品牌</a> › <a href="index.html">Fleischer Studios (Betty Boop)</a> › Betty Boop (1930 original version)</div><h1 class="page">Betty Boop (1930 original version) <span style="color:var(--muted);font-size:1rem;font-weight:400">Betty Boop（1930 原始版）</span></h1></div><div class="wrap"><div class="copyright-box"><h3>⚖️ 版權狀態</h3><ul><li><b>公版</b>：✔️ 屬公版（管轄區：US）</li><li><b>公版版本</b>：1930 年《Dizzy Dishes》及其他 1930 早期短片嘅狗女版本</li><li><b>受保護部分</b>：1931 年之後發展嘅完整角色、1932 年「人類少女」形象、現代版</li><li><b>Trademark</b>：「Betty Boop」名稱及相關角色設計受商標保護</li><li><b>核實日期</b>：2026-08-09</li></ul></div></div><div class="wrap"><h2>出處</h2>
+<p>1930 年《Dizzy Dishes》首次登場。最初 Betty Boop <strong>係一隻狗女</strong>（有長狗耳、黑鼻），做餐廳侍應。1932 年佢先完全演變成今日熟悉嘅「人類少女」形象。</p>
+<h2>版權狀態</h2>
+<ul>
+<li><strong>公版</strong>：✔️（僅限 1930 年狗女版本）</li>
+<li><strong>公版版本</strong>：1930 年《Dizzy Dishes》入面、有狗耳黑鼻嘅侍應狗女</li>
+<li><strong>受保護部分</strong>：1931-32 年之後演變出嚟嘅完整人類 Betty Boop、現代版</li>
+<li><strong>Trademark</strong>：商標保護「Betty Boop」名稱同設計；新創作唔令人混淆來源即可</li>
+<li><strong>核實</strong>：2026-08-09 · 依據：Duke CSPD Public Domain Day 2026 / Copyright Lately / CBS News</li>
+</ul>
+<h2>性格 / 人設</h2>
+<ul>
+<li>活潑、可愛、有啲傻氣</li>
+<li>早期形象天真搞笑（唔係之後嘅性感歌女形象）</li>
+<li>默片時代靠動作同音樂</li>
+</ul>
+<h2>外觀描述（AI 圖片 Prompt 用）</h2>
+<p>1930 年黑白卡通狗女，長狗耳、圓黑鼻、大眼睛、短髮，穿侍應裙裝喺餐廳場景。Fleischer 默片風格，黑白或淡彩。</p>
+<p><strong>Prompt 示例</strong>：<code>1930 vintage cartoon dog-girl waitress, long floppy dog ears, round black nose, big eyes, short dark hair, waitress dress, 1930s Fleischer style, sepia tone</code></p>
+<h2>經典對口 / 口頭禪</h2>
+<blockquote>
+<p>（早期版本口頭禪以音樂同動作為主；「Boop-oop-a-doop」等特色要到 1931-32 先出現——嗰部分受保護）</p>
+</blockquote>
+<h2>場景 / 設定</h2>
+<ul>
+<li>餐廳／咖啡館侍應</li>
+<li>城市夜生活、爵士年代（Jazz Age）背景</li>
+<li>1930 年代初紐約</li>
+</ul>
+<h2>AI 創意用法</h2>
+<ul>
+<li>復古爵士年代風格創作</li>
+<li>黑白默片式餐廳喜劇</li>
+<li><strong>注意</strong>：只用 1930「狗女」形象，唔好用 1932 之後嘅人類少女、唔好用後期歌女打扮（受保護）</li>
+</ul></div><div class="wrap">
+  <div class="footer-note">
+    Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
+  </div>
+</div>

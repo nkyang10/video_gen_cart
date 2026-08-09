@@ -1,0 +1,124 @@
+<!DOCTYPE html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pluto / Rover (1930 version) — Video Gen Cart</title>
+<style>:root {
+  --paper: #f7f4ef;
+  --ink: #2b2b28;
+  --muted: #6b6a63;
+  --forest: #3e5c4b;
+  --terracotta: #c05f3c;
+  --border: #e2dcd0;
+  --card: #ffffff;
+  --tag-bg: #efe9dd;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+               "PingFang TC", "Microsoft JhengHei", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  padding-bottom: 60px;
+}
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 22px; }
+header.site {
+  border-bottom: 1px solid var(--border);
+  padding: 26px 0 18px;
+  margin-bottom: 30px;
+  background: #fffdf9;
+}
+header.site .wrap { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+header.site h1 { font-size: 1.5rem; letter-spacing: 0.02em; }
+header.site h1 a { color: var(--ink); text-decoration: none; }
+header.site h1 span { color: var(--terracotta); }
+header.site .sub { color: var(--muted); font-size: 0.85rem; }
+nav.brand-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 6px; }
+nav.brand-tabs a {
+  padding: 6px 14px; border-radius: 8px; border: 1px solid var(--border);
+  background: #fff; color: var(--ink); text-decoration: none; font-size: 0.9rem;
+}
+nav.brand-tabs a:hover { border-color: var(--forest); }
+nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+.breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
+.breadcrumb a { color: var(--forest); text-decoration: none; }
+h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }
+h2 { font-family: "Noto Serif TC", Georgia, serif; color: var(--forest);
+     font-size: 1.25rem; margin: 34px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+h3 { color: var(--ink); font-size: 1.05rem; margin: 20px 0 8px; }
+p { margin: 8px 0; }
+ul, ol { margin: 8px 0 8px 24px; }
+li { margin: 4px 0; }
+blockquote { border-left: 3px solid var(--terracotta); background: #fffdf9;
+             padding: 8px 14px; margin: 10px 0; color: var(--ink); border-radius: 0 6px 6px 0; }
+a { color: var(--forest); }
+.meta-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.92rem; }
+.meta-table td { padding: 7px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.meta-table td:first-child { width: 34%; color: var(--muted); font-weight: 600; }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+.badge.pd { background: #dcebdd; color: #2c5e3a; }
+.badge.partial { background: #f5e8d3; color: #8a5a1e; }
+.badge.verify { background: #f4dcd9; color: #963a2e; }
+.character-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 18px; }
+.character-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 16px; text-decoration: none; color: var(--ink); display: block;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.character-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.character-card .name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1.05rem; }
+.character-card .zh { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
+.character-card .desc { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+.character-card .badge { margin-top: 10px; }
+.copyright-box { background: #f2efea; border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
+.copyright-box h3 { color: var(--terracotta); margin-top: 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: .04em; }
+.copyright-box ul { margin-left: 20px; }
+.footer-note { color: var(--muted); font-size: 0.8rem; margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--border); }
+.hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 26px; margin-bottom: 28px; }
+.hero h2 { border: none; margin-top: 0; font-size: 1.5rem; }
+.hero p { color: var(--muted); max-width: 70ch; }
+.stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
+.stat { font-size: 0.9rem; }
+.stat b { color: var(--forest); font-size: 1.2rem; }
+</style></head><body>
+<header class="site"><div class="wrap">
+  <h1><a href="index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
+  <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
+</div><nav class="brand-tabs"><a href="../index.html" class="active">Disney Silent Era (Mickey &amp; Friends)</a><a href="../index.html" class="">Felix the Cat</a><a href="../index.html" class="">Fleischer Studios (Betty Boop)</a><a href="../index.html" class="">Oswald the Lucky Rabbit</a><a href="../index.html" class="">Popeye</a><a href="../index.html" class="">Winnie-the-Pooh (Original Book)</a></nav></header>
+<div class="wrap"><div class="breadcrumb"><a href="index.html">全部品牌</a> › <a href="index.html">Disney Silent Era (Mickey &amp; Friends)</a> › Pluto / Rover (1930 version)</div><h1 class="page">Pluto / Rover (1930 version) <span style="color:var(--muted);font-size:1rem;font-weight:400">布魯托／Rover（1930 版）</span></h1></div><div class="wrap"><div class="copyright-box"><h3>⚖️ 版權狀態</h3><ul><li><b>公版</b>：✔️ 屬公版（管轄區：US）</li><li><b>公版版本</b>：1930 年最早出現嘅版本（當時叫 Rover）</li><li><b>受保護部分</b>：1931 年正式改名 Pluto 之後嘅演變、現代形象</li><li><b>Trademark</b>：「Pluto」名稱及現代形象商標有效（1930 嘅 Rover 屬公版）</li><li><b>核實日期</b>：2026-08-09</li></ul></div></div><div class="wrap"><h2>出處</h2>
+<p>1930 年《The Chain Gang》首次出現，當時叫 <strong>Rover</strong>，係一隻追住米奇嘅狗；同年《The Picnic》亦有出場。翌年（1931）先正式改名做 <strong>Pluto</strong>，成為米奇嘅寵物狗。</p>
+<h2>版權狀態</h2>
+<ul>
+<li><strong>公版</strong>：✔️（僅限 1930 年 Rover 版本）</li>
+<li><strong>公版版本</strong>：1930 年黑白默片入面、仲未叫 Pluto 嘅狗</li>
+<li><strong>受保護部分</strong>：1931 年改名 Pluto 之後嘅演變、現代形象</li>
+<li><strong>Trademark</strong>：「Pluto」名稱商標有效</li>
+<li><strong>核實</strong>：2026-08-09 · 依據：USA Today / PBS News（2026 年公版）</li>
+</ul>
+<h2>性格 / 人設</h2>
+<ul>
+<li>忠誠、貪食、有啲傻更更</li>
+<li>對骨頭同食物冇抵抗力</li>
+<li>動作誇張搞笑</li>
+</ul>
+<h2>外觀描述（AI 圖片 Prompt 用）</h2>
+<p>黑白卡通狗，長身、長耳下垂、黑鼻、身形似臘腸犬／尋血獵犬。1930 默片黑白風格。</p>
+<p><strong>Prompt 示例</strong>：<code>1930 black-and-white silent cartoon dog, long body, droopy ears, black nose, bloodhound-like, chasing a bone, vintage animation cel, grayscale</code></p>
+<h2>經典對白 / 口頭禪</h2>
+<blockquote>
+<p>（狗，無對白；用叫聲同動作表達）</p>
+</blockquote>
+<h2>場景 / 設定</h2>
+<ul>
+<li>追逐、食嘢、同米奇互動</li>
+<li>1920-30 年代美國</li>
+</ul>
+<h2>AI 創意用法</h2>
+<ul>
+<li>搞笑寵物冒險</li>
+<li>默片式追逐喜劇</li>
+<li><strong>注意</strong>：只用 1930 Rover 形象，避免現代 Pluto 特徵（紅色頸圈等）</li>
+</ul></div><div class="wrap">
+  <div class="footer-note">
+    Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
+  </div>
+</div>

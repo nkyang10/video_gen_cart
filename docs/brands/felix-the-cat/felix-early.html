@@ -1,0 +1,126 @@
+<!DOCTYPE html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Felix the Cat (early version) — Video Gen Cart</title>
+<style>:root {
+  --paper: #f7f4ef;
+  --ink: #2b2b28;
+  --muted: #6b6a63;
+  --forest: #3e5c4b;
+  --terracotta: #c05f3c;
+  --border: #e2dcd0;
+  --card: #ffffff;
+  --tag-bg: #efe9dd;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+               "PingFang TC", "Microsoft JhengHei", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  padding-bottom: 60px;
+}
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 22px; }
+header.site {
+  border-bottom: 1px solid var(--border);
+  padding: 26px 0 18px;
+  margin-bottom: 30px;
+  background: #fffdf9;
+}
+header.site .wrap { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+header.site h1 { font-size: 1.5rem; letter-spacing: 0.02em; }
+header.site h1 a { color: var(--ink); text-decoration: none; }
+header.site h1 span { color: var(--terracotta); }
+header.site .sub { color: var(--muted); font-size: 0.85rem; }
+nav.brand-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 6px; }
+nav.brand-tabs a {
+  padding: 6px 14px; border-radius: 8px; border: 1px solid var(--border);
+  background: #fff; color: var(--ink); text-decoration: none; font-size: 0.9rem;
+}
+nav.brand-tabs a:hover { border-color: var(--forest); }
+nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+.breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
+.breadcrumb a { color: var(--forest); text-decoration: none; }
+h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }
+h2 { font-family: "Noto Serif TC", Georgia, serif; color: var(--forest);
+     font-size: 1.25rem; margin: 34px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+h3 { color: var(--ink); font-size: 1.05rem; margin: 20px 0 8px; }
+p { margin: 8px 0; }
+ul, ol { margin: 8px 0 8px 24px; }
+li { margin: 4px 0; }
+blockquote { border-left: 3px solid var(--terracotta); background: #fffdf9;
+             padding: 8px 14px; margin: 10px 0; color: var(--ink); border-radius: 0 6px 6px 0; }
+a { color: var(--forest); }
+.meta-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.92rem; }
+.meta-table td { padding: 7px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.meta-table td:first-child { width: 34%; color: var(--muted); font-weight: 600; }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+.badge.pd { background: #dcebdd; color: #2c5e3a; }
+.badge.partial { background: #f5e8d3; color: #8a5a1e; }
+.badge.verify { background: #f4dcd9; color: #963a2e; }
+.character-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 18px; }
+.character-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 16px; text-decoration: none; color: var(--ink); display: block;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.character-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.character-card .name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1.05rem; }
+.character-card .zh { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
+.character-card .desc { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+.character-card .badge { margin-top: 10px; }
+.copyright-box { background: #f2efea; border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
+.copyright-box h3 { color: var(--terracotta); margin-top: 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: .04em; }
+.copyright-box ul { margin-left: 20px; }
+.footer-note { color: var(--muted); font-size: 0.8rem; margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--border); }
+.hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 26px; margin-bottom: 28px; }
+.hero h2 { border: none; margin-top: 0; font-size: 1.5rem; }
+.hero p { color: var(--muted); max-width: 70ch; }
+.stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
+.stat { font-size: 0.9rem; }
+.stat b { color: var(--forest); font-size: 1.2rem; }
+</style></head><body>
+<header class="site"><div class="wrap">
+  <h1><a href="index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
+  <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
+</div><nav class="brand-tabs"><a href="../index.html" class="">Disney Silent Era (Mickey &amp; Friends)</a><a href="../index.html" class="active">Felix the Cat</a><a href="../index.html" class="">Fleischer Studios (Betty Boop)</a><a href="../index.html" class="">Oswald the Lucky Rabbit</a><a href="../index.html" class="">Popeye</a><a href="../index.html" class="">Winnie-the-Pooh (Original Book)</a></nav></header>
+<div class="wrap"><div class="breadcrumb"><a href="index.html">全部品牌</a> › <a href="index.html">Felix the Cat</a> › Felix the Cat (early version)</div><h1 class="page">Felix the Cat (early version) <span style="color:var(--muted);font-size:1rem;font-weight:400">菲力貓（早期版）</span></h1></div><div class="wrap"><div class="copyright-box"><h3>⚖️ 版權狀態</h3><ul><li><b>公版</b>：✔️ 屬公版（管轄區：US）</li><li><b>公版版本</b>：1919-1920 年代早期黑白動畫版本</li><li><b>受保護部分</b>：後期 Oriolo 工作室創作嘅新內容、電視版本</li><li><b>Trademark</b>：「Felix the Cat」個名受商標保護（DreamWorks/NBCUniversal 持有）</li><li><b>核實日期</b>：2026-08-09</li></ul></div></div><div class="wrap"><h2>出處</h2>
+<p>1919 年 11 月 9 日《Feline Follies》首次登場，由 Pat Sullivan 出品、Otto Messmer 繪製。係默片時代最紅嘅動畫貓，憑住魔術、問號、魔法袋等元素成為文化 icon。</p>
+<h2>版權狀態</h2>
+<ul>
+<li><strong>公版</strong>：✔️（僅限早期黑白版本）</li>
+<li><strong>公版版本</strong>：1919-20 年代黑白默片入面嘅 Felix</li>
+<li><strong>受保護部分</strong>：後期 Oriolo 工作室嘅新內容、電視動畫版本</li>
+<li><strong>Trademark</strong>：「Felix the Cat」個名受商標保護；魔法袋設定屬公版（因首次出現無續期）</li>
+<li><strong>核實</strong>：2026-08-09 · 依據：Wikipedia / Trademarkia / pdsh.fandom</li>
+</ul>
+<h2>性格 / 人設</h2>
+<ul>
+<li>聰明機靈、調皮搞怪</li>
+<li>靠魔法袋變出任何工具解決問題</li>
+<li>好奇心重，思考時頭上有問號</li>
+<li>獨立、自信</li>
+</ul>
+<h2>外觀描述（AI 圖片 Prompt 用）</h2>
+<p>黑白默片卡通貓，全身黑色，白色圓眼同嘴，大圓耳、長尾，面帶得意笑容。拎住一個小魔法袋。1919-20 年代默片風格。</p>
+<p><strong>Prompt 示例</strong>：<code>1919 silent cartoon black cat, all black body, big white circular eyes, white mouth, big round ears, long tail, sly smile, holding a small magic bag, vintage black and white animation</code></p>
+<h2>經典對白 / 口頭禪</h2>
+<blockquote>
+<p>（默片角色，主要以動作同口哨表達；「Felix」個名受商標保護，創作時考慮用其他名）</p>
+</blockquote>
+<h2>場景 / 設定</h2>
+<ul>
+<li>城市街頭、屋企</li>
+<li>奇幻冒險，靠魔法袋解決問題</li>
+<li>1920 年代美國</li>
+</ul>
+<h2>AI 創意用法</h2>
+<ul>
+<li>魔術貓冒險</li>
+<li>用魔法袋變出道具解決問題嘅解謎喜劇</li>
+<li><strong>注意</strong>：魔法袋設定屬公版可自由用；但「Felix the Cat」名受商標保護，做商業創作時避免直接用個名</li>
+</ul></div><div class="wrap">
+  <div class="footer-note">
+    Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
+  </div>
+</div>
