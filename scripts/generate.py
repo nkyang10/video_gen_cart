@@ -272,7 +272,11 @@ def page_character(brand, c):
     body.append('</div>')
     # copyright box
     body.append('<div class="wrap"><div class="copyright-box"><h3>⚖️ 版權狀態</h3><ul>')
-    body.append(f'<li><b>公版</b>：{"✔️ 屬公版" if c.get("public_domain") else "❌ 唔屬公版"}（管轄區：{html.escape(str(c.get("public_domain_jurisdiction","US")))}）</li>')
+    lic_type = c.get("license_type", "pd" if c.get("public_domain") else "unknown")
+    if lic_type == "cc":
+        body.append(f'<li><b>授權</b>：✔️ 自由授權（{html.escape(str(c.get("license", "CC")))}）— 可自由使用，需遵守授權條款</li>')
+    else:
+        body.append(f'<li><b>公版</b>：{"✔️ 屬公版" if c.get("public_domain") else "❌ 唔屬公版"}（管轄區：{html.escape(str(c.get("public_domain_jurisdiction","US")))}）</li>')
     if c.get("public_domain_version"): body.append(f'<li><b>公版版本</b>：{html.escape(str(c["public_domain_version"]))}</li>')
     if c.get("protected_portion"): body.append(f'<li><b>受保護部分</b>：{html.escape(str(c["protected_portion"]))}</li>')
     if c.get("trademark"): body.append(f'<li><b>Trademark</b>：{html.escape(str(c["trademark"]))}</li>')

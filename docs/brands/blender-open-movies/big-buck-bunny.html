@@ -1,0 +1,216 @@
+<!DOCTYPE html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Big Buck Bunny — Video Gen Cart</title>
+<style>:root {
+  --paper: #f7f4ef;
+  --ink: #2b2b28;
+  --muted: #6b6a63;
+  --forest: #3e5c4b;
+  --terracotta: #c05f3c;
+  --border: #e2dcd0;
+  --card: #ffffff;
+  --tag-bg: #efe9dd;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+               "PingFang TC", "Microsoft JhengHei", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  padding-bottom: 60px;
+}
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 22px; }
+header.site {
+  border-bottom: 1px solid var(--border);
+  padding: 26px 0 18px;
+  margin-bottom: 30px;
+  background: #fffdf9;
+}
+header.site .wrap { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+header.site h1 { font-size: 1.5rem; letter-spacing: 0.02em; }
+header.site h1 a { color: var(--ink); text-decoration: none; }
+header.site h1 span { color: var(--terracotta); }
+header.site .sub { color: var(--muted); font-size: 0.85rem; }
+nav.brand-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 6px; }
+nav.brand-tabs a {
+  padding: 6px 14px; border-radius: 8px; border: 1px solid var(--border);
+  background: #fff; color: var(--ink); text-decoration: none; font-size: 0.9rem;
+}
+nav.brand-tabs a:hover { border-color: var(--forest); }
+nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+.breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
+.breadcrumb a { color: var(--forest); text-decoration: none; }
+h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }
+h2 { font-family: "Noto Serif TC", Georgia, serif; color: var(--forest);
+     font-size: 1.25rem; margin: 34px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+h3 { color: var(--ink); font-size: 1.05rem; margin: 20px 0 8px; }
+p { margin: 8px 0; }
+ul, ol { margin: 8px 0 8px 24px; }
+li { margin: 4px 0; }
+blockquote { border-left: 3px solid var(--terracotta); background: #fffdf9;
+             padding: 8px 14px; margin: 10px 0; color: var(--ink); border-radius: 0 6px 6px 0; }
+a { color: var(--forest); }
+.meta-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.92rem; }
+.meta-table td { padding: 7px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.meta-table td:first-child { width: 34%; color: var(--muted); font-weight: 600; }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+.badge.pd { background: #dcebdd; color: #2c5e3a; }
+.badge.partial { background: #f5e8d3; color: #8a5a1e; }
+.badge.verify { background: #f4dcd9; color: #963a2e; }
+.character-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 18px; }
+.character-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 16px; text-decoration: none; color: var(--ink); display: block;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.character-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.character-card .name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1.05rem; }
+.character-card .thumb { width: 100%; height: 120px; overflow: hidden; border-radius: 8px; margin-bottom: 10px; background: #eee7db; }
+.character-card .thumb img { width: 100%; height: 100%; object-fit: cover; }
+.character-card .zh { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
+.character-card .desc { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+.character-card .badge { margin-top: 10px; }
+.copyright-box { background: #f2efea; border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
+.copyright-box h3 { color: var(--terracotta); margin-top: 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: .04em; }
+.copyright-box ul { margin-left: 20px; }
+.char-hero { display: flex; gap: 22px; align-items: flex-start; margin-bottom: 24px; flex-wrap: wrap; }
+.char-hero img { width: 280px; max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--border); background:#fff; }
+.char-hero .captions { flex: 1; min-width: 220px; font-size: 0.85rem; color: var(--muted); }
+.char-hero .captions p { margin: 4px 0; }
+.img-credit { font-size: 0.75rem; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+.img-credit a { color: var(--forest); }
+.footer-note { color: var(--muted); font-size: 0.8rem; margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--border); }
+.hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 26px; margin-bottom: 28px; }
+.hero h2 { border: none; margin-top: 0; font-size: 1.5rem; }
+.hero p { color: var(--muted); max-width: 70ch; }
+.stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
+.stat { font-size: 0.9rem; }
+.stat b { color: var(--forest); font-size: 1.2rem; }
+/* 配角 / 路人互動面板 */
+.support-panel { margin-top: 22px; display: grid; gap: 10px; }
+.support-item { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.support-item summary {
+  cursor: pointer; padding: 13px 18px; list-style: none; display: flex; align-items: center; gap: 12px;
+  font-weight: 600; color: var(--ink); transition: background .12s ease; user-select: none;
+}
+.support-item summary::-webkit-details-marker { display: none; }
+.support-item summary:hover { background: #f3efe6; }
+.support-item summary .caret { color: var(--terracotta); transition: transform .18s ease; margin-left: auto; }
+.support-item[open] summary .caret { transform: rotate(90deg); }
+.support-item summary .sup-name { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.05rem; }
+.support-item summary .sup-type { font-size: .72rem; color: var(--forest); background: var(--tag-bg); padding: 2px 10px; border-radius: 20px; font-weight: 600; }
+.support-item summary .sup-zh { color: var(--muted); font-size: .85rem; font-weight: 400; }
+.support-body { padding: 4px 18px 16px; border-top: 1px solid var(--tag-bg); }
+.support-body .sup-relation { margin: 10px 0 4px; color: var(--forest); font-size: .88rem; font-weight: 600; }
+.support-body p, .support-body ul { font-size: .92rem; margin: 6px 0; }
+.support-body .sup-label { color: var(--terracotta); font-weight: 700; font-size: .8rem; letter-spacing: .03em; margin-top: 10px; text-transform: uppercase; }
+.support-body blockquote { font-size: .9rem; }
+.support-hint { color: var(--muted); font-size: .85rem; margin-top: 6px; }
+/* 參考圖庫（動畫用多角度） */
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-top: 18px; }
+.gallery figure { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 0; }
+.gallery figure img { width: 100%; height: 170px; object-fit: cover; display: block; background: #fff; }
+.gallery figcaption { padding: 8px 12px; font-size: .82rem; color: var(--ink); }
+.gallery figcaption .g-angle { font-weight: 700; color: var(--forest); }
+.gallery figcaption .g-meta { color: var(--muted); font-size: .72rem; margin-top: 3px; }
+.gallery-hint { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+</style></head><body>
+<header class="site"><div class="wrap">
+  <h1><a href="index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
+  <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
+</div><nav class="brand-tabs"><a href="../index.html" class="">Barney Google</a><a href="../index.html" class="active">Blender Open Movies</a><a href="../index.html" class="">Bringing Up Father</a><a href="../index.html" class="">Buck Rogers</a><a href="../index.html" class="">Buster Brown</a><a href="../index.html" class="">CC0 Original Characters</a><a href="../index.html" class="">Disney Silent Era (Mickey &amp; Friends)</a><a href="../index.html" class="">Felix the Cat</a><a href="../index.html" class="">Fleischer Studios (Betty Boop)</a><a href="../index.html" class="">Happy Hooligan</a><a href="../index.html" class="">Krazy Kat</a><a href="../index.html" class="">Little Nemo in Slumberland</a><a href="../index.html" class="">Mutt and Jeff</a><a href="../index.html" class="">Olive Oyl (Thimble Theatre)</a><a href="../index.html" class="">Oswald the Lucky Rabbit</a><a href="../index.html" class="">Polly and Her Pals</a><a href="../index.html" class="">Popeye</a><a href="../index.html" class="">Skippy</a><a href="../index.html" class="">The Gumps</a><a href="../index.html" class="">The Katzenjammer Kids</a><a href="../index.html" class="">The Yellow Kid</a><a href="../index.html" class="">Winnie-the-Pooh (Original Book)</a></nav></header>
+<div class="wrap"><div class="breadcrumb"><a href="index.html">全部品牌</a> › <a href="index.html">Blender Open Movies</a> › Big Buck Bunny</div><h1 class="page">Big Buck Bunny <span style="color:var(--muted);font-size:1rem;font-weight:400">大公雞兔（Big Buck Bunny）</span></h1><div class="char-hero"><img src="../../assets/img/big-buck-bunny.jpg" alt="Big Buck Bunny">
+        <div class="captions">
+          <p><b>Big.Buck.Bunny.-.Frank.Rinky.Gimera.png</b></p>
+          <p>License: <b>CC BY 3.0</b>（公版 ✔）</p>
+          <p>Artist: (c) Blender Foundation I &lt;a rel=&quot;nofollow&quot; class=&quot;external text&quot; href=&quot;http://ww</p>
+          <div class="img-credit">來源：<a href="https://upload.wikimedia.org/wikipedia/commons/2/2b/Big.Buck.Bunny.-.Frank.Rinky.Gimera.png?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original">Wikimedia Commons</a>
+           · <a href="https://creativecommons.org/licenses/by/3.0">License 詳情</a></div>
+        </div></div></div><div class="wrap"><div class="copyright-box"><h3>⚖️ 版權狀態</h3><ul><li><b>授權</b>：✔️ 自由授權（CC-BY 4.0）— 可自由使用，需遵守授權條款</li><li><b>公版版本</b>：無（CC-BY 授權）</li><li><b>受保護部分</b>：無（CC-BY 4.0 可自由使用，需署名）</li><li><b>Trademark</b>：無</li><li><b>核實日期</b>：2026-08-09</li></ul></div></div><div class="wrap"><h2>參考圖庫 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(8 張，動畫參考用)</span></h2><div class="gallery"><figure>
+              <img src="../../assets/gallery/big-buck-bunny-1.jpg" alt="File:Big.Buck.Bunny.-.Frank.Rinky.Gimera.png" loading="lazy">
+              <figcaption>
+                <span class="g-angle">大公雞兔</span> · 開放電影
+                <div class="g-meta">🪪 CC BY 3.0 · 來源 Wikimedia</div>
+              </figcaption>
+            </figure><figure>
+              <img src="../../assets/gallery/big-buck-bunny-2.jpg" alt="File:Big Buck Bunny - forest.jpg" loading="lazy">
+              <figcaption>
+                <span class="g-angle">大公雞兔</span> · 開放電影
+                <div class="g-meta">🪪 CC BY 3.0 · 來源 Wikimedia</div>
+              </figcaption>
+            </figure><figure>
+              <img src="../../assets/gallery/big-buck-bunny-3.jpg" alt="File:Big Buck Bunny thumbnail vlc.png" loading="lazy">
+              <figcaption>
+                <span class="g-angle">大公雞兔</span> · 開放電影
+                <div class="g-meta">🪪 CC BY 3.0 · 來源 Wikimedia</div>
+              </figcaption>
+            </figure><figure>
+              <img src="../../assets/gallery/big-buck-bunny-4.jpg" alt="Creative Commons BBB" loading="lazy">
+              <figcaption>
+                <span class="g-angle">大公雞兔</span> · 開放電影
+                <div class="g-meta">🪪 by · 來源 Openverse</div>
+              </figcaption>
+            </figure><figure>
+              <img src="../../assets/gallery/big-buck-bunny-5.jpg" alt="Ton Roosendaal 2008" loading="lazy">
+              <figcaption>
+                <span class="g-angle">大公雞兔</span> · 開放電影
+                <div class="g-meta">🪪 by · 來源 Openverse</div>
+              </figcaption>
+            </figure><figure>
+              <img src="../../assets/gallery/big-buck-bunny-6.jpg" alt="File:Bbb-splash.png" loading="lazy">
+              <figcaption>
+                <span class="g-angle">大公雞兔</span> · 角色
+                <div class="g-meta">🪪 CC BY 3.0 · 來源 Wikimedia</div>
+              </figcaption>
+            </figure><figure>
+              <img src="../../assets/gallery/big-buck-bunny-7.jpg" alt="File:Big Buck Bunny loves Creative Commons.png" loading="lazy">
+              <figcaption>
+                <span class="g-angle">大公雞兔</span> · 角色
+                <div class="g-meta">🪪 CC BY 2.0 · 來源 Wikimedia</div>
+              </figcaption>
+            </figure><figure>
+              <img src="../../assets/gallery/big-buck-bunny-8.jpg" alt="File:Bunny-bow.png" loading="lazy">
+              <figcaption>
+                <span class="g-angle">大公雞兔</span> · 角色
+                <div class="g-meta">🪪 CC BY 3.0 · 來源 Wikimedia</div>
+              </figcaption>
+            </figure></div><div class="gallery-hint">💡 參考圖庫 = 角色嘅多角度/多場景參考圖，方便你喺 AI 動畫製作時保持造型一致。</div></div><div class="wrap"><h2>出處</h2>
+<p>Blender Foundation 2008 年開放電影《Big Buck Bunny》主角。圓滾滾嘅巨大友善公兔，對比三位欺負佢嘅囂張齧齒類反派。<strong>授權 CC-BY 4.0</strong>。</p>
+<h2>版權狀態</h2>
+<ul>
+<li><strong>授權</strong>：CC-BY 4.0（Blender 開放電影）——可自由使用/改編/商用，需署名</li>
+<li><strong>受保護部分</strong>：無</li>
+<li><strong>Trademark</strong>：無</li>
+<li><strong>核實</strong>：2026-08-09</li>
+</ul>
+<h2>性格 / 人設</h2>
+<ul>
+<li>圓滾滾、粉白配色嘅巨大公兔</li>
+<li>溫和但被逼到反擊——「好人反擊」經典套路</li>
+<li>喜劇主角</li>
+</ul>
+<h2>外觀描述（AI 圖片 Prompt 用）</h2>
+<p>3D 動畫風格——巨大圓潤粉白公兔、友善表情、森林場景。</p>
+<p><strong>Prompt 示例</strong>：<br />
+<code>3D animated film style, a huge round friendly white and pink rabbit, gentle expression, in a sunny forest meadow, Big Buck Bunny open movie style, soft Pixar-like rendering</code></p>
+<h2>經典對白 / 口頭禪</h2>
+<blockquote>
+<p>（無對白，靠肢體喜劇）</p>
+</blockquote>
+<h2>場景 / 設定</h2>
+<ul>
+<li>森林草地</li>
+<li>對抗囂張反派</li>
+<li>好人反擊</li>
+</ul>
+<h2>AI 創意用法</h2>
+<ul>
+<li><strong>好人反擊</strong>：溫和主角被逼反擊</li>
+<li><strong>森林喜劇</strong>：巨型兔子日常</li>
+<li><strong>注意</strong>：CC-BY 4.0，商用需署名</li>
+</ul></div><div class="wrap">
+  <div class="footer-note">
+    Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
+  </div>
+</div>

@@ -240,5 +240,71 @@
     "width": 0,
     "height": 0,
     "file": "skippy.jpg"
+  },
+  "sintel": {
+    "file": "sintel.jpg",
+    "title": "File:Character Sintel-clothes-1b.png",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Deevad\" title=\"User:Deevad\">David Rev",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Character_Sintel-clothes-1b.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4988,
+    "height": 2491,
+    "pd": true
+  },
+  "big-buck-bunny": {
+    "file": "big-buck-bunny.jpg",
+    "title": "File:Big.Buck.Bunny.-.Frank.Rinky.Gimera.png",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "(c) Blender Foundation I <a rel=\"nofollow\" class=\"external text\" href=\"http://ww",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Big.Buck.Bunny.-.Frank.Rinky.Gimera.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1920,
+    "height": 1000,
+    "pd": true
+  },
+  "koro": {
+    "file": "koro.jpg",
+    "title": "File:Blender Foundation - Caminandes - Episode 2 - Gran Dillama - Cover thumbnail.png",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "Blender Foundation",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Blender_Foundation_-_Caminandes_-_Episode_2_-_Gran_Dillama_-_Cover_thumbnail.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1920,
+    "height": 1080,
+    "pd": true
+  },
+  "zora-snep": {
+    "file": "zora-snep.jpg",
+    "title": "File:Zora the Snep (fursona).png",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Cedelmwood",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Zora_the_Snep_%28fursona%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1416,
+    "height": 965,
+    "pd": true
+  },
+  "routhwick-tanuki": {
+    "file": "routhwick-tanuki.jpg",
+    "title": "File:Routhwick's OC - Left.png",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "AbsoluteZero",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Routhwick%27s_OC_-_Left.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3000,
+    "height": 3000,
+    "pd": true
+  },
+  "lexi": {
+    "file": "lexi.jpg",
+    "title": "File:Sleeps-Darkly - Lexi - ENA.png",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Sleeps-Darkly\" title=\"User:Sleeps-Dar",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sleeps-Darkly_-_Lexi_-_ENA.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2048,
+    "height": 2048,
+    "pd": true
   }
 }

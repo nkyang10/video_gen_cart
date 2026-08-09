@@ -38,6 +38,13 @@ QUERIES = {
     'polly-pals': ('Polly and Her Pals Cliff Sterrett', 'Polly'),
     'barney-google': ('Barney Google Spark Plug DeBeck', 'Barney'),
     'buck-rogers': ('Buck Rogers 1929 comic strip', 'Buck'),
+    # 新品牌 — 自由授權原創角色（CC0/CC-BY/CC-BY-SA）
+    'sintel': ('Sintel Blender open movie', 'Sintel'),
+    'big-buck-bunny': ('Big Buck Bunny Blender', 'Buck'),
+    'koro': ('Caminandes Koro llama', 'Caminandes'),
+    'zora-snep': ('Zora the Snep fursona', 'Zora'),
+    'routhwick-tanuki': ("Routhwick's OC Left tanuki", 'Routhwick'),
+    'lexi': ('Sleeps-Darkly Lexi four arms', 'Lexi'),
 }
 
 # 只接受圖片副檔名（排除 .webm/.ogg 等影片）
@@ -47,6 +54,15 @@ IMG_EXTS = ('.jpg', '.jpeg', '.png', '.gif', '.webp')
 PD_KEYWORDS = ['public domain', 'pd-1923', 'pd-us', 'pd-old', 'pd-expired',
                'pd-art', 'pd-old-70', 'public domain in the united states',
                'copyright expired', 'pd-self']
+
+# CC 自由授權 keyword（CC0 / CC-BY / CC-BY-SA 都允許自由使用）
+CC_KEYWORDS = ['cc0', 'cc-by', 'cc by', 'cc-by-sa', 'creative commons attribution',
+               'creativecommons']
+
+def is_free(lic):
+    l = (lic or '').lower()
+    if is_pd(l): return True
+    return any(k in l for k in CC_KEYWORDS)
 
 def search_images(query, limit=15):
     params = {
@@ -135,7 +151,7 @@ def main():
         chosen = None
         for r in results:
             if (title_hint.lower() in r['title'].lower()
-                    and is_pd(r['license']) and r['thumb']
+                    and is_free(r['license']) and r['thumb']
                     and r['title'].lower().endswith(IMG_EXTS)):
                 chosen = r; break
         if not chosen:
@@ -161,9 +177,9 @@ def main():
                 'artist': chosen['artist'],
                 'source_url': chosen['url'],
                 'width': chosen['width'], 'height': chosen['height'],
-                'pd': is_pd(chosen['license']),
+                'pd': is_free(chosen['license']),
             }
-            flag = 'PD' if is_pd(chosen['license']) else '⚠非PD'
+            flag = 'FREE' if is_free(chosen['license']) else '⚠非自由'
             print(f'✓ {slug}: {flag} | {chosen["license"]} | {chosen["title"][:50]}')
         except Exception as e:
             print(f'✗ {slug}: download error {e}')

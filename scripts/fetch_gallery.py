@@ -120,6 +120,22 @@ GALLERY_QUERIES = {
         ('Buck Rogers 25th century', '25 世紀', '未來'),
         ('Nowlan Buck Rogers', '諾蘭', '作者'),
     ],
+    # 新角色 — 自由授權原創角色
+    'sintel': [
+        ('Sintel Blender open movie', '辛特', '開放電影'),
+        ('Sintel character design', '辛特設定', '角色'),
+    ],
+    'big-buck-bunny': [
+        ('Big Buck Bunny Blender', '大公雞兔', '開放電影'),
+        ('Big Buck Bunny character', '大公雞兔', '角色'),
+    ],
+    'koro': [
+        ('Caminandes Koro llama', '可樂', '開放電影'),
+        ('Caminandes llama', '可樂', '羊駝'),
+    ],
+    'zora-snep': [('Zora the Snep fursona', '佐拉', '雪豹 fursona')],
+    'routhwick-tanuki': [("Routhwick's OC tanuki", '羅思威克', '狸貓角色')],
+    'lexi': [('Sleeps-Darkly Lexi four arms', '萊克希', '四臂女孩')],
 }
 
 def strip_html(s):
@@ -176,7 +192,10 @@ def search_openverse(query, limit=8, licenses='cc0,pdm,by'):
 
 def is_pd(lic):
     l = (lic or '').lower()
-    return any(k in l for k in PD_KEYWORDS) or l.startswith(('cc0','cc-by','pdm'))
+    if any(k in l for k in PD_KEYWORDS): return True
+    if l.startswith(('cc0','cc-by','cc by','pdm','by','by-sa')): return True
+    if any(k in l for k in ['creative commons', 'creativecommons', 'cc by-sa']): return True
+    return False
 
 def main():
     manifest = {}
