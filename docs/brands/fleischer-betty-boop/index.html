@@ -66,12 +66,20 @@ a { color: var(--forest); }
 }
 .character-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
 .character-card .name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1.05rem; }
+.character-card .thumb { width: 100%; height: 120px; overflow: hidden; border-radius: 8px; margin-bottom: 10px; background: #eee7db; }
+.character-card .thumb img { width: 100%; height: 100%; object-fit: cover; }
 .character-card .zh { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
 .character-card .desc { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
 .character-card .badge { margin-top: 10px; }
 .copyright-box { background: #f2efea; border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
 .copyright-box h3 { color: var(--terracotta); margin-top: 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: .04em; }
 .copyright-box ul { margin-left: 20px; }
+.char-hero { display: flex; gap: 22px; align-items: flex-start; margin-bottom: 24px; flex-wrap: wrap; }
+.char-hero img { width: 280px; max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--border); background:#fff; }
+.char-hero .captions { flex: 1; min-width: 220px; font-size: 0.85rem; color: var(--muted); }
+.char-hero .captions p { margin: 4px 0; }
+.img-credit { font-size: 0.75rem; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+.img-credit a { color: var(--forest); }
 .footer-note { color: var(--muted); font-size: 0.8rem; margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--border); }
 .hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 26px; margin-bottom: 28px; }
 .hero h2 { border: none; margin-top: 0; font-size: 1.5rem; }
@@ -98,6 +106,7 @@ a { color: var(--forest); }
 </ul>
 <h2>創作提示</h2>
 <p>用 1930 年「狗女」版 Betty Boop 做創作，唔好用 1932 之後嘅「人類少女」形象（嗰個仲受保護）。呢個係「checkerboard」（棋盤式）版權狀態嘅典型例子——部分公版、部分仍然擁有。</p><h2>旗下公版角色 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(1)</span></h2><div class="character-grid"><a class="character-card" href="betty-boop-1930.html">
+              <div class="thumb"><img src="../../assets/img/betty-boop-1930.jpg" alt=""></div>
               <div><span class="name">Betty Boop (1930 original version)</span><span class="zh">Betty Boop（1930 原始版）</span></div>
               <div class="desc">主角</div>
               <span class="badge pd">✔ 公版</span>

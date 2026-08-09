@@ -20,7 +20,7 @@ verified: "2026-08-09"
 1919 年 11 月 9 日《Feline Follies》首次登場，由 Pat Sullivan 出品、Otto Messmer 繪製。係默片時代最紅嘅動畫貓，憑住魔術、問號、魔法袋等元素成為文化 icon。
 
 ## 版權狀態
-- **公版**：✔️（僅限早期黑白版本）
+- **公版**：✔️（僅限早期黑白版本，1994 年入美國公版）
 - **公版版本**：1919-20 年代黑白默片入面嘅 Felix
 - **受保護部分**：後期 Oriolo 工作室嘅新內容、電視動畫版本
 - **Trademark**：「Felix the Cat」個名受商標保護；魔法袋設定屬公版（因首次出現無續期）
@@ -30,15 +30,18 @@ verified: "2026-08-09"
 - 聰明機靈、調皮搞怪
 - 靠魔法袋變出任何工具解決問題
 - 好奇心重，思考時頭上有問號
-- 獨立、自信
+- 獨立、自信、有幽默感
+- 早期默片版係黑白、silent
 
 ## 外觀描述（AI 圖片 Prompt 用）
 黑白默片卡通貓，全身黑色，白色圓眼同嘴，大圓耳、長尾，面帶得意笑容。拎住一個小魔法袋。1919-20 年代默片風格。
 
-**Prompt 示例**：`1919 silent cartoon black cat, all black body, big white circular eyes, white mouth, big round ears, long tail, sly smile, holding a small magic bag, vintage black and white animation`
+**Prompt 示例**：
+`1919 silent cartoon black cat, all black body, big white circular eyes, white mouth, big round ears, long tail, sly smile, holding a small magic bag, vintage rubber-hose animation, black and white`
 
 ## 經典對白 / 口頭禪
-> （默片角色，主要以動作同口哨表達；「Felix」個名受商標保護，創作時考慮用其他名）
+> （默片角色，主要以動作同口哨表達）
+> 招牌視覺語言：思考時頭上浮現「問號」，解決問題時浮現「燈泡」
 
 ## 場景 / 設定
 - 城市街頭、屋企
@@ -46,6 +49,7 @@ verified: "2026-08-09"
 - 1920 年代美國
 
 ## AI 創意用法
-- 魔術貓冒險
-- 用魔法袋變出道具解決問題嘅解謎喜劇
-- **注意**：魔法袋設定屬公版可自由用；但「Felix the Cat」名受商標保護，做商業創作時避免直接用個名
+- **魔法袋冒險**：袋仔變出任何道具解決問題（設定屬公版可自由用）
+- **問號思考視覺**：頭上問號／燈泡嘅思考視覺化
+- **默片喜劇**：純動作幽默、黑白
+- **注意**：「Felix the Cat」名受商標保護，做商業創作時避免直接用個名（用角色特徵但改名）

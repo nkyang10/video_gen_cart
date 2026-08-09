@@ -80,12 +80,20 @@ a { color: var(--forest); }
 }
 .character-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
 .character-card .name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1.05rem; }
+.character-card .thumb { width: 100%; height: 120px; overflow: hidden; border-radius: 8px; margin-bottom: 10px; background: #eee7db; }
+.character-card .thumb img { width: 100%; height: 100%; object-fit: cover; }
 .character-card .zh { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
 .character-card .desc { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
 .character-card .badge { margin-top: 10px; }
 .copyright-box { background: #f2efea; border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
 .copyright-box h3 { color: var(--terracotta); margin-top: 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: .04em; }
 .copyright-box ul { margin-left: 20px; }
+.char-hero { display: flex; gap: 22px; align-items: flex-start; margin-bottom: 24px; flex-wrap: wrap; }
+.char-hero img { width: 280px; max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--border); background:#fff; }
+.char-hero .captions { flex: 1; min-width: 220px; font-size: 0.85rem; color: var(--muted); }
+.char-hero .captions p { margin: 4px 0; }
+.img-credit { font-size: 0.75rem; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+.img-credit a { color: var(--forest); }
 .footer-note { color: var(--muted); font-size: 0.8rem; margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--border); }
 .hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 26px; margin-bottom: 28px; }
 .hero h2 { border: none; margin-top: 0; font-size: 1.5rem; }
@@ -104,6 +112,13 @@ PAGE_FOOT = f"""\
 """
 
 MD = markdown.Markdown(extensions=["tables", "fenced_code", "nl2br"])
+
+# 圖片 manifest（fetch_images.py 生成）
+IMAGES = {}
+_manifest_path = ROOT / "docs" / "assets" / "image_manifest.json"
+if _manifest_path.exists():
+    import json as _json
+    IMAGES = _json.loads(_manifest_path.read_text(encoding="utf-8"))
 
 def strip_leading_h1(text):
     """移除內容檔最頂嘅 '#' 標題（因為頁面標題已顯示品牌/角色名）。"""
@@ -167,7 +182,10 @@ def page_brand_index(brand):
     if chars:
         body.append('<div class="character-grid">')
         for c in chars:
+            thumb = IMAGES.get(c["slug"], {}).get("file")
+            thumb_html = f'<div class="thumb"><img src="../../assets/img/{html.escape(thumb)}" alt=""></div>' if thumb else ''
             body.append(f'''<a class="character-card" href="{c["slug"]}.html">
+              {thumb_html}
               <div><span class="name">{html.escape(c["name"])}</span><span class="zh">{html.escape(c.get("character_zh",""))}</span></div>
               <div class="desc">{html.escape(c.get("role",""))}</div>
               {pd_badge(c.get("public_domain"))}
@@ -182,6 +200,17 @@ def page_character(brand, c):
     slug = c["slug"]
     body = [f'<div class="wrap"><div class="breadcrumb"><a href="index.html">全部品牌</a> › <a href="index.html">{html.escape(brand["name"])}</a> › {html.escape(c["name"])}</div>']
     body.append(f'<h1 class="page">{html.escape(c["name"])} <span style="color:var(--muted);font-size:1rem;font-weight:400">{html.escape(c.get("character_zh",""))}</span></h1>')
+    # 角色圖片 + 來源
+    img = IMAGES.get(slug)
+    if img:
+        body.append(f'''<div class="char-hero"><img src="../../assets/img/{html.escape(img["file"])}" alt="{html.escape(c["name"])}">
+        <div class="captions">
+          <p><b>{html.escape(img["title"].replace("File:",""))}</b></p>
+          <p>License: <b>{html.escape(img["license"])}</b>{"（公版 ✔）" if img.get("pd") else "（⚠ 需核實）"}</p>
+          {f'<p>Artist: {html.escape(img.get("artist",""))}</p>' if img.get("artist") else ""}
+          <div class="img-credit">來源：<a href="{html.escape(img.get("source_url",""))}">Wikimedia Commons</a>
+          {f' · <a href="{html.escape(img.get("license_url",""))}">License 詳情</a>' if img.get("license_url") else ""}</div>
+        </div></div>''')
     body.append('</div>')
     # copyright box
     body.append('<div class="wrap"><div class="copyright-box"><h3>⚖️ 版權狀態</h3><ul>')

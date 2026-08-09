@@ -1,0 +1,90 @@
+{
+  "mickey-1928": {
+    "file": "mickey-1928.jpg",
+    "title": "File:Mickey-mouse-laughing-(cropped).png",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Walt Disney and Ub Iwerks",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Mickey-mouse-laughing-%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 229,
+    "height": 209,
+    "pd": true
+  },
+  "minnie-1928": {
+    "file": "minnie-1928.jpg",
+    "title": "File:Mickey and Minnie Mouse Steamboat Willie.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Walt_Disney\" class=\"extiw\" title=",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Mickey_and_Minnie_Mouse_Steamboat_Willie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1280,
+    "height": 1023,
+    "pd": true
+  },
+  "pluto-1930": {
+    "file": "pluto-1930.jpg",
+    "title": "File:Disney's Pluto first and second appearances in 1930.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Walt Disney",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Disney%27s_Pluto_first_and_second_appearances_in_1930.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 760,
+    "height": 324,
+    "pd": true
+  },
+  "betty-boop-1930": {
+    "file": "betty-boop-1930.jpg",
+    "title": "File:Betty Boop First Version.png",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Dave_Fleischer\" class=\"extiw\" tit",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Betty_Boop_First_Version.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 522,
+    "height": 673,
+    "pd": true
+  },
+  "popeye-1929": {
+    "file": "popeye-1929.jpg",
+    "title": "File:First Popeye Strip, East Liverpool Review, 1929-01-17, p12.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "E. C. Segar (1894–1938)",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/First_Popeye_Strip%2C_East_Liverpool_Review%2C_1929-01-17%2C_p12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4660,
+    "height": 1140,
+    "pd": true
+  },
+  "felix-early": {
+    "file": "felix-early.jpg",
+    "title": "File:Felix 1919.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Pat Sullivan",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Felix_1919.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 498,
+    "height": 323,
+    "pd": true
+  },
+  "oswald-1927": {
+    "file": "oswald-1927.jpg",
+    "title": "File:OswaldAllWet.png",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Walt Disney, Ub Iwerks",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/OswaldAllWet.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1440,
+    "height": 1080,
+    "pd": true
+  },
+  "pooh-1926": {
+    "file": "pooh-1926.jpg",
+    "title": "File:Winnie-the-Pooh 108.png",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:E._H._Shepard\" class=\"extiw\" titl",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Winnie-the-Pooh_108.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1141,
+    "height": 799,
+    "pd": true
+  }
+}
