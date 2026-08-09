@@ -70,6 +70,7 @@ a { color: var(--forest); }
 .meta-table td:first-child { width: 34%; color: var(--muted); font-weight: 600; }
 .badge { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
 .badge.pd { background: #dcebdd; color: #2c5e3a; }
+.badge.cc { background: #dfe7f5; color: #2c4a7c; }
 .badge.partial { background: #f5e8d3; color: #8a5a1e; }
 .badge.verify { background: #f4dcd9; color: #963a2e; }
 .character-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 18px; }
@@ -174,6 +175,17 @@ def pd_badge(status):
         return '<span class="badge partial">⚠ 部分公版</span>'
     return '<span class="badge verify">❓ 需核實</span>'
 
+def license_badge(cm):
+    """顯示具體授權碼：公版 / CC0 / CC-BY / CC-BY-SA。"""
+    if cm.get("license_type") == "cc":
+        lic = str(cm.get("license", "") or "")
+        # 抽授權碼（e.g. 'CC-BY 4.0' → 'CC-BY'，'CC0 1.0' → 'CC0'）
+        code = lic.split()[0] if lic else "CC"
+        return f'<span class="badge cc">{html.escape(code)}</span>'
+    if cm.get("public_domain"):
+        return '<span class="badge pd">✔ 公版</span>'
+    return '<span class="badge verify">❓ 需核實</span>'
+
 def render_md(text):
     MD.reset()
     return MD.convert(text or "")
@@ -222,7 +234,7 @@ def page_brand_index(brand):
               {thumb_html}
               <div><span class="name">{html.escape(c["name"])}</span><span class="zh">{html.escape(c.get("character_zh",""))}</span></div>
               <div class="desc">{html.escape(c.get("role",""))}</div>
-              {pd_badge(c.get("public_domain"))}
+              {license_badge(c)}
             </a>''')
         body.append('</div>')
     else:
