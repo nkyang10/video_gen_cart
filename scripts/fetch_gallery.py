@@ -136,6 +136,14 @@ GALLERY_QUERIES = {
     'zora-snep': [('Zora the Snep fursona', '佐拉', '雪豹 fursona')],
     'routhwick-tanuki': [("Routhwick's OC tanuki", '羅思威克', '狸貓角色')],
     'lexi': [('Sleeps-Darkly Lexi four arms', '萊克希', '四臂女孩')],
+    # 第四批 — 開放源碼吉祥物 + 更多原創角色
+    'oti': [('Caminandes Oti penguin', '奧提', '企鵝'), ('Caminandes episode', '卡米南德斯', '開放電影')],
+    'wapuu': [('Wapuu WordPress mascot', '哇普', '吉祥物')],
+    'kiki': [('Kiki Cyber Human Krita', '琪琪', 'Krita 吉祥物')],
+    'theophilus': [('Theophilus Harvett character', '西奧菲勒斯', '舞台角色')],
+    'duskako': [('Duskako', '暮光之狐', 'fursona')],
+    'xenia': [('Xenia the Linux Vixen', '希妮雅', 'Linux 狐')],
+    'sodabytes': [('kemono furry illustration', '獸人', 'Kemono 範例')],
 }
 
 def strip_html(s):

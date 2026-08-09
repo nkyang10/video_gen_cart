@@ -45,6 +45,15 @@ QUERIES = {
     'zora-snep': ('Zora the Snep fursona', 'Zora'),
     'routhwick-tanuki': ("Routhwick's OC Left tanuki", 'Routhwick'),
     'lexi': ('Sleeps-Darkly Lexi four arms', 'Lexi'),
+    # 第四批 — 開放源碼吉祥物 + 更多原創角色
+    'oti': ('Caminandes Oti penguin', 'Oti'),
+    'wapuu': ('Wapuu WordPress mascot', 'Wapuu'),
+    'kiki': ('Kiki Cyber Human Krita mascot', 'Kiki'),
+    'theophilus': ('Theophilus Harvett character', 'Theophilus'),
+    'duskako': ('Duskako', 'Duskako'),
+    'xenia': ('Xenia the Linux Vixen', 'Xenia'),
+    'eggbert': ('Eggbert Finds Love', 'Eggbert'),
+    'sodabytes': ('Illustrated example kemono furry', 'kemono'),
 }
 
 # 只接受圖片副檔名（排除 .webm/.ogg 等影片）

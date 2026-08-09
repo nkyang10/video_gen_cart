@@ -306,5 +306,82 @@
     "width": 2048,
     "height": 2048,
     "pd": true
+  },
+  "oti": {
+    "file": "oti.jpg",
+    "title": "File:Blender Foundation - Caminandes - Episode 3 - Llamigos - Koro and Oti share more food to eat at night.png",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "Blender Foundation",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Blender_Foundation_-_Caminandes_-_Episode_3_-_Llamigos_-_Koro_and_Oti_share_more_food_to_eat_at_night.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1920,
+    "height": 1080,
+    "pd": true
+  },
+  "kiki": {
+    "file": "kiki.jpg",
+    "title": "File:Kiki the Cyber Human.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:David_Revoy\" class=\"extiw\" title=",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Kiki_the_Cyber_Human.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2432,
+    "height": 3115,
+    "pd": true
+  },
+  "theophilus": {
+    "file": "theophilus.jpg",
+    "title": "File:Jayvee Enaguas - Harvett and His Folks - Theophilus - Player Character Sheet.webp",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:The_Harvett_Vault\" title=\"User:The Ha",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Jayvee_Enaguas_-_Harvett_and_His_Folks_-_Theophilus_-_Player_Character_Sheet.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 256,
+    "height": 256,
+    "pd": true
+  },
+  "duskako": {
+    "file": "duskako.jpg",
+    "title": "File:Duskako.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:SkytemplePMD&amp;action=",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Duskako.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2048,
+    "height": 2048,
+    "pd": true
+  },
+  "xenia": {
+    "file": "xenia.jpg",
+    "title": "File:Chimmie - Xenia the Linux Vixen - GIMP wallpaper.png",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Chimmie (@GamePlayer-8)",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Chimmie_-_Xenia_the_Linux_Vixen_-_GIMP_wallpaper.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1920,
+    "height": 1080,
+    "pd": true
+  },
+  "sodabytes": {
+    "file": "sodabytes.jpg",
+    "title": "File:Illustrated example of a kemono furry.png",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:SODABYTES&amp;action=edi",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Illustrated_example_of_a_kemono_furry.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2160,
+    "height": 2880,
+    "pd": true
+  },
+  "wapuu": {
+    "file": "wapuu.jpg",
+    "title": "A small yellow Wapuu mascot hugging a blue ball with the white WordPress “W” logo, sitting on a black tabletop with a blurred event crowd in the background.",
+    "license": "cc0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "artist": "Jesús Amieiro",
+    "source_url": "https://pd.w.org/2025/10/5868fa2f0b06c785.28696958-2048x1536.jpeg",
+    "width": 2048,
+    "height": 1536,
+    "pd": true
   }
 }
