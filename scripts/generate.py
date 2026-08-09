@@ -182,7 +182,7 @@ def page_brand_index(brand):
     if chars:
         body.append('<div class="character-grid">')
         for c in chars:
-            thumb = IMAGES.get(c["slug"], {}).get("file")
+            thumb = IMAGES.get(c["slug"], {}).get("file") or IMAGES.get(slug, {}).get("file")
             thumb_html = f'<div class="thumb"><img src="../../assets/img/{html.escape(thumb)}" alt=""></div>' if thumb else ''
             body.append(f'''<a class="character-card" href="{c["slug"]}.html">
               {thumb_html}
@@ -201,7 +201,8 @@ def page_character(brand, c):
     body = [f'<div class="wrap"><div class="breadcrumb"><a href="index.html">全部品牌</a> › <a href="index.html">{html.escape(brand["name"])}</a> › {html.escape(c["name"])}</div>']
     body.append(f'<h1 class="page">{html.escape(c["name"])} <span style="color:var(--muted);font-size:1rem;font-weight:400">{html.escape(c.get("character_zh",""))}</span></h1>')
     # 角色圖片 + 來源
-    img = IMAGES.get(slug)
+    # 角色頁面圖像：先睇角色 slug，冇就 fallback 到品牌 slug
+    img = IMAGES.get(slug) or IMAGES.get(brand["slug"])
     if img:
         body.append(f'''<div class="char-hero"><img src="../../assets/img/{html.escape(img["file"])}" alt="{html.escape(c["name"])}">
         <div class="captions">

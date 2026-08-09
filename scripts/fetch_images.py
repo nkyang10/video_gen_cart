@@ -22,6 +22,14 @@ QUERIES = {
     'felix-early': ('Felix 1919 Feline Follies', 'Felix'),
     'oswald-1927': ('Oswald the Lucky Rabbit 1927', 'Oswald'),
     'pooh-1926': ('Winnie-the-Pooh 1926 A.A. Milne', 'Winnie'),
+    # 新批次 — 1930 前公版經典
+    'buster-brown': ('Buster Brown comic strip Outcault', 'Buster'),
+    'little-nemo': ('Little Nemo Slumberland Winsor McCay', 'Nemo'),
+    'krazy-kat': ('Krazy Kat Ignatz Herriman', 'Krazy'),
+    'katzenjammer-kids': ('Katzenjammer Kids Hans Fritz Dirks', 'Katzenjammer'),
+    'mutt-jeff': ('Mutt and Jeff Bud Fisher comic', 'Mutt'),
+    'happy-hooligan': ('Happy Hooligan comic strip Opper', 'Hooligan'),
+    'olive-oyl': ('Olive Oyl Segar Thimble Theatre', 'Olive'),
 }
 
 # 只接受圖片副檔名（排除 .webm/.ogg 等影片）
@@ -66,7 +74,37 @@ def is_pd(lic):
 
 def main():
     manifest = {}
+    # 保留已有 manifest（只加新嘅）
+    if (OUT.parent / 'image_manifest.json').exists():
+        import json as _j
+        try: manifest = _j.loads((OUT.parent / 'image_manifest.json').read_text(encoding='utf-8'))
+        except: manifest = {}
+    # 特定檔名 fallback（當一般搜尋揾唔到，直接指定一個已知 PD 檔）
+    SPECIFIC_FILES = {
+        'happy-hooligan': 'File:Happy Hooligan 1905-04-09.jpg',
+    }
+
+    def fetch_file_by_title(fname):
+        p = {'action':'query','format':'json','titles':fname,'prop':'imageinfo',
+             'iiprop':'url|extmetadata','iiurlwidth':600}
+        d = requests.get(API, params=p, headers=UA, timeout=40).json()
+        for pid, pg in d.get('query',{}).get('pages',{}).items():
+            if 'missing' in pg: continue
+            ii = pg.get('imageinfo',[{}])[0]; em = ii.get('extmetadata',{})
+            return {
+                'title': pg.get('title',''),
+                'license': em.get('LicenseShortName',{}).get('value',''),
+                'license_url': em.get('LicenseUrl',{}).get('value',''),
+                'artist': em.get('Artist',{}).get('value','')[:80] or '',
+                'url': ii.get('url',''), 'thumb': ii.get('thumburl',''),
+                'width': ii.get('width',0), 'height': ii.get('height',0),
+            }
+        return None
+
     for slug, (query, title_hint) in QUERIES.items():
+        if slug in manifest:
+            print(f'⏭ {slug}: 已存在，skip')
+            continue
         try:
             results = search_images(query)
         except Exception as e:
@@ -82,6 +120,10 @@ def main():
         if not chosen:
             # fallback: 揀有 thumb 嘅圖片檔（記錄埋非PD）
             chosen = next((r for r in results if r['thumb'] and r['title'].lower().endswith(IMG_EXTS)), None)
+        if not chosen:
+            # 特定檔名 fallback
+            if slug in SPECIFIC_FILES:
+                chosen = fetch_file_by_title(SPECIFIC_FILES[slug])
         if not chosen:
             print(f'△ {slug}: 無圖片')
             continue

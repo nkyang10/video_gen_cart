@@ -86,5 +86,82 @@
     "width": 1141,
     "height": 799,
     "pd": true
+  },
+  "buster-brown": {
+    "file": "buster-brown.jpg",
+    "title": "File:Buster Brown 1908.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Artist-R. F. Outcault",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Buster_Brown_1908.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1000,
+    "height": 1394,
+    "pd": true
+  },
+  "little-nemo": {
+    "file": "little-nemo.jpg",
+    "title": "File:Little Nemo 1905-11-26.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/Winsor_McCay\" title=\"Winsor McCay\">Winsor ",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Little_Nemo_1905-11-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1738,
+    "height": 2378,
+    "pd": true
+  },
+  "krazy-kat": {
+    "file": "krazy-kat.jpg",
+    "title": "File:Ignatz Mouse in a 1922 Krazy Kat hand-colored panel \"AH-H LITTLE FLOWER MAYBE YOU CAN HELP ME\" dated 1 July 1922 (cropped).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "<a href=\"https://en.wikipedia.org/wiki/George_Herriman\" class=\"extiw\" title=\"w:G",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Ignatz_Mouse_in_a_1922_Krazy_Kat_hand-colored_panel_%22AH-H_LITTLE_FLOWER_MAYBE_YOU_CAN_HELP_ME%22_dated_1_July_1922_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 557,
+    "height": 489,
+    "pd": true
+  },
+  "katzenjammer-kids": {
+    "file": "katzenjammer-kids.jpg",
+    "title": "File:Harold Knerr - 391419a811.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Harold_Knerr\" class=\"extiw\" title",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Harold_Knerr_-_391419a811.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1200,
+    "height": 953,
+    "pd": true
+  },
+  "mutt-jeff": {
+    "file": "mutt-jeff.jpg",
+    "title": "File:Bud Fisher with Mutt & Jeff.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Bud_Fisher\" class=\"extiw\" title=\"",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Bud_Fisher_with_Mutt_%26_Jeff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 443,
+    "height": 636,
+    "pd": true
+  },
+  "olive-oyl": {
+    "file": "olive-oyl.jpg",
+    "title": "File:OliveOyl and Hamgravy.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "E.C. Segar",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/OliveOyl_and_Hamgravy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 328,
+    "height": 256,
+    "pd": true
+  },
+  "happy-hooligan": {
+    "file": "happy-hooligan.jpg",
+    "title": "File:Happy Hooligan 1905-04-09.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Frederick_Burr_Opper\" class=\"exti",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Happy_Hooligan_1905-04-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 972,
+    "height": 1268,
+    "pd": true
   }
 }
