@@ -87,6 +87,26 @@ a { color: var(--forest); }
 .stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
 .stat { font-size: 0.9rem; }
 .stat b { color: var(--forest); font-size: 1.2rem; }
+/* 配角 / 路人互動面板 */
+.support-panel { margin-top: 22px; display: grid; gap: 10px; }
+.support-item { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.support-item summary {
+  cursor: pointer; padding: 13px 18px; list-style: none; display: flex; align-items: center; gap: 12px;
+  font-weight: 600; color: var(--ink); transition: background .12s ease; user-select: none;
+}
+.support-item summary::-webkit-details-marker { display: none; }
+.support-item summary:hover { background: #f3efe6; }
+.support-item summary .caret { color: var(--terracotta); transition: transform .18s ease; margin-left: auto; }
+.support-item[open] summary .caret { transform: rotate(90deg); }
+.support-item summary .sup-name { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.05rem; }
+.support-item summary .sup-type { font-size: .72rem; color: var(--forest); background: var(--tag-bg); padding: 2px 10px; border-radius: 20px; font-weight: 600; }
+.support-item summary .sup-zh { color: var(--muted); font-size: .85rem; font-weight: 400; }
+.support-body { padding: 4px 18px 16px; border-top: 1px solid var(--tag-bg); }
+.support-body .sup-relation { margin: 10px 0 4px; color: var(--forest); font-size: .88rem; font-weight: 600; }
+.support-body p, .support-body ul { font-size: .92rem; margin: 6px 0; }
+.support-body .sup-label { color: var(--terracotta); font-weight: 700; font-size: .8rem; letter-spacing: .03em; margin-top: 10px; text-transform: uppercase; }
+.support-body blockquote { font-size: .9rem; }
+.support-hint { color: var(--muted); font-size: .85rem; margin-top: 6px; }
 </style></head><body>
 <header class="site"><div class="wrap">
   <h1><a href="index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
@@ -108,7 +128,30 @@ a { color: var(--forest); }
               <div><span class="name">Andy Gump</span><span class="zh">安迪古普</span></div>
               <div class="desc">主角</div>
               <span class="badge pd">✔ 公版</span>
-            </a></div></div><div class="wrap">
+            </a></div><h2>配角 / 路人 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(3) — 點擊展開互動參考</span></h2><div class="support-panel"><details class="support-item"><summary>
+              <span class="caret">▶</span>
+              <span class="sup-name">Min Gump</span>
+              <span class="sup-zh">敏（Min，Andy 老婆）</span>
+              <span class="sup-type">配角（老婆）</span>
+            </summary><div class="support-body"><div class="sup-relation">🤝 Andy 嘅強勢管家婆，全家實質掌控者</div><div class="sup-label">互動參考</div><p>Min 係 Andy 嘅老婆，潑辣精明、不斷斥責欺凌 Andy，係全家實質掌控者。佢對 Andy 嘅吹牛同蠢點子嗤之以鼻，成日雙手叉腰責罵。Andy 對佢言聽計從——典型「妻管嚴」。<strong>注意</strong>：名稱係商標，新作建議改名。</p><div class="sup-label">互動對白</div><blockquote>（Min 叉腰責罵 Andy 嘅吹牛）</blockquote><div class="sup-label">互動場景</div><ul>
+<li><strong>餐桌吵架</strong>：Min 指住 Andy 責罵。</li>
+<li><strong>潑冷水</strong>：Andy 吹牛大計，Min 一兩句打沉。</li>
+</ul></div></details><details class="support-item"><summary>
+              <span class="caret">▶</span>
+              <span class="sup-name">Chester Gump</span>
+              <span class="sup-zh">切斯特（Andy 個仔）</span>
+              <span class="sup-type">配角（兒子）</span>
+            </summary><div class="support-body"><div class="sup-relation">🤝 Andy 調皮搗蛋嘅仔</div><div class="sup-label">互動參考</div><p>Chester 係 Andy 個調皮機靈嘅仔，成日幫倒忙或惡作劇，模仿老爸嘅牛仔行為、將老爸啲糗事講出去。佢同老爸嘅互動係父子喜劇笑點——愛要零用錢、學老媽叉腰嘲笑老爸。</p><div class="sup-label">互動對白</div><blockquote>（Chester 學老媽叉腰嘲笑 Andy / 講老爸糗事）</blockquote><div class="sup-label">互動場景</div><ul>
+<li><strong>學老媽</strong>：Chester 模仿 Min 叉腰指責 Andy。</li>
+<li><strong>父子鬧劇</strong>：Andy 想威，Chester 拆台。</li>
+</ul></div></details><details class="support-item"><summary>
+              <span class="caret">▶</span>
+              <span class="sup-name">Goliath 哥利亞 &amp; 女傭 Tilda</span>
+              <span class="sup-zh">哥利亞（BB 仔）&amp; 女傭 Tilda</span>
+              <span class="sup-type">路人</span>
+            </summary><div class="support-body"><div class="sup-relation">🤝 Andy 屋企嘅 BB 仔同女傭</div><div class="sup-label">互動參考</div><p>Goliath 係 Andy 嘅 BB 仔（Chester 嘅細佬），Tilda 係屋企女傭。佢哋係 Gump 家家庭群像嘅背景角色，增添屋企嘅生活感同家庭肥皂劇味道。</p><div class="sup-label">互動對白</div><blockquote>（BB 仔喊聲、女傭日常）</blockquote><div class="sup-label">互動場景</div><ul>
+<li><strong>家庭群像</strong>：Gump 一家喺屋企活動。</li>
+</ul></div></details></div><div class="support-hint">💡 互動參考 = 呢個配角/路人同主角嘅相處方式、互動對白同經典情境，方便你喺 AI 創作時保持角色關係一致。</div></div><div class="wrap">
   <div class="footer-note">
     Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
   </div>

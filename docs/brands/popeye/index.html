@@ -87,6 +87,26 @@ a { color: var(--forest); }
 .stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
 .stat { font-size: 0.9rem; }
 .stat b { color: var(--forest); font-size: 1.2rem; }
+/* 配角 / 路人互動面板 */
+.support-panel { margin-top: 22px; display: grid; gap: 10px; }
+.support-item { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.support-item summary {
+  cursor: pointer; padding: 13px 18px; list-style: none; display: flex; align-items: center; gap: 12px;
+  font-weight: 600; color: var(--ink); transition: background .12s ease; user-select: none;
+}
+.support-item summary::-webkit-details-marker { display: none; }
+.support-item summary:hover { background: #f3efe6; }
+.support-item summary .caret { color: var(--terracotta); transition: transform .18s ease; margin-left: auto; }
+.support-item[open] summary .caret { transform: rotate(90deg); }
+.support-item summary .sup-name { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.05rem; }
+.support-item summary .sup-type { font-size: .72rem; color: var(--forest); background: var(--tag-bg); padding: 2px 10px; border-radius: 20px; font-weight: 600; }
+.support-item summary .sup-zh { color: var(--muted); font-size: .85rem; font-weight: 400; }
+.support-body { padding: 4px 18px 16px; border-top: 1px solid var(--tag-bg); }
+.support-body .sup-relation { margin: 10px 0 4px; color: var(--forest); font-size: .88rem; font-weight: 600; }
+.support-body p, .support-body ul { font-size: .92rem; margin: 6px 0; }
+.support-body .sup-label { color: var(--terracotta); font-weight: 700; font-size: .8rem; letter-spacing: .03em; margin-top: 10px; text-transform: uppercase; }
+.support-body blockquote { font-size: .9rem; }
+.support-hint { color: var(--muted); font-size: .85rem; margin-top: 6px; }
 </style></head><body>
 <header class="site"><div class="wrap">
   <h1><a href="index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
@@ -110,7 +130,23 @@ a { color: var(--forest); }
               <div><span class="name">Popeye (1929 original version)</span><span class="zh">大力水手（1929 原始版）</span></div>
               <div class="desc">主角</div>
               <span class="badge pd">✔ 公版</span>
-            </a></div></div><div class="wrap">
+            </a></div><h2>配角 / 路人 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(2) — 點擊展開互動參考</span></h2><div class="support-panel"><details class="support-item"><summary>
+              <span class="caret">▶</span>
+              <span class="sup-name">Bernice the Whiffle Hen</span>
+              <span class="sup-zh">貝爾尼斯（Whiffle 母雞）</span>
+              <span class="sup-type">配角</span>
+            </summary><div class="support-body"><div class="sup-relation">🤝 Popeye 嘅力量來源之一（搓佢個頭）</div><div class="sup-label">互動參考</div><p>1929 年版本 Popeye 嘅招牌力量其實係<strong>搓 Bernice 個頭</strong>（whiffle hen 魔法）嚟攞到，唔係食菠菜（菠菜係 1931 動畫年代先出現）。Bernice 係一隻奇異嘅母雞，Popeye 一搓佢個頭就會變力大無窮。</p><div class="sup-label">互動對白</div><blockquote>「Ya think I&#x27;m a cowboy?」（Popeye 首句，係答 Bernice 嘅話題）</blockquote><div class="sup-label">互動場景</div><ul>
+<li><strong>搓頭變力</strong>：Popeye 搓 Bernice 個頭瞬間力量爆棚，一拳打散敵人。</li>
+<li><strong>倉庫/碼頭場景</strong>：1929 報紙漫畫常見背景，Bernice 喺側邊等 Popeye 搓。</li>
+</ul></div></details><details class="support-item"><summary>
+              <span class="caret">▶</span>
+              <span class="sup-name">Castor Oyl</span>
+              <span class="sup-zh">卡斯托·歐爾（Olive 嘅大哥）</span>
+              <span class="sup-type">配角</span>
+            </summary><div class="support-body"><div class="sup-relation">🤝 Olive Oyl 嘅大哥，成日帶 Popeye 入局</div><div class="sup-label">互動參考</div><p>Castor 係 Olive 嘅哥哥，精明圓滑、成日有生意/冒險大計，係佢帶 Popeye 上船展開冒險。佢同 Popeye 係「拍檔」關係——Popeye 出拳，Castor 出計。</p><div class="sup-label">互動對白</div><blockquote>「Have I got a deal for you!」（Castor 成日推銷佢嘅大計）</blockquote><div class="sup-label">互動場景</div><ul>
+<li><strong>碼頭招攬</strong>：Castor 喺碼頭向 Popeye 推銷冒險/尋寶計劃。</li>
+<li><strong>共同作戰</strong>：Castor 出計、Popeye 出手，夾擊壞人。</li>
+</ul></div></details></div><div class="support-hint">💡 互動參考 = 呢個配角/路人同主角嘅相處方式、互動對白同經典情境，方便你喺 AI 創作時保持角色關係一致。</div></div><div class="wrap">
   <div class="footer-note">
     Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
   </div>

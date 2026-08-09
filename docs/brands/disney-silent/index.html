@@ -87,6 +87,26 @@ a { color: var(--forest); }
 .stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
 .stat { font-size: 0.9rem; }
 .stat b { color: var(--forest); font-size: 1.2rem; }
+/* 配角 / 路人互動面板 */
+.support-panel { margin-top: 22px; display: grid; gap: 10px; }
+.support-item { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.support-item summary {
+  cursor: pointer; padding: 13px 18px; list-style: none; display: flex; align-items: center; gap: 12px;
+  font-weight: 600; color: var(--ink); transition: background .12s ease; user-select: none;
+}
+.support-item summary::-webkit-details-marker { display: none; }
+.support-item summary:hover { background: #f3efe6; }
+.support-item summary .caret { color: var(--terracotta); transition: transform .18s ease; margin-left: auto; }
+.support-item[open] summary .caret { transform: rotate(90deg); }
+.support-item summary .sup-name { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.05rem; }
+.support-item summary .sup-type { font-size: .72rem; color: var(--forest); background: var(--tag-bg); padding: 2px 10px; border-radius: 20px; font-weight: 600; }
+.support-item summary .sup-zh { color: var(--muted); font-size: .85rem; font-weight: 400; }
+.support-body { padding: 4px 18px 16px; border-top: 1px solid var(--tag-bg); }
+.support-body .sup-relation { margin: 10px 0 4px; color: var(--forest); font-size: .88rem; font-weight: 600; }
+.support-body p, .support-body ul { font-size: .92rem; margin: 6px 0; }
+.support-body .sup-label { color: var(--terracotta); font-weight: 700; font-size: .8rem; letter-spacing: .03em; margin-top: 10px; text-transform: uppercase; }
+.support-body blockquote { font-size: .9rem; }
+.support-hint { color: var(--muted); font-size: .85rem; margin-top: 6px; }
 </style></head><body>
 <header class="site"><div class="wrap">
   <h1><a href="index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
@@ -122,7 +142,23 @@ a { color: var(--forest); }
               <div><span class="name">Pluto / Rover (1930 version)</span><span class="zh">布魯托／Rover（1930 版）</span></div>
               <div class="desc">配角（米奇嘅狗）</div>
               <span class="badge pd">✔ 公版</span>
-            </a></div></div><div class="wrap">
+            </a></div><h2>配角 / 路人 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(2) — 點擊展開互動參考</span></h2><div class="support-panel"><details class="support-item"><summary>
+              <span class="caret">▶</span>
+              <span class="sup-name">Pete (Peg-Leg Pete)</span>
+              <span class="sup-zh">彼得（義肢彼得）</span>
+              <span class="sup-type">反派配角</span>
+            </summary><div class="support-body"><div class="sup-relation">🤝 Steamboat Willie 入面嘅惡船長，Mickey 嘅對頭</div><div class="sup-label">互動參考</div><p>1928 年 Pete 係《Steamboat Willie》入面惡聲惡氣嘅船長，Mickey 係佢船上嘅船員。Pete 對 Mickey 呼呼喝喝、要佢做雜工，Mickey 就用口哨同動物樂器反擊搞事。佢哋係「惡老闆 vs 機靈船員」嘅鬥氣關係。</p><div class="sup-label">互動對白</div><blockquote>（Pete 粗聲粗氣呼喝 Mickey，1928 默片無對白，主要係呼喝動作）</blockquote><div class="sup-label">互動場景</div><ul>
+<li><strong>蒸氣船甲板</strong>：Pete 指揮、Mickey 搗亂奏樂。</li>
+<li><strong>Pete 發嬲</strong>：Mickey 整蠱佢、Pete 追住佢跑。</li>
+</ul></div></details><details class="support-item"><summary>
+              <span class="caret">▶</span>
+              <span class="sup-name">山羊（Steamboat Willie）</span>
+              <span class="sup-zh">山羊（汽船威利）</span>
+              <span class="sup-type">路人</span>
+            </summary><div class="support-body"><div class="sup-relation">🤝 米奇喺船上嘅「樂器」</div><div class="sup-label">互動參考</div><p>1928《Steamboat Willie》入面隻山羊食咗米奇嘅琴譜，之後米奇就「扭」山羊條尾當搖杆、攞佢當留聲機/樂器演奏《Turkey in the Straw》。山羊係默片喜劇嘅「工具型配角」，反映 1928 年代嘅動物樂器笑話。</p><div class="sup-label">互動對白</div><blockquote>（默片，冇對白；山羊食琴譜、發出羊叫）</blockquote><div class="sup-label">互動場景</div><ul>
+<li><strong>山羊食譜</strong>：山羊食咗琴譜，米奇發現後即興演奏。</li>
+<li><strong>動物樂器</strong>：米奇用山羊、牛、豬等動物奏樂。</li>
+</ul></div></details></div><div class="support-hint">💡 互動參考 = 呢個配角/路人同主角嘅相處方式、互動對白同經典情境，方便你喺 AI 創作時保持角色關係一致。</div></div><div class="wrap">
   <div class="footer-note">
     Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
   </div>

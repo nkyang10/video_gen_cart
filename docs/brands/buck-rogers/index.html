@@ -87,6 +87,26 @@ a { color: var(--forest); }
 .stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
 .stat { font-size: 0.9rem; }
 .stat b { color: var(--forest); font-size: 1.2rem; }
+/* 配角 / 路人互動面板 */
+.support-panel { margin-top: 22px; display: grid; gap: 10px; }
+.support-item { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.support-item summary {
+  cursor: pointer; padding: 13px 18px; list-style: none; display: flex; align-items: center; gap: 12px;
+  font-weight: 600; color: var(--ink); transition: background .12s ease; user-select: none;
+}
+.support-item summary::-webkit-details-marker { display: none; }
+.support-item summary:hover { background: #f3efe6; }
+.support-item summary .caret { color: var(--terracotta); transition: transform .18s ease; margin-left: auto; }
+.support-item[open] summary .caret { transform: rotate(90deg); }
+.support-item summary .sup-name { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.05rem; }
+.support-item summary .sup-type { font-size: .72rem; color: var(--forest); background: var(--tag-bg); padding: 2px 10px; border-radius: 20px; font-weight: 600; }
+.support-item summary .sup-zh { color: var(--muted); font-size: .85rem; font-weight: 400; }
+.support-body { padding: 4px 18px 16px; border-top: 1px solid var(--tag-bg); }
+.support-body .sup-relation { margin: 10px 0 4px; color: var(--forest); font-size: .88rem; font-weight: 600; }
+.support-body p, .support-body ul { font-size: .92rem; margin: 6px 0; }
+.support-body .sup-label { color: var(--terracotta); font-weight: 700; font-size: .8rem; letter-spacing: .03em; margin-top: 10px; text-transform: uppercase; }
+.support-body blockquote { font-size: .9rem; }
+.support-hint { color: var(--muted); font-size: .85rem; margin-top: 6px; }
 </style></head><body>
 <header class="site"><div class="wrap">
   <h1><a href="index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
@@ -107,7 +127,23 @@ a { color: var(--forest); }
               <div><span class="name">Buck Rogers (Anthony Rogers)</span><span class="zh">巴克羅渣士</span></div>
               <div class="desc">主角</div>
               <span class="badge pd">✔ 公版</span>
-            </a></div></div><div class="wrap">
+            </a></div><h2>配角 / 路人 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(2) — 點擊展開互動參考</span></h2><div class="support-panel"><details class="support-item"><summary>
+              <span class="caret">▶</span>
+              <span class="sup-name">Wilma Deering</span>
+              <span class="sup-zh">威爾瑪（Wilma）</span>
+              <span class="sup-type">配角（伙伴）</span>
+            </summary><div class="support-body"><div class="sup-relation">🤝 25 世紀嘅反抗軍伙伴（早期）</div><div class="sup-label">互動參考</div><p>Wilma 係 25 世紀嘅女英雄/反抗軍伙伴，早期漫畫中作為 Buck 嘅盟友出現，協助佢適應未來世界、一齊對抗暴政。佢同 Buck 係「戰友/夥伴」關係。<strong>注意</strong>：Wilma 喺早期 1929 公版範圍，但後期新詮釋受保護。</p><div class="sup-label">互動對白</div><blockquote>（Wilma 引導/協助 Buck 嘅對話）</blockquote><div class="sup-label">互動場景</div><ul>
+<li><strong>適應未來</strong>：Wilma 帶 Buck 認識 25 世紀。</li>
+<li><strong>共同作戰</strong>：Wilma 同 Buck 一齊抗敵。</li>
+</ul></div></details><details class="support-item"><summary>
+              <span class="caret">▶</span>
+              <span class="sup-name">Dr. Huer</span>
+              <span class="sup-zh">休爾博士（Dr. Huer）</span>
+              <span class="sup-type">配角（科學家）</span>
+            </summary><div class="support-body"><div class="sup-relation">🤝 25 世紀嘅科學家盟友</div><div class="sup-label">互動參考</div><p>Dr. Huer 係 25 世紀嘅科學家，協助 Buck Rogers 理解未來科技、提供裝備同科學知識，係 Buck 嘅智力後盾。佢代表「舊文明智慧」喺未來嘅延續。</p><div class="sup-label">互動對白</div><blockquote>（Dr. Huer 解釋未來科技）</blockquote><div class="sup-label">互動場景</div><ul>
+<li><strong>科技講解</strong>：Dr. Huer 向 Buck 介紹 25 世紀武器/火箭。</li>
+<li><strong>支援</strong>：Dr. Huer 提供裝備畀 Buck 出戰。</li>
+</ul></div></details></div><div class="support-hint">💡 互動參考 = 呢個配角/路人同主角嘅相處方式、互動對白同經典情境，方便你喺 AI 創作時保持角色關係一致。</div></div><div class="wrap">
   <div class="footer-note">
     Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
   </div>

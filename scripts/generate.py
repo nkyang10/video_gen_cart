@@ -101,6 +101,26 @@ a { color: var(--forest); }
 .stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
 .stat { font-size: 0.9rem; }
 .stat b { color: var(--forest); font-size: 1.2rem; }
+/* 配角 / 路人互動面板 */
+.support-panel { margin-top: 22px; display: grid; gap: 10px; }
+.support-item { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.support-item summary {
+  cursor: pointer; padding: 13px 18px; list-style: none; display: flex; align-items: center; gap: 12px;
+  font-weight: 600; color: var(--ink); transition: background .12s ease; user-select: none;
+}
+.support-item summary::-webkit-details-marker { display: none; }
+.support-item summary:hover { background: #f3efe6; }
+.support-item summary .caret { color: var(--terracotta); transition: transform .18s ease; margin-left: auto; }
+.support-item[open] summary .caret { transform: rotate(90deg); }
+.support-item summary .sup-name { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.05rem; }
+.support-item summary .sup-type { font-size: .72rem; color: var(--forest); background: var(--tag-bg); padding: 2px 10px; border-radius: 20px; font-weight: 600; }
+.support-item summary .sup-zh { color: var(--muted); font-size: .85rem; font-weight: 400; }
+.support-body { padding: 4px 18px 16px; border-top: 1px solid var(--tag-bg); }
+.support-body .sup-relation { margin: 10px 0 4px; color: var(--forest); font-size: .88rem; font-weight: 600; }
+.support-body p, .support-body ul { font-size: .92rem; margin: 6px 0; }
+.support-body .sup-label { color: var(--terracotta); font-weight: 700; font-size: .8rem; letter-spacing: .03em; margin-top: 10px; text-transform: uppercase; }
+.support-body blockquote { font-size: .9rem; }
+.support-hint { color: var(--muted); font-size: .85rem; margin-top: 6px; }
 """
 
 PAGE_FOOT = f"""\
@@ -193,6 +213,28 @@ def page_brand_index(brand):
         body.append('</div>')
     else:
         body.append('<p style="color:var(--muted)">暫未有角色記錄。</p>')
+    # 配角 / 路人互動參考面板
+    sup = brand.get("supporting", [])
+    if sup:
+        body.append(f'<h2>配角 / 路人 <span style="font-size:.85rem;color:var(--muted);font-weight:400">({len(sup)}) — 點擊展開互動參考</span></h2>')
+        body.append('<div class="support-panel">')
+        for s in sup:
+            body.append('<details class="support-item">')
+            body.append(f'''<summary>
+              <span class="caret">▶</span>
+              <span class="sup-name">{html.escape(s.get("name",""))}</span>
+              <span class="sup-zh">{html.escape(s.get("name_zh",""))}</span>
+              <span class="sup-type">{html.escape(s.get("type","配角"))}</span>
+            </summary>''')
+            body.append('<div class="support-body">')
+            if s.get("relation"): body.append(f'<div class="sup-relation">🤝 {html.escape(s.get("relation",""))}</div>')
+            if s.get("interaction"): body.append(f'<div class="sup-label">互動參考</div>{render_md(s["interaction"])}')
+            if s.get("dialogue"): body.append(f'<div class="sup-label">互動對白</div><blockquote>{html.escape(s.get("dialogue",""))}</blockquote>')
+            if s.get("scene"): body.append(f'<div class="sup-label">互動場景</div>{render_md(s["scene"])}')
+            body.append('</div>')
+            body.append('</details>')
+        body.append('</div>')
+        body.append('<div class="support-hint">💡 互動參考 = 呢個配角/路人同主角嘅相處方式、互動對白同經典情境，方便你喺 AI 創作時保持角色關係一致。</div>')
     body.append('</div>')
     return "".join(body)
 
@@ -237,10 +279,16 @@ def load():
         meta["slug"] = bdir.name
         meta["name"] = meta.get("name") or meta.get("brand", bdir.name)
         meta["content"] = post.content
+        # 配角 / 路人互動參考（optional supporting.md）
+        sfile = bdir / "supporting.md"
+        if sfile.exists():
+            spost = frontmatter.load(sfile)
+            smeta = dict(spost.metadata)
+            meta["supporting"] = smeta.get("supporting", [])
         brands[meta["slug"]] = meta
         chars = []
         for cfile in sorted(bdir.glob("*.md")):
-            if cfile.name == "brand.md": continue
+            if cfile.name in ("brand.md", "supporting.md"): continue
             cpost = frontmatter.load(cfile)
             cm = dict(cpost.metadata)
             cm["slug"] = cfile.stem

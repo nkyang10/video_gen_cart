@@ -87,6 +87,26 @@ a { color: var(--forest); }
 .stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
 .stat { font-size: 0.9rem; }
 .stat b { color: var(--forest); font-size: 1.2rem; }
+/* 配角 / 路人互動面板 */
+.support-panel { margin-top: 22px; display: grid; gap: 10px; }
+.support-item { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.support-item summary {
+  cursor: pointer; padding: 13px 18px; list-style: none; display: flex; align-items: center; gap: 12px;
+  font-weight: 600; color: var(--ink); transition: background .12s ease; user-select: none;
+}
+.support-item summary::-webkit-details-marker { display: none; }
+.support-item summary:hover { background: #f3efe6; }
+.support-item summary .caret { color: var(--terracotta); transition: transform .18s ease; margin-left: auto; }
+.support-item[open] summary .caret { transform: rotate(90deg); }
+.support-item summary .sup-name { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.05rem; }
+.support-item summary .sup-type { font-size: .72rem; color: var(--forest); background: var(--tag-bg); padding: 2px 10px; border-radius: 20px; font-weight: 600; }
+.support-item summary .sup-zh { color: var(--muted); font-size: .85rem; font-weight: 400; }
+.support-body { padding: 4px 18px 16px; border-top: 1px solid var(--tag-bg); }
+.support-body .sup-relation { margin: 10px 0 4px; color: var(--forest); font-size: .88rem; font-weight: 600; }
+.support-body p, .support-body ul { font-size: .92rem; margin: 6px 0; }
+.support-body .sup-label { color: var(--terracotta); font-weight: 700; font-size: .8rem; letter-spacing: .03em; margin-top: 10px; text-transform: uppercase; }
+.support-body blockquote { font-size: .9rem; }
+.support-hint { color: var(--muted); font-size: .85rem; margin-top: 6px; }
 </style></head><body>
 <header class="site"><div class="wrap">
   <h1><a href="index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
@@ -108,7 +128,30 @@ a { color: var(--forest); }
               <div><span class="name">Olive Oyl</span><span class="zh">奧麗芙（Olive Oyl）</span></div>
               <div class="desc">女主角（Popeye 女友）</div>
               <span class="badge pd">✔ 公版</span>
-            </a></div></div><div class="wrap">
+            </a></div><h2>配角 / 路人 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(3) — 點擊展開互動參考</span></h2><div class="support-panel"><details class="support-item"><summary>
+              <span class="caret">▶</span>
+              <span class="sup-name">Ham Gravy</span>
+              <span class="sup-zh">漢姆格雷維</span>
+              <span class="sup-type">配角（未婚夫）</span>
+            </summary><div class="support-body"><div class="sup-relation">🤝 Olive 喺 Popeye 出現前嘅未婚夫</div><div class="sup-label">互動參考</div><p>Ham Gravy 係 Olive 喺 1919 年登場就訂婚嘅未婚夫，體面、穩重但唔夠「英雄」。Olive 成日嫌佢唔夠男子氣概，對佢嘅求婚/安排大發脾氣。呢個設定係後來 Popeye 登場後三角關係嘅前身。<strong>注意</strong>：Ham Gravy 屬公版，但 Popeye 相關部分（1929+）受保護。</p><div class="sup-label">互動對白</div><blockquote>（Ham Gravy 想討好 Olive 但成日搞砸）</blockquote><div class="sup-label">互動場景</div><ul>
+<li><strong>求婚鬧劇</strong>：Ham Gravy 帶戒指求婚，Olive 因玫瑰刺破裙而發脾氣，戒指扔進湯。</li>
+<li><strong>三角伏筆</strong>：Olive 嫌 Ham 平凡，思念「英雄形象」。</li>
+</ul></div></details><details class="support-item"><summary>
+              <span class="caret">▶</span>
+              <span class="sup-name">Castor Oyl</span>
+              <span class="sup-zh">卡斯托·歐爾</span>
+              <span class="sup-type">配角（大哥）</span>
+            </summary><div class="support-body"><div class="sup-relation">🤝 Olive 嘅大哥，精明做生意人</div><div class="sup-label">互動參考</div><p>Castor Oyl 係 Olive 嘅大哥，精明圓滑、滿腦子生意同冒險大計，成日想將細妹婚事「談成」以圖生意。佢係 1919 Thimble Theatre 早期活躍角色，帶動 Olive 嘅劇情。</p><div class="sup-label">互動對白</div><blockquote>（Castor 推銷生意/婚事大計）</blockquote><div class="sup-label">互動場景</div><ul>
+<li><strong>談婚事</strong>：Castor 想撮合 Olive 婚事嚟做生意。</li>
+<li><strong>冒險大計</strong>：Castor 帶 Olive 入局。</li>
+</ul></div></details><details class="support-item"><summary>
+              <span class="caret">▶</span>
+              <span class="sup-name">Crude Oyl</span>
+              <span class="sup-zh">克魯德·歐爾</span>
+              <span class="sup-type">路人（二哥）</span>
+            </summary><div class="support-body"><div class="sup-relation">🤝 Olive 嘅二哥</div><div class="sup-label">互動參考</div><p>Crude Oyl 係 Olive 嘅二哥，存在感較低，係 Oyl 家庭群像之一。佢同 Castor、Olive 構成「Oyl 一家」，係 Thimble Theatre 早期世界嘅背景角色。</p><div class="sup-label">互動對白</div><blockquote>（Crude 較少對白）</blockquote><div class="sup-label">互動場景</div><ul>
+<li><strong>家庭群像</strong>：Oyl 一家出場。</li>
+</ul></div></details></div><div class="support-hint">💡 互動參考 = 呢個配角/路人同主角嘅相處方式、互動對白同經典情境，方便你喺 AI 創作時保持角色關係一致。</div></div><div class="wrap">
   <div class="footer-note">
     Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
   </div>
