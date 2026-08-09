@@ -383,5 +383,65 @@
     "width": 2048,
     "height": 1536,
     "pd": true
+  },
+  "fig-model-sheet": {
+    "file": "fig-model-sheet.jpg",
+    "title": "File:Fig. Character Design Model Sheet A (cc) 2017 01.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Edli.work\" title=",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Fig._Character_Design_Model_Sheet_A_%28cc%29_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "lucero-otokonoko": {
+    "file": "lucero-otokonoko.jpg",
+    "title": "File:Otokonoko Reference Sheet.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:%E3%83%8B%E3%83%8",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Otokonoko_Reference_Sheet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "wuffle-model-sheets": {
+    "file": "wuffle-model-sheets.jpg",
+    "title": "File:Piti Yindee - Wuffle - Foxxo - Character Model Sheet (second version).jpg",
+    "license": "CC0",
+    "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q112032780\" clas",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Piti_Yindee_-_Wuffle_-_Foxxo_-_Character_Model_Sheet_%28second_version%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "libbie-robot": {
+    "file": "libbie-robot.jpg",
+    "title": "File:Libbie Tyson Tan character sheet.png",
+    "license": "CC0",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Tyson_Tan\" cl",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Libbie_Tyson_Tan_character_sheet.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "brigadier-mk3": {
+    "file": "brigadier-mk3.jpg",
+    "title": "Brigadier Mk.3 front view",
+    "license": "CC BY 2.0",
+    "artist": "Brian Rinker Creative",
+    "source_url": "https://www.flickr.com/photos/44242222@N07/12211040965",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "sh0-6un-mech": {
+    "file": "sh0-6un-mech.jpg",
+    "title": "SH0-6UN Class Mech",
+    "license": "CC BY 2.0",
+    "artist": "Brian Rinker Creative",
+    "source_url": "https://www.flickr.com/photos/44242222@N07/5202973426",
+    "width": 0,
+    "height": 0,
+    "pd": true
   }
 }
