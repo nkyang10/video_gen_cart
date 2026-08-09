@@ -3,7 +3,7 @@
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
     "brand_count": 24,
-    "character_count": 54,
+    "character_count": 61,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -74,6 +74,57 @@
           "scene": "賽馬場、投注站、城市街道 爵士時代（Jazz Age）美國 老婆追擊、債主",
           "personality": "個子矮小、**誇張突出嘅球莖狀大鼻子**、瞇縫「Goggle」式小眼、濃密八字鬍、口叼雪茄 戴高頂禮帽、白手套、剪裁寬鬆西裝——爵士時代小人形象 1920s 初被畫得明顯矮小（強化被老婆管死死嘅矮個子喜感） 破落賭徒 + 運動狂熱：滿腦子賽馬下注發財夢、永遠樂觀愛吹牛屢敗屢戰 被大三倍嘅妻子「甜蜜夫人」Lizzie 壓到喘唔過氣 **Spark Plug**（1922 登場）：破爛寒酸嘅比賽馬，蓋破毯、呆憨表情——「1920s 的 Snoopy」，引發周邊商品熱潮",
           "ai_usage": "**蒙馬首戰**：巴尼押身家喺破毯馬身上、爆冷狂奔、贏返又衝動加注輸光——一日三折 **大都會賭局**：帶蒙馬週遊美國下注、夜總會被設局、陰錯陽差反敗為勝 **妻子殺出**：偷溜跑馬場被體型三倍老婆揸擀麵棍逮住、晾衣繩綁蒙馬偽裝「訓練馬」溜後門、撞正債主 **注意**：只用 1929 前 DeBeck 原作；**騎師「陽光」係種族刻板描繪，現代創作宜迴避/轉化**"
+        },
+        {
+          "slug": "spark-plug",
+          "name": "Spark Plug",
+          "name_zh": "蒙馬（Spark Plug）",
+          "role": "配角（Barney 比賽馬）",
+          "first_appearance": "Barney Google（1922）",
+          "creator": "Billy DeBeck",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/barney-google.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/barney-google-1.jpg",
+              "angle": "巴尼古高",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/barney-google-2.jpg",
+              "angle": "巴尼古高",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/barney-google-3.jpg",
+              "angle": "巴尼古高",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/barney-google-4.jpg",
+              "angle": "德貝克",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "scruffy racehorse, ragged blanket, goofy expression, 1920s comic style。 `scruffy racehorse, ragged blanket, goofy expression, 1920s comic style`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "配角（Barney 比賽馬）",
+          "ai_usage": "**角色互動**：同主角嘅互動參考 **注意**：public-domain 授權"
         }
       ],
       "supporting_characters": [
@@ -486,22 +537,94 @@
           "scene": "Dinty Moore 酒館、上流晚宴、屋企 會動嘅壁畫超現實梗 被擀麵棍追打",
           "personality": "圓鼻、圓點狀眼睛、矮胖結實、稀薄短髮/光頂、玩世不恭賊笑 被逼穿燕尾服+絲質高帽+蝴蝶領結，但衣領成日揪住——「穿上禮服嘅工人」 質樸豪爽、唔擺架子、鍾情朋友圍桌聚餐 最愛鹹牛肉燉白菜（corned beef and cabbage）+ 麥芽啤酒，最大夢想係溜去 Dinty Moore 酒館打牌吃喝 成日畀 Maggie 揸擀麵棍追打拖返屋企——被老婆馴服嘅滑稽丈夫 **Maggie**：初期圓胖、後發展成 chorus girl 身材但面容寒磣；McManus 形容「全世界美麗女人動怒時嘅集合體」；強勢愛慕虛榮、手持擀麵棍、常講 malapropism 英語誤用 **Nora**：靚女女兒，原型係 McManus 太太 Florence",
           "ai_usage": "**鹹牛肉誘惑**：Jiggs 假裝去音樂會、後門溜去酒館食鹹牛肉；Maggie 揸擀麵棍殺到 **上流晚宴失態**：Jiggs 吹高腳杯、狂食鹹牛肉、錯遞名片；愛爾蘭土話敬酒反而博得老太爺歡心 **會動嘅壁畫**：Jiggs 溜走踩入畫裡、畫中紳士推佢出框（超現實第四面牆） **注意**：只用 1930 前 McManus 原繪風格；**新作建議自創新名規避商標**"
+        },
+        {
+          "slug": "maggie",
+          "name": "Maggie",
+          "name_zh": "瑪姬（Jiggs 老婆）",
+          "role": "配角（強勢老婆）",
+          "first_appearance": "Bringing Up Father（1913）",
+          "creator": "George McManus",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/jiggs.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/jiggs-1.jpg",
+              "angle": "傑格斯",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/jiggs-2.jpg",
+              "angle": "傑格斯",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/jiggs-3.jpg",
+              "angle": "傑格斯",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/jiggs-4.jpg",
+              "angle": "傑格斯",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/jiggs-5.jpg",
+              "angle": "麥克曼努斯",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/jiggs-6.jpg",
+              "angle": "麥克曼努斯",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/jiggs-7.jpg",
+              "angle": "麥克曼努斯",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/jiggs-8.jpg",
+              "angle": "瑪姬與傑格斯",
+              "scene": "夫妻",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "overbearing wife, rolling pin in hand, chasing husband, 1910s fashion, Bringing Up Father style。 `overbearing wife, rolling pin in hand, chasing husband, 1910s fashion, Bringing Up Father style`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "配角（強勢老婆）",
+          "ai_usage": "**角色互動**：同主角嘅互動參考 **注意**：CC0 1.0 授權"
         }
       ],
       "supporting_characters": [
         {
-          "name": "Maggie",
-          "name_zh": "瑪姬（Jiggs 老婆）",
-          "type": "配角（老婆）",
-          "relation": "Jiggs 嘅強勢老婆，想佢攀上流社會",
-          "interaction": "Maggie 係 Jiggs 嘅老婆，強勢愛慕虛榮、一心將丈夫「教育」成上流紳士。佢成日揸擀麵棍追打想溜去酒館嘅 Jiggs，係「妻管嚴」喜劇核心。McManus 形容佢係「全世界美麗女人動怒時嘅集合體」。**注意**：名稱係 King Features 商標，新作建議改名。\n"
-        },
-        {
           "name": "Nora",
-          "name_zh": "諾拉（Jiggs 個女）",
+          "name_zh": "諾拉（Jiggs 女兒）",
           "type": "配角（女兒）",
-          "relation": "Jiggs 同 Maggie 嘅靚女女兒",
-          "interaction": "Nora 係 Jiggs 個靚女女兒（原型係 McManus 太太 Florence），傾向母親、熱衷上流社交同追求者。佢對父親 Jiggs 嘅粗俗舉止時而為難、時而打圓場，同母親形成「世故教養 vs 市井樸拙」反差。\n"
+          "relation": "Jiggs 同 Maggie 嘅女兒",
+          "interaction": "Nora 係 Jiggs 同 Maggie 嘅女兒，時常喺父母嘅「妻管嚴」鬥爭中夾喺中間。佢嘅婚事係故事常出現嘅喜劇情節。**注意**：名稱係 King Features 商標，新作建議改名。\n"
         }
       ]
     },
@@ -902,7 +1025,7 @@
           "protected_portion": "無（CC-BY 4.0 可自由使用，需署名）",
           "trademark": "無",
           "verified": "2026-08-09",
-          "image": "assets/img/theophilus.jpg",
+          "image": "assets/img/theophilus-hero.jpg",
           "reference_gallery": [
             {
               "file": "assets/gallery/theophilus-2.jpg",
@@ -1175,7 +1298,7 @@
           "protected_portion": "1931 年正式改名 Pluto 之後嘅演變、現代形象",
           "trademark": "「Pluto」名稱及現代形象商標有效（1930 嘅 Rover 屬公版）",
           "verified": "2026-08-09",
-          "image": "assets/img/pluto-1930.jpg",
+          "image": "assets/img/pluto-1930-hero.jpg",
           "reference_gallery": [
             {
               "file": "assets/gallery/pluto-1930-1.jpg",
@@ -1274,7 +1397,7 @@
           "protected_portion": "後期 Oriolo 工作室創作嘅新內容、電視版本",
           "trademark": "「Felix the Cat」個名受商標保護（DreamWorks/NBCUniversal 持有）",
           "verified": "2026-08-09",
-          "image": "assets/img/felix-early.jpg",
+          "image": "assets/img/felix-early-hero.jpg",
           "reference_gallery": [
             {
               "file": "assets/gallery/felix-early-1.jpg",
@@ -1993,6 +2116,78 @@
       },
       "characters": [
         {
+          "slug": "ignatz",
+          "name": "Ignatz Mouse",
+          "name_zh": "伊格納茨老鼠",
+          "role": "對頭/愛人（核心衝突）",
+          "first_appearance": "Krazy Kat（1910s）",
+          "creator": "George Herriman",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/ignatz.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/krazy-kat-1.jpg",
+              "angle": "瘋貓",
+              "scene": "沙漠漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/krazy-kat-2.jpg",
+              "angle": "瘋貓",
+              "scene": "沙漠漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/krazy-kat-3.jpg",
+              "angle": "瘋貓",
+              "scene": "沙漠漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/krazy-kat-4.jpg",
+              "angle": "瘋貓",
+              "scene": "沙漠漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/krazy-kat-5.jpg",
+              "angle": "伊格納茨",
+              "scene": "老鼠",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/krazy-kat-6.jpg",
+              "angle": "伊格納茨",
+              "scene": "老鼠",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/krazy-kat-7.jpg",
+              "angle": "伊格納茨",
+              "scene": "老鼠",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "small black mouse, brick in hand, mischievous grin, Krazy Kat desert style。 `small black mouse, brick in hand, mischievous grin, Krazy Kat desert style`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "對頭/愛人（核心衝突）",
+          "ai_usage": "**角色互動**：同主角嘅互動參考 **注意**：CC0 1.0 授權"
+        },
+        {
           "slug": "krazy-kat",
           "name": "Krazy Kat",
           "name_zh": "瘋貓（Krazy Kat）",
@@ -2067,18 +2262,11 @@
       ],
       "supporting_characters": [
         {
-          "name": "Ignatz Mouse",
-          "name_zh": "伊格納茨老鼠",
-          "type": "主角對頭/愛人",
-          "relation": "Krazy 深愛佢，佢以掟磚回應",
-          "interaction": "Ignatz 係 Krazy Kat 嘅核心對頭——Krazy 深愛佢，但 Ignatz 憎惡 Krazy，唯一表達就係掟紅色磚頭打 Krazy 個頭。Krazy 卻將磚頭解讀為純粹愛意，開心咁接受。佢哋係「單戀 + 永恆擲磚循環」嘅核心關係。Offisa Pup 成日將 Ignatz 關監獄。\n"
-        },
-        {
-          "name": "Offissa B. Pupp",
-          "name_zh": "巴普警官",
-          "type": "配角（法律守護者）",
-          "relation": "保護 Krazy、逮捕 Ignatz 嘅狗警官",
-          "interaction": "Offisa Pup 係強壯忠實嘅狗警官，對 Krazy 有無名愛慕，一廂情願咁保護佢——成日將「襲擊 Krazy」嘅 Ignatz 關監獄。佢同 Krazy、Ignatz 構成「保護者—被保護者—威脅者」三角。佢代表「法律/秩序」主題。\n"
+          "name": "Offisa Pup",
+          "name_zh": "警察小狗",
+          "type": "配角",
+          "relation": "Krazy 嘅朋友，成日將 Ignatz 關監獄",
+          "interaction": "Offisa Pup 係 Krazy Kat 嘅警察朋友，成日喺 Ignatz 掟磚後將佢關入監獄。佢同 Krazy 有友好互動，係「法律 vs 混亂」嘅平衡角色，構成三角關係一部分。\n"
         }
       ]
     },
@@ -3011,7 +3199,7 @@
           "protected_portion": "1930 後內容（Gus Edson 期 1935-1959）、1974 年再版選集編排",
           "trademark": "「Andy Gump」名可能被第三方使用（如廁所公司），純商業品牌用名要諮詢",
           "verified": "2026-08-09",
-          "image": "assets/img/andy-gump.jpg",
+          "image": "assets/img/andy-gump-hero.jpg",
           "reference_gallery": [
             {
               "file": "assets/gallery/andy-gump-1.jpg",
@@ -3096,6 +3284,85 @@
         "code": "public-domain"
       },
       "characters": [
+        {
+          "slug": "der-captain",
+          "name": "Der Captain",
+          "name_zh": "船長",
+          "role": "配角（代理父親）",
+          "first_appearance": "Katzenjammer Kids（1897）",
+          "creator": "Rudolph Dirks",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/katzenjammer-kids.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/katzenjammer-kids-1.jpg",
+              "angle": "凱曾加默小孩",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/katzenjammer-kids-2.jpg",
+              "angle": "凱曾加默小孩",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/katzenjammer-kids-3.jpg",
+              "angle": "凱曾加默小孩",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/katzenjammer-kids-4.jpg",
+              "angle": "凱曾加默小孩",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/katzenjammer-kids-5.jpg",
+              "angle": "漢斯與弗里茨",
+              "scene": "主角",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/katzenjammer-kids-6.jpg",
+              "angle": "漢斯與弗里茨",
+              "scene": "主角",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/katzenjammer-kids-7.jpg",
+              "angle": "漢斯與弗里茨",
+              "scene": "主角",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/katzenjammer-kids-8.jpg",
+              "angle": "迪克斯",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "old sailor captain, bushy beard, exasperated expression, Katzenjammer Kids style。 `old sailor captain, bushy beard, exasperated expression, Katzenjammer Kids style`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "配角（代理父親）",
+          "ai_usage": "**角色互動**：同主角嘅互動參考 **注意**：public-domain 授權"
+        },
         {
           "slug": "hans-fritz",
           "name": "Hans & Fritz (Katzenjammer Kids)",
@@ -3323,6 +3590,72 @@
       },
       "characters": [
         {
+          "slug": "christopher-robin",
+          "name": "Christopher Robin",
+          "name_zh": "基斯杜化羅賓",
+          "role": "配角（Pooh 主人）",
+          "first_appearance": "Winnie-the-Pooh 原著（1926）",
+          "creator": "A. A. Milne & E. H. Shepard",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": null,
+          "reference_gallery": [],
+          "appearance": "young boy, curly hair, yellow polo shirt, playing in Hundred Acre Wood, Pooh original book style。 `young boy, curly hair, yellow polo shirt, playing in Hundred Acre Wood, Pooh original book style`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "配角（Pooh 主人）",
+          "ai_usage": "**角色互動**：同主角嘅互動參考 **注意**：public-domain 授權"
+        },
+        {
+          "slug": "eeyore",
+          "name": "Eeyore",
+          "name_zh": "依唷（Eeyore，驢仔）",
+          "role": "配角（憂鬱驢仔）",
+          "first_appearance": "Winnie-the-Pooh 原著（1926）",
+          "creator": "A. A. Milne & E. H. Shepard",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": null,
+          "reference_gallery": [],
+          "appearance": "gloomy grey donkey, drooping ears, missing tail with single nail, melancholy expression, Pooh original book style。 `gloomy grey donkey, drooping ears, missing tail with single nail, melancholy expression, Pooh original book style`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "配角（憂鬱驢仔）",
+          "ai_usage": "**角色互動**：同主角嘅互動參考 **注意**：public-domain 授權"
+        },
+        {
+          "slug": "piglet",
+          "name": "Piglet",
+          "name_zh": "小豬",
+          "role": "配角（Pooh 最細膽朋友）",
+          "first_appearance": "Winnie-the-Pooh 原著（1926）",
+          "creator": "A. A. Milne & E. H. Shepard",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": null,
+          "reference_gallery": [],
+          "appearance": "small pink piglet, tiny timid anthropomorphic pig, Pooh original book style, gentle expression。 `small pink piglet, tiny timid anthropomorphic pig, Pooh original book style, gentle expression`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "配角（Pooh 最細膽朋友）",
+          "ai_usage": "**角色互動**：同主角嘅互動參考 **注意**：public-domain 授權"
+        },
+        {
           "slug": "pooh-1926",
           "name": "Winnie-the-Pooh (1926 original)",
           "name_zh": "小熊維尼（1926 原著版）",
@@ -3404,32 +3737,11 @@
       ],
       "supporting_characters": [
         {
-          "name": "Piglet",
-          "name_zh": "小豬",
-          "type": "配角",
-          "relation": "Pooh 最細膽但最忠實嘅朋友",
-          "interaction": "1926 原著入面 Piglet 係一隻細細隻、成日好驚嘅粉紅小豬，係 Pooh 最好嘅朋友。佢雖然細膽，但喺關鍵時刻（如捉 Heffalump、尋 Eeyore 條尾）都會鼓起勇氣幫 Pooh。Pooh 同 Piglet 係「大膽+細膽」互補搭檔。\n"
-        },
-        {
-          "name": "Eeyore",
-          "name_zh": "伊唷（驢仔）",
-          "type": "配角",
-          "relation": "憂鬱嘅驢仔朋友，Pooh 成日幫佢",
-          "interaction": "Eeyore 係隻悲觀憂鬱嘅驢仔，條尾成日甩。Pooh 對佢好有耐性同體諒，成日幫佢搵返條尾（經典：Pooh 用 Pooh-sticks 幫 Eeyore 搵尾）。Eeyore 對 Pooh 嘅好心會淡淡然多謝。Pooh 係少數唔嫌棄 Eeyore 悲觀嘅朋友。\n"
-        },
-        {
           "name": "Rabbit",
           "name_zh": "兔子",
           "type": "配角",
-          "relation": "成日嫌 Pooh 煩但其實當佢朋友",
-          "interaction": "Rabbit 係個有啲小氣、規矩多嘅兔子，成日嫌 Pooh 蠢。經典場面係 Pooh 食太多蜜糖卡咗喺 Rabbit 屋企門口，Rabbit 要諗計整佢出嚟（最後要等 Pooh 瘦返先出到）。佢哋係「煩躁管家 vs 天真鄰居」關係。\n"
-        },
-        {
-          "name": "Christopher Robin",
-          "name_zh": "基斯杜化羅賓",
-          "type": "配角（人類）",
-          "relation": "Pooh 嘅主人/最好朋友，百畝森林嘅精神核心",
-          "interaction": "Christopher Robin 係百畝森林唯一嘅人類細路，Pooh 同所有動物都視佢為領袖同中心。佢溫柔、有耐性，會帶動物們玩、解釋世界，Pooh 對佢忠心耿耿。1926 原著以 Christopher Robin 叫 Pooh 落樓梯講故事開場。\n"
+          "relation": "Pooh 嘅講究朋友，愛整齊",
+          "interaction": "1926 原著入面 Rabbit 係愛整齊、有點急性子嘅朋友，成日同 Pooh 嘅貪吃形成對比。佢常被 Pooh/Roo 搞亂間屋，會表現懊惱但其實樂意幫手。同 Pooh 係「整齊 vs 邋遢」互補。\n"
         }
       ]
     }

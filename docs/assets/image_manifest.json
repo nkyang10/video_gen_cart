@@ -1,13 +1,12 @@
 {
   "mickey-1928": {
     "file": "mickey-1928.jpg",
-    "title": "File:Mickey-mouse-laughing-(cropped).png",
-    "license": "Public domain",
-    "license_url": "",
-    "artist": "Walt Disney and Ub Iwerks",
-    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Mickey-mouse-laughing-%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 229,
-    "height": 209,
+    "title": "Magical Steamboat Willie",
+    "license": "by",
+    "artist": "JD Hancock",
+    "source_url": "https://www.flickr.com/photos/83346641@N00/7991872876",
+    "width": 1024,
+    "height": 681,
     "pd": true
   },
   "minnie-1928": {
@@ -22,25 +21,24 @@
     "pd": true
   },
   "pluto-1930": {
-    "file": "pluto-1930.jpg",
+    "file": "pluto-1930-hero.jpg",
     "title": "File:Disney's Pluto first and second appearances in 1930.jpg",
     "license": "Public domain",
     "license_url": "",
     "artist": "Walt Disney",
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Disney%27s_Pluto_first_and_second_appearances_in_1930.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 760,
-    "height": 324,
-    "pd": true
+    "width": 1024,
+    "height": 876,
+    "pd": true,
+    "gallery_promoted": true
   },
   "betty-boop-1930": {
     "file": "betty-boop-1930.jpg",
-    "title": "File:Betty Boop First Version.png",
-    "license": "Public domain",
-    "license_url": "",
-    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Dave_Fleischer\" class=\"extiw\" tit",
-    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Betty_Boop_First_Version.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 522,
-    "height": 673,
+    "title": "File:Rosa'Betty Boop'.JPG",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Rosa%27Betty_Boop%27.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5184,
+    "height": 3456,
     "pd": true
   },
   "popeye-1929": {
@@ -55,15 +53,16 @@
     "pd": true
   },
   "felix-early": {
-    "file": "felix-early.jpg",
+    "file": "felix-early-hero.jpg",
     "title": "File:Felix 1919.jpg",
     "license": "Public domain",
     "license_url": "",
     "artist": "Pat Sullivan",
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Felix_1919.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 498,
-    "height": 323,
-    "pd": true
+    "width": 960,
+    "height": 720,
+    "pd": true,
+    "gallery_promoted": true
   },
   "oswald-1927": {
     "file": "oswald-1927.jpg",
@@ -111,13 +110,12 @@
   },
   "krazy-kat": {
     "file": "krazy-kat.jpg",
-    "title": "File:Ignatz Mouse in a 1922 Krazy Kat hand-colored panel \"AH-H LITTLE FLOWER MAYBE YOU CAN HELP ME\" dated 1 July 1922 (cropped).jpg",
-    "license": "Public domain",
-    "license_url": "",
-    "artist": "<a href=\"https://en.wikipedia.org/wiki/George_Herriman\" class=\"extiw\" title=\"w:G",
-    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Ignatz_Mouse_in_a_1922_Krazy_Kat_hand-colored_panel_%22AH-H_LITTLE_FLOWER_MAYBE_YOU_CAN_HELP_ME%22_dated_1_July_1922_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 557,
-    "height": 489,
+    "title": "Krazy Kat Octavia Books New Orleans 2016 - Michael Tisserand speaks",
+    "license": "by",
+    "artist": "Infrogmation of New Orleans",
+    "source_url": "https://commons.wikimedia.org/w/index.php?curid=132455092",
+    "width": 5184,
+    "height": 3888,
     "pd": true
   },
   "katzenjammer-kids": {
@@ -133,36 +131,34 @@
   },
   "mutt-jeff": {
     "file": "mutt-jeff.jpg",
-    "title": "File:Bud Fisher with Mutt & Jeff.jpg",
-    "license": "Public domain",
-    "license_url": "",
-    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Bud_Fisher\" class=\"extiw\" title=\"",
-    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Bud_Fisher_with_Mutt_%26_Jeff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 443,
-    "height": 636,
+    "title": "13-0032-002 Mutt and Jeff by Al Smith NNMC News 197111",
+    "license": "by",
+    "artist": "mgrhode1",
+    "source_url": "https://www.flickr.com/photos/42072348@N00/8466886234",
+    "width": 1024,
+    "height": 689,
     "pd": true
   },
   "olive-oyl": {
     "file": "olive-oyl.jpg",
-    "title": "File:OliveOyl and Hamgravy.jpg",
+    "title": "File:Olive Oyl Popeye Meets Sindbad.png",
     "license": "Public domain",
-    "license_url": "",
-    "artist": "E.C. Segar",
-    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/OliveOyl_and_Hamgravy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 328,
-    "height": 256,
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Olive_Oyl_Popeye_Meets_Sindbad.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1440,
+    "height": 1080,
     "pd": true
   },
   "andy-gump": {
-    "file": "andy-gump.jpg",
+    "file": "andy-gump-hero.jpg",
     "title": "File:Andy Gump visiting Seattle, June 1926 (MOHAI 11081).jpg",
     "license": "Public domain",
     "license_url": "",
     "artist": "<div class=\"fn value\">\nWebster &amp; Stevens</div>",
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Andy_Gump_visiting_Seattle%2C_June_1926_%28MOHAI_11081%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 700,
-    "height": 500,
-    "pd": true
+    "width": 960,
+    "height": 676,
+    "pd": true,
+    "gallery_promoted": true
   },
   "jiggs": {
     "file": "jiggs.jpg",
@@ -330,15 +326,16 @@
     "pd": true
   },
   "theophilus": {
-    "file": "theophilus.jpg",
+    "file": "theophilus-hero.jpg",
     "title": "File:Jayvee Enaguas - Harvett and His Folks - Theophilus - Player Character Sheet.webp",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0",
     "artist": "<a href=\"//commons.wikimedia.org/wiki/User:The_Harvett_Vault\" title=\"User:The Ha",
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Jayvee_Enaguas_-_Harvett_and_His_Folks_-_Theophilus_-_Player_Character_Sheet.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 256,
-    "height": 256,
-    "pd": true
+    "width": 960,
+    "height": 720,
+    "pd": true,
+    "gallery_promoted": true
   },
   "duskako": {
     "file": "duskako.jpg",
@@ -400,8 +397,8 @@
     "license": "CC BY-SA 4.0",
     "artist": "<a href=\"//commons.wikimedia.org/wiki/User:%E3%83%8B%E3%83%8",
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Otokonoko_Reference_Sheet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 0,
-    "height": 0,
+    "width": 4080,
+    "height": 3060,
     "pd": true
   },
   "wuffle-model-sheets": {
@@ -410,8 +407,8 @@
     "license": "CC0",
     "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q112032780\" clas",
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Piti_Yindee_-_Wuffle_-_Foxxo_-_Character_Model_Sheet_%28second_version%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 0,
-    "height": 0,
+    "width": 1500,
+    "height": 1000,
     "pd": true
   },
   "libbie-robot": {
@@ -450,8 +447,8 @@
     "license": "CC BY-SA 4.0",
     "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Tyson_Tan\" cl",
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Kiki_the_Cyber_Squirrel_mascot_of_Krita_plastic_model_kit_design_sheet.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 0,
-    "height": 0,
+    "width": 5722,
+    "height": 3508,
     "pd": true
   },
   "1d-model-sheet": {
@@ -460,8 +457,8 @@
     "license": "CC BY 3.0",
     "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Deevad\" title=\"Us",
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/1D_model-sheet.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 0,
-    "height": 0,
+    "width": 5641,
+    "height": 2500,
     "pd": true
   },
   "wikipetan": {
@@ -470,18 +467,17 @@
     "license": "CC BY-SA 3.0",
     "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Kasuga~commonswik",
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Wikipe-tan_full_length.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 0,
-    "height": 0,
+    "width": 1110,
+    "height": 2100,
     "pd": true
   },
   "kraken-s": {
     "file": "kraken-s.jpg",
-    "title": "File:Kraken S.png",
-    "license": "CC BY-SA 3.0",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://openga",
-    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Kraken_S.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 0,
-    "height": 0,
+    "title": "File:U-853 SAS Image.jpg",
+    "license": "CC BY-SA 2.0",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/U-853_SAS_Image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2816,
+    "height": 1504,
     "pd": true
   },
   "david-revoy-char": {
@@ -490,8 +486,8 @@
     "license": "CC BY 4.0",
     "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:David_Revoy\" ",
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/2016-02-25_characters-lineart_by-David-Revoy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 0,
-    "height": 0,
+    "width": 5259,
+    "height": 2400,
     "pd": true
   },
   "owl-class-scout": {
@@ -562,6 +558,15 @@
     "source_url": "https://www.flickr.com/photos/34017082@N06/3726500179",
     "width": 0,
     "height": 0,
+    "pd": true
+  },
+  "ignatz": {
+    "file": "ignatz.jpg",
+    "title": "Ignatz Mouse (from Krazy Kat gallery)",
+    "license": "Public domain",
+    "source_url": "",
+    "width": 960,
+    "height": 376,
     "pd": true
   }
 }
