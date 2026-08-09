@@ -4,7 +4,7 @@ Video Gen Cart — Markdown → 靜態網站 generator
 讀取 data/brands/<brand>/ 入面嘅 brand.md + <character>.md，
 生成 docs/ 靜態網站（brand → character 兩層瀏覽）。
 """
-import re, sys, html
+import re, sys, html, json
 from pathlib import Path
 import markdown
 import frontmatter
@@ -178,7 +178,7 @@ def render_md(text):
     MD.reset()
     return MD.convert(text or "")
 
-def header(title, active_brand=None, page_zh=""):
+def header(title, active_brand=None, page_zh="", jsonld=None):
     brand_links = []
     for brand in sorted(brands.values(), key=lambda b: b["name"].lower()):
         cls = "active" if active_brand and brand["slug"] == active_brand else ""
@@ -188,10 +188,11 @@ def header(title, active_brand=None, page_zh=""):
     nav = ""
     if active_brand:
         nav = f'<nav class="brand-tabs">{"".join(brand_links)}</nav>'
+    ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
     return f"""<!DOCTYPE html><html lang="zh-Hant"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)} — Video Gen Cart</title>
-<style>{CSS}</style></head><body>
+{ld}<style>{CSS}</style></head><body>
 <header class="site"><div class="wrap">
   <h1><a href="index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
   <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
@@ -305,6 +306,110 @@ def page_character(brand, c):
     return "".join(body)
 
 # ---------- Build ----------
+
+def _license_field(cm):
+    """統一 license 顯示（PD vs CC）。"""
+    if cm.get("license_type") == "cc":
+        return {"type": "CC", "code": cm.get("license", "CC")}
+    status = str(cm.get("status", "") or "")
+    if cm.get("public_domain"):
+        return {"type": "PD", "code": "public-domain"}
+    if "公版" in status or "PD" in status.upper() or "自由授權" in status or "CC0" in status:
+        return {"type": "PD", "code": "public-domain"}
+    return {"type": "UNKNOWN", "code": ""}
+
+def emit_catalog_json():
+    """輸出 /api/catalog.json — AI agent 一撳 load 全量結構化資料（video generation 基礎）。"""
+    catalog = {
+        "meta": {
+            "name": "Video Gen Cart",
+            "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
+            "brand_count": len(brands),
+            "character_count": sum(len(v) for v in characters.values()),
+            "generated": "2026-08-09",
+            "schema_version": "1.0",
+        },
+        "brands": [],
+    }
+    for b in sorted(brands.values(), key=lambda x: x["name"].lower()):
+        bc = characters.get(b["slug"], [])
+        brand_entry = {
+            "slug": b["slug"],
+            "name": b.get("name"),
+            "name_zh": b.get("brand_zh", ""),
+            "type": b.get("type", ""),
+            "country": b.get("country", ""),
+            "era": b.get("era", ""),
+            "creator": b.get("creator", ""),
+            "publisher": b.get("original_publisher", ""),
+            "first_appearance_year": b.get("first_appearance_year"),
+            "status": b.get("status", ""),
+            "license": _license_field(b),
+            "characters": [],
+        }
+        # 配角 / 路人互動參考
+        if b.get("supporting"):
+            brand_entry["supporting_characters"] = [
+                {"name": s.get("name"), "name_zh": s.get("name_zh", ""), "type": s.get("type", ""),
+                 "relation": s.get("relation", ""), "interaction": s.get("interaction", "")}
+                for s in b["supporting"]
+            ]
+        for c in bc:
+            gallery = GALLERY.get(c.get("slug")) or GALLERY.get(b["slug"]) or []
+            main_img = IMAGES.get(c.get("slug")) or IMAGES.get(b["slug"])
+            char_entry = {
+                "slug": c.get("slug"),
+                "name": c.get("name"),
+                "name_zh": c.get("character_zh", ""),
+                "role": c.get("role", ""),
+                "first_appearance": c.get("first_appearance", ""),
+                "creator": c.get("creator", ""),
+                "license": _license_field(c),
+                "protected_portion": c.get("protected_portion", ""),
+                "trademark": c.get("trademark", ""),
+                "verified": c.get("verified", ""),
+                "image": f"assets/img/{main_img['file']}" if main_img and main_img.get("file") else None,
+                "reference_gallery": [
+                    {"file": f"assets/gallery/{g['file']}", "angle": g.get("angle", ""),
+                     "scene": g.get("scene", ""), "license": g.get("license", ""),
+                     "source": g.get("source_url", "")}
+                    for g in gallery if g.get("file")
+                ],
+                # video-generation 專用欄位
+                "appearance": _extract_section(c, "外觀描述"),
+                "dialogue": _extract_quote(c),
+                "scene": _extract_section(c, "場景"),
+                "personality": _extract_section(c, "性格"),
+                "ai_usage": _extract_section(c, "AI 創意用法"),
+            }
+            brand_entry["characters"].append(char_entry)
+        catalog["brands"].append(brand_entry)
+    api_dir = OUT / "api"
+    api_dir.mkdir(parents=True, exist_ok=True)
+    (api_dir / "catalog.json").write_text(json.dumps(catalog, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"  ✦ catalog.json → docs/api/catalog.json ({len(brands)} brands / {sum(len(v) for v in characters.values())} characters)")
+
+def _extract_section(cm, heading):
+    """由角色 markdown content 抽指定 section 嘅純文字（畀 AI parse）。"""
+    text = cm.get("content", "") or ""
+    lines = text.splitlines()
+    out, on = [], False
+    for ln in lines:
+        stripped = ln.strip()
+        if stripped.startswith("#") and heading in stripped:
+            on = True; continue
+        if on and stripped.startswith("#"):
+            break
+        if on and stripped and not stripped.startswith(("**", ">", "```")):
+            out.append(stripped.lstrip("- "))
+    return " ".join(out).strip()[:600]
+
+def _extract_quote(cm):
+    """抽角色對白（blockquote）。"""
+    text = cm.get("content", "") or ""
+    m = re.search(r">\s*([^\n]+)", text)
+    return m.group(1).strip() if m else ""
+
 def load():
     global brands, characters
     brands, characters = {}, {}
@@ -364,9 +469,23 @@ def build():
         htmlout = header(f'{b["name"]}', active_brand=slug) + page_brand_index(b) + PAGE_FOOT
         (bdir / "index.html").write_text(htmlout, encoding="utf-8")
         for c in characters.get(slug, []):
-            (bdir / f'{c["slug"]}.html').write_text(header(f'{c["name"]}', active_brand=slug) + page_character(b, c) + PAGE_FOOT, encoding="utf-8")
+            ld = {
+                "@context": "https://schema.org",
+                "@type": "CreativeWork",
+                "name": c.get("name"),
+                "alternateName": c.get("character_zh", ""),
+                "description": f"角色資料：{c.get('role','')}。出處 {c.get('first_appearance','')}。授權 {c.get('license', '')}",
+                "keywords": c.get("role", "") + ", " + c.get("brand", ""),
+            }
+            main_img = IMAGES.get(c.get("slug")) or IMAGES.get(b["slug"])
+            if main_img and main_img.get("file"):
+                ld["image"] = f"../../assets/img/{main_img['file']}"
+            (bdir / f'{c["slug"]}.html').write_text(
+                header(f'{c["name"]}', active_brand=slug, jsonld=ld)
+                + page_character(b, c) + PAGE_FOOT, encoding="utf-8")
     (OUT / ".nojekyll").touch()
     (OUT / "assets").mkdir(exist_ok=True)
+    emit_catalog_json()
     (OUT / "assets" / "style.css").write_text(CSS, encoding="utf-8")
     print(f"✅ Generated {len(brands)} brands, {sum(len(v) for v in characters.values())} characters → {OUT}")
 

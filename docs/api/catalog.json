@@ -1,0 +1,3437 @@
+{
+  "meta": {
+    "name": "Video Gen Cart",
+    "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
+    "brand_count": 24,
+    "character_count": 54,
+    "generated": "2026-08-09",
+    "schema_version": "1.0"
+  },
+  "brands": [
+    {
+      "slug": "barney-google",
+      "name": "Barney Google",
+      "name_zh": "巴尼古高（Barney Google）",
+      "type": "報紙漫畫",
+      "country": "美國",
+      "era": "1919-",
+      "creator": "Billy DeBeck",
+      "publisher": "King Features Syndicate",
+      "first_appearance_year": 1919,
+      "status": "公版",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "barney-google",
+          "name": "Barney Google",
+          "name_zh": "巴尼古高",
+          "role": "主角",
+          "first_appearance": "Take Barney Google, For Instance（1919 年 6 月 17 日）",
+          "creator": "Billy DeBeck",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "1930 後條畫、後繼者（Fred Lasswell/John Rose）新版、King Features 現代授權",
+          "trademark": "部分市場名稱/形象可能受商標及公眾形象權保護",
+          "verified": "2026-08-09",
+          "image": "assets/img/barney-google.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/barney-google-1.jpg",
+              "angle": "巴尼古高",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/barney-google-2.jpg",
+              "angle": "巴尼古高",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/barney-google-3.jpg",
+              "angle": "巴尼古高",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/barney-google-4.jpg",
+              "angle": "德貝克",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "1920s 報紙漫畫風格——黑白墨線、粗乾脆輪廓、斜紋線影 + 網點；角色比例極度誇張（矮主角 + 碩大鼻子 + 不合比例高禮帽）；復古米黃/棕褐/暗紅/橄欖色調。 `1920s American newspaper comic strip, iconic character portrait: a short smug little man with a huge bulbous crimson nose, squinty goggle eyes, sweeping handlebar moustache, white gloves, tall black top hat, fat cigar clamped in his grin, oversized baggy black suit, bold black outlines, flat vintage tan and olive palette`",
+          "dialogue": "（賭徒式、賽馬相關對白）",
+          "scene": "賽馬場、投注站、城市街道 爵士時代（Jazz Age）美國 老婆追擊、債主",
+          "personality": "個子矮小、**誇張突出嘅球莖狀大鼻子**、瞇縫「Goggle」式小眼、濃密八字鬍、口叼雪茄 戴高頂禮帽、白手套、剪裁寬鬆西裝——爵士時代小人形象 1920s 初被畫得明顯矮小（強化被老婆管死死嘅矮個子喜感） 破落賭徒 + 運動狂熱：滿腦子賽馬下注發財夢、永遠樂觀愛吹牛屢敗屢戰 被大三倍嘅妻子「甜蜜夫人」Lizzie 壓到喘唔過氣 **Spark Plug**（1922 登場）：破爛寒酸嘅比賽馬，蓋破毯、呆憨表情——「1920s 的 Snoopy」，引發周邊商品熱潮",
+          "ai_usage": "**蒙馬首戰**：巴尼押身家喺破毯馬身上、爆冷狂奔、贏返又衝動加注輸光——一日三折 **大都會賭局**：帶蒙馬週遊美國下注、夜總會被設局、陰錯陽差反敗為勝 **妻子殺出**：偷溜跑馬場被體型三倍老婆揸擀麵棍逮住、晾衣繩綁蒙馬偽裝「訓練馬」溜後門、撞正債主 **注意**：只用 1929 前 DeBeck 原作；**騎師「陽光」係種族刻板描繪，現代創作宜迴避/轉化**"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Spark Plug (Sparky)",
+          "name_zh": "蒙馬（Spark Plug）",
+          "type": "配角",
+          "relation": "Barney 嘅比賽用馬",
+          "interaction": "Spark Plug 係 Barney 1922 年登場嘅破爛寒酸比賽馬，蓋住破毯、呆憨表情，被譽為「1920 年代的 Snoopy」，引發周邊商品熱潮。Barney 同佢形影不離，帶佢去賽馬場博彩，係人馬喜劇拍檔。\n"
+        },
+        {
+          "name": "Lizzie Google",
+          "name_zh": "麗茲（Barney 老婆）",
+          "type": "配角（老婆）",
+          "relation": "Barney 體型三倍嘅強勢老婆",
+          "interaction": "Lizzie 係 Barney 體型三倍嘅「甜蜜夫人」，長期壓迫佢、囉嗦家事，令 Barney 成日想溜走賭馬。佢最後同 Barney 離婚並淡出漫畫。Barney 對佢又驚又躲，係「妻管嚴」另一例。\n"
+        },
+        {
+          "name": "騎師 Sunshine（陽光）",
+          "name_zh": "騎師陽光",
+          "type": "配角（騎師）",
+          "relation": "Spark Plug 嘅黑人小騎師",
+          "interaction": "Sunshine 係 Spark Plug 嘅永久專屬騎師。**⚠️ 時代敏感**：原著係 1920 年代種族刻板描繪，現代創作宜迴避或轉化，唔好原樣再現刻板形象。佢同 Barney/Spark Plug 係賽馬團隊。\n"
+        }
+      ]
+    },
+    {
+      "slug": "blender-open-movies",
+      "name": "Blender Open Movies",
+      "name_zh": "Blender 開放電影角色",
+      "type": "開放源碼動畫電影",
+      "country": "荷蘭（Blender Foundation）",
+      "era": "2006-",
+      "creator": "Blender Foundation",
+      "publisher": "Blender Studio / Blender Foundation",
+      "first_appearance_year": 2006,
+      "status": "CC-BY 4.0 自由授權",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "big-buck-bunny",
+          "name": "Big Buck Bunny",
+          "name_zh": "大公雞兔（Big Buck Bunny）",
+          "role": "主角（開放電影）",
+          "first_appearance": "Big Buck Bunny（2008，Blender Foundation）",
+          "creator": "Blender Foundation",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（CC-BY 4.0 可自由使用，需署名）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/big-buck-bunny.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/big-buck-bunny-1.jpg",
+              "angle": "大公雞兔",
+              "scene": "開放電影",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/big-buck-bunny-2.jpg",
+              "angle": "大公雞兔",
+              "scene": "開放電影",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/big-buck-bunny-3.jpg",
+              "angle": "大公雞兔",
+              "scene": "開放電影",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/big-buck-bunny-4.jpg",
+              "angle": "大公雞兔",
+              "scene": "開放電影",
+              "license": "by",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/big-buck-bunny-5.jpg",
+              "angle": "大公雞兔",
+              "scene": "開放電影",
+              "license": "by",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/big-buck-bunny-6.jpg",
+              "angle": "大公雞兔",
+              "scene": "角色",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/big-buck-bunny-7.jpg",
+              "angle": "大公雞兔",
+              "scene": "角色",
+              "license": "CC BY 2.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/big-buck-bunny-8.jpg",
+              "angle": "大公雞兔",
+              "scene": "角色",
+              "license": "CC BY 3.0",
+              "source": ""
+            }
+          ],
+          "appearance": "3D 動畫風格——巨大圓潤粉白公兔、友善表情、森林場景。 `3D animated film style, a huge round friendly white and pink rabbit, gentle expression, in a sunny forest meadow, Big Buck Bunny open movie style, soft Pixar-like rendering`",
+          "dialogue": "（無對白，靠肢體喜劇）",
+          "scene": "森林草地 對抗囂張反派 好人反擊",
+          "personality": "圓滾滾、粉白配色嘅巨大公兔 溫和但被逼到反擊——「好人反擊」經典套路 喜劇主角",
+          "ai_usage": "**好人反擊**：溫和主角被逼反擊 **森林喜劇**：巨型兔子日常 **注意**：CC-BY 4.0，商用需署名"
+        },
+        {
+          "slug": "koro",
+          "name": "Koro",
+          "name_zh": "可樂（Koro，羊駝）",
+          "role": "主角（開放電影）",
+          "first_appearance": "Caminandes（2013，Blender Foundation）",
+          "creator": "Pablo Vazquez / Beorn Leonard / Francesco Siddi",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（CC-BY 4.0 可自由使用，需署名）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/koro.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/koro-1.jpg",
+              "angle": "可樂",
+              "scene": "開放電影",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/koro-2.jpg",
+              "angle": "可樂",
+              "scene": "開放電影",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/koro-3.jpg",
+              "angle": "可樂",
+              "scene": "開放電影",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/koro-4.jpg",
+              "angle": "可樂",
+              "scene": "羊駝",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/koro-5.jpg",
+              "angle": "可樂",
+              "scene": "羊駝",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/koro-6.jpg",
+              "angle": "可樂",
+              "scene": "羊駝",
+              "license": "by",
+              "source": ""
+            }
+          ],
+          "appearance": "3D 動作喜劇風格——頑固灰色羊駝、貪吃表情、巴塔哥尼亞雪原背景。 `3D animated comedy style, a stubborn grey llama with greedy mischievous expression, in a snowy Patagonian landscape, Caminandes open movie style, cartoonish exaggerated animation`",
+          "dialogue": "（無對白，動作喜劇）",
+          "scene": "巴塔哥尼亞雪原 搶食物大戰 南美風情",
+          "personality": "頑固、貪吃、愛惹麻煩嘅灰色羊駝（llama） 同對手企鵝 Oti 為搶食物大打出手 富含南美風情幽默",
+          "ai_usage": "**搶食大戰**：羊駝 vs 企鵝 Oti **雪原喜劇**：頑固羊駝日常 **注意**：CC-BY 4.0，商用需署名"
+        },
+        {
+          "slug": "oti",
+          "name": "Oti",
+          "name_zh": "奧提（Oti，企鵝）",
+          "role": "配角（開放電影）",
+          "first_appearance": "Caminandes（2013，Blender Foundation）",
+          "creator": "Pablo Vazquez / Beorn Leonard / Francesco Siddi",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（CC-BY 4.0 可自由使用，需署名）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/oti.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/oti-1.jpg",
+              "angle": "奧提",
+              "scene": "企鵝",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/oti-2.jpg",
+              "angle": "奧提",
+              "scene": "企鵝",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/oti-3.jpg",
+              "angle": "奧提",
+              "scene": "企鵝",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/oti-4.jpg",
+              "angle": "卡米南德斯",
+              "scene": "開放電影",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/oti-5.jpg",
+              "angle": "卡米南德斯",
+              "scene": "開放電影",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/oti-6.jpg",
+              "angle": "卡米南德斯",
+              "scene": "開放電影",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/oti-7.jpg",
+              "angle": "卡米南德斯",
+              "scene": "開放電影",
+              "license": "by",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/oti-8.jpg",
+              "angle": "卡米南德斯",
+              "scene": "開放電影",
+              "license": "by",
+              "source": ""
+            }
+          ],
+          "appearance": "3D 動作喜劇風格——企鵝、圓潤、雪原背景。 `3D animated comedy style, a round cartoon penguin with determined expression, in snowy Patagonian landscape, Caminandes open movie style, exaggerated animation`",
+          "dialogue": "（無對白，動作喜劇）",
+          "scene": "巴塔哥尼亞雪原 同 Koro 搶食大戰",
+          "personality": "企鵝，Koro 羊駝嘅死對頭 同 Koro 為搶食物大打出手 動作喜劇風格",
+          "ai_usage": "**搶食大戰**：企鵝 vs 羊駝 Koro **雪原喜劇**：企鵝日常 **注意**：CC-BY 4.0，商用需署名"
+        },
+        {
+          "slug": "sintel",
+          "name": "Sintel",
+          "name_zh": "辛特（Sintel）",
+          "role": "主角（開放電影）",
+          "first_appearance": "Sintel（2010，Blender Foundation）",
+          "creator": "Blender Foundation（導演 Colin Levy）",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（CC-BY 4.0 可自由使用改編，需署名）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/sintel.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/sintel-1.jpg",
+              "angle": "辛特",
+              "scene": "開放電影",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/sintel-2.jpg",
+              "angle": "辛特",
+              "scene": "開放電影",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/sintel-3.jpg",
+              "angle": "辛特",
+              "scene": "開放電影",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/sintel-4.jpg",
+              "angle": "辛特",
+              "scene": "開放電影",
+              "license": "by",
+              "source": ""
+            }
+          ],
+          "appearance": "奇幻動畫風格——破舊紅袍、紅髮、少女獵人，山脈荒原背景。 `fantasy animated film style, a brave young girl hunter with red hair wearing a tattered red cloak, holding a staff, on a quest across a mountain wilderness, Blender open movie Sintel style, cinematic lighting`",
+          "dialogue": "（尋龍旅程中嘅堅毅對白）",
+          "scene": "奇幻山脈、荒原 尋龍旅程 悲傷感人冒險",
+          "personality": "穿破舊紅袍嘅紅髮少女獵人 堅毅勇敢、有悲傷感人嘅尋龍旅程 奇幻冒險女主角",
+          "ai_usage": "**尋龍旅程**：少女獵人歷險 **奇幻冒險**：紅袍少女主角 **注意**：CC-BY 4.0 授權，商用需署名"
+        }
+      ]
+    },
+    {
+      "slug": "jiggs",
+      "name": "Bringing Up Father",
+      "name_zh": "扶養父親（Bringing Up Father）",
+      "type": "報紙漫畫",
+      "country": "美國",
+      "era": "1913-",
+      "creator": "George McManus",
+      "publisher": "King Features Syndicate",
+      "first_appearance_year": 1913,
+      "status": "公版",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "jiggs",
+          "name": "Jiggs",
+          "name_zh": "傑格斯（爸爸成長記）",
+          "role": "主角",
+          "first_appearance": "Bringing Up Father（1913 年 1 月 2 日）",
+          "creator": "George McManus",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "1930 後出版內容、King Features 彩色重製版",
+          "trademark": "「Bringing Up Father」「Jiggs」「Maggie」名稱商標歸 King Features（可用公版原繪，新作建議改名）",
+          "verified": "2026-08-09",
+          "image": "assets/img/jiggs.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/jiggs-1.jpg",
+              "angle": "傑格斯",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/jiggs-2.jpg",
+              "angle": "傑格斯",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/jiggs-3.jpg",
+              "angle": "傑格斯",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/jiggs-4.jpg",
+              "angle": "傑格斯",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/jiggs-5.jpg",
+              "angle": "麥克曼努斯",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/jiggs-6.jpg",
+              "angle": "麥克曼努斯",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/jiggs-7.jpg",
+              "angle": "麥克曼努斯",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/jiggs-8.jpg",
+              "angle": "瑪姬與傑格斯",
+              "scene": "夫妻",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "1910s-20s 報刊漫畫風格——**所有角色以「圓」為基底**：圓點眼睛、圓鼻、橡皮球般滑順面容。粗黑乾淨外輪廓、精緻幾何裝飾、Art Deco 折線/Art Nouveau 蔓藤、強烈對稱、會動嘅壁畫（畫中人自己移動）。 `1920s American newspaper comic-strip panel, a portly Irish immigrant man with a round red-veined nose, small dot eyes, receding hair, wearing a too-tight tuxedo with a white bow tie, gleefully tiptoeing out holding a skillet of steaming corned-beef-and-cabbage, Art Deco geometric wallpaper, thick black ink lines, flat muted color washes`",
+          "dialogue": "「Let's go to Dinty Moore's!」（鹹牛肉椰菜執念）",
+          "scene": "Dinty Moore 酒館、上流晚宴、屋企 會動嘅壁畫超現實梗 被擀麵棍追打",
+          "personality": "圓鼻、圓點狀眼睛、矮胖結實、稀薄短髮/光頂、玩世不恭賊笑 被逼穿燕尾服+絲質高帽+蝴蝶領結，但衣領成日揪住——「穿上禮服嘅工人」 質樸豪爽、唔擺架子、鍾情朋友圍桌聚餐 最愛鹹牛肉燉白菜（corned beef and cabbage）+ 麥芽啤酒，最大夢想係溜去 Dinty Moore 酒館打牌吃喝 成日畀 Maggie 揸擀麵棍追打拖返屋企——被老婆馴服嘅滑稽丈夫 **Maggie**：初期圓胖、後發展成 chorus girl 身材但面容寒磣；McManus 形容「全世界美麗女人動怒時嘅集合體」；強勢愛慕虛榮、手持擀麵棍、常講 malapropism 英語誤用 **Nora**：靚女女兒，原型係 McManus 太太 Florence",
+          "ai_usage": "**鹹牛肉誘惑**：Jiggs 假裝去音樂會、後門溜去酒館食鹹牛肉；Maggie 揸擀麵棍殺到 **上流晚宴失態**：Jiggs 吹高腳杯、狂食鹹牛肉、錯遞名片；愛爾蘭土話敬酒反而博得老太爺歡心 **會動嘅壁畫**：Jiggs 溜走踩入畫裡、畫中紳士推佢出框（超現實第四面牆） **注意**：只用 1930 前 McManus 原繪風格；**新作建議自創新名規避商標**"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Maggie",
+          "name_zh": "瑪姬（Jiggs 老婆）",
+          "type": "配角（老婆）",
+          "relation": "Jiggs 嘅強勢老婆，想佢攀上流社會",
+          "interaction": "Maggie 係 Jiggs 嘅老婆，強勢愛慕虛榮、一心將丈夫「教育」成上流紳士。佢成日揸擀麵棍追打想溜去酒館嘅 Jiggs，係「妻管嚴」喜劇核心。McManus 形容佢係「全世界美麗女人動怒時嘅集合體」。**注意**：名稱係 King Features 商標，新作建議改名。\n"
+        },
+        {
+          "name": "Nora",
+          "name_zh": "諾拉（Jiggs 個女）",
+          "type": "配角（女兒）",
+          "relation": "Jiggs 同 Maggie 嘅靚女女兒",
+          "interaction": "Nora 係 Jiggs 個靚女女兒（原型係 McManus 太太 Florence），傾向母親、熱衷上流社交同追求者。佢對父親 Jiggs 嘅粗俗舉止時而為難、時而打圓場，同母親形成「世故教養 vs 市井樸拙」反差。\n"
+        }
+      ]
+    },
+    {
+      "slug": "buck-rogers",
+      "name": "Buck Rogers",
+      "name_zh": "巴克羅渣士（Buck Rogers）",
+      "type": "科幻連載（中篇 + 報紙漫畫）",
+      "country": "美國",
+      "era": "1928-1929",
+      "creator": "Philip Francis Nowlan",
+      "publisher": "Amazing Stories（中篇）→ 報紙漫畫",
+      "first_appearance_year": 1928,
+      "status": "公版",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "buck-rogers",
+          "name": "Buck Rogers (Anthony Rogers)",
+          "name_zh": "巴克羅渣士",
+          "role": "主角",
+          "first_appearance": "Armageddon 2419 A.D. 中篇（1928）／漫畫（1929 年 1 月 7 日）",
+          "creator": "Philip Francis Nowlan（漫畫 Dick Calkins 繪）",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "1932 後廣播劇、1939 電影、1978-81 影集等新詮釋/商標形象",
+          "trademark": "⚠️「BUCK ROGERS」商標權源鏈長期糾紛（Nowlan vs Dille 信託），可用原作內容但商品命名要小心",
+          "verified": "2026-08-09",
+          "image": "assets/img/buck-rogers.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/buck-rogers-1.jpg",
+              "angle": "巴克羅渣士",
+              "scene": "科幻漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/buck-rogers-2.jpg",
+              "angle": "巴克羅渣士",
+              "scene": "科幻漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/buck-rogers-3.jpg",
+              "angle": "巴克羅渣士",
+              "scene": "科幻漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/buck-rogers-4.jpg",
+              "angle": "巴克羅渣士",
+              "scene": "科幻漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/buck-rogers-5.jpg",
+              "angle": "25 世紀",
+              "scene": "未來",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/buck-rogers-6.jpg",
+              "angle": "25 世紀",
+              "scene": "未來",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/buck-rogers-7.jpg",
+              "angle": "25 世紀",
+              "scene": "未來",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/buck-rogers-8.jpg",
+              "angle": "諾蘭",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "1920s pulp 科幻風格——**Art Deco 復古未來主義**：鉻銀、黃銅、玻璃、幾何光芒；對稱放射線、階梯式建築、穹頂都市、流線型火箭。黑白線稿 + 網點。 `1920s newspaper comic-strip line art, retro-futurist hero: a rugged young American adventurer in a short-sleeve flight suit and boots, round glass bubble space helmet, confident grin, silver disintegrator ray pistol at his hip, bold black ink outlines, halftone dot shading, art deco border`",
+          "dialogue": "「Buck Rogers in the 25th Century!」",
+          "scene": "25 世紀（2429 A.D.）未來世界 火箭船、穹頂太空都市、小行星帶 外星威脅、反抗暴政",
+          "personality": "朝氣蓬勃、體格矯健嘅年輕美國男，短黑髮、銳利自信眼神、堅毅微笑 1929 初期係運動型冒險家造型：飛行服、皮帶工具腰包、高筒靴 招牌：圓頂玻璃太空頭盔、紅/金火箭噴射背包、XZ-38 分解射線槍 果斷機智、臨危不亂嘅軍人性格（一戰退伍軍人） 正宗 1920s「通俗科幻」英雄：大膽逞能正直、對抗暴政 出身梗：1927 探勘員喺賓州煤礦因坍塌+放射性氣體沉睡，2429 年喺 25 世紀甦醒",
+          "ai_usage": "**甦醒者錯位**：1927 退伍兵喺 2429 地下城甦醒，由「過時之人」逆轉為關鍵領袖 **流亡火箭船**：土法修復黃銅雪茄形古董火箭、殺出艦隊封鎖 **射線槍之約**：喺穹頂都市「射線決鬥場」用舊世代正直機智漂亮翻盤 **注意**：只用 1928/29 原作角色情節；**商品命名唔好用「BUCK ROGERS」字樣**（建議描述性名稱如「25 世紀冒險家」+ 註明改造公版素材）"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Wilma Deering",
+          "name_zh": "威爾瑪（Wilma）",
+          "type": "配角（伙伴）",
+          "relation": "25 世紀嘅反抗軍伙伴（早期）",
+          "interaction": "Wilma 係 25 世紀嘅女英雄/反抗軍伙伴，早期漫畫中作為 Buck 嘅盟友出現，協助佢適應未來世界、一齊對抗暴政。佢同 Buck 係「戰友/夥伴」關係。**注意**：Wilma 喺早期 1929 公版範圍，但後期新詮釋受保護。\n"
+        },
+        {
+          "name": "Dr. Huer",
+          "name_zh": "休爾博士（Dr. Huer）",
+          "type": "配角（科學家）",
+          "relation": "25 世紀嘅科學家盟友",
+          "interaction": "Dr. Huer 係 25 世紀嘅科學家，協助 Buck Rogers 理解未來科技、提供裝備同科學知識，係 Buck 嘅智力後盾。佢代表「舊文明智慧」喺未來嘅延續。\n"
+        }
+      ]
+    },
+    {
+      "slug": "buster-brown",
+      "name": "Buster Brown",
+      "name_zh": "巴斯特布朗（Buster Brown）",
+      "type": "報紙漫畫",
+      "country": "美國",
+      "era": "1902-",
+      "creator": "Richard F. Outcault",
+      "publisher": "New York Herald",
+      "first_appearance_year": 1902,
+      "status": "公版",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "buster-brown",
+          "name": "Buster Brown",
+          "name_zh": "巴斯特布朗",
+          "role": "主角",
+          "first_appearance": "Buster Brown（1902 年 5 月 4 日，New York Herald）",
+          "creator": "Richard F. Outcault",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "後期新創形象、授權產品（Buster Brown Shoes 商標）",
+          "trademark": "「Buster Brown」名稱係 Brown Shoe Company 童鞋品牌商標（1904 授權）",
+          "verified": "2026-08-09",
+          "image": "assets/img/buster-brown.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/buster-brown-1.jpg",
+              "angle": "巴斯特布朗",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/buster-brown-2.jpg",
+              "angle": "巴斯特布朗",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/buster-brown-3.jpg",
+              "angle": "巴斯特布朗",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/buster-brown-4.jpg",
+              "angle": "巴斯特布朗",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/buster-brown-5.jpg",
+              "angle": "巴斯特與泰格",
+              "scene": "同狗",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/buster-brown-6.jpg",
+              "angle": "巴斯特與泰格",
+              "scene": "同狗",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/buster-brown-7.jpg",
+              "angle": "巴斯特與泰格",
+              "scene": "同狗",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "1900s 報紙漫畫風格嘅靚仔男仔——圓面、白淨、**pageboy 齊瀏海鮑伯頭**、頑皮狡黠笑容；著「Buster Brown 套裝」：束腰短上衣 + 白色蕾絲領 + 燈籠短褲 + 白長襪 + 皮鞋 + 闊邊稻草帽。 `1900s American newspaper comic strip panel, a mischievous well-dressed boy with a round face, pageboy haircut with straight bangs, wearing a belted tunic with white lace collar, shorts, white stockings and a wide-brimmed straw hat; beside him his loyal grinning pet bulldog. Vintage halftone print style, sepia ink outlines, aged paper texture`",
+          "dialogue": "（早期漫畫含道德教訓式結尾對白，結尾宣誓「以後一定乖」）",
+          "scene": "1900s 富裕美國家居、街頭 維多利亞晚期／愛德華時代室內場景 多格分鏡 + 白色對話框（Outcault 係分鏡格先驅）",
+          "personality": "富裕城市家庭嘅「學童頑童」——著得保守體面、實際調皮搗蛋 頑劣、鬼靈精怪、愛惡作劇，但有股討喜嘅孩子氣 每集結尾被母親／長輩訓誡，信誓旦旦「以後一定乖」但從未做到——說一套做一套嘅幽默循環 **招牌橋段**：拉小提琴（琴弦全斷、Tige 捂耳哀嚎）",
+          "ai_usage": "**琴聲災難**：Buster 猛鋸斷弦小提琴、Tige 捂耳哀嚎、母親訓斥 **整人買鞋記**：Buster 整蠱、被罰去鞋店、推銷自家「Buster Brown 牌」童鞋 **懺悔循環**：奶油塗貓尾、果醬倒女僕裙、跪地認錯又再犯——「說一套做一套」 **注意**：只用 1930 前原作形象；**唔好用喺鞋類品牌商品語境**（嗰個係 Brown Shoe 商標）"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Tige",
+          "name_zh": "泰格（Buster 嘅狗）",
+          "type": "配角",
+          "relation": "Buster 形影不離嘅忠實寵物犬",
+          "interaction": "Tige 係鬥牛犬/獵犬，係**美國連環漫畫史上最早「會講嘢嘅寵物動物」之一**——佢會向讀者吐露心聲同吐槽（其他角色聽唔明）。Buster 成日將佢牽連入惡作劇（如被琴聲吵到捂耳哀嚎），但 Tige 依然忠實陪伴。\n"
+        }
+      ]
+    },
+    {
+      "slug": "cc0-original-characters",
+      "name": "CC0 Original Characters",
+      "name_zh": "CC0 原創角色（社群）",
+      "type": "社群原創 / 獸人原創角色",
+      "country": "全球",
+      "era": "2010s-",
+      "creator": "各獨立創作者",
+      "publisher": "Wikimedia Commons / 社群",
+      "first_appearance_year": 2010,
+      "status": "CC0 / CC-BY-SA 自由授權",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "duskako",
+          "name": "Duskako",
+          "name_zh": "暮光之狐（Duskako）",
+          "role": "原創角色（fursona）",
+          "first_appearance": "社群原創（2010s）",
+          "creator": "SkytemplePMD",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（CC-BY-SA 4.0 可自由使用，需署名+相同授權）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/duskako.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/duskako-1.jpg",
+              "angle": "暮光之狐",
+              "scene": "fursona",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            }
+          ],
+          "appearance": "暮色系擬人狐狸——黃昏配色、沉靜氛圍。 `anthro fox character, dusk-themed coloring with warm orange-purple tones, calm contemplative expression, twilight atmosphere, clean character reference art`",
+          "dialogue": "（沉靜療癒嘅對話）",
+          "scene": "黃昏、暮色場景 沉靜靈狐",
+          "personality": "暮光命名 → 適合黃昏、沉靜、療癒或略帶憂鬱 或黃昏出沒嘅靈狐設定",
+          "ai_usage": "**暮光狐**：沉靜療癒角色 **注意**：CC-BY-SA 4.0，需署名+相同授權"
+        },
+        {
+          "slug": "lexi",
+          "name": "Lexi",
+          "name_zh": "萊克希（四臂女孩）",
+          "role": "原創角色",
+          "first_appearance": "社群原創（2010s）",
+          "creator": "Sleeps-Darkly",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（CC-BY-SA 4.0 可自由使用，需署名+相同授權）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/lexi.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/lexi-1.jpg",
+              "angle": "萊克希",
+              "scene": "四臂女孩",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/lexi-2.jpg",
+              "angle": "萊克希",
+              "scene": "四臂女孩",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            }
+          ],
+          "appearance": "四臂擬人女孩——搞笑慌張表情、多臂肢體喜劇。 `anthropomorphic girl with four arms, comically flustered 'uhhh oopsie' expression, exaggerated slapstick body language, clean cartoon character art`",
+          "dialogue": "「Ah—eto—bleh!」（慌張口頭禪）",
+          "scene": "現代/奇幻場景 四臂肢體喜劇",
+          "personality": "**四隻手臂**嘅擬人女孩 做「啊—糟糕了」嘅呆滯表情 笨拙、搞笑、冒失鬼嘅喜劇主角——肢體喜劇潛力大",
+          "ai_usage": "**四臂喜劇**：笨拙冒失鬼主角 **注意**：CC-BY-SA 4.0，需署名+相同授權"
+        },
+        {
+          "slug": "routhwick-tanuki",
+          "name": "Routhwick the Tanuki",
+          "name_zh": "羅思威克（狸貓男孩）",
+          "role": "原創角色（童書主角）",
+          "first_appearance": "社群原創（2010s）",
+          "creator": "AbsoluteZero（委託）/ Routhwick（角色擁有者）",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/routhwick-tanuki.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/routhwick-tanuki-1.jpg",
+              "angle": "羅思威克",
+              "scene": "狸貓角色",
+              "license": "CC0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/routhwick-tanuki-2.jpg",
+              "angle": "羅思威克",
+              "scene": "狸貓角色",
+              "license": "CC0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/routhwick-tanuki-3.jpg",
+              "angle": "羅思威克",
+              "scene": "狸貓角色",
+              "license": "cc0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/routhwick-tanuki-4.jpg",
+              "angle": "羅思威克",
+              "scene": "狸貓角色",
+              "license": "cc0",
+              "source": ""
+            }
+          ],
+          "appearance": "擬人狸貓少年角色——浣熊紋、圓潤可愛、童書插畫風。 `anthropomorphic tanuki boy, raccoon-like stripes and fluffy tail, friendly clever expression with a hint of mischief, children's book illustration style, clean lineart`",
+          "dialogue": "（友善機智嘅童書對白）",
+          "scene": "童書故事場景 浣熊表兄弟冒險",
+          "personality": "擬人浣熊/狸貓，雄性 童書系列主角（浣熊表兄弟組合） 友善、機智、帶點淘氣嘅正派青少年",
+          "ai_usage": "**童書主角**：友善機智狸貓少年 **注意**：CC0，可任意使用無需署名"
+        },
+        {
+          "slug": "sodabytes",
+          "name": "SODABYTES Kemono Furry",
+          "name_zh": "SODABYTES 獸人範例",
+          "role": "原創角色（Kemono 獸人範例）",
+          "first_appearance": "社群原創（2010s）",
+          "creator": "SODABYTES",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（CC0 可任意使用）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/sodabytes.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/sodabytes-1.jpg",
+              "angle": "獸人",
+              "scene": "Kemono 範例",
+              "license": "CC0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/sodabytes-2.jpg",
+              "angle": "獸人",
+              "scene": "Kemono 範例",
+              "license": "cc0",
+              "source": ""
+            }
+          ],
+          "appearance": "日式 Kemono 獸人——貓耳、尾巴、全身彩繪。 `Japanese kemono furry character, cat ears and tail, anthropomorphic body, full-body painted character, kemono style reference art, clean anime-influenced design`",
+          "dialogue": "（無特定對白，範例角色）",
+          "scene": "Kemono 獸人風格 參考基準",
+          "personality": "日式 Kemono 獸人風格 貓耳+尾巴+擬人體態，全身彩繪 可當作原創獸人角色參考基準",
+          "ai_usage": "**獸人參考**：Kemono 造型基準 **注意**：CC0，可任意使用無需署名"
+        },
+        {
+          "slug": "theophilus",
+          "name": "Theophilus",
+          "name_zh": "西奧菲勒斯（Theophilus）",
+          "role": "原創角色",
+          "first_appearance": "《Harvett and His Folks》",
+          "creator": "Jayvee Enaguas（The Harvett Vault）",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（CC-BY 4.0 可自由使用，需署名）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/theophilus.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/theophilus-2.jpg",
+              "angle": "西奧菲勒斯",
+              "scene": "舞台角色",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/theophilus-3.jpg",
+              "angle": "西奧菲勒斯",
+              "scene": "舞台角色",
+              "license": "CC BY 4.0",
+              "source": ""
+            }
+          ],
+          "appearance": "獸人舞台劇角色——戲劇化表情、劇團群像。 `anthropomorphic stage performer character, dramatic exaggerated expression, theatrical costume, character sheet from Harvett and His Folks style, expressive cartoon art`",
+          "dialogue": "（戲劇化對白）",
+          "scene": "舞台劇、劇團群像",
+          "personality": "獸人舞台劇/連載群像要角 適合演出、誇張表情、戲劇化人格",
+          "ai_usage": "**劇團角色**：戲劇化獸人 **注意**：CC-BY 4.0，需署名"
+        },
+        {
+          "slug": "xenia",
+          "name": "Xenia the Linux Vixen",
+          "name_zh": "希妮雅（Xenia，Linux 狐）",
+          "role": "原創角色（社群吉祥物）",
+          "first_appearance": "社群原創（2010s）",
+          "creator": "Puzzoz",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（CC0 可任意使用）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/xenia.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/xenia-1.jpg",
+              "angle": "希妮雅",
+              "scene": "Linux 狐",
+              "license": "cc0",
+              "source": ""
+            }
+          ],
+          "appearance": "擬人狐狸吉祥物——科技風、元氣。 `anthro fox mascot girl, tech-savvy energetic vibe, open-source community style, Linux mascot aesthetic, clean cartoon character art`",
+          "dialogue": "（元氣開朗嘅對話）",
+          "scene": "科技社群、開源活動 極客風格",
+          "personality": "擬人狐狸，科技宅吉祥物聯想 適合極客、開源社群、駭客風格 元氣狐",
+          "ai_usage": "**開源狐**：元氣科技吉祥物 **注意**：CC0，可任意使用無需署名"
+        },
+        {
+          "slug": "zora-snep",
+          "name": "Zora the Snep",
+          "name_zh": "佐拉（Zora，雪豹）",
+          "role": "原創角色（fursona）",
+          "first_appearance": "社群原創（2010s）",
+          "creator": "Cedelmwood",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（CC-BY-SA 4.0 可自由使用，需署名+相同授權）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/zora-snep.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/zora-snep-1.jpg",
+              "angle": "佐拉",
+              "scene": "雪豹 fursona",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            }
+          ],
+          "appearance": "擬人雪豹角色——雌性、白灰毛、鈴鐺項圈、紅色髮夾、長黑髮。 `anthro snow leopard girl, elegant cool-girl vibe, spiked collar with bell, red hair clip, long flowing black hair with dyed stripes, clean character reference art, soft cel shading`",
+          "dialogue": "（活潑愛玩嘅對話）",
+          "scene": "現代/奇幻場景 擬人獸人風格",
+          "personality": "雌性擬人雪豹 尖刺項圈+鈴鐺、紅色髮夾、長而飄逸黑髮綴染色條紋 優雅帶點「cool girl」氣場、活潑愛玩",
+          "ai_usage": "**擬人雪豹**：優雅活潑獸人角色 **注意**：CC-BY-SA 4.0，需署名+相同授權"
+        }
+      ]
+    },
+    {
+      "slug": "disney-silent",
+      "name": "Disney Silent Era (Mickey & Friends)",
+      "name_zh": "迪士尼默片年代（米奇同朋友）",
+      "type": "動畫短片系列",
+      "country": "美國",
+      "era": "1928-1930s",
+      "creator": "Walt Disney & Ub Iwerks",
+      "publisher": "Columbia Pictures / Celebrity Productions",
+      "first_appearance_year": 1928,
+      "status": "部分公版（僅 1928-1930 早期版本）",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "mickey-1928",
+          "name": "Mickey Mouse (1928 version)",
+          "name_zh": "米奇老鼠（1928 版）",
+          "role": "主角",
+          "first_appearance": "Steamboat Willie（1928 年 11 月 18 日）",
+          "creator": "Walt Disney & Ub Iwerks",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "1929 年之後嘅演變（白色手套、彩色版）、1940《Fantasia》、所有現代形象",
+          "trademark": "「Mickey Mouse」名稱及現代形象商標有效，避免令人混淆為 Disney 官方產品",
+          "verified": "2026-08-09",
+          "image": "assets/img/mickey-1928.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/mickey-1928-1.jpg",
+              "angle": "汽船威利",
+              "scene": "首部短片",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mickey-1928-2.jpg",
+              "angle": "飛機狂想曲",
+              "scene": "早期造型",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mickey-1928-3.jpg",
+              "angle": "賽璐璐",
+              "scene": "動畫製作",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mickey-1928-4.jpg",
+              "angle": "汽船威利",
+              "scene": "首部短片",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mickey-1928-5.jpg",
+              "angle": "汽船威利",
+              "scene": "首部短片",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mickey-1928-6.jpg",
+              "angle": "汽船威利",
+              "scene": "首部短片",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mickey-1928-7.jpg",
+              "angle": "飛機狂想曲",
+              "scene": "早期造型",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mickey-1928-8.jpg",
+              "angle": "飛機狂想曲",
+              "scene": "早期造型",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "黑白卡通老鼠，圓形黑身、圓大耳、長鼻、細尾、**無白色手套**、**無瞳孔嘅細黑橢圓眼**。穿水手／船員服裝。1928 默片風格，舊式蒸氣船場景，黑白畫面。 `1928 black-and-white silent cartoon mouse, round black body, big round ears, small black oval eyes without pupils, long nose, wearing sailor uniform, no gloves, standing on steamboat deck, vintage rubber-hose animation style, grayscale`",
+          "dialogue": "（1928 默片無對白；《The Karnival Kid》(1929) 先開口講「Hot dogs! Hot dogs!」——呢部分已屬 1929 公版）",
+          "scene": "蒸氣船甲板、農場、嘉年華 1920 年代美國鄉村／港口背景 《Steamboat Willie》經典橋段：山羊食咗《Turkey in the Straw》樂譜、山羊當留聲機、牛食草、用滑輪吊起 Minnie、Pete 係暴躁船長",
+          "personality": "性格係**卓別林式小人物（underdog）+ 費爾班克斯式頑皮精神（rascally）+ 阿斯泰爾式輕盈（gravity-free）**嘅混合 樂觀、機智、有冒險精神嘅船員 冇對白（默片），全靠動作同表情表達 善良正直，總係想幫人；面對強權（Pete）會反擊 1928 年版眼睛係**細小黑橢圓、無瞳孔**（後期先有大眼）",
+          "ai_usage": "**1928 默片開場**：蒸氣船甲板、動物樂器（貓尾、鍋鏟奏樂）、黑白無手套 **橡皮管動畫風格**（rubber-hose）：四肢像水管咁彈性彎曲、無骨骼關節——復古喜劇動畫 **Pete 對抗**：米奇 vs 大貓 Pete 嘅力量懸殊喜劇 **動物樂器樂團**：山羊當留聲機、擰貓尾當琴弦——1920s 器樂幽默 **注意**：只用 1928 無手套、無瞳孔形象；避免現代米奇特徵（紅短褲、黃鞋、白手套、大眼）"
+        },
+        {
+          "slug": "minnie-1928",
+          "name": "Minnie Mouse (1928 version)",
+          "name_zh": "米妮老鼠（1928 版）",
+          "role": "主角（米奇嘅女朋友）",
+          "first_appearance": "Steamboat Willie（1928）／Plane Crazy（1928）",
+          "creator": "Walt Disney & Ub Iwerks",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "1929 年之後嘅演變、現代 Disney 形象",
+          "trademark": "「Minnie Mouse」名稱及現代形象商標有效",
+          "verified": "2026-08-09",
+          "image": "assets/img/minnie-1928.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/minnie-1928-1.jpg",
+              "angle": "汽船威利",
+              "scene": "首部短片",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/minnie-1928-2.jpg",
+              "angle": "早期造型",
+              "scene": "默片",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/minnie-1928-3.jpg",
+              "angle": "汽船威利",
+              "scene": "首部短片",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/minnie-1928-4.jpg",
+              "angle": "汽船威利",
+              "scene": "首部短片",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/minnie-1928-5.jpg",
+              "angle": "汽船威利",
+              "scene": "首部短片",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/minnie-1928-6.jpg",
+              "angle": "早期造型",
+              "scene": "默片",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/minnie-1928-7.jpg",
+              "angle": "早期造型",
+              "scene": "默片",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/minnie-1928-8.jpg",
+              "angle": "早期造型",
+              "scene": "默片",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "黑白卡通老鼠，細圓身、大圓耳、**大眼睛、長睫毛、白色遮罩、頭紮蝴蝶結**，穿黑色長裙（蓋到腳踝）、**無白手套、平底鞋或赤腳**。1928 默片黑白風格。 `1928 black-and-white silent cartoon mouse, round black body, big round ears, large coquettish eyes with long eyelashes, white face mask, bow on head, wearing long black dress, no gloves, flat shoes, vintage rubber-hose animation style, grayscale`",
+          "dialogue": "（默片無對白；靠動作表達——經典抗拒米奇個吻嘅橋段）",
+          "scene": "《Plane Crazy》：米奇開螺旋槳飛機載佢 《Steamboat Willie》：蒸氣船 《The Gallopin' Gaucho》：被 Pete 綁架 1920 年代美國背景",
+          "personality": "活潑、友善、有主見、聰明、俏皮 對米奇溫柔但**唔係被動角色**——有自己意志 默片角色，靠動作同表情溝通 《Plane Crazy》入面主動拒絕米奇個吻；《Gallopin' Gaucho》被壞蛋 Pete 綁架後由米奇救回 與米奇係**平行主角**（唔係主從）——有被呵護嘅女主角感，又有主導劇情嘅推進者角色",
+          "ai_usage": "**默片浪漫喜劇**：米奇想追米妮、米妮半推半就嘅復古愛情 **平行主角搭檔**：「你在搞事、我來接手」——米奇莽撞出錯、米妮收尾制衡 **二重唱**：米妮嬌俏高音 vs 米奇低沉口哨 **注意**：只用 1928 無手套長裙形象，避免波點裙現代形象"
+        },
+        {
+          "slug": "pluto-1930",
+          "name": "Pluto / Rover (1930 version)",
+          "name_zh": "布魯托／Rover（1930 版）",
+          "role": "配角（米奇嘅狗）",
+          "first_appearance": "The Chain Gang（1930）／The Picnic（1930）",
+          "creator": "Walt Disney (Norman Ferguson 等)",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "1931 年正式改名 Pluto 之後嘅演變、現代形象",
+          "trademark": "「Pluto」名稱及現代形象商標有效（1930 嘅 Rover 屬公版）",
+          "verified": "2026-08-09",
+          "image": "assets/img/pluto-1930.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/pluto-1930-1.jpg",
+              "angle": "早期 Pluto",
+              "scene": "獵犬",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/pluto-1930-2.jpg",
+              "angle": "早期 Pluto",
+              "scene": "獵犬",
+              "license": "cc0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/pluto-1930-3.jpg",
+              "angle": "Pluto",
+              "scene": "造型",
+              "license": "cc0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/pluto-1930-4.jpg",
+              "angle": "早期 Pluto",
+              "scene": "獵犬",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/pluto-1930-5.jpg",
+              "angle": "早期 Pluto",
+              "scene": "獵犬",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/pluto-1930-6.jpg",
+              "angle": "早期 Pluto",
+              "scene": "獵犬",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "黑白默片卡通**血獵犬**（bloodhound）——寫實犬種風格、唔係後期圓潤卡通造型：長身、四肢細長、肌肉流暢、**大而下垂嘅長耳**、長吻、**黑鼻**、腹部垂褶皮。四足著地行走。1930 默片黑白風格。 `1930 black-and-white silent cartoon bloodhound, long body, big droopy ears, long muzzle, black nose, realistic dog breed style not rounded cartoon, four-legged, sniffing the ground tracking a scent, vintage animation, grayscale`",
+          "dialogue": "（狗，無對白；用叫聲「Woof!」同動作表達）",
+          "scene": "《The Chain Gang》：監獄、鎖鏈、追捕米奇 《The Picnic》：野餐、搶食物 1920-30 年代美國 默片期（1930-31）純肢體喜劇：俯身追逐、鼻子貼地搵氣味線索",
+          "personality": "忠誠、貪食、有啲傻更更 對骨頭同食物冇抵抗力 動作誇張搞笑 純動物本能反應（**四足行走、非擬人化**），靠叫聲同動作表達",
+          "ai_usage": "**追蹤喜劇**：鼻子貼地搵氣味、追骨頭／追米奇嘅默片式搞笑 **血兄弟追逐**：兩隻一樣嘅血獵犬一齊追 **野餐搶食**：《The Picnic》食嘢喜劇 **注意**：只用 1930 Rover（血獵犬、無名/Rover）形象；避免現代 Pluto 特徵（黃橙色、圓潤卡通、紅色頸圈）"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Pete (Peg-Leg Pete)",
+          "name_zh": "彼得（義肢彼得）",
+          "type": "反派配角",
+          "relation": "Steamboat Willie 入面嘅惡船長，Mickey 嘅對頭",
+          "interaction": "1928 年 Pete 係《Steamboat Willie》入面惡聲惡氣嘅船長，Mickey 係佢船上嘅船員。Pete 對 Mickey 呼呼喝喝、要佢做雜工，Mickey 就用口哨同動物樂器反擊搞事。佢哋係「惡老闆 vs 機靈船員」嘅鬥氣關係。\n"
+        },
+        {
+          "name": "山羊（Steamboat Willie）",
+          "name_zh": "山羊（汽船威利）",
+          "type": "路人",
+          "relation": "米奇喺船上嘅「樂器」",
+          "interaction": "1928《Steamboat Willie》入面隻山羊食咗米奇嘅琴譜，之後米奇就「扭」山羊條尾當搖杆、攞佢當留聲機/樂器演奏《Turkey in the Straw》。山羊係默片喜劇嘅「工具型配角」，反映 1928 年代嘅動物樂器笑話。\n"
+        }
+      ]
+    },
+    {
+      "slug": "felix-the-cat",
+      "name": "Felix the Cat",
+      "name_zh": "菲力貓（Felix the Cat）",
+      "type": "動畫短片 → 漫畫",
+      "country": "美國",
+      "era": "1919-1930s",
+      "creator": "Pat Sullivan & Otto Messmer",
+      "publisher": "Paramount Pictures",
+      "first_appearance_year": 1919,
+      "status": "部分公版（僅早期版本）",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "felix-early",
+          "name": "Felix the Cat (early version)",
+          "name_zh": "菲力貓（早期版）",
+          "role": "主角",
+          "first_appearance": "Feline Follies（1919 年 11 月 9 日）",
+          "creator": "Pat Sullivan & Otto Messmer",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "後期 Oriolo 工作室創作嘅新內容、電視版本",
+          "trademark": "「Felix the Cat」個名受商標保護（DreamWorks/NBCUniversal 持有）",
+          "verified": "2026-08-09",
+          "image": "assets/img/felix-early.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/felix-early-1.jpg",
+              "angle": "菲力貓",
+              "scene": "早期",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/felix-early-2.jpg",
+              "angle": "菲力貓",
+              "scene": "早期",
+              "license": "pdm",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/felix-early-3.jpg",
+              "angle": "首登場",
+              "scene": "默片",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/felix-early-4.jpg",
+              "angle": "菲力貓",
+              "scene": "早期",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/felix-early-5.jpg",
+              "angle": "菲力貓",
+              "scene": "早期",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/felix-early-6.jpg",
+              "angle": "菲力貓",
+              "scene": "早期",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/felix-early-7.jpg",
+              "angle": "菲力貓",
+              "scene": "早期",
+              "license": "pdm",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/felix-early-8.jpg",
+              "angle": "菲力貓",
+              "scene": "早期",
+              "license": "pdm",
+              "source": ""
+            }
+          ],
+          "appearance": "黑白默片卡通貓，全身黑色，**兩個碩大白色橢圓眼睛**（瞳孔極小）、白色嘴、圓大耳、長尾，面帶得意笑容。1919 早期版身形偏尖、略似狐狸。1924 後係圓形輪廓。 `1919 silent-era animated cartoon cat, solid all-black fur, round white oval eyes with tiny pupils, sharp pointed fox-like snout, tall cat ears, fully hand-drawn ink animation cel, stark black and white, vintage cel animation, white background`",
+          "dialogue": "（默片角色，主要以動作同口哨表達）",
+          "scene": "城市街頭、屋企 奇幻冒險 1920 年代美國",
+          "personality": "聰明機靈、調皮搞怪（trickster 搗蛋鬼）——機靈、獨立、愛惡作劇又心地善良 靠思考解決問題，思考時頭上浮現「問號」（招牌動作） 唔靠台詞，全靠肢體同表情（默片時代以動物立起嘅超級明星，動畫界嘅卓別林） 常獨來獨往，但可同時化身戀愛羅密歐或照顧人嘅叔叔",
+          "ai_usage": "**思考問號視覺**：手托下巴、頭上問號嘅思考視覺化（呢個係安全嘅招牌元素） **搗蛋鬼冒險**：默片喜劇、黑白、純動作幽默 **早期狐狸樣造型**：1919-20 偏尖造型 vs 1924 圓形——可揀一種 **注意**：「Felix the Cat」名受商標保護，做商業創作時避免直接用個名（用角色特徵但改名）；**魔法袋**有版權爭議，建議避開或重新設計"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Master Cylinder（Felix 早期對頭）",
+          "name_zh": "汽缸大師",
+          "type": "反派配角",
+          "relation": "Felix 早期對頭/機械反派",
+          "interaction": "Felix 早期默片有各種對手同搗蛋鬼，成日同佢鬥智。Felix 靠機靈、思考（招牌問號）同魔法袋解決問題，將對手整蠱反擊。呢啲對頭構成 Felix「trickster 對抗」嘅故事核心。\n"
+        }
+      ]
+    },
+    {
+      "slug": "fleischer-betty-boop",
+      "name": "Fleischer Studios (Betty Boop)",
+      "name_zh": "Fleischer 製片廠（Betty Boop）",
+      "type": "動畫短片系列",
+      "country": "美國",
+      "era": "1930s",
+      "creator": "Max Fleischer (Grim Natwick 繪製)",
+      "publisher": "Paramount Pictures",
+      "first_appearance_year": 1930,
+      "status": "部分公版（僅 1930 年 Betty Boop 1.0）",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "betty-boop-1930",
+          "name": "Betty Boop (1930 original version)",
+          "name_zh": "Betty Boop（1930 原始版）",
+          "role": "主角",
+          "first_appearance": "Dizzy Dishes（1930）",
+          "creator": "Max Fleischer / Grim Natwick",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "1931 年之後發展嘅完整角色、1932 年「人類少女」形象、現代版",
+          "trademark": "「Betty Boop」名稱及相關角色設計受商標保護",
+          "verified": "2026-08-09",
+          "image": "assets/img/betty-boop-1930.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/betty-boop-1930-1.jpg",
+              "angle": "迪齊餐碟",
+              "scene": "首登場",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/betty-boop-1930-2.jpg",
+              "angle": "早期 Betty",
+              "scene": "Fleischer",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/betty-boop-1930-3.jpg",
+              "angle": "早期 Betty",
+              "scene": "Fleischer",
+              "license": "cc0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/betty-boop-1930-4.jpg",
+              "angle": "迪齊餐碟",
+              "scene": "首登場",
+              "license": "CC BY-SA 2.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/betty-boop-1930-5.jpg",
+              "angle": "早期 Betty",
+              "scene": "Fleischer",
+              "license": "by",
+              "source": ""
+            }
+          ],
+          "appearance": "1930 年黑白卡通「唱歌跳舞嘅擬人犬」——**Cocker Spaniel 式汪汪大眼、一顆鈕扣鼻、又長又軟嘅長垂耳**（唱歌跳舞時前後甩動）、狗尾、戴圓點蝴蝶結、穿小裙子。Fleischer 默片黑白風格。 `1930 vintage cartoon singing dancing dog-girl, big cocker-spaniel eyes, button of a nose, long floppy ears flying as she dances, dog tail, polka-dot bow, small dress, performing on a jazz-age restaurant stage, 1930s Fleischer animation style, black and white`",
+          "dialogue": "（早期版本以音樂同動作表達；「Boop-oop-a-doop」等特色要到 1931-32 先出現——嗰部分受保護，唔好用）",
+          "scene": "狗餐廳舞台、表演 城市夜生活、爵士年代（Jazz Age）背景 1930 年代初紐約",
+          "personality": "天真、奔放、對鏡頭拋媚眼嘅「flapper 女郎」氣質 唱歌跳舞會搖狗尾、拋狗耳 歌喉帶 Helen Kane 式「boop-boop-a-doop」輕佻調 **早期形象天真搞笑（唔係**之後嘅性感歌女形象）",
+          "ai_usage": "**復古爵士年代表演**：狗女喺餐廳舞台唱歌跳舞、拋耳搖尾 **Bimbo 愛情喜劇**：廚師 Bimbo 愛上 Betty、一時忘情同烤鴨共舞 **早期 Fleischer 動畫風**：圓潤、彈性、黑白色 **注意**：只用 1930「狗女」形象；**不可用** 1932 之後嘅人類少女（圓耳環、波波頭短髮）——嗰啲受保護"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Bimbo",
+          "name_zh": "賓波（Bimbo）",
+          "type": "配角",
+          "relation": "Dizzy Dishes 主線係佢，Betty 係餐廳舞台表演者",
+          "interaction": "1930《Dizzy Dishes》入面 Bimbo 係狗餐廳嘅廚師主角，佢見到 Betty Boop 唱歌跳舞就一見鍾情、神魂顛倒，仲忘情咁同烤鴨共舞，激嬲咗等緊食嘅暴躁大猩猩客人。Bimbo 對 Betty 嘅愛慕係喜劇主軸。\n"
+        },
+        {
+          "name": "暴躁大猩猩（Dizzy Dishes 客人）",
+          "name_zh": "大猩猩客人",
+          "type": "路人",
+          "relation": "Dizzy Dishes 等食嘅客人，被 Betty/Bimbo 演出激嬲",
+          "interaction": "1930《Dizzy Dishes》入面隻大猩猩係餐廳客人，叫咗烤鴨，但因為 Bimbo 對 Betty 神魂顛倒、攞佢隻烤鴨當舞伴狂舞而暴跳如雷，引發追逐鬧劇。佢係「被打擾嘅暴怒客人」典型。\n"
+        }
+      ]
+    },
+    {
+      "slug": "happy-hooligan",
+      "name": "Happy Hooligan",
+      "name_zh": "開心流浪漢（Happy Hooligan）",
+      "type": "報紙漫畫",
+      "country": "美國",
+      "era": "1900-",
+      "creator": "Frederick Burr Opper",
+      "publisher": "New York Journal",
+      "first_appearance_year": 1900,
+      "status": "公版",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "happy-hooligan",
+          "name": "Happy Hooligan",
+          "name_zh": "開心流浪漢（Happy Hooligan）",
+          "role": "主角",
+          "first_appearance": "Happy Hooligan（1900 年 3 月 11 日，Hearst 報系）",
+          "creator": "Frederick Burr Opper",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "後期重製版／數位掃描可能第三方權利",
+          "trademark": "名稱可能被第三方註冊特定商品類別，純作角色使用唔受限",
+          "verified": "2026-08-09",
+          "image": "assets/img/happy-hooligan.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/happy-hooligan-1.jpg",
+              "angle": "開心流浪漢",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/happy-hooligan-2.jpg",
+              "angle": "開心流浪漢",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/happy-hooligan-3.jpg",
+              "angle": "開心流浪漢",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/happy-hooligan-4.jpg",
+              "angle": "開心流浪漢",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/happy-hooligan-5.jpg",
+              "angle": "奧珀",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/happy-hooligan-6.jpg",
+              "angle": "奧珀",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/happy-hooligan-7.jpg",
+              "angle": "奧珀",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/happy-hooligan-8.jpg",
+              "angle": "開心流浪漢",
+              "scene": "早期",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "早期美國報紙漫畫風格——粗黑俐落墨線、平面色塊、誇張表情肢體。背景簡單（街道、公園、農場）、空間偏平面。褪色棕褐/橄欖/暗紅色調 + 印刷網點。 `1900s American newspaper comic, a good-natured tramp wearing a tin can as a hat, patched shabby clothes, big friendly smile, holding a walking stick, standing on a 1900s city street with brick buildings, flat cel shading, bold ink outlines, muted sepia and olive tones`",
+          "dialogue": "（幽默樂觀嘅流浪漢對白；好心卻被誤會嘅命運）",
+          "scene": "美國城市街頭、公園、農場 流浪、打散工、遭遇不幸 「好心冇好報」式喜劇",
+          "personality": "**招牌鐵罐帽** + 破舊補丁衣衫 + 永遠笑容 「好得過頭」：善良、熱忱、極度樂觀，見到誰都主動想幫 笨手笨腳：好心幫忙往往闖更大禍，然後畀警察警棍追打——幾乎無一例外背鍋 「難得真快樂」：名雖叫 Happy，故事裡卻好少真快樂，常開心開始、倒楣收場 **兄弟**：Gloomy Gus（憂鬱、能預言倒楣）、Montmorency（勢利、單片眼鏡 + 標籤鐵罐帽） **配角**：女友 Suzanne、狗 Flip、三個戴鐵罐帽嘅侄子",
+          "ai_usage": "**雪橇幫倒忙**：熱心推雪橇用力過猛、孩子飛撞雪堆、警察追嚟 **幫老太太提重物**：笨拙灑行李、絆路人、包裡雞飛走滿街亂竄 **Monocle 大哥鄙視**：Montmorency 嘲笑 Happy 鐵罐帽、自己踩水溝甩飛眼鏡、Happy 好心扶起 **注意**：只用 Opper 原作風格；純作角色使用唔受限"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Gloomy Gus",
+          "name_zh": "憂鬱格斯",
+          "type": "配角（兄弟）",
+          "relation": "Happy 個憂鬱兄弟，成日預言倒楣",
+          "interaction": "Gloomy Gus 係面容陰沉、終日鬱鬱寡歡嘅哥哥（或表哥），像卡珊德拉一樣事先預測到接下來會出事嘅結局。同樂觀嘅 Happy 形成強烈對比——Happy 好心幫人，Gus 喺側邊潑冷水「我早話咗會咁」。\n"
+        },
+        {
+          "name": "Montmorency",
+          "name_zh": "蒙莫朗西",
+          "type": "配角（兄弟）",
+          "relation": "Happy 個勢利虛榮兄弟",
+          "interaction": "Montmorency 係勢利虛榮嘅兄弟，戴單片眼鏡、頭上戴貼標籤嘅鐵罐帽，自命不凡，成日嘲笑 Happy 嘅寒酸。但佢同 Happy 一樣破落，出醜時反而要 Happy 好心幫手——「嘲人者被嘲」嘅反轉關係。\n"
+        },
+        {
+          "name": "Suzanne & 狗 Flip",
+          "name_zh": "蘇珊（女友）& 狗 Flip",
+          "type": "路人",
+          "relation": "Happy 嘅女友同佢隻狗",
+          "interaction": "Suzanne 係 Happy 嘅女友（卡巴萊公爵嘅女），狗 Flip 係佢嘅寵物。佢哋係 Happy 生活嘅溫暖配角，Suzanne 唔嫌棄 Happy 嘅破落，係少數對佢好嘅角色。\n"
+        }
+      ]
+    },
+    {
+      "slug": "japanese-anime-design-sheets",
+      "name": "Japanese Anime Design Sheets",
+      "name_zh": "日式動漫設計圖庫",
+      "type": "參考設計圖（角色人設 + 機設）",
+      "country": "全球",
+      "era": "2000s-",
+      "creator": "各開放創作者",
+      "publisher": "Wikimedia Commons / OpenGameArt",
+      "first_appearance_year": 2000,
+      "status": "CC0 / CC-BY / CC-BY-SA 自由授權",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "1d-model-sheet",
+          "name": "1D (Blender mascot)",
+          "name_zh": "1D（Blender 吉祥物設定表）",
+          "role": "角色人設圖（模型設定表）",
+          "first_appearance": "Open Movie Workshop",
+          "creator": "David Revoy / Blender Foundation",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需署名）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/1d-model-sheet.jpg",
+          "reference_gallery": [],
+          "appearance": "日式動漫吉祥物設定表——多角度、白底、動畫製作用。 `Japanese anime mascot model sheet, multiple views, clean white background, Blender open movie workshop style, David Revoy character design`",
+          "dialogue": "",
+          "scene": "角色設定表 動畫製作教材",
+          "personality": "",
+          "ai_usage": "**吉祥物設計**：多角度設定參考 **注意**：CC-BY 3.0，需署名"
+        },
+        {
+          "slug": "beast-mech",
+          "name": "Beast Mech",
+          "name_zh": "野獸型機甲",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "pasukaru76 ",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（CC0 可任意使用）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/beast-mech.jpg",
+          "reference_gallery": [],
+          "appearance": "野獸型機甲、動物機體。 `beast-type mecha, animal-inspired robot form, aggressive quadruped design, white background`",
+          "dialogue": "",
+          "scene": "機設圖 原創機甲概念",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC0，可任意使用無需署名"
+        },
+        {
+          "slug": "brigadier-mk3",
+          "name": "Brigadier Mk.3",
+          "name_zh": "準將 Mk.3（機設圖）",
+          "role": "機設圖（原創機甲概念）",
+          "first_appearance": "Brian Rinker Creative",
+          "creator": "Brian Rinker Creative",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需署名）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/brigadier-mk3.jpg",
+          "reference_gallery": [],
+          "appearance": "原創人形機甲——概念設計圖、前/背面視圖、深色寫實機體。 `original humanoid mecha concept design, front and back view design sheet, dark realistic mech body, mecha concept art, detailed mechanical design`",
+          "dialogue": "",
+          "scene": "機設圖 原創機甲概念",
+          "personality": "",
+          "ai_usage": "**機設參考**：人形機甲設計基準 **注意**：CC-BY 2.0，需署名"
+        },
+        {
+          "slug": "david-revoy-char",
+          "name": "David Revoy Character Lineart",
+          "name_zh": "David Revoy 角色線稿設計",
+          "role": "角色人設圖（開放插畫家系列）",
+          "first_appearance": "David Revoy 教學",
+          "creator": "David Revoy",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需署名）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/david-revoy-char.jpg",
+          "reference_gallery": [],
+          "appearance": "開放插畫家角色設計——線稿、多角色、教學示範風格。 `character design lineart, multiple original characters, open-source illustration workshop style, David Revoy technique, clean expressive linework`",
+          "dialogue": "",
+          "scene": "角色設計教學 線稿參考",
+          "personality": "",
+          "ai_usage": "**角色線稿參考**：開放教學風格 **注意**：CC-BY 4.0，需署名"
+        },
+        {
+          "slug": "fig-model-sheet",
+          "name": "Fig. Character Design Model Sheet A/B/C",
+          "name_zh": "日式角色設計圖 A/B/C（四視圖）",
+          "role": "角色人設圖（四視圖）",
+          "first_appearance": "2017，Wikimedia Commons",
+          "creator": "Guilherme Silveira Dias",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需署名+相同授權）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/fig-model-sheet.jpg",
+          "reference_gallery": [],
+          "appearance": "日式動漫角色設定表——多視圖（front/side/back/3-4）、白底、標準動畫製作用。 `Japanese anime character design sheet, four-view turnaround (front, side, back, 3/4), clean white background, standard animation model sheet layout, anime style original character`",
+          "dialogue": "",
+          "scene": "動畫製作參考 角色設定表",
+          "personality": "",
+          "ai_usage": "**角色設定**：標準四視圖人設參考 **動畫製作**：動畫角色設計基準 **注意**：CC-BY-SA 4.0，需署名+相同授權"
+        },
+        {
+          "slug": "gorilla-mecha",
+          "name": "Gorilla Mecha",
+          "name_zh": "大猩猩式重型機甲",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "pasukaru76 ",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（CC0 可任意使用）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/gorilla-mecha.jpg",
+          "reference_gallery": [],
+          "appearance": "重型機甲、猩猩肢體特徵。 `heavy gorilla mecha, massive limb-based design, powerful armored robot, white background`",
+          "dialogue": "",
+          "scene": "機設圖 原創機甲概念",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC0，可任意使用無需署名"
+        },
+        {
+          "slug": "iron-mecha",
+          "name": "Iron Mecha",
+          "name_zh": "鐵製裝甲機甲",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "pasukaru76 ",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（CC0 可任意使用）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/iron-mecha.jpg",
+          "reference_gallery": [],
+          "appearance": "裝甲型機甲、鐵質機體。 `iron armored mecha, heavy steel plating, robust industrial robot design, white background`",
+          "dialogue": "",
+          "scene": "機設圖 原創機甲概念",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC0，可任意使用無需署名"
+        },
+        {
+          "slug": "kiki-cyber-squirrel",
+          "name": "Kiki the Cyber Squirrel",
+          "name_zh": "琪琪（Kiki，Cyber 松鼠）",
+          "role": "角色人設圖（模型設計圖）",
+          "first_appearance": "Krita 吉祥物",
+          "creator": "Tyson Tan",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需署名+相同授權）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/kiki-cyber-squirrel.jpg",
+          "reference_gallery": [],
+          "appearance": "機械松鼠擬人角色——日式機械風格、模型設計圖多視角。 `mechanical anthropomorphic squirrel character, Japanese mech style, plastic model kit design sheet, multiple views, Tyson Tan Kiki style`",
+          "dialogue": "",
+          "scene": "角色設計圖 機械擬人角色",
+          "personality": "",
+          "ai_usage": "**機械角色設計**：模型 kit 多視角參考 **注意**：CC-BY-SA 4.0，需署名+相同授權"
+        },
+        {
+          "slug": "kraken-s",
+          "name": "Kraken S",
+          "name_zh": "克拉肯 S（機體素材）",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Justin Nichol 由 OpenGameArt 上傳嘅原創遊戲機體素材，可作戰損/配色參考。",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/kraken-s.jpg",
+          "reference_gallery": [],
+          "appearance": "遊戲機體素材圖、戰損/配色參考。 `original mecha game asset, battle-worn coloring reference, sci-fi robot design, OpenGameArt style`",
+          "dialogue": "",
+          "scene": "機設圖 原創機甲概念",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY-SA 3.0，需遵守授權"
+        },
+        {
+          "slug": "libbie-robot",
+          "name": "Libbie (Tyson Tan)",
+          "name_zh": "Libbie（機械角色設定表）",
+          "role": "角色人設圖（機械角色）",
+          "first_appearance": "LibreOffice 吉祥物",
+          "creator": "Tyson Tan",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（CC0 可任意使用）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/libbie-robot.jpg",
+          "reference_gallery": [],
+          "appearance": "機械角色設定表——日式機械臂風格、機器瞪羚、多角度。 `mechanical character design sheet, robotic gazelle mascot, Japanese mecha-arm style influenced by Megaman, full-body multiple views, clean character sheet`",
+          "dialogue": "",
+          "scene": "角色設定表 機械角色設計",
+          "personality": "",
+          "ai_usage": "**機設參考**：機械角色多角度設定 **注意**：CC0，可任意使用無需署名"
+        },
+        {
+          "slug": "lucero-otokonoko",
+          "name": "Otokonoko「Lucero」Reference Sheet",
+          "name_zh": "男の娘「Lucero」人設圖",
+          "role": "角色人設圖（設定表）",
+          "first_appearance": "Wikimedia Commons",
+          "creator": "ニッキひとみ5",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需署名+相同授權）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/lucero-otokonoko.jpg",
+          "reference_gallery": [],
+          "appearance": "日式男の娘角色設定表——可愛美少年風格、多角度參考。 `Japanese otoko-no-ko anime character reference sheet, cute feminine boy style, multiple angles on clean white background, anime character design sheet layout`",
+          "dialogue": "",
+          "scene": "角色設定表 原創角色設計",
+          "personality": "",
+          "ai_usage": "**角色設定**：男の娘風格人設參考 **注意**：CC-BY-SA 4.0，需署名+相同授權"
+        },
+        {
+          "slug": "machnia",
+          "name": "Machnia Mecha",
+          "name_zh": "馬奇尼亞機甲",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "The Magic Tuba Pixie ",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/machnia.jpg",
+          "reference_gallery": [],
+          "appearance": "插畫風格機甲、中型站姿。 `medium mecha illustration, full-body standing robot, painterly mecha concept art`",
+          "dialogue": "",
+          "scene": "機設圖 原創機甲概念",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY 2.0，需遵守授權"
+        },
+        {
+          "slug": "n1-nj4-mech",
+          "name": "N1-NJ4 Ninja Class Mech",
+          "name_zh": "忍者級輕裝機甲",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Brian Rinker Creative ",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/n1-nj4-mech.jpg",
+          "reference_gallery": [],
+          "appearance": "忍者風格輕裝機甲、機動敏捷。 `ninja-class light mecha, agile swift armored robot, Japanese ninja aesthetic, concept art`",
+          "dialogue": "",
+          "scene": "機設圖 原創機甲概念",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY 2.0，需遵守授權"
+        },
+        {
+          "slug": "owl-class-scout",
+          "name": "Owl-Class Scout Mecha",
+          "name_zh": "貓頭鷹級偵察機甲",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "pasukaru76 ",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（CC0 可任意使用）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/owl-class-scout.jpg",
+          "reference_gallery": [],
+          "appearance": "輕型偵察機甲、反重力機翼、多角度設計稿。 `light scout mecha, owl-class design, anti-gravity wings, profile design sheet, white background`",
+          "dialogue": "",
+          "scene": "機設圖 原創機甲概念",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC0，可任意使用無需署名"
+        },
+        {
+          "slug": "sh0-6un-mech",
+          "name": "SH0-6UN Class Mech",
+          "name_zh": "SH0-6UN 級戰鬥機甲",
+          "role": "機設圖（戰鬥機甲）",
+          "first_appearance": "Brian Rinker Creative",
+          "creator": "Brian Rinker Creative",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需署名）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/sh0-6un-mech.jpg",
+          "reference_gallery": [],
+          "appearance": "重裝戰鬥機甲——三聯裝火箭發射器、振動刀、武裝配置。 `heavy combat mecha, triple rocket launcher and vibro-blade weapon loadout, digital mecha concept art, battle-ready armored design`",
+          "dialogue": "",
+          "scene": "戰鬥機設圖 武裝機甲概念",
+          "personality": "",
+          "ai_usage": "**機設參考**：戰鬥機甲武器配置 **注意**：CC-BY 2.0，需署名"
+        },
+        {
+          "slug": "soviet-mecha",
+          "name": "Soviet Mecha Bay",
+          "name_zh": "蘇式大型機甲",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "pasukaru76 ",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（CC0 可任意使用）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/soviet-mecha.jpg",
+          "reference_gallery": [],
+          "appearance": "蘇式大型機甲、工業紀實風格。 `soviet-style large mecha standing scene, industrial documentary aesthetic, massive robot, brutalist design`",
+          "dialogue": "",
+          "scene": "機設圖 原創機甲概念",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC0，可任意使用無需署名"
+        },
+        {
+          "slug": "wikipetan",
+          "name": "Wikipe-tan",
+          "name_zh": "維基娘（Wikipe-tan）",
+          "role": "角色人設圖（moe 擬人吉祥物）",
+          "first_appearance": "Wikipedia 社群",
+          "creator": "Wikipedia 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0 / GFDL"
+          },
+          "protected_portion": "無（可自由使用，需署名+相同授權）",
+          "trademark": "Wikipedia 名稱屬商標",
+          "verified": "2026-08-09",
+          "image": "assets/img/wikipetan.jpg",
+          "reference_gallery": [],
+          "appearance": "moe 擬人吉祥物——女僕裝、Wikipedia 主題、日式動漫風。 `moe anthropomorphic mascot girl, maid outfit with Wikipedia styling, Japanese anime style, clean full-body character design`",
+          "dialogue": "",
+          "scene": "Wikipedia 社群吉祥物 moe 擬人風格",
+          "personality": "",
+          "ai_usage": "**moe 吉祥物設計**：擬人化角色參考 **注意**：CC-BY-SA 3.0，需署名+相同授權"
+        },
+        {
+          "slug": "wuffle-model-sheets",
+          "name": "Wuffle Character Model Sheets",
+          "name_zh": "Wuffle 角色設定表（Foxxo/Puipui/Wuffle）",
+          "role": "角色人設圖（多角度設定表）",
+          "first_appearance": "Wikimedia Commons",
+          "creator": "Piti Yindee",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（CC0 可任意使用）",
+          "trademark": "無",
+          "verified": "2026-08-09",
+          "image": "assets/img/wuffle-model-sheets.jpg",
+          "reference_gallery": [],
+          "appearance": "日式可愛角色設定表——動物擬人、多角度、webtoon 可愛風。 `Japanese cute chibi character model sheet, anthropomorphic animal, multiple views, Thai webtoon cute style, clean white background`",
+          "dialogue": "",
+          "scene": "角色設定表 日式可愛風格",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式可愛角色多視圖 **注意**：CC0，可任意使用無需署名"
+        }
+      ]
+    },
+    {
+      "slug": "krazy-kat",
+      "name": "Krazy Kat",
+      "name_zh": "瘋貓（Krazy Kat）",
+      "type": "報紙漫畫",
+      "country": "美國",
+      "era": "1913-1944",
+      "creator": "George Herriman",
+      "publisher": "King Features Syndicate",
+      "first_appearance_year": 1913,
+      "status": "公版",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "krazy-kat",
+          "name": "Krazy Kat",
+          "name_zh": "瘋貓（Krazy Kat）",
+          "role": "主角",
+          "first_appearance": "Krazy Kat（1913 年，紐約晚報）",
+          "creator": "George Herriman",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "後期再版（Fantagraphics/Comics Kingdom 等）、上色整理版",
+          "trademark": "「Krazy Kat」名稱商標歸 King Features（可以畫、唔可以攞嚟做自己商品名）",
+          "verified": "2026-08-09",
+          "image": "assets/img/krazy-kat.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/krazy-kat-1.jpg",
+              "angle": "瘋貓",
+              "scene": "沙漠漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/krazy-kat-2.jpg",
+              "angle": "瘋貓",
+              "scene": "沙漠漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/krazy-kat-3.jpg",
+              "angle": "瘋貓",
+              "scene": "沙漠漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/krazy-kat-4.jpg",
+              "angle": "瘋貓",
+              "scene": "沙漠漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/krazy-kat-5.jpg",
+              "angle": "伊格納茨",
+              "scene": "老鼠",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/krazy-kat-6.jpg",
+              "angle": "伊格納茨",
+              "scene": "老鼠",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/krazy-kat-7.jpg",
+              "angle": "伊格納茨",
+              "scene": "老鼠",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "Coconino County 沙漠——臺地、仙人掌、岩石每格背景自行重組變形，角色對變形渾然不覺。幾何構圖（鋸齒山稜、螺旋仙人掌、層狀地層）、低飽和淡彩（棕褐、赭紅、沙漠橙、藍灰月色）、粗獷羽毛筆墨線條。 `George Herriman surreal comic strip, a black cat and a white mouse in a surreal desert landscape of mesas and cacti, geometric compositions, poetic abstract dialogue, Monument Valley mesas reconfiguring, sepia blue and dusty orange watercolor washes, scratchy vintage penwork, 1920s newspaper comic`",
+          "dialogue": "Krazy 對 Ignatz：「Li'l dollink」「Li'l ainjil」",
+          "scene": "Coconino County／Monument Valley 沙漠（「ole pais pintado 彩繪大地」） 掟磚頭嘅重複循環喜劇 法律 vs 自然地貌嘅並置寓意",
+          "personality": "**Krazy**：黑/灰身、白胸白口鼻、黑耳冠嘅小貓；**性別曖昧流動**（官方刻意唔分）；天真傻氣、無拘無束；深愛 Ignatz，將對方掟嚟嘅磚頭解讀為純粹愛意；唔記仇、恆常喜悅；常用愛爾蘭腔調俚語（「Li'l dollink」「Li'l ainjil」） **Ignatz Mouse**：灰黃/棕褐色矮細老鼠；憎惡 Krazy，唯一表達就係掟磚頭（紅色磚、來自亞利桑那沙漠）；計謀百出、強迫症式擲磚者；被關監獄係日常結局 **Offissa B. Pupp**：強壯忠實嘅狗警官；固執咁將 Ignatz 關監獄嚟「保護」Krazy；對 Krazy 有無名愛慕；經典台詞「Transgression! → Apprehension! → Retribution!」",
+          "ai_usage": "**擲磚循環今詮釋**：風捲走磚頭、Krazy 追住當禮物收——永遠無法理解卻永遠唔結束 **法律與地景**：監獄腳下無根、Mesas 漂浮、Pup 補畫牢房牆（打破第四面牆） **超現實追捕**：背景每格變形、Krazy 泰然自若、磚頭永遠差一格先砸中 **注意**：可用角色、原始條漫、磚頭/監獄/Coconino 意象；**避免**用 King Features 名稱做商品名、避開後期上色再版圖"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Ignatz Mouse",
+          "name_zh": "伊格納茨老鼠",
+          "type": "主角對頭/愛人",
+          "relation": "Krazy 深愛佢，佢以掟磚回應",
+          "interaction": "Ignatz 係 Krazy Kat 嘅核心對頭——Krazy 深愛佢，但 Ignatz 憎惡 Krazy，唯一表達就係掟紅色磚頭打 Krazy 個頭。Krazy 卻將磚頭解讀為純粹愛意，開心咁接受。佢哋係「單戀 + 永恆擲磚循環」嘅核心關係。Offisa Pup 成日將 Ignatz 關監獄。\n"
+        },
+        {
+          "name": "Offissa B. Pupp",
+          "name_zh": "巴普警官",
+          "type": "配角（法律守護者）",
+          "relation": "保護 Krazy、逮捕 Ignatz 嘅狗警官",
+          "interaction": "Offisa Pup 係強壯忠實嘅狗警官，對 Krazy 有無名愛慕，一廂情願咁保護佢——成日將「襲擊 Krazy」嘅 Ignatz 關監獄。佢同 Krazy、Ignatz 構成「保護者—被保護者—威脅者」三角。佢代表「法律/秩序」主題。\n"
+        }
+      ]
+    },
+    {
+      "slug": "little-nemo",
+      "name": "Little Nemo in Slumberland",
+      "name_zh": "夢境國度嘅小尼莫（Little Nemo）",
+      "type": "報紙漫畫（全版星期版）",
+      "country": "美國",
+      "era": "1905-1927",
+      "creator": "Winsor McCay",
+      "publisher": "New York Herald",
+      "first_appearance_year": 1905,
+      "status": "公版",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "little-nemo",
+          "name": "Little Nemo",
+          "name_zh": "小尼莫",
+          "role": "主角",
+          "first_appearance": "Little Nemo in Slumberland（1905 年 10 月 15 日）",
+          "creator": "Winsor McCay",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "後期改編（1989/2022 電影等）",
+          "trademark": "無特別商標問題",
+          "verified": "2026-08-09",
+          "image": "assets/img/little-nemo.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/little-nemo-1.jpg",
+              "angle": "小尼莫",
+              "scene": "夢境",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/little-nemo-2.jpg",
+              "angle": "小尼莫",
+              "scene": "夢境",
+              "license": "pdm",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/little-nemo-3.jpg",
+              "angle": "小尼莫",
+              "scene": "夢境",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/little-nemo-4.jpg",
+              "angle": "小尼莫",
+              "scene": "夢境",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/little-nemo-5.jpg",
+              "angle": "小尼莫",
+              "scene": "夢境",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/little-nemo-6.jpg",
+              "angle": "小尼莫",
+              "scene": "夢境",
+              "license": "pdm",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/little-nemo-7.jpg",
+              "angle": "小尼莫",
+              "scene": "夢境",
+              "license": "cc0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/little-nemo-8.jpg",
+              "angle": "夢境國度",
+              "scene": "全版漫畫",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "Art Nouveau 風格——濃黑粗輪廓、平塗色塊、Ben Day 網點、色彩夢幻式一格一格跳變。華麗藤蔓飾框。建築綜合 1893 芝加哥白城、科尼島樂園、巴黎宮殿。 `Winsor McCay style full-page comic panel, little boy in striped Victorian pajamas falling upside down out of a small cozy bed, frozen mid-air in vast starry night, ornate Art Nouveau borders and curling vines, heavy black ink outlines, flat candy-bright colors, dramatic forced perspective, surreal dream logic, 1905 vintage chromolithograph`",
+          "dialogue": "（每集結尾旁白「夢——！」表示跌醒）",
+          "scene": "Slumberland（夢境國度）、糖果群島 Art Nouveau 華麗宮殿、超現實夢境風景 墜落驚醒（falling awakening）經典母題",
+          "personality": "外貌原型係 McCay 個仔 Robert：圓臉、大眼睛、齊瀏海黑髮男孩，約 6-8 歲 天真好奇、愛冒險，常因違反夢境規則而喺最後一格驚醒 夢中穿維多利亞風格條紋睡衣、無跟拖鞋；現實結局瞓喺床上、跌出床沿",
+          "ai_usage": "**墜落清醒開場**：爬螺貝階梯越高、追 Flip 個「WAKE UP」帽踩空跌醒 **糖果島冒險**：奶油餅乾船、焦糖河、糖霜雪山、融化糖漿追逐 **七彩階梯宮殿**：扭曲鏡屋、融化蠟牆、變形四肢、結尾晨光喚醒 **注意**：只用 McCay 原作風格；**Impie 要現代化重新演繹，唔好原樣再現種族刻板形象**；避免後期電影"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Flip",
+          "name_zh": "菲力普（Flip）",
+          "type": "配角（夢境同伴）",
+          "relation": "Nemo 喺 Slumberland 嘅丑角同伴，用帽叫醒佢",
+          "interaction": "Flip 係綠面、猩紅大鼻、叼雪茄嘅丑角，帽帶印住「WAKE UP」字樣。佢係 Nemo 喺夢境嘅同伴/帶路人，成日帶 Nemo 去冒險，又會喺夢尾用「WAKE UP」叫醒佢。佢哋係「冒險夥伴+喚醒者」雙重關係。\n"
+        },
+        {
+          "name": "Princess",
+          "name_zh": "公主（Slumberland 公主）",
+          "type": "配角（夢境領袖）",
+          "relation": "Nemo 喺 Slumberland 嘅對象/召喚者",
+          "interaction": "Princess 係夢鄉國王 Morpheus 嘅女，精緻高貴。佢召喚 Nemo 入夢冒險，係 Nemo 夢境冒險嘅核心誘因。Nemo 對公主有種孩童式嘅仰慕，公主則溫柔引導佢探索夢境。\n"
+        },
+        {
+          "name": "Impie",
+          "name_zh": "印皮（Impie）",
+          "type": "配角（跟班）",
+          "relation": "Nemo 喺糖果島發現嘅跟班",
+          "interaction": "Impie 係 Nemo 喺糖果群島發現嘅沉默跟班，幾乎唔講嘢，忠誠咁跟住 Nemo 同行。**⚠️ 時代敏感**：原著係 1900 年代種族歧視刻板印象，現代創作應去刻板化，改做「忠誠逗趣細路」形象。\n"
+        }
+      ]
+    },
+    {
+      "slug": "mutt-jeff",
+      "name": "Mutt and Jeff",
+      "name_zh": "馬特與傑夫（Mutt and Jeff）",
+      "type": "報紙漫畫",
+      "country": "美國",
+      "era": "1907-",
+      "creator": "Bud Fisher",
+      "publisher": "San Francisco Chronicle",
+      "first_appearance_year": 1907,
+      "status": "公版",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "jeff",
+          "name": "Jeff",
+          "name_zh": "傑夫",
+          "role": "主角（矮個拍檔）",
+          "first_appearance": "Mutt and Jeff（1907 年 11 月 15 日）",
+          "creator": "Bud Fisher",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "後期接手者版本",
+          "trademark": "名稱有商標",
+          "verified": "2026-08-09",
+          "image": "assets/img/mutt-jeff.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/mutt-jeff-1.jpg",
+              "angle": "馬特與傑夫",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mutt-jeff-2.jpg",
+              "angle": "馬特與傑夫",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mutt-jeff-3.jpg",
+              "angle": "馬特與傑夫",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mutt-jeff-4.jpg",
+              "angle": "馬特與傑夫",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mutt-jeff-5.jpg",
+              "angle": "費舍",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mutt-jeff-6.jpg",
+              "angle": "費舍",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mutt-jeff-7.jpg",
+              "angle": "費舍",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "矮細迷你個頭、圓頭、鬍子稀疏，常戴圓頂硬禮帽、穿合身舊西裝、手拿手杖。 `A short half-pint man in a round bowler hat and tiny mustache, reaching only to the elbow of his tall companion, wearing a fitted old suit, holding a walking cane, 1910s Bud Fisher comic strip style, black ink on aged newsprint.`",
+          "dialogue": "冷靜吐槽 Mutt 嘅大話",
+          "scene": "同 Mutt 一齊嘅發達大計 賽馬場、城市街道",
+          "personality": "半品脫迷你個頭，身高唔到 Mutt 一半 比 Mutt 冷靜、務實、容易上當但帶天真 常被 Mutt 牽住走，但會睇穿破綻 多數係被拖落水嘅苦主、吐槽 Mutt 嘅對象 屢被騙仍不離不棄——「天生一對」嘅喜劇動力",
+          "ai_usage": "**一高一矮搭檔**：Jeff 冷靜 vs Mutt 急躁嘅對比喜劇 **吐槽角色**：睇穿 Mutt 計劃嘅破綻 **注意**：只用 1931 前原作風格"
+        },
+        {
+          "slug": "mutt",
+          "name": "Mutt",
+          "name_zh": "馬特（Augustus J. Mutt）",
+          "role": "主角（高個賭徒）",
+          "first_appearance": "Mutt and Jeff（1907 年 11 月 15 日，San Francisco Chronicle）",
+          "creator": "Bud Fisher",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "後期 Al Smith / George Breisacher 接手嘅版本、1960-80 年代漫畫書",
+          "trademark": "名稱同後期授權有商標，但 1931 前原作公版",
+          "verified": "2026-08-09",
+          "image": "assets/img/mutt-jeff.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/mutt-jeff-1.jpg",
+              "angle": "馬特與傑夫",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mutt-jeff-2.jpg",
+              "angle": "馬特與傑夫",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mutt-jeff-3.jpg",
+              "angle": "馬特與傑夫",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mutt-jeff-4.jpg",
+              "angle": "馬特與傑夫",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mutt-jeff-5.jpg",
+              "angle": "費舍",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mutt-jeff-6.jpg",
+              "angle": "費舍",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mutt-jeff-7.jpg",
+              "angle": "費舍",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "極度高瘦、鶴鳥般身影、鷹鉤鼻、下巴幾乎冇、四肢鬆垮滿係「肘同膝蓋」骨感剪影、留一撮海象鬚。常穿寬鬆舊西裝、打領帶或軟呢帽。 `1910s American newspaper comic strip, Bud Fisher style, black ink line art on aged yellowed newsprint. A very tall skinny man with a beaky chinless face, walrus mustache, floppy collar, loose oversized pinstripe suit, leaning over a racetrack fence with a racing form in hand.`",
+          "dialogue": "「By Golly!」",
+          "scene": "賽馬場、投注站、發達大計 1910 年代美國城市",
+          "personality": "**不可救藥嘅賭徒**：滿腦子發財夢、好大喜功、急性子、容易輕信「穩賺不賠」 嘴上功夫了得但成日搞砸 故事常從佢走投無路開始（欠債、被追債、追賽馬） 係主導者／發起者，負責出餿主意 口頭禪風格：急躁、大話連篇，「By Golly!」一類 1910 年代美式感嘆",
+          "ai_usage": "**一高一矮反差喜劇**：Mutt 出主意、Jeff 吐槽 **發達大計**：各種「穩賺不賠」計劃最後搞砸 **賽馬喜劇**：追賽馬、賭博 **注意**：只用 1931 前原作風格，避免後期版本"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "（Mutt and Jeff 係雙主角，冇正式配角）",
+          "name_zh": "雙主角組合",
+          "type": "配角",
+          "relation": "Mutt 同 Jeff 係一高一矮嘅雙主角拍檔",
+          "interaction": "Mutt and Jeff 本質係「雙主角」漫畫——高瘦賭徒 Mutt 同矮仔 Jeff 一齊歷險。佢哋互相係對方最重要嘅「配角」：Mutt 滿腦子發財夢、Jeff 務實吐槽，成日一齊搞發財大計（賽馬、金礦、投資）然後失敗收場。\n"
+        }
+      ]
+    },
+    {
+      "slug": "olive-oyl",
+      "name": "Olive Oyl (Thimble Theatre)",
+      "name_zh": "奧麗芙（Olive Oyl）",
+      "type": "報紙漫畫",
+      "country": "美國",
+      "era": "1919-",
+      "creator": "Elzie Crisler Segar",
+      "publisher": "King Features Syndicate",
+      "first_appearance_year": 1919,
+      "status": "公版",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "olive-oyl",
+          "name": "Olive Oyl",
+          "name_zh": "奧麗芙（Olive Oyl）",
+          "role": "女主角（Popeye 女友）",
+          "first_appearance": "Thimble Theatre（1919 年 12 月 19 日，New York Journal）",
+          "creator": "Elzie Crisler Segar",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "Popeye 登場後（1929+）相關元素、後期動畫形象（Fleischer/Famous）",
+          "trademark": "名稱有商標，但 1919-1928 Segar 原作公版",
+          "verified": "2026-08-09",
+          "image": "assets/img/olive-oyl.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/olive-oyl-1.jpg",
+              "angle": "奧麗芙",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/olive-oyl-2.jpg",
+              "angle": "奧麗芙",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/olive-oyl-3.jpg",
+              "angle": "奧麗芙",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/olive-oyl-4.jpg",
+              "angle": "蓑衣劇院",
+              "scene": "原作",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/olive-oyl-5.jpg",
+              "angle": "蓑衣劇院",
+              "scene": "原作",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/olive-oyl-6.jpg",
+              "angle": "蓑衣劇院",
+              "scene": "原作",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/olive-oyl-7.jpg",
+              "angle": "奧麗芙",
+              "scene": "造型",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/olive-oyl-8.jpg",
+              "angle": "奧麗芙",
+              "scene": "造型",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "1920s 報紙漫畫風格——黑白純墨線、乾淨有力描邊、圓潤橡皮管肢體、誇張比例（極瘦、大腳、大眼大嘴）、網點/平行線陰影。 `1920s black-and-white newspaper comic strip panel, E.C. Segar Thimble Theatre style, tall extremely thin young woman with oversized feet, black hair in a tight bun, wide expressive eyes, dramatic posed gesture, simple bold ink outlines, vintage 1919 gag panel`",
+          "dialogue": "「Oh, dear!」",
+          "scene": "Thimble Theatre 世界 同 Ham Gravy（早期）、後期同 Popeye 互動 1920 年代美國",
+          "personality": "身型極度削瘦高挑（竹竿身、橡皮管四肢），動作誇張表情豐富 招牌黑色盤髮髻 + 特大雙腳 「能幹又莽撞」嘅颯爽少女：有主見、脾氣大、愛美愛慕虛榮、常大驚小怪愛抱怨、三分鐘熱度；口頭禪「Oh, dear!」，反應戲劇化 家庭：大哥 Castor Oyl、二哥 Crude Oyl、未婚夫 Ham Gravy（Popeye 出現前）",
+          "ai_usage": "**Popeye 登場前**：Ham Gravy 求婚鬧劇——玫瑰刺破裙、戒指扔進湯、思念「英雄形象」伏筆 **與 Popeye 嘅開端**：Popeye 幫 Olive 解圍、Olive 嫌佢粗魯又暗生好感——打情罵俏張力 **兩種愛情對比**：Ham Gravy（體面穩重）vs Popeye（粗豪可靠）——虛榮 vs 真心拉扯 **注意**：只用 1919-1928 Segar 原版（瘦高盤髻大腳、Ham Gravy 線）；避免 1929+ Popeye 相關元素同後期動畫形象"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Ham Gravy",
+          "name_zh": "漢姆格雷維",
+          "type": "配角（未婚夫）",
+          "relation": "Olive 喺 Popeye 出現前嘅未婚夫",
+          "interaction": "Ham Gravy 係 Olive 喺 1919 年登場就訂婚嘅未婚夫，體面、穩重但唔夠「英雄」。Olive 成日嫌佢唔夠男子氣概，對佢嘅求婚/安排大發脾氣。呢個設定係後來 Popeye 登場後三角關係嘅前身。**注意**：Ham Gravy 屬公版，但 Popeye 相關部分（1929+）受保護。\n"
+        },
+        {
+          "name": "Castor Oyl",
+          "name_zh": "卡斯托·歐爾",
+          "type": "配角（大哥）",
+          "relation": "Olive 嘅大哥，精明做生意人",
+          "interaction": "Castor Oyl 係 Olive 嘅大哥，精明圓滑、滿腦子生意同冒險大計，成日想將細妹婚事「談成」以圖生意。佢係 1919 Thimble Theatre 早期活躍角色，帶動 Olive 嘅劇情。\n"
+        },
+        {
+          "name": "Crude Oyl",
+          "name_zh": "克魯德·歐爾",
+          "type": "路人（二哥）",
+          "relation": "Olive 嘅二哥",
+          "interaction": "Crude Oyl 係 Olive 嘅二哥，存在感較低，係 Oyl 家庭群像之一。佢同 Castor、Olive 構成「Oyl 一家」，係 Thimble Theatre 早期世界嘅背景角色。\n"
+        }
+      ]
+    },
+    {
+      "slug": "open-source-mascots",
+      "name": "Open-Source Mascots",
+      "name_zh": "開放源碼吉祥物",
+      "type": "軟體專案吉祥物",
+      "country": "全球",
+      "era": "2000s-",
+      "creator": "各開源社群",
+      "publisher": "各開源專案",
+      "first_appearance_year": 2000,
+      "status": "CC0 / CC-BY 自由授權",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "kiki",
+          "name": "Kiki the Cyber Human",
+          "name_zh": "琪琪（Kiki，Krita 吉祥物）",
+          "role": "吉祥物（Krita）",
+          "first_appearance": "Krita 繪畫軟體",
+          "creator": "Krita 專案（Tyson Tan 設計）",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需署名）",
+          "trademark": "Krita 名稱屬商標",
+          "verified": "2026-08-09",
+          "image": "assets/img/kiki.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/kiki-1.jpg",
+              "angle": "琪琪",
+              "scene": "Krita 吉祥物",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/kiki-2.jpg",
+              "angle": "琪琪",
+              "scene": "Krita 吉祥物",
+              "license": "by",
+              "source": ""
+            }
+          ],
+          "appearance": "機械數位風吉祥物——Cyber Human、未來感、代表繪畫創作。 `cyberpunk digital art mascot, futuristic humanoid robot girl, Krita software mascot style, representing digital painting, clean vector mascot design, tech-aesthetic`",
+          "dialogue": "（吉祥物無對白）",
+          "scene": "數位藝術、繪畫軟體 開放源碼創作",
+          "personality": "機械/數位風格的「Cyber Human」角色 代表數位藝術、開放源碼繪畫精神 現代科技感吉祥物",
+          "ai_usage": "**數位藝術吉祥物**：Cyber Human 代表繪畫 **注意**：CC-BY 4.0，需署名"
+        },
+        {
+          "slug": "wapuu",
+          "name": "Wapuu",
+          "name_zh": "哇普（Wapuu）",
+          "role": "吉祥物（WordPress）",
+          "first_appearance": "2008，WordPress 社群",
+          "creator": "Kazuko Kaneuchi（金内和子）",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0（官方設計 GPLv2+）"
+          },
+          "protected_portion": "無（可自由使用，官方 GPLv2+ 需遵守）",
+          "trademark": "WordPress 名稱屬商標",
+          "verified": "2026-08-09",
+          "image": "assets/img/wapuu.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/wapuu-1.jpg",
+              "angle": "哇普",
+              "scene": "吉祥物",
+              "license": "cc0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/wapuu-2.jpg",
+              "angle": "哇普",
+              "scene": "吉祥物",
+              "license": "cc0",
+              "source": ""
+            }
+          ],
+          "appearance": "圓胖小怪獸吉祥物——長鼻、灰褐色、頭頂一撮毛、友善微笑。 `cute round mascot creature, long nose, light grey-brown fur, small tuft of hair on head, small eyes with friendly smile, WordPress Wapuu style, flat vector mascot design`",
+          "dialogue": "（吉祥物無對白，靠親切形象）",
+          "scene": "科技社群、WordPress 活動 開放源碼精神",
+          "personality": "長鼻子嘅圓胖小怪獸，淺灰褐色 頭上一小撮毛、小眼睛、友善微笑 親切、萌、代表開放原始碼社群",
+          "ai_usage": "**開源吉祥物**：親切長鼻小怪獸 **注意**：CC0 可任意使用；官方 GPLv2+ 需遵守"
+        }
+      ]
+    },
+    {
+      "slug": "oswald",
+      "name": "Oswald the Lucky Rabbit",
+      "name_zh": "幸運兔奧斯華（Oswald the Lucky Rabbit）",
+      "type": "動畫短片系列",
+      "country": "美國",
+      "era": "1927-1928",
+      "creator": "Walt Disney & Ub Iwerks",
+      "publisher": "Universal Pictures",
+      "first_appearance_year": 1927,
+      "status": "公版（1927 年作品因無續期）",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "oswald-1927",
+          "name": "Oswald the Lucky Rabbit (1927 version)",
+          "name_zh": "幸運兔奧斯華（1927 版）",
+          "role": "主角",
+          "first_appearance": "Trolley Troubles（1927 年 9 月）",
+          "creator": "Walt Disney & Ub Iwerks",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "1928 年及之後嘅 Oswald 影片（有續期）、後期 Lantz 版本",
+          "trademark": "「Oswald」名稱及形象商標現由 Disney 持有",
+          "verified": "2026-08-09",
+          "image": "assets/img/oswald-1927.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/oswald-1927-1.jpg",
+              "angle": "幸運兔奧斯華",
+              "scene": "首登場",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/oswald-1927-2.jpg",
+              "angle": "奧斯華",
+              "scene": "造型",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/oswald-1927-3.jpg",
+              "angle": "幸運兔奧斯華",
+              "scene": "首登場",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/oswald-1927-4.jpg",
+              "angle": "幸運兔奧斯華",
+              "scene": "首登場",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/oswald-1927-5.jpg",
+              "angle": "幸運兔奧斯華",
+              "scene": "首登場",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/oswald-1927-6.jpg",
+              "angle": "奧斯華",
+              "scene": "造型",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/oswald-1927-7.jpg",
+              "angle": "奧斯華",
+              "scene": "造型",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/oswald-1927-8.jpg",
+              "angle": "奧斯華",
+              "scene": "造型",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "黑白默片卡通兔，黑色圓身、長兔耳、白色圓眼同嘴，著短衫褲。1927 年早期動畫風格，比後期 Oswald 更圓潤樸素。 `1927 silent cartoon black rabbit, round black body, long rabbit ears, white circular eyes, white mouth, wearing shorts, cheerful expression, riding a trolley, vintage early animation, black and white`",
+          "dialogue": "（默片角色，無對白，全靠動作）",
+          "scene": "電車（Trolley）、農場、城市街道 1920 年代美國 喜劇冒險",
+          "personality": "活潑、樂天、自信 充滿冒險精神 默片角色，靠動作同表情 同米奇有相似基因（都係 Disney/Iwerks 出品） 比後期形象更圓潤樸素",
+          "ai_usage": "**早期動畫復古冒險**：黑白、圓潤、彈性動作 **電車／1920 年代城市喜劇**：《Trolley Troubles》電車冒險 **1927 已入公版**（1956 年起）——比米奇（2024）早好多，冇「部分公版」限制 **注意**：「Oswald」名受商標保護，商業創作時考慮改名（1927 版形象本身公版）"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Oswald 嘅對手/壞蛋",
+          "name_zh": "Oswald 嘅對手",
+          "type": "反派配角",
+          "relation": "Oswald 默片中成日對抗嘅反派",
+          "interaction": "Oswald 喺早期默片成日面對各種壞蛋同對手（偷嘢賊、整蠱者等），靠機靈、身體彈性同急中生智化解危機。佢係「魯莽但招人喜愛」嘅反英雄，成日喺冒險中反敗為勝。\n"
+        }
+      ]
+    },
+    {
+      "slug": "polly-pals",
+      "name": "Polly and Her Pals",
+      "name_zh": "波莉同佢班朋友（Polly and Her Pals）",
+      "type": "報紙漫畫",
+      "country": "美國",
+      "era": "1912-",
+      "creator": "Cliff Sterrett",
+      "publisher": "King Features Syndicate",
+      "first_appearance_year": 1912,
+      "status": "公版",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "polly-pals",
+          "name": "Polly (Perkins Family)",
+          "name_zh": "波莉（波莉同佢班朋友）",
+          "role": "主角",
+          "first_appearance": "Positive Polly（1912 年 12 月 4 日）→ Polly and Her Pals（1913 年 1 月 17 日）",
+          "creator": "Cliff Sterrett",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "1930（含）後出版頁面、後期接手版本",
+          "trademark": "King Features 對後期版本有版權",
+          "verified": "2026-08-09",
+          "image": "assets/img/polly-pals.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/polly-pals-1.jpg",
+              "angle": "波莉",
+              "scene": "Art Deco",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/polly-pals-2.jpg",
+              "angle": "波莉",
+              "scene": "Art Deco",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/polly-pals-3.jpg",
+              "angle": "波莉",
+              "scene": "Art Deco",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/polly-pals-4.jpg",
+              "angle": "波莉",
+              "scene": "Art Deco",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/polly-pals-5.jpg",
+              "angle": "斯特雷特",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "`Art-deco comic-book girl, Polly and Her Pals style by Cliff Sterrett, 1927 Sunday page: a confident flapper girl with sleek black bob, oversized red-and-black geometric dress, standing against a surreal cubist background of abstract blocks, spirals and radiating Art-Deco sunbursts, flat gouache color, avant-garde surrealist composition`",
+          "dialogue": "（日常喜劇式對話）",
+          "scene": "中產家庭、時尚城市 Art Deco 幾何背景、超現實空間 追求者爭寵",
+          "personality": "**Polly**：靚女時髦年輕女仔，1930s「bob 波波頭」首批代表；自信獨立驕傲精明；面對追求者毫不慌張、以逗趣方式掌控局面——1910s 就描繪出 Roaring Twenties 獨立女性氣質 **Sam'l \"Paw\" Perkins**：壯碩中年男、粗格仔西裝、戴帽；固執溺愛女兒、常誤會自取其辱；係被全家擺佈、常被整嘅喜劇軸心（1920s 後真正主角） **Suzie \"Maw\"**：豐滿端莊主婦、比 Paw 精明貴氣、剛強碎念、係家中權力核心 **Ashur**：呆頭呆腦姪子、「蠢」嘅化身 **追求者群**：輪番登場嘅鎮上年輕男子，競爭吃醋出糗製造笑點",
+          "ai_usage": "**魔幻眼鏡**：Paw 戴錯眼鏡、一切扭曲做幾何球體棱柱、得佢一個睇到變形（自取其辱） **時裝競賽**：三位追求者著最浮誇 Art Deco 新衣新車爭寵、Polly 幾何舞台「打分數」、全部被捉弄 **Kitty 沉默見證**：無對話全頁、超現實碼頭釣魚、Paw 魚線纏住、抽象海星月 **注意**：只用 1930 前 Sterrett 原作（尤其 1926-1929 前衛期）"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Paw (Sam'l Perkins)",
+          "name_zh": "爸爸（山姆柏金斯）",
+          "type": "配角（爸爸）",
+          "relation": "Polly 個糊塗爸爸，1920s 後變真正主角",
+          "interaction": "Paw 係壯碩中年男、粗格仔西裝，固執溺愛女兒但成日誤會、自取其辱，係全家擺佈、常被整嘅喜劇軸心。佢同 Polly 係「溺愛但糊塗嘅爸爸 vs 精明獨立嘅女」關係。1920s 後 Paw 變咗漫畫真正主角。\n"
+        },
+        {
+          "name": "Maw (Suzie)",
+          "name_zh": "媽媽（蘇西）",
+          "type": "配角（媽媽）",
+          "relation": "Polly 嘅媽媽，家中權力核心",
+          "interaction": "Maw（Suzie）係豐滿端莊嘅主婦，比 Paw 精明貴氣，剛強碎念、能壓制丈夫，係家中實際權力核心。佢對 Polly 嘅追求者同 Paw 嘅糊塗都有自己嘅意見。\n"
+        },
+        {
+          "name": "Ashur & 追求者群",
+          "name_zh": "阿舒（呆姪子）& 追求者群",
+          "type": "配角",
+          "relation": "Polly 嘅呆姪子 + 輪番追求佢嘅鎮上年輕男子",
+          "interaction": "Ashur 係呆頭呆腦嘅姪子、「蠢」嘅化身，常鬧無厘頭笑話。追求者群係輪番登場嘅鎮上年輕男子（運動健將、紳士、癡情男），都想追求 Polly，因競爭、吃醋、出糗製造笑點。Polly 對佢哋毫不慌張、以逗趣方式掌控局面。\n"
+        }
+      ]
+    },
+    {
+      "slug": "popeye",
+      "name": "Popeye",
+      "name_zh": "大力水手（Popeye）",
+      "type": "報紙漫畫 → 動畫短片",
+      "country": "美國",
+      "era": "1929-1930s",
+      "creator": "Elzie Crisler Segar",
+      "publisher": "King Features Syndicate",
+      "first_appearance_year": 1929,
+      "status": "部分公版（僅 1929 年原始漫畫版）",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "popeye-1929",
+          "name": "Popeye (1929 original version)",
+          "name_zh": "大力水手（1929 原始版）",
+          "role": "主角",
+          "first_appearance": "Thimble Theatre 報紙漫畫（1929 年 1 月 17 日）",
+          "creator": "Elzie Crisler Segar",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "1938 年後工作室發展嘅版本、1933 後動畫短片版、彩色現代形象",
+          "trademark": "「Popeye」名稱及現代形象商標有效（King Features 持有）",
+          "verified": "2026-08-09",
+          "image": "assets/img/popeye-1929.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/popeye-1929-1.jpg",
+              "angle": "大力水手",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/popeye-1929-2.jpg",
+              "angle": "Segar 原創",
+              "scene": "連環畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/popeye-1929-3.jpg",
+              "angle": "大力水手",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/popeye-1929-4.jpg",
+              "angle": "大力水手",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/popeye-1929-5.jpg",
+              "angle": "大力水手",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/popeye-1929-6.jpg",
+              "angle": "Segar 原創",
+              "scene": "連環畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/popeye-1929-7.jpg",
+              "angle": "Segar 原創",
+              "scene": "連環畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/popeye-1929-8.jpg",
+              "angle": "Segar 原創",
+              "scene": "連環畫",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "黑白報章連環畫，一眼永遠閉住（「Popeye」之名由此斜眼嚟）、下巴前凸、爆筋前臂、超大赤腳大腳掌。1929 初登場著**白制服**、幾集後換**黑色**水手服。常叼玉米芯煙斗。Segar 鬆散粗筆線條、泛黃舊報紙質感。 `Ink-on-paper 1920s newspaper comic strip, black and white, loose scratchy Segar style. A short muscular one-eyed sailor squinting hard, huge knobby forearms like balloons, oversized bare flat feet, black short-sleeved sailor shirt with flared collar, corncob pipe clenched between teeth, puffs of smoke shaped as doodles, minimal background, hand-lettered speech balloon, halftone newsprint texture, aged cream paper.`",
+          "dialogue": "「Ya think I'm a cowboy?」——1929/1/17 歷史性第一句台詞，不屑帶刺",
+          "scene": "碼頭、船、海邊、夜海風暴 1920 年代美國鄉村／城市 Segar 擅長夜間懸念、神秘事件、海上冒險（陰森奇幻味） 1929 年版本未有 Wimpy、Bluto、Swee'Pea 等角色（海妖 The Sea Hag 於 1929-10-26 登場）",
+          "personality": "原型：強壯嘅流浪漢酒吧保鑣 Frank「Rocky」Fiegel 冷漠悲觀、臭臉暴躁、無禮數、隨便被惹毛、唔太會笑 好鬥但堅守原則：超級強壯、幾乎無堅不摧（肺部中彈都能活），但**「唔打女人」**、只為正義同自衛出手 嘲笑佢長相嘅人會被扁 對 Olive Oyl 一往情深（1929 年 8 月「錯吻」後動心） ⚠️ **力量來源修正**：1929 版力量其實嚟自**搓「Whiffle Hen」公雞 Bernice 嘅頭**；**食菠菜係 1931 年之後先出現**（Bunzo 將軍一集）——呢個係常見誤解，要留意 身世不幸卻對自己全然接納：「I yam what I yam」——大蕭條年代讀者最需要嘅不屈、反擊精神象徵",
+          "ai_usage": "**1929 原始版力量梗**：「The Whiffle Hen's Secret」——搓公雞頭瞬間脹起爆筋臂，甩飛海盜 **歷史首登場再演**：「Cowboy? Nah, Sailor.」——重現第一句台詞同痞氣 **海妖對決**：「The Sea Hag's Midnight Cross」——夜海懸念、唔打女人嘅鐵則 **自我認同宣言**：「I Yam What I Yam」——情感節奏：嘲諷(低)→壓抑(低)→宣言(高)→勝利(高) **注意**：只用 1929 原始版；避免 1933 動畫彩色形象同主題曲；「不打女人」「以正義自衛為先」係 1929 版核心價值"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Bernice the Whiffle Hen",
+          "name_zh": "貝爾尼斯（Whiffle 母雞）",
+          "type": "配角",
+          "relation": "Popeye 嘅力量來源之一（搓佢個頭）",
+          "interaction": "1929 年版本 Popeye 嘅招牌力量其實係**搓 Bernice 個頭**（whiffle hen 魔法）嚟攞到，唔係食菠菜（菠菜係 1931 動畫年代先出現）。Bernice 係一隻奇異嘅母雞，Popeye 一搓佢個頭就會變力大無窮。\n"
+        },
+        {
+          "name": "Castor Oyl",
+          "name_zh": "卡斯托·歐爾（Olive 嘅大哥）",
+          "type": "配角",
+          "relation": "Olive Oyl 嘅大哥，成日帶 Popeye 入局",
+          "interaction": "Castor 係 Olive 嘅哥哥，精明圓滑、成日有生意/冒險大計，係佢帶 Popeye 上船展開冒險。佢同 Popeye 係「拍檔」關係——Popeye 出拳，Castor 出計。\n"
+        }
+      ]
+    },
+    {
+      "slug": "skippy",
+      "name": "Skippy",
+      "name_zh": "斯基皮（Skippy）",
+      "type": "報紙漫畫",
+      "country": "美國",
+      "era": "1923-",
+      "creator": "Percy Crosby",
+      "publisher": "King Features Syndicate",
+      "first_appearance_year": 1923,
+      "status": "公版",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "skippy",
+          "name": "Skippy Skinner",
+          "name_zh": "斯基皮（史奇比）",
+          "role": "主角",
+          "first_appearance": "Skippy（1923 年 3 月 22 日，Life 雜誌；1925 年 King Features 連載）",
+          "creator": "Percy Crosby",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "1931 後續作品、後期接手版本",
+          "trademark": "⚠️「Skippy」名最出名係 Skippy 花生醬商標，商業行銷可能混淆（尤其食品/消費品），發布時建議用全名「Skippy Skinner」區隔",
+          "verified": "2026-08-09",
+          "image": "assets/img/skippy.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/skippy-1.jpg",
+              "angle": "斯基皮",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/skippy-2.jpg",
+              "angle": "斯基皮",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/skippy-3.jpg",
+              "angle": "斯基皮",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/skippy-4.jpg",
+              "angle": "斯基皮",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "1920s 純黑白報紙漫畫風格——濃黑簡潔線條、對比強烈、偶稀疏交叉排線做淺影；頭大身小、表情誇張戲劇性、背景極簡。 `A mischievous 1920s American newspaper comic strip panel, young city boy in a large floppy checked cap and enormous white high collar tie, caught stealing apples from a corner fruit stand, freckled clever face half-turning guiltily, exaggerated hand gesture, thick clean black ink linework, vintage Life magazine cartoon aesthetic, pen and ink`",
+          "dialogue": "（頑皮男仔式辯解 + 對大人世界嘅牢騷）",
+          "scene": "城市街道、水果攤、學校、溜冰場 頑皮闖禍、幻想 1920s 美國",
+          "personality": "體型細小嘅五年級城市男仔、頭部比例偏大、神情精靈 招牌：**超大號白色高領領子 + 領帶、一頂鬆垮格子花紋帽**（常略歪戴）、膝上短褲 + 長襪 **淘氣與憂鬱並存**嘅雙重性格——上格偷水果、下格含淚望親戚墳墓（「去年佢仲送我領帶……」） 「無害少年惡作劇」：偷水果、學滑冰/棒球屢敗、鬥嘴、抱怨大人世界不公 動作誇張愛插腰指指點點、被責罵後一副「我邊度有錯」嘅天真無辜（配歪帽強調喜感） 關鍵母題：帽被吹走/戴歪、大領帶甩動、肩揹書包",
+          "ai_usage": "**水果攤之役**：偷蘋果被老闆回頭一喝、假裝「讚蘋果靚」、反被塞爛梨子——小聰明踢鐵板 **習題風波**：作業偷換同桌、老師抓包、辯稱「互助」、下課真教同桌——證明唔係壞孩子 **溜冰大冒險**：屢跌、帽飛卡鐵絲網、最後扶住細女仔滑得老遠嚇壞老師——淘氣包柔軟心 **注意**：只用 1923-1930 原作；避開 1931+；**「Skippy」名有花生醬商標混淆風險，用「Skippy Skinner」區隔**"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "玩伴群（朋友同敵人）",
+          "name_zh": "Skippy 嘅玩伴",
+          "type": "配角",
+          "relation": "Skippy 嘅街頭玩伴（友與敵）",
+          "interaction": "Skippy 有一班街頭玩伴，有朋友亦有「敵人」（小對手），成日鬥嘴、比賽、互相整蠱。佢哋嘅互動係「頑皮男仔日常」嘅核心——Skippy 成日帶頭搞小聰明惡作劇，玩伴一齊參與。\n"
+        }
+      ]
+    },
+    {
+      "slug": "andy-gump",
+      "name": "The Gumps",
+      "name_zh": "古普一家（The Gumps）",
+      "type": "報紙漫畫",
+      "country": "美國",
+      "era": "1917-",
+      "creator": "Sidney Smith",
+      "publisher": "Chicago Tribune",
+      "first_appearance_year": 1917,
+      "status": "公版",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "andy-gump",
+          "name": "Andy Gump",
+          "name_zh": "安迪古普",
+          "role": "主角",
+          "first_appearance": "The Gumps（1917 年 2 月 12 日，Chicago Tribune）",
+          "creator": "Sidney Smith",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "1930 後內容（Gus Edson 期 1935-1959）、1974 年再版選集編排",
+          "trademark": "「Andy Gump」名可能被第三方使用（如廁所公司），純商業品牌用名要諮詢",
+          "verified": "2026-08-09",
+          "image": "assets/img/andy-gump.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/andy-gump-1.jpg",
+              "angle": "安迪古普",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/andy-gump-2.jpg",
+              "angle": "安迪古普",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/andy-gump-3.jpg",
+              "angle": "古普一家",
+              "scene": "連載",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/andy-gump-4.jpg",
+              "angle": "古普一家",
+              "scene": "連載",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/andy-gump-5.jpg",
+              "angle": "古普一家",
+              "scene": "連載",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "1910s-20s 報紙漫畫風格——粗獷流暢濃墨筆線、灰階水彩/墨洗、誇張符號化造型；安迪光頭、無下巴側寫、怒張大嘴係最大辨識點；泛黃舊報網點紙紋。 `1910s-20s American newspaper comic strip panel, pen-and-ink with muted watercolor wash, The Gumps style. A bald, chinless, big-grinning middle-aged man shrinking back in a parlor armchair while his plump stern wife leans over pointing a disapproving finger, a mischievous freckled boy peeking around the doorframe, aged cream paper, bold loose ink linework`",
+          "dialogue": "（吹牛式自我標榜 + 妻管嚴式妥協）",
+          "scene": "中產郊區住宅、客廳壁紙、壁爐 辦公室、選舉活動 1910-20s 美國",
+          "personality": "**無下巴奇形**：下顎幾乎完全退縮——典故係本尊 Andy Wheat 因牙科感染切除整個下顎骨（「Andy Gump 畸形」一詞由此命名） 禿頭/光頂（「髮刷公司總裁」卻冇頭髮嘅長期笑梗）、眉開眼笑、自來熟大笑 自大話癆好吹牛嘅中產家長，意見一大堆、自以為是、成日出餿主意 **怕老婆（妻管嚴）**：對老婆 Min 言聽計從、被她碾壓奚落 長年做生意、選舉（1922 從政、1924 選總統）、盲目投資，屢戰屢敗屢敗屢戰 **Min**：強勢管家婆，斥責欺凌安迪、全家實質掌控者、潑辣精明、灶台專家 **Chester**：調皮機靈愛惹麻煩嘅小男孩、短髮吊帶褲圓臉，父子互動笑點",
+          "ai_usage": "**髮刷總裁自覺**：想賣「梳+鏡二合一」專利畀老婆、Min 一句「你頭髮喺邊？」反殺、Chester 偷椅墊玩壞 **一夜總統**：客廳貼滿光頭無下巴宣傳海報、逼 Chester 演講練習、Min 將選舉經費買煤爐、連老婆都投反對票宣布退選 **假扮硬漢**：想裝一家之主、老婆一個眼色即刻「爸全聽媽的」、Chester 學老媽叉腰、Min 遞涼茶「乖，坐下」 **注意**：只用 1917-1920s Smith 原作；避開 1930 後（Gus Edson 期）同 1974 再版編排；建議標註原創者"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Min Gump",
+          "name_zh": "敏（Min，Andy 老婆）",
+          "type": "配角（老婆）",
+          "relation": "Andy 嘅強勢管家婆，全家實質掌控者",
+          "interaction": "Min 係 Andy 嘅老婆，潑辣精明、不斷斥責欺凌 Andy，係全家實質掌控者。佢對 Andy 嘅吹牛同蠢點子嗤之以鼻，成日雙手叉腰責罵。Andy 對佢言聽計從——典型「妻管嚴」。**注意**：名稱係商標，新作建議改名。\n"
+        },
+        {
+          "name": "Chester Gump",
+          "name_zh": "切斯特（Andy 個仔）",
+          "type": "配角（兒子）",
+          "relation": "Andy 調皮搗蛋嘅仔",
+          "interaction": "Chester 係 Andy 個調皮機靈嘅仔，成日幫倒忙或惡作劇，模仿老爸嘅牛仔行為、將老爸啲糗事講出去。佢同老爸嘅互動係父子喜劇笑點——愛要零用錢、學老媽叉腰嘲笑老爸。\n"
+        },
+        {
+          "name": "Goliath 哥利亞 & 女傭 Tilda",
+          "name_zh": "哥利亞（BB 仔）& 女傭 Tilda",
+          "type": "路人",
+          "relation": "Andy 屋企嘅 BB 仔同女傭",
+          "interaction": "Goliath 係 Andy 嘅 BB 仔（Chester 嘅細佬），Tilda 係屋企女傭。佢哋係 Gump 家家庭群像嘅背景角色，增添屋企嘅生活感同家庭肥皂劇味道。\n"
+        }
+      ]
+    },
+    {
+      "slug": "katzenjammer-kids",
+      "name": "The Katzenjammer Kids",
+      "name_zh": "凱曾加默小孩（Katzenjammer Kids）",
+      "type": "報紙漫畫",
+      "country": "美國",
+      "era": "1897-",
+      "creator": "Rudolph Dirks",
+      "publisher": "American Humorist / New York Journal",
+      "first_appearance_year": 1897,
+      "status": "公版",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "hans-fritz",
+          "name": "Hans & Fritz (Katzenjammer Kids)",
+          "name_zh": "漢斯與弗里茨（凱曾加默小孩）",
+          "role": "主角（兩兄弟）",
+          "first_appearance": "The Katzenjammer Kids（1897 年 12 月 12 日，New York Journal）",
+          "creator": "Rudolph Dirks",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "1929 後重繪重刊、後期 Knerr 接手版本、King Features 現代數位檔",
+          "trademark": "後期 King Features 對再製內容有著作權",
+          "verified": "2026-08-09",
+          "image": "assets/img/katzenjammer-kids.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/katzenjammer-kids-1.jpg",
+              "angle": "凱曾加默小孩",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/katzenjammer-kids-2.jpg",
+              "angle": "凱曾加默小孩",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/katzenjammer-kids-3.jpg",
+              "angle": "凱曾加默小孩",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/katzenjammer-kids-4.jpg",
+              "angle": "凱曾加默小孩",
+              "scene": "報紙漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/katzenjammer-kids-5.jpg",
+              "angle": "漢斯與弗里茨",
+              "scene": "主角",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/katzenjammer-kids-6.jpg",
+              "angle": "漢斯與弗里茨",
+              "scene": "主角",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/katzenjammer-kids-7.jpg",
+              "angle": "漢斯與弗里茨",
+              "scene": "主角",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/katzenjammer-kids-8.jpg",
+              "angle": "迪克斯",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "1890s Sunday comic 風格——粗獷黑墨勾線 + 大量剖面線 cross-hatching、褪色維多利亞平塗淡彩（sepia、赭黃、赭紅）、泛黃報紙質感。 `1890s American Sunday comic-strip illustration, two identical mischievous German-American twin boys in neat sailor outfits with round bangs and innocent smirks, sneaking away from a wooden house door, hand-drawn ink lines, crosshatching, muted sepia and flat color wash, 6-panel newspaper gag strip`",
+          "dialogue": "（早期德裔口音英文：「Dot's a foolishness!」等）",
+          "scene": "船、屋企、德式後院 對抗船長同大人 頑皮搞破壞、slapstick",
+          "personality": "**Hans 同 Fritz**：兩個幾乎一模一樣嘅德裔雙胞胎——圓潤娃娃臉、整齊短瀏海（蘑菇狀/圓蓋短髮）、衣著整齊（領巾、短褲、吊帶、短襪），「人畜無害」嘅無辜神情掩蓋頑劣本性——「衣冠楚楚嘅搗蛋鬼」 天生小麻煩製造者、叛逆一切權威；機靈膽大、巧妙推卸罪責 結夥行動、如影隨形、「壞事二人組」 **Der Captain**：寄宿嘅絡腮鬍粗獷老水手，代理父親，動輒暴跳如雷，係頭號受害者 **Mama (Lena)**：長鼻、盤髮髻、寬裙圍裙嘅德裔家庭主婦，管教執行者 **Der Inspector**：長鬍鬚曠課督學，嚴厲威風但幾乎從未逮到兩兄弟",
+          "ai_usage": "**船長嘅「鯡魚」晚餐**：偷換鯡魚做塞滿亂動小貓嘅布袋，一刀切開炸開 **督學曠課追擊**：連環陷阱——灑豆滑倒、晾衣繩彈回、麵粉炸彈 **把罪推畀船長**：碎玻璃同彈弓塞入熟睡船長口袋，船長百口莫辯 **注意**：只用 1897-1928 年 Dirks 原作；避開後期受保護畫面、台詞同 King Features 數位檔"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Der Captain",
+          "name_zh": "船長",
+          "type": "配角（代理父親/受害者）",
+          "relation": "Hans & Fritz 惡作劇嘅頭號受害者",
+          "interaction": "Captain 係寄宿喺 Katzenjammer 家嘅絡腮鬍老水手，係兩兄弟嘅「代理父親」。佢成日被 Hans 同 Fritz 惡作劇搞到暴跳如雷，最後以「打屁股」作結。佢哋係「頑童 vs 火爆船長」嘅永恆對抗。\n"
+        },
+        {
+          "name": "Mama (Lena)",
+          "name_zh": "媽咪（蓮娜）",
+          "type": "配角（權威/道德仲裁）",
+          "relation": "Hans & Fritz 嘅媽媽，管教佢哋",
+          "interaction": "Mama（Lena）係長鼻、盤髮髻、圍裙嘅德裔家庭主婦，係家中權威。佢疼愛兩兄弟但對佢哋頑劣頭痛，係「打屁股」管教嘅主要執行者。佢成日同 Captain 一齊收拾兩兄弟嘅爛攤子。\n"
+        },
+        {
+          "name": "Der Inspector",
+          "name_zh": "督學",
+          "type": "路人（曠課督學）",
+          "relation": "捉翹課嘅 Hans & Fritz",
+          "interaction": "Inspector 係長鬍鬚嘅曠課督學，奉命捉翹課嘅兩兄弟。佢看似嚴厲威風，但幾乎從未成功逮到 Hans 同 Fritz，成日被佢哋設陷阱戲弄，最後氣急敗壞、顏面掃地。\n"
+        }
+      ]
+    },
+    {
+      "slug": "yellow-kid",
+      "name": "The Yellow Kid",
+      "name_zh": "黃孩子（The Yellow Kid）",
+      "type": "報紙漫畫（Hogan's Alley）",
+      "country": "美國",
+      "era": "1895-1898",
+      "creator": "Richard F. Outcault",
+      "publisher": "New York World → New York Journal",
+      "first_appearance_year": 1895,
+      "status": "公版",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "yellow-kid",
+          "name": "The Yellow Kid (Mickey Dugan)",
+          "name_zh": "黃孩子（米奇杜根）",
+          "role": "主角",
+          "first_appearance": "Hogan's Alley（1895 年 2 月 17 日，New York World）",
+          "creator": "Richard F. Outcault",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（角色形象公版）",
+          "trademark": "部分法域對角色名稱標題有商標主張，但創作性角色形象唔受影響",
+          "verified": "2026-08-09",
+          "image": "assets/img/yellow-kid.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yellow-kid-1.jpg",
+              "angle": "黃孩子",
+              "scene": "首個漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yellow-kid-2.jpg",
+              "angle": "黃孩子",
+              "scene": "首個漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yellow-kid-3.jpg",
+              "angle": "黃孩子",
+              "scene": "首個漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yellow-kid-4.jpg",
+              "angle": "黃孩子",
+              "scene": "首個漫畫",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yellow-kid-5.jpg",
+              "angle": "後巷",
+              "scene": "場景",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yellow-kid-6.jpg",
+              "angle": "後巷",
+              "scene": "場景",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yellow-kid-7.jpg",
+              "angle": "後巷",
+              "scene": "場景",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yellow-kid-8.jpg",
+              "angle": "奧特考特",
+              "scene": "作者",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "1890s 報紙漫畫風格——粗糙半色調網點 + 平塗黃紅藍四色油墨、粗獷厚重墨線、木刻/石版印刷樸拙質感、泛黃舊報紋。畫面極度飽滿、頑童滿坑滿谷。 `1895 American newspaper comic panel, halftone and flat yellow color block printing. A single bald, big-eared, snaggle-toothed barefoot boy about 6 years old in an oversized yellow nightshirt printed with big uneven hand-written text, goofy gap-toothed grin, grimy Lower East Side slum alley, crude 19th-century woodblock line work, muted sepia and flat yellow palette`",
+          "dialogue": "睡袍上印嘅口語文字（「DE ladies all are a peech, see?」）",
+          "scene": "Hogan's Alley（紐約虛構貧民窟後巷） 1890s 紐約下東區 頑童群像、洗衣日、搬遷",
+          "personality": "**光頭 + 大耳朵**：剃光頭（窮孩子因蝨患剃頭）、過大招風耳 **超大號黃色睡袍**：繼承自家姐、明顯過大、1896 年後固定亮黃色（「Yellow Kid」命名來源）；袍面印滿塗鴉式手寫文字 **滿身印字**：台詞直接印喺睡袍（下東區移民口音歪斜白字）——諷刺廣告看板 露齒傻笑 + 赤腳、頑皮街頭氣機靈 愛嘲弄紐約上流社會虛榮，常率領頑童搗亂，帶孩子氣天真",
+          "ai_usage": "**新家搬遷**：拖行李搬去 McFadden 公寓街、新地盤頑童對峙 **嘲弄上流**：富人馬車經過、頑童模仿咧嘴假笑反嗆——街頭智慧勝虛榮 **洗衣日災難**：晾衣繩纏住、搶救互相絆倒、頂燒焦破布當「時尚帽」 **注意**：⚠️ 角色本質係 1890s 愛爾蘭移民貧民刻板（同系列含反華 Yellow Peril 歧視）。**現代化改寫**：移除刻板醜化、保留光頭/大耳/黃睡袍/印字美學；唔好用口音嘲弄式拼字；貧民生活走同理溫暖路線"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "頑童群（Hogan's Alley 小夥伴）",
+          "name_zh": "貧民窟頑童群",
+          "type": "配角",
+          "relation": "Yellow Kid 喺後巷嘅一班小夥伴",
+          "interaction": "Yellow Kid 混喺下東區一群衣衫襤褸嘅頑童裡，成日率領佢哋一齊搗亂、嘲弄上流社會。呢群頑童係《Hogan's Alley》群像主角之一，滿坑滿谷嘅頑童係漫畫標誌性構圖。**注意**：原著係 1890s 移民貧民刻板，現代創作應去刻板化。\n"
+        }
+      ]
+    },
+    {
+      "slug": "winnie-the-pooh",
+      "name": "Winnie-the-Pooh (Original Book)",
+      "name_zh": "小熊維尼（原著小說版）",
+      "type": "童書系列",
+      "country": "英國",
+      "era": "1926",
+      "creator": "A.A. Milne (插圖 E.H. Shepard)",
+      "publisher": "Methuen",
+      "first_appearance_year": 1926,
+      "status": "部分公版（僅原著 1926 書本版）",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "pooh-1926",
+          "name": "Winnie-the-Pooh (1926 original)",
+          "name_zh": "小熊維尼（1926 原著版）",
+          "role": "主角",
+          "first_appearance": "Winnie-the-Pooh（1926 年書，Methuen 出版）",
+          "creator": "A.A. Milne (插圖 E.H. Shepard)",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "迪士尼 1966 年動畫版（紅色小背心形象）、後期新角色特徵",
+          "trademark": "迪士尼對其動畫版 Pooh 形象有商標",
+          "verified": "2026-08-09",
+          "image": "assets/img/pooh-1926.jpg",
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/pooh-1926-1.jpg",
+              "angle": "小熊維尼",
+              "scene": "原著",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/pooh-1926-2.jpg",
+              "angle": "小熊維尼",
+              "scene": "原著",
+              "license": "cc0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/pooh-1926-3.jpg",
+              "angle": "Shepard 插圖",
+              "scene": "原插圖",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/pooh-1926-4.jpg",
+              "angle": "小熊維尼",
+              "scene": "原著",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/pooh-1926-5.jpg",
+              "angle": "小熊維尼",
+              "scene": "原著",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/pooh-1926-6.jpg",
+              "angle": "小熊維尼",
+              "scene": "原著",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/pooh-1926-7.jpg",
+              "angle": "小熊維尼",
+              "scene": "原著",
+              "license": "cc0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/pooh-1926-8.jpg",
+              "angle": "Shepard 插圖",
+              "scene": "原插圖",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
+          "appearance": "原著書本風格：圓滾滾嘅絨毛黃熊、短短腿、小圓肚，著**黃衣無紅背心**。鋼筆墨水線稿＋交叉排線陰影，奶白紙底＋深褐（sepia）墨水。大量留白。田園英倫（Hundred Acre Wood / Ashdown Forest）。 `Pooh Bear clasping a blue balloon near a tall oak tree with a buzzing beehive at the top, floating up toward the branches, E. H. Shepard pen-and-ink line art, 1926 vintage British children's book illustration, soft cream paper, muted sepia, humorous, generous negative space, Hundred Acre Wood setting, no Disney, no red shirt.`",
+          "dialogue": "「Oh, Bother!」——最經典口頭禪（第 2 章卡蜂蜜罐）",
+          "scene": "百畝森林（Hundred Acre Wood）、蜂巢樹、兔仔門洞、小河 原著角色：Christopher Robin（真人小男孩）、Piglet（迷你粉豬）、Eeyore（灰驢垂耳） 田園英倫、閑適愜意、幽默含蓄",
+          "personality": "動機幾乎都被「蜂蜜」或「朋友」驅動；有蜂蜜就可拯救全世界 招牌情緒詞「Oh, Bother!」——輕聲挫折與認命，EQ 極高、極少真正發怒 **Little Brain 但大智慧**：「吃蜂蜜前嘅那一刻比吃到嘅時候更好」——傻氣中帶天真哲理，從不鑽牛角尖 語言特徵：短句、自我對話、哼唱自創 hum、常說「我想／我不知道」式保留語氣 對 Christopher Robin 無限信任、寵溺 Piglet；對 Eeyore 嘅壞運會笨拙默默幫助 身體語言：圓滾滾、常坐地板想嘢、卡門洞、抱膝、踮腳又跌倒、手抱頭自省；行動遲緩但從不放棄 **同 Disney 版差異**：無紅背心、非逗趣嘟嘴「胖維尼」；原著係慵懶溫吞、溫柔自嘲、眼神溫柔嘅英倫絨毛熊——「傻得可愛而非滑稽」",
+          "ai_usage": "**乘氣球找蜜蜂**（第 1 章）：借藍氣球假裝雲飄到蜂巢——孩子氣執著、自欺純真幽默 **卡住兔仔門洞**（第 2 章）：食撐卡洞口，要「再瘦一點」等一周——困窘與友誼 **追蹤伍茲爾圓圈**（第 3 章）：循白雪腳印獵捕神秘野獸，繞一圈先知係自己兩個腳印——無知自信、荒謬喜劇 **替驢子釣尾巴**（第 4-6 章）：發現尾巴係釘喺橡樹上當「新門鈴」——笨拙真心、低調被看見 **注意**：只用 1926 原著版；**禁止** red shirt / Cartoon Disney / 鮮豔色塊；用角色名 Pooh、Piglet、Eeyore、Christopher Robin 都得"
+        }
+      ],
+      "supporting_characters": [
+        {
+          "name": "Piglet",
+          "name_zh": "小豬",
+          "type": "配角",
+          "relation": "Pooh 最細膽但最忠實嘅朋友",
+          "interaction": "1926 原著入面 Piglet 係一隻細細隻、成日好驚嘅粉紅小豬，係 Pooh 最好嘅朋友。佢雖然細膽，但喺關鍵時刻（如捉 Heffalump、尋 Eeyore 條尾）都會鼓起勇氣幫 Pooh。Pooh 同 Piglet 係「大膽+細膽」互補搭檔。\n"
+        },
+        {
+          "name": "Eeyore",
+          "name_zh": "伊唷（驢仔）",
+          "type": "配角",
+          "relation": "憂鬱嘅驢仔朋友，Pooh 成日幫佢",
+          "interaction": "Eeyore 係隻悲觀憂鬱嘅驢仔，條尾成日甩。Pooh 對佢好有耐性同體諒，成日幫佢搵返條尾（經典：Pooh 用 Pooh-sticks 幫 Eeyore 搵尾）。Eeyore 對 Pooh 嘅好心會淡淡然多謝。Pooh 係少數唔嫌棄 Eeyore 悲觀嘅朋友。\n"
+        },
+        {
+          "name": "Rabbit",
+          "name_zh": "兔子",
+          "type": "配角",
+          "relation": "成日嫌 Pooh 煩但其實當佢朋友",
+          "interaction": "Rabbit 係個有啲小氣、規矩多嘅兔子，成日嫌 Pooh 蠢。經典場面係 Pooh 食太多蜜糖卡咗喺 Rabbit 屋企門口，Rabbit 要諗計整佢出嚟（最後要等 Pooh 瘦返先出到）。佢哋係「煩躁管家 vs 天真鄰居」關係。\n"
+        },
+        {
+          "name": "Christopher Robin",
+          "name_zh": "基斯杜化羅賓",
+          "type": "配角（人類）",
+          "relation": "Pooh 嘅主人/最好朋友，百畝森林嘅精神核心",
+          "interaction": "Christopher Robin 係百畝森林唯一嘅人類細路，Pooh 同所有動物都視佢為領袖同中心。佢溫柔、有耐性，會帶動物們玩、解釋世界，Pooh 對佢忠心耿耿。1926 原著以 Christopher Robin 叫 Pooh 落樓梯講故事開場。\n"
+        }
+      ]
+    }
+  ]
+}
