@@ -73,6 +73,7 @@ a { color: var(--forest); }
 .badge.cc { background: #dfe7f5; color: #2c4a7c; }
 .badge.partial { background: #f5e8d3; color: #8a5a1e; }
 .badge.verify { background: #f4dcd9; color: #963a2e; }
+.lic-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
 .character-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 18px; }
 .character-card {
   background: var(--card); border: 1px solid var(--border); border-radius: 10px;
@@ -186,6 +187,30 @@ def license_badge(cm):
         return '<span class="badge pd">✔ 公版</span>'
     return '<span class="badge verify">❓ 需核實</span>'
 
+def _license_code(cm):
+    """抽角色嘅授權碼（供品牌聚合用）：'公版' / 'CC0' / 'CC-BY' / 'CC-BY-SA'。"""
+    if cm.get("license_type") == "cc":
+        lic = str(cm.get("license", "") or "")
+        return lic.split()[0] if lic else "CC"
+    if cm.get("public_domain"):
+        return "公版"
+    return "需核實"
+
+def brand_license_badges(b):
+    """聚合品牌旗下所有角色出現過嘅授權碼（去重），顯示晒出嚟。"""
+    seen, out = [], []
+    for c in characters.get(b["slug"], []):
+        code = _license_code(c)
+        if code and code not in seen:
+            seen.append(code)
+            if code == "公版":
+                out.append('<span class="badge pd">✔ 公版</span>')
+            elif code in ("CC0", "CC-BY", "CC-BY-SA", "CC", "CC-BY-ND", "CC-BY-NC"):
+                out.append(f'<span class="badge cc">{html.escape(code)}</span>')
+            else:
+                out.append('<span class="badge verify">❓ 需核實</span>')
+    return " ".join(out)
+
 def render_md(text):
     MD.reset()
     return MD.convert(text or "")
@@ -220,7 +245,7 @@ def page_brand_index(brand):
                        ("首次登場", "first_appearance_year"), ("類型", "type")]:
         v = brand.get(key)
         if v: body.append(f'<tr><td>{label}</td><td>{html.escape(str(v))}</td></tr>')
-    body.append(f'<tr><td>版權狀態</td><td>{pd_badge(brand.get("status"))} {html.escape(str(brand.get("status","")))}</td></tr>')
+    body.append(f'<tr><td>版權狀態</td><td>{brand_license_badges(brand)} {html.escape(str(brand.get("status","")))}</td></tr>')
     body.append('</table>')
     body.append(render_md(strip_leading_h1(brand["content"])))
     # character grid
@@ -468,7 +493,7 @@ def build():
         idx.append(f'<a class="character-card" href="brands/{b["slug"]}/index.html">'
                    f'<div><span class="name">{html.escape(b["name"])}</span><span class="zh">{html.escape(b.get("brand_zh",""))}</span></div>'
                    f'<div class="desc">{html.escape(b.get("era",""))} · {n} 個角色</div>'
-                   f'{pd_badge(b.get("status"))}</a>')
+                   f'<div class="lic-row">{brand_license_badges(b)}</div></a>')
     idx.append('</div></div>')
     idx.append(PAGE_FOOT)
     (OUT / "index.html").write_text("".join(idx), encoding="utf-8")

@@ -56,6 +56,7 @@ a { color: var(--forest); }
 .badge.cc { background: #dfe7f5; color: #2c4a7c; }
 .badge.partial { background: #f5e8d3; color: #8a5a1e; }
 .badge.verify { background: #f4dcd9; color: #963a2e; }
+.lic-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
 .character-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 18px; }
 .character-card {
   background: var(--card); border: 1px solid var(--border); border-radius: 10px;
