@@ -443,5 +443,125 @@
     "width": 0,
     "height": 0,
     "pd": true
+  },
+  "kiki-cyber-squirrel": {
+    "file": "kiki-cyber-squirrel.jpg",
+    "title": "File:Kiki the Cyber Squirrel mascot of Krita plastic model kit design sheet.png",
+    "license": "CC BY-SA 4.0",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Tyson_Tan\" cl",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Kiki_the_Cyber_Squirrel_mascot_of_Krita_plastic_model_kit_design_sheet.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "1d-model-sheet": {
+    "file": "1d-model-sheet.jpg",
+    "title": "File:1D model-sheet.png",
+    "license": "CC BY 3.0",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Deevad\" title=\"Us",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/1D_model-sheet.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "wikipetan": {
+    "file": "wikipetan.jpg",
+    "title": "File:Wikipe-tan full length.png",
+    "license": "CC BY-SA 3.0",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Kasuga~commonswik",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Wikipe-tan_full_length.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "kraken-s": {
+    "file": "kraken-s.jpg",
+    "title": "File:Kraken S.png",
+    "license": "CC BY-SA 3.0",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://openga",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Kraken_S.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "david-revoy-char": {
+    "file": "david-revoy-char.jpg",
+    "title": "File:2016-02-25 characters-lineart by-David-Revoy.jpg",
+    "license": "CC BY 4.0",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:David_Revoy\" ",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/2016-02-25_characters-lineart_by-David-Revoy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "owl-class-scout": {
+    "file": "owl-class-scout.jpg",
+    "title": "Owl-Class Scout Mecha",
+    "license": "CC0 1.0",
+    "artist": "The Magic Tuba Pixie",
+    "source_url": "https://www.flickr.com/photos/38451115@N04/4760344496",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "gorilla-mecha": {
+    "file": "gorilla-mecha.jpg",
+    "title": "Gorilla Mecha",
+    "license": "CC0 1.0",
+    "artist": "The Magic Tuba Pixie",
+    "source_url": "https://www.flickr.com/photos/38451115@N04/4286393102",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "iron-mecha": {
+    "file": "iron-mecha.jpg",
+    "title": "Iron Mecha",
+    "license": "CC0 1.0",
+    "artist": "The Magic Tuba Pixie",
+    "source_url": "https://www.flickr.com/photos/38451115@N04/5899064466",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "soviet-mecha": {
+    "file": "soviet-mecha.jpg",
+    "title": "Soviet Mecha Bay",
+    "license": "CC0 1.0",
+    "artist": "The Magic Tuba Pixie",
+    "source_url": "https://www.flickr.com/photos/38451115@N04/6743566387",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "beast-mech": {
+    "file": "beast-mech.jpg",
+    "title": "Beast Mech",
+    "license": "CC0 1.0",
+    "artist": "The Magic Tuba Pixie",
+    "source_url": "https://www.flickr.com/photos/38451115@N04/13590595673",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "n1-nj4-mech": {
+    "file": "n1-nj4-mech.jpg",
+    "title": "N1-NJ4 Ninja Class Mech",
+    "license": "CC0 1.0",
+    "artist": "Brian Rinker Creative",
+    "source_url": "https://www.flickr.com/photos/44242222@N07/5199524398",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "machnia": {
+    "file": "machnia.jpg",
+    "title": "Machnia Mecha",
+    "license": "CC0 1.0",
+    "artist": "The Magic Tuba Pixie",
+    "source_url": "https://www.flickr.com/photos/34017082@N06/3726500179",
+    "width": 0,
+    "height": 0,
+    "pd": true
   }
 }
