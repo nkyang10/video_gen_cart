@@ -4,50 +4,50 @@ character_zh: "奧麗芙（Olive Oyl）"
 slug: "olive-oyl"
 brand: "olive-oyl"
 role: "女主角（Popeye 女友）"
-first_appearance: "Thimble Theatre（1919 年 12 月 19 日）"
+first_appearance: "Thimble Theatre（1919 年 12 月 19 日，New York Journal）"
 creator: "Elzie Crisler Segar"
 public_domain: true
 public_domain_jurisdiction: "US"
-public_domain_version: "1919-1920 年代 Segar 原作漫畫版"
-protected_portion: "後期動畫版形象"
-trademark: "名稱有商標，但 1919 原作公版"
+public_domain_version: "1919-1928 年 Segar 原作漫畫版"
+protected_portion: "Popeye 登場後（1929+）相關元素、後期動畫形象（Fleischer/Famous）"
+trademark: "名稱有商標，但 1919-1928 Segar 原作公版"
 verified: "2026-08-09"
 ---
 
 # 奧麗芙（Olive Oyl）
 
 ## 出處
-1919 年 12 月 19 日由 E.C. Segar 創作，喺《Thimble Theatre》登場——係 Popeye 嘅女朋友，一個瘦高、梳髻、大腳嘅女人。佢喺 Popeye 1929 年出現之前已經係漫畫主角（同男朋友 Ham Gravy 拍拖）。
+1919 年 12 月 19 日由 E.C. Segar 喺《Thimble Theatre》登場（King Features 發行）——**由首日就係主角，比 Popeye 早十年**（Popeye 1929 年 1 月 17 日先出現）。一個瘦高、梳髻、大腳嘅女人，最初同男友 Ham Gravy 拍拖。
 
 ## 版權狀態
-- **公版**：✔️（1919-1920 年代原作）
-- **公版版本**：Segar 黑白漫畫版（瘦高、梳髻）
-- **受保護部分**：後期動畫版形象
+- **公版**：✔️（1919-1928 年 Segar 原作）
+- **公版版本**：Segar 黑白漫畫版（瘦高、盤髻、大腳、Ham Gravy 未婚夫線）
+- **受保護部分**：Popeye 登場後（1929+）相關元素、後期動畫形象、King Features 商標/新版設計
 - **Trademark**：名稱有商標
-- **核實**：2026-08-09
+- **核實**：2026-08-09 · 依據：Wikipedia / pdsh
 
 ## 性格 / 人設
-- 瘦高、梳髻、大腳
-- Popeye 嘅女朋友
-- 喺 Popeye 出現前同 Ham Gravy 拍拖
-- 倔強、有主見、情緒化
+- 身型極度削瘦高挑（竹竿身、橡皮管四肢），動作誇張表情豐富
+- 招牌黑色盤髮髻 + 特大雙腳
+- 「能幹又莽撞」嘅颯爽少女：有主見、脾氣大、愛美愛慕虛榮、常大驚小怪愛抱怨、三分鐘熱度；口頭禪「Oh, dear!」，反應戲劇化
+- 家庭：大哥 Castor Oyl、二哥 Crude Oyl、未婚夫 Ham Gravy（Popeye 出現前）
 
 ## 外觀描述（AI 圖片 Prompt 用）
-1920s 報紙漫畫風格——極度瘦高嘅女人、黑髮梳髻、長裙、大腳、突出嘅鼻子。
+1920s 報紙漫畫風格——黑白純墨線、乾淨有力描邊、圓潤橡皮管肢體、誇張比例（極瘦、大腳、大眼大嘴）、網點/平行線陰影。
 
 **Prompt 示例**：
-`1920s newspaper comic strip woman, extremely thin and tall, black hair in a bun, long dress, big feet, prominent nose, E.C. Segar Thimble Theatre style, black ink line art on aged newsprint`
+`1920s black-and-white newspaper comic strip panel, E.C. Segar Thimble Theatre style, tall extremely thin young woman with oversized feet, black hair in a tight bun, wide expressive eyes, dramatic posed gesture, simple bold ink outlines, vintage 1919 gag panel`
 
 ## 經典對白 / 口頭禪
-> （早期漫畫對白，含「Dearie」等暱稱）
+> 「Oh, dear!」
 
 ## 場景 / 設定
 - Thimble Theatre 世界
-- 同 Ham Gravy、後期同 Popeye 互動
+- 同 Ham Gravy（早期）、後期同 Popeye 互動
 - 1920 年代美國
 
 ## AI 創意用法
-- **Popeye 愛情線**：Olive 同 Popeye 嘅互動
-- **瘦高滑稽造型**：Olive 嘅招牌身形
-- **1920s 漫畫風**：Segar 原作風格
-- **注意**：只用 Segar 原作漫畫版，避免後期動畫形象
+- **Popeye 登場前**：Ham Gravy 求婚鬧劇——玫瑰刺破裙、戒指扔進湯、思念「英雄形象」伏筆
+- **與 Popeye 嘅開端**：Popeye 幫 Olive 解圍、Olive 嫌佢粗魯又暗生好感——打情罵俏張力
+- **兩種愛情對比**：Ham Gravy（體面穩重）vs Popeye（粗豪可靠）——虛榮 vs 真心拉扯
+- **注意**：只用 1919-1928 Segar 原版（瘦高盤髻大腳、Ham Gravy 線）；避免 1929+ Popeye 相關元素同後期動畫形象
