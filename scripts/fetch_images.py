@@ -30,6 +30,14 @@ QUERIES = {
     'mutt-jeff': ('Mutt and Jeff Bud Fisher comic', 'Mutt'),
     'happy-hooligan': ('Happy Hooligan comic strip Opper', 'Hooligan'),
     'olive-oyl': ('Olive Oyl Segar Thimble Theatre', 'Olive'),
+    # 第三批 — 更多 1930 前公版經典
+    'yellow-kid': ('The Yellow Kid Hogan Alley Outcault', 'Yellow'),
+    'andy-gump': ('Andy Gump The Gumps Sidney Smith', 'Gump'),
+    'jiggs': ('Bringing Up Father Jiggs McManus', 'Jiggs'),
+    'skippy': ('Skippy comic strip Percy Crosby', 'Skippy'),
+    'polly-pals': ('Polly and Her Pals Cliff Sterrett', 'Polly'),
+    'barney-google': ('Barney Google Spark Plug DeBeck', 'Barney'),
+    'buck-rogers': ('Buck Rogers 1929 comic strip', 'Buck'),
 }
 
 # 只接受圖片副檔名（排除 .webm/.ogg 等影片）
@@ -82,6 +90,8 @@ def main():
     # 特定檔名 fallback（當一般搜尋揾唔到，直接指定一個已知 PD 檔）
     SPECIFIC_FILES = {
         'happy-hooligan': 'File:Happy Hooligan 1905-04-09.jpg',
+        'skippy': 'File:Skippy No. 1.jpg',
+        'yellow-kid': 'File:Yellow Kid 1896-3-15.jpg',
     }
 
     def fetch_file_by_title(fname):
@@ -105,6 +115,17 @@ def main():
         if slug in manifest:
             print(f'⏭ {slug}: 已存在，skip')
             continue
+        # 指定檔名優先（當 SPECIFIC_FILES 有指定，直接用，唔行 generic search）
+        if slug in SPECIFIC_FILES:
+            chosen = fetch_file_by_title(SPECIFIC_FILES[slug])
+            if chosen:
+                ext = '.jpg'
+                out_path = OUT / f"{slug}{ext}"
+                out_path.write_bytes(requests.get(chosen['thumb'] or chosen['url'], headers=UA, timeout=60).content)
+                chosen['file'] = out_path.name
+                manifest[slug] = chosen
+                print(f"✓ {slug}: {chosen.get('license','')} | {chosen.get('title','')[:50]}")
+                continue
         try:
             results = search_images(query)
         except Exception as e:

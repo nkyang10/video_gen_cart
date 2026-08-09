@@ -1,0 +1,141 @@
+<!DOCTYPE html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Polly — Video Gen Cart</title>
+<style>:root {
+  --paper: #f7f4ef;
+  --ink: #2b2b28;
+  --muted: #6b6a63;
+  --forest: #3e5c4b;
+  --terracotta: #c05f3c;
+  --border: #e2dcd0;
+  --card: #ffffff;
+  --tag-bg: #efe9dd;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+               "PingFang TC", "Microsoft JhengHei", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  padding-bottom: 60px;
+}
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 22px; }
+header.site {
+  border-bottom: 1px solid var(--border);
+  padding: 26px 0 18px;
+  margin-bottom: 30px;
+  background: #fffdf9;
+}
+header.site .wrap { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+header.site h1 { font-size: 1.5rem; letter-spacing: 0.02em; }
+header.site h1 a { color: var(--ink); text-decoration: none; }
+header.site h1 span { color: var(--terracotta); }
+header.site .sub { color: var(--muted); font-size: 0.85rem; }
+nav.brand-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 6px; }
+nav.brand-tabs a {
+  padding: 6px 14px; border-radius: 8px; border: 1px solid var(--border);
+  background: #fff; color: var(--ink); text-decoration: none; font-size: 0.9rem;
+}
+nav.brand-tabs a:hover { border-color: var(--forest); }
+nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+.breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
+.breadcrumb a { color: var(--forest); text-decoration: none; }
+h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }
+h2 { font-family: "Noto Serif TC", Georgia, serif; color: var(--forest);
+     font-size: 1.25rem; margin: 34px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+h3 { color: var(--ink); font-size: 1.05rem; margin: 20px 0 8px; }
+p { margin: 8px 0; }
+ul, ol { margin: 8px 0 8px 24px; }
+li { margin: 4px 0; }
+blockquote { border-left: 3px solid var(--terracotta); background: #fffdf9;
+             padding: 8px 14px; margin: 10px 0; color: var(--ink); border-radius: 0 6px 6px 0; }
+a { color: var(--forest); }
+.meta-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.92rem; }
+.meta-table td { padding: 7px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.meta-table td:first-child { width: 34%; color: var(--muted); font-weight: 600; }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+.badge.pd { background: #dcebdd; color: #2c5e3a; }
+.badge.partial { background: #f5e8d3; color: #8a5a1e; }
+.badge.verify { background: #f4dcd9; color: #963a2e; }
+.character-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 18px; }
+.character-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 16px; text-decoration: none; color: var(--ink); display: block;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.character-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.character-card .name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1.05rem; }
+.character-card .thumb { width: 100%; height: 120px; overflow: hidden; border-radius: 8px; margin-bottom: 10px; background: #eee7db; }
+.character-card .thumb img { width: 100%; height: 100%; object-fit: cover; }
+.character-card .zh { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
+.character-card .desc { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+.character-card .badge { margin-top: 10px; }
+.copyright-box { background: #f2efea; border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
+.copyright-box h3 { color: var(--terracotta); margin-top: 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: .04em; }
+.copyright-box ul { margin-left: 20px; }
+.char-hero { display: flex; gap: 22px; align-items: flex-start; margin-bottom: 24px; flex-wrap: wrap; }
+.char-hero img { width: 280px; max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--border); background:#fff; }
+.char-hero .captions { flex: 1; min-width: 220px; font-size: 0.85rem; color: var(--muted); }
+.char-hero .captions p { margin: 4px 0; }
+.img-credit { font-size: 0.75rem; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+.img-credit a { color: var(--forest); }
+.footer-note { color: var(--muted); font-size: 0.8rem; margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--border); }
+.hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 26px; margin-bottom: 28px; }
+.hero h2 { border: none; margin-top: 0; font-size: 1.5rem; }
+.hero p { color: var(--muted); max-width: 70ch; }
+.stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
+.stat { font-size: 0.9rem; }
+.stat b { color: var(--forest); font-size: 1.2rem; }
+</style></head><body>
+<header class="site"><div class="wrap">
+  <h1><a href="index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
+  <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
+</div><nav class="brand-tabs"><a href="../index.html" class="">Barney Google</a><a href="../index.html" class="">Bringing Up Father</a><a href="../index.html" class="">Buck Rogers</a><a href="../index.html" class="">Buster Brown</a><a href="../index.html" class="">Disney Silent Era (Mickey &amp; Friends)</a><a href="../index.html" class="">Felix the Cat</a><a href="../index.html" class="">Fleischer Studios (Betty Boop)</a><a href="../index.html" class="">Happy Hooligan</a><a href="../index.html" class="">Krazy Kat</a><a href="../index.html" class="">Little Nemo in Slumberland</a><a href="../index.html" class="">Mutt and Jeff</a><a href="../index.html" class="">Olive Oyl (Thimble Theatre)</a><a href="../index.html" class="">Oswald the Lucky Rabbit</a><a href="../index.html" class="active">Polly and Her Pals</a><a href="../index.html" class="">Popeye</a><a href="../index.html" class="">Skippy</a><a href="../index.html" class="">The Gumps</a><a href="../index.html" class="">The Katzenjammer Kids</a><a href="../index.html" class="">The Yellow Kid</a><a href="../index.html" class="">Winnie-the-Pooh (Original Book)</a></nav></header>
+<div class="wrap"><div class="breadcrumb"><a href="index.html">全部品牌</a> › <a href="index.html">Polly and Her Pals</a> › Polly</div><h1 class="page">Polly <span style="color:var(--muted);font-size:1rem;font-weight:400">波莉</span></h1><div class="char-hero"><img src="../../assets/img/polly-pals.jpg" alt="Polly">
+        <div class="captions">
+          <p><b>Polly comic 1921.jpg</b></p>
+          <p>License: <b>Public domain</b>（公版 ✔）</p>
+          <p>Artist: &lt;bdi&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/en:Cliff_Sterrett&quot; class=&quot;extiw&quot; tit</p>
+          <div class="img-credit">來源：<a href="https://upload.wikimedia.org/wikipedia/commons/0/0b/Polly_comic_1921.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original">Wikimedia Commons</a>
+          </div>
+        </div></div></div><div class="wrap"><div class="copyright-box"><h3>⚖️ 版權狀態</h3><ul><li><b>公版</b>：✔️ 屬公版（管轄區：US）</li><li><b>公版版本</b>：1912-1920 年代 Sterrett 原作</li><li><b>受保護部分</b>：後期接手者版本</li><li><b>Trademark</b>：無特別商標問題</li><li><b>核實日期</b>：2026-08-09</li></ul></div></div><div class="wrap"><h2>出處</h2>
+<p>1912 年由 Cliff Sterrett 創作，以<strong>前衛 Art Deco 同超現實視覺風格</strong>聞名——幾何構圖、實驗性版面、時尚前衛角色設計。講述 Polly 同佢家人/追求者嘅日常喜劇。</p>
+<h2>版權狀態</h2>
+<ul>
+<li><strong>公版</strong>：✔️（1912-1920 年代原作）</li>
+<li><strong>受保護部分</strong>：後期接手者版本</li>
+<li><strong>核實</strong>：2026-08-09</li>
+</ul>
+<h2>性格 / 人設</h2>
+<ul>
+<li>時尚前衛嘅年輕女性主角</li>
+<li>家人/追求者環繞</li>
+<li>日常喜劇</li>
+<li>視覺上係早期最創新嘅漫畫</li>
+</ul>
+<h2>外觀描述（AI 圖片 Prompt 用）</h2>
+<p>Sterrett 前衛風格——Art Deco 幾何構圖、超現實版面、時尚角色設計（Polly 梳流行髮型、穿時尚裙）。</p>
+<p><strong>Prompt 示例</strong>：<br />
+<code>avant-garde 1920s comic strip, a fashionable young woman with flapper bob hairstyle and trendy dress, surrounded by geometric art deco patterns and surreal experimental layouts, Cliff Sterrett style, bold geometric linework</code></p>
+<h2>經典對白 / 口頭禪</h2>
+<blockquote>
+<p>（日常喜劇式對話）</p>
+</blockquote>
+<h2>場景 / 設定</h2>
+<ul>
+<li>時尚城市生活、家庭</li>
+<li>Art Deco 幾何背景</li>
+<li>追求者/家人互動</li>
+</ul>
+<h2>AI 創意用法</h2>
+<ul>
+<li><strong>前衛視覺</strong>：Art Deco 幾何、超現實版面</li>
+<li><strong>時尚女郎</strong>：flapper 造型</li>
+<li><strong>日常喜劇</strong>：家庭/追求者互動</li>
+<li><strong>注意</strong>：只用 Sterrett 原作風格</li>
+</ul></div><div class="wrap">
+  <div class="footer-note">
+    Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
+  </div>
+</div>

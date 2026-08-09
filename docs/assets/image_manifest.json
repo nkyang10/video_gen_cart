@@ -153,15 +153,92 @@
     "height": 256,
     "pd": true
   },
+  "andy-gump": {
+    "file": "andy-gump.jpg",
+    "title": "File:Andy Gump visiting Seattle, June 1926 (MOHAI 11081).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "<div class=\"fn value\">\nWebster &amp; Stevens</div>",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Andy_Gump_visiting_Seattle%2C_June_1926_%28MOHAI_11081%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 700,
+    "height": 500,
+    "pd": true
+  },
+  "jiggs": {
+    "file": "jiggs.jpg",
+    "title": "File:Maggie, Jiggs, and a hotel bellhop (original art).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:George_McManus\" class=\"extiw\" tit",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Maggie%2C_Jiggs%2C_and_a_hotel_bellhop_%28original_art%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2869,
+    "height": 2850,
+    "pd": true
+  },
+  "polly-pals": {
+    "file": "polly-pals.jpg",
+    "title": "File:Polly comic 1921.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Cliff_Sterrett\" class=\"extiw\" tit",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Polly_comic_1921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 980,
+    "height": 1329,
+    "pd": true
+  },
+  "barney-google": {
+    "file": "barney-google.jpg",
+    "title": "File:Barneygoogle1227.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "<a href=\"https://en.wikipedia.org/wiki/Billy_DeBeck\" class=\"extiw\" title=\"w:Bill",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Barneygoogle1227.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1296,
+    "height": 1663,
+    "pd": true
+  },
+  "buck-rogers": {
+    "file": "buck-rogers.jpg",
+    "title": "File:Buck Rogers, first comic strips.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Philip_Francis_Nowlan\" class=\"ext",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Buck_Rogers%2C_first_comic_strips.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1500,
+    "height": 1068,
+    "pd": true
+  },
   "happy-hooligan": {
-    "file": "happy-hooligan.jpg",
     "title": "File:Happy Hooligan 1905-04-09.jpg",
     "license": "Public domain",
     "license_url": "",
     "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Frederick_Burr_Opper\" class=\"exti",
-    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Happy_Hooligan_1905-04-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 972,
-    "height": 1268,
-    "pd": true
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Happy_Hooligan_1905-04-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Happy_Hooligan_1905-04-09.jpg/960px-Happy_Hooligan_1905-04-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 0,
+    "height": 0,
+    "file": "happy-hooligan.jpg"
+  },
+  "yellow-kid": {
+    "title": "File:Yellow Kid 1896-3-15.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Richard F. Outcault",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Yellow_Kid_1896-3-15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Yellow_Kid_1896-3-15.jpg/960px-Yellow_Kid_1896-3-15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 0,
+    "height": 0,
+    "file": "yellow-kid.jpg"
+  },
+  "skippy": {
+    "title": "File:Skippy No. 1.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Percy Crosby (1891–1964)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Skippy_No._1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Skippy_No._1.jpg/960px-Skippy_No._1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 0,
+    "height": 0,
+    "file": "skippy.jpg"
   }
 }
