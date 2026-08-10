@@ -4928,5 +4928,165 @@
     "width": 4320,
     "height": 3240,
     "pd": true
+  },
+  "city-london-canaletto": {
+    "file": "city-london-canaletto.jpg",
+    "title": "倫敦泰晤士河天際線",
+    "license": "Public domain",
+    "artist": "Canaletto",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canaletto_-_London-_The_Thames_from_Somerset_House_Terrace_towards_the_City_-_Google_Art_Project.jpg",
+    "width": 5501,
+    "height": 3092,
+    "pd": true
+  },
+  "city-paris-pissarro": {
+    "file": "city-paris-pissarro.jpg",
+    "title": "巴黎新橋",
+    "license": "Public domain",
+    "artist": "Pissarro",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Camille_Pissarro_-_The_Pont-Neuf_-_Google_Art_Project.jpg",
+    "width": 4179,
+    "height": 4966,
+    "pd": true
+  },
+  "city-ny-statue": {
+    "file": "city-ny-statue.jpg",
+    "title": "自由女神揭幕",
+    "license": "Public domain",
+    "artist": "Edward Moran",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/EdwardMoran-UnveilingTheStatueofLiberty1886Large.jpg",
+    "width": 1260,
+    "height": 1600,
+    "pd": true
+  },
+  "city-hk-1900": {
+    "file": "city-hk-1900.jpg",
+    "title": "香港維多利亞港",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/HONG_KONG_-_PHOTO_PANORAMA_circa_1900.jpg",
+    "width": 1000,
+    "height": 364,
+    "pd": true
+  },
+  "city-tokyo-hasui": {
+    "file": "city-tokyo-hasui.jpg",
+    "title": "東京隅田川",
+    "license": "Public domain",
+    "artist": "川瀬巴水",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset_across_the_Ryogoku_bridge_from_the_bank_of_the_Sumida_river_at_Onmagayashi.jpg",
+    "width": 4314,
+    "height": 2913,
+    "pd": true
+  },
+  "hist-liberty": {
+    "file": "hist-liberty.jpg",
+    "title": "法國大革命",
+    "license": "Public domain",
+    "artist": "Delacroix",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+    "width": 10128,
+    "height": 8103,
+    "pd": true
+  },
+  "hist-raft-medusa": {
+    "file": "hist-raft-medusa.jpg",
+    "title": "海難求生",
+    "license": "Public domain",
+    "artist": "Géricault",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Th%C3%A9odore_G%C3%A9ricault_-_The_Raft_of_the_Medusa_-_WGA08630.jpg",
+    "width": 5907,
+    "height": 4014,
+    "pd": true
+  },
+  "hist-coronation": {
+    "file": "hist-coronation.jpg",
+    "title": "加冕禮",
+    "license": "Public domain",
+    "artist": "Jacques-Louis David",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg",
+    "width": 6000,
+    "height": 3773,
+    "pd": true
+  },
+  "hist-declaration": {
+    "file": "hist-declaration.jpg",
+    "title": "獨立宣言",
+    "license": "Public domain",
+    "artist": "John Trumbull",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Declaration_of_Independence_(1819),_by_John_Trumbull.jpg",
+    "width": 3000,
+    "height": 1970,
+    "pd": true
+  },
+  "hist-waterloo": {
+    "file": "hist-waterloo.png",
+    "title": "戰爭全景",
+    "license": "Public domain",
+    "artist": "William Sadler",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Waterloo_1815.PNG",
+    "width": 1854,
+    "height": 846,
+    "pd": true
+  },
+  "map-mercator": {
+    "file": "map-mercator.jpg",
+    "title": "世界地圖",
+    "license": "Public domain",
+    "artist": "Mercator",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercator_1569_world_map_composite.jpg",
+    "width": 5433,
+    "height": 3450,
+    "pd": true
+  },
+  "map-celestial": {
+    "file": "map-celestial.jpg",
+    "title": "星圖",
+    "license": "Public domain",
+    "artist": "Cellarius",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/1660_celestial_map_of_the_Southern_Sky_by_Andreas_Cellarius.jpg",
+    "width": 12259,
+    "height": 10592,
+    "pd": true
+  },
+  "map-ptolemaic": {
+    "file": "map-ptolemaic.jpg",
+    "title": "地心系統",
+    "license": "Public domain",
+    "artist": "Cellarius",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cellarius_ptolemaic_system.jpg",
+    "width": 7046,
+    "height": 5893,
+    "pd": true
+  },
+  "animal-audubon-eagle": {
+    "file": "animal-audubon-eagle.jpg",
+    "title": "禿鷹",
+    "license": "Public domain",
+    "artist": "Audubon",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_James_Audubon_-_Washington_Sea_Eagle_-_Google_Art_Project.jpg",
+    "width": 2871,
+    "height": 4001,
+    "pd": true
+  },
+  "animal-bonheur-horses": {
+    "file": "animal-bonheur-horses.jpg",
+    "title": "馬市",
+    "license": "CC0",
+    "artist": "Rosa Bonheur",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa_Bonheur,_The_Horse_Fair,_1852%E2%80%9355.jpg",
+    "width": 6324,
+    "height": 2995,
+    "pd": true
+  },
+  "animal-gericault-derby": {
+    "file": "animal-gericault-derby.jpg",
+    "title": "賽馬",
+    "license": "Public domain",
+    "artist": "Géricault",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Th%C3%A9odore_G%C3%A9ricault_-_The_Epsom_Derby_-_WGA08637.jpg",
+    "width": 1400,
+    "height": 1012,
+    "pd": true
   }
 }

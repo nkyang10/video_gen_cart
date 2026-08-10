@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 47,
-    "character_count": 539,
+    "brand_count": 48,
+    "character_count": 555,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -2580,6 +2580,376 @@
           "scene": "現代/奇幻場景 擬人獸人風格",
           "personality": "雌性擬人雪豹 尖刺項圈+鈴鐺、紅色髮夾、長而飄逸黑髮綴染色條紋 優雅帶點「cool girl」氣場、活潑愛玩",
           "ai_usage": "**擬人雪豹**：優雅活潑獸人角色 **注意**：CC-BY-SA 4.0，需署名+相同授權"
+        }
+      ]
+    },
+    {
+      "slug": "cityscapes-historical-scenes",
+      "name": "Cityscapes & Historical Scenes",
+      "name_zh": "城市天際線與歷史場景",
+      "type": "城市天際線 / 歷史事件 / 古地圖 / 動物",
+      "country": "國際",
+      "era": "1500s-1930s",
+      "creator": "各經典藝術家",
+      "publisher": "各美術館/博物館",
+      "first_appearance_year": 1569,
+      "status": "公有領域 / CC0",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "animal-audubon-eagle",
+          "name": "Audubon 禿鷹",
+          "name_zh": "Audubon 禿鷹",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "Audubon",
+          "creator": "Audubon",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-audubon-eagle.jpg",
+          "reference_gallery": [],
+          "appearance": "自然史銅版鳥譜，白頭海鵰棲枯枝展翅。 `自然史銅版鳥譜 白頭海鵰棲枯枝展翅`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "animal-bonheur-horses",
+          "name": "Rosa Bonheur 馬市",
+          "name_zh": "Rosa Bonheur 馬市",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "Rosa Bonheur",
+          "creator": "Rosa Bonheur",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-bonheur-horses.jpg",
+          "reference_gallery": [],
+          "appearance": "寫實動物畫，成排駿馬奔騰。 `寫實動物畫 成排駿馬奔騰`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "animal-gericault-derby",
+          "name": "Géricault 賽馬",
+          "name_zh": "Géricault 賽馬",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "Géricault",
+          "creator": "Géricault",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-gericault-derby.jpg",
+          "reference_gallery": [],
+          "appearance": "浪漫主義速寫油畫，德比賽馬奔騰瞬間。 `浪漫主義速寫油畫 德比賽馬奔騰瞬間`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "city-hk-1900",
+          "name": "香港 1900 維多利亞港",
+          "name_zh": "香港 1900 維多利亞港",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "佚名",
+          "creator": "佚名",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/city-hk-1900.jpg",
+          "reference_gallery": [],
+          "appearance": "歷史銀鹽全景，維多利亞港全景。 `歷史銀鹽全景 維多利亞港全景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "city-london-canaletto",
+          "name": "倫敦天際線（Canaletto）",
+          "name_zh": "倫敦天際線（Canaletto）",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "Canaletto",
+          "creator": "Canaletto",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/city-london-canaletto.jpg",
+          "reference_gallery": [],
+          "appearance": "巴洛克透視風景，泰晤士河倫敦舊城。 `巴洛克透視風景 泰晤士河倫敦舊城`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "city-ny-statue",
+          "name": "紐約自由女神揭幕",
+          "name_zh": "紐約自由女神揭幕",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "Edward Moran",
+          "creator": "Edward Moran",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/city-ny-statue.jpg",
+          "reference_gallery": [],
+          "appearance": "浪漫寫實海景，紐約港曼哈頓天際線。 `浪漫寫實海景 紐約港曼哈頓天際線`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "city-paris-pissarro",
+          "name": "巴黎新橋（Pissarro）",
+          "name_zh": "巴黎新橋（Pissarro）",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "Pissarro",
+          "creator": "Pissarro",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/city-paris-pissarro.jpg",
+          "reference_gallery": [],
+          "appearance": "印象派，新橋塞納河城市輪廓。 `印象派 新橋塞納河城市輪廓`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "city-tokyo-hasui",
+          "name": "東京隅田川（Hasui）",
+          "name_zh": "東京隅田川（Hasui）",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "川瀬巴水",
+          "creator": "川瀬巴水",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/city-tokyo-hasui.jpg",
+          "reference_gallery": [],
+          "appearance": "新版畫木刻，隅田川兩國橋夕照。 `新版畫木刻 隅田川兩國橋夕照`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "hist-coronation",
+          "name": "拿破崙加冕禮",
+          "name_zh": "拿破崙加冕禮",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "Jacques-Louis David",
+          "creator": "Jacques-Louis David",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hist-coronation.jpg",
+          "reference_gallery": [],
+          "appearance": "新古典主義，巴黎聖母院加冕。 `新古典主義 巴黎聖母院加冕`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "hist-declaration",
+          "name": "美國獨立宣言",
+          "name_zh": "美國獨立宣言",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "John Trumbull",
+          "creator": "John Trumbull",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hist-declaration.jpg",
+          "reference_gallery": [],
+          "appearance": "新古典主義歷史畫，大陸會議呈交宣言。 `新古典主義歷史畫 大陸會議呈交宣言`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "hist-liberty",
+          "name": "自由引導人民",
+          "name_zh": "自由引導人民",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "Delacroix",
+          "creator": "Delacroix",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hist-liberty.jpg",
+          "reference_gallery": [],
+          "appearance": "浪漫主義巨幅油畫，七月革命街壘。 `浪漫主義巨幅油畫 七月革命街壘`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "hist-raft-medusa",
+          "name": "梅杜薩之筏",
+          "name_zh": "梅杜薩之筏",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "Géricault",
+          "creator": "Géricault",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hist-raft-medusa.jpg",
+          "reference_gallery": [],
+          "appearance": "浪漫主義巨幅油畫，海難木筏求生。 `浪漫主義巨幅油畫 海難木筏求生`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "hist-waterloo",
+          "name": "滑鐵盧會戰",
+          "name_zh": "滑鐵盧會戰",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "William Sadler",
+          "creator": "William Sadler",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hist-waterloo.png",
+          "reference_gallery": [],
+          "appearance": "寫實戰爭油畫，騎兵衝鋒戰場全景。 `寫實戰爭油畫 騎兵衝鋒戰場全景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "map-celestial",
+          "name": "北天星圖（Cellarius）",
+          "name_zh": "北天星圖（Cellarius）",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "Cellarius",
+          "creator": "Cellarius",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/map-celestial.jpg",
+          "reference_gallery": [],
+          "appearance": "巴洛克蝕刻天文圖，北天恆星星座圖騰。 `巴洛克蝕刻天文圖 北天恆星星座圖騰`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "map-mercator",
+          "name": "麥卡托世界地圖",
+          "name_zh": "麥卡托世界地圖",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "Mercator",
+          "creator": "Mercator",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/map-mercator.jpg",
+          "reference_gallery": [],
+          "appearance": "文藝復興木刻，麥卡托投影世界地圖。 `文藝復興木刻 麥卡托投影世界地圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "map-ptolemaic",
+          "name": "托勒密地心圖",
+          "name_zh": "托勒密地心圖",
+          "role": "城市/歷史/地圖/動物",
+          "first_appearance": "Cellarius",
+          "creator": "Cellarius",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/map-ptolemaic.jpg",
+          "reference_gallery": [],
+          "appearance": "巴洛克彩繪天文圖，太陽繞地心系示意。 `巴洛克彩繪天文圖 太陽繞地心系示意`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
         }
       ]
     },
