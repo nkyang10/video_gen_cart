@@ -8778,5 +8778,205 @@
     "width": 2044,
     "height": 1533,
     "pd": true
+  },
+  "jp-kunisada-cherry": {
+    "file": "jp-kunisada-cherry.jpg",
+    "title": "櫻樹下美人",
+    "license": "Public domain",
+    "artist": "歌川国貞",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Print%2C_Woman_beneath_cherry_trees%2C_ca._1840_%28CH_18435485%29.jpg",
+    "width": 2913,
+    "height": 4096,
+    "pd": true
+  },
+  "jp-eisen-tagawaya": {
+    "file": "jp-eisen-tagawaya.jpg",
+    "title": "飯館景富士",
+    "license": "Public domain",
+    "artist": "渓斎英泉",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tagawaya_Restaurant_LACMA_M.2006.136.258.jpg",
+    "width": 1437,
+    "height": 2100,
+    "pd": true
+  },
+  "jp-eizan-courtesan": {
+    "file": "jp-eizan-courtesan.jpg",
+    "title": "遊女酒盞卷軸",
+    "license": "CC0",
+    "artist": "菊川英山",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kikugawa_Eizan_-_Courtesan_with_Sake_Cup_and_Scroll_-_1943.34_-_Cleveland_Museum_of_Art.jpg",
+    "width": 2295,
+    "height": 3400,
+    "pd": true
+  },
+  "jp-kunichika-actor": {
+    "file": "jp-kunichika-actor.jpg",
+    "title": "明治武士役者",
+    "license": "Public domain",
+    "artist": "豊原国周",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Toyohara_Kunichika_Actor_in_the_image_of_a_samurai.jpg",
+    "width": 1986,
+    "height": 2953,
+    "pd": true
+  },
+  "jp-hokkei-manga": {
+    "file": "jp-hokkei-manga.jpg",
+    "title": "人物動態速寫",
+    "license": "Public domain",
+    "artist": "魚屋北渓",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Totoya_Hokkei_%28%29_Hokkei_Manga_01.jpg",
+    "width": 800,
+    "height": 630,
+    "pd": true
+  },
+  "jp-yoshitoshi-moon74": {
+    "file": "jp-yoshitoshi-moon74.jpg",
+    "title": "月夜畫面",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshitoshi_-_100_Aspects_of_the_Moon_-_74.jpg",
+    "width": 522,
+    "height": 724,
+    "pd": true
+  },
+  "jp-hokusai-satta": {
+    "file": "jp-hokusai-satta.jpg",
+    "title": "懸崖巨岩海濤",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/23_-_The_Sea_off_Satta.jpg",
+    "width": 1719,
+    "height": 2500,
+    "pd": true
+  },
+  "jp-hokusai-mannen": {
+    "file": "jp-hokusai-mannen.jpg",
+    "title": "拱橋富士",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fuji_seen_through_the_Mannen_bridge_at_Fukagawa.jpg",
+    "width": 4448,
+    "height": 2959,
+    "pd": true
+  },
+  "arch-great-zimbabwe": {
+    "file": "arch-great-zimbabwe.jpg",
+    "title": "巨石疊砌塔樓",
+    "license": "Public domain",
+    "artist": "非洲",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great-Zimbabwe.jpg",
+    "width": 2100,
+    "height": 1414,
+    "pd": true
+  },
+  "arch-lalibela": {
+    "file": "arch-lalibela.jpg",
+    "title": "石崖教堂群",
+    "license": "CC-BY 3.0",
+    "artist": "衣索比亞",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rock-Hewn_Churches%2C_Lalibela_Ethiopia_%286%29.jpg",
+    "width": 4000,
+    "height": 3000,
+    "pd": true
+  },
+  "arch-persepolis": {
+    "file": "arch-persepolis.jpg",
+    "title": "石柱浮雕門廊",
+    "license": "CC-BY-SA 2.0",
+    "artist": "波斯",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Persepolis.jpg",
+    "width": 1600,
+    "height": 1200,
+    "pd": true
+  },
+  "arch-bagan-ananda": {
+    "file": "arch-bagan-ananda.jpg",
+    "title": "白色佛塔",
+    "license": "CC-BY-SA 4.0",
+    "artist": "緬甸",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/20160801_Ananda_Temple_Bagan_Myanmar_6682.jpg",
+    "width": 4829,
+    "height": 3075,
+    "pd": true
+  },
+  "arch-prambanan": {
+    "file": "arch-prambanan.jpg",
+    "title": "印度教尖塔",
+    "license": "CC-BY-SA 3.0",
+    "artist": "印尼",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yogyakarta_Indonesia_Prambanan-temple-complex-02.jpg",
+    "width": 5703,
+    "height": 2658,
+    "pd": true
+  },
+  "arch-borobudur": {
+    "file": "arch-borobudur.jpg",
+    "title": "佛教舍利塔",
+    "license": "CC-BY-SA 3.0",
+    "artist": "印尼",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stupa_Borobudur.jpg",
+    "width": 709,
+    "height": 532,
+    "pd": true
+  },
+  "arch-djinguereber": {
+    "file": "arch-djinguereber.jpg",
+    "title": "泥磚大寺",
+    "license": "CC-BY-SA 4.0",
+    "artist": "馬利",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Djinguereber_Mosque.jpg",
+    "width": 1294,
+    "height": 2000,
+    "pd": true
+  },
+  "jp-snow-monkey": {
+    "file": "jp-snow-monkey.jpg",
+    "title": "雪猴泡溫泉",
+    "license": "CC-BY 2.0",
+    "artist": "日本",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow_Monkey_in_Hot_Spring_%2832650593112%29.jpg",
+    "width": 1668,
+    "height": 2500,
+    "pd": true
+  },
+  "jp-cormorant-fishing": {
+    "file": "jp-cormorant-fishing.jpg",
+    "title": "夜間鵜飼",
+    "license": "CC0",
+    "artist": "大都會",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cormorant_Fishing_MET_DP825965.jpg",
+    "width": 2880,
+    "height": 3604,
+    "pd": true
+  },
+  "myth-raphael-sistine": {
+    "file": "myth-raphael-sistine.jpg",
+    "title": "雙小天使",
+    "license": "Public domain",
+    "artist": "Raphael",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raphael_-_Sistine_Madonna.jpg",
+    "width": 3028,
+    "height": 4137,
+    "pd": true
+  },
+  "myth-perugino-angels": {
+    "file": "myth-perugino-angels.jpg",
+    "title": "天使群像",
+    "license": "Public domain",
+    "artist": "Perugino",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pietro_Perugino_062.jpg",
+    "width": 2024,
+    "height": 3484,
+    "pd": true
+  },
+  "myth-titian-putti": {
+    "file": "myth-titian-putti.jpg",
+    "title": "putti飛舞",
+    "license": "CC0",
+    "artist": "依提香",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Putti_before_a_statue_of_Venus%3B_after_Titian_MET_DP883395.jpg",
+    "width": 3815,
+    "height": 2871,
+    "pd": true
   }
 }

@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 67,
-    "character_count": 933,
+    "brand_count": 68,
+    "character_count": 953,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -11133,6 +11133,50 @@
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：CC0 授權"
         },
         {
+          "slug": "jp-eisen-tagawaya",
+          "name": "英泉田川屋餐館",
+          "name_zh": "英泉田川屋餐館",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "渓斎英泉",
+          "creator": "渓斎英泉",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-eisen-tagawaya.jpg",
+          "reference_gallery": [],
+          "appearance": "名所繪，飯館景富士。 `名所繪 飯館景富士`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-eizan-courtesan",
+          "name": "英山持杯遊女",
+          "name_zh": "英山持杯遊女",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "菊川英山",
+          "creator": "菊川英山",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-eizan-courtesan.jpg",
+          "reference_gallery": [],
+          "appearance": "美人繪，遊女酒盞卷軸。 `美人繪 遊女酒盞卷軸`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
           "slug": "jp-flying-demon",
           "name": "芳年飛翔惡魔",
           "name_zh": "芳年飛翔惡魔",
@@ -11551,6 +11595,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-hokkei-manga",
+          "name": "北渓漫畫一編",
+          "name_zh": "北渓漫畫一編",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "魚屋北渓",
+          "creator": "魚屋北渓",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hokkei-manga.jpg",
+          "reference_gallery": [],
+          "appearance": "漫畫速寫集，人物動態速寫。 `漫畫速寫集 人物動態速寫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-hokusai-kirifuri",
           "name": "北齋霧降瀑布",
           "name_zh": "北齋霧降瀑布",
@@ -11659,6 +11725,50 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-hokusai-mannen",
+          "name": "北齋深川萬年橋",
+          "name_zh": "北齋深川萬年橋",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "葛飾北齋",
+          "creator": "葛飾北齋",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hokusai-mannen.jpg",
+          "reference_gallery": [],
+          "appearance": "富嶽三十六景，拱橋框景富士。 `富嶽三十六景 拱橋框景富士`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hokusai-satta",
+          "name": "北齋駿州薩埵嶺",
+          "name_zh": "北齋駿州薩埵嶺",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "葛飾北齋",
+          "creator": "葛飾北齋",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hokusai-satta.jpg",
+          "reference_gallery": [],
+          "appearance": "富嶽三十六景，懸崖巨岩海濤。 `富嶽三十六景 懸崖巨岩海濤`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-indian-elephant",
@@ -11881,6 +11991,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-kunichika-actor",
+          "name": "国周武士役者",
+          "name_zh": "国周武士役者",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "豊原国周",
+          "creator": "豊原国周",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kunichika-actor.jpg",
+          "reference_gallery": [],
+          "appearance": "役者繪，明治武士役者。 `役者繪 明治武士役者`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-kunimasa-actor",
           "name": "歌川国政役者大首繪",
           "name_zh": "歌川国政役者大首繪",
@@ -11897,6 +12029,28 @@
           "image": "assets/img/jp-kunimasa-actor.jpg",
           "reference_gallery": [],
           "appearance": "役者繪，役者大首繪動態。 `役者繪 役者大首繪動態`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-kunisada-cherry",
+          "name": "國貞櫻樹美人",
+          "name_zh": "國貞櫻樹美人",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川国貞",
+          "creator": "歌川国貞",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kunisada-cherry.jpg",
+          "reference_gallery": [],
+          "appearance": "美人繪，櫻樹下美人。 `美人繪 櫻樹下美人`",
           "dialogue": "",
           "scene": "",
           "personality": "",
@@ -12627,6 +12781,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-yoshitoshi-moon74",
+          "name": "芳年月百姿74",
+          "name_zh": "芳年月百姿74",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-yoshitoshi-moon74.jpg",
+          "reference_gallery": [],
+          "appearance": "月百姿，月夜畫面。 `月百姿 月夜畫面`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-yoshitoshi-yugao",
@@ -21111,6 +21287,288 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**復古動畫角色**：早期公版短片做復古動畫參考 **⚠️ 注意**：角色名可能係商標；只用早期黑白短片，唔用後期受版權版本"
+        }
+      ]
+    },
+    {
+      "slug": "regional-architecture-japan-celestials",
+      "name": "Regional Architecture, Japan Scenes & Celestials",
+      "name_zh": "區域建築日本特色與天上聖靈",
+      "type": "區域建築 / 日本特色 / 天上聖靈",
+      "country": "國際",
+      "era": "1500s-2020s",
+      "creator": "各藝術家/攝影師",
+      "publisher": "各美術館/機構",
+      "first_appearance_year": 1500,
+      "status": "公有領域 / CC0 / CC-BY",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "arch-bagan-ananda",
+          "name": "蒲甘阿南達寺",
+          "name_zh": "蒲甘阿南達寺",
+          "role": "區域建築/日本特色/天上聖靈",
+          "first_appearance": "緬甸",
+          "creator": "緬甸",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-bagan-ananda.jpg",
+          "reference_gallery": [],
+          "appearance": "緬甸佛塔，白色佛塔全景。 `緬甸佛塔 白色佛塔全景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域建築/日本特色/天上聖靈做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "arch-borobudur",
+          "name": "婆羅浮屠",
+          "name_zh": "婆羅浮屠",
+          "role": "區域建築/日本特色/天上聖靈",
+          "first_appearance": "印尼",
+          "creator": "印尼",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-borobudur.jpg",
+          "reference_gallery": [],
+          "appearance": "佛教佛塔，層層舍利塔佛像。 `佛教佛塔 層層舍利塔佛像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域建築/日本特色/天上聖靈做動畫參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "arch-djinguereber",
+          "name": "通布圖傑內雷貝清真寺",
+          "name_zh": "通布圖傑內雷貝清真寺",
+          "role": "區域建築/日本特色/天上聖靈",
+          "first_appearance": "馬利",
+          "creator": "馬利",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-djinguereber.jpg",
+          "reference_gallery": [],
+          "appearance": "撒哈拉泥磚寺，泥磚大寺錐塔。 `撒哈拉泥磚寺 泥磚大寺錐塔`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域建築/日本特色/天上聖靈做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "arch-great-zimbabwe",
+          "name": "大辛巴威",
+          "name_zh": "大辛巴威",
+          "role": "區域建築/日本特色/天上聖靈",
+          "first_appearance": "非洲",
+          "creator": "非洲",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-great-zimbabwe.jpg",
+          "reference_gallery": [],
+          "appearance": "石造遺城，巨石疊砌塔樓。 `石造遺城 巨石疊砌塔樓`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域建築/日本特色/天上聖靈做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "arch-lalibela",
+          "name": "拉利貝拉岩鑿教堂",
+          "name_zh": "拉利貝拉岩鑿教堂",
+          "role": "區域建築/日本特色/天上聖靈",
+          "first_appearance": "衣索比亞",
+          "creator": "衣索比亞",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-lalibela.jpg",
+          "reference_gallery": [],
+          "appearance": "岩鑿教堂，石崖整塊鑿出教堂。 `岩鑿教堂 石崖整塊鑿出教堂`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域建築/日本特色/天上聖靈做動畫參考 **注意**：CC-BY 3.0 授權"
+        },
+        {
+          "slug": "arch-persepolis",
+          "name": "波斯波利斯",
+          "name_zh": "波斯波利斯",
+          "role": "區域建築/日本特色/天上聖靈",
+          "first_appearance": "波斯",
+          "creator": "波斯",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-persepolis.jpg",
+          "reference_gallery": [],
+          "appearance": "古波斯都城，石柱浮雕門廊。 `古波斯都城 石柱浮雕門廊`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域建築/日本特色/天上聖靈做動畫參考 **注意**：CC-BY-SA 2.0 授權"
+        },
+        {
+          "slug": "arch-prambanan",
+          "name": "普蘭巴南",
+          "name_zh": "普蘭巴南",
+          "role": "區域建築/日本特色/天上聖靈",
+          "first_appearance": "印尼",
+          "creator": "印尼",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-prambanan.jpg",
+          "reference_gallery": [],
+          "appearance": "爪哇寺群，印度教尖塔浮雕。 `爪哇寺群 印度教尖塔浮雕`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域建築/日本特色/天上聖靈做動畫參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "jp-cormorant-fishing",
+          "name": "川瀨鶯飼",
+          "name_zh": "川瀨鶯飼",
+          "role": "區域建築/日本特色/天上聖靈",
+          "first_appearance": "大都會",
+          "creator": "大都會",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-cormorant-fishing.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪，夜間鵜飼捕魚。 `浮世繪 夜間鵜飼捕魚`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域建築/日本特色/天上聖靈做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-snow-monkey",
+          "name": "雪猴溫泉",
+          "name_zh": "雪猴溫泉",
+          "role": "區域建築/日本特色/天上聖靈",
+          "first_appearance": "日本",
+          "creator": "日本",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-snow-monkey.jpg",
+          "reference_gallery": [],
+          "appearance": "實景動物照，日本獼猴泡溫泉。 `實景動物照 日本獼猴泡溫泉`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域建築/日本特色/天上聖靈做動畫參考 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "myth-perugino-angels",
+          "name": "佩魯吉諾奏樂天使",
+          "name_zh": "佩魯吉諾奏樂天使",
+          "role": "區域建築/日本特色/天上聖靈",
+          "first_appearance": "Perugino",
+          "creator": "Perugino",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-perugino-angels.jpg",
+          "reference_gallery": [],
+          "appearance": "文藝復興，天使群像奏樂。 `文藝復興 天使群像奏樂`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域建築/日本特色/天上聖靈做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "myth-raphael-sistine",
+          "name": "拉斐爾西斯汀雙天使",
+          "name_zh": "拉斐爾西斯汀雙天使",
+          "role": "區域建築/日本特色/天上聖靈",
+          "first_appearance": "Raphael",
+          "creator": "Raphael",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-raphael-sistine.jpg",
+          "reference_gallery": [],
+          "appearance": "文藝復興，倚欄雙小天使。 `文藝復興 倚欄雙小天使`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域建築/日本特色/天上聖靈做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "myth-titian-putti",
+          "name": "提香維納斯小天使",
+          "name_zh": "提香維納斯小天使",
+          "role": "區域建築/日本特色/天上聖靈",
+          "first_appearance": "依提香",
+          "creator": "依提香",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-titian-putti.jpg",
+          "reference_gallery": [],
+          "appearance": "文藝復興神話，putti環繞飛舞。 `文藝復興神話 putti環繞飛舞`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域建築/日本特色/天上聖靈做動畫參考 **注意**：CC0 授權"
         }
       ]
     },
