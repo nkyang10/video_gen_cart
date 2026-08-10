@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 70,
-    "character_count": 984,
+    "brand_count": 71,
+    "character_count": 1000,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -11551,6 +11551,28 @@
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-hiroshige-kameido",
+          "name": "廣重龜戶梅屋鋪",
+          "name_zh": "廣重龜戶梅屋鋪",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-kameido.jpg",
+          "reference_gallery": [],
+          "appearance": "名所繪，梅園紅梅月景。 `名所繪 梅園紅梅月景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-hiroshige-nihonbashi",
           "name": "廣重日本橋雪晴",
           "name_zh": "廣重日本橋雪晴",
@@ -11640,9 +11662,9 @@
         },
         {
           "slug": "jp-hiroshige-shower",
-          "name": "大橋安宅夕立",
-          "name_zh": "大橋安宅夕立",
-          "role": "日式藝術/浮世繪/武士/祭典",
+          "name": "廣重大橋驟雨",
+          "name_zh": "廣重大橋驟雨",
+          "role": "日式藝術/浮世繪",
           "first_appearance": "歌川廣重",
           "creator": "歌川廣重",
           "license": {
@@ -11654,11 +11676,11 @@
           "verified": "2026-08-10",
           "image": "assets/img/jp-hiroshige-shower.jpg",
           "reference_gallery": [],
-          "appearance": "名所繪雨景，大橋驟雨撐傘。 `名所繪雨景 大橋驟雨撐傘`",
+          "appearance": "名所繪，江戶驟雨橋景。 `名所繪 江戶驟雨橋景`",
           "dialogue": "",
           "scene": "",
           "personality": "",
-          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-hiroshige-snow",
@@ -11919,6 +11941,50 @@
           "image": "assets/img/jp-hokusai-satta.jpg",
           "reference_gallery": [],
           "appearance": "富嶽三十六景，懸崖巨岩海濤。 `富嶽三十六景 懸崖巨岩海濤`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hokusai-setsubun",
+          "name": "北齋節分鬼",
+          "name_zh": "北齋節分鬼",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "葛飾北齋",
+          "creator": "葛飾北齋",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hokusai-setsubun.jpg",
+          "reference_gallery": [],
+          "appearance": "妖怪繪，節分鬼造型。 `妖怪繪 節分鬼造型`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hokusai-tako-ama",
+          "name": "北齋漁夫妻子之夢",
+          "name_zh": "北齋漁夫妻子之夢",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "葛飾北齋",
+          "creator": "葛飾北齋",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hokusai-tako-ama.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪春畫，章魚與海女。 `浮世繪春畫 章魚與海女`",
           "dialogue": "",
           "scene": "",
           "personality": "",
@@ -12407,6 +12473,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-mermaid-kuniyoshi",
+          "name": "國芳派日本美人魚",
+          "name_zh": "國芳派日本美人魚",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川國芳派",
+          "creator": "歌川國芳派",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-mermaid-kuniyoshi.jpg",
+          "reference_gallery": [],
+          "appearance": "美人繪，人魚形貌。 `美人繪 人魚形貌`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC-BY 4.0 授權"
         },
         {
           "slug": "jp-oniwakamaru",
@@ -15941,6 +16029,288 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**場景/角色/背景動畫參考**：名畫/城市街道/海洋活動做動畫參考 **注意**：CC0 授權"
+        }
+      ]
+    },
+    {
+      "slug": "master-paintings-natural-wonders-mythical",
+      "name": "Master Paintings, Natural Wonders & Mythical Beasts",
+      "name_zh": "名畫自然奇觀與神話生物",
+      "type": "名畫 / 自然奇觀 / 神話生物",
+      "country": "國際",
+      "era": "1500s-2000s",
+      "creator": "各經典藝術家/攝影師",
+      "publisher": "各美術館/機構",
+      "first_appearance_year": 1500,
+      "status": "公有領域 / CC0 / CC-BY",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "art-degas-dancers",
+          "name": "竇加烏克蘭舞者",
+          "name_zh": "竇加烏克蘭舞者",
+          "role": "名畫/自然奇觀/神話生物",
+          "first_appearance": "Degas",
+          "creator": "Degas",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-degas-dancers.png",
+          "reference_gallery": [],
+          "appearance": "印象派，舞者動態。 `印象派 舞者動態`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/自然奇觀/神話生物做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-hals-cavalier",
+          "name": "哈爾斯笑的騎士",
+          "name_zh": "哈爾斯笑的騎士",
+          "role": "名畫/自然奇觀/神話生物",
+          "first_appearance": "Frans Hals",
+          "creator": "Frans Hals",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-hals-cavalier.jpg",
+          "reference_gallery": [],
+          "appearance": "荷蘭肖像，騎士肖像。 `荷蘭肖像 騎士肖像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/自然奇觀/神話生物做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-lautrec-moulin",
+          "name": "吐魯斯羅特列克紅磨坊",
+          "name_zh": "吐魯斯羅特列克紅磨坊",
+          "role": "名畫/自然奇觀/神話生物",
+          "first_appearance": "Toulouse-Lautrec",
+          "creator": "Toulouse-Lautrec",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-lautrec-moulin.jpg",
+          "reference_gallery": [],
+          "appearance": "新藝術，夜店場景。 `新藝術 夜店場景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/自然奇觀/神話生物做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-rembrandt-nightwatch",
+          "name": "林布蘭夜巡",
+          "name_zh": "林布蘭夜巡",
+          "role": "名畫/自然奇觀/神話生物",
+          "first_appearance": "Rembrandt",
+          "creator": "Rembrandt",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-rembrandt-nightwatch.jpg",
+          "reference_gallery": [],
+          "appearance": "荷蘭黃金時代，巨幅群像。 `荷蘭黃金時代 巨幅群像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/自然奇觀/神話生物做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-rossetti-proserpine",
+          "name": "羅塞提普羅瑟芬",
+          "name_zh": "羅塞提普羅瑟芬",
+          "role": "名畫/自然奇觀/神話生物",
+          "first_appearance": "Rossetti",
+          "creator": "Rossetti",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-rossetti-proserpine.jpg",
+          "reference_gallery": [],
+          "appearance": "前拉斐爾派，神話題材。 `前拉斐爾派 神話題材`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/自然奇觀/神話生物做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-titian-assumption",
+          "name": "提香聖母升天",
+          "name_zh": "提香聖母升天",
+          "role": "名畫/自然奇觀/神話生物",
+          "first_appearance": "Titian",
+          "creator": "Titian",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-titian-assumption.png",
+          "reference_gallery": [],
+          "appearance": "文藝復興，聖母升天。 `文藝復興 聖母升天`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/自然奇觀/神話生物做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-velazquez-meninas",
+          "name": "委拉斯開茲侍女們",
+          "name_zh": "委拉斯開茲侍女們",
+          "role": "名畫/自然奇觀/神話生物",
+          "first_appearance": "Velázquez",
+          "creator": "Velázquez",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-velazquez-meninas.jpg",
+          "reference_gallery": [],
+          "appearance": "西班牙黃金時代，群像構圖。 `西班牙黃金時代 群像構圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/自然奇觀/神話生物做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "land-antelope-canyon",
+          "name": "羚羊峽谷",
+          "name_zh": "羚羊峽谷",
+          "role": "名畫/自然奇觀/神話生物",
+          "first_appearance": "美國",
+          "creator": "美國",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-antelope-canyon.jpg",
+          "reference_gallery": [],
+          "appearance": "實景彩照，紅岩波浪紋理。 `實景彩照 紅岩波浪紋理`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/自然奇觀/神話生物做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "land-great-blue-hole",
+          "name": "大藍洞",
+          "name_zh": "大藍洞",
+          "role": "名畫/自然奇觀/神話生物",
+          "first_appearance": "伯利茲",
+          "creator": "伯利茲",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-great-blue-hole.jpg",
+          "reference_gallery": [],
+          "appearance": "實景彩照，深海藍洞空拍。 `實景彩照 深海藍洞空拍`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/自然奇觀/神話生物做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "land-salar-uyuni",
+          "name": "烏尤尼鹽沼",
+          "name_zh": "烏尤尼鹽沼",
+          "role": "名畫/自然奇觀/神話生物",
+          "first_appearance": "玻利維亞",
+          "creator": "玻利維亞",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-salar-uyuni.jpg",
+          "reference_gallery": [],
+          "appearance": "實景彩照，天空之鏡倒影。 `實景彩照 天空之鏡倒影`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/自然奇觀/神話生物做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "land-zhangjiajie",
+          "name": "張家界武陵源",
+          "name_zh": "張家界武陵源",
+          "role": "名畫/自然奇觀/神話生物",
+          "first_appearance": "中國",
+          "creator": "中國",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-zhangjiajie.jpg",
+          "reference_gallery": [],
+          "appearance": "實景彩照，砂岩峰林。 `實景彩照 砂岩峰林`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/自然奇觀/神話生物做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "myth-waterhouse-siren",
+          "name": "沃特豪斯塞壬",
+          "name_zh": "沃特豪斯塞壬",
+          "role": "名畫/自然奇觀/神話生物",
+          "first_appearance": "Waterhouse",
+          "creator": "Waterhouse",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-waterhouse-siren.jpg",
+          "reference_gallery": [],
+          "appearance": "前拉斐爾派，塞壬美人魚。 `前拉斐爾派 塞壬美人魚`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/自然奇觀/神話生物做動畫參考 **注意**：Public domain 授權"
         }
       ]
     },

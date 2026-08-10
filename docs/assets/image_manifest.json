@@ -6311,12 +6311,12 @@
   },
   "jp-hiroshige-shower": {
     "file": "jp-hiroshige-shower.jpg",
-    "title": "大橋驟雨",
+    "title": "江戶驟雨橋景",
     "license": "Public domain",
     "artist": "歌川廣重",
-    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Utagawa%20Hiroshige%20-%20Evening%20Shower%20at%20Atake%20and%20the%20Great%20Bridge.jpg",
-    "width": 6300,
-    "height": 9200,
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiroshige%2C_Sudden_shower_over_Shin-Ohashi_bridge_and_Atake%2C_1857_expanded.jpg",
+    "width": 3185,
+    "height": 4700,
     "pd": true
   },
   "jp-hiroshige-irises": {
@@ -9287,6 +9287,166 @@
     "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_View_of_the_Pearl-Fishery%2C_c._1770s.jpg",
     "width": 760,
     "height": 496,
+    "pd": true
+  },
+  "jp-hiroshige-kameido": {
+    "file": "jp-hiroshige-kameido.jpg",
+    "title": "梅園紅梅月景",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Plum_garden_at_Kameido_%28Kameido_umeyashiki%29_%28CBL_J_2693%29.jpg",
+    "width": 1719,
+    "height": 2500,
+    "pd": true
+  },
+  "jp-hokusai-tako-ama": {
+    "file": "jp-hokusai-tako-ama.jpg",
+    "title": "章魚與海女",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tako_to_ama_retouched.jpg",
+    "width": 1600,
+    "height": 1116,
+    "pd": true
+  },
+  "jp-hokusai-setsubun": {
+    "file": "jp-hokusai-setsubun.jpg",
+    "title": "節分鬼造型",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokusai_Setsubun_no_Oni.jpg",
+    "width": 360,
+    "height": 523,
+    "pd": true
+  },
+  "jp-mermaid-kuniyoshi": {
+    "file": "jp-mermaid-kuniyoshi.jpg",
+    "title": "人魚形貌",
+    "license": "CC-BY 4.0",
+    "artist": "歌川國芳派",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Collectie_Wereldmuseum%2C_RV-360-10410%2C_%27Japanse_zeemeermin%27%2C_1800-1830.jpg",
+    "width": 1861,
+    "height": 2500,
+    "pd": true
+  },
+  "art-velazquez-meninas": {
+    "file": "art-velazquez-meninas.jpg",
+    "title": "群像構圖",
+    "license": "Public domain",
+    "artist": "Velázquez",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Las_Meninas_01.jpg",
+    "width": 2362,
+    "height": 2719,
+    "pd": true
+  },
+  "art-rembrandt-nightwatch": {
+    "file": "art-rembrandt-nightwatch.jpg",
+    "title": "巨幅群像",
+    "license": "Public domain",
+    "artist": "Rembrandt",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg",
+    "width": 2500,
+    "height": 2034,
+    "pd": true
+  },
+  "art-degas-dancers": {
+    "file": "art-degas-dancers.png",
+    "title": "舞者動態",
+    "license": "Public domain",
+    "artist": "Degas",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edgar_Degas_-_Ukrainian_Dancers_-_c._1899.png",
+    "width": 4767,
+    "height": 6000,
+    "pd": true
+  },
+  "art-hals-cavalier": {
+    "file": "art-hals-cavalier.jpg",
+    "title": "騎士肖像",
+    "license": "Public domain",
+    "artist": "Frans Hals",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cavalier_soldier_Hals-1624x.jpg",
+    "width": 4841,
+    "height": 5897,
+    "pd": true
+  },
+  "art-lautrec-moulin": {
+    "file": "art-lautrec-moulin.jpg",
+    "title": "夜店場景",
+    "license": "Public domain",
+    "artist": "Toulouse-Lautrec",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Albi%29_Au_Moulin-Rouge._Portrait_de_Monsieur_Warner_1892_-_Toulouse-Lautrec_-_MTL.144.jpg",
+    "width": 4623,
+    "height": 5959,
+    "pd": true
+  },
+  "art-rossetti-proserpine": {
+    "file": "art-rossetti-proserpine.jpg",
+    "title": "神話題材",
+    "license": "Public domain",
+    "artist": "Rossetti",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dante_Gabriel_Rossetti_-_Proserpine_-_Google_Art_Project.jpg",
+    "width": 1041,
+    "height": 2300,
+    "pd": true
+  },
+  "art-titian-assumption": {
+    "file": "art-titian-assumption.png",
+    "title": "聖母升天",
+    "license": "Public domain",
+    "artist": "Titian",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Assumption_of_the_Virgin_%28The_Story_of_the_Masterpieces%29.png",
+    "width": 1556,
+    "height": 2057,
+    "pd": true
+  },
+  "land-antelope-canyon": {
+    "file": "land-antelope-canyon.jpg",
+    "title": "紅岩波浪紋理",
+    "license": "Public domain",
+    "artist": "美國",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/USA_Antelope-Canyon.jpg",
+    "width": 1704,
+    "height": 2272,
+    "pd": true
+  },
+  "land-salar-uyuni": {
+    "file": "land-salar-uyuni.jpg",
+    "title": "天空之鏡",
+    "license": "CC-BY-SA 4.0",
+    "artist": "玻利維亞",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reflection_on_the_Salar_de_Uyuni%2C_bolivia.jpg",
+    "width": 4896,
+    "height": 3264,
+    "pd": true
+  },
+  "land-zhangjiajie": {
+    "file": "land-zhangjiajie.jpg",
+    "title": "砂岩峰林",
+    "license": "CC-BY-SA 4.0",
+    "artist": "中國",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/1_zhangjiajie_huangshizhai_wulingyuan_panorama_2012.jpg",
+    "width": 2500,
+    "height": 1263,
+    "pd": true
+  },
+  "land-great-blue-hole": {
+    "file": "land-great-blue-hole.jpg",
+    "title": "深海藍洞",
+    "license": "Public domain",
+    "artist": "伯利茲",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lighthouse_Reef_Belize.jpg",
+    "width": 2743,
+    "height": 4072,
+    "pd": true
+  },
+  "myth-waterhouse-siren": {
+    "file": "myth-waterhouse-siren.jpg",
+    "title": "塞壬美人魚",
+    "license": "Public domain",
+    "artist": "Waterhouse",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Siren_by_John_William_Waterhouse_%281900%29.jpg",
+    "width": 1215,
+    "height": 1700,
     "pd": true
   }
 }
