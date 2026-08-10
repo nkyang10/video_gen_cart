@@ -4491,10 +4491,10 @@
   },
   "marine-turner-shipwreck": {
     "file": "marine-turner-shipwreck.jpg",
-    "title": "沉船",
+    "title": "暴風雨沉船",
     "license": "Public domain",
-    "artist": "Turner",
-    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Joseph_Mallord_William_Turner_-_The_Shipwreck_-_Google_Art_Project.jpg",
+    "artist": "J.M.W. Turner",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_Mallord_William_Turner_-_The_Shipwreck_-_Google_Art_Project.jpg",
     "width": 2316,
     "height": 1632,
     "pd": true
@@ -7517,6 +7517,186 @@
     "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Still_Life_with_Ray_and_Basket_of_Onions_-_Jean_Sim%C3%A9on_Chardin_-_Google_Cultural_Institute.jpg",
     "width": 4392,
     "height": 5548,
+    "pd": true
+  },
+  "jp-ginza-night": {
+    "file": "jp-ginza-night.jpg",
+    "title": "夜銀座摩登女郎",
+    "license": "CC-BY-SA 4.0",
+    "artist": "川上澄生",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Night_of_Ginza_by_Kawakami_Sumio%2C_Ashmolean_Museum%2C_October_2021.jpg",
+    "width": 4032,
+    "height": 3024,
+    "pd": true
+  },
+  "jp-ginza-pedestrians": {
+    "file": "jp-ginza-pedestrians.jpg",
+    "title": "銀座都會街景",
+    "license": "CC0",
+    "artist": "川上澄生",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Voetgangers_in_Ginza_Night_of_Ginza_%28titel_op_object%29_Herinneringen_aan_Tokyo_%28serietitel%29_Tokyo_kaiko_zue_%28serietitel%29%2C_RP-P-2004-84-12.jpg",
+    "width": 2500,
+    "height": 1895,
+    "pd": true
+  },
+  "jp-kudan-torii": {
+    "file": "jp-kudan-torii.jpg",
+    "title": "東京鳥居",
+    "license": "CC0",
+    "artist": "川上澄生",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kudan_torii_Torii_of_Kudan_%28titel_op_object%29_Herinneringen_aan_Tokyo_%28serietitel%29_Tokyo_kaiko_zue_%28serietitel%29%2C_RP-P-2004-84-5.jpg",
+    "width": 2500,
+    "height": 1786,
+    "pd": true
+  },
+  "jp-hasui-night-rain": {
+    "file": "jp-hasui-night-rain.jpg",
+    "title": "雨中夜景",
+    "license": "Public domain",
+    "artist": "川瀬巴水",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/NDL-DC_2586549-31_Kawase_Hasui_S05_crd.jpg",
+    "width": 4378,
+    "height": 6304,
+    "pd": true
+  },
+  "jp-ginza-1933": {
+    "file": "jp-ginza-1933.jpg",
+    "title": "銀座霓虹",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ginza_in_1933.JPG",
+    "width": 807,
+    "height": 1020,
+    "pd": true
+  },
+  "jp-ginza-1904": {
+    "file": "jp-ginza-1904.jpg",
+    "title": "明治銀座騎樓",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_ginza_street_1904.jpg",
+    "width": 1542,
+    "height": 1479,
+    "pd": true
+  },
+  "inst-hurdy-gurdy-player": {
+    "file": "inst-hurdy-gurdy-player.jpg",
+    "title": "街頭搖弦琴",
+    "license": "Public domain",
+    "artist": "Rijksmuseum",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/De_liereman_Rijksmuseum_SK-A-2401.jpeg",
+    "width": 3950,
+    "height": 2090,
+    "pd": true
+  },
+  "inst-latour-hurdy": {
+    "file": "inst-latour-hurdy.jpg",
+    "title": "老者搖弦琴",
+    "license": "Public domain",
+    "artist": "Georges de La Tour",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Georges_de_La_Tour_-_The_Hurdy-gurdy_Player_-_WGA12335.jpg",
+    "width": 654,
+    "height": 1000,
+    "pd": true
+  },
+  "inst-lute-woman": {
+    "file": "inst-lute-woman.jpg",
+    "title": "女子彈魯特琴",
+    "license": "Public domain",
+    "artist": "van Dijk",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Woman_playing_the_lute_by_van_Dijk.jpg",
+    "width": 1143,
+    "height": 1423,
+    "pd": true
+  },
+  "inst-kodo-taiko": {
+    "file": "inst-kodo-taiko.jpg",
+    "title": "和太鼓",
+    "license": "Public domain",
+    "artist": "攝影",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kodo_Taiko_Drum.JPG",
+    "width": 1600,
+    "height": 1200,
+    "pd": true
+  },
+  "marine-homer-gulf": {
+    "file": "marine-homer-gulf.jpg",
+    "title": "海難孤舟鯊魚",
+    "license": "Public domain",
+    "artist": "Winslow Homer",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Winslow_Homer_-_The_Gulf_Stream_%281899%29.jpg",
+    "width": 3852,
+    "height": 2322,
+    "pd": true
+  },
+  "marine-homer-light": {
+    "file": "marine-homer-light.jpg",
+    "title": "燈塔海浪",
+    "license": "Public domain",
+    "artist": "Winslow Homer",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Winslow_Homer_-_Eastern_Point_Light_-_Google_Art_Project.jpg",
+    "width": 4427,
+    "height": 3217,
+    "pd": true
+  },
+  "marine-aivazovsky-north": {
+    "file": "marine-aivazovsky-north.jpg",
+    "title": "巨浪沉船",
+    "license": "Public domain",
+    "artist": "Aivazovsky",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ivan_Constantinovich_Aivazovsky_-_Shipwreck_in_the_North_Sea.jpg",
+    "width": 1642,
+    "height": 1145,
+    "pd": true
+  },
+  "marine-aivazovsky-beacon": {
+    "file": "marine-aivazovsky-beacon.jpg",
+    "title": "月下海岸燈塔",
+    "license": "Public domain",
+    "artist": "Aivazovsky",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aivazovsky_-_Sea_coast_at_night._Near_the_beacon.jpg",
+    "width": 1745,
+    "height": 1200,
+    "pd": true
+  },
+  "marine-hokusai-thunder": {
+    "file": "marine-hokusai-thunder.jpg",
+    "title": "富士閃電風暴",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lightnings_below_the_summit.jpg",
+    "width": 4501,
+    "height": 2966,
+    "pd": true
+  },
+  "city-hopper-nighthawks": {
+    "file": "city-hopper-nighthawks.jpg",
+    "title": "深夜餐館霓虹",
+    "license": "Public domain",
+    "artist": "Edward Hopper",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nighthawks_by_Edward_Hopper_1942.jpg",
+    "width": 6000,
+    "height": 3274,
+    "pd": true
+  },
+  "city-caillebotte-rain": {
+    "file": "city-caillebotte-rain.jpg",
+    "title": "雨天巴黎街道",
+    "license": "Public domain",
+    "artist": "Caillebotte",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Caillebotte_-_Paris_Street%3B_Rainy_Day_-_Google_Art_Project.jpg",
+    "width": 5982,
+    "height": 4531,
+    "pd": true
+  },
+  "city-dore-london": {
+    "file": "city-dore-london.jpg",
+    "title": "維多利亞倫敦",
+    "license": "Public domain",
+    "artist": "Gustave Doré",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dore_London.jpg",
+    "width": 650,
+    "height": 550,
     "pd": true
   }
 }
