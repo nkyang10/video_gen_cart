@@ -117,6 +117,14 @@ a { color: var(--forest); }
 .gallery figcaption .g-angle { font-weight: 700; color: var(--forest); }
 .gallery figcaption .g-meta { color: var(--muted); font-size: .72rem; margin-top: 3px; }
 .gallery-hint { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+/* ---------- Lightbox ---------- */
+.lightbox { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.88); cursor: zoom-out; }
+.lightbox.open { display: flex; align-items: center; justify-content: center; }
+.lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; background: #000; border-radius: 6px; box-shadow: 0 8px 40px rgba(0,0,0,.6); }
+.lightbox .lb-cap { position: absolute; bottom: 18px; left: 0; right: 0; text-align: center; color: #ddd; font-size: .85rem; padding: 0 20px; }
+.lightbox .lb-close { position: absolute; top: 14px; right: 22px; color: #fff; font-size: 2rem; line-height: 1; cursor: pointer; }
+a.zoom { display: inline-block; cursor: zoom-in; }
+.gallery figure img { cursor: zoom-in; }
 </style></head><body>
 <header class="site"><div class="wrap">
   <h1><a href="../../index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
@@ -134,16 +142,71 @@ a { color: var(--forest); }
 <li><strong>Zora the Snep</strong> — 雌性雪豹 fursona，鈴鐺項圈（CC-BY-SA 4.0）</li>
 <li><strong>Routhwick the Tanuki</strong> — 狸貓童書主角（CC0）</li>
 <li><strong>Lexi</strong> — 四臂笨拙女孩，肢體喜劇（CC-BY-SA 4.0）</li>
-</ul><h2>旗下公版角色 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(7)</span></h2><div class="character-grid"><a class="character-card" href="duskako.html">
+</ul><h2>旗下公版角色 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(18)</span></h2><div class="character-grid"><a class="character-card" href="duskako.html">
               <div class="thumb"><img src="../../assets/img/duskako.jpg" alt=""></div>
               <div><span class="name">Duskako</span><span class="zh">暮光之狐（Duskako）</span></div>
               <div class="desc">原創角色（fursona）</div>
               <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="kenney-flyman-stand.html">
+              <div class="thumb"><img src="../../assets/img/kenney-flyman-stand.png" alt=""></div>
+              <div><span class="name">Flyman Stand</span><span class="zh">Flyman Stand</span></div>
+              <div class="desc">CC0 遊戲/動漫資產</div>
+              <span class="badge cc">CC0</span>
+            </a><a class="character-card" href="kenney-spikeman-stand.html">
+              <div class="thumb"><img src="../../assets/img/kenney-spikeman-stand.png" alt=""></div>
+              <div><span class="name">Spikeman Stand</span><span class="zh">Spikeman Stand</span></div>
+              <div class="desc">CC0 遊戲/動漫資產</div>
+              <span class="badge cc">CC0</span>
             </a><a class="character-card" href="lexi.html">
               <div class="thumb"><img src="../../assets/img/lexi.jpg" alt=""></div>
               <div><span class="name">Lexi</span><span class="zh">萊克希（四臂女孩）</span></div>
               <div class="desc">原創角色</div>
               <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="oga-anime-characters.html">
+              <div class="thumb"><img src="../../assets/img/oga-anime-characters.png" alt=""></div>
+              <div><span class="name">Anime Characters</span><span class="zh">Anime Characters</span></div>
+              <div class="desc">CC0 遊戲/動漫資產</div>
+              <span class="badge cc">CC0</span>
+            </a><a class="character-card" href="oga-anime-face.html">
+              <div class="thumb"><img src="../../assets/img/oga-anime-face.png" alt=""></div>
+              <div><span class="name">Generic Anime Face</span><span class="zh">Generic Anime Face</span></div>
+              <div class="desc">CC0 遊戲/動漫資產</div>
+              <span class="badge cc">CC0</span>
+            </a><a class="character-card" href="oga-anime-female-body.html">
+              <div class="thumb"><img src="../../assets/img/oga-anime-female-body.png" alt=""></div>
+              <div><span class="name">Anime Female Body</span><span class="zh">Anime Female Body</span></div>
+              <div class="desc">CC0 遊戲/動漫資產</div>
+              <span class="badge cc">CC0</span>
+            </a><a class="character-card" href="oga-anime-girl-portrait.html">
+              <div class="thumb"><img src="../../assets/img/oga-anime-girl-portrait.png" alt=""></div>
+              <div><span class="name">Anime Girl Portrait</span><span class="zh">Anime Girl Portrait</span></div>
+              <div class="desc">CC0 遊戲/動漫資產</div>
+              <span class="badge cc">CC0</span>
+            </a><a class="character-card" href="oga-anime-girl-walk.html">
+              <div class="thumb"><img src="../../assets/img/oga-anime-girl-walk.png" alt=""></div>
+              <div><span class="name">Anime Girl Walk</span><span class="zh">Anime Girl Walk</span></div>
+              <div class="desc">CC0 遊戲/動漫資產</div>
+              <span class="badge cc">CC0</span>
+            </a><a class="character-card" href="oga-mecha-model-full.html">
+              <div class="thumb"><img src="../../assets/img/oga-mecha-model-full.png" alt=""></div>
+              <div><span class="name">Mecha Model Full</span><span class="zh">Mecha Model Full</span></div>
+              <div class="desc">CC0 遊戲/動漫資產</div>
+              <span class="badge cc">CC0</span>
+            </a><a class="character-card" href="oga-robot-character.html">
+              <div class="thumb"><img src="../../assets/img/oga-robot-character.png" alt=""></div>
+              <div><span class="name">Robot Character</span><span class="zh">Robot Character</span></div>
+              <div class="desc">CC0 遊戲/動漫資產</div>
+              <span class="badge cc">CC0</span>
+            </a><a class="character-card" href="oga-white-probe-bot.html">
+              <div class="thumb"><img src="../../assets/img/oga-white-probe-bot.png" alt=""></div>
+              <div><span class="name">White Probe Bot</span><span class="zh">White Probe Bot</span></div>
+              <div class="desc">CC0 遊戲/動漫資產</div>
+              <span class="badge cc">CC0</span>
+            </a><a class="character-card" href="oga-youjibot.html">
+              <div class="thumb"><img src="../../assets/img/oga-youjibot.png" alt=""></div>
+              <div><span class="name">Youji Bot</span><span class="zh">Youji Bot</span></div>
+              <div class="desc">CC0 遊戲/動漫資產</div>
+              <span class="badge cc">CC0</span>
             </a><a class="character-card" href="routhwick-tanuki.html">
               <div class="thumb"><img src="../../assets/img/routhwick-tanuki.jpg" alt=""></div>
               <div><span class="name">Routhwick the Tanuki</span><span class="zh">羅思威克（狸貓男孩）</span></div>
@@ -174,3 +237,21 @@ a { color: var(--forest); }
     Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
   </div>
 </div>
+<div class="lightbox" id="lightbox" aria-hidden="true"><span class="lb-close" id="lb-close">&times;</span><img src="" alt="" id="lb-img"><div class="lb-cap" id="lb-cap"></div></div>
+<script>
+(function(){
+  var lb=document.getElementById('lightbox'), img=document.getElementById('lb-img'), cap=document.getElementById('lb-cap');
+  function open(src,alt){ img.src=src; img.alt=alt; cap.textContent=alt; lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); }
+  function close(){ lb.classList.remove('open'); img.src=''; lb.setAttribute('aria-hidden','true'); }
+  document.addEventListener('click', function(e){
+    var t=e.target.closest('a.zoom, .gallery figure img, .char-hero img');
+    if(t && t.tagName!=='IMG'){ t=e.target; }
+    if(t && t.tagName==='IMG' && (t.closest('a.zoom') || t.closest('.gallery') || t.closest('.char-hero'))){
+      e.preventDefault(); var src=t.getAttribute('data-full')||t.currentSrc||t.src;
+      open(src, t.getAttribute('alt')||'');
+    }
+  });
+  lb.addEventListener('click', function(e){ if(e.target===lb||e.target.id==='lb-close') close(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+})();
+</script>

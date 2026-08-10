@@ -117,12 +117,20 @@ a { color: var(--forest); }
 .gallery figcaption .g-angle { font-weight: 700; color: var(--forest); }
 .gallery figcaption .g-meta { color: var(--muted); font-size: .72rem; margin-top: 3px; }
 .gallery-hint { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+/* ---------- Lightbox ---------- */
+.lightbox { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.88); cursor: zoom-out; }
+.lightbox.open { display: flex; align-items: center; justify-content: center; }
+.lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; background: #000; border-radius: 6px; box-shadow: 0 8px 40px rgba(0,0,0,.6); }
+.lightbox .lb-cap { position: absolute; bottom: 18px; left: 0; right: 0; text-align: center; color: #ddd; font-size: .85rem; padding: 0 20px; }
+.lightbox .lb-close { position: absolute; top: 14px; right: 22px; color: #fff; font-size: 2rem; line-height: 1; cursor: pointer; }
+a.zoom { display: inline-block; cursor: zoom-in; }
+.gallery figure img { cursor: zoom-in; }
 </style></head><body>
 <header class="site"><div class="wrap">
   <h1><a href="../../index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
   <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
 </div><nav class="brand-tabs"><a href="../../brands/barney-google/" class="">Barney Google</a><a href="../../brands/blender-open-movies/" class="">Blender Open Movies</a><a href="../../brands/jiggs/" class="">Bringing Up Father</a><a href="../../brands/buck-rogers/" class="">Buck Rogers</a><a href="../../brands/buster-brown/" class="">Buster Brown</a><a href="../../brands/cc0-original-characters/" class="">CC0 Original Characters</a><a href="../../brands/disney-silent/" class="">Disney Silent Era (Mickey &amp; Friends)</a><a href="../../brands/felix-the-cat/" class="">Felix the Cat</a><a href="../../brands/fleischer-betty-boop/" class="">Fleischer Studios (Betty Boop)</a><a href="../../brands/happy-hooligan/" class="">Happy Hooligan</a><a href="../../brands/japanese-anime-backgrounds/" class="">Japanese Anime Backgrounds</a><a href="../../brands/japanese-anime-design-sheets/" class="">Japanese Anime Design Sheets</a><a href="../../brands/japanese-anime-style-reference/" class="">Japanese Anime Style Reference</a><a href="../../brands/japanese-yokai/" class="">Japanese Yokai</a><a href="../../brands/krazy-kat/" class="">Krazy Kat</a><a href="../../brands/little-nemo/" class="active">Little Nemo in Slumberland</a><a href="../../brands/mutt-jeff/" class="">Mutt and Jeff</a><a href="../../brands/olive-oyl/" class="">Olive Oyl (Thimble Theatre)</a><a href="../../brands/open-source-mascots/" class="">Open-Source Mascots</a><a href="../../brands/oswald/" class="">Oswald the Lucky Rabbit</a><a href="../../brands/polly-pals/" class="">Polly and Her Pals</a><a href="../../brands/popeye/" class="">Popeye</a><a href="../../brands/skippy/" class="">Skippy</a><a href="../../brands/andy-gump/" class="">The Gumps</a><a href="../../brands/katzenjammer-kids/" class="">The Katzenjammer Kids</a><a href="../../brands/yellow-kid/" class="">The Yellow Kid</a><a href="../../brands/winnie-the-pooh/" class="">Winnie-the-Pooh (Original Book)</a></nav></header>
-<div class="wrap"><div class="breadcrumb"><a href="../../index.html">全部品牌</a> › <a href="index.html">Little Nemo in Slumberland</a> › Little Nemo</div><h1 class="page">Little Nemo <span style="color:var(--muted);font-size:1rem;font-weight:400">小尼莫</span></h1><div class="char-hero"><img src="../../assets/img/little-nemo.jpg" alt="Little Nemo">
+<div class="wrap"><div class="breadcrumb"><a href="../../index.html">全部品牌</a> › <a href="index.html">Little Nemo in Slumberland</a> › Little Nemo</div><h1 class="page">Little Nemo <span style="color:var(--muted);font-size:1rem;font-weight:400">小尼莫</span></h1><div class="char-hero"><a class="zoom" href="../../assets/img/little-nemo.jpg" data-full="../../assets/img/little-nemo.jpg"><img src="../../assets/img/thumbs/little-nemo.jpg" alt="Little Nemo" loading="lazy"></a>
         <div class="captions">
           <p><b>Little Nemo 1905-11-26.jpg</b></p>
           <p>License: <b>Public domain</b>（公版 ✔）</p>
@@ -130,49 +138,49 @@ a { color: var(--forest); }
           <div class="img-credit">來源：<a href="https://upload.wikimedia.org/wikipedia/commons/f/f7/Little_Nemo_1905-11-26.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original">Wikimedia Commons</a>
           </div>
         </div></div></div><div class="wrap"><div class="copyright-box"><h3>⚖️ 版權狀態</h3><ul><li><b>公版</b>：✔️ 屬公版（管轄區：US）</li><li><b>公版版本</b>：1905-1927 年 McCay 原作</li><li><b>受保護部分</b>：後期改編（1989/2022 電影等）</li><li><b>Trademark</b>：無特別商標問題</li><li><b>核實日期</b>：2026-08-09</li></ul></div></div><div class="wrap"><h2>參考圖庫 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(8 張，動畫參考用)</span></h2><div class="gallery"><figure>
-              <img src="../../assets/gallery/little-nemo-1.jpg" alt="File:Little Nemo 1906-02-11 last panel.jpg" loading="lazy">
+              <img src="../../assets/gallery/thumbs/little-nemo-1.jpg" data-full="../../assets/gallery/little-nemo-1.jpg" alt="File:Little Nemo 1906-02-11 last panel.jpg" loading="lazy">
               <figcaption>
                 <span class="g-angle">小尼莫</span> · 夢境
                 <div class="g-meta">🪪 Public domain · 來源 Wikimedia</div>
               </figcaption>
             </figure><figure>
-              <img src="../../assets/gallery/little-nemo-2.jpg" alt="Tavola per il film Gertie the Dinosaur" loading="lazy">
+              <img src="../../assets/gallery/thumbs/little-nemo-2.jpg" data-full="../../assets/gallery/little-nemo-2.jpg" alt="Tavola per il film Gertie the Dinosaur" loading="lazy">
               <figcaption>
                 <span class="g-angle">小尼莫</span> · 夢境
                 <div class="g-meta">🪪 pdm · 來源 Openverse</div>
               </figcaption>
             </figure><figure>
-              <img src="../../assets/gallery/little-nemo-3.jpg" alt="File:Little Nemo 1907-09-29.jpg" loading="lazy">
+              <img src="../../assets/gallery/thumbs/little-nemo-3.jpg" data-full="../../assets/gallery/little-nemo-3.jpg" alt="File:Little Nemo 1907-09-29.jpg" loading="lazy">
               <figcaption>
                 <span class="g-angle">小尼莫</span> · 夢境
                 <div class="g-meta">🪪 Public domain · 來源 Wikimedia</div>
               </figcaption>
             </figure><figure>
-              <img src="../../assets/gallery/little-nemo-4.jpg" alt="File:Little Nemo 1911-07-02.jpg" loading="lazy">
+              <img src="../../assets/gallery/thumbs/little-nemo-4.jpg" data-full="../../assets/gallery/little-nemo-4.jpg" alt="File:Little Nemo 1911-07-02.jpg" loading="lazy">
               <figcaption>
                 <span class="g-angle">小尼莫</span> · 夢境
                 <div class="g-meta">🪪 Public domain · 來源 Wikimedia</div>
               </figcaption>
             </figure><figure>
-              <img src="../../assets/gallery/little-nemo-5.jpg" alt="File:Little Nemo in Slumberland (1905-10-22).jpeg" loading="lazy">
+              <img src="../../assets/gallery/thumbs/little-nemo-5.jpg" data-full="../../assets/gallery/little-nemo-5.jpg" alt="File:Little Nemo in Slumberland (1905-10-22).jpeg" loading="lazy">
               <figcaption>
                 <span class="g-angle">小尼莫</span> · 夢境
                 <div class="g-meta">🪪 Public domain · 來源 Wikimedia</div>
               </figcaption>
             </figure><figure>
-              <img src="../../assets/gallery/little-nemo-6.jpg" alt="Little Nemo in Slumberland" loading="lazy">
+              <img src="../../assets/gallery/thumbs/little-nemo-6.jpg" data-full="../../assets/gallery/little-nemo-6.jpg" alt="Little Nemo in Slumberland" loading="lazy">
               <figcaption>
                 <span class="g-angle">小尼莫</span> · 夢境
                 <div class="g-meta">🪪 pdm · 來源 Openverse</div>
               </figcaption>
             </figure><figure>
-              <img src="../../assets/gallery/little-nemo-7.jpg" alt="Little Nemo comic strip Winsor" loading="lazy">
+              <img src="../../assets/gallery/thumbs/little-nemo-7.jpg" data-full="../../assets/gallery/little-nemo-7.jpg" alt="Little Nemo comic strip Winsor" loading="lazy">
               <figcaption>
                 <span class="g-angle">小尼莫</span> · 夢境
                 <div class="g-meta">🪪 cc0 · 來源 Openverse</div>
               </figcaption>
             </figure><figure>
-              <img src="../../assets/gallery/little-nemo-8.jpg" alt="File:Little Nemo 1908-03-01.jpg" loading="lazy">
+              <img src="../../assets/gallery/thumbs/little-nemo-8.jpg" data-full="../../assets/gallery/little-nemo-8.jpg" alt="File:Little Nemo 1908-03-01.jpg" loading="lazy">
               <figcaption>
                 <span class="g-angle">夢境國度</span> · 全版漫畫
                 <div class="g-meta">🪪 Public domain · 來源 Wikimedia</div>
@@ -226,3 +234,21 @@ Flip 帽上嘅「WAKE UP」字樣</p>
     Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
   </div>
 </div>
+<div class="lightbox" id="lightbox" aria-hidden="true"><span class="lb-close" id="lb-close">&times;</span><img src="" alt="" id="lb-img"><div class="lb-cap" id="lb-cap"></div></div>
+<script>
+(function(){
+  var lb=document.getElementById('lightbox'), img=document.getElementById('lb-img'), cap=document.getElementById('lb-cap');
+  function open(src,alt){ img.src=src; img.alt=alt; cap.textContent=alt; lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); }
+  function close(){ lb.classList.remove('open'); img.src=''; lb.setAttribute('aria-hidden','true'); }
+  document.addEventListener('click', function(e){
+    var t=e.target.closest('a.zoom, .gallery figure img, .char-hero img');
+    if(t && t.tagName!=='IMG'){ t=e.target; }
+    if(t && t.tagName==='IMG' && (t.closest('a.zoom') || t.closest('.gallery') || t.closest('.char-hero'))){
+      e.preventDefault(); var src=t.getAttribute('data-full')||t.currentSrc||t.src;
+      open(src, t.getAttribute('alt')||'');
+    }
+  });
+  lb.addEventListener('click', function(e){ if(e.target===lb||e.target.id==='lb-close') close(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+})();
+</script>

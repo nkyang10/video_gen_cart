@@ -117,6 +117,14 @@ a { color: var(--forest); }
 .gallery figcaption .g-angle { font-weight: 700; color: var(--forest); }
 .gallery figcaption .g-meta { color: var(--muted); font-size: .72rem; margin-top: 3px; }
 .gallery-hint { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+/* ---------- Lightbox ---------- */
+.lightbox { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.88); cursor: zoom-out; }
+.lightbox.open { display: flex; align-items: center; justify-content: center; }
+.lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; background: #000; border-radius: 6px; box-shadow: 0 8px 40px rgba(0,0,0,.6); }
+.lightbox .lb-cap { position: absolute; bottom: 18px; left: 0; right: 0; text-align: center; color: #ddd; font-size: .85rem; padding: 0 20px; }
+.lightbox .lb-close { position: absolute; top: 14px; right: 22px; color: #fff; font-size: 2rem; line-height: 1; cursor: pointer; }
+a.zoom { display: inline-block; cursor: zoom-in; }
+.gallery figure img { cursor: zoom-in; }
 </style></head><body>
 <header class="site"><div class="wrap">
   <h1><a href="../../index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
@@ -129,7 +137,7 @@ a { color: var(--forest); }
 <li><strong>櫻花春景</strong>：富士山+櫻花、津輕鐵道穿櫻花、大阪造幣局</li>
 <li><strong>傳統建築</strong>：京都銀閣寺、日式庭園、日式花園</li>
 </ul>
-<p>全部自由授權（CC0 / CC-BY / CC-BY-SA / 公版），可直接做動畫背景參考基底。</p><h2>旗下公版角色 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(13)</span></h2><div class="character-grid"><a class="character-card" href="bg-akihabara.html">
+<p>全部自由授權（CC0 / CC-BY / CC-BY-SA / 公版），可直接做動畫背景參考基底。</p><h2>旗下公版角色 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(30)</span></h2><div class="character-grid"><a class="character-card" href="bg-akihabara.html">
               <div class="thumb"><img src="../../assets/img/bg-akihabara.jpg" alt=""></div>
               <div><span class="name">Akihabara Street</span><span class="zh">Akihabara Street</span></div>
               <div class="desc">背景素材</div>
@@ -139,14 +147,49 @@ a { color: var(--forest); }
               <div><span class="name">Anime Beach Scene</span><span class="zh">Anime Beach Scene</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="bg-autumn-maple.html">
+              <div class="thumb"><img src="../../assets/img/bg-autumn-maple.jpg" alt=""></div>
+              <div><span class="name">紅葉楓（Rikugien Maple）</span><span class="zh">紅葉楓（Rikugien Maple）</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY</span>
+            </a><a class="character-card" href="bg-dotonbori.html">
+              <div class="thumb"><img src="../../assets/img/bg-dotonbori.jpg" alt=""></div>
+              <div><span class="name">道頓堀（Dotonbori Osaka）</span><span class="zh">道頓堀（Dotonbori Osaka）</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-fuji-sakura.html">
               <div class="thumb"><img src="../../assets/img/bg-fuji-sakura.png" alt=""></div>
               <div><span class="name">Fuji + Sakura</span><span class="zh">Fuji + Sakura</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY</span>
+            </a><a class="character-card" href="bg-fushimi-inari.html">
+              <div class="thumb"><img src="../../assets/img/bg-fushimi-inari.jpg" alt=""></div>
+              <div><span class="name">伏見稻荷（Fushimi Inari）</span><span class="zh">伏見稻荷（Fushimi Inari）</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-ginkakuji.html">
               <div class="thumb"><img src="../../assets/img/bg-ginkakuji.jpg" alt=""></div>
               <div><span class="name">Ginkaku-ji Temple</span><span class="zh">Ginkaku-ji Temple</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="bg-gion-alley.html">
+              <div class="thumb"><img src="../../assets/img/bg-gion-alley.jpg" alt=""></div>
+              <div><span class="name">祇園巷（Gion Alley）</span><span class="zh">祇園巷（Gion Alley）</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="bg-hokkaido-field.html">
+              <div class="thumb"><img src="../../assets/img/bg-hokkaido-field.jpeg" alt=""></div>
+              <div><span class="name">白世界（Blue Sky White World）</span><span class="zh">白世界（Blue Sky White World）</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY</span>
+            </a><a class="character-card" href="bg-hokkaido-road.html">
+              <div class="thumb"><img src="../../assets/img/bg-hokkaido-road.jpg" alt=""></div>
+              <div><span class="name">北海道雪路（Hokkaido Road）</span><span class="zh">北海道雪路（Hokkaido Road）</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="bg-hokkaido-snow.html">
+              <div class="thumb"><img src="../../assets/img/bg-hokkaido-snow.jpg" alt=""></div>
+              <div><span class="name">北海道雪神社（Hokkaido Jingu）</span><span class="zh">北海道雪神社（Hokkaido Jingu）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-huntington-garden.html">
@@ -159,14 +202,39 @@ a { color: var(--forest); }
               <div><span class="name">Japanese Garden with Koi</span><span class="zh">Japanese Garden with Koi</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY</span>
+            </a><a class="character-card" href="bg-kabukicho-neon.html">
+              <div class="thumb"><img src="../../assets/img/bg-kabukicho-neon.jpg" alt=""></div>
+              <div><span class="name">歌舞伎町紅門（Kabukicho Gate）</span><span class="zh">歌舞伎町紅門（Kabukicho Gate）</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="bg-kimono-forest.html">
+              <div class="thumb"><img src="../../assets/img/bg-kimono-forest.jpg" alt=""></div>
+              <div><span class="name">和服森林（Kimono Forest）</span><span class="zh">和服森林（Kimono Forest）</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-kobe-night.html">
               <div class="thumb"><img src="../../assets/img/bg-kobe-night.jpg" alt=""></div>
               <div><span class="name">Kobe Night Cityscape</span><span class="zh">Kobe Night Cityscape</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="bg-komagatake.html">
+              <div class="thumb"><img src="../../assets/img/bg-komagatake.jpg" alt=""></div>
+              <div><span class="name">北海道駒岳（Komagatake Winter）</span><span class="zh">北海道駒岳（Komagatake Winter）</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-mint-sakura.html">
               <div class="thumb"><img src="../../assets/img/bg-mint-sakura.jpg" alt=""></div>
               <div><span class="name">Sakura at Japan Mint</span><span class="zh">Sakura at Japan Mint</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="bg-nebuta-festival.html">
+              <div class="thumb"><img src="../../assets/img/bg-nebuta-festival.jpg" alt=""></div>
+              <div><span class="name">青森ねぶた祭（Nebuta Festival）</span><span class="zh">青森ねぶた祭（Nebuta Festival）</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY</span>
+            </a><a class="character-card" href="bg-osaka-castle.html">
+              <div class="thumb"><img src="../../assets/img/bg-osaka-castle.jpg" alt=""></div>
+              <div><span class="name">大阪城夜景（Osaka Castle）</span><span class="zh">大阪城夜景（Osaka Castle）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-rail-sakura.html">
@@ -179,6 +247,21 @@ a { color: var(--forest); }
               <div><span class="name">Furuyu Saga Cityscape</span><span class="zh">Furuyu Saga Cityscape</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="bg-shibuya-crossing.html">
+              <div class="thumb"><img src="../../assets/img/bg-shibuya-crossing.jpg" alt=""></div>
+              <div><span class="name">澀谷十字路口（Shibuya Crossing）</span><span class="zh">澀谷十字路口（Shibuya Crossing）</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC0</span>
+            </a><a class="character-card" href="bg-shinjuku-bluehour.html">
+              <div class="thumb"><img src="../../assets/img/bg-shinjuku-bluehour.jpg" alt=""></div>
+              <div><span class="name">新宿藍色時段（Shinjuku Blue Hour）</span><span class="zh">新宿藍色時段（Shinjuku Blue Hour）</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="bg-shinjuku-neon.html">
+              <div class="thumb"><img src="../../assets/img/bg-shinjuku-neon.jpg" alt=""></div>
+              <div><span class="name">新宿霓虹（Shinjuku Neon）</span><span class="zh">新宿霓虹（Shinjuku Neon）</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-shinto-shrine.html">
               <div class="thumb"><img src="../../assets/img/bg-shinto-shrine.png" alt=""></div>
               <div><span class="name">Shinto Shrine Landscape</span><span class="zh">Shinto Shrine Landscape</span></div>
@@ -189,9 +272,19 @@ a { color: var(--forest); }
               <div><span class="name">Tokyo Skytree Worm-Eye</span><span class="zh">Tokyo Skytree Worm-Eye</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="bg-togetsukyo-dusk.html">
+              <div class="thumb"><img src="../../assets/img/bg-togetsukyo-dusk.jpg" alt=""></div>
+              <div><span class="name">渡月橋黃昏（Togetsu-kyo）</span><span class="zh">渡月橋黃昏（Togetsu-kyo）</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-torii-waterfall.html">
               <div class="thumb"><img src="../../assets/img/bg-torii-waterfall.jpg" alt=""></div>
               <div><span class="name">On the Edge</span><span class="zh">On the Edge</span></div>
+              <div class="desc">背景素材</div>
+              <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="bg-yasaka-dori.html">
+              <div class="thumb"><img src="../../assets/img/bg-yasaka-dori.jpg" alt=""></div>
+              <div><span class="name">八坂通（Yasaka-dori Kyoto）</span><span class="zh">八坂通（Yasaka-dori Kyoto）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a></div></div><div class="wrap">
@@ -199,3 +292,21 @@ a { color: var(--forest); }
     Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
   </div>
 </div>
+<div class="lightbox" id="lightbox" aria-hidden="true"><span class="lb-close" id="lb-close">&times;</span><img src="" alt="" id="lb-img"><div class="lb-cap" id="lb-cap"></div></div>
+<script>
+(function(){
+  var lb=document.getElementById('lightbox'), img=document.getElementById('lb-img'), cap=document.getElementById('lb-cap');
+  function open(src,alt){ img.src=src; img.alt=alt; cap.textContent=alt; lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); }
+  function close(){ lb.classList.remove('open'); img.src=''; lb.setAttribute('aria-hidden','true'); }
+  document.addEventListener('click', function(e){
+    var t=e.target.closest('a.zoom, .gallery figure img, .char-hero img');
+    if(t && t.tagName!=='IMG'){ t=e.target; }
+    if(t && t.tagName==='IMG' && (t.closest('a.zoom') || t.closest('.gallery') || t.closest('.char-hero'))){
+      e.preventDefault(); var src=t.getAttribute('data-full')||t.currentSrc||t.src;
+      open(src, t.getAttribute('alt')||'');
+    }
+  });
+  lb.addEventListener('click', function(e){ if(e.target===lb||e.target.id==='lb-close') close(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+})();
+</script>

@@ -3,7 +3,7 @@
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
     "brand_count": 27,
-    "character_count": 146,
+    "character_count": 191,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -887,6 +887,50 @@
           "ai_usage": "**暮光狐**：沉靜療癒角色 **注意**：CC-BY-SA 4.0，需署名+相同授權"
         },
         {
+          "slug": "kenney-flyman-stand",
+          "name": "Flyman Stand",
+          "name_zh": "Flyman Stand",
+          "role": "CC0 遊戲/動漫資產",
+          "first_appearance": "開放資產庫",
+          "creator": "Kenney",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/kenney-flyman-stand.png",
+          "reference_gallery": [],
+          "appearance": "Kenney sprite風格，Kenney 飛行人站立 sprite。 `Kenney sprite asset, Kenney 飛行人站立 sprite`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
+        },
+        {
+          "slug": "kenney-spikeman-stand",
+          "name": "Spikeman Stand",
+          "name_zh": "Spikeman Stand",
+          "role": "CC0 遊戲/動漫資產",
+          "first_appearance": "開放資產庫",
+          "creator": "Kenney",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/kenney-spikeman-stand.png",
+          "reference_gallery": [],
+          "appearance": "Kenney sprite風格，Kenney 尖刺人站立 sprite。 `Kenney sprite asset, Kenney 尖刺人站立 sprite`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
+        },
+        {
           "slug": "lexi",
           "name": "Lexi",
           "name_zh": "萊克希（四臂女孩）",
@@ -922,6 +966,204 @@
           "scene": "現代/奇幻場景 四臂肢體喜劇",
           "personality": "**四隻手臂**嘅擬人女孩 做「啊—糟糕了」嘅呆滯表情 笨拙、搞笑、冒失鬼嘅喜劇主角——肢體喜劇潛力大",
           "ai_usage": "**四臂喜劇**：笨拙冒失鬼主角 **注意**：CC-BY-SA 4.0，需署名+相同授權"
+        },
+        {
+          "slug": "oga-anime-characters",
+          "name": "Anime Characters",
+          "name_zh": "Anime Characters",
+          "role": "CC0 遊戲/動漫資產",
+          "first_appearance": "開放資產庫",
+          "creator": "Technopeasant",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-anime-characters.png",
+          "reference_gallery": [],
+          "appearance": "動漫 sprite風格，OpenGameArt 動漫角色 sprite。 `動漫 sprite asset, OpenGameArt 動漫角色 sprite`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
+        },
+        {
+          "slug": "oga-anime-face",
+          "name": "Generic Anime Face",
+          "name_zh": "Generic Anime Face",
+          "role": "CC0 遊戲/動漫資產",
+          "first_appearance": "開放資產庫",
+          "creator": "Barely_Banquo",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-anime-face.png",
+          "reference_gallery": [],
+          "appearance": "動漫臉部風格，OpenGameArt 通用動漫臉。 `動漫臉部 asset, OpenGameArt 通用動漫臉`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
+        },
+        {
+          "slug": "oga-anime-female-body",
+          "name": "Anime Female Body",
+          "name_zh": "Anime Female Body",
+          "role": "CC0 遊戲/動漫資產",
+          "first_appearance": "開放資產庫",
+          "creator": "OpenGameArt",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-anime-female-body.png",
+          "reference_gallery": [],
+          "appearance": "動漫身體風格，OpenGameArt 動漫女性身體。 `動漫身體 asset, OpenGameArt 動漫女性身體`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
+        },
+        {
+          "slug": "oga-anime-girl-portrait",
+          "name": "Anime Girl Portrait",
+          "name_zh": "Anime Girl Portrait",
+          "role": "CC0 遊戲/動漫資產",
+          "first_appearance": "開放資產庫",
+          "creator": "OpenGameArt",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-anime-girl-portrait.png",
+          "reference_gallery": [],
+          "appearance": "動漫肖像風格，OpenGameArt 動漫女仔肖像。 `動漫肖像 asset, OpenGameArt 動漫女仔肖像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
+        },
+        {
+          "slug": "oga-anime-girl-walk",
+          "name": "Anime Girl Walk",
+          "name_zh": "Anime Girl Walk",
+          "role": "CC0 遊戲/動漫資產",
+          "first_appearance": "開放資產庫",
+          "creator": "Hordana",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-anime-girl-walk.png",
+          "reference_gallery": [],
+          "appearance": "動漫 sprite 序列風格，OpenGameArt 動漫女仔走路 sprite 序列。 `動漫 sprite 序列 asset, OpenGameArt 動漫女仔走路 sprite 序列`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
+        },
+        {
+          "slug": "oga-mecha-model-full",
+          "name": "Mecha Model Full",
+          "name_zh": "Mecha Model Full",
+          "role": "CC0 遊戲/動漫資產",
+          "first_appearance": "開放資產庫",
+          "creator": "OpenGameArt",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-mecha-model-full.png",
+          "reference_gallery": [],
+          "appearance": "機甲 sprite風格，OpenGameArt 機甲模型全身。 `機甲 sprite asset, OpenGameArt 機甲模型全身`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
+        },
+        {
+          "slug": "oga-robot-character",
+          "name": "Robot Character",
+          "name_zh": "Robot Character",
+          "role": "CC0 遊戲/動漫資產",
+          "first_appearance": "開放資產庫",
+          "creator": "OpenGameArt",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-robot-character.png",
+          "reference_gallery": [],
+          "appearance": "機械人風格，OpenGameArt 機械人角色。 `機械人 asset, OpenGameArt 機械人角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
+        },
+        {
+          "slug": "oga-white-probe-bot",
+          "name": "White Probe Bot",
+          "name_zh": "White Probe Bot",
+          "role": "CC0 遊戲/動漫資產",
+          "first_appearance": "開放資產庫",
+          "creator": "OpenGameArt",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-white-probe-bot.png",
+          "reference_gallery": [],
+          "appearance": "機械人風格，OpenGameArt 白色探測機械人。 `機械人 asset, OpenGameArt 白色探測機械人`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
+        },
+        {
+          "slug": "oga-youjibot",
+          "name": "Youji Bot",
+          "name_zh": "Youji Bot",
+          "role": "CC0 遊戲/動漫資產",
+          "first_appearance": "開放資產庫",
+          "creator": "OpenGameArt",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-youjibot.png",
+          "reference_gallery": [],
+          "appearance": "機械人風格，OpenGameArt 有姬機械人。 `機械人 asset, OpenGameArt 有姬機械人`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
         },
         {
           "slug": "routhwick-tanuki",
@@ -1746,6 +1988,50 @@
           "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 3.0 授權"
         },
         {
+          "slug": "bg-autumn-maple",
+          "name": "紅葉楓（Rikugien Maple）",
+          "name_zh": "紅葉楓（Rikugien Maple）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Guilhem Vellut",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-autumn-maple.jpg",
+          "reference_gallery": [],
+          "appearance": "秋天紅葉風格。 `秋天紅葉 Japanese scene background, 六義園紅葉楓冠`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "bg-dotonbori",
+          "name": "道頓堀（Dotonbori Osaka）",
+          "name_zh": "道頓堀（Dotonbori Osaka）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Martin Falbisoner",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-dotonbori.jpg",
+          "reference_gallery": [],
+          "appearance": "絢麗招牌夜景風格。 `絢麗招牌夜景 Japanese scene background, 大阪道頓堀運河霓虹招牌牆`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
           "slug": "bg-fuji-sakura",
           "name": "Fuji + Sakura",
           "name_zh": "Fuji + Sakura",
@@ -1768,6 +2054,28 @@
           "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY 3.0 授權"
         },
         {
+          "slug": "bg-fushimi-inari",
+          "name": "伏見稻荷（Fushimi Inari）",
+          "name_zh": "伏見稻荷（Fushimi Inari）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Paul Vlaar",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-fushimi-inari.jpg",
+          "reference_gallery": [],
+          "appearance": "朱紅鳥居隧道風格。 `朱紅鳥居隧道 Japanese scene background, 千本鳥居隧道`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
           "slug": "bg-ginkakuji",
           "name": "Ginkaku-ji Temple",
           "name_zh": "Ginkaku-ji Temple",
@@ -1788,6 +2096,94 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "bg-gion-alley",
+          "name": "祇園巷（Gion Alley）",
+          "name_zh": "祇園巷（Gion Alley）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Basile Morin",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-gion-alley.jpg",
+          "reference_gallery": [],
+          "appearance": "氣氛動漫小巷風格。 `氣氛動漫小巷 Japanese scene background, 祇園石板街木造建築+竹簾`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "bg-hokkaido-field",
+          "name": "白世界（Blue Sky White World）",
+          "name_zh": "白世界（Blue Sky White World）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Yascolo",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-hokkaido-field.jpeg",
+          "reference_gallery": [],
+          "appearance": "純白冬季田野風格。 `純白冬季田野 Japanese scene background, 美瑛霜樹+白色山丘`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY 3.0 授權"
+        },
+        {
+          "slug": "bg-hokkaido-road",
+          "name": "北海道雪路（Hokkaido Road）",
+          "name_zh": "北海道雪路（Hokkaido Road）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Achappe",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-hokkaido-road.jpg",
+          "reference_gallery": [],
+          "appearance": "雪困公路風格。 `雪困公路 Japanese scene background, 北海道豐頃溫泉雪中公路`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "bg-hokkaido-snow",
+          "name": "北海道雪神社（Hokkaido Jingu）",
+          "name_zh": "北海道雪神社（Hokkaido Jingu）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "bryan",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-hokkaido-snow.jpg",
+          "reference_gallery": [],
+          "appearance": "大雪神社場景風格。 `大雪神社場景 Japanese scene background, 北海道大雪石神社溪流`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 2.0 授權"
         },
         {
           "slug": "bg-huntington-garden",
@@ -1834,6 +2230,50 @@
           "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY 4.0 授權"
         },
         {
+          "slug": "bg-kabukicho-neon",
+          "name": "歌舞伎町紅門（Kabukicho Gate）",
+          "name_zh": "歌舞伎町紅門（Kabukicho Gate）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Basile Morin",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-kabukicho-neon.jpg",
+          "reference_gallery": [],
+          "appearance": "紅色大門霓虹風格。 `紅色大門霓虹 Japanese scene background, 紅色大門+霓虹娛樂街`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "bg-kimono-forest",
+          "name": "和服森林（Kimono Forest）",
+          "name_zh": "和服森林（Kimono Forest）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Basile Morin",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-kimono-forest.jpg",
+          "reference_gallery": [],
+          "appearance": "夢幻發光柱森林風格。 `夢幻發光柱森林 Japanese scene background, 嵐山車站夜間 600 和服柱`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
           "slug": "bg-kobe-night",
           "name": "Kobe Night Cityscape",
           "name_zh": "Kobe Night Cityscape",
@@ -1856,6 +2296,28 @@
           "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 3.0 授權"
         },
         {
+          "slug": "bg-komagatake",
+          "name": "北海道駒岳（Komagatake Winter）",
+          "name_zh": "北海道駒岳（Komagatake Winter）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "掬茶",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-komagatake.jpg",
+          "reference_gallery": [],
+          "appearance": "雪火山湖風格。 `雪火山湖 Japanese scene background, 雪中火山駒岳`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
           "slug": "bg-mint-sakura",
           "name": "Sakura at Japan Mint",
           "name_zh": "Sakura at Japan Mint",
@@ -1872,6 +2334,50 @@
           "image": "assets/img/bg-mint-sakura.jpg",
           "reference_gallery": [],
           "appearance": "攝影季節。 `sakura cherry blossoms in full bloom, Japanese spring scene`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "bg-nebuta-festival",
+          "name": "青森ねぶた祭（Nebuta Festival）",
+          "name_zh": "青森ねぶた祭（Nebuta Festival）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Marie-Sophie Mejan",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-nebuta-festival.jpg",
+          "reference_gallery": [],
+          "appearance": "絢麗彩燈山車風格。 `絢麗彩燈山車 Japanese scene background, 青森ねぶた祭山車`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY 4.0 授權"
+        },
+        {
+          "slug": "bg-osaka-castle",
+          "name": "大阪城夜景（Osaka Castle）",
+          "name_zh": "大阪城夜景（Osaka Castle）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Martin Falbisoner",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-osaka-castle.jpg",
+          "reference_gallery": [],
+          "appearance": "哥德式夜景剪影風格。 `哥德式夜景剪影 Japanese scene background, 大阪城天守剪影夜景`",
           "dialogue": "",
           "scene": "",
           "personality": "",
@@ -1922,6 +2428,72 @@
           "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
         },
         {
+          "slug": "bg-shibuya-crossing",
+          "name": "澀谷十字路口（Shibuya Crossing）",
+          "name_zh": "澀谷十字路口（Shibuya Crossing）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Syced",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-shibuya-crossing.jpg",
+          "reference_gallery": [],
+          "appearance": "夜景十字路口風格。 `夜景十字路口 Japanese scene background, 澀谷十字路口夜景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC0 授權"
+        },
+        {
+          "slug": "bg-shinjuku-bluehour",
+          "name": "新宿藍色時段（Shinjuku Blue Hour）",
+          "name_zh": "新宿藍色時段（Shinjuku Blue Hour）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Basile Morin",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-shinjuku-bluehour.jpg",
+          "reference_gallery": [],
+          "appearance": "賽博朋克藍色時段風格。 `賽博朋克藍色時段 Japanese scene background, 藍色時段柏青哥店+粉紅綠霓虹`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "bg-shinjuku-neon",
+          "name": "新宿霓虹（Shinjuku Neon）",
+          "name_zh": "新宿霓虹（Shinjuku Neon）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Michael Reeve",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-shinjuku-neon.jpg",
+          "reference_gallery": [],
+          "appearance": "攝影城市夜景風格。 `攝影城市夜景 Japanese scene background, 靖國通霓虹招牌新宿街道`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
           "slug": "bg-shinto-shrine",
           "name": "Shinto Shrine Landscape",
           "name_zh": "Shinto Shrine Landscape",
@@ -1966,6 +2538,28 @@
           "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
         },
         {
+          "slug": "bg-togetsukyo-dusk",
+          "name": "渡月橋黃昏（Togetsu-kyo）",
+          "name_zh": "渡月橋黃昏（Togetsu-kyo）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Basile Morin",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-togetsukyo-dusk.jpg",
+          "reference_gallery": [],
+          "appearance": "黃昏風景橋風格。 `黃昏風景橋 Japanese scene background, 桂川渡月橋黃昏`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
           "slug": "bg-torii-waterfall",
           "name": "On the Edge",
           "name_zh": "On the Edge",
@@ -1986,6 +2580,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "bg-yasaka-dori",
+          "name": "八坂通（Yasaka-dori Kyoto）",
+          "name_zh": "八坂通（Yasaka-dori Kyoto）",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Basile Morin",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-yasaka-dori.jpg",
+          "reference_gallery": [],
+          "appearance": "燈籠町屋街道風格。 `燈籠町屋街道 Japanese scene background, 京都老街清晨燈籠+寶塔`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
         }
       ]
     },
@@ -3582,6 +4198,160 @@
       },
       "characters": [
         {
+          "slug": "arch-himeji-castle",
+          "name": "姫路城（Himeji Castle）",
+          "name_zh": "姫路城（Himeji Castle）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Reggaeman",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-himeji-castle.jpg",
+          "reference_gallery": [],
+          "appearance": "攝影風格，白鷺城姫路城天守。 `攝影 Japanese yokai, 白鷺城姫路城天守`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "arch-itsukushima-hiroshige",
+          "name": "嚴島鳥居（Itsukushima Hiroshige）",
+          "name_zh": "嚴島鳥居（Itsukushima Hiroshige）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-itsukushima-hiroshige.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪風景風格，嚴島鳥居神社風景。 `浮世繪風景 Japanese yokai, 嚴島鳥居神社風景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "arch-itsukushima-toyoharu",
+          "name": "嚴島弁天社（Itsukushima Benten）",
+          "name_zh": "嚴島弁天社（Itsukushima Benten）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "歌川豊春",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-itsukushima-toyoharu.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪風格，嚴島神社+鳥居。 `浮世繪 Japanese yokai, 嚴島神社+鳥居`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "arch-itsukushima-ukie",
+          "name": "嚴島浮繪（Ukie Itsukushima）",
+          "name_zh": "嚴島浮繪（Ukie Itsukushima）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "歌川豊春",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-itsukushima-ukie.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪透視風格，嚴島神社透視浮繪。 `浮世繪透視 Japanese yokai, 嚴島神社透視浮繪`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "arch-miyajima-snow",
+          "name": "嚴島雪景（Miyajima Snow）",
+          "name_zh": "嚴島雪景（Miyajima Snow）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "川瀬巴水",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-miyajima-snow.jpg",
+          "reference_gallery": [],
+          "appearance": "新版畫風格，雪中嚴島神社/鳥居。 `新版畫 Japanese yokai, 雪中嚴島神社/鳥居`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-amabie",
+          "name": "阿麻比（Amabie）",
+          "name_zh": "阿麻比（Amabie）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "民間畫師",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-amabie.jpg",
+          "reference_gallery": [],
+          "appearance": "木刻畫風格，人魚樣四腳吉祥妖怪。 `木刻畫 Japanese yokai, 人魚樣四腳吉祥妖怪`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-ayakashi",
+          "name": "妖（Ayakashi）",
+          "name_zh": "妖（Ayakashi）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "鳥山石燕",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-ayakashi.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪水墨風格，蛇鯨海上妖怪。 `浮世繪水墨 Japanese yokai, 蛇鯨海上妖怪`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "yokai-bakeneko",
           "name": "化貓（Bakeneko）",
           "name_zh": "化貓（Bakeneko）",
@@ -3670,6 +4440,50 @@
           "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "yokai-foxfires-chikanobu",
+          "name": "狐火（Foxfires Chikanobu）",
+          "name_zh": "狐火（Foxfires Chikanobu）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "豊原周延",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-foxfires-chikanobu.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪（明治）風格，八百姬揸狐火三聯畫。 `浮世繪（明治） Japanese yokai, 八百姬揸狐火三聯畫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-foxfires-yoshitoshi",
+          "name": "狐火（Foxfires Yoshitoshi）",
+          "name_zh": "狐火（Foxfires Yoshitoshi）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-foxfires-yoshitoshi.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪（幽靈系列）風格，三十六鬼狐火。 `浮世繪（幽靈系列） Japanese yokai, 三十六鬼狐火`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "yokai-hokusai-tengu",
           "name": "北齋天狗（Hokusai Tengu）",
           "name_zh": "北齋天狗（Hokusai Tengu）",
@@ -3686,6 +4500,50 @@
           "image": "assets/img/yokai-hokusai-tengu.jpg",
           "reference_gallery": [],
           "appearance": "浮世繪木刻版畫風格，長鼻天狗。 `日本妖怪 長鼻天狗，浮世繪木刻版畫風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-hyotankozo",
+          "name": "瓢箪小僧（Hyōtankozō）",
+          "name_zh": "瓢箪小僧（Hyōtankozō）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "鳥山石燕",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-hyotankozo.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪水墨風格，揹葫蘆嘅僧人小孩妖怪。 `浮世繪水墨 Japanese yokai, 揹葫蘆嘅僧人小孩妖怪`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-kamaitachi",
+          "name": "鎌鼬（Kamaitachi）",
+          "name_zh": "鎌鼬（Kamaitachi）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "鳥山石燕",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-kamaitachi.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪水墨風格，鎌鼬（鐮刀風妖怪）。 `浮世繪水墨 Japanese yokai, 鎌鼬（鐮刀風妖怪）`",
           "dialogue": "",
           "scene": "",
           "personality": "",
@@ -3758,6 +4616,28 @@
           "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "yokai-kirin",
+          "name": "麒麟（Kirin）",
+          "name_zh": "麒麟（Kirin）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "狩野探幽",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-kirin.png",
+          "reference_gallery": [],
+          "appearance": "狩野派水墨風格，聖獸麒麟水墨畫。 `狩野派水墨 Japanese yokai, 聖獸麒麟水墨畫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
           "slug": "yokai-kitsune-hanazono",
           "name": "狐仙花園稻荷（Kitsune of Hanazono Inari）",
           "name_zh": "狐仙花園稻荷（Kitsune of Hanazono Inari）",
@@ -3774,6 +4654,50 @@
           "image": "assets/img/yokai-kitsune-hanazono.jpg",
           "reference_gallery": [],
           "appearance": "日本木刻版畫（浮世繪）、民間傳說風格，擬人化狐仙、狐狸精。 `日本妖怪 擬人化狐仙、狐狸精，日本木刻版畫（浮世繪）、民間傳說風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-kitsune-yomeiri",
+          "name": "狐嫁（Fox Wedding）",
+          "name_zh": "狐嫁（Fox Wedding）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "葛飾北齋",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-kitsune-yomeiri.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪風格，狐狸嫁女行列+火光。 `浮世繪 Japanese yokai, 狐狸嫁女行列+火光`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-mokumokuren",
+          "name": "目目連（Mokumokuren）",
+          "name_zh": "目目連（Mokumokuren）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "鳥山石燕",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-mokumokuren.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪水墨風格，牆上好多眼嘅妖怪。 `浮世繪水墨 Japanese yokai, 牆上好多眼嘅妖怪`",
           "dialogue": "",
           "scene": "",
           "personality": "",
@@ -3800,6 +4724,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "yokai-nozuchi",
+          "name": "野槌（Nozuchi）",
+          "name_zh": "野槌（Nozuchi）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "鳥山石燕",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-nozuchi.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪水墨風格，毛茸茸蛇形妖怪吞食野兔。 `浮世繪水墨 Japanese yokai, 毛茸茸蛇形妖怪吞食野兔`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
         },
         {
           "slug": "yokai-oni-mask",
@@ -3884,6 +4830,28 @@
           "image": "assets/img/yokai-shibaten.jpg",
           "reference_gallery": [],
           "appearance": "舊木刻書插圖風格，天狗妖怪場景。 `日本妖怪 天狗妖怪場景，舊木刻書插圖風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-shiranui",
+          "name": "不知火（Shiranui）",
+          "name_zh": "不知火（Shiranui）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "鳥山石燕",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-shiranui.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪水墨風格，海面鬼火現象。 `浮世繪水墨 Japanese yokai, 海面鬼火現象`",
           "dialogue": "",
           "scene": "",
           "personality": "",
@@ -3976,6 +4944,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "yokai-tsurube-bi",
+          "name": "釣瓶火（Tsurube-bi）",
+          "name_zh": "釣瓶火（Tsurube-bi）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "鳥山石燕",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-tsurube-bi.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪水墨風格，從吊桶掉落嘅火球妖怪。 `浮世繪水墨 Japanese yokai, 從吊桶掉落嘅火球妖怪`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
         },
         {
           "slug": "yokai-white-fox-moon",

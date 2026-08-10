@@ -131,6 +131,14 @@ a { color: var(--forest); }
 .gallery figcaption .g-angle { font-weight: 700; color: var(--forest); }
 .gallery figcaption .g-meta { color: var(--muted); font-size: .72rem; margin-top: 3px; }
 .gallery-hint { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+/* ---------- Lightbox ---------- */
+.lightbox { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.88); cursor: zoom-out; }
+.lightbox.open { display: flex; align-items: center; justify-content: center; }
+.lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; background: #000; border-radius: 6px; box-shadow: 0 8px 40px rgba(0,0,0,.6); }
+.lightbox .lb-cap { position: absolute; bottom: 18px; left: 0; right: 0; text-align: center; color: #ddd; font-size: .85rem; padding: 0 20px; }
+.lightbox .lb-close { position: absolute; top: 14px; right: 22px; color: #fff; font-size: 2rem; line-height: 1; cursor: pointer; }
+a.zoom { display: inline-block; cursor: zoom-in; }
+.gallery figure img { cursor: zoom-in; }
 """
 
 PAGE_FOOT = f"""\
@@ -139,6 +147,24 @@ PAGE_FOOT = f"""\
     Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
   </div>
 </div>
+<div class="lightbox" id="lightbox" aria-hidden="true"><span class="lb-close" id="lb-close">&times;</span><img src="" alt="" id="lb-img"><div class="lb-cap" id="lb-cap"></div></div>
+<script>
+(function(){{
+  var lb=document.getElementById('lightbox'), img=document.getElementById('lb-img'), cap=document.getElementById('lb-cap');
+  function open(src,alt){{ img.src=src; img.alt=alt; cap.textContent=alt; lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); }}
+  function close(){{ lb.classList.remove('open'); img.src=''; lb.setAttribute('aria-hidden','true'); }}
+  document.addEventListener('click', function(e){{
+    var t=e.target.closest('a.zoom, .gallery figure img, .char-hero img');
+    if(t && t.tagName!=='IMG'){{ t=e.target; }}
+    if(t && t.tagName==='IMG' && (t.closest('a.zoom') || t.closest('.gallery') || t.closest('.char-hero'))){{
+      e.preventDefault(); var src=t.getAttribute('data-full')||t.currentSrc||t.src;
+      open(src, t.getAttribute('alt')||'');
+    }}
+  }});
+  lb.addEventListener('click', function(e){{ if(e.target===lb||e.target.id==='lb-close') close(); }});
+  document.addEventListener('keydown', function(e){{ if(e.key==='Escape') close(); }});
+}})();
+</script>
 """
 
 MD = markdown.Markdown(extensions=["tables", "fenced_code", "nl2br"])
@@ -297,7 +323,9 @@ def page_character(brand, c):
     # 角色頁面圖像：先睇角色 slug，冇就 fallback 到品牌 slug
     img = IMAGES.get(slug) or IMAGES.get(brand["slug"])
     if img:
-        body.append(f'''<div class="char-hero"><img src="../../assets/img/{html.escape(img["file"])}" alt="{html.escape(c["name"])}">
+        full = img["file"]
+        src = _thumb_for(full)
+        body.append(f'''<div class="char-hero"><a class="zoom" href="../../assets/img/{html.escape(full)}" data-full="../../assets/img/{html.escape(full)}"><img src="../../assets/img/{html.escape(src)}" alt="{html.escape(c["name"])}" loading="lazy"></a>
         <div class="captions">
           <p><b>{html.escape(img["title"].replace("File:",""))}</b></p>
           <p>License: <b>{html.escape(img["license"])}</b>{"（公版 ✔）" if img.get("pd") else "（⚠ 需核實）"}</p>
@@ -328,7 +356,7 @@ def page_character(brand, c):
             lic = html.escape(g.get("license",""))
             src = "Wikimedia" if g.get("source")=="commons" else "Openverse"
             body.append(f'''<figure>
-              <img src="../../assets/gallery/{html.escape(g.get("file",""))}" alt="{html.escape(g.get("title",""))}" loading="lazy">
+              <img src="../../assets/gallery/{html.escape(_gallery_thumb(g.get("file","")))}" data-full="../../assets/gallery/{html.escape(g.get("file",""))}" alt="{html.escape(g.get("title",""))}" loading="lazy">
               <figcaption>
                 <span class="g-angle">{html.escape(g.get("angle","") or g.get("scene",""))}</span> · {html.escape(g.get("scene",""))}
                 <div class="g-meta">🪪 {lic} · 來源 {src}</div>
@@ -341,6 +369,60 @@ def page_character(brand, c):
     return "".join(body)
 
 # ---------- Build ----------
+
+def _ensure_thumbs():
+    """為所有主圖 + gallery 圖生成 thumbnail（webp，寬 ~480px），加速首屏載入。"""
+    from PIL import Image
+    import os
+    # 主圖
+    for slug, e in IMAGES.items():
+        f = e.get("file", "")
+        if not f: continue
+        full = OUT / "assets" / "img" / f
+        if not full.exists(): continue
+        thumb_dir = OUT / "assets" / "img" / "thumbs"
+        thumb_dir.mkdir(parents=True, exist_ok=True)
+        tf = thumb_dir / (os.path.splitext(f)[0] + ".jpg")
+        if tf.exists(): continue
+        try:
+            im = Image.open(full)
+            im.thumbnail((480, 480))
+            im.convert("RGB").save(tf, "JPEG", quality=80)
+        except Exception:
+            pass
+    # gallery 圖
+    gdir = OUT / "assets" / "gallery"
+    gthumb = OUT / "assets" / "gallery" / "thumbs"
+    if gdir.exists():
+        gthumb.mkdir(parents=True, exist_ok=True)
+        for f in os.listdir(gdir):
+            if f == "thumbs": continue
+            full = gdir / f
+            tf = gthumb / (os.path.splitext(f)[0] + ".jpg")
+            if tf.exists(): continue
+            try:
+                im = Image.open(full)
+                im.thumbnail((480, 480))
+                im.convert("RGB").save(tf, "JPEG", quality=80)
+            except Exception:
+                pass
+
+def _thumb_for(f):
+    """若存在 thumbnail 就返回 thumbs 路徑，否則原圖。"""
+    import os
+    base = os.path.splitext(f)[0]
+    tf = OUT / "assets" / "img" / "thumbs" / (base + ".jpg")
+    if tf.exists():
+        return f"thumbs/{base}.jpg"
+    return f
+
+def _gallery_thumb(f):
+    import os
+    base = os.path.splitext(f)[0]
+    tf = OUT / "assets" / "gallery" / "thumbs" / (base + ".jpg")
+    if tf.exists():
+        return f"thumbs/{base}.jpg"
+    return f
 
 def _license_field(cm):
     """統一 license 顯示（PD vs CC）。"""
@@ -479,6 +561,7 @@ def load():
 def build():
     load()
     OUT.mkdir(parents=True, exist_ok=True)
+    _ensure_thumbs()  # 先生成 thumbnail，HTML 先會引用 thumbs/
     # index
     idx = [header("全部品牌")]
     idx.append('<div class="wrap"><div class="hero"><h2>自由創作卡通素材庫</h2>')

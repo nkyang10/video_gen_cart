@@ -1428,5 +1428,465 @@
     "width": 1023,
     "height": 678,
     "pd": true
+  },
+  "yokai-nozuchi": {
+    "file": "yokai-nozuchi.jpg",
+    "title": "野槌（Nozuchi）",
+    "license": "Public domain",
+    "artist": "鳥山石燕",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/SekienNodzuchi.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 390,
+    "height": 507,
+    "pd": true
+  },
+  "yokai-tsurube-bi": {
+    "file": "yokai-tsurube-bi.jpg",
+    "title": "釣瓶火（Tsurube-bi）",
+    "license": "Public domain",
+    "artist": "鳥山石燕",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/SekienTsurubebi.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 520,
+    "height": 676,
+    "pd": true
+  },
+  "yokai-hyotankozo": {
+    "file": "yokai-hyotankozo.jpg",
+    "title": "瓢箪小僧（Hyōtankozō）",
+    "license": "Public domain",
+    "artist": "鳥山石燕",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Sekien_Hyotankozo.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 400,
+    "height": 292,
+    "pd": true
+  },
+  "yokai-shiranui": {
+    "file": "yokai-shiranui.jpg",
+    "title": "不知火（Shiranui）",
+    "license": "Public domain",
+    "artist": "鳥山石燕",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/SekienShiranui.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 368,
+    "height": 503,
+    "pd": true
+  },
+  "yokai-ayakashi": {
+    "file": "yokai-ayakashi.jpg",
+    "title": "妖（Ayakashi）",
+    "license": "Public domain",
+    "artist": "鳥山石燕",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/SekienAyakashi.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 554,
+    "height": 800,
+    "pd": true
+  },
+  "yokai-mokumokuren": {
+    "file": "yokai-mokumokuren.jpg",
+    "title": "目目連（Mokumokuren）",
+    "license": "Public domain",
+    "artist": "鳥山石燕",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/SekienMokumokuren.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 391,
+    "height": 562,
+    "pd": true
+  },
+  "yokai-kitsune-yomeiri": {
+    "file": "yokai-kitsune-yomeiri.jpg",
+    "title": "狐嫁（Fox Wedding）",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Hokusai_Kitsune-no-yomeiri.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 240,
+    "height": 655,
+    "pd": true
+  },
+  "yokai-foxfires-chikanobu": {
+    "file": "yokai-foxfires-chikanobu.jpg",
+    "title": "狐火（Foxfires）",
+    "license": "Public domain",
+    "artist": "豊原周延",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Chikanobu_Foxfires.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 3865,
+    "height": 1989,
+    "pd": true
+  },
+  "yokai-foxfires-yoshitoshi": {
+    "file": "yokai-foxfires-yoshitoshi.jpg",
+    "title": "狐火（The Foxfires）",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Yoshitoshi_The_Foxfires.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 468,
+    "height": 706,
+    "pd": true
+  },
+  "yokai-amabie": {
+    "file": "yokai-amabie.jpg",
+    "title": "阿麻比（Amabie）",
+    "license": "Public domain",
+    "artist": "民間畫師",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Higo_Amabie.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 1757,
+    "height": 1390,
+    "pd": true
+  },
+  "yokai-kirin": {
+    "file": "yokai-kirin.png",
+    "title": "麒麟（Kirin）",
+    "license": "CC-BY-SA 3.0",
+    "artist": "狩野探幽",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Kirin_by_Kano_Tannyu.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 1502,
+    "height": 881,
+    "pd": true
+  },
+  "yokai-kamaitachi": {
+    "file": "yokai-kamaitachi.jpg",
+    "title": "鎌鼬（Kamaitachi）",
+    "license": "Public domain",
+    "artist": "鳥山石燕",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/SekienKamaitachi.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 320,
+    "height": 405,
+    "pd": true
+  },
+  "arch-itsukushima-hiroshige": {
+    "file": "arch-itsukushima-hiroshige.jpg",
+    "title": "嚴島鳥居（Itsukushima）",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Brooklyn_Museum_-_Itsukushima_in_Aki_Province_-_Utagawa_Hiroshige_%28Ando%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 1536,
+    "height": 1205,
+    "pd": true
+  },
+  "arch-itsukushima-toyoharu": {
+    "file": "arch-itsukushima-toyoharu.jpg",
+    "title": "嚴島弁天社（Itsukushima Benten）",
+    "license": "Public domain",
+    "artist": "歌川豊春",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Utagawa_Toyoharu_%2818th_century%29_Itsukushima_Benten_zu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 1600,
+    "height": 1193,
+    "pd": true
+  },
+  "arch-itsukushima-ukie": {
+    "file": "arch-itsukushima-ukie.jpg",
+    "title": "嚴島浮繪（Ukie Itsukushima）",
+    "license": "Public domain",
+    "artist": "歌川豊春",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Ukie_itsukushima_jinjya_no_zu_LCCN2008661229.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 6594,
+    "height": 4635,
+    "pd": true
+  },
+  "arch-miyajima-snow": {
+    "file": "arch-miyajima-snow.jpg",
+    "title": "嚴島雪景（Miyajima Snow）",
+    "license": "Public domain",
+    "artist": "川瀬巴水",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Tabi_miyage_dai_nish%C5%AB%2C_seiten_no_yuki_%28Miyajima%29_by_Kawase_Hasui.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 1004,
+    "height": 1489,
+    "pd": true
+  },
+  "arch-himeji-castle": {
+    "file": "arch-himeji-castle.jpg",
+    "title": "姫路城（Himeji Castle）",
+    "license": "Public domain",
+    "artist": "Reggaeman",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Himeji_Castle_The_Keep_Towers.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 2272,
+    "height": 1704,
+    "pd": true
+  },
+  "bg-shinjuku-neon": {
+    "file": "bg-shinjuku-neon.jpg",
+    "title": "新宿霓虹（Shinjuku Neon）",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Michael Reeve",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Shinjuku-neon_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 500,
+    "height": 667,
+    "pd": true
+  },
+  "bg-shinjuku-bluehour": {
+    "file": "bg-shinjuku-bluehour.jpg",
+    "title": "新宿藍色時段（Shinjuku Blue Hour）",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Basile Morin",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Buildings_with_colorful_neon_street_signs_at_blue_hour%2C_Shinjuku%2C_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 4662,
+    "height": 3730,
+    "pd": true
+  },
+  "bg-kabukicho-neon": {
+    "file": "bg-kabukicho-neon.jpg",
+    "title": "歌舞伎町紅門（Kabukicho Gate）",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Basile Morin",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Kabukicho_red_gate_and_colorful_neon_street_signs_at_night%2C_Shinjuku%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 4950,
+    "height": 4411,
+    "pd": true
+  },
+  "bg-shibuya-crossing": {
+    "file": "bg-shibuya-crossing.jpg",
+    "title": "澀谷十字路口（Shibuya Crossing）",
+    "license": "CC0",
+    "artist": "Syced",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Shibuya_crossing_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 4032,
+    "height": 3024,
+    "pd": true
+  },
+  "bg-dotonbori": {
+    "file": "bg-dotonbori.jpg",
+    "title": "道頓堀（Dotonbori Osaka）",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Martin Falbisoner",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Dotonbori%2C_Osaka%2C_at_night%2C_November_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 3872,
+    "height": 4738,
+    "pd": true
+  },
+  "bg-osaka-castle": {
+    "file": "bg-osaka-castle.jpg",
+    "title": "大阪城夜景（Osaka Castle）",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Martin Falbisoner",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Osaka_Castle_at_Night%2C_November_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 3176,
+    "height": 3176,
+    "pd": true
+  },
+  "bg-yasaka-dori": {
+    "file": "bg-yasaka-dori.jpg",
+    "title": "八坂通（Yasaka-dori Kyoto）",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Basile Morin",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_%28Hokan-ji_Temple%29%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 5550,
+    "height": 3700,
+    "pd": true
+  },
+  "bg-gion-alley": {
+    "file": "bg-gion-alley.jpg",
+    "title": "祇園巷（Gion Alley）",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Basile Morin",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Wooden_and_bamboo_facades_of_dwellings_with_sudare_in_a_cobbled_street_of_Gion%2C_perspective_effect_with_vanishing_point%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 5722,
+    "height": 3815,
+    "pd": true
+  },
+  "bg-kimono-forest": {
+    "file": "bg-kimono-forest.jpg",
+    "title": "和服森林（Kimono Forest）",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Basile Morin",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Kimono_Forest_at_night%2C_Arashiyama_Station%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 6585,
+    "height": 4390,
+    "pd": true
+  },
+  "bg-togetsukyo-dusk": {
+    "file": "bg-togetsukyo-dusk.jpg",
+    "title": "渡月橋黃昏（Togetsu-kyo）",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Basile Morin",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Togetsu-kyo_bridge_at_dusk%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 5863,
+    "height": 3909,
+    "pd": true
+  },
+  "bg-fushimi-inari": {
+    "file": "bg-fushimi-inari.jpg",
+    "title": "伏見稻荷（Fushimi Inari）",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Paul Vlaar",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/KyotoFushimiInariLarge.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 3072,
+    "height": 2048,
+    "pd": true
+  },
+  "bg-hokkaido-snow": {
+    "file": "bg-hokkaido-snow.jpg",
+    "title": "北海道雪神社（Hokkaido Jingu）",
+    "license": "CC-BY-SA 2.0",
+    "artist": "bryan",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Hokkaido_Jingu%2C_stream_during_the_winter_with_heavy_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 2448,
+    "height": 3264,
+    "pd": true
+  },
+  "bg-hokkaido-road": {
+    "file": "bg-hokkaido-road.jpg",
+    "title": "北海道雪路（Hokkaido Road）",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Achappe",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Hokkaido_rural_route84_winter_of_toyotomi-onsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 300,
+    "height": 225,
+    "pd": true
+  },
+  "bg-hokkaido-field": {
+    "file": "bg-hokkaido-field.jpeg",
+    "title": "白世界（Blue Sky White World）",
+    "license": "CC-BY 3.0",
+    "artist": "Yascolo",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Blue_Sky_And_White_World_%28131608635%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 2048,
+    "height": 1365,
+    "pd": true
+  },
+  "bg-komagatake": {
+    "file": "bg-komagatake.jpg",
+    "title": "北海道駒岳（Komagatake Winter）",
+    "license": "CC-BY-SA 4.0",
+    "artist": "掬茶",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mount_Hokkaido_Komagatake_in_winter_202601.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 6000,
+    "height": 3375,
+    "pd": true
+  },
+  "bg-nebuta-festival": {
+    "file": "bg-nebuta-festival.jpg",
+    "title": "青森ねぶた祭（Nebuta Festival）",
+    "license": "CC-BY 4.0",
+    "artist": "Marie-Sophie Mejan",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Aomori%2C_Nebuta-matsuri_43.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 5184,
+    "height": 3600,
+    "pd": true
+  },
+  "bg-autumn-maple": {
+    "file": "bg-autumn-maple.jpg",
+    "title": "紅葉楓（Rikugien Maple）",
+    "license": "CC-BY 2.0",
+    "artist": "Guilhem Vellut",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Red_Japanese_maple_leaves_%40_Rikugien_Garden_%40_Komagome_%2811165961214%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 3648,
+    "height": 2736,
+    "pd": true
+  },
+  "oga-anime-characters": {
+    "file": "oga-anime-characters.png",
+    "title": "Anime-Characters-Edited.png",
+    "license": "CC0",
+    "artist": "&nbsp; Technopeasant Monday, June 27, 20",
+    "source_url": "https://opengameart.org/sites/default/files/Anime-Characters-Edited.png",
+    "width": 192,
+    "height": 312,
+    "pd": true
+  },
+  "oga-anime-girl-walk": {
+    "file": "oga-anime-girl-walk.png",
+    "title": "11walk_4.png",
+    "license": "CC0",
+    "artist": "&nbsp; Hordana Tuesday, October 7, 2014 ",
+    "source_url": "https://opengameart.org/sites/default/files/11walk_4.png",
+    "width": 2750,
+    "height": 221,
+    "pd": true
+  },
+  "oga-anime-walkabouts": {
+    "file": "oga-anime-walkabouts.png",
+    "title": "image_34.png",
+    "license": "CC0",
+    "artist": "&nbsp; marionline Sunday, July 16, 2017 ",
+    "source_url": "https://opengameart.org/sites/default/files/image_34.png",
+    "width": 160,
+    "height": 20,
+    "pd": true
+  },
+  "oga-anime-face": {
+    "file": "oga-anime-face.png",
+    "title": "face2.png",
+    "license": "CC0",
+    "artist": "&nbsp; Barely_Banquo Saturday, October 2",
+    "source_url": "https://opengameart.org/sites/default/files/face2.png",
+    "width": 393,
+    "height": 398,
+    "pd": true
+  },
+  "oga-mecha-model-full": {
+    "file": "oga-mecha-model-full.png",
+    "title": "mechaA3.modelFull.png",
+    "license": "CC0",
+    "artist": "&nbsp; fmunoz.geo Monday, May 21, 2018 -",
+    "source_url": "https://opengameart.org/sites/default/files/mechaA3.modelFull.png",
+    "width": 426,
+    "height": 522,
+    "pd": true
+  },
+  "oga-robot-character": {
+    "file": "oga-robot-character.png",
+    "title": "robot_prev_1.png",
+    "license": "CC0",
+    "artist": "&nbsp; rubberduck Sunday, April 22, 2018",
+    "source_url": "https://opengameart.org/sites/default/files/robot_prev_1.png",
+    "width": 1024,
+    "height": 1024,
+    "pd": true
+  },
+  "oga-youjibot": {
+    "file": "oga-youjibot.png",
+    "title": "youjibot.png",
+    "license": "CC0",
+    "artist": "&nbsp; zonked Saturday, March 31, 2018 -",
+    "source_url": "https://opengameart.org/sites/default/files/youjibot.png",
+    "width": 2457,
+    "height": 1350,
+    "pd": true
+  },
+  "oga-white-probe-bot": {
+    "file": "oga-white-probe-bot.png",
+    "title": "whiteprobebot.png",
+    "license": "CC0",
+    "artist": "&nbsp; zonked Sunday, February 18, 2018 ",
+    "source_url": "https://opengameart.org/sites/default/files/whiteprobebot.png",
+    "width": 3152,
+    "height": 1500,
+    "pd": true
+  },
+  "kenney-flyman-stand": {
+    "file": "kenney-flyman-stand.png",
+    "title": "kenney-flyman-stand",
+    "license": "CC0",
+    "artist": "Kenney",
+    "source_url": "https://kenney.nl",
+    "width": 122,
+    "height": 139,
+    "pd": true
+  },
+  "kenney-spikeman-stand": {
+    "file": "kenney-spikeman-stand.png",
+    "title": "kenney-spikeman-stand",
+    "license": "CC0",
+    "artist": "Kenney",
+    "source_url": "https://kenney.nl",
+    "width": 90,
+    "height": 155,
+    "pd": true
+  },
+  "oga-anime-female-body": {
+    "file": "oga-anime-female-body.png",
+    "title": "Anime Female Body",
+    "license": "CC0",
+    "artist": "OpenGameArt",
+    "source_url": "https://opengameart.org/sites/default/files/",
+    "width": 276,
+    "height": 400,
+    "pd": true
+  },
+  "oga-anime-girl-portrait": {
+    "file": "oga-anime-girl-portrait.png",
+    "title": "Anime Girl Portrait",
+    "license": "CC0",
+    "artist": "OpenGameArt",
+    "source_url": "https://opengameart.org/sites/default/files/",
+    "width": 1140,
+    "height": 360,
+    "pd": true
   }
 }

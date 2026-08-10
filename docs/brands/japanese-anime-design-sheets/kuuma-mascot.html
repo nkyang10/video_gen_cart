@@ -117,12 +117,20 @@ a { color: var(--forest); }
 .gallery figcaption .g-angle { font-weight: 700; color: var(--forest); }
 .gallery figcaption .g-meta { color: var(--muted); font-size: .72rem; margin-top: 3px; }
 .gallery-hint { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+/* ---------- Lightbox ---------- */
+.lightbox { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.88); cursor: zoom-out; }
+.lightbox.open { display: flex; align-items: center; justify-content: center; }
+.lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; background: #000; border-radius: 6px; box-shadow: 0 8px 40px rgba(0,0,0,.6); }
+.lightbox .lb-cap { position: absolute; bottom: 18px; left: 0; right: 0; text-align: center; color: #ddd; font-size: .85rem; padding: 0 20px; }
+.lightbox .lb-close { position: absolute; top: 14px; right: 22px; color: #fff; font-size: 2rem; line-height: 1; cursor: pointer; }
+a.zoom { display: inline-block; cursor: zoom-in; }
+.gallery figure img { cursor: zoom-in; }
 </style></head><body>
 <header class="site"><div class="wrap">
   <h1><a href="../../index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
   <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
 </div><nav class="brand-tabs"><a href="../../brands/barney-google/" class="">Barney Google</a><a href="../../brands/blender-open-movies/" class="">Blender Open Movies</a><a href="../../brands/jiggs/" class="">Bringing Up Father</a><a href="../../brands/buck-rogers/" class="">Buck Rogers</a><a href="../../brands/buster-brown/" class="">Buster Brown</a><a href="../../brands/cc0-original-characters/" class="">CC0 Original Characters</a><a href="../../brands/disney-silent/" class="">Disney Silent Era (Mickey &amp; Friends)</a><a href="../../brands/felix-the-cat/" class="">Felix the Cat</a><a href="../../brands/fleischer-betty-boop/" class="">Fleischer Studios (Betty Boop)</a><a href="../../brands/happy-hooligan/" class="">Happy Hooligan</a><a href="../../brands/japanese-anime-backgrounds/" class="">Japanese Anime Backgrounds</a><a href="../../brands/japanese-anime-design-sheets/" class="active">Japanese Anime Design Sheets</a><a href="../../brands/japanese-anime-style-reference/" class="">Japanese Anime Style Reference</a><a href="../../brands/japanese-yokai/" class="">Japanese Yokai</a><a href="../../brands/krazy-kat/" class="">Krazy Kat</a><a href="../../brands/little-nemo/" class="">Little Nemo in Slumberland</a><a href="../../brands/mutt-jeff/" class="">Mutt and Jeff</a><a href="../../brands/olive-oyl/" class="">Olive Oyl (Thimble Theatre)</a><a href="../../brands/open-source-mascots/" class="">Open-Source Mascots</a><a href="../../brands/oswald/" class="">Oswald the Lucky Rabbit</a><a href="../../brands/polly-pals/" class="">Polly and Her Pals</a><a href="../../brands/popeye/" class="">Popeye</a><a href="../../brands/skippy/" class="">Skippy</a><a href="../../brands/andy-gump/" class="">The Gumps</a><a href="../../brands/katzenjammer-kids/" class="">The Katzenjammer Kids</a><a href="../../brands/yellow-kid/" class="">The Yellow Kid</a><a href="../../brands/winnie-the-pooh/" class="">Winnie-the-Pooh (Original Book)</a></nav></header>
-<div class="wrap"><div class="breadcrumb"><a href="../../index.html">全部品牌</a> › <a href="index.html">Japanese Anime Design Sheets</a> › Kuuma Defense Mascot</div><h1 class="page">Kuuma Defense Mascot <span style="color:var(--muted);font-size:1rem;font-weight:400">Kuuma Defense Mascot</span></h1><div class="char-hero"><img src="../../assets/img/kuuma-mascot.jpg" alt="Kuuma Defense Mascot">
+<div class="wrap"><div class="breadcrumb"><a href="../../index.html">全部品牌</a> › <a href="index.html">Japanese Anime Design Sheets</a> › Kuuma Defense Mascot</div><h1 class="page">Kuuma Defense Mascot <span style="color:var(--muted);font-size:1rem;font-weight:400">Kuuma Defense Mascot</span></h1><div class="char-hero"><a class="zoom" href="../../assets/img/kuuma-mascot.jpg" data-full="../../assets/img/kuuma-mascot.jpg"><img src="../../assets/img/thumbs/kuuma-mascot.jpg" alt="Kuuma Defense Mascot" loading="lazy"></a>
         <div class="captions">
           <p><b>Kuuma Defense Mascot</b></p>
           <p>License: <b>Public domain</b>（公版 ✔）</p>
@@ -149,3 +157,21 @@ a { color: var(--forest); }
     Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
   </div>
 </div>
+<div class="lightbox" id="lightbox" aria-hidden="true"><span class="lb-close" id="lb-close">&times;</span><img src="" alt="" id="lb-img"><div class="lb-cap" id="lb-cap"></div></div>
+<script>
+(function(){
+  var lb=document.getElementById('lightbox'), img=document.getElementById('lb-img'), cap=document.getElementById('lb-cap');
+  function open(src,alt){ img.src=src; img.alt=alt; cap.textContent=alt; lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); }
+  function close(){ lb.classList.remove('open'); img.src=''; lb.setAttribute('aria-hidden','true'); }
+  document.addEventListener('click', function(e){
+    var t=e.target.closest('a.zoom, .gallery figure img, .char-hero img');
+    if(t && t.tagName!=='IMG'){ t=e.target; }
+    if(t && t.tagName==='IMG' && (t.closest('a.zoom') || t.closest('.gallery') || t.closest('.char-hero'))){
+      e.preventDefault(); var src=t.getAttribute('data-full')||t.currentSrc||t.src;
+      open(src, t.getAttribute('alt')||'');
+    }
+  });
+  lb.addEventListener('click', function(e){ if(e.target===lb||e.target.id==='lb-close') close(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+})();
+</script>

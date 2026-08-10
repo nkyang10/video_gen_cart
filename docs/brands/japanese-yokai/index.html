@@ -117,6 +117,14 @@ a { color: var(--forest); }
 .gallery figcaption .g-angle { font-weight: 700; color: var(--forest); }
 .gallery figcaption .g-meta { color: var(--muted); font-size: .72rem; margin-top: 3px; }
 .gallery-hint { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+/* ---------- Lightbox ---------- */
+.lightbox { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.88); cursor: zoom-out; }
+.lightbox.open { display: flex; align-items: center; justify-content: center; }
+.lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; background: #000; border-radius: 6px; box-shadow: 0 8px 40px rgba(0,0,0,.6); }
+.lightbox .lb-cap { position: absolute; bottom: 18px; left: 0; right: 0; text-align: center; color: #ddd; font-size: .85rem; padding: 0 20px; }
+.lightbox .lb-close { position: absolute; top: 14px; right: 22px; color: #fff; font-size: 2rem; line-height: 1; cursor: pointer; }
+a.zoom { display: inline-block; cursor: zoom-in; }
+.gallery figure img { cursor: zoom-in; }
 </style></head><body>
 <header class="site"><div class="wrap">
   <h1><a href="../../index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
@@ -130,7 +138,42 @@ a { color: var(--forest); }
 <li><strong>龍與蛇妖</strong>：升天嘅日本龍、八岐大蛇、土蜘蛛</li>
 <li><strong>其他妖怪</strong>：河童、化貓、蟹坊主、剪髮妖怪</li>
 </ul>
-<p>大部分（16/20）係 <strong>公版或 CC0</strong>（全免無需署名），只有 3 個 CC-BY-SA（需署名）。全部係日本浮世繪/傳統藝術，非版權角色。</p><h2>旗下公版角色 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(20)</span></h2><div class="character-grid"><a class="character-card" href="yokai-bakeneko.html">
+<p>大部分（16/20）係 <strong>公版或 CC0</strong>（全免無需署名），只有 3 個 CC-BY-SA（需署名）。全部係日本浮世繪/傳統藝術，非版權角色。</p><h2>旗下公版角色 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(37)</span></h2><div class="character-grid"><a class="character-card" href="arch-himeji-castle.html">
+              <div class="thumb"><img src="../../assets/img/arch-himeji-castle.jpg" alt=""></div>
+              <div><span class="name">姫路城（Himeji Castle）</span><span class="zh">姫路城（Himeji Castle）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="arch-itsukushima-hiroshige.html">
+              <div class="thumb"><img src="../../assets/img/arch-itsukushima-hiroshige.jpg" alt=""></div>
+              <div><span class="name">嚴島鳥居（Itsukushima Hiroshige）</span><span class="zh">嚴島鳥居（Itsukushima Hiroshige）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="arch-itsukushima-toyoharu.html">
+              <div class="thumb"><img src="../../assets/img/arch-itsukushima-toyoharu.jpg" alt=""></div>
+              <div><span class="name">嚴島弁天社（Itsukushima Benten）</span><span class="zh">嚴島弁天社（Itsukushima Benten）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="arch-itsukushima-ukie.html">
+              <div class="thumb"><img src="../../assets/img/arch-itsukushima-ukie.jpg" alt=""></div>
+              <div><span class="name">嚴島浮繪（Ukie Itsukushima）</span><span class="zh">嚴島浮繪（Ukie Itsukushima）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="arch-miyajima-snow.html">
+              <div class="thumb"><img src="../../assets/img/arch-miyajima-snow.jpg" alt=""></div>
+              <div><span class="name">嚴島雪景（Miyajima Snow）</span><span class="zh">嚴島雪景（Miyajima Snow）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="yokai-amabie.html">
+              <div class="thumb"><img src="../../assets/img/yokai-amabie.jpg" alt=""></div>
+              <div><span class="name">阿麻比（Amabie）</span><span class="zh">阿麻比（Amabie）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="yokai-ayakashi.html">
+              <div class="thumb"><img src="../../assets/img/yokai-ayakashi.jpg" alt=""></div>
+              <div><span class="name">妖（Ayakashi）</span><span class="zh">妖（Ayakashi）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="yokai-bakeneko.html">
               <div class="thumb"><img src="../../assets/img/yokai-bakeneko.jpg" alt=""></div>
               <div><span class="name">化貓（Bakeneko）</span><span class="zh">化貓（Bakeneko）</span></div>
               <div class="desc">妖怪 / 和風奇幻素材</div>
@@ -150,9 +193,29 @@ a { color: var(--forest); }
               <div><span class="name">狐火狐狸（Fox by Mystic Fire）</span><span class="zh">狐火狐狸（Fox by Mystic Fire）</span></div>
               <div class="desc">妖怪 / 和風奇幻素材</div>
               <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="yokai-foxfires-chikanobu.html">
+              <div class="thumb"><img src="../../assets/img/yokai-foxfires-chikanobu.jpg" alt=""></div>
+              <div><span class="name">狐火（Foxfires Chikanobu）</span><span class="zh">狐火（Foxfires Chikanobu）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="yokai-foxfires-yoshitoshi.html">
+              <div class="thumb"><img src="../../assets/img/yokai-foxfires-yoshitoshi.jpg" alt=""></div>
+              <div><span class="name">狐火（Foxfires Yoshitoshi）</span><span class="zh">狐火（Foxfires Yoshitoshi）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="yokai-hokusai-tengu.html">
               <div class="thumb"><img src="../../assets/img/yokai-hokusai-tengu.jpg" alt=""></div>
               <div><span class="name">北齋天狗（Hokusai Tengu）</span><span class="zh">北齋天狗（Hokusai Tengu）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="yokai-hyotankozo.html">
+              <div class="thumb"><img src="../../assets/img/yokai-hyotankozo.jpg" alt=""></div>
+              <div><span class="name">瓢箪小僧（Hyōtankozō）</span><span class="zh">瓢箪小僧（Hyōtankozō）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="yokai-kamaitachi.html">
+              <div class="thumb"><img src="../../assets/img/yokai-kamaitachi.jpg" alt=""></div>
+              <div><span class="name">鎌鼬（Kamaitachi）</span><span class="zh">鎌鼬（Kamaitachi）</span></div>
               <div class="desc">妖怪 / 和風奇幻素材</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="yokai-kamikiri.html">
@@ -170,9 +233,24 @@ a { color: var(--forest); }
               <div><span class="name">河童水妖（Kappa）</span><span class="zh">河童水妖（Kappa）</span></div>
               <div class="desc">妖怪 / 和風奇幻素材</div>
               <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="yokai-kirin.html">
+              <div class="thumb"><img src="../../assets/img/yokai-kirin.png" alt=""></div>
+              <div><span class="name">麒麟（Kirin）</span><span class="zh">麒麟（Kirin）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="yokai-kitsune-hanazono.html">
               <div class="thumb"><img src="../../assets/img/yokai-kitsune-hanazono.jpg" alt=""></div>
               <div><span class="name">狐仙花園稻荷（Kitsune of Hanazono Inari）</span><span class="zh">狐仙花園稻荷（Kitsune of Hanazono Inari）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="yokai-kitsune-yomeiri.html">
+              <div class="thumb"><img src="../../assets/img/yokai-kitsune-yomeiri.jpg" alt=""></div>
+              <div><span class="name">狐嫁（Fox Wedding）</span><span class="zh">狐嫁（Fox Wedding）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="yokai-mokumokuren.html">
+              <div class="thumb"><img src="../../assets/img/yokai-mokumokuren.jpg" alt=""></div>
+              <div><span class="name">目目連（Mokumokuren）</span><span class="zh">目目連（Mokumokuren）</span></div>
               <div class="desc">妖怪 / 和風奇幻素材</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="yokai-ninetail-fox.html">
@@ -180,6 +258,11 @@ a { color: var(--forest); }
               <div><span class="name">九尾狐（Nine-tailed Fox）</span><span class="zh">九尾狐（Nine-tailed Fox）</span></div>
               <div class="desc">妖怪 / 和風奇幻素材</div>
               <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="yokai-nozuchi.html">
+              <div class="thumb"><img src="../../assets/img/yokai-nozuchi.jpg" alt=""></div>
+              <div><span class="name">野槌（Nozuchi）</span><span class="zh">野槌（Nozuchi）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="yokai-oni-mask.html">
               <div class="thumb"><img src="../../assets/img/yokai-oni-mask.jpg" alt=""></div>
               <div><span class="name">儀式鬼面（Ritual Oni Mask）</span><span class="zh">儀式鬼面（Ritual Oni Mask）</span></div>
@@ -198,6 +281,11 @@ a { color: var(--forest); }
             </a><a class="character-card" href="yokai-shibaten.html">
               <div class="thumb"><img src="../../assets/img/yokai-shibaten.jpg" alt=""></div>
               <div><span class="name">芝天（Shibaten 天狗場景）</span><span class="zh">芝天（Shibaten 天狗場景）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
+            </a><a class="character-card" href="yokai-shiranui.html">
+              <div class="thumb"><img src="../../assets/img/yokai-shiranui.jpg" alt=""></div>
+              <div><span class="name">不知火（Shiranui）</span><span class="zh">不知火（Shiranui）</span></div>
               <div class="desc">妖怪 / 和風奇幻素材</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="yokai-shoki-oni.html">
@@ -220,6 +308,11 @@ a { color: var(--forest); }
               <div><span class="name">品川神社天狗（Tengu Shrine）</span><span class="zh">品川神社天狗（Tengu Shrine）</span></div>
               <div class="desc">妖怪 / 和風奇幻素材</div>
               <span class="badge cc">CC-BY-SA</span>
+            </a><a class="character-card" href="yokai-tsurube-bi.html">
+              <div class="thumb"><img src="../../assets/img/yokai-tsurube-bi.jpg" alt=""></div>
+              <div><span class="name">釣瓶火（Tsurube-bi）</span><span class="zh">釣瓶火（Tsurube-bi）</span></div>
+              <div class="desc">妖怪 / 和風奇幻素材</div>
+              <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="yokai-white-fox-moon.html">
               <div class="thumb"><img src="../../assets/img/yokai-white-fox-moon.jpg" alt=""></div>
               <div><span class="name">滿月白狐（White Fox on Moonlit Night）</span><span class="zh">滿月白狐（White Fox on Moonlit Night）</span></div>
@@ -235,3 +328,21 @@ a { color: var(--forest); }
     Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
   </div>
 </div>
+<div class="lightbox" id="lightbox" aria-hidden="true"><span class="lb-close" id="lb-close">&times;</span><img src="" alt="" id="lb-img"><div class="lb-cap" id="lb-cap"></div></div>
+<script>
+(function(){
+  var lb=document.getElementById('lightbox'), img=document.getElementById('lb-img'), cap=document.getElementById('lb-cap');
+  function open(src,alt){ img.src=src; img.alt=alt; cap.textContent=alt; lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); }
+  function close(){ lb.classList.remove('open'); img.src=''; lb.setAttribute('aria-hidden','true'); }
+  document.addEventListener('click', function(e){
+    var t=e.target.closest('a.zoom, .gallery figure img, .char-hero img');
+    if(t && t.tagName!=='IMG'){ t=e.target; }
+    if(t && t.tagName==='IMG' && (t.closest('a.zoom') || t.closest('.gallery') || t.closest('.char-hero'))){
+      e.preventDefault(); var src=t.getAttribute('data-full')||t.currentSrc||t.src;
+      open(src, t.getAttribute('alt')||'');
+    }
+  });
+  lb.addEventListener('click', function(e){ if(e.target===lb||e.target.id==='lb-close') close(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+})();
+</script>
