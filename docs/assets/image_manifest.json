@@ -2138,5 +2138,115 @@
     "width": 250,
     "height": 125,
     "pd": true
+  },
+  "oga-cartoon-space-robot": {
+    "file": "oga-cartoon-space-robot.png",
+    "title": "Cartoon Space Robot",
+    "license": "CC0",
+    "artist": "Blaze Fyruss",
+    "source_url": "https://opengameart.org/sites/default/files/robotsmall.png",
+    "width": 474,
+    "height": 300,
+    "pd": true
+  },
+  "oga-cute-girl-sprites": {
+    "file": "oga-cute-girl-sprites.png",
+    "title": "Cute Girl Sprites",
+    "license": "CC0",
+    "artist": "pzUH",
+    "source_url": "https://opengameart.org/sites/default/files/CuteGirlFiles.zip",
+    "width": 601,
+    "height": 502,
+    "pd": true
+  },
+  "oga-chibi-swordman": {
+    "file": "oga-chibi-swordman.png",
+    "title": "Chibi Swordman",
+    "license": "CC0",
+    "artist": "sonild",
+    "source_url": "https://opengameart.org/sites/default/files/Chibi%20Swordman_0.zip",
+    "width": 3190,
+    "height": 643,
+    "pd": true
+  },
+  "oga-pepper-carrot": {
+    "file": "oga-pepper-carrot.png",
+    "title": "Pepper&Carrot Characters",
+    "license": "CC-BY 4.0",
+    "artist": "diamonddmgirl",
+    "source_url": "https://opengameart.org/sites/default/files/Pepper%20publish._0.png",
+    "width": 180,
+    "height": 128,
+    "pd": true
+  },
+  "oga-anime-portraits": {
+    "file": "oga-anime-portraits.png",
+    "title": "Sara/Trevor/Puck Portraits",
+    "license": "CC-BY 3.0",
+    "artist": "ZeNeRIA29",
+    "source_url": "https://opengameart.org/sites/default/files/portrait21.png",
+    "width": 900,
+    "height": 760,
+    "pd": true
+  },
+  "oga-magic-girl": {
+    "file": "oga-magic-girl.png",
+    "title": "Magic Girl Anime",
+    "license": "CC-BY 4.0",
+    "artist": "Spring Spring",
+    "source_url": "https://opengameart.org/sites/default/files/magic%20girl%202_2.png",
+    "width": 360,
+    "height": 800,
+    "pd": true
+  },
+  "oga-pixel-rabbit": {
+    "file": "oga-pixel-rabbit.png",
+    "title": "Pixel Rabbit People",
+    "license": "CC0",
+    "artist": "OpenGameArt",
+    "source_url": "https://opengameart.org/sites/default/files/larry%20with%20a%20bow%20publish.png",
+    "width": 172,
+    "height": 79,
+    "pd": true
+  },
+  "oga-fox-bases": {
+    "file": "oga-fox-bases.png",
+    "title": "Fox Bases Character Sheet",
+    "license": "CC-BY 3.0",
+    "artist": "HarvettFox96",
+    "source_url": "https://opengameart.org/sites/default/files/FoxBases_character-20190204.1.png",
+    "width": 856,
+    "height": 696,
+    "pd": true
+  },
+  "oga-dino-characters": {
+    "file": "oga-dino-characters.png",
+    "title": "Cartoon Dinosaur Characters",
+    "license": "CC-BY",
+    "artist": "Ragnar Random",
+    "source_url": "https://opengameart.org/sites/default/files/rynosaurlandcharacters.png",
+    "width": 308,
+    "height": 338,
+    "pd": true
+  },
+  "oga-mechs-64x64": {
+    "file": "oga-mechs-64x64.png",
+    "title": "Mechs 64x64",
+    "license": "CC-BY-SA 3.0",
+    "artist": "CruzR",
+    "source_url": "https://opengameart.org/sites/default/files/walker1.png",
+    "width": 1024,
+    "height": 512,
+    "pd": true
+  },
+  "oga-modular-robots": {
+    "file": "oga-modular-robots.png",
+    "title": "Modular 64x Robots",
+    "license": "CC-BY-SA",
+    "artist": "YuriNikolai",
+    "source_url": "https://opengameart.org/sites/default/files/modular_64x_robots_by_yurinikolai.zip",
+    "width": 64,
+    "height": 64,
+    "pd": true
   }
 }

@@ -3,7 +3,7 @@
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
     "brand_count": 28,
-    "character_count": 217,
+    "character_count": 231,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -1100,6 +1100,28 @@
           "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
         },
         {
+          "slug": "oga-anime-portraits",
+          "name": "Anime Portraits",
+          "name_zh": "Anime Portraits",
+          "role": "CC0/CC-BY 遊戲角色資產",
+          "first_appearance": "OpenGameArt",
+          "creator": "ZeNeRIA29",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-anime-portraits.png",
+          "reference_gallery": [],
+          "appearance": "動漫頭像風格，3 張日式動漫頭像+表情。 `動漫頭像 game asset, 3 張日式動漫頭像+表情`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：CC0/CC-BY 資產可直接用 **注意**：CC-BY 3.0 授權（需署名）"
+        },
+        {
           "slug": "oga-base-male-fighter",
           "name": "Base Male Fighter",
           "name_zh": "Base Male Fighter",
@@ -1144,6 +1166,160 @@
           "ai_usage": "**遊戲/動畫角色**：男性動作系 sprite 可直接用 **注意**：CC-BY 3.0 授權（需署名）"
         },
         {
+          "slug": "oga-cartoon-space-robot",
+          "name": "Cartoon Space Robot",
+          "name_zh": "Cartoon Space Robot",
+          "role": "CC0/CC-BY 遊戲角色資產",
+          "first_appearance": "OpenGameArt",
+          "creator": "Blaze Fyruss",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-cartoon-space-robot.png",
+          "reference_gallery": [],
+          "appearance": "卡通機器人風格，卡通风太空機器人，拆件 PNG 供動畫。 `卡通機器人 game asset, 卡通风太空機器人，拆件 PNG 供動畫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：CC0/CC-BY 資產可直接用 **注意**：CC0 授權（全免）"
+        },
+        {
+          "slug": "oga-chibi-monsters",
+          "name": "Chibi Monsters Set 01",
+          "name_zh": "Chibi Monsters Set 01",
+          "role": "CC0/CC-BY 遊戲角色資產",
+          "first_appearance": "OpenGameArt",
+          "creator": "ansimuz",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": null,
+          "reference_gallery": [],
+          "appearance": "Q 版怪物風格，4 種動畫 Q 版怪物（蝙蝠/蛙/鬼/骨）。 `Q 版怪物 game asset, 4 種動畫 Q 版怪物（蝙蝠/蛙/鬼/骨）`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：CC0/CC-BY 資產可直接用 **注意**：CC-BY 授權（需署名）"
+        },
+        {
+          "slug": "oga-chibi-rpg-characters",
+          "name": "Chibi RPG Characters",
+          "name_zh": "Chibi RPG Characters",
+          "role": "CC0/CC-BY 遊戲角色資產",
+          "first_appearance": "OpenGameArt",
+          "creator": "Emcee Flesher",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": null,
+          "reference_gallery": [],
+          "appearance": "Q 版 RPG風格，大批 16x16 Q 版 RPG 角色。 `Q 版 RPG game asset, 大批 16x16 Q 版 RPG 角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：CC0/CC-BY 資產可直接用 **注意**：CC-BY 授權（需署名）"
+        },
+        {
+          "slug": "oga-chibi-swordman",
+          "name": "Chibi Swordman",
+          "name_zh": "Chibi Swordman",
+          "role": "CC0/CC-BY 遊戲角色資產",
+          "first_appearance": "OpenGameArt",
+          "creator": "sonild",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-chibi-swordman.png",
+          "reference_gallery": [],
+          "appearance": "chibi 日系劍士風格，動畫版 Q 版日系劍士 5 種動畫。 `chibi 日系劍士 game asset, 動畫版 Q 版日系劍士 5 種動畫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：CC0/CC-BY 資產可直接用 **注意**：CC0 授權（全免）"
+        },
+        {
+          "slug": "oga-cute-girl-sprites",
+          "name": "Cute Girl Sprites",
+          "name_zh": "Cute Girl Sprites",
+          "role": "CC0/CC-BY 遊戲角色資產",
+          "first_appearance": "OpenGameArt",
+          "creator": "pzUH",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-cute-girl-sprites.png",
+          "reference_gallery": [],
+          "appearance": "卡通少女 sprite風格，可愛卡通少女 5 種動畫狀態。 `卡通少女 sprite game asset, 可愛卡通少女 5 種動畫狀態`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：CC0/CC-BY 資產可直接用 **注意**：CC0 授權（全免）"
+        },
+        {
+          "slug": "oga-dino-characters",
+          "name": "Cartoon Dinosaur Characters",
+          "name_zh": "Cartoon Dinosaur Characters",
+          "role": "CC0/CC-BY 遊戲角色資產",
+          "first_appearance": "OpenGameArt",
+          "creator": "Ragnar Random",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-dino-characters.png",
+          "reference_gallery": [],
+          "appearance": "卡通恐龍風格，6+ 位卡通恐龍角色。 `卡通恐龍 game asset, 6+ 位卡通恐龍角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：CC0/CC-BY 資產可直接用 **注意**：CC-BY 授權（需署名）"
+        },
+        {
+          "slug": "oga-fox-bases",
+          "name": "Fox Bases Character Sheet",
+          "name_zh": "Fox Bases Character Sheet",
+          "role": "CC0/CC-BY 遊戲角色資產",
+          "first_appearance": "OpenGameArt",
+          "creator": "HarvettFox96",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-fox-bases.png",
+          "reference_gallery": [],
+          "appearance": "狐狸擬人風格，擬人化狐狸角色基模 8 方向。 `狐狸擬人 game asset, 擬人化狐狸角色基模 8 方向`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：CC0/CC-BY 資產可直接用 **注意**：CC-BY 3.0 授權（需署名）"
+        },
+        {
           "slug": "oga-lpc-barbarian-sprite-base",
           "name": "LPC Barbarian Base",
           "name_zh": "LPC Barbarian Base",
@@ -1164,6 +1340,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**遊戲/動畫角色**：男性動作系 sprite 可直接用 **注意**：CC-BY-SA 3.0 授權（需署名）"
+        },
+        {
+          "slug": "oga-magic-girl",
+          "name": "Magic Girl Anime",
+          "name_zh": "Magic Girl Anime",
+          "role": "CC0/CC-BY 遊戲角色資產",
+          "first_appearance": "OpenGameArt",
+          "creator": "Spring Spring",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-magic-girl.png",
+          "reference_gallery": [],
+          "appearance": "魔法少女動漫風格，日式動漫魔法少女概念圖。 `魔法少女動漫 game asset, 日式動漫魔法少女概念圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：CC0/CC-BY 資產可直接用 **注意**：CC-BY 4.0 授權（需署名）"
         },
         {
           "slug": "oga-male-warrior-sprite-animations",
@@ -1210,6 +1408,50 @@
           "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
         },
         {
+          "slug": "oga-mechs-64x64",
+          "name": "Mechs 64x64",
+          "name_zh": "Mechs 64x64",
+          "role": "CC0/CC-BY 遊戲角色資產",
+          "first_appearance": "OpenGameArt",
+          "creator": "CruzR",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-mechs-64x64.png",
+          "reference_gallery": [],
+          "appearance": "機甲像素風格，3 台 64x64 機甲步行者 8 方向。 `機甲像素 game asset, 3 台 64x64 機甲步行者 8 方向`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：CC0/CC-BY 資產可直接用 **注意**：CC-BY-SA 3.0 授權（需署名）"
+        },
+        {
+          "slug": "oga-modular-robots",
+          "name": "Modular 64x Robots",
+          "name_zh": "Modular 64x Robots",
+          "role": "CC0/CC-BY 遊戲角色資產",
+          "first_appearance": "OpenGameArt",
+          "creator": "YuriNikolai",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-modular-robots.png",
+          "reference_gallery": [],
+          "appearance": "模組化機器人風格，27 件模組化機器人零件。 `模組化機器人 game asset, 27 件模組化機器人零件`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：CC0/CC-BY 資產可直接用 **注意**：CC-BY-SA 授權（需署名）"
+        },
+        {
           "slug": "oga-ninja-adventure-free-sprite",
           "name": "Ninja Adventure Sprite",
           "name_zh": "Ninja Adventure Sprite",
@@ -1254,6 +1496,50 @@
           "ai_usage": "**遊戲/動畫角色**：男性動作系 sprite 可直接用 **注意**：CC0 授權（全免）"
         },
         {
+          "slug": "oga-pepper-carrot",
+          "name": "Pepper&Carrot Characters",
+          "name_zh": "Pepper&Carrot Characters",
+          "role": "CC0/CC-BY 遊戲角色資產",
+          "first_appearance": "OpenGameArt",
+          "creator": "diamonddmgirl",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-pepper-carrot.png",
+          "reference_gallery": [],
+          "appearance": "JRPG 角色風格，JRPG 風角色×5（胡椒/胡蘿蔔等）。 `JRPG 角色 game asset, JRPG 風角色×5（胡椒/胡蘿蔔等）`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：CC0/CC-BY 資產可直接用 **注意**：CC-BY 4.0 授權（需署名）"
+        },
+        {
+          "slug": "oga-pixel-rabbit",
+          "name": "Pixel Rabbit People",
+          "name_zh": "Pixel Rabbit People",
+          "role": "CC0/CC-BY 遊戲角色資產",
+          "first_appearance": "OpenGameArt",
+          "creator": "OpenGameArt",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-pixel-rabbit.png",
+          "reference_gallery": [],
+          "appearance": "像素兔人風格，復古平台 Q 版兔人角色。 `像素兔人 game asset, 復古平台 Q 版兔人角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：CC0/CC-BY 資產可直接用 **注意**：CC0 授權（全免）"
+        },
+        {
           "slug": "oga-robot-character",
           "name": "Robot Character",
           "name_zh": "Robot Character",
@@ -1274,6 +1560,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
+        },
+        {
+          "slug": "oga-space-mech-kit",
+          "name": "Space Ship & Mech Kit",
+          "name_zh": "Space Ship & Mech Kit",
+          "role": "CC0/CC-BY 遊戲角色資產",
+          "first_appearance": "OpenGameArt",
+          "creator": "Skorpio",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": null,
+          "reference_gallery": [],
+          "appearance": "模組化機甲風格，模組化太空船+機甲零件包。 `模組化機甲 game asset, 模組化太空船+機甲零件包`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：CC0/CC-BY 資產可直接用 **注意**：CC-BY-SA 授權（需署名）"
         },
         {
           "slug": "oga-trainee-knight-character",
