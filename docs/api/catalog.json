@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 44,
-    "character_count": 473,
+    "brand_count": 45,
+    "character_count": 480,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -3763,6 +3763,178 @@
           "type": "路人",
           "relation": "Happy 嘅女友同佢隻狗",
           "interaction": "Suzanne 係 Happy 嘅女友（卡巴萊公爵嘅女），狗 Flip 係佢嘅寵物。佢哋係 Happy 生活嘅溫暖配角，Suzanne 唔嫌棄 Happy 嘅破落，係少數對佢好嘅角色。\n"
+        }
+      ]
+    },
+    {
+      "slug": "historical-props-golden-age",
+      "name": "Historical Props & Golden-Age Art",
+      "name_zh": "歷史道具與黃金年代藝術",
+      "type": "歷史道具 / 紋章 / 彩繪玻璃",
+      "country": "國際",
+      "era": "500BC-1900s",
+      "creator": "各歷史/藝術家",
+      "publisher": "各博物館/教堂",
+      "first_appearance_year": "500BC",
+      "status": "公有領域",
+      "license": {
+        "type": "UNKNOWN",
+        "code": ""
+      },
+      "characters": [
+        {
+          "slug": "glass-saint-anne",
+          "name": "聖安妮彩繪玻璃",
+          "name_zh": "聖安妮彩繪玻璃",
+          "role": "歷史道具/紋章/彩繪玻璃",
+          "first_appearance": "佚名",
+          "creator": "佚名",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/glass-saint-anne.jpg",
+          "reference_gallery": [],
+          "appearance": "地方風格彩繪玻璃，聖安妮彩窗特寫。 `地方風格彩繪玻璃 聖安妮彩窗特寫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**歷史場景道具/背景**：歷史道具/紋章/彩繪玻璃做場景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "glass-st-vitus",
+          "name": "聖維特彩繪玻璃",
+          "name_zh": "聖維特彩繪玻璃",
+          "role": "歷史道具/紋章/彩繪玻璃",
+          "first_appearance": "佚名",
+          "creator": "佚名",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/glass-st-vitus.jpg",
+          "reference_gallery": [],
+          "appearance": "彩繪玻璃，哥德式彩窗。 `彩繪玻璃 哥德式彩窗`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**歷史場景道具/背景**：歷史道具/紋章/彩繪玻璃做場景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "heraldry-germany",
+          "name": "德國聯邦徽",
+          "name_zh": "德國聯邦徽",
+          "role": "歷史道具/紋章/彩繪玻璃",
+          "first_appearance": "德國政府",
+          "creator": "德國政府",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/heraldry-germany.png",
+          "reference_gallery": [],
+          "appearance": "古典紋章學，黑鷹紋章。 `古典紋章學 黑鷹紋章`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**歷史場景道具/背景**：歷史道具/紋章/彩繪玻璃做場景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "heraldry-us",
+          "name": "美國國徽",
+          "name_zh": "美國國徽",
+          "role": "歷史道具/紋章/彩繪玻璃",
+          "first_appearance": "美國政府",
+          "creator": "美國政府",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/heraldry-us.png",
+          "reference_gallery": [],
+          "appearance": "冷戰繪圖，白頭鷹+盾徽。 `冷戰繪圖 白頭鷹+盾徽`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**歷史場景道具/背景**：歷史道具/紋章/彩繪玻璃做場景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "hist-athenian-owl",
+          "name": "雅典娜貓頭鷹銀幣",
+          "name_zh": "雅典娜貓頭鷹銀幣",
+          "role": "歷史道具/紋章/彩繪玻璃",
+          "first_appearance": "古希臘",
+          "creator": "古希臘",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hist-athenian-owl.jpg",
+          "reference_gallery": [],
+          "appearance": "古典希臘錢幣，雅典娜頭像+貓頭鷹銀幣。 `古典希臘錢幣 雅典娜頭像+貓頭鷹銀幣`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**歷史場景道具/背景**：歷史道具/紋章/彩繪玻璃做場景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "hist-pinocchio-1883",
+          "name": "皮諾丘木偶（1883）",
+          "name_zh": "皮諾丘木偶（1883）",
+          "role": "歷史道具/紋章/彩繪玻璃",
+          "first_appearance": "Enrico Mazzanti",
+          "creator": "Enrico Mazzanti",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hist-pinocchio-1883.jpg",
+          "reference_gallery": [],
+          "appearance": "19世紀義大利版畫，皮諾丘木偶線稿。 `19世紀義大利版畫 皮諾丘木偶線稿`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**歷史場景道具/背景**：歷史道具/紋章/彩繪玻璃做場景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "poster-paris-1900",
+          "name": "1900 巴黎世博會海報",
+          "name_zh": "1900 巴黎世博會海報",
+          "role": "歷史道具/紋章/彩繪玻璃",
+          "first_appearance": "佚名",
+          "creator": "佚名",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/poster-paris-1900.jpg",
+          "reference_gallery": [],
+          "appearance": "古典裝飾海報，世博會開幕海報。 `古典裝飾海報 世博會開幕海報`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**歷史場景道具/背景**：歷史道具/紋章/彩繪玻璃做場景參考 **注意**：公版授權"
         }
       ]
     },

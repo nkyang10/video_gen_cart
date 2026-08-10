@@ -4278,5 +4278,75 @@
     "width": 1016,
     "height": 986,
     "pd": true
+  },
+  "hist-athenian-owl": {
+    "file": "hist-athenian-owl.jpg",
+    "title": "貓頭鷹銀幣",
+    "license": "Public domain",
+    "artist": "古希臘",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Athens%20%2D%20510%2D500%20BC%20%2D%20silver%20tetradrachm%20%2D%20head%20of%20Athena%20%2D%20owl%20%2D%20M%C3%BCnchen%20SMS.jpg",
+    "width": 3517,
+    "height": 3517,
+    "pd": true
+  },
+  "hist-pinocchio-1883": {
+    "file": "hist-pinocchio-1883.jpg",
+    "title": "皮諾丘木偶",
+    "license": "Public domain",
+    "artist": "Mazzanti",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pinocchio%20visto%20da%20Enrico%20Mazzanti%20%281883%29.jpg",
+    "width": 250,
+    "height": 334,
+    "pd": true
+  },
+  "heraldry-us": {
+    "file": "heraldry-us.png",
+    "title": "美國國徽",
+    "license": "Public domain",
+    "artist": "美國政府",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Greater_coat_of_arms_of_the_United_States.svg",
+    "width": 1000,
+    "height": 1055,
+    "pd": true
+  },
+  "heraldry-germany": {
+    "file": "heraldry-germany.png",
+    "title": "黑鷹紋章",
+    "license": "Public domain",
+    "artist": "德國政府",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat_of_arms_of_Germany.svg",
+    "width": 1000,
+    "height": 1295,
+    "pd": true
+  },
+  "poster-paris-1900": {
+    "file": "poster-paris-1900.jpg",
+    "title": "巴黎世博會",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Poster_of_the_Exposition_Universelle_%281900%29.jpg",
+    "width": 717,
+    "height": 1001,
+    "pd": true
+  },
+  "glass-st-vitus": {
+    "file": "glass-st-vitus.jpg",
+    "title": "彩繪玻璃",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Vitus_Cathedral_%2D_Stained_glass_%28retouch%29.jpg",
+    "width": 2669,
+    "height": 1410,
+    "pd": true
+  },
+  "glass-saint-anne": {
+    "file": "glass-saint-anne.jpg",
+    "title": "聖安妮彩窗",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Anne_Stained_glass_window_in_the_Saint_Antony_church_in_St._Ulrich_in_Gr%C3%B6den.jpg",
+    "width": 2658,
+    "height": 5384,
+    "pd": true
   }
 }
