@@ -10308,5 +10308,155 @@
     "width": 738,
     "height": 1155,
     "pd": true
+  },
+  "jp-harunobu-nonobiki": {
+    "file": "jp-harunobu-nonobiki.jpg",
+    "title": "美人瀑布風景",
+    "license": "Public domain",
+    "artist": "鈴木春信",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/La_cascade_de_Nono_Biki%2C_Suzuki_Harunobu%2C_1765-1770.jpg",
+    "width": 1000,
+    "height": 1307,
+    "pd": true
+  },
+  "jp-harunobu-courtesan": {
+    "file": "jp-harunobu-courtesan.jpg",
+    "title": "名妓全身像",
+    "license": "CC-BY 2.0",
+    "artist": "鈴木春信",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Japan_Ukiyo-%C3%A9_Painting_Courtisanes_%C3%A0_la_vue_du_public_1769_Suzuki_Harunobu_%284801277229%29.jpg",
+    "width": 755,
+    "height": 881,
+    "pd": true
+  },
+  "jp-shunsho-uzaemon": {
+    "file": "jp-shunsho-uzaemon.jpg",
+    "title": "歌舞伎演員",
+    "license": "Public domain",
+    "artist": "勝川春章",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Katsukawa-Shunsho-Ichimura-Uzaemon-IX.jpg",
+    "width": 1668,
+    "height": 3672,
+    "pd": true
+  },
+  "jp-koryusai-matsu": {
+    "file": "jp-koryusai-matsu.jpg",
+    "title": "吉原美人立繪",
+    "license": "Public domain",
+    "artist": "磯田湖龍齋",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Brooklyn_Museum_-_Azumaya_a_Yoshiwara_Beauty_of_the_Tea_House_Matsu_Hanaya_Followed_by_Two_Attendants_-_Isoda_Koryusai.jpg",
+    "width": 527,
+    "height": 768,
+    "pd": true
+  },
+  "jp-kunimasa-ebizo": {
+    "file": "jp-kunimasa-ebizo.jpg",
+    "title": "役者變身動勢",
+    "license": "Public domain",
+    "artist": "歌川國政",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Kunimasa_-_taikan%2C_The_actor_Ichikawa_Ebizo_in_a_shibaraku_role%2C_1796.jpg",
+    "width": 580,
+    "height": 857,
+    "pd": true
+  },
+  "jp-shigemasa-geisha": {
+    "file": "jp-shigemasa-geisha.jpg",
+    "title": "藝伎持三味線箱",
+    "license": "Public domain",
+    "artist": "北尾重政",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kitao_Shigemasa_%281777%29_Geisha_and_a_servant_carrying_her_shamisen_box.jpg",
+    "width": 1715,
+    "height": 2500,
+    "pd": true
+  },
+  "jp-shigemasa-iris": {
+    "file": "jp-shigemasa-iris.jpg",
+    "title": "花鳥屏風",
+    "license": "Public domain",
+    "artist": "北尾重政",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Birds_and_Iris_LACMA_AC1992.109.8.1-.2.jpg",
+    "width": 2100,
+    "height": 1356,
+    "pd": true
+  },
+  "jp-nagasaki-ships": {
+    "file": "jp-nagasaki-ships.jpg",
+    "title": "長崎港外國船",
+    "license": "CC0",
+    "artist": "長崎畫師",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Buitenlandse_schepen_in_de_haven_van_Nagasaki%2C_RP-P-1956-461.jpg",
+    "width": 6122,
+    "height": 4462,
+    "pd": true
+  },
+  "jp-nagasaki-dutch": {
+    "file": "jp-nagasaki-dutch.jpg",
+    "title": "荷蘭貴婦肖像",
+    "license": "CC-BY-SA 3.0",
+    "artist": "長崎畫師",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/A_Picture_of_Dutch_Lady_Drawn_by_japanese_Painter.jpg",
+    "width": 422,
+    "height": 619,
+    "pd": true
+  },
+  "kr-kim-hongdo": {
+    "file": "kr-kim-hongdo.jpg",
+    "title": "朝鮮南宗山水",
+    "license": "Public domain",
+    "artist": "金弘道",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Landscape_LACMA_M.2004.256_%282_of_6%29.jpg",
+    "width": 1420,
+    "height": 2100,
+    "pd": true
+  },
+  "africa-ashanti-goldweight": {
+    "file": "africa-ashanti-goldweight.jpg",
+    "title": "馬術人物秤錘",
+    "license": "CC-BY 3.0",
+    "artist": "阿善提王國",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Brooklyn-Museum_81.168.1_Equestrian-Figure_Gold-Weight_cropped.png",
+    "width": 800,
+    "height": 560,
+    "pd": true
+  },
+  "oceanic-maori-prow": {
+    "file": "oceanic-maori-prow.jpg",
+    "title": "船首扭結雕飾",
+    "license": "CC-BY 2.0",
+    "artist": "毛利族",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Proue_de_cano%C3%AB_Maori_%28Dahlem_Berlin%29_%282809670612%29.jpg",
+    "width": 955,
+    "height": 1200,
+    "pd": true
+  },
+  "oceanic-wandjina": {
+    "file": "oceanic-wandjina.jpg",
+    "title": "汪地納神祇聖像",
+    "license": "CC-BY-SA 2.0",
+    "artist": "澳洲原住民",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Wandjina_rock_art.jpg",
+    "width": 2048,
+    "height": 1536,
+    "pd": true
+  },
+  "land-burj-khalifa": {
+    "file": "land-burj-khalifa.jpg",
+    "title": "世界最高摩天樓",
+    "license": "CC-BY 4.0",
+    "artist": "Eric Chamchoum",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Burj_Khalifa_Dubai%2C_UAE_at_Sunset_001_by_Eric_Chamchoum.jpg",
+    "width": 4032,
+    "height": 3024,
+    "pd": true
+  },
+  "land-giza-pyramids": {
+    "file": "land-giza-pyramids.jpg",
+    "title": "開羅金字塔群",
+    "license": "CC-BY-SA 2.0",
+    "artist": "Mark Fisher",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/All_Gizah_Pyramids.jpg",
+    "width": 4372,
+    "height": 2906,
+    "pd": true
   }
 }

@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 76,
-    "character_count": 1087,
+    "brand_count": 77,
+    "character_count": 1102,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -6779,6 +6779,156 @@
       ]
     },
     {
+      "slug": "global-cultural-traditions-landmarks",
+      "name": "Global Cultural Traditions & Landmarks",
+      "name_zh": "全球文化傳統與地標",
+      "type": "全球文化 / 地標",
+      "country": "國際",
+      "era": "公元前-2000s",
+      "creator": "各文明工匠/藝術家",
+      "publisher": "各博物館/機構",
+      "first_appearance_year": -2600,
+      "status": "公有領域 / CC0 / CC-BY",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "africa-ashanti-goldweight",
+          "name": "阿善提金秤錘",
+          "name_zh": "阿善提金秤錘",
+          "role": "全球文化/地標",
+          "first_appearance": "阿善提王國",
+          "creator": "阿善提王國",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/africa-ashanti-goldweight.jpg",
+          "reference_gallery": [],
+          "appearance": "非洲雕塑，馬術人物秤錘。 `非洲雕塑 馬術人物秤錘`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球文化/地標做動畫參考 **注意**：CC-BY 3.0 授權"
+        },
+        {
+          "slug": "kr-kim-hongdo",
+          "name": "金弘道山水冊頁",
+          "name_zh": "金弘道山水冊頁",
+          "role": "全球文化/地標",
+          "first_appearance": "金弘道",
+          "creator": "金弘道",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/kr-kim-hongdo.jpg",
+          "reference_gallery": [],
+          "appearance": "韓國文人畫，朝鮮南宗山水。 `韓國文人畫 朝鮮南宗山水`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球文化/地標做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "land-burj-khalifa",
+          "name": "杜拜哈里發塔",
+          "name_zh": "杜拜哈里發塔",
+          "role": "全球文化/地標",
+          "first_appearance": "Eric Chamchoum",
+          "creator": "Eric Chamchoum",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-burj-khalifa.jpg",
+          "reference_gallery": [],
+          "appearance": "實景照片，世界最高摩天樓。 `實景照片 世界最高摩天樓`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球文化/地標做動畫參考 **注意**：CC-BY 4.0 授權"
+        },
+        {
+          "slug": "land-giza-pyramids",
+          "name": "吉薩大金字塔",
+          "name_zh": "吉薩大金字塔",
+          "role": "全球文化/地標",
+          "first_appearance": "Mark Fisher",
+          "creator": "Mark Fisher",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-giza-pyramids.jpg",
+          "reference_gallery": [],
+          "appearance": "實景照片，開羅金字塔群。 `實景照片 開羅金字塔群`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球文化/地標做動畫參考 **注意**：CC-BY-SA 2.0 授權"
+        },
+        {
+          "slug": "oceanic-maori-prow",
+          "name": "毛利船首雕飾",
+          "name_zh": "毛利船首雕飾",
+          "role": "全球文化/地標",
+          "first_appearance": "毛利族",
+          "creator": "毛利族",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oceanic-maori-prow.jpg",
+          "reference_gallery": [],
+          "appearance": "大洋洲工藝，船首扭結雕飾。 `大洋洲工藝 船首扭結雕飾`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球文化/地標做動畫參考 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "oceanic-wandjina",
+          "name": "澳洲汪地納岩畫",
+          "name_zh": "澳洲汪地納岩畫",
+          "role": "全球文化/地標",
+          "first_appearance": "澳洲原住民",
+          "creator": "澳洲原住民",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oceanic-wandjina.jpg",
+          "reference_gallery": [],
+          "appearance": "原住民岩畫，汪地納神祇聖像。 `原住民岩畫 汪地納神祇聖像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球文化/地標做動畫參考 **注意**：CC-BY-SA 2.0 授權"
+        }
+      ]
+    },
+    {
       "slug": "happy-hooligan",
       "name": "Happy Hooligan",
       "name_zh": "開心流浪漢（Happy Hooligan）",
@@ -11807,6 +11957,50 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-harunobu-courtesan",
+          "name": "春信美人圖",
+          "name_zh": "春信美人圖",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "鈴木春信",
+          "creator": "鈴木春信",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-harunobu-courtesan.jpg",
+          "reference_gallery": [],
+          "appearance": "柱繪，名妓全身像。 `柱繪 名妓全身像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "jp-harunobu-nonobiki",
+          "name": "春信非望之瀧",
+          "name_zh": "春信非望之瀧",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "鈴木春信",
+          "creator": "鈴木春信",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-harunobu-nonobiki.jpg",
+          "reference_gallery": [],
+          "appearance": "錦繪，美人瀑布風景。 `錦繪 美人瀑布風景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-hasegawa-pines",
           "name": "等伯松林圖屏風",
           "name_zh": "等伯松林圖屏風",
@@ -12863,6 +13057,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-koryusai-matsu",
+          "name": "湖龍齋吉原美人",
+          "name_zh": "湖龍齋吉原美人",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "磯田湖龍齋",
+          "creator": "磯田湖龍齋",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-koryusai-matsu.jpg",
+          "reference_gallery": [],
+          "appearance": "美人繪，吉原美人立繪。 `美人繪 吉原美人立繪`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-kunichika-actor",
           "name": "国周武士役者",
           "name_zh": "国周武士役者",
@@ -12901,6 +13117,28 @@
           "image": "assets/img/jp-kunimasa-actor.jpg",
           "reference_gallery": [],
           "appearance": "役者繪，役者大首繪動態。 `役者繪 役者大首繪動態`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-kunimasa-ebizo",
+          "name": "國政市川海老藏",
+          "name_zh": "國政市川海老藏",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川國政",
+          "creator": "歌川國政",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kunimasa-ebizo.jpg",
+          "reference_gallery": [],
+          "appearance": "役者大首繪，役者變身動勢。 `役者大首繪 役者變身動勢`",
           "dialogue": "",
           "scene": "",
           "personality": "",
@@ -13259,6 +13497,50 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC-BY 4.0 授權"
         },
         {
+          "slug": "jp-nagasaki-dutch",
+          "name": "長崎繪荷蘭貴婦",
+          "name_zh": "長崎繪荷蘭貴婦",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "長崎畫師",
+          "creator": "長崎畫師",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-nagasaki-dutch.jpg",
+          "reference_gallery": [],
+          "appearance": "長崎繪，荷蘭貴婦肖像。 `長崎繪 荷蘭貴婦肖像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "jp-nagasaki-ships",
+          "name": "長崎繪外國船",
+          "name_zh": "長崎繪外國船",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "長崎畫師",
+          "creator": "長崎畫師",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-nagasaki-ships.jpg",
+          "reference_gallery": [],
+          "appearance": "長崎繪，長崎港外國船。 `長崎繪 長崎港外國船`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
           "slug": "jp-oniwakamaru",
           "name": "國芳鬼若丸巨鯉",
           "name_zh": "國芳鬼若丸巨鯉",
@@ -13501,6 +13783,50 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-shigemasa-geisha",
+          "name": "重政藝伎侍從",
+          "name_zh": "重政藝伎侍從",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "北尾重政",
+          "creator": "北尾重政",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-shigemasa-geisha.jpg",
+          "reference_gallery": [],
+          "appearance": "美人繪，藝伎持三味線箱。 `美人繪 藝伎持三味線箱`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-shigemasa-iris",
+          "name": "重政鳶尾禽鳥",
+          "name_zh": "重政鳶尾禽鳥",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "北尾重政",
+          "creator": "北尾重政",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-shigemasa-iris.jpg",
+          "reference_gallery": [],
+          "appearance": "花鳥畫，花鳥屏風。 `花鳥畫 花鳥屏風`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-shunman-cherry",
           "name": "窪俊滿櫻花松果",
           "name_zh": "窪俊滿櫻花松果",
@@ -13609,6 +13935,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-shunsho-uzaemon",
+          "name": "春章市村右宇蔵九世",
+          "name_zh": "春章市村右宇蔵九世",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "勝川春章",
+          "creator": "勝川春章",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-shunsho-uzaemon.jpg",
+          "reference_gallery": [],
+          "appearance": "役者繪，歌舞伎演員。 `役者繪 歌舞伎演員`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-skeleton-spectre",
