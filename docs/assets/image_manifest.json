@@ -1971,12 +1971,12 @@
   },
   "jp-origami-cranes": {
     "file": "jp-origami-cranes.jpg",
-    "title": "多隻摺紙鶴",
-    "license": "Public domain",
-    "artist": "Laitche",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Cranes_made_by_Origami_paper.jpg",
-    "width": 3000,
-    "height": 1834,
+    "title": "千羽鶴群",
+    "license": "CC0",
+    "artist": "TimMilesWright",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Origami_cranes_in_Nagasaki.jpg",
+    "width": 5184,
+    "height": 3456,
     "pd": true
   },
   "jp-chado": {
@@ -8267,6 +8267,176 @@
     "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tale_of_Issun_B%C5%8Dshi_from_Otogi-z%C5%8Dshi.jpg",
     "width": 7564,
     "height": 2860,
+    "pd": true
+  },
+  "land-athens-acropolis": {
+    "file": "land-athens-acropolis.jpg",
+    "title": "衛城全景",
+    "license": "Public domain",
+    "artist": "Pascal Sebah",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vue_de_l%27Acropole_-_Parth%C3%A9non%2C_Propyl%C3%A9es%2C_Erechth%C3%A9ion._-_%28Gl.I.A.b.34%29.jpg",
+    "width": 2500,
+    "height": 2053,
+    "pd": true
+  },
+  "land-petra-khazneh": {
+    "file": "land-petra-khazneh.jpg",
+    "title": "玫瑰岩神殿",
+    "license": "CC-BY-SA 2.0",
+    "artist": "Graham Racher",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Al_Khazneh_Petra_edit_2.jpg",
+    "width": 1683,
+    "height": 2810,
+    "pd": true
+  },
+  "land-neuschwanstein": {
+    "file": "land-neuschwanstein.jpg",
+    "title": "迪士尼城堡原型",
+    "license": "CC0",
+    "artist": "Wilfredor",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Neuschwanstein_Castle_2024-02.jpg",
+    "width": 2500,
+    "height": 1702,
+    "pd": true
+  },
+  "land-mont-st-michel": {
+    "file": "land-mont-st-michel.jpg",
+    "title": "潮汐島修道院",
+    "license": "Public domain",
+    "artist": "Diliff",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mont_St_Michel_3%2C_Brittany%2C_France_-_July_2011.jpg",
+    "width": 2811,
+    "height": 1993,
+    "pd": true
+  },
+  "land-santorini-oia": {
+    "file": "land-santorini-oia.jpg",
+    "title": "三圓頂地標",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Giles Laurent",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/1000_Three_domes_of_Oia_in_Santorini_Photo_by_Giles_Laurent.jpg",
+    "width": 2500,
+    "height": 1666,
+    "pd": true
+  },
+  "animal-haeckel-turtle": {
+    "file": "animal-haeckel-turtle.jpg",
+    "title": "海龜圖版",
+    "license": "Public domain",
+    "artist": "Ernst Haeckel",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Haeckel_Chelonia.jpg",
+    "width": 2342,
+    "height": 3285,
+    "pd": true
+  },
+  "animal-haeckel-starfish": {
+    "file": "animal-haeckel-starfish.jpg",
+    "title": "海星放射圖版",
+    "license": "Public domain",
+    "artist": "Ernst Haeckel",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Haeckel_Asteridea.jpg",
+    "width": 1705,
+    "height": 2500,
+    "pd": true
+  },
+  "animal-haeckel-octopus": {
+    "file": "animal-haeckel-octopus.jpg",
+    "title": "章魚觸手圖版",
+    "license": "Public domain",
+    "artist": "Ernst Haeckel",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Haeckel_Gamochonia.jpg",
+    "width": 2494,
+    "height": 3644,
+    "pd": true
+  },
+  "animal-gould-emu": {
+    "file": "animal-gould-emu.jpg",
+    "title": "鴯鶓全身",
+    "license": "Public domain",
+    "artist": "John Gould",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Gould_Emu.jpg",
+    "width": 4694,
+    "height": 2948,
+    "pd": true
+  },
+  "animal-gould-hummingbird": {
+    "file": "animal-gould-hummingbird.jpg",
+    "title": "蜂鳥翅展",
+    "license": "CC0",
+    "artist": "John Gould",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Gould_and_H.C._Richter%2C_Selashorus_scintilla_%28Scintillant_Hummingbird%29%2C_NGA_53571.jpg",
+    "width": 2713,
+    "height": 4000,
+    "pd": true
+  },
+  "jp-sensu-fan": {
+    "file": "jp-sensu-fan.png",
+    "title": "折扇展開",
+    "license": "Public domain",
+    "artist": "Mukai",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_Fan_%28Hakusen%29.png",
+    "width": 768,
+    "height": 576,
+    "pd": true
+  },
+  "jp-wagashi": {
+    "file": "jp-wagashi.jpg",
+    "title": "季節和菓子",
+    "license": "CC0",
+    "artist": "Noriko Jazayeri",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wagashi_samples_by_Noriko_Jazayeri_2025-05-18.jpg",
+    "width": 2500,
+    "height": 1882,
+    "pd": true
+  },
+  "jp-red-crowned-crane": {
+    "file": "jp-red-crowned-crane.jpg",
+    "title": "丹頂鶴特寫",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Isiwal",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gr%C3%BCnau_Manschurenkranich_Grus_japonensis-0835.jpg",
+    "width": 4548,
+    "height": 3032,
+    "pd": true
+  },
+  "marine-orca": {
+    "file": "marine-orca.jpg",
+    "title": "虎鯨躍水",
+    "license": "Public domain",
+    "artist": "NOAA",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/OCNMS_Orca_breaching_%2850040737978%29.jpg",
+    "width": 2034,
+    "height": 2848,
+    "pd": true
+  },
+  "marine-blue-whale": {
+    "file": "marine-blue-whale.jpg",
+    "title": "藍鯨身體",
+    "license": "Public domain",
+    "artist": "NOAA",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bluewhale877.jpg",
+    "width": 1792,
+    "height": 1128,
+    "pd": true
+  },
+  "marine-moray-eel": {
+    "file": "marine-moray-eel.jpg",
+    "title": "裸胸鱔張口",
+    "license": "CC-BY-SA 3.0",
+    "artist": "P. Lindgren",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Green_Moray_Eel_%28Gymnothorax_funebris%29%2C_Cozumel.jpg",
+    "width": 2694,
+    "height": 2020,
+    "pd": true
+  },
+  "jp-origami-single": {
+    "file": "jp-origami-single.jpg",
+    "title": "白鶴輪廓",
+    "license": "Public domain",
+    "artist": "Laitche",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cranes_made_by_Origami_paper.jpg",
+    "width": 3000,
+    "height": 1834,
     "pd": true
   }
 }
