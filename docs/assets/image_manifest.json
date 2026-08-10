@@ -2788,5 +2788,85 @@
     "width": 1000,
     "height": 917,
     "pd": true
+  },
+  "bg2d-castle-hill": {
+    "file": "bg2d-castle-hill.png",
+    "title": "中世紀城堡 2D 背景",
+    "license": "CC0",
+    "artist": "OpenGameArt",
+    "source_url": "https://opengameart.org/sites/default/files/Background2Final.png",
+    "width": 192,
+    "height": 108,
+    "pd": true
+  },
+  "bg-retro-spaceship": {
+    "file": "bg-retro-spaceship.png",
+    "title": "復古太空船背景",
+    "license": "CC0",
+    "artist": "Technopeasant",
+    "source_url": "https://opengameart.org/sites/default/files/backgrounds_8.zip",
+    "width": 1920,
+    "height": 1080,
+    "pd": true
+  },
+  "bg-sci-fi": {
+    "file": "bg-sci-fi.png",
+    "title": "科幻背景 HD",
+    "license": "CC0",
+    "artist": "hassekf",
+    "source_url": "https://opengameart.org/sites/default/files/sci_fi_bg_freebie_ask4asset.com_.zip",
+    "width": 1920,
+    "height": 1080,
+    "pd": true
+  },
+  "bg-spaceship-interior": {
+    "file": "bg-spaceship-interior.jpg",
+    "title": "太空船內部走廊",
+    "license": "CC0",
+    "artist": "Technopeasant",
+    "source_url": "https://opengameart.org/sites/default/files/interior_of_a_fictional_spaceship_2.jpg",
+    "width": 6000,
+    "height": 4116,
+    "pd": true
+  },
+  "bg-server-room": {
+    "file": "bg-server-room.png",
+    "title": "伺服器機房",
+    "license": "CC0",
+    "artist": "OpenGameArt",
+    "source_url": "https://opengameart.org/sites/default/files/server-room.png",
+    "width": 4000,
+    "height": 2657,
+    "pd": true
+  },
+  "bg-aurora": {
+    "file": "bg-aurora.jpg",
+    "title": "阿拉斯加極光",
+    "license": "Public domain",
+    "artist": "US Air Force",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Aurora_borealis_over_Eielson_Air_Force_Base%2C_Alaska.jpg",
+    "width": 3008,
+    "height": 1960,
+    "pd": true
+  },
+  "bg-bedroom": {
+    "file": "bg-bedroom.png",
+    "title": "居家臥室 3D",
+    "license": "CC0",
+    "artist": "DREAM_SEARCH_REPEAT",
+    "source_url": "https://opengameart.org/sites/default/files/1_289.png",
+    "width": 1428,
+    "height": 902,
+    "pd": true
+  },
+  "bg2d-starry-night": {
+    "file": "bg2d-starry-night.jpg",
+    "title": "星空之夜",
+    "license": "Public domain",
+    "artist": "Vincent van Gogh",
+    "source_url": "File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "width": 1280,
+    "height": 1014,
+    "pd": true
   }
 }
