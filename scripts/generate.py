@@ -8,6 +8,12 @@ import re, sys, html, json
 from pathlib import Path
 import markdown
 import frontmatter
+try:
+    from PIL import Image as _PILImage
+    _HAS_PIL = True
+except ImportError:
+    _PILImage = None
+    _HAS_PIL = False
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "brands"
@@ -372,8 +378,11 @@ def page_character(brand, c):
 
 def _ensure_thumbs():
     """為所有主圖 + gallery 圖生成 thumbnail（webp，寬 ~480px），加速首屏載入。"""
-    from PIL import Image
+    if not _HAS_PIL:
+        return  # 冇 PIL 環境跳過 thumbnail 生成（HTML 用原圖，唔 crash）
+    assert _PILImage is not None
     import os
+    Image = _PILImage
     # 主圖
     for slug, e in IMAGES.items():
         f = e.get("file", "")
