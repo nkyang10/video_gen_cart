@@ -4348,5 +4348,185 @@
     "width": 2658,
     "height": 5384,
     "pd": true
+  },
+  "poster-mucha-benedictine": {
+    "file": "poster-mucha-benedictine.jpg",
+    "title": "Bénédictine 廣告海報",
+    "license": "Public domain",
+    "artist": "Alphonse Mucha",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Mucha-B%C3%A9n%C3%A9dictine-1898.jpg",
+    "width": 610,
+    "height": 1734,
+    "pd": true
+  },
+  "poster-lautrec": {
+    "file": "poster-lautrec.jpg",
+    "title": "紅磨坊海報",
+    "license": "Public domain",
+    "artist": "Toulouse-Lautrec",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Lautrec_moulin_rouge%2C_la_goulue_%28poster%29_1891.jpg",
+    "width": 738,
+    "height": 1155,
+    "pd": true
+  },
+  "poster-mucha-camelias": {
+    "file": "poster-mucha-camelias.jpg",
+    "title": "茶花女海報",
+    "license": "Public domain",
+    "artist": "Alphonse Mucha",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Alfons_Mucha_-_1896_-_La_Dame_aux_Cam%C3%A9lias_-_Sarah_Bernhardt.jpg",
+    "width": 2928,
+    "height": 7804,
+    "pd": true
+  },
+  "poster-cheret-moulin": {
+    "file": "poster-cheret-moulin.jpg",
+    "title": "紅磨坊舞坊海報",
+    "license": "Public domain",
+    "artist": "Jules Chéret",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/%28Albi%29_Bal_au_Moulin_Rouge_place_Blanche_1889_-_Jules_Ch%C3%A9ret.jpg",
+    "width": 3940,
+    "height": 5848,
+    "pd": true
+  },
+  "stamp-bull-head": {
+    "file": "stamp-bull-head.jpg",
+    "title": "公牛頭郵票 1858",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Stamp_Moldavian_Cap_de_bour_1858.jpg",
+    "width": 314,
+    "height": 319,
+    "pd": true
+  },
+  "botanical-redoute-rosa": {
+    "file": "botanical-redoute-rosa.jpg",
+    "title": "百葉薔薇",
+    "license": "Public domain",
+    "artist": "Redouté",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Redoute_-_Rosa_centifolia_foliacea.jpg",
+    "width": 1408,
+    "height": 2029,
+    "pd": true
+  },
+  "botanical-redoute-lilies": {
+    "file": "botanical-redoute-lilies.jpg",
+    "title": "百合花科圖譜",
+    "license": "Public domain",
+    "artist": "Redouté",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Les_liliacees_%28Plate_18%29_BHL287267.jpg",
+    "width": 600,
+    "height": 943,
+    "pd": true
+  },
+  "botanical-audubon-nuthatch": {
+    "file": "botanical-audubon-nuthatch.jpg",
+    "title": "白胸鳾",
+    "license": "CC0",
+    "artist": "Audubon",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Robert_Havell_after_John_James_Audubon%2C_White-breasted_Black-capped_Nuthatch%2C_1832%2C_NGA_32293.jpg",
+    "width": 3231,
+    "height": 4000,
+    "pd": true
+  },
+  "interior-paris-opera": {
+    "file": "interior-paris-opera.jpg",
+    "title": "巴黎歌劇院大階梯",
+    "license": "Public domain",
+    "artist": "Photochrom",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Opera_House_staircase%2C_Paris%2C_France-LCCN2002707978.jpg",
+    "width": 3576,
+    "height": 2643,
+    "pd": true
+  },
+  "interior-vienna-opera": {
+    "file": "interior-vienna-opera.jpg",
+    "title": "維也納歌劇院內部",
+    "license": "Public domain",
+    "artist": "Photochrom",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/The_Opera_House%2C_interior%2C_Vienna%2C_Austro-Hungary-LCCN2002708424.jpg",
+    "width": 2767,
+    "height": 3679,
+    "pd": true
+  },
+  "interior-versailles": {
+    "file": "interior-versailles.jpg",
+    "title": "凡爾賽鏡廳",
+    "license": "CC-BY-SA 3.0",
+    "artist": "佚名",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Chateau_Versailles_Galerie_des_Glaces.jpg",
+    "width": 3892,
+    "height": 2584,
+    "pd": true
+  },
+  "interior-sainte-genevieve": {
+    "file": "interior-sainte-genevieve.jpg",
+    "title": "鐵拱頂閱覽室",
+    "license": "CC-BY 2.0",
+    "artist": "Marie-Lan Nguyen",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Salle_de_lecture_Bibliotheque_Sainte-Genevieve_n03.jpg",
+    "width": 4288,
+    "height": 2848,
+    "pd": true
+  },
+  "marine-turner-alps": {
+    "file": "marine-turner-alps.jpg",
+    "title": "雪暴漢尼拔",
+    "license": "Public domain",
+    "artist": "Turner",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Joseph_Mallord_William_Turner_-_Snow_Storm%2C_Hannibal_and_his_Army_Crossing_the_Alps_-_WGA23167.jpg",
+    "width": 1213,
+    "height": 750,
+    "pd": true
+  },
+  "marine-turner-temeraire": {
+    "file": "marine-turner-temeraire.jpg",
+    "title": "無畏號戰艦",
+    "license": "Public domain",
+    "artist": "Turner",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg",
+    "width": 5684,
+    "height": 4223,
+    "pd": true
+  },
+  "marine-turner-shipwreck": {
+    "file": "marine-turner-shipwreck.jpg",
+    "title": "沉船",
+    "license": "Public domain",
+    "artist": "Turner",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Joseph_Mallord_William_Turner_-_The_Shipwreck_-_Google_Art_Project.jpg",
+    "width": 2316,
+    "height": 1632,
+    "pd": true
+  },
+  "marine-bakhuizen": {
+    "file": "marine-bakhuizen.jpg",
+    "title": "荷蘭帆船風暴",
+    "license": "Public domain",
+    "artist": "Ludolf Bakhuizen",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Ludolf_Bakhuizen_-_Dutch_Merchant_-_Ships_in_a_Storm_-_Google_Art_Project.jpg",
+    "width": 2880,
+    "height": 2365,
+    "pd": true
+  },
+  "food-heda-ham": {
+    "file": "food-heda-ham.jpg",
+    "title": "火腿宴會靜物",
+    "license": "Public domain",
+    "artist": "Willem Heda",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Willem_Claesz_Heda_-_Banquet_Piece_with_Ham_-_Google_Art_Project.jpg",
+    "width": 8168,
+    "height": 5945,
+    "pd": true
+  },
+  "food-de-heem": {
+    "file": "food-de-heem.jpg",
+    "title": "水果靜物",
+    "license": "Public domain",
+    "artist": "Jan de Heem",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Jan_Davidsz_de_Heem_-_Fruit_Still_Life_035L15033_869GF.jpg",
+    "width": 2000,
+    "height": 1533,
+    "pd": true
   }
 }
