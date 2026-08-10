@@ -3090,13 +3090,13 @@
     "pd": true
   },
   "lit-holmes": {
-    "file": "lit-holmes.png",
-    "title": "獵鹿帽偵探",
+    "file": "lit-holmes.jpg",
+    "title": "福爾摩斯",
     "license": "Public domain",
-    "artist": "Sidney Paget",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Paget_holmes.png",
-    "width": 289,
-    "height": 317,
+    "artist": "Paget",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Sherlock_Holmes_Portrait_Paget.jpg",
+    "width": 288,
+    "height": 375,
     "pd": true
   },
   "lit-moriarty": {
@@ -4527,6 +4527,246 @@
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Jan_Davidsz_de_Heem_-_Fruit_Still_Life_035L15033_869GF.jpg",
     "width": 2000,
     "height": 1533,
+    "pd": true
+  },
+  "music-armstrong": {
+    "file": "music-armstrong.jpg",
+    "title": "爵士小號手",
+    "license": "Public domain",
+    "artist": "LOC 1953",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Louis_Armstrong_restored.jpg",
+    "width": 3738,
+    "height": 2912,
+    "pd": true
+  },
+  "music-ellington": {
+    "file": "music-ellington.jpg",
+    "title": "爵士指揮",
+    "license": "Public domain",
+    "artist": "Gottlieb 1943",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Duke_Ellington_-_Hurricane_Ballroom_-_Duke_directing_1.jpg",
+    "width": 10651,
+    "height": 13261,
+    "pd": true
+  },
+  "music-miles-davis": {
+    "file": "music-miles-davis.jpg",
+    "title": "小號手",
+    "license": "Public domain",
+    "artist": "Gottlieb 1947",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Miles_Davis_%28Three_Deuces%2C_New_York%2C_N.Y._1947%29.jpg",
+    "width": 338,
+    "height": 438,
+    "pd": true
+  },
+  "music-ella": {
+    "file": "music-ella.jpg",
+    "title": "爵士歌手",
+    "license": "Public domain",
+    "artist": "Gottlieb",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ella_Fitzgerald_%28Gottlieb_02871%29.jpg",
+    "width": 4764,
+    "height": 5036,
+    "pd": true
+  },
+  "music-basie": {
+    "file": "music-basie.jpg",
+    "title": "鋼琴家",
+    "license": "Public domain",
+    "artist": "Kriegsmann 1955",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Count_Basie_%281955_Kriegsmann_portrait_-_square_crop%29.jpg",
+    "width": 1500,
+    "height": 1500,
+    "pd": true
+  },
+  "music-billie": {
+    "file": "music-billie.jpg",
+    "title": "爵士歌手",
+    "license": "Public domain",
+    "artist": "Gottlieb 1947",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Billie_Holiday%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28William_P._Gottlieb_04251%29.jpg",
+    "width": 4936,
+    "height": 5152,
+    "pd": true
+  },
+  "music-parker": {
+    "file": "music-parker.jpg",
+    "title": "薩克斯風手",
+    "license": "CC-BY 2.0",
+    "artist": "Gottlieb",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Charlie_Parker_%28cropped%29.jpg",
+    "width": 888,
+    "height": 1155,
+    "pd": true
+  },
+  "perf-chaplin": {
+    "file": "perf-chaplin.png",
+    "title": "默劇喜劇家",
+    "license": "Public domain",
+    "artist": "1922 照片",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Charlie_Chaplin%2C_1922.png",
+    "width": 601,
+    "height": 781,
+    "pd": true
+  },
+  "perf-clowns": {
+    "file": "perf-clowns.jpg",
+    "title": "馬戲團小丑",
+    "license": "Public domain",
+    "artist": "LOC 1907",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Barnum_%26_Bailey_clowns_and_geese2.jpg",
+    "width": 2228,
+    "height": 3479,
+    "pd": true
+  },
+  "perf-blondin": {
+    "file": "perf-blondin.jpg",
+    "title": "走鋼索",
+    "license": "Public domain",
+    "artist": "NYPL",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Blondin._%28Tightrope_walker_dangling_from_a_wire_over_the_Niagara.%29%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg",
+    "width": 2604,
+    "height": 1309,
+    "pd": true
+  },
+  "perf-houdini": {
+    "file": "perf-houdini.jpg",
+    "title": "魔術師",
+    "license": "Public domain",
+    "artist": "歷史表演照",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Harry_Houdini_performs_the_great_milk_can_escape.jpg",
+    "width": 804,
+    "height": 1024,
+    "pd": true
+  },
+  "sci-einstein": {
+    "file": "sci-einstein.jpg",
+    "title": "物理學家",
+    "license": "Public domain",
+    "artist": "Schmutzer 1921",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Albert_Einstein_1921_by_F_Schmutzer.jpg",
+    "width": 2523,
+    "height": 3313,
+    "pd": true
+  },
+  "sci-newton": {
+    "file": "sci-newton.jpg",
+    "title": "物理學家",
+    "license": "Public domain",
+    "artist": "Kneller 1689",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg",
+    "width": 2218,
+    "height": 2671,
+    "pd": true
+  },
+  "sci-tesla": {
+    "file": "sci-tesla.jpg",
+    "title": "發明家",
+    "license": "Public domain",
+    "artist": "Wellcome",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Nikola_Tesla%2C_with_his_equipment_Wellcome_M0014782_-_restoration2.jpg",
+    "width": 7441,
+    "height": 5619,
+    "pd": true
+  },
+  "sci-edison": {
+    "file": "sci-edison.jpg",
+    "title": "發明家",
+    "license": "Public domain",
+    "artist": "歷史照片",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Thomas_Edison.jpg",
+    "width": 350,
+    "height": 547,
+    "pd": true
+  },
+  "sci-curie": {
+    "file": "sci-curie.jpg",
+    "title": "科學家",
+    "license": "Public domain",
+    "artist": "LOC 1900",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Marie_Curie%2C_portrait%2C_1900.jpg",
+    "width": 609,
+    "height": 894,
+    "pd": true
+  },
+  "sci-darwin": {
+    "file": "sci-darwin.jpg",
+    "title": "博物學家",
+    "license": "Public domain",
+    "artist": "Cameron 1868",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Charles_Darwin_by_Julia_Margaret_Cameron%2C_c._1868.jpg",
+    "width": 2348,
+    "height": 2916,
+    "pd": true
+  },
+  "sci-davinci": {
+    "file": "sci-davinci.jpg",
+    "title": "藝術家/科學家",
+    "license": "Public domain",
+    "artist": "Turin Library",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+    "width": 2408,
+    "height": 3754,
+    "pd": true
+  },
+  "game-chess": {
+    "file": "game-chess.jpg",
+    "title": "西洋棋盤",
+    "license": "CC0",
+    "artist": "Commons",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Chess_game_Staunton_No._6.jpg",
+    "width": 7743,
+    "height": 4762,
+    "pd": true
+  },
+  "game-cards": {
+    "file": "game-cards.png",
+    "title": "撲克牌",
+    "license": "Public domain",
+    "artist": "1923 廣告",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Eleven_O%27clock_Playing_Cards_ad_1923-10.png",
+    "width": 720,
+    "height": 3300,
+    "pd": true
+  },
+  "lit-fagin": {
+    "file": "lit-fagin.png",
+    "title": "孤雛淚",
+    "license": "Public domain",
+    "artist": "Cruikshank",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Cruikshank_-_Fagin_in_the_condemned_Cell_%28Oliver_Twist%29.png",
+    "width": 680,
+    "height": 847,
+    "pd": true
+  },
+  "lit-nemo": {
+    "file": "lit-nemo.jpg",
+    "title": "海底兩萬里",
+    "license": "Public domain",
+    "artist": "de Neuville",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Alphonse-Marie-Adolphe-De-Neuville-Captain-Nemo-On-Top-Of-The-Nautilus.jpg",
+    "width": 827,
+    "height": 1200,
+    "pd": true
+  },
+  "lit-huck": {
+    "file": "lit-huck.png",
+    "title": "頑童歷險記",
+    "license": "Public domain",
+    "artist": "Kemble 1885",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Adventures_of_Huckleberry_Finn_1885-Frontispiece_02.png",
+    "width": 1948,
+    "height": 1908,
+    "pd": true
+  },
+  "lit-scrooge": {
+    "file": "lit-scrooge.jpg",
+    "title": "聖誕頌歌",
+    "license": "Public domain",
+    "artist": "Rackham",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%27Scrooge_and_the_Ghost_of_Marley%27_by_Arthur_Rackham.jpg",
+    "width": 662,
+    "height": 956,
     "pd": true
   }
 }
