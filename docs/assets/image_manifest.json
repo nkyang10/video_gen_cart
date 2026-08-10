@@ -9688,5 +9688,175 @@
     "width": 4288,
     "height": 2848,
     "pd": true
+  },
+  "jp-toyokuni2-fuwa": {
+    "file": "jp-toyokuni2-fuwa.jpg",
+    "title": "役者立繪",
+    "license": "Public domain",
+    "artist": "歌川豐國二代",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Utagawa_Toyokuni_II_-_Fuwa_Banzaemon_-_2015.300.148_-_Metropolitan_Museum_of_Art.jpg",
+    "width": 4000,
+    "height": 3002,
+    "pd": true
+  },
+  "jp-toyokuni2-fan": {
+    "file": "jp-toyokuni2-fan.jpg",
+    "title": "役者持扇全身",
+    "license": "Public domain",
+    "artist": "歌川豐國二代",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Actor_Holding_A_Fan_by_Toyokuni_Ii_-_Utagawa_Toyokuni_II_-_ABDAG008484.jpg",
+    "width": 500,
+    "height": 765,
+    "pd": true
+  },
+  "jp-shunman-cherry": {
+    "file": "jp-shunman-cherry.jpg",
+    "title": "歲時靜物摺物",
+    "license": "CC0",
+    "artist": "窪俊滿",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Kubo_Shunman_-_Cherry_Blossoms_and_Pine_Cones.jpg",
+    "width": 3397,
+    "height": 3806,
+    "pd": true
+  },
+  "jp-shunman-smoking": {
+    "file": "jp-shunman-smoking.jpg",
+    "title": "櫻花下吸煙女子",
+    "license": "Public domain",
+    "artist": "窪俊滿",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Kubo_Shunman_Women_smoking_under_cherry_blossoms.JPG",
+    "width": 2848,
+    "height": 4288,
+    "pd": true
+  },
+  "jp-hashira-e": {
+    "file": "jp-hashira-e.jpg",
+    "title": "縱長條畫幅",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Hashira-e%2C_mitate-e_%28BM_1908%2C0418%2C0.1%29.jpg",
+    "width": 594,
+    "height": 1600,
+    "pd": true
+  },
+  "jp-kuniyoshi-surimono": {
+    "file": "jp-kuniyoshi-surimono.jpg",
+    "title": "私人訂製摺物",
+    "license": "Public domain",
+    "artist": "歌川國芳",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Print%2C_surimono_%28BM_1906%2C1220%2C0.1344%29.jpg",
+    "width": 1442,
+    "height": 1126,
+    "pd": true
+  },
+  "cn-han-gan-horse": {
+    "file": "cn-han-gan-horse.jpg",
+    "title": "唐代御馬",
+    "license": "Public domain",
+    "artist": "韓幹",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Han_Gan_Night-Shining_White.jpg",
+    "width": 650,
+    "height": 369,
+    "pd": true
+  },
+  "tibet-thangka-buddha": {
+    "file": "tibet-thangka-buddha.jpg",
+    "title": "本生故事唐卡",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Shakyamuni_Buddha_with_Avadana_Legend_Scenes_-_Google_Art_Project.jpg",
+    "width": 1647,
+    "height": 2500,
+    "pd": true
+  },
+  "india-kangra-krishna": {
+    "file": "india-kangra-krishna.jpg",
+    "title": "吹笛克利須那",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Kangra畫派",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Krishna_as_Murlidhar%2C_1820-1825%2C_Kangra_School_of_Art%2C_Lahore_Museum.jpg",
+    "width": 440,
+    "height": 672,
+    "pd": true
+  },
+  "persia-rostam-div": {
+    "file": "persia-rostam-div.jpg",
+    "title": "史詩搏鬥",
+    "license": "Public domain",
+    "artist": "波斯細密畫",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Brooklyn_Museum_-_Folio_from_a_%22Shahnameh%22_Rustam_Fighting_Puladvand_Div.jpg",
+    "width": 491,
+    "height": 768,
+    "pd": true
+  },
+  "africa-benin-bronze": {
+    "file": "africa-benin-bronze.jpg",
+    "title": "青銅浮雕",
+    "license": "CC-BY-SA 4.0",
+    "artist": "貝南王國",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Benin_Bronzes_-_British_Museum_-_Joy_of_Museums_%28cropped%29.jpg",
+    "width": 3106,
+    "height": 2808,
+    "pd": true
+  },
+  "cn-rickshaw-lai-afong": {
+    "file": "cn-rickshaw-lai-afong.jpg",
+    "title": "晚清街景",
+    "license": "Public domain",
+    "artist": "賴阿芳",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Sedan_Chair_and_Jinrikisha_by_Lai_Afong%2C_c1880s.jpg",
+    "width": 1600,
+    "height": 1212,
+    "pd": true
+  },
+  "jp-noren": {
+    "file": "jp-noren.jpg",
+    "title": "藍白染布店簾",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Brooklyn_Museum_-_Noren_%28Shop_Curtain%29.jpg",
+    "width": 768,
+    "height": 668,
+    "pd": true
+  },
+  "nat-haeckel-actiniae": {
+    "file": "nat-haeckel-actiniae.jpg",
+    "title": "海葵形態",
+    "license": "Public domain",
+    "artist": "Ernst Haeckel",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Haeckel_Actiniae.jpg",
+    "width": 3289,
+    "height": 4615,
+    "pd": true
+  },
+  "nat-haeckel-stephoid": {
+    "file": "nat-haeckel-stephoid.jpg",
+    "title": "環體放射蟲",
+    "license": "Public domain",
+    "artist": "Ernst Haeckel",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Haeckel_Stephoidea_edit.jpg",
+    "width": 1973,
+    "height": 2800,
+    "pd": true
+  },
+  "nat-haeckel-shell": {
+    "file": "nat-haeckel-shell.jpg",
+    "title": "海螺蝸牛",
+    "license": "Public domain",
+    "artist": "Ernst Haeckel",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Haeckel_Prosobranchia.jpg",
+    "width": 2351,
+    "height": 3298,
+    "pd": true
+  },
+  "nat-bevis-atlas": {
+    "file": "nat-bevis-atlas.jpg",
+    "title": "星座星圖",
+    "license": "Public domain",
+    "artist": "John Bevis",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/1750_star_chart_of_the_constellations_Libra%2C_Cancer_and_neighboring_stars_from_John_Bevis%27_Celestial_Atlas.jpg",
+    "width": 2500,
+    "height": 2125,
+    "pd": true
   }
 }

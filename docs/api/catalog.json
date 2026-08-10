@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 72,
-    "character_count": 1025,
+    "brand_count": 73,
+    "character_count": 1042,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -6325,6 +6325,266 @@
       ]
     },
     {
+      "slug": "global-art-traditions-props-science",
+      "name": "Global Art Traditions, Props & Natural Science",
+      "name_zh": "全球藝術傳統器物與自然科學",
+      "type": "全球藝術 / 器物 / 自然科學",
+      "country": "國際",
+      "era": "公元前-1900s",
+      "creator": "各藝術家/科學家",
+      "publisher": "各美術館/機構",
+      "first_appearance_year": -500,
+      "status": "公有領域 / CC0 / CC-BY",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "africa-benin-bronze",
+          "name": "貝南青銅飾板",
+          "name_zh": "貝南青銅飾板",
+          "role": "全球藝術/器物/自然科學",
+          "first_appearance": "貝南王國",
+          "creator": "貝南王國",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/africa-benin-bronze.jpg",
+          "reference_gallery": [],
+          "appearance": "非洲皇家鑄銅，青銅浮雕。 `非洲皇家鑄銅 青銅浮雕`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球藝術/器物/自然科學做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "cn-han-gan-horse",
+          "name": "韓幹照夜白",
+          "name_zh": "韓幹照夜白",
+          "role": "全球藝術/器物/自然科學",
+          "first_appearance": "韓幹",
+          "creator": "韓幹",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/cn-han-gan-horse.jpg",
+          "reference_gallery": [],
+          "appearance": "唐代白描設色，唐代御馬。 `唐代白描設色 唐代御馬`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球藝術/器物/自然科學做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "cn-rickshaw-lai-afong",
+          "name": "人力車轎",
+          "name_zh": "人力車轎",
+          "role": "全球藝術/器物/自然科學",
+          "first_appearance": "賴阿芳",
+          "creator": "賴阿芳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/cn-rickshaw-lai-afong.jpg",
+          "reference_gallery": [],
+          "appearance": "19世紀攝影，晚清街景。 `19世紀攝影 晚清街景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球藝術/器物/自然科學做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "india-kangra-krishna",
+          "name": "Kangra克利須那",
+          "name_zh": "Kangra克利須那",
+          "role": "全球藝術/器物/自然科學",
+          "first_appearance": "Kangra畫派",
+          "creator": "Kangra畫派",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/india-kangra-krishna.jpg",
+          "reference_gallery": [],
+          "appearance": "印度細密畫，吹笛克利須那。 `印度細密畫 吹笛克利須那`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球藝術/器物/自然科學做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "jp-noren",
+          "name": "暖簾店門簾",
+          "name_zh": "暖簾店門簾",
+          "role": "全球藝術/器物/自然科學",
+          "first_appearance": "佚名",
+          "creator": "佚名",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-noren.jpg",
+          "reference_gallery": [],
+          "appearance": "日本店招布幕，藍白染布店簾。 `日本店招布幕 藍白染布店簾`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球藝術/器物/自然科學做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "nat-bevis-atlas",
+          "name": "貝維斯天體圖",
+          "name_zh": "貝維斯天體圖",
+          "role": "全球藝術/器物/自然科學",
+          "first_appearance": "John Bevis",
+          "creator": "John Bevis",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/nat-bevis-atlas.jpg",
+          "reference_gallery": [],
+          "appearance": "18世紀天文製圖，星座星圖。 `18世紀天文製圖 星座星圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球藝術/器物/自然科學做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "nat-haeckel-actiniae",
+          "name": "海克爾海葵",
+          "name_zh": "海克爾海葵",
+          "role": "全球藝術/器物/自然科學",
+          "first_appearance": "Ernst Haeckel",
+          "creator": "Ernst Haeckel",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/nat-haeckel-actiniae.jpg",
+          "reference_gallery": [],
+          "appearance": "科學版畫，海葵形態。 `科學版畫 海葵形態`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球藝術/器物/自然科學做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "nat-haeckel-shell",
+          "name": "海克爾貝類",
+          "name_zh": "海克爾貝類",
+          "role": "全球藝術/器物/自然科學",
+          "first_appearance": "Ernst Haeckel",
+          "creator": "Ernst Haeckel",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/nat-haeckel-shell.jpg",
+          "reference_gallery": [],
+          "appearance": "科學版畫，海螺蝸牛。 `科學版畫 海螺蝸牛`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球藝術/器物/自然科學做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "nat-haeckel-stephoid",
+          "name": "海克爾放射蟲",
+          "name_zh": "海克爾放射蟲",
+          "role": "全球藝術/器物/自然科學",
+          "first_appearance": "Ernst Haeckel",
+          "creator": "Ernst Haeckel",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/nat-haeckel-stephoid.jpg",
+          "reference_gallery": [],
+          "appearance": "科學版畫，環體放射蟲。 `科學版畫 環體放射蟲`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球藝術/器物/自然科學做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "persia-rostam-div",
+          "name": "波斯魯斯塔姆戰惡魔",
+          "name_zh": "波斯魯斯塔姆戰惡魔",
+          "role": "全球藝術/器物/自然科學",
+          "first_appearance": "波斯細密畫",
+          "creator": "波斯細密畫",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/persia-rostam-div.jpg",
+          "reference_gallery": [],
+          "appearance": "波斯細密畫，史詩搏鬥。 `波斯細密畫 史詩搏鬥`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球藝術/器物/自然科學做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "tibet-thangka-buddha",
+          "name": "西藏唐卡釋迦牟尼",
+          "name_zh": "西藏唐卡釋迦牟尼",
+          "role": "全球藝術/器物/自然科學",
+          "first_appearance": "佚名",
+          "creator": "佚名",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/tibet-thangka-buddha.jpg",
+          "reference_gallery": [],
+          "appearance": "藏傳佛教唐卡，本生故事唐卡。 `藏傳佛教唐卡 本生故事唐卡`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：全球藝術/器物/自然科學做動畫參考 **注意**：Public domain 授權"
+        }
+      ]
+    },
+    {
       "slug": "happy-hooligan",
       "name": "Happy Hooligan",
       "name_zh": "開心流浪漢（Happy Hooligan）",
@@ -11353,6 +11613,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-hashira-e",
+          "name": "柱繪見立繪",
+          "name_zh": "柱繪見立繪",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "佚名",
+          "creator": "佚名",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hashira-e.jpg",
+          "reference_gallery": [],
+          "appearance": "柱繪，縱長條畫幅。 `柱繪 縱長條畫幅`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-hidesato",
           "name": "芳年藤原秀鄉",
           "name_zh": "芳年藤原秀鄉",
@@ -12453,6 +12735,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-kuniyoshi-surimono",
+          "name": "國芳摺物",
+          "name_zh": "國芳摺物",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川國芳",
+          "creator": "歌川國芳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kuniyoshi-surimono.jpg",
+          "reference_gallery": [],
+          "appearance": "surimono摺物，私人訂製摺物。 `surimono摺物 私人訂製摺物`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-kuniyoshi-tokaido",
           "name": "國芳貓東海道五十三次",
           "name_zh": "國芳貓東海道五十三次",
@@ -12783,6 +13087,50 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-shunman-cherry",
+          "name": "窪俊滿櫻花松果",
+          "name_zh": "窪俊滿櫻花松果",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "窪俊滿",
+          "creator": "窪俊滿",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-shunman-cherry.jpg",
+          "reference_gallery": [],
+          "appearance": "surimono摺物，歲時靜物摺物。 `surimono摺物 歲時靜物摺物`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-shunman-smoking",
+          "name": "窪俊滿櫻花吸煙女子",
+          "name_zh": "窪俊滿櫻花吸煙女子",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "窪俊滿",
+          "creator": "窪俊滿",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-shunman-smoking.jpg",
+          "reference_gallery": [],
+          "appearance": "美人繪，櫻花下吸煙女子。 `美人繪 櫻花下吸煙女子`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-shunsho-actor",
           "name": "春章役者立姿",
           "name_zh": "春章役者立姿",
@@ -12975,6 +13323,50 @@
           "image": "assets/img/jp-toyokuni1-lovers.jpg",
           "reference_gallery": [],
           "appearance": "美人繪，美人雙人構圖。 `美人繪 美人雙人構圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-toyokuni2-fan",
+          "name": "豐國二代持扇役者",
+          "name_zh": "豐國二代持扇役者",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川豐國二代",
+          "creator": "歌川豐國二代",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-toyokuni2-fan.jpg",
+          "reference_gallery": [],
+          "appearance": "役者繪，役者持扇全身。 `役者繪 役者持扇全身`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-toyokuni2-fuwa",
+          "name": "豐國二代富波番",
+          "name_zh": "豐國二代富波番",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川豐國二代",
+          "creator": "歌川豐國二代",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-toyokuni2-fuwa.jpg",
+          "reference_gallery": [],
+          "appearance": "役者繪，役者立繪。 `役者繪 役者立繪`",
           "dialogue": "",
           "scene": "",
           "personality": "",
