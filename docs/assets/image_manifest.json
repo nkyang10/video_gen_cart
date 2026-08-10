@@ -3748,5 +3748,165 @@
     "width": 635,
     "height": 349,
     "pd": true
+  },
+  "comic-annie": {
+    "file": "comic-annie.jpg",
+    "title": "紅色捲髮小孤女",
+    "license": "Public domain",
+    "artist": "Harold Gray",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Little_Orphan_Annie_1924-08-05.jpg",
+    "width": 3234,
+    "height": 982,
+    "pd": true
+  },
+  "comic-moon-mullins": {
+    "file": "comic-moon-mullins.jpg",
+    "title": "圓頭大鼻醉漢",
+    "license": "Public domain",
+    "artist": "Frank Willard",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Moonmullins241005.jpg",
+    "width": 278,
+    "height": 357,
+    "pd": true
+  },
+  "comic-winnie-winkle": {
+    "file": "comic-winnie-winkle.jpg",
+    "title": "1930s 都會女子",
+    "license": "Public domain",
+    "artist": "Martin Branner",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Winnie_Winkle_comic_strip_from_1927_%28Wwinkle030627%29.jpg",
+    "width": 768,
+    "height": 1117,
+    "pd": true
+  },
+  "comic-sea-hag": {
+    "file": "comic-sea-hag.png",
+    "title": "綠皮海巫婆",
+    "license": "Public domain",
+    "artist": "E.C. Segar",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sea_Hag_from_Thimble_Theatre_%28December_26%2C_1929%29.png",
+    "width": 1771,
+    "height": 1270,
+    "pd": true
+  },
+  "illust-howard-pyle": {
+    "file": "illust-howard-pyle.jpg",
+    "title": "英俊海盜",
+    "license": "Public domain",
+    "artist": "Howard Pyle",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Pyle_pirate_handsome.jpg",
+    "width": 1800,
+    "height": 2816,
+    "pd": true
+  },
+  "illust-jessie-smith": {
+    "file": "illust-jessie-smith.jpg",
+    "title": "讀書孩童",
+    "license": "Public domain",
+    "artist": "Jessie Smith",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Child_reading_%28Jessie_Willcox_Smith%29.jpg",
+    "width": 259,
+    "height": 396,
+    "pd": true
+  },
+  "illust-wyeth-robinhood": {
+    "file": "illust-wyeth-robinhood.jpg",
+    "title": "羅賓漢",
+    "license": "Public domain",
+    "artist": "N.C. Wyeth",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/N._C._Wyeth_Robin_Hood.jpg",
+    "width": 1026,
+    "height": 1409,
+    "pd": true
+  },
+  "illust-kate-greenaway": {
+    "file": "illust-kate-greenaway.jpg",
+    "title": "維多利亞童裝女孩",
+    "license": "Public domain",
+    "artist": "Kate Greenaway",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Kate_Greenaway_A_Apple_Pie_1886.jpg",
+    "width": 818,
+    "height": 664,
+    "pd": true
+  },
+  "illust-walter-crane": {
+    "file": "illust-walter-crane.jpg",
+    "title": "童謠場景",
+    "license": "Public domain",
+    "artist": "Walter Crane",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/The_Baby%27s_Opera_%28babysoperabookof00cran%29_page_07.jpg",
+    "width": 1791,
+    "height": 1790,
+    "pd": true
+  },
+  "illust-wanda-gag": {
+    "file": "illust-wanda-gag.jpg",
+    "title": "百萬隻貓",
+    "license": "Public domain",
+    "artist": "Wanda Gag",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Wanda_Gag_Millions_of_Cats-book_cover.jpg",
+    "width": 378,
+    "height": 270,
+    "pd": true
+  },
+  "illust-caldecott": {
+    "file": "illust-caldecott.jpg",
+    "title": "跳舞的牛",
+    "license": "Public domain",
+    "artist": "Caldecott",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Hey.diddle.diddle.jpeg",
+    "width": 1359,
+    "height": 1170,
+    "pd": true
+  },
+  "costume-racinet": {
+    "file": "costume-racinet.jpg",
+    "title": "蒙兀兒女性服飾",
+    "license": "Public domain",
+    "artist": "Auguste Racinet",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/MoghulWomen2.jpg",
+    "width": 765,
+    "height": 708,
+    "pd": true
+  },
+  "costume-qianlong": {
+    "file": "costume-qianlong.jpg",
+    "title": "乾隆朝服",
+    "license": "Public domain",
+    "artist": "清代宮廷畫師",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Portrait_of_the_Qianlong_Emperor_in_Court_Dress.jpg",
+    "width": 700,
+    "height": 924,
+    "pd": true
+  },
+  "costume-hanfu": {
+    "file": "costume-hanfu.jpg",
+    "title": "漢服",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Hanfu_1.jpg",
+    "width": 650,
+    "height": 488,
+    "pd": true
+  },
+  "asia-nianhua": {
+    "file": "asia-nianhua.jpg",
+    "title": "門神",
+    "license": "Public domain",
+    "artist": "中國民間工匠",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/1900s_Nianhua_The_Spirit_of_the_Doors_woodblock_print.jpg",
+    "width": 2022,
+    "height": 2835,
+    "pd": true
+  },
+  "asia-minhwa": {
+    "file": "asia-minhwa.jpg",
+    "title": "虎與喜鵲",
+    "license": "Public domain",
+    "artist": "朝鮮畫師",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Minhwa-Tiger_and_magpie-043.jpg",
+    "width": 486,
+    "height": 259,
+    "pd": true
   }
 }

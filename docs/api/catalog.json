@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 41,
-    "character_count": 417,
+    "brand_count": 43,
+    "character_count": 436,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -10369,6 +10369,178 @@
       ]
     },
     {
+      "slug": "pd-childrens-book-illustrators",
+      "name": "PD Children's Book Illustrators",
+      "name_zh": "公版童書插畫家",
+      "type": "童書插畫黃金年代風格",
+      "country": "美國/英國",
+      "era": "1870s-1930s",
+      "creator": "各黃金年代插畫家",
+      "publisher": "各出版社",
+      "first_appearance_year": 1877,
+      "status": "公有領域",
+      "license": {
+        "type": "UNKNOWN",
+        "code": ""
+      },
+      "characters": [
+        {
+          "slug": "illust-caldecott",
+          "name": "科爾德科特（Caldecott）",
+          "name_zh": "科爾德科特（Caldecott）",
+          "role": "童書插畫家風格",
+          "first_appearance": "1880s",
+          "creator": "Randolph Caldecott",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/illust-caldecott.jpg",
+          "reference_gallery": [],
+          "appearance": "黑白+局部淡彩風格，跳舞的牛/童謠。 `黑白+局部淡彩 children's book illustration, 跳舞的牛/童謠`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**童書插畫風格動畫**：黃金年代插畫家風格做動畫視覺參考 **注意**：公版授權"
+        },
+        {
+          "slug": "illust-howard-pyle",
+          "name": "霍華派爾（Howard Pyle）",
+          "name_zh": "霍華派爾（Howard Pyle）",
+          "role": "童書插畫家風格",
+          "first_appearance": "1900s",
+          "creator": "Howard Pyle",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/illust-howard-pyle.jpg",
+          "reference_gallery": [],
+          "appearance": "濃厚油彩+線稿風格，英俊海盜/奪寶。 `濃厚油彩+線稿 children's book illustration, 英俊海盜/奪寶`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**童書插畫風格動畫**：黃金年代插畫家風格做動畫視覺參考 **注意**：公版授權"
+        },
+        {
+          "slug": "illust-jessie-smith",
+          "name": "潔西史密斯（Jessie Smith）",
+          "name_zh": "潔西史密斯（Jessie Smith）",
+          "role": "童書插畫家風格",
+          "first_appearance": "1900s",
+          "creator": "Jessie Smith",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/illust-jessie-smith.jpg",
+          "reference_gallery": [],
+          "appearance": "柔和粉彩風格，讀書孩童/母嬰。 `柔和粉彩 children's book illustration, 讀書孩童/母嬰`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**童書插畫風格動畫**：黃金年代插畫家風格做動畫視覺參考 **注意**：公版授權"
+        },
+        {
+          "slug": "illust-kate-greenaway",
+          "name": "凱特格林威（Kate Greenaway）",
+          "name_zh": "凱特格林威（Kate Greenaway）",
+          "role": "童書插畫家風格",
+          "first_appearance": "1886",
+          "creator": "Kate Greenaway",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/illust-kate-greenaway.jpg",
+          "reference_gallery": [],
+          "appearance": "淡雅水彩風格，維多利亞童裝女孩。 `淡雅水彩 children's book illustration, 維多利亞童裝女孩`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**童書插畫風格動畫**：黃金年代插畫家風格做動畫視覺參考 **注意**：公版授權"
+        },
+        {
+          "slug": "illust-walter-crane",
+          "name": "沃爾特克蘭（Walter Crane）",
+          "name_zh": "沃爾特克蘭（Walter Crane）",
+          "role": "童書插畫家風格",
+          "first_appearance": "1877",
+          "creator": "Walter Crane",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/illust-walter-crane.jpg",
+          "reference_gallery": [],
+          "appearance": "工藝美術平塗風格，童謠場景/幾何邊框。 `工藝美術平塗 children's book illustration, 童謠場景/幾何邊框`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**童書插畫風格動畫**：黃金年代插畫家風格做動畫視覺參考 **注意**：公版授權"
+        },
+        {
+          "slug": "illust-wanda-gag",
+          "name": "旺達佳格（Wanda Gag）",
+          "name_zh": "旺達佳格（Wanda Gag）",
+          "role": "童書插畫家風格",
+          "first_appearance": "1928",
+          "creator": "Wanda Gag",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/illust-wanda-gag.jpg",
+          "reference_gallery": [],
+          "appearance": "木刻版畫風風格，百萬隻貓。 `木刻版畫風 children's book illustration, 百萬隻貓`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**童書插畫風格動畫**：黃金年代插畫家風格做動畫視覺參考 **注意**：公版授權"
+        },
+        {
+          "slug": "illust-wyeth-robinhood",
+          "name": "N.C. 懷思（Robin Hood）",
+          "name_zh": "N.C. 懷思（Robin Hood）",
+          "role": "童書插畫家風格",
+          "first_appearance": "1917",
+          "creator": "N.C. Wyeth",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/illust-wyeth-robinhood.jpg",
+          "reference_gallery": [],
+          "appearance": "戲劇性強光油彩風格，羅賓漢綠林長弓。 `戲劇性強光油彩 children's book illustration, 羅賓漢綠林長弓`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**童書插畫風格動畫**：黃金年代插畫家風格做動畫視覺參考 **注意**：公版授權"
+        }
+      ]
+    },
+    {
       "slug": "pd-golden-age-superheroes",
       "name": "PD Golden-Age Superheroes",
       "name_zh": "公版黃金年代超級英雄",
@@ -12907,6 +13079,94 @@
       },
       "characters": [
         {
+          "slug": "comic-annie",
+          "name": "小安妮（Little Orphan Annie）",
+          "name_zh": "小安妮（Little Orphan Annie）",
+          "role": "復古連環漫畫角色",
+          "first_appearance": "1924",
+          "creator": "Harold Gray",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期格圖已公版；角色名/後期版本仍受保護",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/comic-annie.jpg",
+          "reference_gallery": [],
+          "appearance": "黑白連環格，紅色捲髮無瞳孔小孤女。 `黑白連環格 vintage comic strip character, 紅色捲髮無瞳孔小孤女`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古連環漫畫動畫**：早期公版格圖做復古動畫參考 **⚠️ 注意**：只用早期公版格圖；角色名/後期版本可能仍受保護"
+        },
+        {
+          "slug": "comic-moon-mullins",
+          "name": "月穆林斯（Moon Mullins）",
+          "name_zh": "月穆林斯（Moon Mullins）",
+          "role": "復古連環漫畫角色",
+          "first_appearance": "1923",
+          "creator": "Frank Willard",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期格圖已公版；角色名/後期版本仍受保護",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/comic-moon-mullins.jpg",
+          "reference_gallery": [],
+          "appearance": "粗線條滑稽，圓頭大鼻醉漢叼雪茄。 `粗線條滑稽 vintage comic strip character, 圓頭大鼻醉漢叼雪茄`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古連環漫畫動畫**：早期公版格圖做復古動畫參考 **⚠️ 注意**：只用早期公版格圖；角色名/後期版本可能仍受保護"
+        },
+        {
+          "slug": "comic-sea-hag",
+          "name": "海巫婆（Sea Hag）",
+          "name_zh": "海巫婆（Sea Hag）",
+          "role": "復古連環漫畫角色",
+          "first_appearance": "1929",
+          "creator": "E.C. Segar",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期格圖已公版；角色名/後期版本仍受保護",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/comic-sea-hag.png",
+          "reference_gallery": [],
+          "appearance": "頂針劇場早期，綠皮老婦巫婆。 `頂針劇場早期 vintage comic strip character, 綠皮老婦巫婆`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古連環漫畫動畫**：早期公版格圖做復古動畫參考 **⚠️ 注意**：只用早期公版格圖；角色名/後期版本可能仍受保護"
+        },
+        {
+          "slug": "comic-winnie-winkle",
+          "name": "溫妮溫克爾（Winnie Winkle）",
+          "name_zh": "溫妮溫克爾（Winnie Winkle）",
+          "role": "復古連環漫畫角色",
+          "first_appearance": "1920",
+          "creator": "Martin Branner",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期格圖已公版；角色名/後期版本仍受保護",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/comic-winnie-winkle.jpg",
+          "reference_gallery": [],
+          "appearance": "摩登新女性連環，1930s 都會女子。 `摩登新女性連環 vintage comic strip character, 1930s 都會女子`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古連環漫畫動畫**：早期公版格圖做復古動畫參考 **⚠️ 注意**：只用早期公版格圖；角色名/後期版本可能仍受保護"
+        },
+        {
           "slug": "vintage-blondie",
           "name": "布朗黛（Blondie）",
           "name_zh": "布朗黛（Blondie）",
@@ -13209,6 +13469,200 @@
           "type": "配角",
           "relation": "Pooh 嘅講究朋友，愛整齊",
           "interaction": "1926 原著入面 Rabbit 係愛整齊、有點急性子嘅朋友，成日同 Pooh 嘅貪吃形成對比。佢常被 Pooh/Roo 搞亂間屋，會表現懊惱但其實樂意幫手。同 Pooh 係「整齊 vs 邋遢」互補。\n"
+        }
+      ]
+    },
+    {
+      "slug": "world-costumes-asian-folk-art",
+      "name": "World Costumes & Asian Folk Art",
+      "name_zh": "世界服飾與亞洲民間美術",
+      "type": "服飾設計 / 亞洲民間美術",
+      "country": "國際",
+      "era": "12-19 世紀",
+      "creator": "各國畫師/工匠",
+      "publisher": "各出版社/民間",
+      "first_appearance_year": 1592,
+      "status": "公有領域",
+      "license": {
+        "type": "UNKNOWN",
+        "code": ""
+      },
+      "characters": [
+        {
+          "slug": "asia-emakimono",
+          "name": "日本妖怪繪卷（Emakimono）",
+          "name_zh": "日本妖怪繪卷（Emakimono）",
+          "role": "世界服飾/亞洲民間美術",
+          "first_appearance": "12-19世紀",
+          "creator": "日本畫師",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": null,
+          "reference_gallery": [],
+          "appearance": "水墨設色，橫向連貫敘事卷。 `水墨設色, 橫向連貫敘事卷`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**服飾設計/亞洲風格動畫**：世界服飾/民間美術做視覺參考 **注意**：公版授權"
+        },
+        {
+          "slug": "asia-minhwa",
+          "name": "韓國民畫（Minhwa）",
+          "name_zh": "韓國民畫（Minhwa）",
+          "role": "世界服飾/亞洲民間美術",
+          "first_appearance": "19世紀",
+          "creator": "朝鮮畫師",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/asia-minhwa.jpg",
+          "reference_gallery": [],
+          "appearance": "質樸絹本民俗，虎與喜鵲。 `質樸絹本民俗, 虎與喜鵲`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**服飾設計/亞洲風格動畫**：世界服飾/民間美術做視覺參考 **注意**：公版授權"
+        },
+        {
+          "slug": "asia-nianhua",
+          "name": "中國年畫（Nianhua）",
+          "name_zh": "中國年畫（Nianhua）",
+          "role": "世界服飾/亞洲民間美術",
+          "first_appearance": "1900s",
+          "creator": "中國工匠",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/asia-nianhua.jpg",
+          "reference_gallery": [],
+          "appearance": "高飽和水彩木刻，門神/福祿壽。 `高飽和水彩木刻, 門神/福祿壽`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**服飾設計/亞洲風格動畫**：世界服飾/民間美術做視覺參考 **注意**：公版授權"
+        },
+        {
+          "slug": "asia-wukong",
+          "name": "孫悟空（Wukong）",
+          "name_zh": "孫悟空（Wukong）",
+          "role": "世界服飾/亞洲民間美術",
+          "first_appearance": "1592",
+          "creator": "吳承恩",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": null,
+          "reference_gallery": [],
+          "appearance": "明代木刻插畫，毛臉雷公嘴猴王。 `明代木刻插畫, 毛臉雷公嘴猴王`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**服飾設計/亞洲風格動畫**：世界服飾/民間美術做視覺參考 **注意**：公版授權"
+        },
+        {
+          "slug": "costume-hanfu",
+          "name": "漢服（Hanfu）",
+          "name_zh": "漢服（Hanfu）",
+          "role": "世界服飾/亞洲民間美術",
+          "first_appearance": "近代",
+          "creator": "佚名",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/costume-hanfu.jpg",
+          "reference_gallery": [],
+          "appearance": "漢服穿戴示意，曲裾/直裾漢服。 `漢服穿戴示意, 曲裾/直裾漢服`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**服飾設計/亞洲風格動畫**：世界服飾/民間美術做視覺參考 **注意**：公版授權"
+        },
+        {
+          "slug": "costume-kretschmer",
+          "name": "克雷奇美爾服飾（Kretschmer）",
+          "name_zh": "克雷奇美爾服飾（Kretschmer）",
+          "role": "世界服飾/亞洲民間美術",
+          "first_appearance": "1882",
+          "creator": "Albert Kretschmer",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": null,
+          "reference_gallery": [],
+          "appearance": "19世紀彩色版刻，各國民族服飾。 `19世紀彩色版刻, 各國民族服飾`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**服飾設計/亞洲風格動畫**：世界服飾/民間美術做視覺參考 **注意**：公版授權"
+        },
+        {
+          "slug": "costume-qianlong",
+          "name": "清代朝服（Qianlong）",
+          "name_zh": "清代朝服（Qianlong）",
+          "role": "世界服飾/亞洲民間美術",
+          "first_appearance": "18世紀",
+          "creator": "清代宮廷畫師",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/costume-qianlong.jpg",
+          "reference_gallery": [],
+          "appearance": "清代宮廷肖像，乾隆明黃龍袍。 `清代宮廷肖像, 乾隆明黃龍袍`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**服飾設計/亞洲風格動畫**：世界服飾/民間美術做視覺參考 **注意**：公版授權"
+        },
+        {
+          "slug": "costume-racinet",
+          "name": "拉西內服飾（Racinet）",
+          "name_zh": "拉西內服飾（Racinet）",
+          "role": "世界服飾/亞洲民間美術",
+          "first_appearance": "1888",
+          "creator": "Auguste Racinet",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/costume-racinet.jpg",
+          "reference_gallery": [],
+          "appearance": "精細彩色版刻，全球傳統服飾彩圖。 `精細彩色版刻, 全球傳統服飾彩圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**服飾設計/亞洲風格動畫**：世界服飾/民間美術做視覺參考 **注意**：公版授權"
         }
       ]
     }
