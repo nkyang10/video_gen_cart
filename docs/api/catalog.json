@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 71,
-    "character_count": 1000,
+    "brand_count": 72,
+    "character_count": 1025,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -11001,6 +11001,28 @@
       },
       "characters": [
         {
+          "slug": "jp-aodo-denzen",
+          "name": "亞歐堂田善世界地圖",
+          "name_zh": "亞歐堂田善世界地圖",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "亞歐堂田善",
+          "creator": "亞歐堂田善",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-aodo-denzen.jpg",
+          "reference_gallery": [],
+          "appearance": "洋風畫，洋風世界地圖。 `洋風畫 洋風世界地圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-chikanobu-bijin20",
           "name": "周延新美人合20",
           "name_zh": "周延新美人合20",
@@ -12277,6 +12299,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-kuninao-summer",
+          "name": "國直夏季美人",
+          "name_zh": "國直夏季美人",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川國直",
+          "creator": "歌川國直",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kuninao-summer.jpg",
+          "reference_gallery": [],
+          "appearance": "美人繪，夏季美人立像。 `美人繪 夏季美人立像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-kunisada-cherry",
           "name": "國貞櫻樹美人",
           "name_zh": "國貞櫻樹美人",
@@ -12381,6 +12425,28 @@
           "image": "assets/img/jp-kuniyoshi-skeleton.jpg",
           "reference_gallery": [],
           "appearance": "武者妖怪畫，召喚大骸骨猛鬼。 `武者妖怪畫 召喚大骸骨猛鬼`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-kuniyoshi-suikoden",
+          "name": "國芳水滸豪傑",
+          "name_zh": "國芳水滸豪傑",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川國芳",
+          "creator": "歌川國芳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kuniyoshi-suikoden.jpg",
+          "reference_gallery": [],
+          "appearance": "武者繪，水滸豪傑立像。 `武者繪 水滸豪傑立像`",
           "dialogue": "",
           "scene": "",
           "personality": "",
@@ -12695,6 +12761,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：CC0 授權"
         },
         {
+          "slug": "jp-shiba-kokan",
+          "name": "司馬江漢洋風畫",
+          "name_zh": "司馬江漢洋風畫",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "司馬江漢",
+          "creator": "司馬江漢",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-shiba-kokan.jpg",
+          "reference_gallery": [],
+          "appearance": "洋風畫，洋風透視風景。 `洋風畫 洋風透視風景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-shunsho-actor",
           "name": "春章役者立姿",
           "name_zh": "春章役者立姿",
@@ -12865,6 +12953,28 @@
           "image": "assets/img/jp-toyoharu-theater.jpg",
           "reference_gallery": [],
           "appearance": "浮繪透視法，劇場遠近透視圖。 `浮繪透視法 劇場遠近透視圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-toyokuni1-lovers",
+          "name": "豐國一世雙戀人",
+          "name_zh": "豐國一世雙戀人",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川豐國一世",
+          "creator": "歌川豐國一世",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-toyokuni1-lovers.jpg",
+          "reference_gallery": [],
+          "appearance": "美人繪，美人雙人構圖。 `美人繪 美人雙人構圖`",
           "dialogue": "",
           "scene": "",
           "personality": "",
@@ -23463,6 +23573,464 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
+        }
+      ]
+    },
+    {
+      "slug": "sculpture-engraving-fauna-sports",
+      "name": "Sculpture, Engraving, Regional Fauna & Sports",
+      "name_zh": "雕塑版畫區域動物與運動",
+      "type": "雕塑 / 版畫 / 區域動物 / 運動",
+      "country": "國際",
+      "era": "公元前-2000s",
+      "creator": "各藝術家/攝影師",
+      "publisher": "各美術館/機構",
+      "first_appearance_year": -500,
+      "status": "公有領域 / CC0 / CC-BY",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "animal-capybara",
+          "name": "水豚",
+          "name_zh": "水豚",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Clodomiro Esteves Junior",
+          "creator": "Clodomiro Esteves Junior",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-capybara.jpg",
+          "reference_gallery": [],
+          "appearance": "實景動物照，最大嚙齒類。 `實景動物照 最大嚙齒類`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "animal-emperor-penguin",
+          "name": "皇帝企鵝",
+          "name_zh": "皇帝企鵝",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Christopher Michel",
+          "creator": "Christopher Michel",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-emperor-penguin.jpg",
+          "reference_gallery": [],
+          "appearance": "實景動物照，企鵝跳躍動態。 `實景動物照 企鵝跳躍動態`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "animal-gibbon",
+          "name": "白掌長臂猿",
+          "name_zh": "白掌長臂猿",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "JJ Harrison",
+          "creator": "JJ Harrison",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-gibbon.jpg",
+          "reference_gallery": [],
+          "appearance": "實景動物照，擺盪臂長。 `實景動物照 擺盪臂長`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC-BY 3.0 授權"
+        },
+        {
+          "slug": "animal-jaguar",
+          "name": "美洲豹",
+          "name_zh": "美洲豹",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Charles J. Sharp",
+          "creator": "Charles J. Sharp",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-jaguar.jpg",
+          "reference_gallery": [],
+          "appearance": "實景動物照，強壯斑點貓科。 `實景動物照 強壯斑點貓科`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "animal-piranha",
+          "name": "紅腹食人魚",
+          "name_zh": "紅腹食人魚",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "FF23-fr",
+          "creator": "FF23-fr",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-piranha.jpg",
+          "reference_gallery": [],
+          "appearance": "實景動物照，亞馬遜掠食魚。 `實景動物照 亞馬遜掠食魚`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "animal-platypus",
+          "name": "鴨嘴獸",
+          "name_zh": "鴨嘴獸",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Charles J. Sharp",
+          "creator": "Charles J. Sharp",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-platypus.jpg",
+          "reference_gallery": [],
+          "appearance": "實景動物照，半水生哺乳類。 `實景動物照 半水生哺乳類`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "animal-tapir",
+          "name": "南美貘",
+          "name_zh": "南美貘",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Bernard DUPONT",
+          "creator": "Bernard DUPONT",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-tapir.jpg",
+          "reference_gallery": [],
+          "appearance": "實景動物照，長鼻斑駁。 `實景動物照 長鼻斑駁`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC-BY-SA 2.0 授權"
+        },
+        {
+          "slug": "animal-white-rhino",
+          "name": "白犀牛母子",
+          "name_zh": "白犀牛母子",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Giles Laurent",
+          "creator": "Giles Laurent",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-white-rhino.jpg",
+          "reference_gallery": [],
+          "appearance": "實景動物照，犀牛母仔。 `實景動物照 犀牛母仔`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "animal-wombat",
+          "name": "袋熊",
+          "name_zh": "袋熊",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Charles J. Sharp",
+          "creator": "Charles J. Sharp",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-wombat.jpg",
+          "reference_gallery": [],
+          "appearance": "實景動物照，澳洲袋熊。 `實景動物照 澳洲袋熊`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "cn-guo-xi-early-spring",
+          "name": "郭熙早春圖",
+          "name_zh": "郭熙早春圖",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "郭熙",
+          "creator": "郭熙",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/cn-guo-xi-early-spring.jpg",
+          "reference_gallery": [],
+          "appearance": "宋代水墨山水，宋代巨嶂山水。 `宋代水墨山水 宋代巨嶂山水`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "engr-durer-knight",
+          "name": "杜勒騎士死神魔鬼",
+          "name_zh": "杜勒騎士死神魔鬼",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Albrecht Dürer",
+          "creator": "Albrecht Dürer",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/engr-durer-knight.jpg",
+          "reference_gallery": [],
+          "appearance": "北方文藝復興蝕刻，騎士策馬樹林。 `北方文藝復興蝕刻 騎士策馬樹林`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "engr-rembrandt-entombment",
+          "name": "林布蘭入墓蝕刻",
+          "name_zh": "林布蘭入墓蝕刻",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Rembrandt",
+          "creator": "Rembrandt",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/engr-rembrandt-entombment.png",
+          "reference_gallery": [],
+          "appearance": "荷蘭蝕刻，明暗法蝕刻群像。 `荷蘭蝕刻 明暗法蝕刻群像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "photo-daguerre-boulevard",
+          "name": "達蓋爾坦普爾大道",
+          "name_zh": "達蓋爾坦普爾大道",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Louis Daguerre",
+          "creator": "Louis Daguerre",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/photo-daguerre-boulevard.png",
+          "reference_gallery": [],
+          "appearance": "達蓋爾銀版法，最早街景銀版照。 `達蓋爾銀版法 最早街景銀版照`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "photo-niepce",
+          "name": "尼埃普斯第一張照片",
+          "name_zh": "尼埃普斯第一張照片",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Nicéphore Niépce",
+          "creator": "Nicéphore Niépce",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/photo-niepce.png",
+          "reference_gallery": [],
+          "appearance": "早期攝影，史上第一張照片。 `早期攝影 史上第一張照片`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "sculp-bernini-david",
+          "name": "貝尼尼大衛",
+          "name_zh": "貝尼尼大衛",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Bernini",
+          "creator": "Bernini",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/sculp-bernini-david.jpg",
+          "reference_gallery": [],
+          "appearance": "巴洛克雕塑，擲石扭身動態。 `巴洛克雕塑 擲石扭身動態`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "sculp-discobolus",
+          "name": "擲鐵餅者",
+          "name_zh": "擲鐵餅者",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Myron",
+          "creator": "Myron",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/sculp-discobolus.jpg",
+          "reference_gallery": [],
+          "appearance": "希臘雕塑，投擲運動員動作。 `希臘雕塑 投擲運動員動作`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "sculp-michelangelo-david",
+          "name": "米開朗基羅大衛像",
+          "name_zh": "米開朗基羅大衛像",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Michelangelo",
+          "creator": "Michelangelo",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/sculp-michelangelo-david.jpg",
+          "reference_gallery": [],
+          "appearance": "文藝復興雕塑，男性人體比例。 `文藝復興雕塑 男性人體比例`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "sculp-venus-milo",
+          "name": "米洛的維納斯",
+          "name_zh": "米洛的維納斯",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "古希臘",
+          "creator": "古希臘",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 2.5"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/sculp-venus-milo.jpg",
+          "reference_gallery": [],
+          "appearance": "希臘雕塑，女性人體曲線。 `希臘雕塑 女性人體曲線`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC-BY-SA 2.5 授權"
+        },
+        {
+          "slug": "sport-tennis",
+          "name": "網球揮拍",
+          "name_zh": "網球揮拍",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "Chris Eason",
+          "creator": "Chris Eason",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/sport-tennis.jpg",
+          "reference_gallery": [],
+          "appearance": "實景運動照，揮拍側身。 `實景運動照 揮拍側身`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "sport-wrestling",
+          "name": "希臘羅馬式角力",
+          "name_zh": "希臘羅馬式角力",
+          "role": "雕塑/版畫/區域動物/運動",
+          "first_appearance": "US Army",
+          "creator": "US Army",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/sport-wrestling.jpg",
+          "reference_gallery": [],
+          "appearance": "實景運動照，角力互鎖。 `實景運動照 角力互鎖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：雕塑/版畫/區域動物/運動做動畫參考 **注意**：Public domain 授權"
         }
       ]
     },

@@ -7741,12 +7741,12 @@
   },
   "jp-kuniyoshi-suikoden": {
     "file": "jp-kuniyoshi-suikoden.jpg",
-    "title": "108好漢",
+    "title": "水滸豪傑立像",
     "license": "Public domain",
     "artist": "歌川國芳",
-    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Suikoden_edit.jpg",
-    "width": 1712,
-    "height": 2500,
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honcho_Suikoden_Goketsu_%28BM_1973%2C0723%2C0.29_6%29.jpg",
+    "width": 1070,
+    "height": 1600,
     "pd": true
   },
   "art-waterhouse-hylas": {
@@ -9447,6 +9447,246 @@
     "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Siren_by_John_William_Waterhouse_%281900%29.jpg",
     "width": 1215,
     "height": 1700,
+    "pd": true
+  },
+  "jp-toyokuni1-lovers": {
+    "file": "jp-toyokuni1-lovers.jpg",
+    "title": "美人雙人構圖",
+    "license": "Public domain",
+    "artist": "歌川豐國一世",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_Two_Lovers_-_Utagawa_Toyokuni_I.jpg",
+    "width": 522,
+    "height": 768,
+    "pd": true
+  },
+  "jp-kuninao-summer": {
+    "file": "jp-kuninao-summer.jpg",
+    "title": "夏季美人立像",
+    "license": "Public domain",
+    "artist": "歌川國直",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Utagawa_Kuninao_-_Summer.jpg",
+    "width": 1078,
+    "height": 1600,
+    "pd": true
+  },
+  "jp-shiba-kokan": {
+    "file": "jp-shiba-kokan.jpg",
+    "title": "洋風透視風景",
+    "license": "Public domain",
+    "artist": "司馬江漢",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Shiba_Kokan.JPG",
+    "width": 367,
+    "height": 500,
+    "pd": true
+  },
+  "jp-aodo-denzen": {
+    "file": "jp-aodo-denzen.jpg",
+    "title": "洋風世界地圖",
+    "license": "Public domain",
+    "artist": "亞歐堂田善",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%C5%8Dd%C5%8D_Denzen_Weltkarte.jpg",
+    "width": 1623,
+    "height": 1107,
+    "pd": true
+  },
+  "sculp-michelangelo-david": {
+    "file": "sculp-michelangelo-david.jpg",
+    "title": "男性人體比例",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Michelangelo",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo%27s_David_2015.jpg",
+    "width": 2388,
+    "height": 3824,
+    "pd": true
+  },
+  "sculp-bernini-david": {
+    "file": "sculp-bernini-david.jpg",
+    "title": "擲石扭身動態",
+    "license": "CC0",
+    "artist": "Bernini",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/David_by_Bernini%2C_1623-1624%2C_Villa_Borghese%2C_Rome.jpg",
+    "width": 4498,
+    "height": 3213,
+    "pd": true
+  },
+  "sculp-discobolus": {
+    "file": "sculp-discobolus.jpg",
+    "title": "投擲運動員",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Myron",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG",
+    "width": 3235,
+    "height": 5409,
+    "pd": true
+  },
+  "sculp-venus-milo": {
+    "file": "sculp-venus-milo.jpg",
+    "title": "女性人體曲線",
+    "license": "CC-BY-SA 2.5",
+    "artist": "古希臘",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Venus_de_Milo.JPG",
+    "width": 2272,
+    "height": 1704,
+    "pd": true
+  },
+  "engr-durer-knight": {
+    "file": "engr-durer-knight.jpg",
+    "title": "騎士策馬樹林",
+    "license": "CC0",
+    "artist": "Albrecht Dürer",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Albrecht_D%C3%BCrer%2C_Knight%2C_Death_and_Devil%2C_1513%2C_NGA_598.jpg",
+    "width": 3084,
+    "height": 4000,
+    "pd": true
+  },
+  "engr-rembrandt-entombment": {
+    "file": "engr-rembrandt-entombment.png",
+    "title": "明暗法蝕刻",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Rembrandt",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amsterdam_-_Rijksmuseum_-_Late_Rembrandt_Exposition_2015_-_The_Entombment_Etching_1654.png",
+    "width": 3859,
+    "height": 4734,
+    "pd": true
+  },
+  "cn-guo-xi-early-spring": {
+    "file": "cn-guo-xi-early-spring.jpg",
+    "title": "宋代巨嶂山水",
+    "license": "Public domain",
+    "artist": "郭熙",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Guo_Xi_-_Early_Spring_%28large%29.jpg",
+    "width": 1952,
+    "height": 2839,
+    "pd": true
+  },
+  "photo-niepce": {
+    "file": "photo-niepce.png",
+    "title": "史上第一張照片",
+    "license": "Public domain",
+    "artist": "Nicéphore Niépce",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Window_at_Le_Gras%2C_Joseph_Nic%C3%A9phore_Ni%C3%A9pce%2C_uncompressed_UMN_source.png",
+    "width": 2597,
+    "height": 1805,
+    "pd": true
+  },
+  "photo-daguerre-boulevard": {
+    "file": "photo-daguerre-boulevard.png",
+    "title": "最早街景銀版照",
+    "license": "Public domain",
+    "artist": "Louis Daguerre",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boulevard_du_Temple%2C_midi%2C_Daguerre.png",
+    "width": 1200,
+    "height": 859,
+    "pd": true
+  },
+  "animal-wombat": {
+    "file": "animal-wombat.jpg",
+    "title": "澳洲袋熊",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common_wombat_%28Vombatus_ursinus_tasmaniensis%29_Maria_Island_2.jpg",
+    "width": 3548,
+    "height": 2365,
+    "pd": true
+  },
+  "animal-platypus": {
+    "file": "animal-platypus.jpg",
+    "title": "半水生哺乳類",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Scottsdale.jpg",
+    "width": 5022,
+    "height": 3348,
+    "pd": true
+  },
+  "animal-jaguar": {
+    "file": "animal-jaguar.jpg",
+    "title": "強壯斑點貓科",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jaguar_%28Panthera_onca_palustris%29_male_Rio_Negro_2.JPG",
+    "width": 2839,
+    "height": 1892,
+    "pd": true
+  },
+  "animal-capybara": {
+    "file": "animal-capybara.jpg",
+    "title": "最大嚙齒類",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Clodomiro Esteves Junior",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Capivara%28Hydrochoerus_hydrochaeris%29.jpg",
+    "width": 5952,
+    "height": 3972,
+    "pd": true
+  },
+  "animal-emperor-penguin": {
+    "file": "animal-emperor-penguin.jpg",
+    "title": "企鵝跳躍動態",
+    "license": "CC-BY 2.0",
+    "artist": "Christopher Michel",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Penguin_in_Antarctica_jumping_out_of_the_water.jpg",
+    "width": 3989,
+    "height": 2652,
+    "pd": true
+  },
+  "animal-white-rhino": {
+    "file": "animal-white-rhino.jpg",
+    "title": "犀牛母仔",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Giles Laurent",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/075_White_rhinoceros_mother_and_her_newborn_baby_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg",
+    "width": 2500,
+    "height": 1666,
+    "pd": true
+  },
+  "animal-gibbon": {
+    "file": "animal-gibbon.jpg",
+    "title": "擺盪臂長",
+    "license": "CC-BY 3.0",
+    "artist": "JJ Harrison",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hylobates_lar_-_Kaeng_Krachan_WB.jpg",
+    "width": 2560,
+    "height": 1440,
+    "pd": true
+  },
+  "animal-tapir": {
+    "file": "animal-tapir.jpg",
+    "title": "長鼻斑駁",
+    "license": "CC-BY-SA 2.0",
+    "artist": "Bernard DUPONT",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lowland_Tapir_%28Tapirus_terrestris%29_male_%2827546923604%29.jpg",
+    "width": 4692,
+    "height": 3100,
+    "pd": true
+  },
+  "animal-piranha": {
+    "file": "animal-piranha.jpg",
+    "title": "亞馬遜掠食魚",
+    "license": "CC-BY-SA 3.0",
+    "artist": "FF23-fr",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pygocentrus_nattereri_%28ok%29.JPG",
+    "width": 3888,
+    "height": 2592,
+    "pd": true
+  },
+  "sport-wrestling": {
+    "file": "sport-wrestling.jpg",
+    "title": "角力互鎖",
+    "license": "Public domain",
+    "artist": "US Army",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/GrecoRomanWrestling1.jpg",
+    "width": 990,
+    "height": 1596,
+    "pd": true
+  },
+  "sport-tennis": {
+    "file": "sport-tennis.jpg",
+    "title": "揮拍側身",
+    "license": "CC-BY 2.0",
+    "artist": "Chris Eason",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steffi_Graf_%28Wimbledon_2009%29.jpg",
+    "width": 4288,
+    "height": 2848,
     "pd": true
   }
 }
