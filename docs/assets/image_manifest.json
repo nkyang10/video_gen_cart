@@ -2638,5 +2638,155 @@
     "width": 2592,
     "height": 1944,
     "pd": true
+  },
+  "oss-slonik": {
+    "file": "oss-slonik.png",
+    "title": "Slonik (PostgreSQL)",
+    "license": "PostgreSQL License",
+    "artist": "PostgreSQL",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
+    "width": 1000,
+    "height": 1031,
+    "pd": true
+  },
+  "oss-sakila": {
+    "file": "oss-sakila.png",
+    "title": "Sakila (MySQL)",
+    "license": "CC-BY-SA 3.0",
+    "artist": "MySQL",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Database-mysql.svg",
+    "width": 1000,
+    "height": 1414,
+    "pd": true
+  },
+  "oss-sqlite": {
+    "file": "oss-sqlite.png",
+    "title": "SQLite",
+    "license": "Public domain",
+    "artist": "SQLite",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/SQLite_Logo_4.png",
+    "width": 220,
+    "height": 101,
+    "pd": true
+  },
+  "oss-mongodb": {
+    "file": "oss-mongodb.png",
+    "title": "MongoDB",
+    "license": "Public domain",
+    "artist": "MongoDB",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
+    "width": 1000,
+    "height": 270,
+    "pd": true
+  },
+  "oss-kodee": {
+    "file": "oss-kodee.png",
+    "title": "Kodee (Kotlin)",
+    "license": "CC-BY 4.0",
+    "artist": "Kotlin",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Kodee-mascot-regular.svg",
+    "width": 1000,
+    "height": 1000,
+    "pd": true
+  },
+  "oss-ruby": {
+    "file": "oss-ruby.png",
+    "title": "Ruby",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Ruby",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg",
+    "width": 1000,
+    "height": 997,
+    "pd": true
+  },
+  "oss-nodejs": {
+    "file": "oss-nodejs.png",
+    "title": "Node.js",
+    "license": "MIT",
+    "artist": "Node.js",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+    "width": 1000,
+    "height": 612,
+    "pd": true
+  },
+  "oss-geeko": {
+    "file": "oss-geeko.png",
+    "title": "Geeko (openSUSE)",
+    "license": "CC-BY-SA 3.0",
+    "artist": "openSUSE",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/OpenSUSE_Logo.svg",
+    "width": 1000,
+    "height": 626,
+    "pd": true
+  },
+  "oss-arch": {
+    "file": "oss-arch.png",
+    "title": "Arch Linux",
+    "license": "GPL v2+",
+    "artist": "Arch Linux",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Arch_Linux_%22Crystal%22_icon.svg",
+    "width": 1000,
+    "height": 1000,
+    "pd": true
+  },
+  "oss-phippy": {
+    "file": "oss-phippy.png",
+    "title": "Phippy (K8s)",
+    "license": "CC-BY",
+    "artist": "Kubernetes",
+    "source_url": "https://raw.githubusercontent.com/cncf/artwork/main/archived/phippy-and-friends/phippy/color/phippy-color.svg",
+    "width": 1000,
+    "height": 1794,
+    "pd": true
+  },
+  "oss-captain-kube": {
+    "file": "oss-captain-kube.png",
+    "title": "Captain Kube (K8s)",
+    "license": "CC-BY",
+    "artist": "Kubernetes",
+    "source_url": "https://raw.githubusercontent.com/cncf/artwork/main/archived/phippy-and-friends/captainkube/color/captainkube-color.svg",
+    "width": 1000,
+    "height": 1706,
+    "pd": true
+  },
+  "oss-hazel": {
+    "file": "oss-hazel.png",
+    "title": "Hazel (Helm)",
+    "license": "CC-BY",
+    "artist": "Helm",
+    "source_url": "https://raw.githubusercontent.com/cncf/artwork/main/archived/phippy-and-friends/hazel/color/hazel-color.png",
+    "width": 1564,
+    "height": 1564,
+    "pd": true
+  },
+  "oss-goldie": {
+    "file": "oss-goldie.png",
+    "title": "Goldie (Go Gopher)",
+    "license": "CC-BY",
+    "artist": "Go/etcd",
+    "source_url": "https://raw.githubusercontent.com/cncf/artwork/main/archived/phippy-and-friends/goldie/color/goldie-color.png",
+    "width": 1800,
+    "height": 2328,
+    "pd": true
+  },
+  "oss-zee": {
+    "file": "oss-zee.png",
+    "title": "Zee (etcd)",
+    "license": "CC-BY",
+    "artist": "etcd",
+    "source_url": "https://raw.githubusercontent.com/cncf/artwork/main/archived/phippy-and-friends/zee/color/zee-color.svg",
+    "width": 1000,
+    "height": 978,
+    "pd": true
+  },
+  "oss-linky": {
+    "file": "oss-linky.png",
+    "title": "Linky (Linkerd)",
+    "license": "CC-BY",
+    "artist": "Linkerd",
+    "source_url": "https://raw.githubusercontent.com/cncf/artwork/main/archived/phippy-and-friends/linky/color/linky-color.svg",
+    "width": 1000,
+    "height": 917,
+    "pd": true
   }
 }

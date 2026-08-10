@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 32,
-    "character_count": 271,
+    "brand_count": 33,
+    "character_count": 286,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -8321,6 +8321,354 @@
           "scene": "科技社群、WordPress 活動 開放源碼精神",
           "personality": "長鼻子嘅圓胖小怪獸，淺灰褐色 頭上一小撮毛、小眼睛、友善微笑 親切、萌、代表開放原始碼社群",
           "ai_usage": "**開源吉祥物**：親切長鼻小怪獸 **注意**：CC0 可任意使用；官方 GPLv2+ 需遵守"
+        }
+      ]
+    },
+    {
+      "slug": "oss-software-mascots",
+      "name": "OSS Software Mascots",
+      "name_zh": "開源軟體吉祥物",
+      "type": "開源軟體/資料庫吉祥物",
+      "country": "國際",
+      "era": "1990s-2010s",
+      "creator": "各開源專案",
+      "publisher": "各開源基金會",
+      "first_appearance_year": 1992,
+      "status": "CC0 / CC-BY / CC-BY-SA / PD / BSD 自由授權",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "oss-arch",
+          "name": "Arch Linux",
+          "name_zh": "Arch Linux",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Arch Linux",
+          "creator": "Arch Linux 社群",
+          "license": {
+            "type": "CC",
+            "code": "GPL v2+"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "Arch Linux 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-arch.png",
+          "reference_gallery": [],
+          "appearance": "藍色 Crystal 稜角文字。 `open source software mascot, 藍色 Crystal 稜角文字`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：GPL v2+ 授權；Arch Linux 名稱可能係商標"
+        },
+        {
+          "slug": "oss-captain-kube",
+          "name": "Captain Kube（K8s 指揮官）",
+          "name_zh": "Captain Kube（K8s 指揮官）",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Kubernetes",
+          "creator": "Kubernetes 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "Kubernetes 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-captain-kube.png",
+          "reference_gallery": [],
+          "appearance": "紅艦長帽水手風角色。 `open source software mascot, 紅艦長帽水手風角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY 授權；Kubernetes 名稱可能係商標"
+        },
+        {
+          "slug": "oss-geeko",
+          "name": "Geeko（openSUSE）",
+          "name_zh": "Geeko（openSUSE）",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "openSUSE",
+          "creator": "openSUSE 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "openSUSE 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-geeko.png",
+          "reference_gallery": [],
+          "appearance": "綠色變色龍側影。 `open source software mascot, 綠色變色龍側影`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY-SA 3.0 授權；openSUSE 名稱可能係商標"
+        },
+        {
+          "slug": "oss-goldie",
+          "name": "Goldie（Go Gopher）",
+          "name_zh": "Goldie（Go Gopher）",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Go/etcd",
+          "creator": "Go/etcd 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "Go/etcd 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-goldie.png",
+          "reference_gallery": [],
+          "appearance": "金色地鼠。 `open source software mascot, 金色地鼠`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY 授權；Go/etcd 名稱可能係商標"
+        },
+        {
+          "slug": "oss-hazel",
+          "name": "Hazel（Helm 刺蝟）",
+          "name_zh": "Hazel（Helm 刺蝟）",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Helm",
+          "creator": "Helm 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "Helm 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-hazel.png",
+          "reference_gallery": [],
+          "appearance": "紫色刺蝟捲成球。 `open source software mascot, 紫色刺蝟捲成球`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY 授權；Helm 名稱可能係商標"
+        },
+        {
+          "slug": "oss-kodee",
+          "name": "Kodee（Kotlin 吉祥物）",
+          "name_zh": "Kodee（Kotlin 吉祥物）",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Kotlin",
+          "creator": "Kotlin 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "Kotlin 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-kodee.png",
+          "reference_gallery": [],
+          "appearance": "紫黑外星/機器人圓臉。 `open source software mascot, 紫黑外星/機器人圓臉`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY 4.0 授權；Kotlin 名稱可能係商標"
+        },
+        {
+          "slug": "oss-linky",
+          "name": "Linky（Linkerd 龍蝦）",
+          "name_zh": "Linky（Linkerd 龍蝦）",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Linkerd",
+          "creator": "Linkerd 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "Linkerd 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-linky.png",
+          "reference_gallery": [],
+          "appearance": "粉紅帶刺青龍蝦。 `open source software mascot, 粉紅帶刺青龍蝦`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY 授權；Linkerd 名稱可能係商標"
+        },
+        {
+          "slug": "oss-mongodb",
+          "name": "MongoDB",
+          "name_zh": "MongoDB",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "MongoDB",
+          "creator": "MongoDB 社群",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "MongoDB 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-mongodb.png",
+          "reference_gallery": [],
+          "appearance": "綠葉圖符+字樣。 `open source software mascot, 綠葉圖符+字樣`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：Public domain 授權；MongoDB 名稱可能係商標"
+        },
+        {
+          "slug": "oss-nodejs",
+          "name": "Node.js",
+          "name_zh": "Node.js",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Node.js",
+          "creator": "Node.js 社群",
+          "license": {
+            "type": "CC",
+            "code": "MIT"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "Node.js 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-nodejs.png",
+          "reference_gallery": [],
+          "appearance": "綠色六角形編織帶。 `open source software mascot, 綠色六角形編織帶`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：MIT 授權；Node.js 名稱可能係商標"
+        },
+        {
+          "slug": "oss-phippy",
+          "name": "Phippy（K8s 長頸鹿）",
+          "name_zh": "Phippy（K8s 長頸鹿）",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Kubernetes",
+          "creator": "Kubernetes 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "Kubernetes 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-phippy.png",
+          "reference_gallery": [],
+          "appearance": "黃色帶斑紋長頸鹿。 `open source software mascot, 黃色帶斑紋長頸鹿`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY 授權；Kubernetes 名稱可能係商標"
+        },
+        {
+          "slug": "oss-ruby",
+          "name": "Ruby",
+          "name_zh": "Ruby",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Ruby",
+          "creator": "Ruby 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "Ruby 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-ruby.png",
+          "reference_gallery": [],
+          "appearance": "燙金寶石造型。 `open source software mascot, 燙金寶石造型`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY-SA 3.0 授權；Ruby 名稱可能係商標"
+        },
+        {
+          "slug": "oss-sakila",
+          "name": "Sakila（MySQL 海豚）",
+          "name_zh": "Sakila（MySQL 海豚）",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "MySQL",
+          "creator": "MySQL 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "MySQL 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-sakila.png",
+          "reference_gallery": [],
+          "appearance": "跳躍小海豚+MySQL字樣。 `open source software mascot, 跳躍小海豚+MySQL字樣`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY-SA 3.0 授權；MySQL 名稱可能係商標"
+        },
+        {
+          "slug": "oss-slonik",
+          "name": "Slonik（PostgreSQL 大象）",
+          "name_zh": "Slonik（PostgreSQL 大象）",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "PostgreSQL",
+          "creator": "PostgreSQL 社群",
+          "license": {
+            "type": "CC",
+            "code": "PostgreSQL License"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "PostgreSQL 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-slonik.png",
+          "reference_gallery": [],
+          "appearance": "藍白雙線大象、象鼻上揚。 `open source software mascot, 藍白雙線大象、象鼻上揚`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：PostgreSQL License 授權；PostgreSQL 名稱可能係商標"
+        },
+        {
+          "slug": "oss-sqlite",
+          "name": "SQLite",
+          "name_zh": "SQLite",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "SQLite",
+          "creator": "SQLite 社群",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "SQLite 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-sqlite.png",
+          "reference_gallery": [],
+          "appearance": "青銅稜柱標誌。 `open source software mascot, 青銅稜柱標誌`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：Public domain 授權；SQLite 名稱可能係商標"
+        },
+        {
+          "slug": "oss-zee",
+          "name": "Zee（etcd 鰻魚）",
+          "name_zh": "Zee（etcd 鰻魚）",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "etcd",
+          "creator": "etcd 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "etcd 名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-zee.png",
+          "reference_gallery": [],
+          "appearance": "藍紫蛇狀鰻魚。 `open source software mascot, 藍紫蛇狀鰻魚`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY 授權；etcd 名稱可能係商標"
         }
       ]
     },
