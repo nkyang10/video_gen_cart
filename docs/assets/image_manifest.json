@@ -4148,5 +4148,135 @@
     "width": 1200,
     "height": 263,
     "pd": true
+  },
+  "gap-dragon-george": {
+    "file": "gap-dragon-george.jpg",
+    "title": "屠龍騎士與巨龍",
+    "license": "CC0",
+    "artist": "Dürer 1504",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Saint_George_and_the_Dragon_MET_DP816411.jpg",
+    "width": 2548,
+    "height": 3703,
+    "pd": true
+  },
+  "gap-metropolis-robot": {
+    "file": "gap-metropolis-robot.jpg",
+    "title": "金屬女機器人",
+    "license": "Public domain",
+    "artist": "Fritz Lang 1927",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Maschinenmensch_in_a_scene_from_Metropolis.jpg",
+    "width": 1140,
+    "height": 713,
+    "pd": true
+  },
+  "gap-ninja-jiraiya": {
+    "file": "gap-ninja-jiraiya.png",
+    "title": "忍者斬巨蟒",
+    "license": "Public domain",
+    "artist": "歌川國芳 1843",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Ogata_Shuma_vs_Python_from_Suikoden_of_Japanese_Heroes_by_Utagawa_Kuniyoshi.png",
+    "width": 733,
+    "height": 1024,
+    "pd": true
+  },
+  "gap-knight": {
+    "file": "gap-knight.jpg",
+    "title": "冊封騎士",
+    "license": "CC0",
+    "artist": "H.M. Paget 1897",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/07_The_Duke_deliberately_drew_his_sword_and_dubbed_Richard_a_knight-Illustration_by_H._M._Paget_%281856-1936%29_for_The_Black_Arrow_by_RL_Stevenson_-_courtesy_of_British_Library.jpg",
+    "width": 1077,
+    "height": 1801,
+    "pd": true
+  },
+  "gap-cowboy": {
+    "file": "gap-cowboy.jpg",
+    "title": "牛仔騎馬",
+    "license": "CC-BY 2.0",
+    "artist": "Tony Oliver",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Cowboy_%26_horse.jpg",
+    "width": 1387,
+    "height": 900,
+    "pd": true
+  },
+  "gap-western-hardman": {
+    "file": "gap-western-hardman.jpg",
+    "title": "粗獷牛仔持槍",
+    "license": "Public domain",
+    "artist": "Rudolph Belarski 1934",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Breckinridge_Elkins%2C_illustration_by_Rudolph_Belarski.jpg",
+    "width": 2373,
+    "height": 1373,
+    "pd": true
+  },
+  "gap-tiger": {
+    "file": "gap-tiger.jpg",
+    "title": "老虎側站",
+    "license": "Public domain",
+    "artist": "Gustav Mützel",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Koenigstiger-drawing.jpg",
+    "width": 1558,
+    "height": 1210,
+    "pd": true
+  },
+  "gap-great-white": {
+    "file": "gap-great-white.png",
+    "title": "大白鯊側視",
+    "license": "CC0",
+    "artist": "PicaPica",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/The-Great-White-Shark.png",
+    "width": 2400,
+    "height": 1626,
+    "pd": true
+  },
+  "gap-rhino": {
+    "file": "gap-rhino.png",
+    "title": "犀牛側站",
+    "license": "Public domain",
+    "artist": "Dürer 1515",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/D%C3%BCrer_rhino_full.png",
+    "width": 879,
+    "height": 730,
+    "pd": true
+  },
+  "gap-elephant": {
+    "file": "gap-elephant.jpg",
+    "title": "大象線稿",
+    "license": "Public domain",
+    "artist": "D.S. Walker 1921",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Elephant_Drawing.jpg",
+    "width": 511,
+    "height": 268,
+    "pd": true
+  },
+  "gap-penguin": {
+    "file": "gap-penguin.jpg",
+    "title": "帝王企鵝群像",
+    "license": "Public domain",
+    "artist": "NOAA",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/PENGUIN_LIFECYCLE_H.JPG",
+    "width": 1800,
+    "height": 1216,
+    "pd": true
+  },
+  "gap-witch": {
+    "file": "gap-witch.png",
+    "title": "巫婆騎掃帚",
+    "license": "Public domain",
+    "artist": "Wikimedia",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Halloween-witch.svg",
+    "width": 1000,
+    "height": 563,
+    "pd": true
+  },
+  "gap-leprechaun": {
+    "file": "gap-leprechaun.jpg",
+    "title": "小矮人仙人",
+    "license": "Public domain",
+    "artist": "1892 童話",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Celtic_Fairy_Tales-1892-048-1.jpg",
+    "width": 1016,
+    "height": 986,
+    "pd": true
   }
 }

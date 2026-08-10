@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 43,
-    "character_count": 460,
+    "brand_count": 44,
+    "character_count": 473,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -9692,6 +9692,310 @@
           "type": "配角",
           "relation": "Mutt 同 Jeff 係一高一矮嘅雙主角拍檔",
           "interaction": "Mutt and Jeff 本質係「雙主角」漫畫——高瘦賭徒 Mutt 同矮仔 Jeff 一齊歷險。佢哋互相係對方最重要嘅「配角」：Mutt 滿腦子發財夢、Jeff 務實吐槽，成日一齊搞發財大計（賽馬、金礦、投資）然後失敗收場。\n"
+        }
+      ]
+    },
+    {
+      "slug": "occupations-monsters",
+      "name": "Occupations & Monsters",
+      "name_zh": "職業角色與怪獸",
+      "type": "職業角色 / 怪獸 / 動物 / 節慶",
+      "country": "國際",
+      "era": "1500s-1930s",
+      "creator": "各經典插畫家",
+      "publisher": "各出版社/博物館",
+      "first_appearance_year": 1504,
+      "status": "公有領域 / CC0 / CC-BY",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "gap-cowboy",
+          "name": "西部牛仔（Cowboy）",
+          "name_zh": "西部牛仔（Cowboy）",
+          "role": "職業/怪獸/動物/節慶角色",
+          "first_appearance": "Tony Oliver",
+          "creator": "Tony Oliver",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/gap-cowboy.jpg",
+          "reference_gallery": [],
+          "appearance": "鋼筆墨線素描，寬檐帽牛仔騎馬。 `鋼筆墨線素描 寬檐帽牛仔騎馬`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：職業/怪獸/動物/節慶角色做動畫參考 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "gap-dragon-george",
+          "name": "屠龍騎士（St George & Dragon）",
+          "name_zh": "屠龍騎士（St George & Dragon）",
+          "role": "職業/怪獸/動物/節慶角色",
+          "first_appearance": "Dürer 1504",
+          "creator": "Dürer 1504",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/gap-dragon-george.jpg",
+          "reference_gallery": [],
+          "appearance": "文藝復興木刻，騎士持矛刺噴火巨龍。 `文藝復興木刻 騎士持矛刺噴火巨龍`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：職業/怪獸/動物/節慶角色做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "gap-elephant",
+          "name": "大象（Elephant）",
+          "name_zh": "大象（Elephant）",
+          "role": "職業/怪獸/動物/節慶角色",
+          "first_appearance": "D.S. Walker 1921",
+          "creator": "D.S. Walker 1921",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/gap-elephant.jpg",
+          "reference_gallery": [],
+          "appearance": "黑白線稿，大象線稿。 `黑白線稿 大象線稿`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：職業/怪獸/動物/節慶角色做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "gap-great-white",
+          "name": "大白鯊（Great White）",
+          "name_zh": "大白鯊（Great White）",
+          "role": "職業/怪獸/動物/節慶角色",
+          "first_appearance": "PicaPica",
+          "creator": "PicaPica",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/gap-great-white.png",
+          "reference_gallery": [],
+          "appearance": "簡潔線稿向量，大白鯊流線側視。 `簡潔線稿向量 大白鯊流線側視`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：職業/怪獸/動物/節慶角色做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "gap-knight",
+          "name": "全甲騎士（Knight）",
+          "name_zh": "全甲騎士（Knight）",
+          "role": "職業/怪獸/動物/節慶角色",
+          "first_appearance": "H.M. Paget 1897",
+          "creator": "H.M. Paget 1897",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/gap-knight.jpg",
+          "reference_gallery": [],
+          "appearance": "維多利亞插畫，全甲騎士持長劍。 `維多利亞插畫 全甲騎士持長劍`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：職業/怪獸/動物/節慶角色做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "gap-leprechaun",
+          "name": "綠野小仙人（Leprechaun）",
+          "name_zh": "綠野小仙人（Leprechaun）",
+          "role": "職業/怪獸/動物/節慶角色",
+          "first_appearance": "1892 童話",
+          "creator": "1892 童話",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/gap-leprechaun.jpg",
+          "reference_gallery": [],
+          "appearance": "19世紀童話木刻，小矮人仙人。 `19世紀童話木刻 小矮人仙人`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：職業/怪獸/動物/節慶角色做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "gap-metropolis-robot",
+          "name": "大都會機器人（Metropolis）",
+          "name_zh": "大都會機器人（Metropolis）",
+          "role": "職業/怪獸/動物/節慶角色",
+          "first_appearance": "Fritz Lang 1927",
+          "creator": "Fritz Lang 1927",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/gap-metropolis-robot.jpg",
+          "reference_gallery": [],
+          "appearance": "德國表現主義，金屬光澤女機器人。 `德國表現主義 金屬光澤女機器人`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：職業/怪獸/動物/節慶角色做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "gap-ninja-jiraiya",
+          "name": "忍者自來也（Jiraiya）",
+          "name_zh": "忍者自來也（Jiraiya）",
+          "role": "職業/怪獸/動物/節慶角色",
+          "first_appearance": "歌川國芳 1843",
+          "creator": "歌川國芳 1843",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/gap-ninja-jiraiya.png",
+          "reference_gallery": [],
+          "appearance": "江戶浮世繪，忍者斬巨蟒召大蛤蟆。 `江戶浮世繪 忍者斬巨蟒召大蛤蟆`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：職業/怪獸/動物/節慶角色做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "gap-penguin",
+          "name": "帝王企鵝（Penguin）",
+          "name_zh": "帝王企鵝（Penguin）",
+          "role": "職業/怪獸/動物/節慶角色",
+          "first_appearance": "NOAA",
+          "creator": "NOAA",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/gap-penguin.jpg",
+          "reference_gallery": [],
+          "appearance": "科學教育插圖，帝王企鵝生活史群像。 `科學教育插圖 帝王企鵝生活史群像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：職業/怪獸/動物/節慶角色做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "gap-rhino",
+          "name": "Dürer 犀牛（Rhino）",
+          "name_zh": "Dürer 犀牛（Rhino）",
+          "role": "職業/怪獸/動物/節慶角色",
+          "first_appearance": "Dürer 1515",
+          "creator": "Dürer 1515",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/gap-rhino.png",
+          "reference_gallery": [],
+          "appearance": "文藝復興木刻，犀牛側站板甲皮褶。 `文藝復興木刻 犀牛側站板甲皮褶`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：職業/怪獸/動物/節慶角色做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "gap-tiger",
+          "name": "孟加拉虎（Tiger）",
+          "name_zh": "孟加拉虎（Tiger）",
+          "role": "職業/怪獸/動物/節慶角色",
+          "first_appearance": "Gustav Mützel",
+          "creator": "Gustav Mützel",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/gap-tiger.jpg",
+          "reference_gallery": [],
+          "appearance": "19世紀動物版畫，老虎側站條紋清晰。 `19世紀動物版畫 老虎側站條紋清晰`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：職業/怪獸/動物/節慶角色做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "gap-western-hardman",
+          "name": "西部硬漢（Western Hardman）",
+          "name_zh": "西部硬漢（Western Hardman）",
+          "role": "職業/怪獸/動物/節慶角色",
+          "first_appearance": "Rudolph Belarski 1934",
+          "creator": "Rudolph Belarski 1934",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/gap-western-hardman.jpg",
+          "reference_gallery": [],
+          "appearance": "1930s 通俗雜誌，粗獷牛仔持槍。 `1930s 通俗雜誌 粗獷牛仔持槍`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：職業/怪獸/動物/節慶角色做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "gap-witch",
+          "name": "萬聖節女巫（Witch）",
+          "name_zh": "萬聖節女巫（Witch）",
+          "role": "職業/怪獸/動物/節慶角色",
+          "first_appearance": "Wikimedia",
+          "creator": "Wikimedia",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/gap-witch.png",
+          "reference_gallery": [],
+          "appearance": "現代簡潔向量，巫婆尖帽騎掃帚。 `現代簡潔向量 巫婆尖帽騎掃帚`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：職業/怪獸/動物/節慶角色做動畫參考 **注意**：Public domain 授權"
         }
       ]
     },
