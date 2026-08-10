@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 69,
-    "character_count": 968,
+    "brand_count": 70,
+    "character_count": 984,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -11155,6 +11155,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-eisho-goshoguruma",
+          "name": "榮昌御所車",
+          "name_zh": "榮昌御所車",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "鳥高齋榮昌",
+          "creator": "鳥高齋榮昌",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-eisho-goshoguruma.jpg",
+          "reference_gallery": [],
+          "appearance": "美人繪，宮裝貴婦牛車。 `美人繪 宮裝貴婦牛車`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-eizan-courtesan",
           "name": "英山持杯遊女",
           "name_zh": "英山持杯遊女",
@@ -11221,6 +11243,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：CC0 授權"
         },
         {
+          "slug": "jp-genji-emaki",
+          "name": "源氏物語繪卷宿木",
+          "name_zh": "源氏物語繪卷宿木",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "藤原隆能",
+          "creator": "藤原隆能",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-genji-emaki.jpg",
+          "reference_gallery": [],
+          "appearance": "大和繪手卷，平安貴族宅邸內景。 `大和繪手卷 平安貴族宅邸內景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-hanami-kiyonaga",
           "name": "飛鳥山花見",
           "name_zh": "飛鳥山花見",
@@ -11263,6 +11307,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hasegawa-pines",
+          "name": "等伯松林圖屏風",
+          "name_zh": "等伯松林圖屏風",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "長谷川等伯",
+          "creator": "長谷川等伯",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hasegawa-pines.jpg",
+          "reference_gallery": [],
+          "appearance": "水墨畫屏風，水墨松柏林屏風。 `水墨畫屏風 水墨松柏林屏風`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-hidesato",
@@ -12234,9 +12300,9 @@
         },
         {
           "slug": "jp-kuniyoshi-skeleton",
-          "name": "妖怪骨骼武士",
-          "name_zh": "妖怪骨骼武士",
-          "role": "日式藝術/浮世繪/武士/祭典",
+          "name": "國芳瀧夜叉姬大骸骨",
+          "name_zh": "國芳瀧夜叉姬大骸骨",
+          "role": "日式藝術/浮世繪",
           "first_appearance": "歌川國芳",
           "creator": "歌川國芳",
           "license": {
@@ -12248,11 +12314,11 @@
           "verified": "2026-08-10",
           "image": "assets/img/jp-kuniyoshi-skeleton.jpg",
           "reference_gallery": [],
-          "appearance": "武者妖怪繪，武士對骸骨妖怪。 `武者妖怪繪 武士對骸骨妖怪`",
+          "appearance": "武者妖怪畫，召喚大骸骨猛鬼。 `武者妖怪畫 召喚大骸骨猛鬼`",
           "dialogue": "",
           "scene": "",
           "personality": "",
-          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-kuniyoshi-tokaido",
@@ -12451,6 +12517,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：CC-BY 4.0 授權"
+        },
+        {
+          "slug": "jp-sekka-leaves",
+          "name": "神坂雪佳拾葉",
+          "name_zh": "神坂雪佳拾葉",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "神坂雪佳",
+          "creator": "神坂雪佳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-sekka-leaves.jpg",
+          "reference_gallery": [],
+          "appearance": "琳派，拾葉人物圖樣。 `琳派 拾葉人物圖樣`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-sesshu-haboku",
@@ -12850,25 +12938,25 @@
         },
         {
           "slug": "jp-yoshitoshi-demon",
-          "name": "逢魔時遇鬼",
-          "name_zh": "逢魔時遇鬼",
-          "role": "日式藝術/浮世繪/武士/祭典",
+          "name": "芳年金神長五郎鬼怪",
+          "name_zh": "芳年金神長五郎鬼怪",
+          "role": "日式藝術/浮世繪",
           "first_appearance": "月岡芳年",
           "creator": "月岡芳年",
           "license": {
-            "type": "PD",
-            "code": "public-domain"
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
           },
-          "protected_portion": "無（公版）",
+          "protected_portion": "無（可自由使用，需遵守授權）",
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/jp-yoshitoshi-demon.jpg",
           "reference_gallery": [],
-          "appearance": "妖怪合戰，武士背女鬼顯形。 `妖怪合戰 武士背女鬼顯形`",
+          "appearance": "武者怪異畫，武者對峙鬼怪。 `武者怪異畫 武者對峙鬼怪`",
           "dialogue": "",
           "scene": "",
           "personality": "",
-          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC-BY-SA 4.0 授權"
         },
         {
           "slug": "jp-yoshitoshi-enlightenment",
@@ -15571,6 +15659,288 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        }
+      ]
+    },
+    {
+      "slug": "master-paintings-cities-marine",
+      "name": "Master Paintings, Cities & Marine Activities",
+      "name_zh": "名畫城市與海洋活動",
+      "type": "名畫 / 城市街道 / 海洋活動",
+      "country": "國際",
+      "era": "1600s-1900s",
+      "creator": "各經典藝術家",
+      "publisher": "各美術館/機構",
+      "first_appearance_year": 1600,
+      "status": "公有領域 / CC0 / CC-BY",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "art-constable-haywain",
+          "name": "康斯特勃乾草車",
+          "name_zh": "康斯特勃乾草車",
+          "role": "名畫/城市街道/海洋活動",
+          "first_appearance": "Constable",
+          "creator": "Constable",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-constable-haywain.jpg",
+          "reference_gallery": [],
+          "appearance": "英國浪漫風景，英式鄉村小溪。 `英國浪漫風景 英式鄉村小溪`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/城市街道/海洋活動做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-gainsborough-andrews",
+          "name": "根茲博羅安德魯斯夫婦",
+          "name_zh": "根茲博羅安德魯斯夫婦",
+          "role": "名畫/城市街道/海洋活動",
+          "first_appearance": "Gainsborough",
+          "creator": "Gainsborough",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-gainsborough-andrews.jpg",
+          "reference_gallery": [],
+          "appearance": "洛可可肖像，鄉紳夫婦田園。 `洛可可肖像 鄉紳夫婦田園`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/城市街道/海洋活動做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-hals-merrymakers",
+          "name": "哈爾斯酒宴歡樂者",
+          "name_zh": "哈爾斯酒宴歡樂者",
+          "role": "名畫/城市街道/海洋活動",
+          "first_appearance": "Frans Hals",
+          "creator": "Frans Hals",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-hals-merrymakers.jpg",
+          "reference_gallery": [],
+          "appearance": "巴洛克風俗畫，狂歡宴飲群像。 `巴洛克風俗畫 狂歡宴飲群像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/城市街道/海洋活動做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-ingres-odalisque",
+          "name": "安格爾大宮女",
+          "name_zh": "安格爾大宮女",
+          "role": "名畫/城市街道/海洋活動",
+          "first_appearance": "Ingres",
+          "creator": "Ingres",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-ingres-odalisque.jpg",
+          "reference_gallery": [],
+          "appearance": "新古典主義，女體斜臥布幔。 `新古典主義 女體斜臥布幔`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/城市街道/海洋活動做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-ruisdael-haarlem",
+          "name": "雷斯達爾哈勒姆風光",
+          "name_zh": "雷斯達爾哈勒姆風光",
+          "role": "名畫/城市街道/海洋活動",
+          "first_appearance": "van Ruisdael",
+          "creator": "van Ruisdael",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-ruisdael-haarlem.jpg",
+          "reference_gallery": [],
+          "appearance": "荷蘭寫實風景，低地平田野雲彩。 `荷蘭寫實風景 低地平田野雲彩`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/城市街道/海洋活動做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "art-vermeer-delft",
+          "name": "維梅爾代夫特一景",
+          "name_zh": "維梅爾代夫特一景",
+          "role": "名畫/城市街道/海洋活動",
+          "first_appearance": "Vermeer",
+          "creator": "Vermeer",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-vermeer-delft.jpg",
+          "reference_gallery": [],
+          "appearance": "荷蘭寫實風景，運河天際線。 `荷蘭寫實風景 運河天際線`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/城市街道/海洋活動做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "city-buenos-aires",
+          "name": "布宜諾斯艾利斯港",
+          "name_zh": "布宜諾斯艾利斯港",
+          "role": "名畫/城市街道/海洋活動",
+          "first_appearance": "阿根廷",
+          "creator": "阿根廷",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.5"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/city-buenos-aires.jpg",
+          "reference_gallery": [],
+          "appearance": "19世紀港口版畫，舊港船影吊臂。 `19世紀港口版畫 舊港船影吊臂`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/城市街道/海洋活動做動畫參考 **注意**：CC-BY 2.5 授權"
+        },
+        {
+          "slug": "city-ginza-hiroshige3",
+          "name": "三代廣重銀座通",
+          "name_zh": "三代廣重銀座通",
+          "role": "名畫/城市街道/海洋活動",
+          "first_appearance": "三代歌川廣重",
+          "creator": "三代歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/city-ginza-hiroshige3.jpg",
+          "reference_gallery": [],
+          "appearance": "明治浮世繪，明治銀座鐵道馬車。 `明治浮世繪 明治銀座鐵道馬車`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/城市街道/海洋活動做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "city-rio-sunqua",
+          "name": "里約熱內盧全景",
+          "name_zh": "里約熱內盧全景",
+          "role": "名畫/城市街道/海洋活動",
+          "first_appearance": "Sunqua",
+          "creator": "Sunqua",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/city-rio-sunqua.jpg",
+          "reference_gallery": [],
+          "appearance": "中國外銷畫，海灣超寬全景。 `中國外銷畫 海灣超寬全景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/城市街道/海洋活動做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "marine-aivazovsky-moon",
+          "name": "艾瓦佐夫斯基月光海",
+          "name_zh": "艾瓦佐夫斯基月光海",
+          "role": "名畫/城市街道/海洋活動",
+          "first_appearance": "Aivazovsky",
+          "creator": "Aivazovsky",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/marine-aivazovsky-moon.jpg",
+          "reference_gallery": [],
+          "appearance": "俄國浪漫海景，夜海巨浪月光。 `俄國浪漫海景 夜海巨浪月光`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/城市街道/海洋活動做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "marine-pearl-fishery",
+          "name": "採珠場",
+          "name_zh": "採珠場",
+          "role": "名畫/城市街道/海洋活動",
+          "first_appearance": "佚名",
+          "creator": "佚名",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/marine-pearl-fishery.jpg",
+          "reference_gallery": [],
+          "appearance": "18世紀地理插圖，潛水採珠作業。 `18世紀地理插圖 潛水採珠作業`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/城市街道/海洋活動做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "marine-storck-whaling",
+          "name": "斯托克捕鯨遠征",
+          "name_zh": "斯托克捕鯨遠征",
+          "role": "名畫/城市街道/海洋活動",
+          "first_appearance": "Abraham Storck",
+          "creator": "Abraham Storck",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/marine-storck-whaling.jpg",
+          "reference_gallery": [],
+          "appearance": "荷蘭海事畫，捕鯨船隊小舟。 `荷蘭海事畫 捕鯨船隊小舟`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：名畫/城市街道/海洋活動做動畫參考 **注意**：CC0 授權"
         }
       ]
     },

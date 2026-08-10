@@ -6221,12 +6221,12 @@
   },
   "jp-yoshitoshi-demon": {
     "file": "jp-yoshitoshi-demon.jpg",
-    "title": "武士背女鬼",
-    "license": "Public domain",
+    "title": "武者對峙鬼怪",
+    "license": "CC-BY-SA 4.0",
     "artist": "月岡芳年",
-    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshitoshi%20Encountering%20a%20Demon.jpg",
-    "width": 1383,
-    "height": 2001,
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Konjin_Chogoro_enfrent%C3%A1ndose_a_un_demonio%2C_Tsukioka_Yoshitoshi.jpg",
+    "width": 2381,
+    "height": 3114,
     "pd": true
   },
   "jp-yoshitoshi-moon33": {
@@ -6261,12 +6261,12 @@
   },
   "jp-kuniyoshi-skeleton": {
     "file": "jp-kuniyoshi-skeleton.jpg",
-    "title": "武士對骸骨妖",
+    "title": "召喚大骸骨猛鬼",
     "license": "Public domain",
     "artist": "歌川國芳",
-    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Triptych%20print%20%28BM%201915,0823,0.915-916%201%29.jpg",
-    "width": 1060,
-    "height": 1600,
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Takiyasha_the_Witch_and_the_Skeleton_Spectre%2C_by_Utagawa_Kuniyoshi.jpg",
+    "width": 7139,
+    "height": 3550,
     "pd": true
   },
   "jp-kuniyoshi-yang-chun": {
@@ -9127,6 +9127,166 @@
     "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dore_Inferno34.jpg",
     "width": 1280,
     "height": 1022,
+    "pd": true
+  },
+  "jp-eisho-goshoguruma": {
+    "file": "jp-eisho-goshoguruma.jpg",
+    "title": "宮裝貴婦牛車",
+    "license": "Public domain",
+    "artist": "鳥高齋榮昌",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ch%C5%8Dk%C5%8Dsai_Eish%C5%8D_%28c._1794%E2%80%9396%29_Goshoguruma.jpg",
+    "width": 1675,
+    "height": 2500,
+    "pd": true
+  },
+  "jp-sekka-leaves": {
+    "file": "jp-sekka-leaves.jpg",
+    "title": "拾葉人物圖樣",
+    "license": "Public domain",
+    "artist": "神坂雪佳",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Collecting_Leaves_by_Kamisaka_Sekka%2C_inks_on_silk%2C_c.1910.jpg",
+    "width": 843,
+    "height": 2313,
+    "pd": true
+  },
+  "jp-genji-emaki": {
+    "file": "jp-genji-emaki.jpg",
+    "title": "平安貴族宅邸",
+    "license": "Public domain",
+    "artist": "藤原隆能",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Genji_emaki_Yadorigi.JPG",
+    "width": 5626,
+    "height": 2486,
+    "pd": true
+  },
+  "jp-hasegawa-pines": {
+    "file": "jp-hasegawa-pines.jpg",
+    "title": "水墨松柏林屏風",
+    "license": "Public domain",
+    "artist": "長谷川等伯",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hasegawa_Tohaku_-_Pine_Trees_%28Sh%C5%8Drin-zu_by%C5%8Dbu%29_-_right_hand_screen.jpg",
+    "width": 2500,
+    "height": 1170,
+    "pd": true
+  },
+  "art-hals-merrymakers": {
+    "file": "art-hals-merrymakers.jpg",
+    "title": "狂歡宴飲群像",
+    "license": "Public domain",
+    "artist": "Frans Hals",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frans_Hals%2C_Merrymakers_at_Shrovetide%2C_The_Metropolitan_Museum_of_Art.jpg",
+    "width": 4492,
+    "height": 5877,
+    "pd": true
+  },
+  "art-vermeer-delft": {
+    "file": "art-vermeer-delft.jpg",
+    "title": "運河天際線",
+    "license": "Public domain",
+    "artist": "Vermeer",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Delft%2C_by_Johannes_Vermeer.jpg",
+    "width": 6000,
+    "height": 4982,
+    "pd": true
+  },
+  "art-ruisdael-haarlem": {
+    "file": "art-ruisdael-haarlem.jpg",
+    "title": "低地平田野",
+    "license": "CC-BY-SA 4.0",
+    "artist": "van Ruisdael",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Den_Haag_-_Museum_Bredius_-_Jacob_van_Ruisdael_%281628-1682%29_-_View_of_Haarlem_%283%29.jpg",
+    "width": 1524,
+    "height": 992,
+    "pd": true
+  },
+  "art-ingres-odalisque": {
+    "file": "art-ingres-odalisque.jpg",
+    "title": "女體斜臥布幔",
+    "license": "Public domain",
+    "artist": "Ingres",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Auguste_Dominique_Ingres%2C_La_Grande_Odalisque%2C_1814.jpg",
+    "width": 2200,
+    "height": 1225,
+    "pd": true
+  },
+  "art-gainsborough-andrews": {
+    "file": "art-gainsborough-andrews.jpg",
+    "title": "鄉紳夫婦田園",
+    "license": "Public domain",
+    "artist": "Gainsborough",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas_Gainsborough_-_Mr_and_Mrs_Andrews.jpg",
+    "width": 2500,
+    "height": 1448,
+    "pd": true
+  },
+  "art-constable-haywain": {
+    "file": "art-constable-haywain.jpg",
+    "title": "英式鄉村小溪",
+    "license": "Public domain",
+    "artist": "Constable",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Constable_-_The_Hay_Wain_%281821%29.jpg",
+    "width": 6128,
+    "height": 4226,
+    "pd": true
+  },
+  "city-rio-sunqua": {
+    "file": "city-rio-sunqua.jpg",
+    "title": "海灣全景",
+    "license": "Public domain",
+    "artist": "Sunqua",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_do_Rio_de_Janeiro_por_Sunqua.jpg",
+    "width": 2500,
+    "height": 816,
+    "pd": true
+  },
+  "city-ginza-hiroshige3": {
+    "file": "city-ginza-hiroshige3.jpg",
+    "title": "明治銀座鐵道馬車",
+    "license": "Public domain",
+    "artist": "三代歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/M15GinzaStreet_Tokyo.jpg",
+    "width": 2648,
+    "height": 1280,
+    "pd": true
+  },
+  "city-buenos-aires": {
+    "file": "city-buenos-aires.jpg",
+    "title": "舊港船影",
+    "license": "CC-BY 2.5",
+    "artist": "阿根廷",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Puerto_de_Buenos_Aires%2C_Argentina.jpg",
+    "width": 900,
+    "height": 441,
+    "pd": true
+  },
+  "marine-aivazovsky-moon": {
+    "file": "marine-aivazovsky-moon.jpg",
+    "title": "夜海巨浪月光",
+    "license": "Public domain",
+    "artist": "Aivazovsky",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Storm_at_Sea_on_a_Moonlit_Night_%28Aivazovsky%29.jpg",
+    "width": 1694,
+    "height": 1200,
+    "pd": true
+  },
+  "marine-storck-whaling": {
+    "file": "marine-storck-whaling.jpg",
+    "title": "捕鯨船隊",
+    "license": "CC0",
+    "artist": "Abraham Storck",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abraham_Storck_-_Whaling_Expedition.jpg",
+    "width": 1024,
+    "height": 758,
+    "pd": true
+  },
+  "marine-pearl-fishery": {
+    "file": "marine-pearl-fishery.jpg",
+    "title": "潛水採珠",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_View_of_the_Pearl-Fishery%2C_c._1770s.jpg",
+    "width": 760,
+    "height": 496,
     "pd": true
   }
 }
