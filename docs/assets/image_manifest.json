@@ -6328,5 +6328,165 @@
     "width": 788,
     "height": 1200,
     "pd": true
+  },
+  "textile-kimono-pattern": {
+    "file": "textile-kimono-pattern.jpg",
+    "title": "和服紋樣",
+    "license": "CC0",
+    "artist": "菱川師宣",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/%E3%80%8E%E7%95%B6%E4%B8%96%E9%9B%9B%E5%BD%A2%E3%80%8F-Contemporary_Kimono_Patterns_%28T%C5%8Dsei_hiinagata%29_MET_2013_887_02.jpg",
+    "width": 4000,
+    "height": 2670,
+    "pd": true
+  },
+  "textile-paisley": {
+    "file": "textile-paisley.jpg",
+    "title": "派斯利連續圖案",
+    "license": "Public domain",
+    "artist": "Cooper Hewitt",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Drawing%2C_Designs_for_Woven_Paisley%2C_1825%E2%80%9340_%28CH_18162915%29.jpg",
+    "width": 3148,
+    "height": 3853,
+    "pd": true
+  },
+  "textile-damask": {
+    "file": "textile-damask.jpg",
+    "title": "提花織紋",
+    "license": "CC0",
+    "artist": "The Met",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Fragment_of_silk_damask_MET_46079.jpg",
+    "width": 1713,
+    "height": 2937,
+    "pd": true
+  },
+  "heraldry-philip2": {
+    "file": "heraldry-philip2.jpg",
+    "title": "王室大紋章",
+    "license": "Public domain",
+    "artist": "Herzog August",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Wappen_Philipp_II_von_Spanien.jpg",
+    "width": 1890,
+    "height": 2904,
+    "pd": true
+  },
+  "heraldry-tosa-kiri": {
+    "file": "heraldry-tosa-kiri.png",
+    "title": "日本家紋",
+    "license": "Public domain",
+    "artist": "Wikimedia",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Family_crest_Tosa_Kiri.png",
+    "width": 597,
+    "height": 600,
+    "pd": true
+  },
+  "heraldry-kamata": {
+    "file": "heraldry-kamata.png",
+    "title": "石榴幾何紋",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Mj12345123",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Kamata_Kamon_2.svg",
+    "width": 800,
+    "height": 800,
+    "pd": true
+  },
+  "ship-galleon": {
+    "file": "ship-galleon.jpg",
+    "title": "三桅大帆船",
+    "license": "Public domain",
+    "artist": "Cornelis Verbeeck",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Spanish_Galleon_Firing_its_Cannon.jpg",
+    "width": 5686,
+    "height": 4913,
+    "pd": true
+  },
+  "ship-drakkar": {
+    "file": "ship-drakkar.jpg",
+    "title": "維京船工程圖",
+    "license": "CC0",
+    "artist": "Larousse 1932",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Drakkar_-longship_or_a_Viking_ship._ublic_domain_book_illustration_from_French_encyclopedia_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+    "width": 1301,
+    "height": 1714,
+    "pd": true
+  },
+  "ship-viking-museum": {
+    "file": "ship-viking-museum.jpg",
+    "title": "維京復原船",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Bradley Rentz",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Skuldelev_1%2C_Viking_Ship_Museum_2017-08-18.jpg",
+    "width": 4000,
+    "height": 6000,
+    "pd": true
+  },
+  "ship-clipper-card": {
+    "file": "ship-clipper-card.jpg",
+    "title": "快船廣告卡",
+    "license": "Public domain",
+    "artist": "19世紀",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/COURSER_Clipper_ship_sailing_card.jpg",
+    "width": 708,
+    "height": 1100,
+    "pd": true
+  },
+  "weapon-crossbow": {
+    "file": "weapon-crossbow.jpg",
+    "title": "十字弩側面",
+    "license": "CC0",
+    "artist": "The Met",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Crossbow_MET_DP282466.jpg",
+    "width": 3929,
+    "height": 1889,
+    "pd": true
+  },
+  "weapon-halberd": {
+    "file": "weapon-halberd.jpg",
+    "title": "長柄戟全身",
+    "license": "CC-BY 4.0",
+    "artist": "Auckland Museum",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Halberd%2C_polearm_%28AM_1932.233-8%29.jpg",
+    "width": 8688,
+    "height": 5792,
+    "pd": true
+  },
+  "weapon-maces": {
+    "file": "weapon-maces.jpg",
+    "title": "錘枷並排",
+    "license": "CC0",
+    "artist": "Pskov Kremlin",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Maces%2C_flail_-_11-16c_-_Pskov_Kremlin_Museum.jpg",
+    "width": 3771,
+    "height": 3433,
+    "pd": true
+  },
+  "weapon-halberdiers": {
+    "file": "weapon-halberdiers.png",
+    "title": "持戟衛兵動態",
+    "license": "Public domain",
+    "artist": "17世紀版畫",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Eine_Gesellschaft_Offiziere_bei_Tische%2C_links_ein_Hellebardier_%28SM_808z%29.png",
+    "width": 6330,
+    "height": 5428,
+    "pd": true
+  },
+  "textile-tartan": {
+    "file": "textile-tartan.png",
+    "title": "格紋無縫平鋪",
+    "license": "CC0",
+    "artist": "Wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/42nd_Regiment_drummers%27_plaid_tartan%2C_tileable.png",
+    "width": 608,
+    "height": 608,
+    "pd": true
+  },
+  "textile-ikat": {
+    "file": "textile-ikat.jpg",
+    "title": "扎染暈染",
+    "license": "CC0",
+    "artist": "The Met",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikat_Textile_Fragment_MET_DP18282_90.5.24.jpg",
+    "width": 1400,
+    "height": 1872,
+    "pd": true
   }
 }

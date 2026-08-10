@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 55,
-    "character_count": 681,
+    "brand_count": 56,
+    "character_count": 697,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -17477,6 +17477,376 @@
           "type": "配角",
           "relation": "Skippy 嘅街頭玩伴（友與敵）",
           "interaction": "Skippy 有一班街頭玩伴，有朋友亦有「敵人」（小對手），成日鬥嘴、比賽、互相整蠱。佢哋嘅互動係「頑皮男仔日常」嘅核心——Skippy 成日帶頭搞小聰明惡作劇，玩伴一齊參與。\n"
+        }
+      ]
+    },
+    {
+      "slug": "textiles-heraldry-ships-weapons",
+      "name": "Textiles, Heraldry, Ships & Weapons",
+      "name_zh": "紡織紋章船艦武器",
+      "type": "紡織 / 紋章 / 船艦 / 武器",
+      "country": "國際",
+      "era": "1500s-1900s",
+      "creator": "各藝術家/博物館",
+      "publisher": "各美術館/博物館",
+      "first_appearance_year": 1500,
+      "status": "公有領域 / CC0 / CC-BY / CC-BY-SA",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "heraldry-kamata",
+          "name": "鎌田家家紋",
+          "name_zh": "鎌田家家紋",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "Mj12345123",
+          "creator": "Mj12345123",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/heraldry-kamata.png",
+          "reference_gallery": [],
+          "appearance": "黑紋向量，石榴幾何紋。 `黑紋向量 石榴幾何紋`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "heraldry-philip2",
+          "name": "斐利二世紋章",
+          "name_zh": "斐利二世紋章",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "Herzog August",
+          "creator": "Herzog August",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/heraldry-philip2.jpg",
+          "reference_gallery": [],
+          "appearance": "巴洛克版畫，王室大紋章。 `巴洛克版畫 王室大紋章`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "heraldry-tosa-kiri",
+          "name": "土佐桐家紋",
+          "name_zh": "土佐桐家紋",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "Wikimedia",
+          "creator": "Wikimedia",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/heraldry-tosa-kiri.png",
+          "reference_gallery": [],
+          "appearance": "日本家紋，三株桐花家紋。 `日本家紋 三株桐花家紋`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "ship-clipper-card",
+          "name": "COURSER 快帆船",
+          "name_zh": "COURSER 快帆船",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "19世紀",
+          "creator": "19世紀",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/ship-clipper-card.jpg",
+          "reference_gallery": [],
+          "appearance": "彩色石版廣告，快船全身展帆。 `彩色石版廣告 快船全身展帆`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "ship-drakkar",
+          "name": "維京龍頭長船",
+          "name_zh": "維京龍頭長船",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "Larousse 1932",
+          "creator": "Larousse 1932",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/ship-drakkar.jpg",
+          "reference_gallery": [],
+          "appearance": "百科工程插圖，維京船工程圖。 `百科工程插圖 維京船工程圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "ship-galleon",
+          "name": "西班牙大帆船",
+          "name_zh": "西班牙大帆船",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "Cornelis Verbeeck",
+          "creator": "Cornelis Verbeeck",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/ship-galleon.jpg",
+          "reference_gallery": [],
+          "appearance": "17世紀荷蘭海洋畫，三桅大帆船開炮。 `17世紀荷蘭海洋畫 三桅大帆船開炮`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "ship-viking-museum",
+          "name": "斯庫勒萊夫維京船",
+          "name_zh": "斯庫勒萊夫維京船",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "Bradley Rentz",
+          "creator": "Bradley Rentz",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/ship-viking-museum.jpg",
+          "reference_gallery": [],
+          "appearance": "現代高清照片，維京復原船。 `現代高清照片 維京復原船`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "textile-damask",
+          "name": "絲綢提花織錦",
+          "name_zh": "絲綢提花織錦",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "The Met",
+          "creator": "The Met",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/textile-damask.jpg",
+          "reference_gallery": [],
+          "appearance": "絲綢提花，提花織紋特寫。 `絲綢提花 提花織紋特寫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "textile-ikat",
+          "name": "艾卡特織錦",
+          "name_zh": "艾卡特織錦",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "The Met",
+          "creator": "The Met",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/textile-ikat.jpg",
+          "reference_gallery": [],
+          "appearance": "艾卡特染織，扎染暈染圖案。 `艾卡特染織 扎染暈染圖案`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "textile-kimono-pattern",
+          "name": "和服圖案集",
+          "name_zh": "和服圖案集",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "菱川師宣",
+          "creator": "菱川師宣",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/textile-kimono-pattern.jpg",
+          "reference_gallery": [],
+          "appearance": "江戶浮世繪木刻，和服紋樣冊頁。 `江戶浮世繪木刻 和服紋樣冊頁`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "textile-paisley",
+          "name": "派斯利花樣",
+          "name_zh": "派斯利花樣",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "Cooper Hewitt",
+          "creator": "Cooper Hewitt",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/textile-paisley.jpg",
+          "reference_gallery": [],
+          "appearance": "19世紀紡織設計，派斯利連續圖案。 `19世紀紡織設計 派斯利連續圖案`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "textile-tartan",
+          "name": "高地格紋呢",
+          "name_zh": "高地格紋呢",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "Wikimedia",
+          "creator": "Wikimedia",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/textile-tartan.png",
+          "reference_gallery": [],
+          "appearance": "向量格紋，格紋無縫平鋪。 `向量格紋 格紋無縫平鋪`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "weapon-crossbow",
+          "name": "歐洲十字弩",
+          "name_zh": "歐洲十字弩",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "The Met",
+          "creator": "The Met",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/weapon-crossbow.jpg",
+          "reference_gallery": [],
+          "appearance": "博物館產品照，十字弩側面結構。 `博物館產品照 十字弩側面結構`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "weapon-halberd",
+          "name": "長柄戟",
+          "name_zh": "長柄戟",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "Auckland Museum",
+          "creator": "Auckland Museum",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/weapon-halberd.jpg",
+          "reference_gallery": [],
+          "appearance": "高解析產品照，長柄戟全身直立。 `高解析產品照 長柄戟全身直立`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：CC-BY 4.0 授權"
+        },
+        {
+          "slug": "weapon-halberdiers",
+          "name": "持戟衛兵群像",
+          "name_zh": "持戟衛兵群像",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "17世紀版畫",
+          "creator": "17世紀版畫",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/weapon-halberdiers.png",
+          "reference_gallery": [],
+          "appearance": "巴洛克版畫，人物持長戟動態。 `巴洛克版畫 人物持長戟動態`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "weapon-maces",
+          "name": "晨星錘鏈枷",
+          "name_zh": "晨星錘鏈枷",
+          "role": "紡織/紋章/船艦/武器",
+          "first_appearance": "Pskov Kremlin",
+          "creator": "Pskov Kremlin",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/weapon-maces.jpg",
+          "reference_gallery": [],
+          "appearance": "博物館陳列，錘枷並排全貌。 `博物館陳列 錘枷並排全貌`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**道具/場景動畫參考**：紡織/紋章/船艦/武器做動畫參考 **注意**：CC0 授權"
         }
       ]
     },
