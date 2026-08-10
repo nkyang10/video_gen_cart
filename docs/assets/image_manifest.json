@@ -978,5 +978,455 @@
     "width": 2450,
     "height": 1633,
     "pd": true
+  },
+  "yokai-kitsune-hanazono": {
+    "file": "yokai-kitsune-hanazono.jpg",
+    "title": "Kitsune of Hanazono Inari",
+    "license": "Public domain",
+    "artist": "繁見立志",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Kitsune_of_Hanazono_Inari.jpg",
+    "width": 2255,
+    "height": 3541,
+    "pd": true
+  },
+  "yokai-white-fox-torii": {
+    "file": "yokai-white-fox-torii.jpg",
+    "title": "White Fox over Torii Gate",
+    "license": "Public domain",
+    "artist": "Kono Bairei",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/%27White_Fox_over_Torii_Gate%27_by_Kono_Bairei%2C_Honolulu_Museum_of_Art_13192.1.JPG",
+    "width": 1401,
+    "height": 3217,
+    "pd": true
+  },
+  "yokai-white-fox-moon": {
+    "file": "yokai-white-fox-moon.jpg",
+    "title": "White Fox on Moonlit Night",
+    "license": "Public domain",
+    "artist": "Shiokawa Bunrin",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/%27White_Fox_on_a_Moonlit_Night%27_by_Shiokawa_Bunrin%2C_Honolulu_Museum_of_Art_13191.1.JPG",
+    "width": 1194,
+    "height": 3048,
+    "pd": true
+  },
+  "yokai-fox-fire": {
+    "file": "yokai-fox-fire.jpg",
+    "title": "Fox by Mystic Fire",
+    "license": "Public domain",
+    "artist": "Shibata Zeshin",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Shibata_Zeshin_-_Fox_by_Mystic_Fire_-_36.100.136_-_Metropolitan_Museum_of_Art.jpg",
+    "width": 2500,
+    "height": 2966,
+    "pd": true
+  },
+  "yokai-ninetail-fox": {
+    "file": "yokai-ninetail-fox.png",
+    "title": "Kitsune Nine-tailed Fox",
+    "license": "CC-BY-SA 4.0",
+    "artist": "John D. Batten",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/KitsuneA9queues.png",
+    "width": 400,
+    "height": 290,
+    "pd": true
+  },
+  "yokai-hokusai-tengu": {
+    "file": "yokai-hokusai-tengu.jpg",
+    "title": "Hokusai Tengu",
+    "license": "Public domain",
+    "artist": "Katsushika Hokusai",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Hokusai_tengu_2.jpg",
+    "width": 800,
+    "height": 538,
+    "pd": true
+  },
+  "yokai-tengu-king": {
+    "file": "yokai-tengu-king.jpg",
+    "title": "Tengu King Training Pupils",
+    "license": "CC0",
+    "artist": "Katsushika Hokusai",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/The_Tengu_King_Training_his_Pupils.jpg",
+    "width": 3000,
+    "height": 2035,
+    "pd": true
+  },
+  "yokai-tengu-shrine": {
+    "file": "yokai-tengu-shrine.jpg",
+    "title": "Tengu at Shinagawa Shrine",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Wikimedia contributor",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Tengu_at_Shinagawa_Shrine.jpg",
+    "width": 5568,
+    "height": 3712,
+    "pd": true
+  },
+  "yokai-tengu-festival": {
+    "file": "yokai-tengu-festival.jpg",
+    "title": "Tengu Festival Mask",
+    "license": "CC0",
+    "artist": "Wikimedia contributor",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Tengu_at_festival_in_Hiroo.jpg",
+    "width": 2732,
+    "height": 5895,
+    "pd": true
+  },
+  "yokai-oni-mask": {
+    "file": "yokai-oni-mask.jpg",
+    "title": "Ritual Oni Mask",
+    "license": "CC0",
+    "artist": "Freer Gallery",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ritual_mask_of_oni_%28demon%29_used_in_tsuina_%28oni_yarai%29_exorcism%2C_Japan%2C_Edo_period%2C_wood_with_color_-_Freer_Gallery_of_Art_-_DSC05526.JPG",
+    "width": 3181,
+    "height": 3922,
+    "pd": true
+  },
+  "yokai-oni-shamisen": {
+    "file": "yokai-oni-shamisen.jpg",
+    "title": "Oni with Shamisen",
+    "license": "Public domain",
+    "artist": "Edo folk art",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Oni_with_Shamisen_%E9%AC%BC%E4%B8%89%E5%91%B3%E7%B7%9A_Otsu-e.tif",
+    "width": 1329,
+    "height": 1920,
+    "pd": true
+  },
+  "yokai-shoki-oni": {
+    "file": "yokai-shoki-oni.jpg",
+    "title": "Shoki the Demon Queller",
+    "license": "Public domain",
+    "artist": "Hiroshige",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/%27Shoki_the_Demon_Queller%27_by_Utagawa_Hiroshige%2C_Honolulu_Museum_of_Art%2C_22310.JPG",
+    "width": 1568,
+    "height": 3424,
+    "pd": true
+  },
+  "yokai-orochi": {
+    "file": "yokai-orochi.jpg",
+    "title": "Yamata no Orochi",
+    "license": "Public domain",
+    "artist": "Chikanobu",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/YamataNoOrochi.jpg",
+    "width": 1662,
+    "height": 801,
+    "pd": true
+  },
+  "yokai-earth-spider": {
+    "file": "yokai-earth-spider.jpg",
+    "title": "Earth Spider Conjures Demons",
+    "license": "Public domain",
+    "artist": "Kuniyoshi",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Minamoto_no_Yorimitsu-ko_no_yakata_ni_tsuchigumo_yokai_o_nasu_zu_%E6%BA%90%E9%A0%BC%E5%85%89%E5%85%AC%E9%A4%A8%E5%9C%9F%E8%9C%98%E4%BD%9C%E5%A6%96%E6%80%AA%E5%9C%96_%28The_Earth_Spider_Conjures_up_Demons_at_the_Mansion_of_Minamoto_no_Raiko%29_%28BM_2008%2C3037.20906%29.jpg",
+    "width": 1542,
+    "height": 728,
+    "pd": true
+  },
+  "yokai-kappa": {
+    "file": "yokai-kappa.jpg",
+    "title": "Kappa Water Imp",
+    "license": "Public domain",
+    "artist": "Anon 19c",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Kappa_water_imp_1836.jpg",
+    "width": 355,
+    "height": 228,
+    "pd": true
+  },
+  "yokai-bakeneko": {
+    "file": "yokai-bakeneko.jpg",
+    "title": "Bakeneko Ghost Cat",
+    "license": "Public domain",
+    "artist": "Yosa Buson",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Buson_Bakeneko.jpg",
+    "width": 484,
+    "height": 398,
+    "pd": true
+  },
+  "yokai-shibaten": {
+    "file": "yokai-shibaten.jpg",
+    "title": "Shibaten Tengu Scene",
+    "license": "Public domain",
+    "artist": "Anon woodblock",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Shinsensei_ichidaiki_Shibaten.jpg",
+    "width": 730,
+    "height": 596,
+    "pd": true
+  },
+  "yokai-kanibozu": {
+    "file": "yokai-kanibozu.jpg",
+    "title": "Kanibozu Crab Monk",
+    "license": "CC0",
+    "artist": "Chogenji Temple",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Chogenji_Kanibozu_Hanging_Scroll.jpg",
+    "width": 750,
+    "height": 1236,
+    "pd": true
+  },
+  "yokai-kamikiri": {
+    "file": "yokai-kamikiri.png",
+    "title": "Kamikiri Hair-Cutting Yokai",
+    "license": "Public domain",
+    "artist": "Yoshifuji Utagawa",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Kamikiri_no_Kidan_Hair_Cutting_Yokai_Strange_Story_by_Yoshifuji_Utagawa_1868.png",
+    "width": 1900,
+    "height": 1407,
+    "pd": true
+  },
+  "yokai-dragon": {
+    "file": "yokai-dragon.jpg",
+    "title": "Ryu sho ten Dragon",
+    "license": "Public domain",
+    "artist": "Ogata Gekkō",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ogata_Gekko_-_Ryu_sho_ten_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 4352,
+    "height": 6332,
+    "pd": true
+  },
+  "anime-boy-sword": {
+    "file": "anime-boy-sword.png",
+    "title": "Anime Boy Sword",
+    "license": "CC0",
+    "artist": "PublicdomainQ",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Anime_boy_sword.png",
+    "width": 2675,
+    "height": 3840,
+    "pd": true
+  },
+  "manga-school-boy": {
+    "file": "manga-school-boy.png",
+    "title": "Manga School Boy",
+    "license": "CC0",
+    "artist": "JZA",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Manga_school_boy.png",
+    "width": 311,
+    "height": 800,
+    "pd": true
+  },
+  "mecha-girl-2": {
+    "file": "mecha-girl-2.png",
+    "title": "Mecha-Girl",
+    "license": "Public domain",
+    "artist": "狄の用務員",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Mecha-girl.png",
+    "width": 1024,
+    "height": 1024,
+    "pd": true
+  },
+  "mesugaki": {
+    "file": "mesugaki.png",
+    "title": "Mesugaki",
+    "license": "Public domain",
+    "artist": "狄の用務員",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Mesugaki.png",
+    "width": 1023,
+    "height": 1023,
+    "pd": true
+  },
+  "brendo-magical-girl": {
+    "file": "brendo-magical-girl.png",
+    "title": "Brendo Magical Girl",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Brendo102x",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Brendo_magical_girl.png",
+    "width": 1134,
+    "height": 598,
+    "pd": true
+  },
+  "monfer-chibi": {
+    "file": "monfer-chibi.png",
+    "title": "Monfer Chibi",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Geme",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Monfer-chibi-png.png",
+    "width": 1649,
+    "height": 1649,
+    "pd": true
+  },
+  "monami-cast": {
+    "file": "monami-cast.png",
+    "title": "Monami Gentsuki and Friends",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Monami Gentsuki",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Monami_Gentsuki_and_friends_%28white_background%29.png",
+    "width": 800,
+    "height": 800,
+    "pd": true
+  },
+  "moe-chieru-kio": {
+    "file": "moe-chieru-kio.png",
+    "title": "Moe Character Chieru Kio",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Monami Gentsuki",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Moe_Character_Chieru_Kio.png",
+    "width": 300,
+    "height": 628,
+    "pd": true
+  },
+  "garter-otokonoko": {
+    "file": "garter-otokonoko.jpg",
+    "title": "Garter-Belt Otokonoko Sketch",
+    "license": "CC-BY-SA 4.0",
+    "artist": "KOKUYO",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Garter_belt_otokonoko_sketch_20160416.jpg",
+    "width": 2893,
+    "height": 4092,
+    "pd": true
+  },
+  "naughty-catgirl": {
+    "file": "naughty-catgirl.jpg",
+    "title": "Naughty Catgirl Sketch",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Chiichanny",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Naughty_looking_catgirl_sketch_20071018.jpg",
+    "width": 458,
+    "height": 775,
+    "pd": true
+  },
+  "husky-chibi": {
+    "file": "husky-chibi.jpg",
+    "title": "Husky Chibi (Nunzia)",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Nunzia Catania",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Husky-Chibi.jpeg",
+    "width": 1573,
+    "height": 2050,
+    "pd": true
+  },
+  "chibi-mira": {
+    "file": "chibi-mira.png",
+    "title": "Chibi (mira)",
+    "license": "CC-BY-SA 4.0",
+    "artist": "mira",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Chibi.png",
+    "width": 1280,
+    "height": 720,
+    "pd": true
+  },
+  "chibi-hair-color": {
+    "file": "chibi-hair-color.png",
+    "title": "Chibi Hair & Color",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Ao hoshi 03",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/2_Chibi_hair_and_color.png",
+    "width": 932,
+    "height": 1478,
+    "pd": true
+  },
+  "kuuma-mascot": {
+    "file": "kuuma-mascot.jpg",
+    "title": "Kuuma Defense Mascot",
+    "license": "Public domain",
+    "artist": "takedakazuhiko",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/%E3%81%8F%E3%81%86%E3%81%BE.jpg",
+    "width": 311,
+    "height": 278,
+    "pd": true
+  },
+  "wikipedia-gijinka": {
+    "file": "wikipedia-gijinka.jpg",
+    "title": "Gijinka of Wikipedia",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Mullana",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Gijinka_of_Wikipedia_for_Inktober_2018_Anthropomorphism.jpg",
+    "width": 2480,
+    "height": 3508,
+    "pd": true
+  },
+  "style-anime-lineart": {
+    "file": "style-anime-lineart.webp",
+    "title": "Anime Line Drawing",
+    "license": "CC-BY 3.0",
+    "artist": "らいみぃ",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Line_drawing_of_an_anime_illustration.webp",
+    "width": 3800,
+    "height": 3808,
+    "pd": true
+  },
+  "style-anime-drafting": {
+    "file": "style-anime-drafting.webp",
+    "title": "Anime Drafting",
+    "license": "CC-BY 3.0",
+    "artist": "らいみぃ",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Drafting_of_anime_illustrations.webp",
+    "width": 3804,
+    "height": 3816,
+    "pd": true
+  },
+  "style-wikipetan-full": {
+    "file": "style-wikipetan-full.jpg",
+    "title": "Wikipe-tan Full Length",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Kasuga",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Wikipe-tan_full_length.png",
+    "width": 1110,
+    "height": 2100,
+    "pd": true
+  },
+  "style-anime-eyes": {
+    "file": "style-anime-eyes.jpg",
+    "title": "Anime Eyes",
+    "license": "CC-BY-SA 2.0",
+    "artist": "Sklathill",
+    "source_url": "https://live.staticflickr.com/2223/1967240089_dbf4e6a296_b.jpg",
+    "width": 1023,
+    "height": 685,
+    "pd": true
+  },
+  "style-japanese-watercolor": {
+    "file": "style-japanese-watercolor.jpg",
+    "title": "Japanese Watercolor Posters",
+    "license": "CC-BY 2.0",
+    "artist": "roberthuffstutter",
+    "source_url": "https://live.staticflickr.com/5016/5477875732_92ab72877e_b.jpg",
+    "width": 877,
+    "height": 1024,
+    "pd": true
+  },
+  "style-kaisho-calligraphy": {
+    "file": "style-kaisho-calligraphy.jpg",
+    "title": "Kaisho Calligraphy 楷書",
+    "license": "CC-BY 2.0",
+    "artist": "Kanko",
+    "source_url": "https://live.staticflickr.com/11/11724073_6df0b78a3a.jpg",
+    "width": 500,
+    "height": 375,
+    "pd": true
+  },
+  "style-sousyo-calligraphy": {
+    "file": "style-sousyo-calligraphy.jpg",
+    "title": "Sousyo Calligraphy 草書",
+    "license": "CC-BY 2.0",
+    "artist": "Kanko",
+    "source_url": "https://live.staticflickr.com/9/12475438_99a954c164.jpg",
+    "width": 500,
+    "height": 375,
+    "pd": true
+  },
+  "style-gyousyo-calligraphy": {
+    "file": "style-gyousyo-calligraphy.jpg",
+    "title": "Gyousyo Calligraphy 行書",
+    "license": "CC-BY 2.0",
+    "artist": "Kanko",
+    "source_url": "https://live.staticflickr.com/9/13070763_39d779562f.jpg",
+    "width": 500,
+    "height": 375,
+    "pd": true
+  },
+  "style-japanese-signs": {
+    "file": "style-japanese-signs.jpg",
+    "title": "Vintage Japanese Signs",
+    "license": "CC-BY-SA 2.0",
+    "artist": "Dr.Colossus",
+    "source_url": "https://live.staticflickr.com/6163/6174937072_a0d2743a02_b.jpg",
+    "width": 1023,
+    "height": 568,
+    "pd": true
+  },
+  "style-jp-signage": {
+    "file": "style-jp-signage.jpg",
+    "title": "Japanese Public Signage",
+    "license": "CC-BY-SA 2.0",
+    "artist": "Dr.Colossus",
+    "source_url": "https://live.staticflickr.com/7367/12384241904_610993c26c_b.jpg",
+    "width": 1023,
+    "height": 678,
+    "pd": true
   }
 }

@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 25,
-    "character_count": 101,
+    "brand_count": 27,
+    "character_count": 146,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -2072,6 +2072,28 @@
           "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC0 1.0 授權"
         },
         {
+          "slug": "anime-boy-sword",
+          "name": "Anime Boy Sword",
+          "name_zh": "Anime Boy Sword",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "PublicdomainQ",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/anime-boy-sword.png",
+          "reference_gallery": [],
+          "appearance": "扁平賽璐璐動漫插圖風格日式動漫角色。 `扁平賽璐璐動漫插圖 anime character, 武士仔動漫風格全身上手持劍`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC0 授權"
+        },
+        {
           "slug": "anime-girl",
           "name": "Anime Girl",
           "name_zh": "Anime Girl",
@@ -2204,6 +2226,28 @@
           "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC0，可任意使用無需署名"
         },
         {
+          "slug": "brendo-magical-girl",
+          "name": "Brendo Magical Girl",
+          "name_zh": "Brendo Magical Girl",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Brendo102x",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/brendo-magical-girl.png",
+          "reference_gallery": [],
+          "appearance": "魔法少女動漫風格日式動漫角色。 `魔法少女動漫 anime character, 魔法少女角色，魔杖/魔法姿勢`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
           "slug": "brigadier-mk3",
           "name": "Brigadier Mk.3",
           "name_zh": "準將 Mk.3（機設圖）",
@@ -2290,6 +2334,50 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC0 1.0 授權"
+        },
+        {
+          "slug": "chibi-hair-color",
+          "name": "Chibi Hair & Color",
+          "name_zh": "Chibi Hair & Color",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Ao hoshi 03",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/chibi-hair-color.png",
+          "reference_gallery": [],
+          "appearance": "chibi 繪畫參考風格日式動漫角色。 `chibi 繪畫參考 anime character, chibi 髮型+配色參考圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "chibi-mira",
+          "name": "Chibi (mira)",
+          "name_zh": "Chibi (mira)",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "mira",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/chibi-mira.png",
+          "reference_gallery": [],
+          "appearance": "chibi風格日式動漫角色。 `chibi anime character, 動漫風格小朋友 chibi`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY-SA 4.0 授權"
         },
         {
           "slug": "david-revoy-char",
@@ -2380,6 +2468,28 @@
           "ai_usage": "**角色設定**：標準四視圖人設參考 **動畫製作**：動畫角色設計基準 **注意**：CC-BY-SA 4.0，需署名+相同授權"
         },
         {
+          "slug": "garter-otokonoko",
+          "name": "Garter-Belt Otokonoko Sketch",
+          "name_zh": "Garter-Belt Otokonoko Sketch",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "KOKUYO",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/garter-otokonoko.jpg",
+          "reference_gallery": [],
+          "appearance": "鉛筆素描風格日式動漫角色。 `鉛筆素描 anime character, 男の娘（女裝）角色鉛筆草圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
           "slug": "gorilla-mecha",
           "name": "Gorilla Mecha",
           "name_zh": "大猩猩式重型機甲",
@@ -2400,6 +2510,28 @@
           "scene": "機設圖 原創機甲概念",
           "personality": "",
           "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC0，可任意使用無需署名"
+        },
+        {
+          "slug": "husky-chibi",
+          "name": "Husky Chibi (Nunzia)",
+          "name_zh": "Husky Chibi (Nunzia)",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Nunzia Catania",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/husky-chibi.jpg",
+          "reference_gallery": [],
+          "appearance": "chibi/kemonomimi風格日式動漫角色。 `chibi/kemonomimi anime character, 哈士奇耳狗娘 chibi 角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY-SA 3.0 授權"
         },
         {
           "slug": "hyou-chan",
@@ -2578,6 +2710,28 @@
           "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY-SA 3.0，需遵守授權"
         },
         {
+          "slug": "kuuma-mascot",
+          "name": "Kuuma Defense Mascot",
+          "name_zh": "Kuuma Defense Mascot",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "takedakazuhiko",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/kuuma-mascot.jpg",
+          "reference_gallery": [],
+          "appearance": "kawaii 吉祥物風格日式動漫角色。 `kawaii 吉祥物 anime character, 空防可愛熊仔吉祥物 Kuuma`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "libbie-robot",
           "name": "Libbie (Tyson Tan)",
           "name_zh": "Libbie（機械角色設定表）",
@@ -2644,6 +2798,28 @@
           "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY 2.0，需遵守授權"
         },
         {
+          "slug": "manga-school-boy",
+          "name": "Manga School Boy",
+          "name_zh": "Manga School Boy",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "JZA",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/manga-school-boy.png",
+          "reference_gallery": [],
+          "appearance": "漫畫線稿風格日式動漫角色。 `漫畫線稿 anime character, 動漫男仔靠書桌，漫畫風格線稿`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC0 授權"
+        },
+        {
           "slug": "mecha-chibis",
           "name": "3D Printed Mecha Chibis",
           "name_zh": "3D Printed Mecha Chibis",
@@ -2664,6 +2840,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "mecha-girl-2",
+          "name": "Mecha-Girl",
+          "name_zh": "Mecha-Girl",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "狄の用務員",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/mecha-girl-2.png",
+          "reference_gallery": [],
+          "appearance": "軍事機娘插圖風格日式動漫角色。 `軍事機娘插圖 anime character, 機娘——著比堅尼配機械義肢、翼、武器`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：Public domain 授權"
         },
         {
           "slug": "mecha-samurai",
@@ -2710,6 +2908,50 @@
           "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：Public domain 授權"
         },
         {
+          "slug": "mesugaki",
+          "name": "Mesugaki",
+          "name_zh": "Mesugaki",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "狄の用務員",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/mesugaki.png",
+          "reference_gallery": [],
+          "appearance": "扁平動漫風格日式動漫角色。 `扁平動漫 anime character, Mesugaki 屬性——狡猾女仔揦嘴笑`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "moe-chieru-kio",
+          "name": "Moe Character Chieru Kio",
+          "name_zh": "Moe Character Chieru Kio",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Monami Gentsuki",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/moe-chieru-kio.png",
+          "reference_gallery": [],
+          "appearance": "moe 動漫風格日式動漫角色。 `moe 動漫 anime character, 垂直 moe 吉祥物角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
           "slug": "moe-manga-lady",
           "name": "Moe Manga Lady",
           "name_zh": "Moe Manga Lady",
@@ -2754,6 +2996,50 @@
           "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC0 1.0 授權"
         },
         {
+          "slug": "monami-cast",
+          "name": "Monami Gentsuki and Friends",
+          "name_zh": "Monami Gentsuki and Friends",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Monami Gentsuki",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/monami-cast.png",
+          "reference_gallery": [],
+          "appearance": "扁平動漫吉祥物風格日式動漫角色。 `扁平動漫吉祥物 anime character, 動漫風吉祥物群像（多角色）`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "monfer-chibi",
+          "name": "Monfer Chibi",
+          "name_zh": "Monfer Chibi",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Geme",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/monfer-chibi.png",
+          "reference_gallery": [],
+          "appearance": "chibi風格日式動漫角色。 `chibi anime character, 原創 chibi 角色，大頭細身`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
           "slug": "n1-nj4-mech",
           "name": "N1-NJ4 Ninja Class Mech",
           "name_zh": "忍者級輕裝機甲",
@@ -2774,6 +3060,28 @@
           "scene": "機設圖 原創機甲概念",
           "personality": "",
           "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY 2.0，需遵守授權"
+        },
+        {
+          "slug": "naughty-catgirl",
+          "name": "Naughty Catgirl Sketch",
+          "name_zh": "Naughty Catgirl Sketch",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Chiichanny",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/naughty-catgirl.jpg",
+          "reference_gallery": [],
+          "appearance": "貓娘鉛筆素描風格日式動漫角色。 `貓娘鉛筆素描 anime character, 頑皮貓娘鉛筆草圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY-SA 3.0 授權"
         },
         {
           "slug": "owl-class-scout",
@@ -2952,6 +3260,28 @@
           "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY 3.0 授權"
         },
         {
+          "slug": "wikipedia-gijinka",
+          "name": "Gijinka of Wikipedia",
+          "name_zh": "Gijinka of Wikipedia",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Mullana",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/wikipedia-gijinka.jpg",
+          "reference_gallery": [],
+          "appearance": "黑白墨線稿風格日式動漫角色。 `黑白墨線稿 anime character, Wikipedia 擬人化角色黑白線稿`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
           "slug": "wikipetan",
           "name": "Wikipe-tan",
           "name_zh": "維基娘（Wikipe-tan）",
@@ -2994,6 +3324,702 @@
           "scene": "角色設定表 日式可愛風格",
           "personality": "",
           "ai_usage": "**角色設定**：日式可愛角色多視圖 **注意**：CC0，可任意使用無需署名"
+        }
+      ]
+    },
+    {
+      "slug": "japanese-anime-style-reference",
+      "name": "Japanese Anime Style Reference",
+      "name_zh": "日式動漫風格參考",
+      "type": "風格參考 / 技法素材",
+      "country": "日本",
+      "era": "2000s-",
+      "creator": "各開放創作者",
+      "publisher": "Wikimedia Commons / Flickr",
+      "first_appearance_year": 2000,
+      "status": "CC0 / CC-BY / CC-BY-SA 自由授權",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "style-anime-drafting",
+          "name": "動漫構圖草稿（Anime Drafting）",
+          "name_zh": "動漫構圖草稿（Anime Drafting）",
+          "role": "風格參考素材",
+          "first_appearance": "開放創作者",
+          "creator": "らいみぃ",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/style-anime-drafting.webp",
+          "reference_gallery": [],
+          "appearance": "草稿技法風格，動漫草稿/構圖，粗略比例與姿勢。 `草稿技法 style reference, 動漫草稿/構圖，粗略比例與姿勢`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格參考**：日式動漫技法/字體做 AI 生成風格基底 **注意**：CC-BY 3.0 授權"
+        },
+        {
+          "slug": "style-anime-eyes",
+          "name": "動漫眼（Anime Eyes）",
+          "name_zh": "動漫眼（Anime Eyes）",
+          "role": "風格參考素材",
+          "first_appearance": "開放創作者",
+          "creator": "Sklathill",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/style-anime-eyes.jpg",
+          "reference_gallery": [],
+          "appearance": "動漫眼技法風格，動漫眼特寫，光澤瞳孔+虹膜漸層。 `動漫眼技法 style reference, 動漫眼特寫，光澤瞳孔+虹膜漸層`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格參考**：日式動漫技法/字體做 AI 生成風格基底 **注意**：CC-BY-SA 2.0 授權"
+        },
+        {
+          "slug": "style-anime-lineart",
+          "name": "動漫線稿（Anime Line Drawing）",
+          "name_zh": "動漫線稿（Anime Line Drawing）",
+          "role": "風格參考素材",
+          "first_appearance": "開放創作者",
+          "creator": "らいみぃ",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/style-anime-lineart.webp",
+          "reference_gallery": [],
+          "appearance": "線稿技法風格，動漫線稿，上色前 cel 硬線步驟。 `線稿技法 style reference, 動漫線稿，上色前 cel 硬線步驟`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格參考**：日式動漫技法/字體做 AI 生成風格基底 **注意**：CC-BY 3.0 授權"
+        },
+        {
+          "slug": "style-gyousyo-calligraphy",
+          "name": "行書書法（Gyousyo）",
+          "name_zh": "行書書法（Gyousyo）",
+          "role": "風格參考素材",
+          "first_appearance": "開放創作者",
+          "creator": "Kanko",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/style-gyousyo-calligraphy.jpg",
+          "reference_gallery": [],
+          "appearance": "日本書法風格，行書毛筆字，行雲流水。 `日本書法 style reference, 行書毛筆字，行雲流水`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格參考**：日式動漫技法/字體做 AI 生成風格基底 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "style-japanese-signs",
+          "name": "復古日式街頭字（Vintage Signs）",
+          "name_zh": "復古日式街頭字（Vintage Signs）",
+          "role": "風格參考素材",
+          "first_appearance": "開放創作者",
+          "creator": "Dr.Colossus",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/style-japanese-signs.jpg",
+          "reference_gallery": [],
+          "appearance": "日式街頭字體風格，復古日本街頭手繪字招牌。 `日式街頭字體 style reference, 復古日本街頭手繪字招牌`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格參考**：日式動漫技法/字體做 AI 生成風格基底 **注意**：CC-BY-SA 2.0 授權"
+        },
+        {
+          "slug": "style-japanese-watercolor",
+          "name": "日式水彩動漫（Watercolor Posters）",
+          "name_zh": "日式水彩動漫（Watercolor Posters）",
+          "role": "風格參考素材",
+          "first_appearance": "開放創作者",
+          "creator": "roberthuffstutter",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/style-japanese-watercolor.jpg",
+          "reference_gallery": [],
+          "appearance": "水彩動漫風格，日式水彩動漫洗染效果。 `水彩動漫 style reference, 日式水彩動漫洗染效果`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格參考**：日式動漫技法/字體做 AI 生成風格基底 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "style-jp-signage",
+          "name": "日式公眾告示字（Public Signage）",
+          "name_zh": "日式公眾告示字（Public Signage）",
+          "role": "風格參考素材",
+          "first_appearance": "開放創作者",
+          "creator": "Dr.Colossus",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/style-jp-signage.jpg",
+          "reference_gallery": [],
+          "appearance": "日式公眾字體風格，日式政府告示粗黑字體。 `日式公眾字體 style reference, 日式政府告示粗黑字體`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格參考**：日式動漫技法/字體做 AI 生成風格基底 **注意**：CC-BY-SA 2.0 授權"
+        },
+        {
+          "slug": "style-kaisho-calligraphy",
+          "name": "楷書書法（Kaisho）",
+          "name_zh": "楷書書法（Kaisho）",
+          "role": "風格參考素材",
+          "first_appearance": "開放創作者",
+          "creator": "Kanko",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/style-kaisho-calligraphy.jpg",
+          "reference_gallery": [],
+          "appearance": "日本書法風格，楷書毛筆字，結構嚴謹。 `日本書法 style reference, 楷書毛筆字，結構嚴謹`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格參考**：日式動漫技法/字體做 AI 生成風格基底 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "style-sousyo-calligraphy",
+          "name": "草書書法（Sousyo）",
+          "name_zh": "草書書法（Sousyo）",
+          "role": "風格參考素材",
+          "first_appearance": "開放創作者",
+          "creator": "Kanko",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/style-sousyo-calligraphy.jpg",
+          "reference_gallery": [],
+          "appearance": "日本書法風格，草書毛筆字，流暢奔放。 `日本書法 style reference, 草書毛筆字，流暢奔放`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格參考**：日式動漫技法/字體做 AI 生成風格基底 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "style-wikipetan-full",
+          "name": "維基娘全身（Wikipe-tan Full）",
+          "name_zh": "維基娘全身（Wikipe-tan Full）",
+          "role": "風格參考素材",
+          "first_appearance": "開放創作者",
+          "creator": "Kasuga",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/style-wikipetan-full.jpg",
+          "reference_gallery": [],
+          "appearance": "扁平動漫渲染風格，扁平 cel 動漫吉祥物全身。 `扁平動漫渲染 style reference, 扁平 cel 動漫吉祥物全身`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格參考**：日式動漫技法/字體做 AI 生成風格基底 **注意**：CC-BY-SA 3.0 授權"
+        }
+      ]
+    },
+    {
+      "slug": "japanese-yokai",
+      "name": "Japanese Yokai",
+      "name_zh": "日本妖怪",
+      "type": "妖怪 / 和風奇幻藝術",
+      "country": "日本",
+      "era": "江戶/明治時代",
+      "creator": "各浮世繪名家",
+      "publisher": "Wikimedia Commons",
+      "first_appearance_year": 1800,
+      "status": "公版 / CC0 / CC-BY-SA 自由授權",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "yokai-bakeneko",
+          "name": "化貓（Bakeneko）",
+          "name_zh": "化貓（Bakeneko）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Yosa Buson",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-bakeneko.jpg",
+          "reference_gallery": [],
+          "appearance": "水墨畫風格，幻形貓妖化貓。 `日本妖怪 幻形貓妖化貓，水墨畫風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-dragon",
+          "name": "升天日本龍（Ryu sho ten）",
+          "name_zh": "升天日本龍（Ryu sho ten）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Ogata Gekkō",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-dragon.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪/日本畫風格，雲中升天嘅日本龍。 `日本妖怪 雲中升天嘅日本龍，浮世繪/日本畫風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-earth-spider",
+          "name": "土蜘蛛召喚群妖（Earth Spider）",
+          "name_zh": "土蜘蛛召喚群妖（Earth Spider）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Kuniyoshi",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-earth-spider.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪三聯畫風格，土蜘蛛妖怪喺源賴光宅邸召喚群妖。 `日本妖怪 土蜘蛛妖怪喺源賴光宅邸召喚群妖，浮世繪三聯畫風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-fox-fire",
+          "name": "狐火狐狸（Fox by Mystic Fire）",
+          "name_zh": "狐火狐狸（Fox by Mystic Fire）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Shibata Zeshin",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-fox-fire.jpg",
+          "reference_gallery": [],
+          "appearance": "日本畫（江戶/明治）風格，狐狸召喚狐火（kitsunebi）。 `日本妖怪 狐狸召喚狐火（kitsunebi），日本畫（江戶/明治）風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-hokusai-tengu",
+          "name": "北齋天狗（Hokusai Tengu）",
+          "name_zh": "北齋天狗（Hokusai Tengu）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Katsushika Hokusai",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-hokusai-tengu.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪木刻版畫風格，長鼻天狗。 `日本妖怪 長鼻天狗，浮世繪木刻版畫風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-kamikiri",
+          "name": "剪髮妖怪（Kamikiri）",
+          "name_zh": "剪髮妖怪（Kamikiri）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Yoshifuji Utagawa",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-kamikiri.png",
+          "reference_gallery": [],
+          "appearance": "浮世繪（明治）風格，偷偷剪人頭髮嘅妖怪。 `日本妖怪 偷偷剪人頭髮嘅妖怪，浮世繪（明治）風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-kanibozu",
+          "name": "蟹坊主（Kanibozu）",
+          "name_zh": "蟹坊主（Kanibozu）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Chogenji Temple",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-kanibozu.jpg",
+          "reference_gallery": [],
+          "appearance": "掛軸畫風格，蟹僧妖怪（諏訪湖）。 `日本妖怪 蟹僧妖怪（諏訪湖），掛軸畫風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "yokai-kappa",
+          "name": "河童水妖（Kappa）",
+          "name_zh": "河童水妖（Kappa）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Anon 19c",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-kappa.jpg",
+          "reference_gallery": [],
+          "appearance": "19 世紀線稿插圖風格，綠色水妖河童（頭頂有皿）。 `日本妖怪 綠色水妖河童（頭頂有皿），19 世紀線稿插圖風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-kitsune-hanazono",
+          "name": "狐仙花園稻荷（Kitsune of Hanazono Inari）",
+          "name_zh": "狐仙花園稻荷（Kitsune of Hanazono Inari）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "繁見立志",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-kitsune-hanazono.jpg",
+          "reference_gallery": [],
+          "appearance": "日本木刻版畫（浮世繪）、民間傳說風格，擬人化狐仙、狐狸精。 `日本妖怪 擬人化狐仙、狐狸精，日本木刻版畫（浮世繪）、民間傳說風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-ninetail-fox",
+          "name": "九尾狐（Nine-tailed Fox）",
+          "name_zh": "九尾狐（Nine-tailed Fox）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "John D. Batten",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-ninetail-fox.png",
+          "reference_gallery": [],
+          "appearance": "書籍插圖/線稿風格，九尾狐妖（kyūbi no kitsune）。 `日本妖怪 九尾狐妖（kyūbi no kitsune），書籍插圖/線稿風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "yokai-oni-mask",
+          "name": "儀式鬼面（Ritual Oni Mask）",
+          "name_zh": "儀式鬼面（Ritual Oni Mask）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Freer Gallery",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-oni-mask.jpg",
+          "reference_gallery": [],
+          "appearance": "立體雕刻面具風格，木雕彩繪鬼面（追儺除厄用）。 `日本妖怪 木雕彩繪鬼面（追儺除厄用），立體雕刻面具風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "yokai-oni-shamisen",
+          "name": "彈三味線嘅鬼（Oni with Shamisen）",
+          "name_zh": "彈三味線嘅鬼（Oni with Shamisen）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Edo folk art",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-oni-shamisen.jpg",
+          "reference_gallery": [],
+          "appearance": "Otsu-e 民間藝術風格，彈三味線嘅幽默鬼，Otsu-e 民間畫。 `日本妖怪 彈三味線嘅幽默鬼，Otsu-e 民間畫，Otsu-e 民間藝術風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-orochi",
+          "name": "八岐大蛇（Yamata no Orochi）",
+          "name_zh": "八岐大蛇（Yamata no Orochi）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Chikanobu",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-orochi.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪木刻版畫風格，八頭八尾蛇妖八岐大蛇。 `日本妖怪 八頭八尾蛇妖八岐大蛇，浮世繪木刻版畫風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-shibaten",
+          "name": "芝天（Shibaten 天狗場景）",
+          "name_zh": "芝天（Shibaten 天狗場景）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Anon woodblock",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-shibaten.jpg",
+          "reference_gallery": [],
+          "appearance": "舊木刻書插圖風格，天狗妖怪場景。 `日本妖怪 天狗妖怪場景，舊木刻書插圖風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-shoki-oni",
+          "name": "鍾馗驅鬼（Shoki the Demon Queller）",
+          "name_zh": "鍾馗驅鬼（Shoki the Demon Queller）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Hiroshige",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-shoki-oni.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪（錦繪）風格，鬼與驅鬼神明鍾馗對峙。 `日本妖怪 鬼與驅鬼神明鍾馗對峙，浮世繪（錦繪）風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-tengu-festival",
+          "name": "廣尾祭天狗面具（Tengu Festival）",
+          "name_zh": "廣尾祭天狗面具（Tengu Festival）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Wikimedia",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-tengu-festival.jpg",
+          "reference_gallery": [],
+          "appearance": "祭典面具相片風格，廣尾祭嘅長鼻天狗面具。 `日本妖怪 廣尾祭嘅長鼻天狗面具，祭典面具相片風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "yokai-tengu-king",
+          "name": "天狗王訓練弟子（Tengu King）",
+          "name_zh": "天狗王訓練弟子（Tengu King）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Katsushika Hokusai",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-tengu-king.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪風格，天狗王訓練劍術弟子（源義經傳說）。 `日本妖怪 天狗王訓練劍術弟子（源義經傳說），浮世繪風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "yokai-tengu-shrine",
+          "name": "品川神社天狗（Tengu Shrine）",
+          "name_zh": "品川神社天狗（Tengu Shrine）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Wikimedia",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-tengu-shrine.jpg",
+          "reference_gallery": [],
+          "appearance": "神社天狗像相片風格，品川神社嘅天狗雕刻像。 `日本妖怪 品川神社嘅天狗雕刻像，神社天狗像相片風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "yokai-white-fox-moon",
+          "name": "滿月白狐（White Fox on Moonlit Night）",
+          "name_zh": "滿月白狐（White Fox on Moonlit Night）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Shiokawa Bunrin",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-white-fox-moon.jpg",
+          "reference_gallery": [],
+          "appearance": "日本掛軸畫風格，滿月下嘅白狐精，經典狐妖意象。 `日本妖怪 滿月下嘅白狐精，經典狐妖意象，日本掛軸畫風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "yokai-white-fox-torii",
+          "name": "白狐立於鳥居（White Fox over Torii Gate）",
+          "name_zh": "白狐立於鳥居（White Fox over Torii Gate）",
+          "role": "妖怪 / 和風奇幻素材",
+          "first_appearance": "日本傳統藝術",
+          "creator": "Kono Bairei",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/yokai-white-fox-torii.jpg",
+          "reference_gallery": [],
+          "appearance": "日本掛軸畫、水墨風格，白狐精立於鳥居之上。 `日本妖怪 白狐精立於鳥居之上，日本掛軸畫、水墨風格`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**奇幻角色/場景**：妖怪做奇幻動畫角色或背景參考 **注意**：Public domain 授權"
         }
       ]
     },
