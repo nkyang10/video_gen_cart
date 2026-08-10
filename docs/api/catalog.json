@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 75,
-    "character_count": 1075,
+    "brand_count": 76,
+    "character_count": 1087,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -11851,6 +11851,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-hasui-nezu-snow",
+          "name": "巴水根津雪景",
+          "name_zh": "巴水根津雪景",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "川瀨巴水",
+          "creator": "川瀨巴水",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hasui-nezu-snow.jpg",
+          "reference_gallery": [],
+          "appearance": "新版畫，雪中神社參道。 `新版畫 雪中神社參道`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
           "slug": "jp-hidesato",
           "name": "芳年藤原秀鄉",
           "name_zh": "芳年藤原秀鄉",
@@ -12181,6 +12203,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-hiroshige-shono",
+          "name": "廣重莊野白雨",
+          "name_zh": "廣重莊野白雨",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-shono.jpg",
+          "reference_gallery": [],
+          "appearance": "東海道五十三次，竹林驟雨行人。 `東海道五十三次 竹林驟雨行人`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-hiroshige-shower",
           "name": "廣重大橋驟雨",
           "name_zh": "廣重大橋驟雨",
@@ -12247,6 +12291,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-hiroshige-swallow",
+          "name": "廣重燕子紫藤",
+          "name_zh": "廣重燕子紫藤",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-swallow.jpg",
+          "reference_gallery": [],
+          "appearance": "花鳥畫，燕子穿飛紫藤。 `花鳥畫 燕子穿飛紫藤`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-hoitsu-maple",
           "name": "酒井抱一楓樹圖",
           "name_zh": "酒井抱一楓樹圖",
@@ -12307,6 +12373,28 @@
           "image": "assets/img/jp-hokkei-manga.jpg",
           "reference_gallery": [],
           "appearance": "漫畫速寫集，人物動態速寫。 `漫畫速寫集 人物動態速寫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hokusai-ejiri",
+          "name": "北齋駿州江尻",
+          "name_zh": "北齋駿州江尻",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "葛飾北齋",
+          "creator": "葛飾北齋",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hokusai-ejiri.jpg",
+          "reference_gallery": [],
+          "appearance": "富嶽三十六景，雷雨中旅人疾走。 `富嶽三十六景 雷雨中旅人疾走`",
           "dialogue": "",
           "scene": "",
           "personality": "",
@@ -13985,6 +14073,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC0 授權"
         },
         {
+          "slug": "jp-yoshitoshi-adachigahara",
+          "name": "芳年安達原垰",
+          "name_zh": "芳年安達原垰",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-yoshitoshi-adachigahara.jpg",
+          "reference_gallery": [],
+          "appearance": "月百姿，孤屋女鬼武士。 `月百姿 孤屋女鬼武士`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-yoshitoshi-benkei",
           "name": "芳年弁慶鎮浪",
           "name_zh": "芳年弁慶鎮浪",
@@ -14115,6 +14225,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-yoshitoshi-moon4",
+          "name": "芳年月百姿第4幅",
+          "name_zh": "芳年月百姿第4幅",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-yoshitoshi-moon4.jpg",
+          "reference_gallery": [],
+          "appearance": "月百姿，月夜人物。 `月百姿 月夜人物`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-yoshitoshi-moon74",
@@ -23467,6 +23599,156 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**復古動畫角色**：早期公版短片做復古動畫參考 **⚠️ 注意**：角色名可能係商標；只用早期黑白短片，唔用後期受版權版本"
+        }
+      ]
+    },
+    {
+      "slug": "realism-postimpressionism-masterpieces",
+      "name": "Realism & Post-Impressionism Masterpieces",
+      "name_zh": "寫實主義與後印象派名畫",
+      "type": "寫實主義 / 後印象派",
+      "country": "法國",
+      "era": "1800s-1900s",
+      "creator": "庫爾貝/米勒/高更/秀拉/羅特列克",
+      "publisher": "各美術館",
+      "first_appearance_year": 1849,
+      "status": "公有領域",
+      "license": {
+        "type": "UNKNOWN",
+        "code": ""
+      },
+      "characters": [
+        {
+          "slug": "art-courbet-stonebreakers",
+          "name": "庫爾貝碎石工",
+          "name_zh": "庫爾貝碎石工",
+          "role": "寫實主義/後印象派名畫",
+          "first_appearance": "Courbet",
+          "creator": "Courbet",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-courbet-stonebreakers.jpg",
+          "reference_gallery": [],
+          "appearance": "寫實主義，碎石工人勞作。 `寫實主義 碎石工人勞作`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：寫實主義/後印象派名畫做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-gauguin-where",
+          "name": "高更我們從哪裡來",
+          "name_zh": "高更我們從哪裡來",
+          "role": "寫實主義/後印象派名畫",
+          "first_appearance": "Gauguin",
+          "creator": "Gauguin",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-gauguin-where.jpg",
+          "reference_gallery": [],
+          "appearance": "後印象派，塔希提人群長卷。 `後印象派 塔希提人群長卷`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：寫實主義/後印象派名畫做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-lautrec-la-goulue",
+          "name": "羅特列克紅磨坊海報",
+          "name_zh": "羅特列克紅磨坊海報",
+          "role": "寫實主義/後印象派名畫",
+          "first_appearance": "Toulouse-Lautrec",
+          "creator": "Toulouse-Lautrec",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-lautrec-la-goulue.jpg",
+          "reference_gallery": [],
+          "appearance": "新藝術海報，歌舞女郎海報。 `新藝術海報 歌舞女郎海報`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：寫實主義/後印象派名畫做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-millet-angelus",
+          "name": "米勒晚禱",
+          "name_zh": "米勒晚禱",
+          "role": "寫實主義/後印象派名畫",
+          "first_appearance": "Millet",
+          "creator": "Millet",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-millet-angelus.jpg",
+          "reference_gallery": [],
+          "appearance": "寫實主義，農夫婦祈禱。 `寫實主義 農夫婦祈禱`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：寫實主義/後印象派名畫做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-millet-gleaners",
+          "name": "米勒拾穗",
+          "name_zh": "米勒拾穗",
+          "role": "寫實主義/後印象派名畫",
+          "first_appearance": "Millet",
+          "creator": "Millet",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-millet-gleaners.jpg",
+          "reference_gallery": [],
+          "appearance": "寫實主義，農婦拾穗。 `寫實主義 農婦拾穗`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：寫實主義/後印象派名畫做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-seurat-grandejatte",
+          "name": "秀拉大碗島",
+          "name_zh": "秀拉大碗島",
+          "role": "寫實主義/後印象派名畫",
+          "first_appearance": "Seurat",
+          "creator": "Seurat",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-seurat-grandejatte.jpg",
+          "reference_gallery": [],
+          "appearance": "點描，塞納河畔假日。 `點描 塞納河畔假日`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：寫實主義/後印象派名畫做動畫參考 **注意**：Public domain 授權"
         }
       ]
     },

@@ -10188,5 +10188,125 @@
     "width": 6000,
     "height": 4000,
     "pd": true
+  },
+  "jp-hokusai-ejiri": {
+    "file": "jp-hokusai-ejiri.jpg",
+    "title": "雷雨中旅人疾走",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ejiri_in_the_Suruga_province.jpg",
+    "width": 4374,
+    "height": 2973,
+    "pd": true
+  },
+  "jp-hiroshige-shono": {
+    "file": "jp-hiroshige-shono.jpg",
+    "title": "竹林驟雨行人",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Driving_Rain_at_Shono_(Shono_Hakuu),_Station_46,_from_the_series_Fifty-Three_Stations_of_the_Tokaido_Road_(Tokaido_Gojusantsugi_no_Uchi),_Utagawa_Hiroshige,_1832-1834_-_PR.972.63.46.tif",
+    "width": 4332,
+    "height": 2932,
+    "pd": true
+  },
+  "jp-yoshitoshi-adachigahara": {
+    "file": "jp-yoshitoshi-adachigahara.jpg",
+    "title": "孤屋女鬼武士",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshitoshi_The_Lonely_House.jpg",
+    "width": 444,
+    "height": 1356,
+    "pd": true
+  },
+  "jp-yoshitoshi-moon4": {
+    "file": "jp-yoshitoshi-moon4.jpg",
+    "title": "月夜人物",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshitoshi_-_100_Aspects_of_the_Moon_-_4.jpg",
+    "width": 514,
+    "height": 721,
+    "pd": true
+  },
+  "jp-hiroshige-swallow": {
+    "file": "jp-hiroshige-swallow.jpg",
+    "title": "燕子穿飛紫藤",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Swallow_and_Wisteria_(IA_mma_swallow_and_wisteria_36726).jpg",
+    "width": 1432,
+    "height": 1900,
+    "pd": true
+  },
+  "jp-hasui-nezu-snow": {
+    "file": "jp-hasui-nezu-snow.jpg",
+    "title": "雪中神社參道",
+    "license": "CC0",
+    "artist": "川瀨巴水",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow_at_Nezu_Gongen_Shrine%2C_1933.jpg",
+    "width": 1264,
+    "height": 1800,
+    "pd": true
+  },
+  "art-courbet-stonebreakers": {
+    "file": "art-courbet-stonebreakers.jpg",
+    "title": "碎石工人勞作",
+    "license": "Public domain",
+    "artist": "Courbet",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Courbet_018.jpg",
+    "width": 2048,
+    "height": 1249,
+    "pd": true
+  },
+  "art-millet-angelus": {
+    "file": "art-millet-angelus.jpg",
+    "title": "農夫婦祈禱",
+    "license": "Public domain",
+    "artist": "Millet",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Fran%C3%A7ois_Millet_-_The_Angelus_-_Google_Art_Project.jpg",
+    "width": 2500,
+    "height": 2078,
+    "pd": true
+  },
+  "art-millet-gleaners": {
+    "file": "art-millet-gleaners.jpg",
+    "title": "農婦拾穗",
+    "license": "Public domain",
+    "artist": "Millet",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project.jpg",
+    "width": 5357,
+    "height": 4009,
+    "pd": true
+  },
+  "art-gauguin-where": {
+    "file": "art-gauguin-where.jpg",
+    "title": "塔希提人群長卷",
+    "license": "Public domain",
+    "artist": "Gauguin",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gauguin_-_Where_Do_We_Come_From%3F_What_Are_We%3F_Where_Are_We_Going%3F_(1897-98).jpg",
+    "width": 5400,
+    "height": 1987,
+    "pd": true
+  },
+  "art-seurat-grandejatte": {
+    "file": "art-seurat-grandejatte.jpg",
+    "title": "塞納河畔假日",
+    "license": "Public domain",
+    "artist": "Seurat",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg",
+    "width": 2500,
+    "height": 1664,
+    "pd": true
+  },
+  "art-lautrec-la-goulue": {
+    "file": "art-lautrec-la-goulue.jpg",
+    "title": "歌舞女郎海報",
+    "license": "Public domain",
+    "artist": "Toulouse-Lautrec",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lautrec_moulin_rouge%2C_la_goulue_(poster)_1891.jpg",
+    "width": 738,
+    "height": 1155,
+    "pd": true
   }
 }
