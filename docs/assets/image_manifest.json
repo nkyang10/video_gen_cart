@@ -7888,5 +7888,215 @@
     "width": 2000,
     "height": 1595,
     "pd": true
+  },
+  "art-elgreco-toledo": {
+    "file": "art-elgreco-toledo.jpg",
+    "title": "扭曲城市輪廓",
+    "license": "Public domain",
+    "artist": "El Greco",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/El_Greco_View_of_Toledo.jpg",
+    "width": 3436,
+    "height": 3878,
+    "pd": true
+  },
+  "art-caravaggio-matthew": {
+    "file": "art-caravaggio-matthew.jpg",
+    "title": "明暗對照群像",
+    "license": "Public domain",
+    "artist": "Caravaggio",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Calling_of_Saint_Matthew-Caravaggo_%281599-1600%29.jpg",
+    "width": 2433,
+    "height": 2500,
+    "pd": true
+  },
+  "art-rubens-paris": {
+    "file": "art-rubens-paris.jpg",
+    "title": "神話人體",
+    "license": "Public domain",
+    "artist": "Rubens",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rubens_-_Judgement_of_Paris.jpg",
+    "width": 5707,
+    "height": 4226,
+    "pd": true
+  },
+  "art-renoir-moulin": {
+    "file": "art-renoir-moulin.jpg",
+    "title": "蒙馬特戶外舞會",
+    "license": "Public domain",
+    "artist": "Renoir",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg",
+    "width": 2500,
+    "height": 1858,
+    "pd": true
+  },
+  "art-seurat-jatte": {
+    "file": "art-seurat-jatte.jpg",
+    "title": "點描法公園",
+    "license": "Public domain",
+    "artist": "Seurat",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg",
+    "width": 2500,
+    "height": 1664,
+    "pd": true
+  },
+  "art-cezanne-bathers": {
+    "file": "art-cezanne-bathers.jpg",
+    "title": "幾何化裸女",
+    "license": "Public domain",
+    "artist": "Cézanne",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_C%C3%A9zanne%2C_French_-_The_Large_Bathers_-_Google_Art_Project.jpg",
+    "width": 2500,
+    "height": 2089,
+    "pd": true
+  },
+  "art-rousseau-snake": {
+    "file": "art-rousseau-snake.jpg",
+    "title": "叢林弄蛇人",
+    "license": "Public domain",
+    "artist": "Henri Rousseau",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/HENRI_ROUSSEAU_-_La_Encantadora_de_Serpientes_%28Museo_de_Orsay%2C_Par%C3%ADs%2C_1907._%C3%93leo_sobre_lienzo%2C_169_x_189.5_cm%29.jpg",
+    "width": 3556,
+    "height": 3147,
+    "pd": true
+  },
+  "art-cassatt-bath": {
+    "file": "art-cassatt-bath.jpg",
+    "title": "親子洗腳",
+    "license": "Public domain",
+    "artist": "Mary Cassatt",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mary_Cassatt_-_The_Child%27s_Bath_-_Google_Art_Project.jpg",
+    "width": 3219,
+    "height": 4912,
+    "pd": true
+  },
+  "art-sargent-daughers": {
+    "file": "art-sargent-daughers.jpg",
+    "title": "空間縱深群像",
+    "license": "Public domain",
+    "artist": "Sargent",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Daughters_of_Edward_Darley_Boit%2C_John_Singer_Sargent%2C_1882_%28unfree_frame_crop%29.jpg",
+    "width": 2002,
+    "height": 2004,
+    "pd": true
+  },
+  "art-sisley-moret": {
+    "file": "art-sisley-moret.jpg",
+    "title": "教堂粉彩",
+    "license": "Public domain",
+    "artist": "Sisley",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sisley_The_Church_of_Moret-sur-Loing%2C_pastel.jpg",
+    "width": 1320,
+    "height": 1670,
+    "pd": true
+  },
+  "city-rome-colosseum": {
+    "file": "city-rome-colosseum.jpg",
+    "title": "競技場古蹟",
+    "license": "CC0",
+    "artist": "Rijksmuseum",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rome_-_Colosseum%2C_RP-F-F02066.jpg",
+    "width": 5772,
+    "height": 4336,
+    "pd": true
+  },
+  "city-istanbul-aivazovsky": {
+    "file": "city-istanbul-aivazovsky.jpg",
+    "title": "博斯普魯斯天際線",
+    "license": "Public domain",
+    "artist": "Aivazovsky",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aivazovsky_-_View_of_Constantinople_and_the_Bosphorus.jpg",
+    "width": 4000,
+    "height": 2509,
+    "pd": true
+  },
+  "city-kyoto-arashiyama": {
+    "file": "city-kyoto-arashiyama.jpg",
+    "title": "嵐山櫻花",
+    "license": "CC0",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%BA%AC%E9%83%BD%E5%90%8D%E6%89%80%E4%B9%8B%E5%86%85_%E3%81%82%E3%82%89%E3%81%97%E5%B1%B1%E6%BA%80%E8%8A%B1-Cherry_Blossoms_at_Arashiyama%2C_from_the_series_Famous_Places_of_Ky%C5%8Dto_MET_DP120462.jpg",
+    "width": 3861,
+    "height": 2500,
+    "pd": true
+  },
+  "city-prague-ezdorf": {
+    "file": "city-prague-ezdorf.jpg",
+    "title": "查理大橋全景",
+    "license": "Public domain",
+    "artist": "Christian Ezdorf",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christian_Ezdorf_-_Panorama_of_Prague.jpg",
+    "width": 5148,
+    "height": 1552,
+    "pd": true
+  },
+  "animal-stubbs-zebra": {
+    "file": "animal-stubbs-zebra.jpg",
+    "title": "斑馬",
+    "license": "Public domain",
+    "artist": "George Stubbs",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/George_Stubbs_-_Zebra_-_Google_Art_Project.jpg",
+    "width": 5972,
+    "height": 4753,
+    "pd": true
+  },
+  "animal-agasse-giraffe": {
+    "file": "animal-agasse-giraffe.jpg",
+    "title": "努比亞長頸鹿",
+    "license": "Public domain",
+    "artist": "Agasse",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques-Laurent_Agasse_-_Nubian_Giraffe_-_Google_Art_Project.jpg",
+    "width": 3814,
+    "height": 4780,
+    "pd": true
+  },
+  "animal-monticelli-flamingo": {
+    "file": "animal-monticelli-flamingo.jpg",
+    "title": "紅色火烈鳥",
+    "license": "Public domain",
+    "artist": "Monticelli",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Longchamp182_Monticelli_flamants.jpg",
+    "width": 2817,
+    "height": 2055,
+    "pd": true
+  },
+  "myth-unicorn-tapestry": {
+    "file": "myth-unicorn-tapestry.jpg",
+    "title": "獨角獸掛毯",
+    "license": "Public domain",
+    "artist": "中世紀佚名",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Toulouse%29_Mon_seul_d%C3%A9sir_%28La_Dame_%C3%A0_la_licorne%29_-_Mus%C3%A9e_de_Cluny_Paris.jpg",
+    "width": 2500,
+    "height": 2018,
+    "pd": true
+  },
+  "myth-centaur-botticelli": {
+    "file": "myth-centaur-botticelli.jpg",
+    "title": "半人馬",
+    "license": "Public domain",
+    "artist": "Botticelli",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Botticelli_Pallas_and_the_Centaur.jpg",
+    "width": 3454,
+    "height": 4573,
+    "pd": true
+  },
+  "myth-minotaur-burnejones": {
+    "file": "myth-minotaur-burnejones.jpg",
+    "title": "迷宮牛頭怪",
+    "license": "Public domain",
+    "artist": "Burne-Jones",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edward_Burne-Jones_-_Tile_Design_-_Theseus_and_the_Minotaur_in_the_Labyrinth_-_Google_Art_Project.jpg",
+    "width": 4788,
+    "height": 5003,
+    "pd": true
+  },
+  "myth-sphinx-tanis": {
+    "file": "myth-sphinx-tanis.jpg",
+    "title": "花崗岩獅身人面",
+    "license": "CC0",
+    "artist": "古埃及",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Sphinx_of_Tanis%2C_Paris_alt.jpg",
+    "width": 5209,
+    "height": 4603,
+    "pd": true
   }
 }
