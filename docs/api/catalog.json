@@ -3,7 +3,7 @@
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
     "brand_count": 60,
-    "character_count": 769,
+    "character_count": 787,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -10349,6 +10349,28 @@
       },
       "characters": [
         {
+          "slug": "jp-crane-fukurokuju",
+          "name": "福祿壽與丹頂鶴",
+          "name_zh": "福祿壽與丹頂鶴",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "葛飾北齋",
+          "creator": "葛飾北齋",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-crane-fukurokuju.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪彩色木版，七福神與丹頂鶴。 `浮世繪彩色木版 七福神與丹頂鶴`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-daruma",
           "name": "達摩不倒翁",
           "name_zh": "達摩不倒翁",
@@ -10369,6 +10391,116 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-fushimi-torii",
+          "name": "伏見稻荷千本鳥居",
+          "name_zh": "伏見稻荷千本鳥居",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "Rijksmuseum",
+          "creator": "Rijksmuseum",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-fushimi-torii.jpg",
+          "reference_gallery": [],
+          "appearance": "20世紀初著色照片，朱紅鳥居隧道。 `20世紀初著色照片 朱紅鳥居隧道`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-hanami-kiyonaga",
+          "name": "飛鳥山花見",
+          "name_zh": "飛鳥山花見",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "鳥居清長",
+          "creator": "鳥居清長",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hanami-kiyonaga.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪全景，滿山櫻景踏青人群。 `浮世繪全景 滿山櫻景踏青人群`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hanami-toyokuni",
+          "name": "隅田川賞櫻",
+          "name_zh": "隅田川賞櫻",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "歌川豊国",
+          "creator": "歌川豊国",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hanami-toyokuni.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪美人繪，仕女櫻花下賞櫻。 `浮世繪美人繪 仕女櫻花下賞櫻`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-himeji-castle",
+          "name": "姬路城晨光",
+          "name_zh": "姬路城晨光",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "吉田博",
+          "creator": "吉田博",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-himeji-castle.jpg",
+          "reference_gallery": [],
+          "appearance": "新版畫木版，白鷺城晨景。 `新版畫木版 白鷺城晨景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hina-matsuri",
+          "name": "軍宅雛祭",
+          "name_zh": "軍宅雛祭",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "勝川春潮",
+          "creator": "勝川春潮",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hina-matsuri.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪，武家宅雛人形。 `浮世繪 武家宅雛人形`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-hiroshige-cat",
@@ -10635,6 +10767,28 @@
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-indian-elephant",
+          "name": "天竺丸印度象",
+          "name_zh": "天竺丸印度象",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "MET",
+          "creator": "MET",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-indian-elephant.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪，入貢中國巨象。 `浮世繪 入貢中國巨象`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
           "slug": "jp-jakuchu-parrot",
           "name": "若冲薔薇與鸚鵡",
           "name_zh": "若冲薔薇與鸚鵡",
@@ -10655,6 +10809,94 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "jp-kappa",
+          "name": "河童相撲",
+          "name_zh": "河童相撲",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kappa.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪，河童與人相撲。 `浮世繪 河童與人相撲`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-kinkakuji",
+          "name": "金閣寺",
+          "name_zh": "金閣寺",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "Brian",
+          "creator": "Brian",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kinkakuji.jpg",
+          "reference_gallery": [],
+          "appearance": "現代數位攝影，金閣寺建築全貌。 `現代數位攝影 金閣寺建築全貌`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "jp-kitsune",
+          "name": "宗近得狐助鍛刀",
+          "name_zh": "宗近得狐助鍛刀",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "尾形月耕",
+          "creator": "尾形月耕",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kitsune.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪，狐靈助鍛刀。 `浮世繪 狐靈助鍛刀`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-koi-cascade",
+          "name": "錦鯉躍瀑",
+          "name_zh": "錦鯉躍瀑",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "葛飾北齋",
+          "creator": "葛飾北齋",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-koi-cascade.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪動物畫，兩尾錦鯉逆流躍瀑。 `浮世繪動物畫 兩尾錦鯉逆流躍瀑`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-kuniyoshi-cats",
@@ -10833,6 +11075,28 @@
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-rokurokubi",
+          "name": "轆轤首女妖",
+          "name_zh": "轆轤首女妖",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "葛飾北齋",
+          "creator": "葛飾北齋",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-rokurokubi.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪妖怪圖，伸長頸項女妖。 `浮世繪妖怪圖 伸長頸項女妖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-ryoanji",
           "name": "龍安寺枯山水",
           "name_zh": "龍安寺枯山水",
@@ -10919,6 +11183,138 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-skeleton-spectre",
+          "name": "大骸骨妖",
+          "name_zh": "大骸骨妖",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "歌川國芳",
+          "creator": "歌川國芳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-skeleton-spectre.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪妖怪畫，大骸骨妖吞人。 `浮世繪妖怪畫 大骸骨妖吞人`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-tanabata",
+          "name": "江戶百景七夕祭",
+          "name_zh": "江戶百景七夕祭",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-tanabata.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪名所繪，街道七夕裝飾。 `浮世繪名所繪 街道七夕裝飾`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-tanuki",
+          "name": "初午祭狸妖",
+          "name_zh": "初午祭狸妖",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "江戶浮世繪",
+          "creator": "江戶浮世繪",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-tanuki.png",
+          "reference_gallery": [],
+          "appearance": "浮世繪，狸妖化人形持壺。 `浮世繪 狸妖化人形持壺`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-tengu",
+          "name": "北條高時驅天狗",
+          "name_zh": "北條高時驅天狗",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-tengu.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪，揮扇擊退天狗群。 `浮世繪 揮扇擊退天狗群`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-tiger-dragon",
+          "name": "虎與龍",
+          "name_zh": "虎與龍",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "大英博物館",
+          "creator": "大英博物館",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-tiger-dragon.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪木版，猛虎與龍對峙。 `浮世繪木版 猛虎與龍對峙`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-tsukimi",
+          "name": "月見插花",
+          "name_zh": "月見插花",
+          "role": "日式藝術/浮世繪/妖怪/建築",
+          "first_appearance": "喜多川歌麿",
+          "creator": "喜多川歌麿",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-tsukimi.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪，月下佈置月見花。 `浮世繪 月下佈置月見花`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：CC0 授權"
         },
         {
           "slug": "jp-utamaro-beauties",

@@ -7208,5 +7208,185 @@
     "width": 1797,
     "height": 3051,
     "pd": true
+  },
+  "jp-koi-cascade": {
+    "file": "jp-koi-cascade.jpg",
+    "title": "兩尾錦鯉逆流",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Two_carp_in_a_cascade.jpg",
+    "width": 1302,
+    "height": 2922,
+    "pd": true
+  },
+  "jp-crane-fukurokuju": {
+    "file": "jp-crane-fukurokuju.jpg",
+    "title": "福祿壽丹頂鶴",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Fukurokuju%2C_the_god_of_wisdom%2C_wealth%2C_long_life%2C_and_happiness%2C_one_of_the_seven_lucky_gods%2C_facing_left%2C_wearing_robes_and_a_hat%2C_with_a_red-crowned_crane_standing_to_his_right_LCCN2009631918.jpg",
+    "width": 1840,
+    "height": 2500,
+    "pd": true
+  },
+  "jp-tanuki": {
+    "file": "jp-tanuki.png",
+    "title": "狸妖化人形",
+    "license": "Public domain",
+    "artist": "江戶浮世繪",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Hatsuuma_no_tanuki.png",
+    "width": 2172,
+    "height": 3164,
+    "pd": true
+  },
+  "jp-tiger-dragon": {
+    "file": "jp-tiger-dragon.jpg",
+    "title": "猛虎與龍對峙",
+    "license": "Public domain",
+    "artist": "大英博物館",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Tora%2C_tatsu_%E5%AF%85%E9%BE%8D_%28Tiger_and_dragon%29_%28BM_2008%2C3037.02402%29.jpg",
+    "width": 1058,
+    "height": 1600,
+    "pd": true
+  },
+  "jp-indian-elephant": {
+    "file": "jp-indian-elephant.jpg",
+    "title": "入貢巨象",
+    "license": "CC0",
+    "artist": "MET",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Tenjiku_maru_no_zu-A_View_of_Indian_Elephants_MET_DP148067.jpg",
+    "width": 1966,
+    "height": 990,
+    "pd": true
+  },
+  "jp-tanabata": {
+    "file": "jp-tanabata.jpg",
+    "title": "七夕祭",
+    "license": "CC0",
+    "artist": "歌川廣重",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Hiroshige%2C_The_city_flourishing%2C_Tanabata_festival%2C_1857.jpg",
+    "width": 1693,
+    "height": 2500,
+    "pd": true
+  },
+  "jp-hanami-toyokuni": {
+    "file": "jp-hanami-toyokuni.jpg",
+    "title": "仕女賞櫻",
+    "license": "Public domain",
+    "artist": "歌川豊国",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Cherry_Blossom_Viewing_in_the_Inner_Garden_by_Utagawa_Toyokuni_I.JPG",
+    "width": 3000,
+    "height": 4000,
+    "pd": true
+  },
+  "jp-hanami-kiyonaga": {
+    "file": "jp-hanami-kiyonaga.jpg",
+    "title": "滿山櫻景",
+    "license": "Public domain",
+    "artist": "鳥居清長",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cherry_blossom_viewing_at_Asukayama%2C_by_Torii_Kiyonaga%2C_Edo_period%2C_1700s_AD%2C_print_-_Ishikawa_Prefectural_Museum_of_Traditional_Arts_and_Crafts_-_Kanazawa%2C_Japan_-_DSC09583.jpg",
+    "width": 4932,
+    "height": 2452,
+    "pd": true
+  },
+  "jp-hina-matsuri": {
+    "file": "jp-hina-matsuri.jpg",
+    "title": "雛人形",
+    "license": "Public domain",
+    "artist": "勝川春潮",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/%27The_Doll_Festival_at_a_Military_Household%27_by_Katsukawa_Shuncho%2C_c._1781-1801%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg",
+    "width": 666,
+    "height": 500,
+    "pd": true
+  },
+  "jp-tsukimi": {
+    "file": "jp-tsukimi.jpg",
+    "title": "月下佈置花",
+    "license": "CC0",
+    "artist": "喜多川歌麿",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/%E5%BF%A0%E8%87%A3%E8%94%B5%E5%9B%9B%E6%AE%B5%E7%9B%AE-A_Woman_and_a_Man_Arranging_Flowers_for_the_Tsukimi_%28Moon_Festival%29_MET_DP135637.jpg",
+    "width": 2590,
+    "height": 3853,
+    "pd": true
+  },
+  "jp-himeji-castle": {
+    "file": "jp-himeji-castle.jpg",
+    "title": "白鷺城",
+    "license": "Public domain",
+    "artist": "吉田博",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Himeji_Castle_in_the_Morning_by_Yoshida_Hiroshi%2C_woodblock_print%2C_Honolulu_Museum_of_Art4.jpg",
+    "width": 544,
+    "height": 800,
+    "pd": true
+  },
+  "jp-fushimi-torii": {
+    "file": "jp-fushimi-torii.jpg",
+    "title": "朱紅鳥居隧道",
+    "license": "CC0",
+    "artist": "Rijksmuseum",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Twee_Torii-galerijen_van_het_Fushimi_Inari-taisha_tempelcomplex_in_Kyoto%2C_Japan%2C_RP-F-2003-147-156.jpg",
+    "width": 2802,
+    "height": 2136,
+    "pd": true
+  },
+  "jp-kinkakuji": {
+    "file": "jp-kinkakuji.jpg",
+    "title": "金閣寺",
+    "license": "CC-BY 2.0",
+    "artist": "Brian",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Kinkakuji_%28Golden_Pavilion%29%2C_Kyoto%2C_Japan_-_34036736784.jpg",
+    "width": 5184,
+    "height": 3456,
+    "pd": true
+  },
+  "jp-kappa": {
+    "file": "jp-kappa.jpg",
+    "title": "河童與人相撲",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Shirafuji_Genta_Watching_Kappa_Wrestle_LACMA_M.84.31.59.jpg",
+    "width": 1399,
+    "height": 2100,
+    "pd": true
+  },
+  "jp-tengu": {
+    "file": "jp-tengu.jpg",
+    "title": "天狗群",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Hojo_Takatoki%2C_Lord_of_Sagami%2C_Warding_Off_Tengu_with_His_Fan_LACMA_M.84.31.73.jpg",
+    "width": 1422,
+    "height": 2100,
+    "pd": true
+  },
+  "jp-rokurokubi": {
+    "file": "jp-rokurokubi.jpg",
+    "title": "伸長頸妖怪",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Hokusai_rokurokubi.jpg",
+    "width": 500,
+    "height": 948,
+    "pd": true
+  },
+  "jp-kitsune": {
+    "file": "jp-kitsune.jpg",
+    "title": "狐靈助鍛刀",
+    "license": "Public domain",
+    "artist": "尾形月耕",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Blacksmith_Munechika%2C_helped_by_a_fox_spirit%2C_forging_the_blade_Ko-Gitsune_Maru%2C_by_Ogata_Gekk%C5%8D.jpg",
+    "width": 1573,
+    "height": 2227,
+    "pd": true
+  },
+  "jp-skeleton-spectre": {
+    "file": "jp-skeleton-spectre.jpg",
+    "title": "大骸骨妖",
+    "license": "Public domain",
+    "artist": "歌川國芳",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mitsukuni_defying_the_skeleton_spectre_invoked_by_princess_Takiyasha.jpg",
+    "width": 3829,
+    "height": 1847,
+    "pd": true
   }
 }
