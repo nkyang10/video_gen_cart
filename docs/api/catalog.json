@@ -3,7 +3,7 @@
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
     "brand_count": 43,
-    "character_count": 436,
+    "character_count": 460,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -9931,6 +9931,28 @@
       },
       "characters": [
         {
+          "slug": "oss-ansible",
+          "name": "Ansible",
+          "name_zh": "Ansible",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Red Hat",
+          "creator": "Red Hat",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-ansible.png",
+          "reference_gallery": [],
+          "appearance": "扁平圓形徽章，紅色圓形 A 字。 `扁平圓形徽章 Ansible logo, 紅色圓形 A 字`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Public domain 授權；品牌名可能係商標"
+        },
+        {
           "slug": "oss-arch",
           "name": "Arch Linux",
           "name_zh": "Arch Linux",
@@ -9975,6 +9997,182 @@
           "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY 授權；Kubernetes 名稱可能係商標"
         },
         {
+          "slug": "oss-clojure",
+          "name": "Clojure",
+          "name_zh": "Clojure",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Rich Hickey",
+          "creator": "Rich Hickey",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-clojure.png",
+          "reference_gallery": [],
+          "appearance": "扁平抽象向量，藍色雲形渦卷。 `扁平抽象向量 Clojure logo, 藍色雲形渦卷`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Public domain 授權；品牌名可能係商標"
+        },
+        {
+          "slug": "oss-couchdb",
+          "name": "Apache CouchDB",
+          "name_zh": "Apache CouchDB",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Apache",
+          "creator": "Apache",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-couchdb.png",
+          "reference_gallery": [],
+          "appearance": "平面圓形徽章，藍圓環繞+索鏈。 `平面圓形徽章 Apache CouchDB logo, 藍圓環繞+索鏈`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Public domain 授權；品牌名可能係商標"
+        },
+        {
+          "slug": "oss-dart",
+          "name": "Dart",
+          "name_zh": "Dart",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Google",
+          "creator": "Google",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "檔案授權自由；品牌名/商標受規範",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-dart.png",
+          "reference_gallery": [],
+          "appearance": "扁平向量，雙 D 藍色徽章。 `扁平向量 Dart logo, 雙 D 藍色徽章`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：CC-BY 3.0 授權；品牌名可能係商標"
+        },
+        {
+          "slug": "oss-docker",
+          "name": "Docker Moby",
+          "name_zh": "Docker Moby",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Docker/Moby",
+          "creator": "Docker/Moby",
+          "license": {
+            "type": "CC",
+            "code": "Apache 2.0"
+          },
+          "protected_portion": "檔案授權自由；品牌名/商標受規範",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-docker.png",
+          "reference_gallery": [],
+          "appearance": "半卡通扁平，集裝箱鯨魚。 `半卡通扁平 Docker Moby logo, 集裝箱鯨魚`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Apache 2.0 授權；品牌名可能係商標"
+        },
+        {
+          "slug": "oss-elasticsearch",
+          "name": "Elasticsearch",
+          "name_zh": "Elasticsearch",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Elastic",
+          "creator": "Elastic",
+          "license": {
+            "type": "CC",
+            "code": "Apache 2.0"
+          },
+          "protected_portion": "檔案授權自由；品牌名/商標受規範",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-elasticsearch.png",
+          "reference_gallery": [],
+          "appearance": "扁平向量，橙色波浪 Elastics。 `扁平向量 Elasticsearch logo, 橙色波浪 Elastics`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Apache 2.0 授權；品牌名可能係商標"
+        },
+        {
+          "slug": "oss-elixir",
+          "name": "Elixir",
+          "name_zh": "Elixir",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "José Valim",
+          "creator": "José Valim",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-elixir.png",
+          "reference_gallery": [],
+          "appearance": "扁平向量，紫色水滴渦卷。 `扁平向量 Elixir logo, 紫色水滴渦卷`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Public domain 授權；品牌名可能係商標"
+        },
+        {
+          "slug": "oss-emacs",
+          "name": "GNU Emacs",
+          "name_zh": "GNU Emacs",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "GNU/FSF",
+          "creator": "GNU/FSF",
+          "license": {
+            "type": "CC",
+            "code": "GPL"
+          },
+          "protected_portion": "檔案授權自由；品牌名/商標受規範",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-emacs.png",
+          "reference_gallery": [],
+          "appearance": "扁平黑白向量，Emacs+lambda 徽標。 `扁平黑白向量 GNU Emacs logo, Emacs+lambda 徽標`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：GPL 授權；品牌名可能係商標"
+        },
+        {
+          "slug": "oss-erlang",
+          "name": "Erlang",
+          "name_zh": "Erlang",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Ericsson",
+          "creator": "Ericsson",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-erlang.png",
+          "reference_gallery": [],
+          "appearance": "扁平雙色向量，藍色同心螺旋。 `扁平雙色向量 Erlang logo, 藍色同心螺旋`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Public domain 授權；品牌名可能係商標"
+        },
+        {
           "slug": "oss-geeko",
           "name": "Geeko（openSUSE）",
           "name_zh": "Geeko（openSUSE）",
@@ -9995,6 +10193,50 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY-SA 3.0 授權；openSUSE 名稱可能係商標"
+        },
+        {
+          "slug": "oss-git",
+          "name": "Git",
+          "name_zh": "Git",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Git",
+          "creator": "Git",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "檔案授權自由；品牌名/商標受規範",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-git.png",
+          "reference_gallery": [],
+          "appearance": "扁平向量字樣，雙叉 Git+分支弧線。 `扁平向量字樣 Git logo, 雙叉 Git+分支弧線`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：CC-BY 3.0 授權；品牌名可能係商標"
+        },
+        {
+          "slug": "oss-go-logo",
+          "name": "Go Logo",
+          "name_zh": "Go Logo",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Go Authors",
+          "creator": "Go Authors",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-go-logo.png",
+          "reference_gallery": [],
+          "appearance": "扁平向量字樣，藍綠雙字 Go。 `扁平向量字樣 Go Logo logo, 藍綠雙字 Go`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Public domain 授權；品牌名可能係商標"
         },
         {
           "slug": "oss-goldie",
@@ -10041,6 +10283,50 @@
           "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY 授權；Helm 名稱可能係商標"
         },
         {
+          "slug": "oss-java-duke",
+          "name": "Java Duke",
+          "name_zh": "Java Duke",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Oracle/OpenJDK",
+          "creator": "Oracle/OpenJDK",
+          "license": {
+            "type": "CC",
+            "code": "BSD"
+          },
+          "protected_portion": "檔案授權自由；品牌名/商標受規範",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-java-duke.png",
+          "reference_gallery": [],
+          "appearance": "平塗卡通向量，黃色小惡魔揮手。 `平塗卡通向量 Java Duke logo, 黃色小惡魔揮手`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：BSD 授權；品牌名可能係商標"
+        },
+        {
+          "slug": "oss-julia",
+          "name": "Julia",
+          "name_zh": "Julia",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "JuliaLang",
+          "creator": "JuliaLang",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-julia.png",
+          "reference_gallery": [],
+          "appearance": "扁平向量，藍色字+紫色圓點環。 `扁平向量 Julia logo, 藍色字+紫色圓點環`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Public domain 授權；品牌名可能係商標"
+        },
+        {
           "slug": "oss-kodee",
           "name": "Kodee（Kotlin 吉祥物）",
           "name_zh": "Kodee（Kotlin 吉祥物）",
@@ -10085,6 +10371,50 @@
           "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY 授權；Linkerd 名稱可能係商標"
         },
         {
+          "slug": "oss-lua",
+          "name": "Lua",
+          "name_zh": "Lua",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "PUC-Rio",
+          "creator": "PUC-Rio",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-lua.png",
+          "reference_gallery": [],
+          "appearance": "扁平藍色向量，新月+雲狀重影。 `扁平藍色向量 Lua logo, 新月+雲狀重影`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Public domain 授權；品牌名可能係商標"
+        },
+        {
+          "slug": "oss-mariadb",
+          "name": "MariaDB",
+          "name_zh": "MariaDB",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "MariaDB 基金會",
+          "creator": "MariaDB 基金會",
+          "license": {
+            "type": "CC",
+            "code": "GPL"
+          },
+          "protected_portion": "檔案授權自由；品牌名/商標受規範",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-mariadb.png",
+          "reference_gallery": [],
+          "appearance": "扁平向量徽章，藍色雙指海豚。 `扁平向量徽章 MariaDB logo, 藍色雙指海豚`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：GPL 授權；品牌名可能係商標"
+        },
+        {
           "slug": "oss-mongodb",
           "name": "MongoDB",
           "name_zh": "MongoDB",
@@ -10105,6 +10435,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：Public domain 授權；MongoDB 名稱可能係商標"
+        },
+        {
+          "slug": "oss-nim",
+          "name": "Nim",
+          "name_zh": "Nim",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Andreas Rumpf",
+          "creator": "Andreas Rumpf",
+          "license": {
+            "type": "CC",
+            "code": "MIT"
+          },
+          "protected_portion": "檔案授權自由；品牌名/商標受規範",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-nim.png",
+          "reference_gallery": [],
+          "appearance": "扁平向量，Nim 字+菱形圓點。 `扁平向量 Nim logo, Nim 字+菱形圓點`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：MIT 授權；品牌名可能係商標"
         },
         {
           "slug": "oss-nodejs",
@@ -10129,6 +10481,28 @@
           "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：MIT 授權；Node.js 名稱可能係商標"
         },
         {
+          "slug": "oss-ocaml",
+          "name": "OCaml",
+          "name_zh": "OCaml",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "INRIA",
+          "creator": "INRIA",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-ocaml.png",
+          "reference_gallery": [],
+          "appearance": "扁平矩形徽章，藍底白 OCaml。 `扁平矩形徽章 OCaml logo, 藍底白 OCaml`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Public domain 授權；品牌名可能係商標"
+        },
+        {
           "slug": "oss-phippy",
           "name": "Phippy（K8s 長頸鹿）",
           "name_zh": "Phippy（K8s 長頸鹿）",
@@ -10149,6 +10523,72 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY 授權；Kubernetes 名稱可能係商標"
+        },
+        {
+          "slug": "oss-python",
+          "name": "Python",
+          "name_zh": "Python",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "PSF",
+          "creator": "PSF",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "檔案授權自由；品牌名/商標受規範",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-python.png",
+          "reference_gallery": [],
+          "appearance": "扁平向量，黃藍雙蟒蛇。 `扁平向量 Python logo, 黃藍雙蟒蛇`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：CC-BY-SA 3.0 授權；品牌名可能係商標"
+        },
+        {
+          "slug": "oss-r-lang",
+          "name": "R",
+          "name_zh": "R",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "R Foundation",
+          "creator": "R Foundation",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "檔案授權自由；品牌名/商標受規範",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-r-lang.png",
+          "reference_gallery": [],
+          "appearance": "平面圓形徽章，藍圓白 R 字。 `平面圓形徽章 R logo, 藍圓白 R 字`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：CC-BY-SA 4.0 授權；品牌名可能係商標"
+        },
+        {
+          "slug": "oss-redis",
+          "name": "Redis",
+          "name_zh": "Redis",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Redis Ltd",
+          "creator": "Redis Ltd",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-redis.png",
+          "reference_gallery": [],
+          "appearance": "扁平紅色向量，紅色菱形微笑。 `扁平紅色向量 Redis logo, 紅色菱形微笑`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Public domain 授權；品牌名可能係商標"
         },
         {
           "slug": "oss-ruby",
@@ -10195,6 +10635,28 @@
           "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：CC-BY-SA 3.0 授權；MySQL 名稱可能係商標"
         },
         {
+          "slug": "oss-scala",
+          "name": "Scala",
+          "name_zh": "Scala",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Lightbend",
+          "creator": "Lightbend",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-scala.png",
+          "reference_gallery": [],
+          "appearance": "扁平向量，紅色螺旋流線。 `扁平向量 Scala logo, 紅色螺旋流線`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Public domain 授權；品牌名可能係商標"
+        },
+        {
           "slug": "oss-slonik",
           "name": "Slonik（PostgreSQL 大象）",
           "name_zh": "Slonik（PostgreSQL 大象）",
@@ -10237,6 +10699,72 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**科技主題動畫角色**：開源吉祥物做科技/程式主題參考 **注意**：Public domain 授權；SQLite 名稱可能係商標"
+        },
+        {
+          "slug": "oss-swift",
+          "name": "Swift",
+          "name_zh": "Swift",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Apple",
+          "creator": "Apple",
+          "license": {
+            "type": "CC",
+            "code": "Apache 2.0"
+          },
+          "protected_portion": "檔案授權自由；品牌名/商標受規範",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-swift.png",
+          "reference_gallery": [],
+          "appearance": "扁平向量，橘色燕形吞天燕。 `扁平向量 Swift logo, 橘色燕形吞天燕`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Apache 2.0 授權；品牌名可能係商標"
+        },
+        {
+          "slug": "oss-typescript",
+          "name": "TypeScript",
+          "name_zh": "TypeScript",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Microsoft",
+          "creator": "Microsoft",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-typescript.png",
+          "reference_gallery": [],
+          "appearance": "扁平幾何向量，藍盾白 TS。 `扁平幾何向量 TypeScript logo, 藍盾白 TS`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：Public domain 授權；品牌名可能係商標"
+        },
+        {
+          "slug": "oss-vim",
+          "name": "Vim",
+          "name_zh": "Vim",
+          "role": "開源軟體吉祥物",
+          "first_appearance": "Bram Moolenaar",
+          "creator": "Bram Moolenaar",
+          "license": {
+            "type": "CC",
+            "code": "GPL v2"
+          },
+          "protected_portion": "檔案授權自由；品牌名/商標受規範",
+          "trademark": "品牌名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/oss-vim.png",
+          "reference_gallery": [],
+          "appearance": "扁平圓角徽章，藍框 vim+括號。 `扁平圓角徽章 Vim logo, 藍框 vim+括號`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**科技動畫/開源主題**：開源吉祥物做科技主題動畫參考 **注意**：GPL v2 授權；品牌名可能係商標"
         },
         {
           "slug": "oss-zee",

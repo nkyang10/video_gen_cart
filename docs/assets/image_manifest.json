@@ -3908,5 +3908,245 @@
     "width": 486,
     "height": 259,
     "pd": true
+  },
+  "oss-java-duke": {
+    "file": "oss-java-duke.png",
+    "title": "黃色小惡魔揮手",
+    "license": "BSD",
+    "artist": "Oracle/OpenJDK",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Duke_%28Java_mascot%29_waving.svg",
+    "width": 1200,
+    "height": 2164,
+    "pd": true
+  },
+  "oss-julia": {
+    "file": "oss-julia.png",
+    "title": "藍色字+紫圓點",
+    "license": "Public domain",
+    "artist": "JuliaLang",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Julia_Programming_Language_Logo.svg",
+    "width": 1200,
+    "height": 773,
+    "pd": true
+  },
+  "oss-lua": {
+    "file": "oss-lua.png",
+    "title": "新月圖案",
+    "license": "Public domain",
+    "artist": "PUC-Rio",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg",
+    "width": 1200,
+    "height": 1200,
+    "pd": true
+  },
+  "oss-clojure": {
+    "file": "oss-clojure.png",
+    "title": "雲形符號",
+    "license": "Public domain",
+    "artist": "Rich Hickey",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg",
+    "width": 1200,
+    "height": 1200,
+    "pd": true
+  },
+  "oss-erlang": {
+    "file": "oss-erlang.png",
+    "title": "同心螺旋",
+    "license": "Public domain",
+    "artist": "Ericsson",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Erlang_logo.svg",
+    "width": 1200,
+    "height": 1052,
+    "pd": true
+  },
+  "oss-go-logo": {
+    "file": "oss-go-logo.png",
+    "title": "藍綠 Go 字",
+    "license": "Public domain",
+    "artist": "Go Authors",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg",
+    "width": 1200,
+    "height": 448,
+    "pd": true
+  },
+  "oss-r-lang": {
+    "file": "oss-r-lang.png",
+    "title": "藍圓 R 字",
+    "license": "CC-BY-SA 4.0",
+    "artist": "R Foundation",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg",
+    "width": 1200,
+    "height": 930,
+    "pd": true
+  },
+  "oss-typescript": {
+    "file": "oss-typescript.png",
+    "title": "藍盾 TS",
+    "license": "Public domain",
+    "artist": "Microsoft",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+    "width": 1200,
+    "height": 1200,
+    "pd": true
+  },
+  "oss-dart": {
+    "file": "oss-dart.png",
+    "title": "雙 D 藍色",
+    "license": "CC-BY 3.0",
+    "artist": "Google",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Dart-logo-icon.svg",
+    "width": 1200,
+    "height": 1200,
+    "pd": true
+  },
+  "oss-nim": {
+    "file": "oss-nim.png",
+    "title": "Nim 字+菱形",
+    "license": "MIT",
+    "artist": "Andreas Rumpf",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Nim_logo.svg",
+    "width": 1200,
+    "height": 910,
+    "pd": true
+  },
+  "oss-ocaml": {
+    "file": "oss-ocaml.png",
+    "title": "藍底白字",
+    "license": "Public domain",
+    "artist": "INRIA",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/OCaml_Logo.svg",
+    "width": 1200,
+    "height": 330,
+    "pd": true
+  },
+  "oss-scala": {
+    "file": "oss-scala.png",
+    "title": "紅色螺旋",
+    "license": "Public domain",
+    "artist": "Lightbend",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Scala_software_logo.svg",
+    "width": 1200,
+    "height": 227,
+    "pd": true
+  },
+  "oss-swift": {
+    "file": "oss-swift.png",
+    "title": "橘色燕形",
+    "license": "Apache 2.0",
+    "artist": "Apple",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Swift_logo.svg",
+    "width": 1200,
+    "height": 373,
+    "pd": true
+  },
+  "oss-python": {
+    "file": "oss-python.png",
+    "title": "雙蟒蛇",
+    "license": "CC-BY-SA 3.0",
+    "artist": "PSF",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg",
+    "width": 1200,
+    "height": 1200,
+    "pd": true
+  },
+  "oss-elixir": {
+    "file": "oss-elixir.png",
+    "title": "紫色水滴",
+    "license": "Public domain",
+    "artist": "José Valim",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Official_Elixir_logo.png",
+    "width": 1000,
+    "height": 418,
+    "pd": true
+  },
+  "oss-couchdb": {
+    "file": "oss-couchdb.png",
+    "title": "藍圓索鏈",
+    "license": "Public domain",
+    "artist": "Apache",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Apache_CouchDB_logo.svg",
+    "width": 1200,
+    "height": 1215,
+    "pd": true
+  },
+  "oss-mariadb": {
+    "file": "oss-mariadb.png",
+    "title": "藍色海豚",
+    "license": "GPL",
+    "artist": "MariaDB 基金會",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/MariaDB_colour_logo.svg",
+    "width": 1200,
+    "height": 340,
+    "pd": true
+  },
+  "oss-redis": {
+    "file": "oss-redis.png",
+    "title": "紅色菱形",
+    "license": "Public domain",
+    "artist": "Redis Ltd",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Redis_logo.svg",
+    "width": 1200,
+    "height": 381,
+    "pd": true
+  },
+  "oss-git": {
+    "file": "oss-git.png",
+    "title": "雙叉 Git 字",
+    "license": "CC-BY 3.0",
+    "artist": "Git",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
+    "width": 1200,
+    "height": 501,
+    "pd": true
+  },
+  "oss-vim": {
+    "file": "oss-vim.png",
+    "title": "藍框 vim",
+    "license": "GPL v2",
+    "artist": "Bram Moolenaar",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg",
+    "width": 1200,
+    "height": 1202,
+    "pd": true
+  },
+  "oss-emacs": {
+    "file": "oss-emacs.png",
+    "title": "Emacs+lambda",
+    "license": "GPL",
+    "artist": "GNU/FSF",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Emacs-logo.svg",
+    "width": 1200,
+    "height": 964,
+    "pd": true
+  },
+  "oss-docker": {
+    "file": "oss-docker.png",
+    "title": "集裝箱鯨魚",
+    "license": "Apache 2.0",
+    "artist": "Docker/Moby",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png",
+    "width": 682,
+    "height": 163,
+    "pd": true
+  },
+  "oss-ansible": {
+    "file": "oss-ansible.png",
+    "title": "紅色 A 字",
+    "license": "Public domain",
+    "artist": "Red Hat",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg",
+    "width": 1200,
+    "height": 1477,
+    "pd": true
+  },
+  "oss-elasticsearch": {
+    "file": "oss-elasticsearch.png",
+    "title": "橙色波浪",
+    "license": "Apache 2.0",
+    "artist": "Elastic",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Elasticsearch_logo.svg",
+    "width": 1200,
+    "height": 263,
+    "pd": true
   }
 }
