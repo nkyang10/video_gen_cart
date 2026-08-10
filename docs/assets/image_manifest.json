@@ -2368,5 +2368,105 @@
     "width": 1200,
     "height": 1780,
     "pd": true
+  },
+  "pd-bosko": {
+    "file": "pd-bosko.jpg",
+    "title": "Looney Tunes 始祖小男孩",
+    "license": "Public domain",
+    "artist": "華納兄弟/Harmon-Ising",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Bosko%2C_1928.jpg",
+    "width": 640,
+    "height": 366,
+    "pd": true
+  },
+  "pd-bimbo": {
+    "file": "pd-bimbo.png",
+    "title": "Betty Boop 男友小黑狗/貓",
+    "license": "Public domain",
+    "artist": "Fleischer",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Bimbo_playing_his_banjo.png",
+    "width": 642,
+    "height": 483,
+    "pd": true
+  },
+  "pd-koko": {
+    "file": "pd-koko.jpg",
+    "title": "墨水瓶小丑",
+    "license": "Public domain",
+    "artist": "Fleischer",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Koko_the_Clown.jpg",
+    "width": 650,
+    "height": 974,
+    "pd": true
+  },
+  "pd-farmer-al": {
+    "file": "pd-farmer-al.jpg",
+    "title": "鄉村老農夫",
+    "license": "Public domain",
+    "artist": "Paul Terry",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Farmer_Al_Falfa_and_his_Tentless_Circus.jpg",
+    "width": 1134,
+    "height": 1181,
+    "pd": true
+  },
+  "pd-flip-frog": {
+    "file": "pd-flip-frog.jpg",
+    "title": "大頭青蛙",
+    "license": "Public domain",
+    "artist": "Ub Iwerks",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Flip_the_Frog_Model_Sheet.jpg",
+    "width": 367,
+    "height": 544,
+    "pd": true
+  },
+  "pd-vanbeuren-tj": {
+    "file": "pd-vanbeuren-tj.jpg",
+    "title": "黑白卡通貓（非 MGM 版）",
+    "license": "Public domain",
+    "artist": "Van Beuren",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Tom_And_Jerry.jpg",
+    "width": 1000,
+    "height": 1508,
+    "pd": true
+  },
+  "pd-waffles-don": {
+    "file": "pd-waffles-don.png",
+    "title": "一黑一白貓狗搭檔",
+    "license": "Public domain",
+    "artist": "Van Beuren",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Waffles_and_Don_run_from_a_Sphinx%27s_head.png",
+    "width": 575,
+    "height": 436,
+    "pd": true
+  },
+  "pd-charley-bowers": {
+    "file": "pd-charley-bowers.jpg",
+    "title": "實物動畫先驅",
+    "license": "Public domain",
+    "artist": "Charley Bowers",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Egged_On_%281926%29_-_1.jpg",
+    "width": 583,
+    "height": 802,
+    "pd": true
+  },
+  "pd-dinky-doodle": {
+    "file": "pd-dinky-doodle.jpg",
+    "title": "棒球帽小男孩與狗",
+    "license": "Public domain",
+    "artist": "Walter Lantz",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Dinky_Doodle_-_Aug_1925_EH.jpg",
+    "width": 920,
+    "height": 594,
+    "pd": true
+  },
+  "pd-aesop": {
+    "file": "pd-aesop.jpg",
+    "title": "擬人動物寓言系列",
+    "license": "Public domain",
+    "artist": "Paul Terry/Van Beuren",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Aesop-title.jpg",
+    "width": 400,
+    "height": 300,
+    "pd": true
   }
 }
