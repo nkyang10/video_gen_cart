@@ -3350,13 +3350,13 @@
     "pd": true
   },
   "jp-halloween-pack": {
-    "file": null,
+    "file": "jp-halloween-pack.png",
     "title": "原創動漫角色立繪",
     "license": "CC0",
     "artist": "DastashIArt",
     "source_url": "https://opengameart.org/sites/default/files/dastashiart.7z",
-    "width": 0,
-    "height": 0,
+    "width": 248,
+    "height": 480,
     "pd": true
   },
   "jp-codel": {
