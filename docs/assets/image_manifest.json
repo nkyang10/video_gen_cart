@@ -2248,5 +2248,75 @@
     "width": 64,
     "height": 64,
     "pd": true
+  },
+  "kenney-toon-characters": {
+    "file": "kenney-toon-characters.png",
+    "title": "Toon Characters",
+    "license": "CC0",
+    "artist": "Kenney",
+    "source_url": "https://kenney.nl/assets/toon-characters",
+    "width": 40,
+    "height": 60,
+    "pd": true
+  },
+  "kenney-mini-characters": {
+    "file": "kenney-mini-characters.png",
+    "title": "Mini Characters 1",
+    "license": "CC0",
+    "artist": "Kenney",
+    "source_url": "https://kenney.nl/assets/mini-characters",
+    "width": 918,
+    "height": 515,
+    "pd": true
+  },
+  "kenney-blocky-characters": {
+    "file": "kenney-blocky-characters.png",
+    "title": "Blocky Characters",
+    "license": "CC0",
+    "artist": "Kenney",
+    "source_url": "https://kenney.nl/assets/blocky-characters",
+    "width": 1024,
+    "height": 1024,
+    "pd": true
+  },
+  "kenney-platformer-characters": {
+    "file": "kenney-platformer-characters.png",
+    "title": "Platformer Characters",
+    "license": "CC0",
+    "artist": "Kenney",
+    "source_url": "https://kenney.nl/assets/platformer-characters",
+    "width": 918,
+    "height": 515,
+    "pd": true
+  },
+  "quaternius-animated-mech": {
+    "file": "quaternius-animated-mech.jpg",
+    "title": "Animated Mech Pack",
+    "license": "CC0",
+    "artist": "Quaternius",
+    "source_url": "https://quaternius.com/packs/animatedmech.html",
+    "width": 1920,
+    "height": 1080,
+    "pd": true
+  },
+  "quaternius-sushi-kit": {
+    "file": "quaternius-sushi-kit.jpg",
+    "title": "Sushi Restaurant Kit",
+    "license": "CC0",
+    "artist": "Quaternius",
+    "source_url": "https://quaternius.com/packs/sushirestaurantkit.html",
+    "width": 1920,
+    "height": 1080,
+    "pd": true
+  },
+  "quaternius-ultimate-chars": {
+    "file": "quaternius-ultimate-chars.jpg",
+    "title": "Ultimate Animated Character Pack",
+    "license": "CC0",
+    "artist": "Quaternius",
+    "source_url": "https://quaternius.com/packs/ultimatedanimatedcharacter.html",
+    "width": 1920,
+    "height": 1080,
+    "pd": true
   }
 }

@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 28,
-    "character_count": 231,
+    "brand_count": 29,
+    "character_count": 238,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -2295,6 +2295,178 @@
           "type": "路人",
           "relation": "Dizzy Dishes 等食嘅客人，被 Betty/Bimbo 演出激嬲",
           "interaction": "1930《Dizzy Dishes》入面隻大猩猩係餐廳客人，叫咗烤鴨，但因為 Bimbo 對 Betty 神魂顛倒、攞佢隻烤鴨當舞伴狂舞而暴跳如雷，引發追逐鬧劇。佢係「被打擾嘅暴怒客人」典型。\n"
+        }
+      ]
+    },
+    {
+      "slug": "free-asset-sources",
+      "name": "Free Asset Sources",
+      "name_zh": "自由素材來源庫",
+      "type": "素材來源 / 資產包目錄",
+      "country": "國際",
+      "era": "2010s-",
+      "creator": "各開放資產社群",
+      "publisher": "Kenney / Quaternius / Blender Studio / itch.io / HuggingFace",
+      "first_appearance_year": 2010,
+      "status": "CC0 / CC-BY 自由授權",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "kenney-blocky-characters",
+          "name": "Kenney Blocky Characters",
+          "name_zh": "Kenney Blocky Characters",
+          "role": "自由素材資產包",
+          "first_appearance": "kenney.nl",
+          "creator": "Kenney",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/kenney-blocky-characters.png",
+          "reference_gallery": [],
+          "appearance": "方塊像素風格，方塊風格人類/殭屍角色含多種動畫。 `方塊像素 asset pack, 方塊風格人類/殭屍角色含多種動畫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫角色/場景**：可商用素材資產包做動畫參考或直接使用 **注意**：CC0 授權（免署名）"
+        },
+        {
+          "slug": "kenney-mini-characters",
+          "name": "Kenney Mini Characters",
+          "name_zh": "Kenney Mini Characters",
+          "role": "自由素材資產包",
+          "first_appearance": "kenney.nl",
+          "creator": "Kenney",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/kenney-mini-characters.png",
+          "reference_gallery": [],
+          "appearance": "低多邊形 3D風格，12 個低多邊形 3D 角色 × 32 動畫。 `低多邊形 3D asset pack, 12 個低多邊形 3D 角色 × 32 動畫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫角色/場景**：可商用素材資產包做動畫參考或直接使用 **注意**：CC0 授權（免署名）"
+        },
+        {
+          "slug": "kenney-platformer-characters",
+          "name": "Kenney Platformer Characters",
+          "name_zh": "Kenney Platformer Characters",
+          "role": "自由素材資產包",
+          "first_appearance": "kenney.nl",
+          "creator": "Kenney",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/kenney-platformer-characters.png",
+          "reference_gallery": [],
+          "appearance": "2D 平台角色風格，平台遊戲角色包含動畫。 `2D 平台角色 asset pack, 平台遊戲角色包含動畫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫角色/場景**：可商用素材資產包做動畫參考或直接使用 **注意**：CC0 授權（免署名）"
+        },
+        {
+          "slug": "kenney-toon-characters",
+          "name": "Kenney Toon Characters",
+          "name_zh": "Kenney Toon Characters",
+          "role": "自由素材資產包",
+          "first_appearance": "kenney.nl",
+          "creator": "Kenney",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/kenney-toon-characters.png",
+          "reference_gallery": [],
+          "appearance": "扁平卡通 2D風格，270 張 2D 卡通角色姿勢圖（表情/待機/跳躍/奔跑）。 `扁平卡通 2D asset pack, 270 張 2D 卡通角色姿勢圖（表情/待機/跳躍/奔跑）`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫角色/場景**：可商用素材資產包做動畫參考或直接使用 **注意**：CC0 授權（免署名）"
+        },
+        {
+          "slug": "quaternius-animated-mech",
+          "name": "Quaternius Animated Mech",
+          "name_zh": "Quaternius Animated Mech",
+          "role": "自由素材資產包",
+          "first_appearance": "quaternius.com",
+          "creator": "Quaternius",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/quaternius-animated-mech.jpg",
+          "reference_gallery": [],
+          "appearance": "低多邊形機甲 3D風格，4 種機甲每款專屬動畫（待機/步行/攻擊）。 `低多邊形機甲 3D asset pack, 4 種機甲每款專屬動畫（待機/步行/攻擊）`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫角色/場景**：可商用素材資產包做動畫參考或直接使用 **注意**：CC0 授權（免署名）"
+        },
+        {
+          "slug": "quaternius-sushi-kit",
+          "name": "Quaternius Sushi Restaurant Kit",
+          "name_zh": "Quaternius Sushi Restaurant Kit",
+          "role": "自由素材資產包",
+          "first_appearance": "quaternius.com",
+          "creator": "Quaternius",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/quaternius-sushi-kit.jpg",
+          "reference_gallery": [],
+          "appearance": "日式料理店 3D風格，壽司餐廳場景含食材/料理/30 動畫角色。 `日式料理店 3D asset pack, 壽司餐廳場景含食材/料理/30 動畫角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫角色/場景**：可商用素材資產包做動畫參考或直接使用 **注意**：CC0 授權（免署名）"
+        },
+        {
+          "slug": "quaternius-ultimate-chars",
+          "name": "Quaternius Ultimate Character Pack",
+          "name_zh": "Quaternius Ultimate Character Pack",
+          "role": "自由素材資產包",
+          "first_appearance": "quaternius.com",
+          "creator": "Quaternius",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/quaternius-ultimate-chars.jpg",
+          "reference_gallery": [],
+          "appearance": "低多邊角色 3D風格，50+ 低多邊角色含動畫（東亞/武俠/奇幻風）。 `低多邊角色 3D asset pack, 50+ 低多邊角色含動畫（東亞/武俠/奇幻風）`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫角色/場景**：可商用素材資產包做動畫參考或直接使用 **注意**：CC0 授權（免署名）"
         }
       ]
     },
