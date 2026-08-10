@@ -6668,5 +6668,185 @@
     "width": 1272,
     "height": 1864,
     "pd": true
+  },
+  "ancient-sphinx-roberts": {
+    "file": "ancient-sphinx-roberts.jpg",
+    "title": "獅身人面像版畫",
+    "license": "Public domain",
+    "artist": "David Roberts",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/The_Great_Sphinx%2C_Pyramids_of_Gizeh-1839%29_by_David_Roberts%2C_RA.jpg",
+    "width": 2560,
+    "height": 1626,
+    "pd": true
+  },
+  "ancient-parthenon": {
+    "file": "ancient-parthenon.jpg",
+    "title": "帕德嫩柱廊",
+    "license": "Public domain",
+    "artist": "Mountain",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Parthenon_from_west.jpg",
+    "width": 2048,
+    "height": 1536,
+    "pd": true
+  },
+  "ancient-pont-du-gard": {
+    "file": "ancient-pont-du-gard.jpg",
+    "title": "羅馬水道橋",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Benh LIEU SONG",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Pont_du_Gard_BLS.jpg",
+    "width": 2500,
+    "height": 964,
+    "pd": true
+  },
+  "ancient-machu-picchu": {
+    "file": "ancient-machu-picchu.jpg",
+    "title": "印加古城全景",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Martin St-Amant",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg",
+    "width": 2500,
+    "height": 2440,
+    "pd": true
+  },
+  "ancient-ur-ziggurat": {
+    "file": "ancient-ur-ziggurat.jpg",
+    "title": "蘇美階梯神塔",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Alli Khalil",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Ziggurat_of_Ur_Site_in_Nasiriyah_10.jpg",
+    "width": 2500,
+    "height": 1666,
+    "pd": true
+  },
+  "ancient-colosseum-dusk": {
+    "file": "ancient-colosseum-dusk.jpg",
+    "title": "競技場全景",
+    "license": "CC-BY-SA 2.5",
+    "artist": "Diliff",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+    "width": 4827,
+    "height": 2833,
+    "pd": true
+  },
+  "ancient-mohenjo-daro": {
+    "file": "ancient-mohenjo-daro.jpg",
+    "title": "印度河文明遺址",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Saqib Qayyum",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Mohenjodaro_-_view_of_the_stupa_mound.JPG",
+    "width": 3648,
+    "height": 2736,
+    "pd": true
+  },
+  "perf-kabuki-sharaku": {
+    "file": "perf-kabuki-sharaku.jpg",
+    "title": "役者繪",
+    "license": "Public domain",
+    "artist": "Sharaku",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Sharaku_%281794%29_Sawamura_S%C5%8Dj%C5%ABr%C5%8D_III_as_Soga_J%C5%ABr%C5%8D_Sukenari.jpg",
+    "width": 305,
+    "height": 625,
+    "pd": true
+  },
+  "perf-balinese-dancer": {
+    "file": "perf-balinese-dancer.jpg",
+    "title": "峇里島舞者",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Tropenmuseum",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/COLLECTIE_TROPENMUSEUM_Portert_van_twee_jonge_Balinese_danseressen_TMnr_10004678b.jpg",
+    "width": 3499,
+    "height": 2648,
+    "pd": true
+  },
+  "perf-whirling-dervish": {
+    "file": "perf-whirling-dervish.jpg",
+    "title": "旋轉儀式",
+    "license": "CC-BY-SA 4.0",
+    "artist": "IssamBarhoumi",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Whirling_dervishes_from_Konya_in_Tunis.jpg",
+    "width": 2500,
+    "height": 1292,
+    "pd": true
+  },
+  "perf-odissi": {
+    "file": "perf-odissi.jpg",
+    "title": "奧迪西舞者",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Augustus Binu",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Odissi_Dance.JPG",
+    "width": 2000,
+    "height": 3020,
+    "pd": true
+  },
+  "invent-wright-flight": {
+    "file": "invent-wright-flight.jpg",
+    "title": "飛行者一號",
+    "license": "Public domain",
+    "artist": "John T. Daniels",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/First_flight3.jpg",
+    "width": 6603,
+    "height": 4280,
+    "pd": true
+  },
+  "invent-bell-telephone": {
+    "file": "invent-bell-telephone.png",
+    "title": "液體電話",
+    "license": "Public domain",
+    "artist": "Floyd L. Darrow",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bell_liquid_telephone_transmitter_1876.png",
+    "width": 843,
+    "height": 1290,
+    "pd": true
+  },
+  "invent-rocket-steam": {
+    "file": "invent-rocket-steam.jpg",
+    "title": "火箭號繪圖",
+    "license": "Public domain",
+    "artist": "1830s",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Stephenson%27s_Rocket_drawing.jpg",
+    "width": 531,
+    "height": 371,
+    "pd": true
+  },
+  "invent-watt-engine": {
+    "file": "invent-watt-engine.jpg",
+    "title": "1785蒸氣機",
+    "license": "CC-BY 2.0",
+    "artist": "David Maciulaitis",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Boulton_%26_Watt_steam_engine%2C_Sydney_Powerhouse_Museum%2C_2014_%2815243331353%29.jpg",
+    "width": 1205,
+    "height": 1800,
+    "pd": true
+  },
+  "script-kells": {
+    "file": "script-kells.jpg",
+    "title": "泥金手抄本",
+    "license": "Public domain",
+    "artist": "中世紀僧侶",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/KellsFol292rIncipJohn.jpg",
+    "width": 760,
+    "height": 1012,
+    "pd": true
+  },
+  "script-rosetta": {
+    "file": "script-rosetta.jpg",
+    "title": "三語銘文",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Hans Hillewaert",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Rosetta_Stone.JPG",
+    "width": 3665,
+    "height": 4288,
+    "pd": true
+  },
+  "script-rune-stone": {
+    "file": "script-rune-stone.jpg",
+    "title": "盧恩文墓石",
+    "license": "CC-BY 2.5",
+    "artist": "Berig",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/U_337%2C_Granby.JPG",
+    "width": 2592,
+    "height": 1944,
+    "pd": true
   }
 }
