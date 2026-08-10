@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 48,
-    "character_count": 555,
+    "brand_count": 49,
+    "character_count": 568,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -11198,6 +11198,310 @@
           "type": "配角",
           "relation": "Mutt 同 Jeff 係一高一矮嘅雙主角拍檔",
           "interaction": "Mutt and Jeff 本質係「雙主角」漫畫——高瘦賭徒 Mutt 同矮仔 Jeff 一齊歷險。佢哋互相係對方最重要嘅「配角」：Mutt 滿腦子發財夢、Jeff 務實吐槽，成日一齊搞發財大計（賽馬、金礦、投資）然後失敗收場。\n"
+        }
+      ]
+    },
+    {
+      "slug": "non-western-mythology",
+      "name": "Non-Western Mythology & Cultural Art",
+      "name_zh": "非西方神話與文化藝術",
+      "type": "非西方神話 / 服裝史 / 玩具 / 錯視",
+      "country": "國際",
+      "era": "公元前-1900s",
+      "creator": "各文明藝術家",
+      "publisher": "各博物館",
+      "first_appearance_year": "前5世紀",
+      "status": "公有領域 / CC0 / CC-BY",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "fashion-1892",
+          "name": "1892 時裝版畫",
+          "name_zh": "1892 時裝版畫",
+          "role": "非西方神話/服裝/玩具/錯視",
+          "first_appearance": "Journal des Demoiselles",
+          "creator": "Journal des Demoiselles",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/fashion-1892.jpg",
+          "reference_gallery": [],
+          "appearance": "維多利亞鋼版插畫，維多利亞女裝。 `維多利亞鋼版插畫 維多利亞女裝`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：非西方神話角色/服裝/玩具/錯視做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "illusion-trompe",
+          "name": "錯視陷阱畫（Trompe）",
+          "name_zh": "錯視陷阱畫（Trompe）",
+          "role": "非西方神話/服裝/玩具/錯視",
+          "first_appearance": "Gijsbrechts 1675",
+          "creator": "Gijsbrechts 1675",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/illusion-trompe.jpg",
+          "reference_gallery": [],
+          "appearance": "巴洛克錯視油畫，小提琴書信錯覺靜物。 `巴洛克錯視油畫 小提琴書信錯覺靜物`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：非西方神話角色/服裝/玩具/錯視做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "myth-anubis",
+          "name": "阿努比斯雕像",
+          "name_zh": "阿努比斯雕像",
+          "role": "非西方神話/服裝/玩具/錯視",
+          "first_appearance": "托勒密時期",
+          "creator": "托勒密時期",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-anubis.jpg",
+          "reference_gallery": [],
+          "appearance": "托勒密彩繪木雕，狼頭神站立。 `托勒密彩繪木雕 狼頭神站立`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：非西方神話角色/服裝/玩具/錯視做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "myth-chinese-dragon",
+          "name": "中國御龍帛畫",
+          "name_zh": "中國御龍帛畫",
+          "role": "非西方神話/服裝/玩具/錯視",
+          "first_appearance": "戰國佚名",
+          "creator": "戰國佚名",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-chinese-dragon.jpg",
+          "reference_gallery": [],
+          "appearance": "戰國絲帛水墨，巫師牽龍升天。 `戰國絲帛水墨 巫師牽龍升天`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：非西方神話角色/服裝/玩具/錯視做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "myth-ife-head",
+          "name": "伊費青銅頭像",
+          "name_zh": "伊費青銅頭像",
+          "role": "非西方神話/服裝/玩具/錯視",
+          "first_appearance": "約魯巴 14-15世紀",
+          "creator": "約魯巴 14-15世紀",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-ife-head.jpg",
+          "reference_gallery": [],
+          "appearance": "非洲雕刻，青銅王者頭像。 `非洲雕刻 青銅王者頭像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：非西方神話角色/服裝/玩具/錯視做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "myth-japanese-dragon",
+          "name": "日本龍（Chinese school）",
+          "name_zh": "日本龍（Chinese school）",
+          "role": "非西方神話/服裝/玩具/錯視",
+          "first_appearance": "中國流派 19世紀",
+          "creator": "中國流派 19世紀",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-japanese-dragon.jpg",
+          "reference_gallery": [],
+          "appearance": "木刻版畫，盤旋雲霧龍。 `木刻版畫 盤旋雲霧龍`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：非西方神話角色/服裝/玩具/錯視做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "myth-krishna-flute",
+          "name": "吹笛奎師那",
+          "name_zh": "吹笛奎師那",
+          "role": "非西方神話/服裝/玩具/錯視",
+          "first_appearance": "坎格拉 1810",
+          "creator": "坎格拉 1810",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-krishna-flute.jpg",
+          "reference_gallery": [],
+          "appearance": "帕哈里細密畫，牧牛神吹笛立姿。 `帕哈里細密畫 牧牛神吹笛立姿`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：非西方神話角色/服裝/玩具/錯視做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "myth-krishna-milkmaids",
+          "name": "奎師那牧牛女",
+          "name_zh": "奎師那牧牛女",
+          "role": "非西方神話/服裝/玩具/錯視",
+          "first_appearance": "坎格拉 1775",
+          "creator": "坎格拉 1775",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-krishna-milkmaids.jpg",
+          "reference_gallery": [],
+          "appearance": "坎格拉細密畫，吹笛吸引牧牛女群。 `坎格拉細密畫 吹笛吸引牧牛女群`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：非西方神話角色/服裝/玩具/錯視做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "myth-quetzalcoatl",
+          "name": "羽蛇神（Quetzalcoatl）",
+          "name_zh": "羽蛇神（Quetzalcoatl）",
+          "role": "非西方神話/服裝/玩具/錯視",
+          "first_appearance": "阿茲特克 1450",
+          "creator": "阿茲特克 1450",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-quetzalcoatl.jpg",
+          "reference_gallery": [],
+          "appearance": "阿茲特克石雕，羽蛇神石雕。 `阿茲特克石雕 羽蛇神石雕`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：非西方神話角色/服裝/玩具/錯視做動畫參考 **注意**：CC-BY 3.0 授權"
+        },
+        {
+          "slug": "myth-weighing-heart",
+          "name": "死者之書稱心",
+          "name_zh": "死者之書稱心",
+          "role": "非西方神話/服裝/玩具/錯視",
+          "first_appearance": "前1300年",
+          "creator": "前1300年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-weighing-heart.jpg",
+          "reference_gallery": [],
+          "appearance": "古埃及紙草畫，阿努比斯稱心審判。 `古埃及紙草畫 阿努比斯稱心審判`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：非西方神話角色/服裝/玩具/錯視做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "myth-yoruba-mask",
+          "name": "約魯巴面具",
+          "name_zh": "約魯巴面具",
+          "role": "非西方神話/服裝/玩具/錯視",
+          "first_appearance": "約魯巴族",
+          "creator": "約魯巴族",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-yoruba-mask.jpg",
+          "reference_gallery": [],
+          "appearance": "約魯巴木雕，儀式面具誇張五官。 `約魯巴木雕 儀式面具誇張五官`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：非西方神話角色/服裝/玩具/錯視做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "toy-bisque-doll",
+          "name": "法國素瓷娃娃",
+          "name_zh": "法國素瓷娃娃",
+          "role": "非西方神話/服裝/玩具/錯視",
+          "first_appearance": "密蘇里歷史博物館",
+          "creator": "密蘇里歷史博物館",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/toy-bisque-doll.jpg",
+          "reference_gallery": [],
+          "appearance": "19世紀素瓷娃娃，綠白條紋裙時裝娃娃。 `19世紀素瓷娃娃 綠白條紋裙時裝娃娃`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：非西方神話角色/服裝/玩具/錯視做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "toy-rocking-horse",
+          "name": "木搖搖馬",
+          "name_zh": "木搖搖馬",
+          "role": "非西方神話/服裝/玩具/錯視",
+          "first_appearance": "密蘇里歷史博物館",
+          "creator": "密蘇里歷史博物館",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/toy-rocking-horse.jpg",
+          "reference_gallery": [],
+          "appearance": "維多利亞木玩具，金屬搖架木馬。 `維多利亞木玩具 金屬搖架木馬`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景動畫參考**：非西方神話角色/服裝/玩具/錯視做動畫參考 **注意**：Public domain 授權"
         }
       ]
     },

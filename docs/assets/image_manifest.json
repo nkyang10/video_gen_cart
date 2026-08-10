@@ -5088,5 +5088,135 @@
     "width": 1400,
     "height": 1012,
     "pd": true
+  },
+  "illusion-trompe": {
+    "file": "illusion-trompe.jpg",
+    "title": "錯視陷阱畫",
+    "license": "Public domain",
+    "artist": "Gijsbrechts 1675",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Gijsbrechts_Trompe_l%27oeil.jpg",
+    "width": 1194,
+    "height": 1701,
+    "pd": true
+  },
+  "myth-chinese-dragon": {
+    "file": "myth-chinese-dragon.jpg",
+    "title": "御龍帛畫",
+    "license": "Public domain",
+    "artist": "戰國佚名",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Changshadragon.jpg",
+    "width": 1300,
+    "height": 1789,
+    "pd": true
+  },
+  "myth-japanese-dragon": {
+    "file": "myth-japanese-dragon.jpg",
+    "title": "盤旋雲霧龍",
+    "license": "Public domain",
+    "artist": "中國流派",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Japanese_dragon%2C_Chinese_school%2C_19th_Century.jpg",
+    "width": 1295,
+    "height": 1966,
+    "pd": true
+  },
+  "myth-krishna-flute": {
+    "file": "myth-krishna-flute.jpg",
+    "title": "牧牛神吹笛",
+    "license": "CC-BY-SA 4.0",
+    "artist": "坎格拉",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Krishna_playing_the_flute.jpg",
+    "width": 2069,
+    "height": 2800,
+    "pd": true
+  },
+  "myth-krishna-milkmaids": {
+    "file": "myth-krishna-milkmaids.jpg",
+    "title": "群體構圖",
+    "license": "Public domain",
+    "artist": "坎格拉",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Unknown%2C_Kangra%2C_India_-_Krishna_Fluting_to_the_Milkmaids_-_Google_Art_Project.jpg",
+    "width": 4501,
+    "height": 3314,
+    "pd": true
+  },
+  "myth-anubis": {
+    "file": "myth-anubis.jpg",
+    "title": "狼頭神",
+    "license": "CC0",
+    "artist": "托勒密時期",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Statuette_of_Anubis_MET_38.5_EGDP022863.jpg",
+    "width": 2667,
+    "height": 4000,
+    "pd": true
+  },
+  "myth-weighing-heart": {
+    "file": "myth-weighing-heart.jpg",
+    "title": "埃及審判",
+    "license": "Public domain",
+    "artist": "死者之書",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/BD_Weighing_of_the_Heart.jpg",
+    "width": 3364,
+    "height": 1732,
+    "pd": true
+  },
+  "myth-quetzalcoatl": {
+    "file": "myth-quetzalcoatl.jpg",
+    "title": "羽蛇石雕",
+    "license": "CC-BY 3.0",
+    "artist": "阿茲特克",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Quetzalcoatl-BMA.jpg",
+    "width": 1200,
+    "height": 1429,
+    "pd": true
+  },
+  "myth-yoruba-mask": {
+    "file": "myth-yoruba-mask.jpg",
+    "title": "儀式面具",
+    "license": "CC0",
+    "artist": "約魯巴",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Mask%2C_Yoruba_peoples%2C_Benin_%28Dahomey%29%2C_collected_1966%2C_wood_-_Hood_Museum_of_Art_-_DSC09176.JPG",
+    "width": 2868,
+    "height": 3803,
+    "pd": true
+  },
+  "myth-ife-head": {
+    "file": "myth-ife-head.jpg",
+    "title": "青銅王者",
+    "license": "Public domain",
+    "artist": "約魯巴",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Yoruba-bronze-head.jpg",
+    "width": 300,
+    "height": 386,
+    "pd": true
+  },
+  "fashion-1892": {
+    "file": "fashion-1892.jpg",
+    "title": "維多利亞女裝",
+    "license": "Public domain",
+    "artist": "Journal des Demoiselles",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/1892_fashion_plate.jpg",
+    "width": 537,
+    "height": 641,
+    "pd": true
+  },
+  "toy-rocking-horse": {
+    "file": "toy-rocking-horse.jpg",
+    "title": "搖搖馬",
+    "license": "Public domain",
+    "artist": "密蘇里歷史博物館",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Wooden_Rocking_Horse_with_Weels.jpg",
+    "width": 4804,
+    "height": 3904,
+    "pd": true
+  },
+  "toy-bisque-doll": {
+    "file": "toy-bisque-doll.jpg",
+    "title": "時裝娃娃",
+    "license": "Public domain",
+    "artist": "密蘇里歷史博物館",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/French_Fashion_Bisque_Doll_with_Green_and_White_Striped_Dress.jpg",
+    "width": 2912,
+    "height": 4368,
+    "pd": true
   }
 }
