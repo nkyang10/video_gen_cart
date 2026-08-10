@@ -5291,12 +5291,12 @@
   },
   "jp-kuniyoshi-tokaido": {
     "file": "jp-kuniyoshi-tokaido.jpg",
-    "title": "貓擬人驛站",
+    "title": "宿驛長卷",
     "license": "Public domain",
     "artist": "歌川國芳",
-    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Cats_suggested_as_the_fifty-three_stations_of_the_Tokaido.jpg",
-    "width": 3829,
-    "height": 1901,
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuniyoshi_Utagawa%2C_The_fifty_three_stations_of_the_tokaido.jpg",
+    "width": 2435,
+    "height": 1565,
     "pd": true
   },
   "jp-utamaro-beauties": {
@@ -7697,6 +7697,196 @@
     "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dore_London.jpg",
     "width": 650,
     "height": 550,
+    "pd": true
+  },
+  "jp-yoshitoshi-susanoo": {
+    "file": "jp-yoshitoshi-susanoo.jpg",
+    "title": "斬蛇神話",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshitoshi_Nihon-ryakushi_Susanoo-no-mikoto.jpg",
+    "width": 1920,
+    "height": 1080,
+    "pd": true
+  },
+  "jp-yoshitoshi-murasaki": {
+    "file": "jp-yoshitoshi-murasaki.jpg",
+    "title": "月光下執筆",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsukioka_Yoshitoshi_-_Murasaki_Shikibu_at_Ishiyamadera_Temple%2C_based_on_the_print_%E2%80%9CThe_Moon_at_Ishiyama%2C%E2%80%9D_from_the_series_-_2019.41_-_Metropolitan_Museum_of_Art.jpg",
+    "width": 1514,
+    "height": 4000,
+    "pd": true
+  },
+  "jp-kyosai-hell-courtesan": {
+    "file": "jp-kyosai-hell-courtesan.jpg",
+    "title": "地獄群像",
+    "license": "Public domain",
+    "artist": "河鍋曉齋",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kawanabe_Kyosai_Jigoku_Dayu_%28Hell_Courtesan%29.jpg",
+    "width": 2304,
+    "height": 3200,
+    "pd": true
+  },
+  "jp-kyosai-amaterasu": {
+    "file": "jp-kyosai-amaterasu.jpg",
+    "title": "天岩戶神話",
+    "license": "Public domain",
+    "artist": "河鍋曉齋",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Installation_of_the_Sun_Goddess_%28Amaterasu%29_c1870_after_Kawanabe_Kyosai.jpg",
+    "width": 1780,
+    "height": 2048,
+    "pd": true
+  },
+  "jp-kuniyoshi-suikoden": {
+    "file": "jp-kuniyoshi-suikoden.jpg",
+    "title": "108好漢",
+    "license": "Public domain",
+    "artist": "歌川國芳",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Suikoden_edit.jpg",
+    "width": 1712,
+    "height": 2500,
+    "pd": true
+  },
+  "art-waterhouse-hylas": {
+    "file": "art-waterhouse-hylas.jpg",
+    "title": "水邊仙女",
+    "license": "Public domain",
+    "artist": "Waterhouse",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_William_Waterhouse_-_Hylas_and_the_Nymphs.jpg",
+    "width": 1200,
+    "height": 721,
+    "pd": true
+  },
+  "art-waterhouse-shalott": {
+    "file": "art-waterhouse-shalott.jpg",
+    "title": "倚床望塔",
+    "license": "Public domain",
+    "artist": "Waterhouse",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_William_Waterhouse_The_Lady_of_Shalott.jpg",
+    "width": 2620,
+    "height": 1973,
+    "pd": true
+  },
+  "art-mucha-fruit": {
+    "file": "art-mucha-fruit.jpg",
+    "title": "花環少女",
+    "license": "Public domain",
+    "artist": "Mucha",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfons_Mucha_-_Fruit.jpg",
+    "width": 866,
+    "height": 1452,
+    "pd": true
+  },
+  "art-mucha-gismonda": {
+    "file": "art-mucha-gismonda.jpg",
+    "title": "拜占庭花環海報",
+    "license": "Public domain",
+    "artist": "Mucha",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alphonse_Mucha_-_Poster_for_Victorien_Sardou%27s_Gismonda_starring_Sarah_Bernhardt.jpg",
+    "width": 1447,
+    "height": 4094,
+    "pd": true
+  },
+  "art-burnejones-rosamund": {
+    "file": "art-burnejones-rosamund.jpg",
+    "title": "宮廷貴婦",
+    "license": "Public domain",
+    "artist": "Burne-Jones",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edward_Burne-Jones_-_Fair_Rosamund_and_Queen_Eleanor_-_Google_Art_Project.jpg",
+    "width": 4046,
+    "height": 5297,
+    "pd": true
+  },
+  "art-moreau-jupiter": {
+    "file": "art-moreau-jupiter.jpg",
+    "title": "神話群像",
+    "license": "Public domain",
+    "artist": "Moreau",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Moreau_004a.jpg",
+    "width": 1977,
+    "height": 2912,
+    "pd": true
+  },
+  "fant-rackham-cinderella": {
+    "file": "fant-rackham-cinderella.jpg",
+    "title": "剪影插畫",
+    "license": "Public domain",
+    "artist": "Arthur Rackham",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arthur_Rackham_Cinderella_silhouette_illustration.jpg",
+    "width": 940,
+    "height": 1153,
+    "pd": true
+  },
+  "fant-dulac-nights": {
+    "file": "fant-dulac-nights.jpg",
+    "title": "東方宮廷",
+    "license": "Public domain",
+    "artist": "Edmund Dulac",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Illustration_by_Edmund_Dulac_2.jpg",
+    "width": 1268,
+    "height": 1920,
+    "pd": true
+  },
+  "fant-dore-charon": {
+    "file": "fant-dore-charon.jpg",
+    "title": "地獄渡河",
+    "license": "Public domain",
+    "artist": "Gustave Doré",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dor%C3%A9_-_Dante_Alighieri_-_Inferno_-_Plate_9_%28Canto_III_-_Charon%29.jpg",
+    "width": 1817,
+    "height": 2500,
+    "pd": true
+  },
+  "fant-beardsley-climax": {
+    "file": "fant-beardsley-climax.jpg",
+    "title": "莎樂美黑白線描",
+    "license": "Public domain",
+    "artist": "Beardsley",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aubrey_Beardsley_-_The_Climax.jpg",
+    "width": 912,
+    "height": 1280,
+    "pd": true
+  },
+  "food-beuckelaer-market": {
+    "file": "food-beuckelaer-market.jpg",
+    "title": "蔬果市集",
+    "license": "Public domain",
+    "artist": "Beuckelaer",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joachim_Beuckelaer_-_A_market_scene.jpg",
+    "width": 3625,
+    "height": 2513,
+    "pd": true
+  },
+  "food-aertsen-meat": {
+    "file": "food-aertsen-meat.jpg",
+    "title": "肉品攤位",
+    "license": "Public domain",
+    "artist": "Pieter Aertsen",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Meat_Stall_with_the_Holy_Family_Giving_Alms_-_Pieter_Aertsen_-_Google_Cultural_Institute.jpg",
+    "width": 6480,
+    "height": 4512,
+    "pd": true
+  },
+  "food-bruegel-wedding-dance": {
+    "file": "food-bruegel-wedding-dance.jpg",
+    "title": "戶外群舞",
+    "license": "Public domain",
+    "artist": "Bruegel",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_The_Wedding_Dance_-_30.374_-_Detroit_Institute_of_Arts.jpg",
+    "width": 2000,
+    "height": 1519,
+    "pd": true
+  },
+  "food-chardin-kitchen": {
+    "file": "food-chardin-kitchen.jpg",
+    "title": "灶台壺罐",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Chardin",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chardin_-_Still_Life_of_Kitchen_Utensils%2C_c._1733%E2%80%931734.jpg",
+    "width": 2000,
+    "height": 1595,
     "pd": true
   }
 }
