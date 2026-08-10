@@ -3198,5 +3198,145 @@
     "width": 640,
     "height": 465,
     "pd": true
+  },
+  "hero-green-turtle": {
+    "file": "hero-green-turtle.jpg",
+    "title": "綠頭罩綠斗篷華裔英雄",
+    "license": "Public domain",
+    "artist": "Chu F. Hing",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Blazing_comics_1.jpg",
+    "width": 400,
+    "height": 560,
+    "pd": true
+  },
+  "hero-black-terror": {
+    "file": "hero-black-terror.jpg",
+    "title": "星條旗黑披風",
+    "license": "Public domain",
+    "artist": "Richard Hughes/Bob Powell",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BlackTerror1203.jpg",
+    "width": 715,
+    "height": 944,
+    "pd": true
+  },
+  "hero-fighting-yank": {
+    "file": "hero-fighting-yank.jpg",
+    "title": "三角帽星條旗",
+    "license": "Public domain",
+    "artist": "Richard Hughes/Jon Blummer",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/AmericasBestComics2124.1.jpg",
+    "width": 657,
+    "height": 955,
+    "pd": true
+  },
+  "hero-flame": {
+    "file": "hero-flame.png",
+    "title": "紅衣燃燒斗篷",
+    "license": "Public domain",
+    "artist": "Will Eisner",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flame_002.png",
+    "width": 478,
+    "height": 564,
+    "pd": true
+  },
+  "hero-amazing-man": {
+    "file": "hero-amazing-man.jpg",
+    "title": "紋身雞冠頭紅衣",
+    "license": "Public domain",
+    "artist": "Bill Everett",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/AmazingMan07.jpg",
+    "width": 975,
+    "height": 1391,
+    "pd": true
+  },
+  "hero-wonder-man": {
+    "file": "hero-wonder-man.jpg",
+    "title": "紅衣黃斗篷",
+    "license": "Public domain",
+    "artist": "Will Eisner",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wonder_Comics_1_Fox.jpg",
+    "width": 975,
+    "height": 1355,
+    "pd": true
+  },
+  "hero-blue-beetle": {
+    "file": "hero-blue-beetle.jpg",
+    "title": "藍緊身衣面罩",
+    "license": "Public domain",
+    "artist": "Charles Nicholas",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Blue_Beetle_Number_1_Cover.jpg",
+    "width": 975,
+    "height": 1425,
+    "pd": true
+  },
+  "hero-airboy": {
+    "file": "hero-airboy.jpg",
+    "title": "飛行裝護目鏡",
+    "license": "Public domain",
+    "artist": "Charles Biro",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/4AirFightersComicsVol1No7.jpg",
+    "width": 395,
+    "height": 549,
+    "pd": true
+  },
+  "hero-blue-bolt": {
+    "file": "hero-blue-bolt.jpg",
+    "title": "黃藍戰衣閃電",
+    "license": "Public domain",
+    "artist": "Simon/Kirby",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BlueBoltComics2.jpg",
+    "width": 975,
+    "height": 1390,
+    "pd": true
+  },
+  "hero-captain-midnight": {
+    "file": "hero-captain-midnight.jpg",
+    "title": "飛行皮夾克紅圍巾",
+    "license": "Public domain",
+    "artist": "Fawcett",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/CaptainMidnight.jpg",
+    "width": 959,
+    "height": 1324,
+    "pd": true
+  },
+  "hero-spy-smasher": {
+    "file": "hero-spy-smasher.jpg",
+    "title": "飛行帽黑面罩",
+    "license": "Public domain",
+    "artist": "C.C. Beck",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spy-smasher-2-winter-1941.jpg",
+    "width": 864,
+    "height": 1218,
+    "pd": true
+  },
+  "hero-cat-man": {
+    "file": "hero-cat-man.jpg",
+    "title": "黃橙衣貓耳頭飾",
+    "license": "Public domain",
+    "artist": "Holyoke",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cat-Man7.jpg",
+    "width": 400,
+    "height": 554,
+    "pd": true
+  },
+  "hero-daredevil": {
+    "file": "hero-daredevil.jpg",
+    "title": "紅衣紅手套L徽",
+    "license": "Public domain",
+    "artist": "Charles Biro",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/DaredevilComicsNo36.jpg",
+    "width": 945,
+    "height": 1334,
+    "pd": true
+  },
+  "hero-pyroman": {
+    "file": "hero-pyroman.jpg",
+    "title": "紅衣燃燒頭部",
+    "license": "Public domain",
+    "artist": "Richard Hughes",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/AmericasBestComics0401.jpg",
+    "width": 400,
+    "height": 552,
+    "pd": true
   }
 }

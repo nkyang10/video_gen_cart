@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 37,
-    "character_count": 349,
+    "brand_count": 38,
+    "character_count": 363,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -9515,6 +9515,332 @@
           "type": "反派配角",
           "relation": "Oswald 默片中成日對抗嘅反派",
           "interaction": "Oswald 喺早期默片成日面對各種壞蛋同對手（偷嘢賊、整蠱者等），靠機靈、身體彈性同急中生智化解危機。佢係「魯莽但招人喜愛」嘅反英雄，成日喺冒險中反敗為勝。\n"
+        }
+      ]
+    },
+    {
+      "slug": "pd-golden-age-superheroes",
+      "name": "PD Golden-Age Superheroes",
+      "name_zh": "公版黃金年代超級英雄",
+      "type": "1930-40s 公版超級英雄",
+      "country": "美國",
+      "era": "1930s-1940s",
+      "creator": "各倒閉出版社",
+      "publisher": "Nedor / Fox / Fawcett / Hillman 等",
+      "first_appearance_year": 1936,
+      "status": "公版（1931-1963 出版未續期）",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "hero-airboy",
+          "name": "空中男孩（Airboy）",
+          "name_zh": "空中男孩（Airboy）",
+          "role": "公版黃金年代超級英雄",
+          "first_appearance": "1942",
+          "creator": "Charles Biro",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "原著漫畫故事已公版；名稱/商標可能另屬他人",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hero-airboy.jpg",
+          "reference_gallery": [],
+          "appearance": "黃金年代漫畫風格，飛行裝護目鏡鳥式機。 `黃金年代漫畫 golden age superhero, 飛行裝護目鏡鳥式機`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古超級英雄動畫**：公版英雄做復古英雄動畫參考 **⚠️ 注意**：無商標障礙；只用原版造型"
+        },
+        {
+          "slug": "hero-amazing-man",
+          "name": "驚奇之人（Amazing-Man）",
+          "name_zh": "驚奇之人（Amazing-Man）",
+          "role": "公版黃金年代超級英雄",
+          "first_appearance": "1939",
+          "creator": "Bill Everett",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "原著漫畫故事已公版；名稱/商標可能另屬他人",
+          "trademark": "DC 用名",
+          "verified": "2026-08-10",
+          "image": "assets/img/hero-amazing-man.jpg",
+          "reference_gallery": [],
+          "appearance": "黃金年代漫畫風格，紋身雞冠頭紅緊身衣。 `黃金年代漫畫 golden age superhero, 紋身雞冠頭紅緊身衣`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古超級英雄動畫**：公版英雄做復古英雄動畫參考 **⚠️ 注意**：名稱DC 用名需注意商標，建議更名；只用原版造型"
+        },
+        {
+          "slug": "hero-black-terror",
+          "name": "黑色恐怖（Black Terror）",
+          "name_zh": "黑色恐怖（Black Terror）",
+          "role": "公版黃金年代超級英雄",
+          "first_appearance": "1941",
+          "creator": "Richard Hughes/Bob Powell",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "原著漫畫故事已公版；名稱/商標可能另屬他人",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hero-black-terror.jpg",
+          "reference_gallery": [],
+          "appearance": "黃金年代漫畫風格，星條旗黑披風黑面罩。 `黃金年代漫畫 golden age superhero, 星條旗黑披風黑面罩`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古超級英雄動畫**：公版英雄做復古英雄動畫參考 **⚠️ 注意**：無商標障礙；只用原版造型"
+        },
+        {
+          "slug": "hero-blue-beetle",
+          "name": "藍甲蟲原版（Blue Beetle 1939）",
+          "name_zh": "藍甲蟲原版（Blue Beetle 1939）",
+          "role": "公版黃金年代超級英雄",
+          "first_appearance": "1939",
+          "creator": "Charles Nicholas",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "原著漫畫故事已公版；名稱/商標可能另屬他人",
+          "trademark": "DC 持 Blue Beetle",
+          "verified": "2026-08-10",
+          "image": "assets/img/hero-blue-beetle.jpg",
+          "reference_gallery": [],
+          "appearance": "黃金年代漫畫風格，藍緊身衣藍面罩蟲型頭飾。 `黃金年代漫畫 golden age superhero, 藍緊身衣藍面罩蟲型頭飾`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古超級英雄動畫**：公版英雄做復古英雄動畫參考 **⚠️ 注意**：名稱DC 持 Blue Beetle需注意商標，建議更名；只用原版造型"
+        },
+        {
+          "slug": "hero-blue-bolt",
+          "name": "藍電光（Blue Bolt）",
+          "name_zh": "藍電光（Blue Bolt）",
+          "role": "公版黃金年代超級英雄",
+          "first_appearance": "1940",
+          "creator": "Simon/Kirby",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "原著漫畫故事已公版；名稱/商標可能另屬他人",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hero-blue-bolt.jpg",
+          "reference_gallery": [],
+          "appearance": "黃金年代漫畫風格，黃藍戰衣閃電頭飾控電。 `黃金年代漫畫 golden age superhero, 黃藍戰衣閃電頭飾控電`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古超級英雄動畫**：公版英雄做復古英雄動畫參考 **⚠️ 注意**：無商標障礙；只用原版造型"
+        },
+        {
+          "slug": "hero-captain-midnight",
+          "name": "午夜隊長（Captain Midnight）",
+          "name_zh": "午夜隊長（Captain Midnight）",
+          "role": "公版黃金年代超級英雄",
+          "first_appearance": "1942",
+          "creator": "Fawcett",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "原著漫畫故事已公版；名稱/商標可能另屬他人",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hero-captain-midnight.jpg",
+          "reference_gallery": [],
+          "appearance": "黃金年代漫畫風格，飛行皮夾克飛行帽紅圍巾。 `黃金年代漫畫 golden age superhero, 飛行皮夾克飛行帽紅圍巾`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古超級英雄動畫**：公版英雄做復古英雄動畫參考 **⚠️ 注意**：無商標障礙；只用原版造型"
+        },
+        {
+          "slug": "hero-cat-man",
+          "name": "貓人（Cat-Man）",
+          "name_zh": "貓人（Cat-Man）",
+          "role": "公版黃金年代超級英雄",
+          "first_appearance": "1941",
+          "creator": "Holyoke",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "原著漫畫故事已公版；名稱/商標可能另屬他人",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hero-cat-man.jpg",
+          "reference_gallery": [],
+          "appearance": "黃金年代漫畫風格，黃橙衣黑披風貓耳頭飾。 `黃金年代漫畫 golden age superhero, 黃橙衣黑披風貓耳頭飾`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古超級英雄動畫**：公版英雄做復古英雄動畫參考 **⚠️ 注意**：無商標障礙；只用原版造型"
+        },
+        {
+          "slug": "hero-daredevil",
+          "name": "無畏（Daredevil 1941）",
+          "name_zh": "無畏（Daredevil 1941）",
+          "role": "公版黃金年代超級英雄",
+          "first_appearance": "1941",
+          "creator": "Charles Biro",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "原著漫畫故事已公版；名稱/商標可能另屬他人",
+          "trademark": "漫威持 Daredevil 名",
+          "verified": "2026-08-10",
+          "image": "assets/img/hero-daredevil.jpg",
+          "reference_gallery": [],
+          "appearance": "黃金年代漫畫風格，紅衣紅手套L徽頭罩。 `黃金年代漫畫 golden age superhero, 紅衣紅手套L徽頭罩`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古超級英雄動畫**：公版英雄做復古英雄動畫參考 **⚠️ 注意**：名稱漫威持 Daredevil 名需注意商標，建議更名；只用原版造型"
+        },
+        {
+          "slug": "hero-fighting-yank",
+          "name": "鬥士揚基（Fighting Yank）",
+          "name_zh": "鬥士揚基（Fighting Yank）",
+          "role": "公版黃金年代超級英雄",
+          "first_appearance": "1941",
+          "creator": "Richard Hughes/Jon Blummer",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "原著漫畫故事已公版；名稱/商標可能另屬他人",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hero-fighting-yank.jpg",
+          "reference_gallery": [],
+          "appearance": "黃金年代漫畫風格，三角帽星條旗藍褲魔法斗篷。 `黃金年代漫畫 golden age superhero, 三角帽星條旗藍褲魔法斗篷`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古超級英雄動畫**：公版英雄做復古英雄動畫參考 **⚠️ 注意**：無商標障礙；只用原版造型"
+        },
+        {
+          "slug": "hero-flame",
+          "name": "烈焰人（The Flame）",
+          "name_zh": "烈焰人（The Flame）",
+          "role": "公版黃金年代超級英雄",
+          "first_appearance": "1939",
+          "creator": "Will Eisner",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "原著漫畫故事已公版；名稱/商標可能另屬他人",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hero-flame.png",
+          "reference_gallery": [],
+          "appearance": "黃金年代漫畫風格，紅衣紅斗篷燃燒頭部。 `黃金年代漫畫 golden age superhero, 紅衣紅斗篷燃燒頭部`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古超級英雄動畫**：公版英雄做復古英雄動畫參考 **⚠️ 注意**：無商標障礙；只用原版造型"
+        },
+        {
+          "slug": "hero-green-turtle",
+          "name": "綠龜俠（The Green Turtle）",
+          "name_zh": "綠龜俠（The Green Turtle）",
+          "role": "公版黃金年代超級英雄",
+          "first_appearance": "1944",
+          "creator": "Chu F. Hing",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "原著漫畫故事已公版；名稱/商標可能另屬他人",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hero-green-turtle.jpg",
+          "reference_gallery": [],
+          "appearance": "黃金年代漫畫風格，綠頭罩綠斗篷龜殼圖騰華裔英雄。 `黃金年代漫畫 golden age superhero, 綠頭罩綠斗篷龜殼圖騰華裔英雄`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古超級英雄動畫**：公版英雄做復古英雄動畫參考 **⚠️ 注意**：無商標障礙；只用原版造型"
+        },
+        {
+          "slug": "hero-pyroman",
+          "name": "火焰狂人（Pyroman）",
+          "name_zh": "火焰狂人（Pyroman）",
+          "role": "公版黃金年代超級英雄",
+          "first_appearance": "1941",
+          "creator": "Richard Hughes",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "原著漫畫故事已公版；名稱/商標可能另屬他人",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hero-pyroman.jpg",
+          "reference_gallery": [],
+          "appearance": "黃金年代漫畫風格，紅衣橙斗篷燃燒頭部噴火。 `黃金年代漫畫 golden age superhero, 紅衣橙斗篷燃燒頭部噴火`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古超級英雄動畫**：公版英雄做復古英雄動畫參考 **⚠️ 注意**：無商標障礙；只用原版造型"
+        },
+        {
+          "slug": "hero-spy-smasher",
+          "name": "間諜剋星（Spy Smasher）",
+          "name_zh": "間諜剋星（Spy Smasher）",
+          "role": "公版黃金年代超級英雄",
+          "first_appearance": "1940",
+          "creator": "C.C. Beck",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "原著漫畫故事已公版；名稱/商標可能另屬他人",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hero-spy-smasher.jpg",
+          "reference_gallery": [],
+          "appearance": "黃金年代漫畫風格，飛行帽黑面罩蜘蛛網圖案。 `黃金年代漫畫 golden age superhero, 飛行帽黑面罩蜘蛛網圖案`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古超級英雄動畫**：公版英雄做復古英雄動畫參考 **⚠️ 注意**：無商標障礙；只用原版造型"
+        },
+        {
+          "slug": "hero-wonder-man",
+          "name": "奇蹟人（Wonder Man）",
+          "name_zh": "奇蹟人（Wonder Man）",
+          "role": "公版黃金年代超級英雄",
+          "first_appearance": "1939",
+          "creator": "Will Eisner",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "原著漫畫故事已公版；名稱/商標可能另屬他人",
+          "trademark": "漫威/DC 商標戰",
+          "verified": "2026-08-10",
+          "image": "assets/img/hero-wonder-man.jpg",
+          "reference_gallery": [],
+          "appearance": "黃金年代漫畫風格，紅衣黃斗篷巨力超速。 `黃金年代漫畫 golden age superhero, 紅衣黃斗篷巨力超速`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古超級英雄動畫**：公版英雄做復古英雄動畫參考 **⚠️ 注意**：名稱漫威/DC 商標戰需注意商標，建議更名；只用原版造型"
         }
       ]
     },
