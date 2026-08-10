@@ -7028,5 +7028,185 @@
     "width": 2500,
     "height": 1879,
     "pd": true
+  },
+  "art-bosch-garden": {
+    "file": "art-bosch-garden.jpg",
+    "title": "超現實群像",
+    "license": "Public domain",
+    "artist": "Hieronymus Bosch",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg",
+    "width": 2500,
+    "height": 1423,
+    "pd": true
+  },
+  "art-babel": {
+    "file": "art-babel.jpg",
+    "title": "巨塔工程",
+    "license": "Public domain",
+    "artist": "Bruegel",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg",
+    "width": 2500,
+    "height": 1829,
+    "pd": true
+  },
+  "art-night-watch": {
+    "file": "art-night-watch.jpg",
+    "title": "民兵群像光影",
+    "license": "Public domain",
+    "artist": "Rembrandt",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_Harmensz._van_Rijn_-_Nachtwacht_-_Google_Art_Project.jpg",
+    "width": 2500,
+    "height": 2073,
+    "pd": true
+  },
+  "art-creation-adam": {
+    "file": "art-creation-adam.jpg",
+    "title": "上帝亞當指尖",
+    "license": "Public domain",
+    "artist": "Michelangelo",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Creation_of_Adam,_Michelangelo_(1475%E2%80%931564),_circa_1511.jpg",
+    "width": 1280,
+    "height": 581,
+    "pd": true
+  },
+  "art-school-athens": {
+    "file": "art-school-athens.jpg",
+    "title": "哲學家群像",
+    "license": "Public domain",
+    "artist": "Raphael",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raphael_School_of_Athens.jpg",
+    "width": 3697,
+    "height": 2414,
+    "pd": true
+  },
+  "art-venus-urbino": {
+    "file": "art-venus-urbino.jpg",
+    "title": "斜倚裸女神",
+    "license": "Public domain",
+    "artist": "Titian",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg",
+    "width": 3000,
+    "height": 2110,
+    "pd": true
+  },
+  "city-tokyo-suruga": {
+    "file": "city-tokyo-suruga.jpg",
+    "title": "江戶街市富士",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiroshige,_Sugura_street.jpg",
+    "width": 1769,
+    "height": 2744,
+    "pd": true
+  },
+  "city-sydney-opera": {
+    "file": "city-sydney-opera.jpg",
+    "title": "歌劇院建築",
+    "license": "CC0",
+    "artist": "Simon Rae",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Opera_House_(Unsplash_NhvErt3FcLE).jpg",
+    "width": 2738,
+    "height": 1825,
+    "pd": true
+  },
+  "city-big-ben": {
+    "file": "city-big-ben.jpg",
+    "title": "大笨鐘",
+    "license": "CC-BY-SA 3.0",
+    "artist": "London",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Big_Ben_London_2014.jpg",
+    "width": 3179,
+    "height": 2190,
+    "pd": true
+  },
+  "city-amsterdam-canal": {
+    "file": "city-amsterdam-canal.jpg",
+    "title": "運河山牆",
+    "license": "CC0",
+    "artist": "Anne Dirkse",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Herengracht,_Amsterdam_in_the_Blue_Hour.jpg",
+    "width": 1920,
+    "height": 1252,
+    "pd": true
+  },
+  "city-singapore-marina": {
+    "file": "city-singapore-marina.jpg",
+    "title": "濱海灣天際線",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Basile Morin",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/ArtScience_Museum,_Marina_Bay_Sands,_Singapore.jpg",
+    "width": 5911,
+    "height": 3941,
+    "pd": true
+  },
+  "city-venice-canal": {
+    "file": "city-venice-canal.jpg",
+    "title": "威尼斯水城",
+    "license": "Public domain",
+    "artist": "Canaletto",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canaletto_-_The_Entrance_to_the_Grand_Canal,_Venice_-_Google_Art_Project.jpg",
+    "width": 2500,
+    "height": 1705,
+    "pd": true
+  },
+  "role-monk-paul": {
+    "file": "role-monk-paul.jpg",
+    "title": "修士沉思",
+    "license": "Public domain",
+    "artist": "Rembrandt",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_-_Self-Portrait_as_the_Apostle_Paul_-_WGA19222.jpg",
+    "width": 1000,
+    "height": 1163,
+    "pd": true
+  },
+  "role-painter-self": {
+    "file": "role-painter-self.jpg",
+    "title": "畫家持調色盤",
+    "license": "Public domain",
+    "artist": "Rembrandt",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+    "width": 1929,
+    "height": 2500,
+    "pd": true
+  },
+  "role-jewish-bride": {
+    "file": "role-jewish-bride.jpg",
+    "title": "華服相擁",
+    "license": "Public domain",
+    "artist": "Rembrandt",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_-_The_Jewish_Bride_-_WGA19158.jpg",
+    "width": 1236,
+    "height": 877,
+    "pd": true
+  },
+  "food-claesz-breakfast": {
+    "file": "food-claesz-breakfast.jpg",
+    "title": "早餐餐桌",
+    "license": "Public domain",
+    "artist": "Pieter Claesz",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Claesz_-_Breakfast_Still_Life_with_Roemer,_Meat_Pie,_Lemon_and_Bread_COL_GAG_3713.jpg",
+    "width": 1000,
+    "height": 820,
+    "pd": true
+  },
+  "food-heda-breakfast": {
+    "file": "food-heda-breakfast.jpg",
+    "title": "黑莓派早餐",
+    "license": "Public domain",
+    "artist": "Heda",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Willem_Clasz._Heda_-_Breakfast_Table_with_Blackberry_Pie_-_Google_Art_Project.jpg",
+    "width": 4737,
+    "height": 3130,
+    "pd": true
+  },
+  "art-goya-dog": {
+    "file": "art-goya-dog.jpg",
+    "title": "哥雅《狗》",
+    "license": "Public domain",
+    "artist": "Goya",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goya_Dog.jpg",
+    "width": 1797,
+    "height": 3051,
+    "pd": true
   }
 }
