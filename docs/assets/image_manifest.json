@@ -1888,5 +1888,255 @@
     "width": 1140,
     "height": 360,
     "pd": true
+  },
+  "jp-sushi": {
+    "file": "jp-sushi.png",
+    "title": "壽司捲與握壽司",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Nicke L/DoktorMandrake",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sushi.svg",
+    "width": 1200,
+    "height": 800,
+    "pd": true
+  },
+  "jp-kosode-kimono": {
+    "file": "jp-kosode-kimono.png",
+    "title": "小袖和服版型",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Hanachiru",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kosode-Kimono.svg",
+    "width": 1200,
+    "height": 897,
+    "pd": true
+  },
+  "jp-kimono-folding": {
+    "file": "jp-kimono-folding.png",
+    "title": "和服摺疊步驟",
+    "license": "CC-BY-SA 4.0",
+    "artist": "HLHJ",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kimono_folding.svg",
+    "width": 1200,
+    "height": 725,
+    "pd": true
+  },
+  "jp-kimono-1910": {
+    "file": "jp-kimono-1910.png",
+    "title": "和服正背面線稿",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://commons.wikimedia.org/wiki/File:THE_KIMONO,_REAR_AND_FRONT_VIEW._(1910)_-_illustration_-_page_086.png",
+    "width": 782,
+    "height": 448,
+    "pd": true
+  },
+  "jp-wikipetan-svg": {
+    "file": "jp-wikipetan-svg.png",
+    "title": "維基醬萌系動漫少女",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Kasuga",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wikipe-tan_full_length.svg",
+    "width": 1200,
+    "height": 2280,
+    "pd": true
+  },
+  "jp-fox-masks": {
+    "file": "jp-fox-masks.png",
+    "title": "日式狐狸面具插畫",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Michael Vidal",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fox_Masks_by_Michael_Vidal.png",
+    "width": 506,
+    "height": 392,
+    "pd": true
+  },
+  "jp-moon-rabbit": {
+    "file": "jp-moon-rabbit.jpg",
+    "title": "月下兔子與孫悟空",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tamausagi_songok%C5%AB_LCCN2008660102.jpg",
+    "width": 706,
+    "height": 1024,
+    "pd": true
+  },
+  "jp-origami-crane": {
+    "file": "jp-origami-crane.png",
+    "title": "摺紙鶴",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Binnette",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Origami_-_Crane.svg",
+    "width": 1200,
+    "height": 914,
+    "pd": true
+  },
+  "jp-origami-cranes": {
+    "file": "jp-origami-cranes.jpg",
+    "title": "多隻摺紙鶴",
+    "license": "Public domain",
+    "artist": "Laitche",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cranes_made_by_Origami_paper.jpg",
+    "width": 3000,
+    "height": 1834,
+    "pd": true
+  },
+  "jp-chado": {
+    "file": "jp-chado.png",
+    "title": "茶道意象（抹茶茶具）",
+    "license": "CC0",
+    "artist": "CheChe",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chado.svg",
+    "width": 1200,
+    "height": 2137,
+    "pd": true
+  },
+  "jp-tea-ceremony": {
+    "file": "jp-tea-ceremony.jpg",
+    "title": "茶道場景",
+    "license": "Public domain",
+    "artist": "落合芳幾",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tea_Ceremony_LACMA_M.74.104.2.jpg",
+    "width": 1410,
+    "height": 2100,
+    "pd": true
+  },
+  "jp-cherry-blossom": {
+    "file": "jp-cherry-blossom.png",
+    "title": "五瓣櫻花",
+    "license": "CC0",
+    "artist": "USSR-Slav",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cherry_blossom.svg",
+    "width": 1200,
+    "height": 1200,
+    "pd": true
+  },
+  "jp-sakura": {
+    "file": "jp-sakura.png",
+    "title": "櫻花",
+    "license": "CC0",
+    "artist": "Mnmazur",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sakura.svg",
+    "width": 1200,
+    "height": 1152,
+    "pd": true
+  },
+  "jp-cherry-mukojima": {
+    "file": "jp-cherry-mukojima.png",
+    "title": "隅田川賞櫻遊船",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://commons.wikimedia.org/wiki/File:CHERRY-FLOWERS_AT_MUKOJIMA._(1910)_-_illustration_-_page_295.png",
+    "width": 777,
+    "height": 1124,
+    "pd": true
+  },
+  "jp-omamori": {
+    "file": "jp-omamori.jpg",
+    "title": "各式御守籤袋",
+    "license": "Public domain",
+    "artist": "Leongboy1",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Variousomamori.jpg",
+    "width": 1600,
+    "height": 1200,
+    "pd": true
+  },
+  "jp-daruma": {
+    "file": "jp-daruma.jpg",
+    "title": "紅色達摩不倒翁",
+    "license": "CC0",
+    "artist": "Brücke-Osteuropa",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Daruma_Doll.jpg",
+    "width": 1612,
+    "height": 1848,
+    "pd": true
+  },
+  "jp-daruma-vector": {
+    "file": "jp-daruma-vector.png",
+    "title": "達摩不倒翁",
+    "license": "Public domain",
+    "artist": "Gameposo",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Daruma_doll_Mon_Crest_Vactor_Illustration.png",
+    "width": 602,
+    "height": 642,
+    "pd": true
+  },
+  "oga-male-warrior-sprite-animations": {
+    "file": "oga-male-warrior-sprite-animations.jpg",
+    "title": "male-warrior-sprite-animations",
+    "license": "CC-BY",
+    "artist": "OpenGameArt",
+    "source_url": "https://opengameart.org/content/male-warrior-sprite-animations",
+    "width": 250,
+    "height": 250,
+    "pd": true
+  },
+  "oga-2d-samurai-chibi-character": {
+    "file": "oga-2d-samurai-chibi-character.jpg",
+    "title": "2d-samurai-chibi-character",
+    "license": "CC-BY",
+    "artist": "OpenGameArt",
+    "source_url": "https://opengameart.org/content/2d-samurai-chibi-character",
+    "width": 250,
+    "height": 250,
+    "pd": true
+  },
+  "oga-ninja-adventure-free-sprite": {
+    "file": "oga-ninja-adventure-free-sprite.jpg",
+    "title": "ninja-adventure-free-sprite",
+    "license": "CC0",
+    "artist": "OpenGameArt",
+    "source_url": "https://opengameart.org/content/ninja-adventure-free-sprite",
+    "width": 250,
+    "height": 200,
+    "pd": true
+  },
+  "oga-lpc-barbarian-sprite-base": {
+    "file": "oga-lpc-barbarian-sprite-base.png",
+    "title": "lpc-barbarian-sprite-base",
+    "license": "CC-BY",
+    "artist": "OpenGameArt",
+    "source_url": "https://opengameart.org/content/lpc-barbarian-sprite-base",
+    "width": 64,
+    "height": 64,
+    "pd": true
+  },
+  "oga-trainee-knight-character": {
+    "file": "oga-trainee-knight-character.jpg",
+    "title": "trainee-knight-character",
+    "license": "CC0",
+    "artist": "OpenGameArt",
+    "source_url": "https://opengameart.org/content/trainee-knight-character",
+    "width": 250,
+    "height": 250,
+    "pd": true
+  },
+  "oga-ninja-npc-sprite-sheet": {
+    "file": "oga-ninja-npc-sprite-sheet.png",
+    "title": "ninja-npc-sprite-sheet",
+    "license": "CC0",
+    "artist": "OpenGameArt",
+    "source_url": "https://opengameart.org/content/ninja-npc-sprite-sheet",
+    "width": 64,
+    "height": 112,
+    "pd": true
+  },
+  "oga-box-warrior-set": {
+    "file": "oga-box-warrior-set.jpg",
+    "title": "box-warrior-set",
+    "license": "CC-BY",
+    "artist": "OpenGameArt",
+    "source_url": "https://opengameart.org/content/box-warrior-set",
+    "width": 250,
+    "height": 222,
+    "pd": true
+  },
+  "oga-base-male-fighter": {
+    "file": "oga-base-male-fighter.png",
+    "title": "base-male-fighter",
+    "license": "CC0",
+    "artist": "OpenGameArt",
+    "source_url": "https://opengameart.org/content/base-male-fighter",
+    "width": 250,
+    "height": 125,
+    "pd": true
   }
 }

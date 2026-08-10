@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 27,
-    "character_count": 191,
+    "brand_count": 28,
+    "character_count": 217,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -968,6 +968,28 @@
           "ai_usage": "**四臂喜劇**：笨拙冒失鬼主角 **注意**：CC-BY-SA 4.0，需署名+相同授權"
         },
         {
+          "slug": "oga-2d-samurai-chibi-character",
+          "name": "2D Samurai Chibi",
+          "name_zh": "2D Samurai Chibi",
+          "role": "CC0/CC-BY 遊戲角色 sprite",
+          "first_appearance": "OpenGameArt",
+          "creator": "OpenGameArt 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-2d-samurai-chibi-character.jpg",
+          "reference_gallery": [],
+          "appearance": "chibi 武士風格，武士 chibi 角色。 `chibi 武士 game character sprite, 武士 chibi 角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：男性動作系 sprite 可直接用 **注意**：CC-BY 3.0 授權（需署名）"
+        },
+        {
           "slug": "oga-anime-characters",
           "name": "Anime Characters",
           "name_zh": "Anime Characters",
@@ -1078,6 +1100,94 @@
           "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
         },
         {
+          "slug": "oga-base-male-fighter",
+          "name": "Base Male Fighter",
+          "name_zh": "Base Male Fighter",
+          "role": "CC0/CC-BY 遊戲角色 sprite",
+          "first_appearance": "OpenGameArt",
+          "creator": "OpenGameArt 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-base-male-fighter.png",
+          "reference_gallery": [],
+          "appearance": "格鬥 sprite風格，男性戰士基底 sprite。 `格鬥 sprite game character sprite, 男性戰士基底 sprite`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：男性動作系 sprite 可直接用 **注意**：CC0 授權（全免）"
+        },
+        {
+          "slug": "oga-box-warrior-set",
+          "name": "Box Warrior Set",
+          "name_zh": "Box Warrior Set",
+          "role": "CC0/CC-BY 遊戲角色 sprite",
+          "first_appearance": "OpenGameArt",
+          "creator": "OpenGameArt 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-box-warrior-set.jpg",
+          "reference_gallery": [],
+          "appearance": "動作 sprite風格，箱頭戰士 sprite 系列。 `動作 sprite game character sprite, 箱頭戰士 sprite 系列`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：男性動作系 sprite 可直接用 **注意**：CC-BY 3.0 授權（需署名）"
+        },
+        {
+          "slug": "oga-lpc-barbarian-sprite-base",
+          "name": "LPC Barbarian Base",
+          "name_zh": "LPC Barbarian Base",
+          "role": "CC0/CC-BY 遊戲角色 sprite",
+          "first_appearance": "OpenGameArt",
+          "creator": "OpenGameArt 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-lpc-barbarian-sprite-base.png",
+          "reference_gallery": [],
+          "appearance": "遊戲 sprite風格，野蠻人 sprite 基底。 `遊戲 sprite game character sprite, 野蠻人 sprite 基底`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：男性動作系 sprite 可直接用 **注意**：CC-BY-SA 3.0 授權（需署名）"
+        },
+        {
+          "slug": "oga-male-warrior-sprite-animations",
+          "name": "Male Warrior Sprite",
+          "name_zh": "Male Warrior Sprite",
+          "role": "CC0/CC-BY 遊戲角色 sprite",
+          "first_appearance": "OpenGameArt",
+          "creator": "OpenGameArt 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-male-warrior-sprite-animations.jpg",
+          "reference_gallery": [],
+          "appearance": "動作 sprite風格，男戰士 sprite 動畫序列。 `動作 sprite game character sprite, 男戰士 sprite 動畫序列`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：男性動作系 sprite 可直接用 **注意**：CC-BY 3.0 授權（需署名）"
+        },
+        {
           "slug": "oga-mecha-model-full",
           "name": "Mecha Model Full",
           "name_zh": "Mecha Model Full",
@@ -1100,6 +1210,50 @@
           "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
         },
         {
+          "slug": "oga-ninja-adventure-free-sprite",
+          "name": "Ninja Adventure Sprite",
+          "name_zh": "Ninja Adventure Sprite",
+          "role": "CC0/CC-BY 遊戲角色 sprite",
+          "first_appearance": "OpenGameArt",
+          "creator": "OpenGameArt 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-ninja-adventure-free-sprite.jpg",
+          "reference_gallery": [],
+          "appearance": "忍者 sprite風格，忍者冒險 sprite。 `忍者 sprite game character sprite, 忍者冒險 sprite`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：男性動作系 sprite 可直接用 **注意**：CC0 授權（全免）"
+        },
+        {
+          "slug": "oga-ninja-npc-sprite-sheet",
+          "name": "Ninja NPC Sprite Sheet",
+          "name_zh": "Ninja NPC Sprite Sheet",
+          "role": "CC0/CC-BY 遊戲角色 sprite",
+          "first_appearance": "OpenGameArt",
+          "creator": "OpenGameArt 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-ninja-npc-sprite-sheet.png",
+          "reference_gallery": [],
+          "appearance": "忍者 sprite sheet風格，忍者 NPC sprite 表。 `忍者 sprite sheet game character sprite, 忍者 NPC sprite 表`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：男性動作系 sprite 可直接用 **注意**：CC0 授權（全免）"
+        },
+        {
           "slug": "oga-robot-character",
           "name": "Robot Character",
           "name_zh": "Robot Character",
@@ -1120,6 +1274,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**遊戲/動畫資產**：CC0 素材可直接用 **注意**：CC0 授權，無需署名，可商用"
+        },
+        {
+          "slug": "oga-trainee-knight-character",
+          "name": "Trainee Knight",
+          "name_zh": "Trainee Knight",
+          "role": "CC0/CC-BY 遊戲角色 sprite",
+          "first_appearance": "OpenGameArt",
+          "creator": "OpenGameArt 社群",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/oga-trainee-knight-character.jpg",
+          "reference_gallery": [],
+          "appearance": "騎士 sprite風格，見習騎士角色。 `騎士 sprite game character sprite, 見習騎士角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**遊戲/動畫角色**：男性動作系 sprite 可直接用 **注意**：CC0 授權（全免）"
         },
         {
           "slug": "oga-white-probe-bot",
@@ -5251,6 +5427,420 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**風格參考**：日式動漫技法/字體做 AI 生成風格基底 **注意**：CC-BY-SA 3.0 授權"
+        }
+      ]
+    },
+    {
+      "slug": "japanese-theme-illustrations",
+      "name": "Japanese Theme Illustrations",
+      "name_zh": "日式主題插畫",
+      "type": "插畫 / 文化題材素材",
+      "country": "日本",
+      "era": "江戶-現代",
+      "creator": "各開放創作者",
+      "publisher": "Wikimedia Commons",
+      "first_appearance_year": 1800,
+      "status": "公版 / CC0 / CC-BY / CC-BY-SA 自由授權",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "jp-chado",
+          "name": "茶道（Chado）",
+          "name_zh": "茶道（Chado）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "CheChe",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-chado.png",
+          "reference_gallery": [],
+          "appearance": "極簡向量符號風格，茶道意象（抹茶茶具）。 `極簡向量符號 Japanese illustration, 茶道意象（抹茶茶具）`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-cherry-blossom",
+          "name": "櫻花（Cherry Blossom）",
+          "name_zh": "櫻花（Cherry Blossom）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "USSR-Slav",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-cherry-blossom.png",
+          "reference_gallery": [],
+          "appearance": "平面向量風格，五瓣櫻花向量。 `平面向量 Japanese illustration, 五瓣櫻花向量`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-cherry-mukojima",
+          "name": "隅田川賞櫻（Mukojima 1910）",
+          "name_zh": "隅田川賞櫻（Mukojima 1910）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "佚名",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-cherry-mukojima.png",
+          "reference_gallery": [],
+          "appearance": "復古手繪插畫風格，隅田川賞櫻遊船。 `復古手繪插畫 Japanese illustration, 隅田川賞櫻遊船`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-daruma-vector",
+          "name": "達摩向量（Daruma Vector）",
+          "name_zh": "達摩向量（Daruma Vector）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "Gameposo",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-daruma-vector.png",
+          "reference_gallery": [],
+          "appearance": "平面向量插畫風格，達摩不倒翁向量插畫。 `平面向量插畫 Japanese illustration, 達摩不倒翁向量插畫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-daruma",
+          "name": "達摩不倒翁（Daruma）",
+          "name_zh": "達摩不倒翁（Daruma）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "Brücke-Osteuropa",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-daruma.jpg",
+          "reference_gallery": [],
+          "appearance": "實物照片風格，紅色達摩不倒翁。 `實物照片 Japanese illustration, 紅色達摩不倒翁`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-fox-masks",
+          "name": "狐狸面具（Fox Masks）",
+          "name_zh": "狐狸面具（Fox Masks）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "Michael Vidal",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-fox-masks.png",
+          "reference_gallery": [],
+          "appearance": "日系厚塗風格，日式狐狸面具插畫。 `日系厚塗 Japanese illustration, 日式狐狸面具插畫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "jp-kimono-1910",
+          "name": "和服正背面（Kimono 1910）",
+          "name_zh": "和服正背面（Kimono 1910）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "佚名",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kimono-1910.png",
+          "reference_gallery": [],
+          "appearance": "復古手繪風格，和服正背面線稿插畫。 `復古手繪 Japanese illustration, 和服正背面線稿插畫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-kimono-folding",
+          "name": "和服摺疊（Kimono Folding）",
+          "name_zh": "和服摺疊（Kimono Folding）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "HLHJ",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kimono-folding.png",
+          "reference_gallery": [],
+          "appearance": "教學向量風格，和服摺疊步驟示意。 `教學向量 Japanese illustration, 和服摺疊步驟示意`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "jp-kosode-kimono",
+          "name": "小袖和服版型（Kosode）",
+          "name_zh": "小袖和服版型（Kosode）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "Hanachiru",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kosode-kimono.png",
+          "reference_gallery": [],
+          "appearance": "工藝版型向量風格，小袖和服攤平版型。 `工藝版型向量 Japanese illustration, 小袖和服攤平版型`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "jp-moon-rabbit",
+          "name": "月兔（Moon Rabbit）",
+          "name_zh": "月兔（Moon Rabbit）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-moon-rabbit.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪木版畫風格，月下兔子與孫悟空。 `浮世繪木版畫 Japanese illustration, 月下兔子與孫悟空`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-omamori",
+          "name": "御守（Omamori）",
+          "name_zh": "御守（Omamori）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "Leongboy1",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-omamori.jpg",
+          "reference_gallery": [],
+          "appearance": "實物照片風格，各式御守籤袋。 `實物照片 Japanese illustration, 各式御守籤袋`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-origami-crane",
+          "name": "摺紙鶴（Origami Crane）",
+          "name_zh": "摺紙鶴（Origami Crane）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "Binnette",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-origami-crane.png",
+          "reference_gallery": [],
+          "appearance": "平面向量插畫風格，摺紙鶴向量。 `平面向量插畫 Japanese illustration, 摺紙鶴向量`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "jp-origami-cranes",
+          "name": "千羽鶴（Origami Cranes）",
+          "name_zh": "千羽鶴（Origami Cranes）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "Laitche",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-origami-cranes.jpg",
+          "reference_gallery": [],
+          "appearance": "成品照片風格，多隻摺紙鶴。 `成品照片 Japanese illustration, 多隻摺紙鶴`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-ramen",
+          "name": "動漫拉麵（Ramen）",
+          "name_zh": "動漫拉麵（Ramen）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "aungkarns",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": null,
+          "reference_gallery": [],
+          "appearance": "平面向量風格，拉麵碗平面向量插畫。 `平面向量 Japanese illustration, 拉麵碗平面向量插畫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-sakura",
+          "name": "櫻花（Sakura）",
+          "name_zh": "櫻花（Sakura）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "Mnmazur",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-sakura.png",
+          "reference_gallery": [],
+          "appearance": "平面向量風格，櫻花向量插畫。 `平面向量 Japanese illustration, 櫻花向量插畫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-sushi",
+          "name": "壽司（Sushi）",
+          "name_zh": "壽司（Sushi）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "Nicke L",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-sushi.png",
+          "reference_gallery": [],
+          "appearance": "乾淨向量插畫風格，捲壽司與握壽司。 `乾淨向量插畫 Japanese illustration, 捲壽司與握壽司`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "jp-tea-ceremony",
+          "name": "茶道木版畫（Tea Ceremony）",
+          "name_zh": "茶道木版畫（Tea Ceremony）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "落合芳幾",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-tea-ceremony.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪木版畫風格，茶道場景。 `浮世繪木版畫 Japanese illustration, 茶道場景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-wikipetan-svg",
+          "name": "維基醬（Wikipe-tan）",
+          "name_zh": "維基醬（Wikipe-tan）",
+          "role": "日式主題插畫素材",
+          "first_appearance": "日本文化主題",
+          "creator": "Kasuga",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-wikipetan-svg.png",
+          "reference_gallery": [],
+          "appearance": "日式萌系動漫風格，萌系動漫少女吉祥物。 `日式萌系動漫 Japanese illustration, 萌系動漫少女吉祥物`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**文化元素/道具**：日本文化主題做動畫場景或道具參考 **注意**：CC-BY-SA 3.0 授權"
         }
       ]
     },
