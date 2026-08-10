@@ -6848,5 +6848,185 @@
     "width": 2592,
     "height": 1944,
     "pd": true
+  },
+  "wild-merian-peppers": {
+    "file": "wild-merian-peppers.jpg",
+    "title": "蝶蛾變態",
+    "license": "Public domain",
+    "artist": "Maria Sibylla Merian",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Maria_Sibylla_Merian_-_plant_study_with_peppers.jpg",
+    "width": 2707,
+    "height": 3998,
+    "pd": true
+  },
+  "wild-merian-lx": {
+    "file": "wild-merian-lx.jpg",
+    "title": "蝴蝶生命週期",
+    "license": "Public domain",
+    "artist": "Maria Sibylla Merian",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Merian_Metamorphosis_LX.jpg",
+    "width": 776,
+    "height": 1069,
+    "pd": true
+  },
+  "wild-fish-plate": {
+    "file": "wild-fish-plate.jpg",
+    "title": "魚種彩繪",
+    "license": "Public domain",
+    "artist": "Histoire poissons",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Histoire_naturelle_des_poissons_%28Pl._59%29_%287949948654%29.jpg",
+    "width": 3200,
+    "height": 1893,
+    "pd": true
+  },
+  "jp-kyosai-demon": {
+    "file": "jp-kyosai-demon.jpg",
+    "title": "妖怪圖",
+    "license": "Public domain",
+    "artist": "河鍋曉齋",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Kawanabe_Kyosai_-_Playful_Demon_-_2006.210.13a-b_-_Yale_University_Art_Gallery.jpg",
+    "width": 674,
+    "height": 1920,
+    "pd": true
+  },
+  "jp-hokusai-bathing": {
+    "file": "jp-hokusai-bathing.jpg",
+    "title": "人物姿態速寫",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Hokusai-MangaBathingPeople.jpg",
+    "width": 746,
+    "height": 461,
+    "pd": true
+  },
+  "jp-hokusai-manga2": {
+    "file": "jp-hokusai-manga2.jpg",
+    "title": "漫畫詳頁",
+    "license": "CC0",
+    "artist": "葛飾北齋",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Schetsen_van_Hokusai_-_deel_2_Hokusai_manga_Katsushika_iitsu_iboku_Hokusai_manga_nihen_%28titel_op_object%29%2C_RP-P-2004-510.jpg",
+    "width": 6046,
+    "height": 3952,
+    "pd": true
+  },
+  "jp-yoshitoshi-moon12": {
+    "file": "jp-yoshitoshi-moon12.jpg",
+    "title": "月光夜場景",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Yoshitoshi_-_100_Aspects_of_the_Moon_-_12.jpg",
+    "width": 1174,
+    "height": 1719,
+    "pd": true
+  },
+  "jp-yoshitoshi-daruma": {
+    "file": "jp-yoshitoshi-daruma.jpg",
+    "title": "達摩禪坐",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/BodhidharmaYoshitoshi1887.jpg",
+    "width": 796,
+    "height": 1148,
+    "pd": true
+  },
+  "jp-kunisada-sumo": {
+    "file": "jp-kunisada-sumo.jpg",
+    "title": "相撲對決",
+    "license": "Public domain",
+    "artist": "歌川國貞",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sumo-Ukiyo-e-Utagawa_Kunisada-1854.jpg",
+    "width": 2000,
+    "height": 969,
+    "pd": true
+  },
+  "book-tenniel-pig": {
+    "file": "book-tenniel-pig.jpg",
+    "title": "愛麗絲抱豬",
+    "license": "Public domain",
+    "artist": "John Tenniel",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Alice_carregando_o_beb%C3%AA_porco.jpg",
+    "width": 487,
+    "height": 729,
+    "pd": true
+  },
+  "book-rackham-frog": {
+    "file": "book-rackham-frog.jpg",
+    "title": "青蛙王子",
+    "license": "Public domain",
+    "artist": "Arthur Rackham",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Arthur_Rackham_Frog_Prince.jpg",
+    "width": 800,
+    "height": 1173,
+    "pd": true
+  },
+  "book-rackham-rapunzel": {
+    "file": "book-rackham-rapunzel.jpg",
+    "title": "長髮公主",
+    "license": "Public domain",
+    "artist": "Arthur Rackham",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Arthur_Rackham_Rapunzel.jpg",
+    "width": 800,
+    "height": 1306,
+    "pd": true
+  },
+  "book-rackham-hansel": {
+    "file": "book-rackham-hansel.jpg",
+    "title": "糖果屋森林",
+    "license": "Public domain",
+    "artist": "Arthur Rackham",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Hansel-and-gretel-rackham.jpg",
+    "width": 768,
+    "height": 1092,
+    "pd": true
+  },
+  "book-nielsen-9": {
+    "file": "book-nielsen-9.jpg",
+    "title": "北歐童話",
+    "license": "Public domain",
+    "artist": "Kay Nielsen",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Illustration_by_Kay_Nielsen_9.jpg",
+    "width": 1280,
+    "height": 1706,
+    "pd": true
+  },
+  "book-dulac-fairy": {
+    "file": "book-dulac-fairy.jpg",
+    "title": "童話插圖",
+    "license": "Public domain",
+    "artist": "Edmund Dulac",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/MU_KPB_042_-_Edmund_Dulac_-_Edmund_Dulac%27s_fairy-book_-_0020.jpg",
+    "width": 2490,
+    "height": 3291,
+    "pd": true
+  },
+  "mood-friedrich-fog": {
+    "file": "mood-friedrich-fog.jpg",
+    "title": "霧海旅人",
+    "license": "Public domain",
+    "artist": "Caspar David Friedrich",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+    "width": 2327,
+    "height": 2980,
+    "pd": true
+  },
+  "mood-hiroshige-rain": {
+    "file": "mood-hiroshige-rain.jpg",
+    "title": "傍晚驟雨",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Utagawa_Hiroshige_-_Paulownia_plantation_at_Akasaka_in_the_evening_rain_-_Google_Art_Project.jpg",
+    "width": 2395,
+    "height": 3508,
+    "pd": true
+  },
+  "mood-turner-snowstorm": {
+    "file": "mood-turner-snowstorm.jpg",
+    "title": "雪暴汽船",
+    "license": "Public domain",
+    "artist": "J.M.W. Turner",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/J.M.W._Turner_%E2%80%93_Snow_Storm_-_Steam-Boat_off_a_Harbour%27s_Mouth.jpg",
+    "width": 2500,
+    "height": 1879,
+    "pd": true
   }
 }
