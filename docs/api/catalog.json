@@ -1270,6 +1270,13 @@
           "image": "assets/img/theophilus-hero.jpg",
           "reference_gallery": [
             {
+              "file": "assets/gallery/theophilus-1.jpg",
+              "angle": "西奧菲勒斯",
+              "scene": "舞台角色",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
               "file": "assets/gallery/theophilus-2.jpg",
               "angle": "西奧菲勒斯",
               "scene": "舞台角色",
@@ -2134,7 +2141,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/bg-hokkaido-field.jpeg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/bg-hokkaido-field-1.jpg",
+              "angle": "bg hokkaido field",
+              "scene": "角色參考",
+              "license": "CC BY 2.5",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/bg-hokkaido-field-2.jpg",
+              "angle": "bg hokkaido field",
+              "scene": "角色參考",
+              "license": "CC BY 2.5",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/bg-hokkaido-field-3.jpg",
+              "angle": "bg hokkaido field",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            }
+          ],
           "appearance": "純白冬季田野風格。 `純白冬季田野 Japanese scene background, 美瑛霜樹+白色山丘`",
           "dialogue": "",
           "scene": "",
@@ -2222,7 +2251,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/bg-japanese-garden.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/bg-japanese-garden-1.jpg",
+              "angle": "bg japanese garden",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/bg-japanese-garden-2.jpg",
+              "angle": "bg japanese garden",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/bg-japanese-garden-3.jpg",
+              "angle": "bg japanese garden",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            }
+          ],
           "appearance": "攝影。 `Japanese garden with koi pond and bridge, traditional garden background`",
           "dialogue": "",
           "scene": "",
@@ -2376,7 +2427,22 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/bg-osaka-castle.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/bg-osaka-castle-1.jpg",
+              "angle": "bg osaka castle",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/bg-osaka-castle-2.jpg",
+              "angle": "bg osaka castle",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "哥德式夜景剪影風格。 `哥德式夜景剪影 Japanese scene background, 大阪城天守剪影夜景`",
           "dialogue": "",
           "scene": "",
@@ -2420,7 +2486,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/bg-saga-city.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/bg-saga-city-1.jpg",
+              "angle": "bg saga city",
+              "scene": "角色參考",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/bg-saga-city-2.jpg",
+              "angle": "bg saga city",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/bg-saga-city-3.jpg",
+              "angle": "bg saga city",
+              "scene": "角色參考",
+              "license": "CC BY 3.0",
+              "source": ""
+            }
+          ],
           "appearance": "攝影風景。 `anime seaside town background, low-rise city from hill, Japanese townscape`",
           "dialogue": "",
           "scene": "",
@@ -2508,7 +2596,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/bg-shinto-shrine.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/bg-shinto-shrine-1.jpg",
+              "angle": "bg shinto shrine",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/bg-shinto-shrine-2.jpg",
+              "angle": "bg shinto shrine",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/bg-shinto-shrine-3.jpg",
+              "angle": "bg shinto shrine",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            }
+          ],
           "appearance": "動漫插圖。 `anime style Shinto shrine in forest with mountains, Gensokyo landscape, illustration`",
           "dialogue": "",
           "scene": "",
@@ -2636,7 +2746,43 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/1920-storm.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/1920-storm-1.jpg",
+              "angle": "1920 storm",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/1920-storm-2.jpg",
+              "angle": "1920 storm",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/1920-storm-3.jpg",
+              "angle": "1920 storm",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/1920-storm-4.jpg",
+              "angle": "1920 storm",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/1920-storm-5.jpg",
+              "angle": "1920 storm",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "柴油龐克戰爭機甲插畫 原創機甲。 `柴油龐克戰爭機甲插畫 original mecha design, concept art`",
           "dialogue": "",
           "scene": "",
@@ -2680,7 +2826,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/angry-anime-girl.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/angry-anime-girl-1.jpg",
+              "angle": "angry anime girl",
+              "scene": "角色參考",
+              "license": "CC0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/angry-anime-girl-2.jpg",
+              "angle": "angry anime girl",
+              "scene": "角色參考",
+              "license": "cc0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/angry-anime-girl-3.jpg",
+              "angle": "angry anime girl",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "動漫表情 日式動漫角色。 `動漫表情 風格、原創角色`",
           "dialogue": "",
           "scene": "",
@@ -2702,7 +2870,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/anime-boy-sword.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/anime-boy-sword-1.jpg",
+              "angle": "anime boy sword",
+              "scene": "角色參考",
+              "license": "CC0",
+              "source": ""
+            }
+          ],
           "appearance": "扁平賽璐璐動漫插圖風格日式動漫角色。 `扁平賽璐璐動漫插圖 anime character, 武士仔動漫風格全身上手持劍`",
           "dialogue": "",
           "scene": "",
@@ -2724,7 +2900,43 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/anime-girl.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/anime-girl-1.jpg",
+              "angle": "anime girl",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/anime-girl-2.jpg",
+              "angle": "anime girl",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/anime-girl-3.jpg",
+              "angle": "anime girl",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/anime-girl-4.jpg",
+              "angle": "anime girl",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/anime-girl-5.jpg",
+              "angle": "anime girl",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "扁平向量動漫 日式動漫角色。 `扁平向量動漫 風格、原創角色`",
           "dialogue": "",
           "scene": "",
@@ -2746,7 +2958,43 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/anime-kitty.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/anime-kitty-1.jpg",
+              "angle": "anime kitty",
+              "scene": "角色參考",
+              "license": "CC BY 2.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/anime-kitty-2.jpg",
+              "angle": "anime kitty",
+              "scene": "角色參考",
+              "license": "CC BY-SA 2.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/anime-kitty-3.jpg",
+              "angle": "anime kitty",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/anime-kitty-4.jpg",
+              "angle": "anime kitty",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/anime-kitty-5.jpg",
+              "angle": "anime kitty",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "chibi/向量 日式動漫角色。 `chibi/向量 風格、原創角色`",
           "dialogue": "",
           "scene": "",
@@ -2768,7 +3016,36 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/anime-verde.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/anime-verde-1.jpg",
+              "angle": "anime verde",
+              "scene": "角色參考",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/anime-verde-2.jpg",
+              "angle": "anime verde",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0 de",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/anime-verde-3.jpg",
+              "angle": "anime verde",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/anime-verde-4.jpg",
+              "angle": "anime verde",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "動漫插圖 日式動漫角色。 `動漫插圖 風格、原創角色`",
           "dialogue": "",
           "scene": "",
@@ -2790,7 +3067,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/arigato-usagi.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/arigato-usagi-1.jpg",
+              "angle": "arigato usagi",
+              "scene": "角色參考",
+              "license": "CC0",
+              "source": ""
+            }
+          ],
           "appearance": "可愛動漫兔機甲 原創機甲。 `可愛動漫兔機甲 original mecha design, concept art`",
           "dialogue": "",
           "scene": "",
@@ -2812,7 +3097,43 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/battle-galaxy.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/battle-galaxy-1.jpg",
+              "angle": "battle galaxy",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/battle-galaxy-2.jpg",
+              "angle": "battle galaxy",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/battle-galaxy-3.jpg",
+              "angle": "battle galaxy",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/battle-galaxy-4.jpg",
+              "angle": "battle galaxy",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/battle-galaxy-5.jpg",
+              "angle": "battle galaxy",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "科幻 RTS 單位設計 原創機甲。 `科幻 RTS 單位設計 original mecha design, concept art`",
           "dialogue": "",
           "scene": "",
@@ -2856,7 +3177,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/brendo-magical-girl.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/brendo-magical-girl-1.jpg",
+              "angle": "brendo magical girl",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            }
+          ],
           "appearance": "魔法少女動漫風格日式動漫角色。 `魔法少女動漫 anime character, 魔法少女角色，魔杖/魔法姿勢`",
           "dialogue": "",
           "scene": "",
@@ -2900,7 +3229,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/charge-robot.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/charge-robot-1.jpg",
+              "angle": "charge robot",
+              "scene": "角色參考",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/charge-robot-2.jpg",
+              "angle": "charge robot",
+              "scene": "角色參考",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/charge-robot-3.jpg",
+              "angle": "charge robot",
+              "scene": "角色參考",
+              "license": "CC BY 4.0",
+              "source": ""
+            }
+          ],
           "appearance": "科幻角色概念藝術 原創機甲。 `科幻角色概念藝術 original mecha design, concept art`",
           "dialogue": "",
           "scene": "",
@@ -2922,7 +3273,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/charon-assault.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/charon-assault-1.jpg",
+              "angle": "charon assault",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            }
+          ],
           "appearance": "動漫/軍事機甲設計稿 原創機甲。 `動漫/軍事機甲設計稿 original mecha design, concept art`",
           "dialogue": "",
           "scene": "",
@@ -2944,7 +3303,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/chibi-anime-child.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/chibi-anime-child-1.jpg",
+              "angle": "chibi anime child",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/chibi-anime-child-2.jpg",
+              "angle": "chibi anime child",
+              "scene": "角色參考",
+              "license": "CC BY-SA 2.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/chibi-anime-child-3.jpg",
+              "angle": "chibi anime child",
+              "scene": "角色參考",
+              "license": "CC0",
+              "source": ""
+            }
+          ],
           "appearance": "簡單 chibi 向量 日式動漫角色。 `簡單 chibi 向量 風格、原創角色`",
           "dialogue": "",
           "scene": "",
@@ -2966,7 +3347,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/chibi-hair-color.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/chibi-hair-color-1.jpg",
+              "angle": "chibi hair color",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/chibi-hair-color-2.jpg",
+              "angle": "chibi hair color",
+              "scene": "角色參考",
+              "license": "CC BY 2.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/chibi-hair-color-3.jpg",
+              "angle": "chibi hair color",
+              "scene": "角色參考",
+              "license": "CC BY 2.0",
+              "source": ""
+            }
+          ],
           "appearance": "chibi 繪畫參考風格日式動漫角色。 `chibi 繪畫參考 anime character, chibi 髮型+配色參考圖`",
           "dialogue": "",
           "scene": "",
@@ -2988,7 +3391,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/chibi-mira.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/chibi-mira-1.jpg",
+              "angle": "chibi mira",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            }
+          ],
           "appearance": "chibi風格日式動漫角色。 `chibi anime character, 動漫風格小朋友 chibi`",
           "dialogue": "",
           "scene": "",
@@ -3032,7 +3443,36 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/dojikko.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/dojikko-1.jpg",
+              "angle": "dojikko",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/dojikko-2.jpg",
+              "angle": "dojikko",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/dojikko-3.jpg",
+              "angle": "dojikko",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/dojikko-4.jpg",
+              "angle": "dojikko",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "半扁平動漫 日式動漫角色。 `半扁平動漫 風格、原創角色`",
           "dialogue": "",
           "scene": "",
@@ -3054,7 +3494,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/eff-mecha-poster.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/eff-mecha-poster-1.jpg",
+              "angle": "eff mecha poster",
+              "scene": "角色參考",
+              "license": "CC BY 3.0",
+              "source": ""
+            }
+          ],
           "appearance": "網版印刷海報機甲 原創機甲。 `網版印刷海報機甲 original mecha design, concept art`",
           "dialogue": "",
           "scene": "",
@@ -3098,7 +3546,22 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/garter-otokonoko.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/garter-otokonoko-1.jpg",
+              "angle": "garter otokonoko",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/garter-otokonoko-2.jpg",
+              "angle": "garter otokonoko",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            }
+          ],
           "appearance": "鉛筆素描風格日式動漫角色。 `鉛筆素描 anime character, 男の娘（女裝）角色鉛筆草圖`",
           "dialogue": "",
           "scene": "",
@@ -3142,7 +3605,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/husky-chibi.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/husky-chibi-1.jpg",
+              "angle": "husky chibi",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            }
+          ],
           "appearance": "chibi/kemonomimi風格日式動漫角色。 `chibi/kemonomimi anime character, 哈士奇耳狗娘 chibi 角色`",
           "dialogue": "",
           "scene": "",
@@ -3164,7 +3635,22 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/hyou-chan.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/hyou-chan-1.jpg",
+              "angle": "hyou chan",
+              "scene": "角色參考",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/hyou-chan-2.jpg",
+              "angle": "hyou chan",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "可愛動漫/貓娘 日式動漫角色。 `可愛動漫/貓娘 風格、原創角色`",
           "dialogue": "",
           "scene": "",
@@ -3186,7 +3672,22 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/icecat-girl.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/icecat-girl-1.jpg",
+              "angle": "icecat girl",
+              "scene": "角色參考",
+              "license": "CC0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/icecat-girl-2.jpg",
+              "angle": "icecat girl",
+              "scene": "角色參考",
+              "license": "cc0",
+              "source": ""
+            }
+          ],
           "appearance": "扁平向量漫畫/貓娘 日式動漫角色。 `扁平向量漫畫/貓娘 風格、原創角色`",
           "dialogue": "",
           "scene": "",
@@ -3208,7 +3709,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/impmech-s.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/impmech-s-1.jpg",
+              "angle": "impmech s",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            }
+          ],
           "appearance": "動漫風格遊戲機甲 原創機甲。 `動漫風格遊戲機甲 original mecha design, concept art`",
           "dialogue": "",
           "scene": "",
@@ -3230,7 +3739,43 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/ink-robot.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/ink-robot-1.jpg",
+              "angle": "ink robot",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/ink-robot-2.jpg",
+              "angle": "ink robot",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/ink-robot-3.jpg",
+              "angle": "ink robot",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/ink-robot-4.jpg",
+              "angle": "ink robot",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/ink-robot-5.jpg",
+              "angle": "ink robot",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "手繪墨水機械設計 原創機甲。 `手繪墨水機械設計 original mecha design, concept art`",
           "dialogue": "",
           "scene": "",
@@ -3274,7 +3819,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/kemonomimi-chibi.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/kemonomimi-chibi-1.jpg",
+              "angle": "kemonomimi chibi",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/kemonomimi-chibi-2.jpg",
+              "angle": "kemonomimi chibi",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/kemonomimi-chibi-3.jpg",
+              "angle": "kemonomimi chibi",
+              "scene": "角色參考",
+              "license": "CC BY 4.0",
+              "source": ""
+            }
+          ],
           "appearance": "chibi/kemonomimi 向量 日式動漫角色。 `chibi/kemonomimi 向量 風格、原創角色`",
           "dialogue": "",
           "scene": "",
@@ -3428,7 +3995,43 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/manga-school-boy.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/manga-school-boy-1.jpg",
+              "angle": "manga school boy",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/manga-school-boy-2.jpg",
+              "angle": "manga school boy",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/manga-school-boy-3.jpg",
+              "angle": "manga school boy",
+              "scene": "角色參考",
+              "license": "CC0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/manga-school-boy-4.jpg",
+              "angle": "manga school boy",
+              "scene": "角色參考",
+              "license": "cc0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/manga-school-boy-5.jpg",
+              "angle": "manga school boy",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "漫畫線稿風格日式動漫角色。 `漫畫線稿 anime character, 動漫男仔靠書桌，漫畫風格線稿`",
           "dialogue": "",
           "scene": "",
@@ -3450,7 +4053,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/mecha-chibis.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/mecha-chibis-1.jpg",
+              "angle": "mecha chibis",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mecha-chibis-2.jpg",
+              "angle": "mecha chibis",
+              "scene": "角色參考",
+              "license": "cc0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mecha-chibis-3.jpg",
+              "angle": "mecha chibis",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "chibi 可愛機甲模型 原創機甲。 `chibi 可愛機甲模型 original mecha design, concept art`",
           "dialogue": "",
           "scene": "",
@@ -3472,7 +4097,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/mecha-girl-2.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/mecha-girl-2-1.jpg",
+              "angle": "mecha girl 2",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            }
+          ],
           "appearance": "軍事機娘插圖風格日式動漫角色。 `軍事機娘插圖 anime character, 機娘——著比堅尼配機械義肢、翼、武器`",
           "dialogue": "",
           "scene": "",
@@ -3494,7 +4127,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/mecha-samurai.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/mecha-samurai-1.jpg",
+              "angle": "mecha samurai",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mecha-samurai-2.jpg",
+              "angle": "mecha samurai",
+              "scene": "角色參考",
+              "license": "CC BY 2.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mecha-samurai-3.jpg",
+              "angle": "mecha samurai",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "動漫機甲插畫 原創機甲。 `動漫機甲插畫 original mecha design, concept art`",
           "dialogue": "",
           "scene": "",
@@ -3516,7 +4171,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/mecha-warrior.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/mecha-warrior-1.jpg",
+              "angle": "mecha warrior",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mecha-warrior-2.jpg",
+              "angle": "mecha warrior",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mecha-warrior-3.jpg",
+              "angle": "mecha warrior",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "扁平向量機甲線稿 原創機甲。 `扁平向量機甲線稿 original mecha design, concept art`",
           "dialogue": "",
           "scene": "",
@@ -3538,7 +4215,22 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/mesugaki.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/mesugaki-1.jpg",
+              "angle": "mesugaki",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/mesugaki-2.jpg",
+              "angle": "mesugaki",
+              "scene": "角色參考",
+              "license": "cc0",
+              "source": ""
+            }
+          ],
           "appearance": "扁平動漫風格日式動漫角色。 `扁平動漫 anime character, Mesugaki 屬性——狡猾女仔揦嘴笑`",
           "dialogue": "",
           "scene": "",
@@ -3560,7 +4252,22 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/moe-chieru-kio.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/moe-chieru-kio-1.jpg",
+              "angle": "moe chieru kio",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/moe-chieru-kio-2.jpg",
+              "angle": "moe chieru kio",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            }
+          ],
           "appearance": "moe 動漫風格日式動漫角色。 `moe 動漫 anime character, 垂直 moe 吉祥物角色`",
           "dialogue": "",
           "scene": "",
@@ -3582,7 +4289,22 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/moe-manga-lady.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/moe-manga-lady-1.jpg",
+              "angle": "moe manga lady",
+              "scene": "角色參考",
+              "license": "CC0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/moe-manga-lady-2.jpg",
+              "angle": "moe manga lady",
+              "scene": "角色參考",
+              "license": "cc0",
+              "source": ""
+            }
+          ],
           "appearance": "扁平 moe 插圖 日式動漫角色。 `扁平 moe 插圖 風格、原創角色`",
           "dialogue": "",
           "scene": "",
@@ -3604,7 +4326,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/moe-sailor-fuku.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/moe-sailor-fuku-1.jpg",
+              "angle": "moe sailor fuku",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/moe-sailor-fuku-2.jpg",
+              "angle": "moe sailor fuku",
+              "scene": "角色參考",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/moe-sailor-fuku-3.jpg",
+              "angle": "moe sailor fuku",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            }
+          ],
           "appearance": "moe 動漫插圖 日式動漫角色。 `moe 動漫插圖 風格、原創角色`",
           "dialogue": "",
           "scene": "",
@@ -3648,7 +4392,22 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/monfer-chibi.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/monfer-chibi-1.jpg",
+              "angle": "monfer chibi",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/monfer-chibi-2.jpg",
+              "angle": "monfer chibi",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            }
+          ],
           "appearance": "chibi風格日式動漫角色。 `chibi anime character, 原創 chibi 角色，大頭細身`",
           "dialogue": "",
           "scene": "",
@@ -3692,7 +4451,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/naughty-catgirl.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/naughty-catgirl-1.jpg",
+              "angle": "naughty catgirl",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            }
+          ],
           "appearance": "貓娘鉛筆素描風格日式動漫角色。 `貓娘鉛筆素描 anime character, 頑皮貓娘鉛筆草圖`",
           "dialogue": "",
           "scene": "",
@@ -3736,7 +4503,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/purple-moe-girl.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/purple-moe-girl-1.jpg",
+              "angle": "purple moe girl",
+              "scene": "角色參考",
+              "license": "CC0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/purple-moe-girl-2.jpg",
+              "angle": "purple moe girl",
+              "scene": "角色參考",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/purple-moe-girl-3.jpg",
+              "angle": "purple moe girl",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "向量 moe 日式動漫角色。 `向量 moe 風格、原創角色`",
           "dialogue": "",
           "scene": "",
@@ -3758,7 +4547,43 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/robot-bridge.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/robot-bridge-1.jpg",
+              "angle": "robot bridge",
+              "scene": "角色參考",
+              "license": "CC BY-SA 2.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/robot-bridge-2.jpg",
+              "angle": "robot bridge",
+              "scene": "角色參考",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/robot-bridge-3.jpg",
+              "angle": "robot bridge",
+              "scene": "角色參考",
+              "license": "CC BY 2.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/robot-bridge-4.jpg",
+              "angle": "robot bridge",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/robot-bridge-5.jpg",
+              "angle": "robot bridge",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "數位繪科幻機械人 原創機甲。 `數位繪科幻機械人 original mecha design, concept art`",
           "dialogue": "",
           "scene": "",
@@ -3824,7 +4649,43 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/sylva.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/sylva-1.jpg",
+              "angle": "sylva",
+              "scene": "角色參考",
+              "license": "CC BY 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/sylva-2.jpg",
+              "angle": "sylva",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/sylva-3.jpg",
+              "angle": "sylva",
+              "scene": "角色參考",
+              "license": "CC BY-SA 2.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/sylva-4.jpg",
+              "angle": "sylva",
+              "scene": "角色參考",
+              "license": "pdm",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/sylva-5.jpg",
+              "angle": "sylva",
+              "scene": "角色參考",
+              "license": "pdm",
+              "source": ""
+            }
+          ],
           "appearance": "向量線稿動漫角色 日式動漫角色。 `向量線稿動漫角色 風格、原創角色`",
           "dialogue": "",
           "scene": "",
@@ -3846,7 +4707,43 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/the-kappa.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/the-kappa-1.jpg",
+              "angle": "the kappa",
+              "scene": "角色參考",
+              "license": "CC0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/the-kappa-2.jpg",
+              "angle": "the kappa",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/the-kappa-3.jpg",
+              "angle": "the kappa",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/the-kappa-4.jpg",
+              "angle": "the kappa",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/the-kappa-5.jpg",
+              "angle": "the kappa",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "日式民間傳說風格機甲 原創機甲。 `日式民間傳說風格機甲 original mecha design, concept art`",
           "dialogue": "",
           "scene": "",
@@ -3868,7 +4765,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/thom-simulator.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/thom-simulator-1.jpg",
+              "angle": "thom simulator",
+              "scene": "角色參考",
+              "license": "CC BY 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/thom-simulator-2.jpg",
+              "angle": "thom simulator",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/thom-simulator-3.jpg",
+              "angle": "thom simulator",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "註解式科幻機設 原創機甲。 `註解式科幻機設 original mecha design, concept art`",
           "dialogue": "",
           "scene": "",
@@ -3890,7 +4809,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/wikipedia-gijinka.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/wikipedia-gijinka-1.jpg",
+              "angle": "wikipedia gijinka",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/wikipedia-gijinka-2.jpg",
+              "angle": "wikipedia gijinka",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/wikipedia-gijinka-3.jpg",
+              "angle": "wikipedia gijinka",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            }
+          ],
           "appearance": "黑白墨線稿風格日式動漫角色。 `黑白墨線稿 anime character, Wikipedia 擬人化角色黑白線稿`",
           "dialogue": "",
           "scene": "",
@@ -3974,7 +4915,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/style-anime-drafting.webp",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/style-anime-drafting-1.jpg",
+              "angle": "style anime drafting",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "草稿技法風格，動漫草稿/構圖，粗略比例與姿勢。 `草稿技法 style reference, 動漫草稿/構圖，粗略比例與姿勢`",
           "dialogue": "",
           "scene": "",
@@ -3996,7 +4945,22 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/style-anime-eyes.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/style-anime-eyes-1.jpg",
+              "angle": "style anime eyes",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/style-anime-eyes-2.jpg",
+              "angle": "style anime eyes",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "動漫眼技法風格，動漫眼特寫，光澤瞳孔+虹膜漸層。 `動漫眼技法 style reference, 動漫眼特寫，光澤瞳孔+虹膜漸層`",
           "dialogue": "",
           "scene": "",
@@ -4062,7 +5026,43 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/style-japanese-signs.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/style-japanese-signs-1.jpg",
+              "angle": "style japanese signs",
+              "scene": "角色參考",
+              "license": "CC BY 2.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/style-japanese-signs-2.jpg",
+              "angle": "style japanese signs",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/style-japanese-signs-3.jpg",
+              "angle": "style japanese signs",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/style-japanese-signs-4.jpg",
+              "angle": "style japanese signs",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/style-japanese-signs-5.jpg",
+              "angle": "style japanese signs",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "日式街頭字體風格，復古日本街頭手繪字招牌。 `日式街頭字體 style reference, 復古日本街頭手繪字招牌`",
           "dialogue": "",
           "scene": "",
@@ -4084,7 +5084,43 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/style-japanese-watercolor.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/style-japanese-watercolor-1.jpg",
+              "angle": "style japanese watercolor",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/style-japanese-watercolor-2.jpg",
+              "angle": "style japanese watercolor",
+              "scene": "角色參考",
+              "license": "CC0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/style-japanese-watercolor-3.jpg",
+              "angle": "style japanese watercolor",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/style-japanese-watercolor-4.jpg",
+              "angle": "style japanese watercolor",
+              "scene": "角色參考",
+              "license": "pdm",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/style-japanese-watercolor-5.jpg",
+              "angle": "style japanese watercolor",
+              "scene": "角色參考",
+              "license": "by",
+              "source": ""
+            }
+          ],
           "appearance": "水彩動漫風格，日式水彩動漫洗染效果。 `水彩動漫 style reference, 日式水彩動漫洗染效果`",
           "dialogue": "",
           "scene": "",
@@ -4128,7 +5164,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/style-kaisho-calligraphy.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/style-kaisho-calligraphy-1.jpg",
+              "angle": "style kaisho calligraphy",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/style-kaisho-calligraphy-2.jpg",
+              "angle": "style kaisho calligraphy",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/style-kaisho-calligraphy-3.jpg",
+              "angle": "style kaisho calligraphy",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "日本書法風格，楷書毛筆字，結構嚴謹。 `日本書法 style reference, 楷書毛筆字，結構嚴謹`",
           "dialogue": "",
           "scene": "",
@@ -4172,7 +5230,22 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/style-wikipetan-full.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/style-wikipetan-full-1.jpg",
+              "angle": "style wikipetan full",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/style-wikipetan-full-2.jpg",
+              "angle": "style wikipetan full",
+              "scene": "角色參考",
+              "license": "CC BY-SA 2.5",
+              "source": ""
+            }
+          ],
           "appearance": "扁平動漫渲染風格，扁平 cel 動漫吉祥物全身。 `扁平動漫渲染 style reference, 扁平 cel 動漫吉祥物全身`",
           "dialogue": "",
           "scene": "",
@@ -4212,7 +5285,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/arch-himeji-castle.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/arch-himeji-castle-1.jpg",
+              "angle": "arch himeji castle",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            }
+          ],
           "appearance": "攝影風格，白鷺城姫路城天守。 `攝影 Japanese yokai, 白鷺城姫路城天守`",
           "dialogue": "",
           "scene": "",
@@ -4322,7 +5403,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-amabie.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-amabie-1.jpg",
+              "angle": "yokai amabie",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "木刻畫風格，人魚樣四腳吉祥妖怪。 `木刻畫 Japanese yokai, 人魚樣四腳吉祥妖怪`",
           "dialogue": "",
           "scene": "",
@@ -4344,7 +5433,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-ayakashi.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-ayakashi-1.jpg",
+              "angle": "yokai ayakashi",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-ayakashi-2.jpg",
+              "angle": "yokai ayakashi",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-ayakashi-3.jpg",
+              "angle": "yokai ayakashi",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "浮世繪水墨風格，蛇鯨海上妖怪。 `浮世繪水墨 Japanese yokai, 蛇鯨海上妖怪`",
           "dialogue": "",
           "scene": "",
@@ -4366,7 +5477,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-bakeneko.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-bakeneko-1.jpg",
+              "angle": "yokai bakeneko",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-bakeneko-2.jpg",
+              "angle": "yokai bakeneko",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-bakeneko-3.jpg",
+              "angle": "yokai bakeneko",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "水墨畫風格，幻形貓妖化貓。 `日本妖怪 幻形貓妖化貓，水墨畫風格`",
           "dialogue": "",
           "scene": "",
@@ -4388,7 +5521,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-dragon.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-dragon-1.jpg",
+              "angle": "yokai dragon",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-dragon-2.jpg",
+              "angle": "yokai dragon",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-dragon-3.jpg",
+              "angle": "yokai dragon",
+              "scene": "角色參考",
+              "license": "CC BY-SA 3.0",
+              "source": ""
+            }
+          ],
           "appearance": "浮世繪/日本畫風格，雲中升天嘅日本龍。 `日本妖怪 雲中升天嘅日本龍，浮世繪/日本畫風格`",
           "dialogue": "",
           "scene": "",
@@ -4410,7 +5565,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-earth-spider.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-earth-spider-1.jpg",
+              "angle": "yokai earth spider",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-earth-spider-2.jpg",
+              "angle": "yokai earth spider",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-earth-spider-3.jpg",
+              "angle": "yokai earth spider",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "浮世繪三聯畫風格，土蜘蛛妖怪喺源賴光宅邸召喚群妖。 `日本妖怪 土蜘蛛妖怪喺源賴光宅邸召喚群妖，浮世繪三聯畫風格`",
           "dialogue": "",
           "scene": "",
@@ -4498,7 +5675,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-hokusai-tengu.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-hokusai-tengu-1.jpg",
+              "angle": "yokai hokusai tengu",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "浮世繪木刻版畫風格，長鼻天狗。 `日本妖怪 長鼻天狗，浮世繪木刻版畫風格`",
           "dialogue": "",
           "scene": "",
@@ -4520,7 +5705,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-hyotankozo.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-hyotankozo-1.jpg",
+              "angle": "yokai hyotankozo",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "浮世繪水墨風格，揹葫蘆嘅僧人小孩妖怪。 `浮世繪水墨 Japanese yokai, 揹葫蘆嘅僧人小孩妖怪`",
           "dialogue": "",
           "scene": "",
@@ -4542,7 +5735,22 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-kamaitachi.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-kamaitachi-1.jpg",
+              "angle": "yokai kamaitachi",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-kamaitachi-2.jpg",
+              "angle": "yokai kamaitachi",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "浮世繪水墨風格，鎌鼬（鐮刀風妖怪）。 `浮世繪水墨 Japanese yokai, 鎌鼬（鐮刀風妖怪）`",
           "dialogue": "",
           "scene": "",
@@ -4564,7 +5772,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-kamikiri.png",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-kamikiri-1.jpg",
+              "angle": "yokai kamikiri",
+              "scene": "角色參考",
+              "license": "CC BY-SA 4.0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-kamikiri-2.jpg",
+              "angle": "yokai kamikiri",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-kamikiri-3.jpg",
+              "angle": "yokai kamikiri",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "浮世繪（明治）風格，偷偷剪人頭髮嘅妖怪。 `日本妖怪 偷偷剪人頭髮嘅妖怪，浮世繪（明治）風格`",
           "dialogue": "",
           "scene": "",
@@ -4586,7 +5816,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-kanibozu.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-kanibozu-1.jpg",
+              "angle": "yokai kanibozu",
+              "scene": "角色參考",
+              "license": "CC0",
+              "source": ""
+            }
+          ],
           "appearance": "掛軸畫風格，蟹僧妖怪（諏訪湖）。 `日本妖怪 蟹僧妖怪（諏訪湖），掛軸畫風格`",
           "dialogue": "",
           "scene": "",
@@ -4608,7 +5846,29 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-kappa.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-kappa-1.jpg",
+              "angle": "yokai kappa",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-kappa-2.jpg",
+              "angle": "yokai kappa",
+              "scene": "角色參考",
+              "license": "CC BY 2.5",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-kappa-3.jpg",
+              "angle": "yokai kappa",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "19 世紀線稿插圖風格，綠色水妖河童（頭頂有皿）。 `日本妖怪 綠色水妖河童（頭頂有皿），19 世紀線稿插圖風格`",
           "dialogue": "",
           "scene": "",
@@ -4696,7 +5956,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-mokumokuren.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-mokumokuren-1.jpg",
+              "angle": "yokai mokumokuren",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "浮世繪水墨風格，牆上好多眼嘅妖怪。 `浮世繪水墨 Japanese yokai, 牆上好多眼嘅妖怪`",
           "dialogue": "",
           "scene": "",
@@ -4740,7 +6008,22 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-nozuchi.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-nozuchi-1.jpg",
+              "angle": "yokai nozuchi",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-nozuchi-2.jpg",
+              "angle": "yokai nozuchi",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "浮世繪水墨風格，毛茸茸蛇形妖怪吞食野兔。 `浮世繪水墨 Japanese yokai, 毛茸茸蛇形妖怪吞食野兔`",
           "dialogue": "",
           "scene": "",
@@ -4828,7 +6111,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-shibaten.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-shibaten-1.jpg",
+              "angle": "yokai shibaten",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "舊木刻書插圖風格，天狗妖怪場景。 `日本妖怪 天狗妖怪場景，舊木刻書插圖風格`",
           "dialogue": "",
           "scene": "",
@@ -4850,7 +6141,22 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-shiranui.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-shiranui-1.jpg",
+              "angle": "yokai shiranui",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/yokai-shiranui-2.jpg",
+              "angle": "yokai shiranui",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "浮世繪水墨風格，海面鬼火現象。 `浮世繪水墨 Japanese yokai, 海面鬼火現象`",
           "dialogue": "",
           "scene": "",
@@ -4894,7 +6200,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-tengu-festival.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-tengu-festival-1.jpg",
+              "angle": "yokai tengu festival",
+              "scene": "角色參考",
+              "license": "CC BY 2.0",
+              "source": ""
+            }
+          ],
           "appearance": "祭典面具相片風格，廣尾祭嘅長鼻天狗面具。 `日本妖怪 廣尾祭嘅長鼻天狗面具，祭典面具相片風格`",
           "dialogue": "",
           "scene": "",
@@ -4960,7 +6274,15 @@
           "trademark": "無",
           "verified": "2026-08-10",
           "image": "assets/img/yokai-tsurube-bi.jpg",
-          "reference_gallery": [],
+          "reference_gallery": [
+            {
+              "file": "assets/gallery/yokai-tsurube-bi-1.jpg",
+              "angle": "yokai tsurube bi",
+              "scene": "角色參考",
+              "license": "Public domain",
+              "source": ""
+            }
+          ],
           "appearance": "浮世繪水墨風格，從吊桶掉落嘅火球妖怪。 `浮世繪水墨 Japanese yokai, 從吊桶掉落嘅火球妖怪`",
           "dialogue": "",
           "scene": "",
@@ -5673,6 +6995,13 @@
             },
             {
               "file": "assets/gallery/wapuu-2.jpg",
+              "angle": "哇普",
+              "scene": "吉祥物",
+              "license": "cc0",
+              "source": ""
+            },
+            {
+              "file": "assets/gallery/wapuu-3.jpg",
               "angle": "哇普",
               "scene": "吉祥物",
               "license": "cc0",

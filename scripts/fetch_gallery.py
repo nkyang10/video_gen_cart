@@ -144,6 +144,40 @@ GALLERY_QUERIES = {
     'duskako': [('Duskako', '暮光之狐', 'fursona')],
     'xenia': [('Xenia the Linux Vixen', '希妮雅', 'Linux 狐')],
     'sodabytes': [('kemono furry illustration', '獸人', 'Kemono 範例')],
+    # ---- 日式人設 + 機設 + 妖怪 + 背景 + 風格參考（用 slug 名 auto-search）----
+    'sylva': [], 'moe-sailor-fuku': [], 'kemonomimi-chibi': [], 'anime-kitty': [],
+    'chibi-anime-child': [], 'anime-girl': [], 'icecat-girl': [], 'hyou-chan': [],
+    'dojikko': [], 'moe-manga-lady': [], 'angry-anime-girl': [], 'purple-moe-girl': [],
+    'anime-verde': [], 'charon-assault': [], 'impmech-s': [], 'the-kappa': [],
+    '1920-storm': [], 'battle-galaxy': [], 'eff-mecha-poster': [], 'mecha-samurai': [],
+    'charge-robot': [], 'robot-bridge': [], 'thom-simulator': [], 'ink-robot': [],
+    'mecha-chibis': [], 'mecha-warrior': [], 'arigato-usagi': [], 'mecha-girl-2': [],
+    'anime-boy-sword': [], 'manga-school-boy': [], 'mesugaki': [], 'brendo-magical-girl': [],
+    'monfer-chibi': [], 'monami-cast': [], 'moe-chieru-kio': [], 'garter-otokonoko': [],
+    'naughty-catgirl': [], 'husky-chibi': [], 'chibi-mira': [], 'chibi-hair-color': [],
+    'kuuma-mascot': [], 'wikipedia-gijinka': [], 'bg-torii-waterfall': [], 'bg-anime-beach': [],
+    'bg-shinto-shrine': [], 'bg-akihabara': [], 'bg-saga-city': [], 'bg-kobe-night': [],
+    'bg-skytree': [], 'bg-fuji-sakura': [], 'bg-rail-sakura': [], 'bg-mint-sakura': [],
+    'bg-ginkakuji': [], 'bg-japanese-garden': [], 'bg-huntington-garden': [],
+    'bg-shinjuku-neon': [], 'bg-shinjuku-bluehour': [], 'bg-kabukicho-neon': [],
+    'bg-shibuya-crossing': [], 'bg-dotonbori': [], 'bg-osaka-castle': [], 'bg-yasaka-dori': [],
+    'bg-gion-alley': [], 'bg-kimono-forest': [], 'bg-togetsukyo-dusk': [], 'bg-fushimi-inari': [],
+    'bg-hokkaido-snow': [], 'bg-hokkaido-road': [], 'bg-hokkaido-field': [], 'bg-komagatake': [],
+    'bg-nebuta-festival': [], 'bg-autumn-maple': [], 'style-anime-lineart': [],
+    'style-anime-drafting': [], 'style-wikipetan-full': [], 'style-anime-eyes': [],
+    'style-japanese-watercolor': [], 'style-kaisho-calligraphy': [], 'style-sousyo-calligraphy': [],
+    'style-gyousyo-calligraphy': [], 'style-japanese-signs': [], 'style-jp-signage': [],
+    'yokai-kitsune-hanazono': [], 'yokai-white-fox-torii': [], 'yokai-white-fox-moon': [],
+    'yokai-fox-fire': [], 'yokai-ninetail-fox': [], 'yokai-hokusai-tengu': [], 'yokai-tengu-king': [],
+    'yokai-tengu-shrine': [], 'yokai-tengu-festival': [], 'yokai-oni-mask': [], 'yokai-oni-shamisen': [],
+    'yokai-shoki-oni': [], 'yokai-orochi': [], 'yokai-dragon': [], 'yokai-earth-spider': [],
+    'yokai-kappa': [], 'yokai-bakeneko': [], 'yokai-shibaten': [], 'yokai-kanibozu': [],
+    'yokai-kamikiri': [], 'yokai-nozuchi': [], 'yokai-tsurube-bi': [], 'yokai-hyotankozo': [],
+    'yokai-shiranui': [], 'yokai-ayakashi': [], 'yokai-mokumokuren': [], 'yokai-kitsune-yomeiri': [],
+    'yokai-foxfires-chikanobu': [], 'yokai-foxfires-yoshitoshi': [], 'yokai-amabie': [],
+    'yokai-kirin': [], 'yokai-kamaitachi': [], 'arch-itsukushima-hiroshige': [],
+    'arch-itsukushima-toyoharu': [], 'arch-itsukushima-ukie': [], 'arch-miyajima-snow': [],
+    'arch-himeji-castle': [],
 }
 
 def strip_html(s):
@@ -215,6 +249,9 @@ def main():
             continue
         existing_titles = {f['title'] for f in manifest.get(slug, [])}
         found = list(manifest.get(slug, []))
+        # 自動 fallback：對無 query 角色，用 slug 名做搜尋詞
+        if not queries:
+            queries = [(slug.replace('-', ' '), slug.replace('-', ' '), '角色參考')]
         for q, angle, desc in queries:
             # Commons 優先，每個 query 攞多張（唔止一張）
             cm_n = 0
