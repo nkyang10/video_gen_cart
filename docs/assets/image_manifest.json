@@ -3578,5 +3578,175 @@
     "width": 1280,
     "height": 1407,
     "pd": true
+  },
+  "veh-zeppelin": {
+    "file": "veh-zeppelin.jpg",
+    "title": "齊柏林飛船",
+    "license": "Public domain",
+    "artist": "Library of Congress",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Zeppelin_Passenger_airship_LCCN2014688368.jpg",
+    "width": 5822,
+    "height": 4285,
+    "pd": true
+  },
+  "veh-wright-flyer": {
+    "file": "veh-wright-flyer.jpg",
+    "title": "萊特 1903 飛行器",
+    "license": "Public domain",
+    "artist": "Wikisource",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/1903_Wright_Flyer_front_view.jpg",
+    "width": 7500,
+    "height": 5463,
+    "pd": true
+  },
+  "veh-clipper": {
+    "file": "veh-clipper.jpg",
+    "title": "三桅帆船",
+    "license": "Public domain",
+    "artist": "匿名工作室",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Portrait_of_an_American_Clipper_Ship.jpeg",
+    "width": 600,
+    "height": 445,
+    "pd": true
+  },
+  "veh-titanic": {
+    "file": "veh-titanic.jpg",
+    "title": "鐵達尼號",
+    "license": "Public domain",
+    "artist": "1911 照片",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/RMS_Titanic_passenger_liner_in_Southampton.jpg",
+    "width": 4000,
+    "height": 3375,
+    "pd": true
+  },
+  "veh-steam-train": {
+    "file": "veh-steam-train.jpg",
+    "title": "蒸氣火車",
+    "license": "Public domain",
+    "artist": "Zangaki",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Station_de_Chemin_de_Fer_a_Serrephaum_%28vintage_Zangaki_Brothers_albumine_photo%29_-_2-4-0_steam_locomotive_and_a_passenger_train_in_1875.jpg",
+    "width": 6527,
+    "height": 5115,
+    "pd": true
+  },
+  "veh-harley": {
+    "file": "veh-harley.jpg",
+    "title": "哈雷機車",
+    "license": "Public Domain Mark 1.0",
+    "artist": "Library of Congress",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Harley-Davidson_motorcycle_display%2C_ca_1920_%283171738337%29.jpg",
+    "width": 5248,
+    "height": 4030,
+    "pd": true
+  },
+  "veh-penny-farthing": {
+    "file": "veh-penny-farthing.jpg",
+    "title": "前大後小單車",
+    "license": "Public domain",
+    "artist": "State Library NSW",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Man_on_a_penny-farthing_bicycle_being_chased_by_his_sister_%28Maggie_and_Bob_Spiers%29_-_West_Wyalong%2C_NSW%2C_C._1900_%285861839155%29.jpg",
+    "width": 1400,
+    "height": 1089,
+    "pd": true
+  },
+  "veh-train-wreck": {
+    "file": "veh-train-wreck.jpg",
+    "title": "蒙帕納斯出軌",
+    "license": "Public domain",
+    "artist": "1895 照片",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Train_wreck_at_Montparnasse_1895.jpg",
+    "width": 1750,
+    "height": 2100,
+    "pd": true
+  },
+  "anim-da-vinci-horse": {
+    "file": "anim-da-vinci-horse.jpg",
+    "title": "馬的研究",
+    "license": "Public domain",
+    "artist": "Leonardo da Vinci",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Leonardo_da_Vinci_-_RCIN_912303%2C_Studies_of_a_horse_c.1517-18.jpg",
+    "width": 1653,
+    "height": 2250,
+    "pd": true
+  },
+  "anim-stubbs-horse": {
+    "file": "anim-stubbs-horse.jpg",
+    "title": "馬被獅驚嚇",
+    "license": "Public domain",
+    "artist": "George Stubbs",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/George_Stubbs_-_Horse_Frightened_by_a_Lion_-_Google_Art_Project.jpg",
+    "width": 4582,
+    "height": 3654,
+    "pd": true
+  },
+  "anim-audubon-owl": {
+    "file": "anim-audubon-owl.png",
+    "title": "雪鴞",
+    "license": "Public domain",
+    "artist": "Audubon",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Audubon_snowy_owl_feather_details.png",
+    "width": 385,
+    "height": 437,
+    "pd": true
+  },
+  "anim-rotta-cat": {
+    "file": "anim-rotta-cat.jpg",
+    "title": "抱貓老婦",
+    "license": "Public domain",
+    "artist": "Antonio Rotta",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Old_woman_with_cat_%281868%29%2C_by_Antonio_Rotta.jpg",
+    "width": 2039,
+    "height": 2560,
+    "pd": true
+  },
+  "anim-beached-whale": {
+    "file": "anim-beached-whale.png",
+    "title": "擱淺鯨魚",
+    "license": "Public domain",
+    "artist": "Jacob Matham",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Beached_Whale_-_Jacob_Matham_1602.png",
+    "width": 750,
+    "height": 532,
+    "pd": true
+  },
+  "dance-degas": {
+    "file": "dance-degas.jpg",
+    "title": "西班牙舞者銅像",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Edgar Degas",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Edgar_degas%2C_ballerina_spagnola%2C_1890_ca._%28fusione_del_1919_o_1937%29_02.jpg",
+    "width": 2232,
+    "height": 5440,
+    "pd": true
+  },
+  "land-pyramids": {
+    "file": "land-pyramids.jpg",
+    "title": "吉薩金字塔航拍",
+    "license": "Public domain",
+    "artist": "Spelterini",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Spelterini_Pyramids.jpg",
+    "width": 1800,
+    "height": 1320,
+    "pd": true
+  },
+  "land-taj-mahal": {
+    "file": "land-taj-mahal.jpg",
+    "title": "泰姬陵",
+    "license": "Public domain",
+    "artist": "Library of Congress",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Agra%2C_Taj_Mahal_LCCN95505064.jpg",
+    "width": 5463,
+    "height": 4216,
+    "pd": true
+  },
+  "land-stonehenge": {
+    "file": "land-stonehenge.png",
+    "title": "巨石陣",
+    "license": "Public domain",
+    "artist": "1877 照片",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Stonehenge_1877.JPG",
+    "width": 635,
+    "height": 349,
+    "pd": true
   }
 }
