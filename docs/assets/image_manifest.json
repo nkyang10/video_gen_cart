@@ -6201,12 +6201,12 @@
   },
   "jp-hiroshige-nihonbashi": {
     "file": "jp-hiroshige-nihonbashi.jpg",
-    "title": "大名家行列",
+    "title": "雪後街景",
     "license": "Public domain",
     "artist": "歌川廣重",
-    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiroshige-53-Stations-Hoeido-01-Nihonbashi-BM-03.jpg",
-    "width": 1600,
-    "height": 1067,
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/100_views_edo_001.jpg",
+    "width": 797,
+    "height": 1200,
     "pd": true
   },
   "jp-yoshitoshi-enlightenment": {
@@ -8977,6 +8977,156 @@
     "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Putti_before_a_statue_of_Venus%3B_after_Titian_MET_DP883395.jpg",
     "width": 3815,
     "height": 2871,
+    "pd": true
+  },
+  "jp-yoshitoshi-benkei": {
+    "file": "jp-yoshitoshi-benkei.jpg",
+    "title": "弁慶鎮浪月夜",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshitoshi_-_100_Aspects_of_the_Moon_-_12.jpg",
+    "width": 1174,
+    "height": 1719,
+    "pd": true
+  },
+  "jp-yoshitoshi-kenshin": {
+    "file": "jp-yoshitoshi-kenshin.jpg",
+    "title": "上杉謙信望雁",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshitoshi_-_100_Aspects_of_the_Moon_-_82.jpg",
+    "width": 508,
+    "height": 716,
+    "pd": true
+  },
+  "jp-hokusai33": {
+    "file": "jp-hokusai33.jpg",
+    "title": "富士構圖變體",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokusai33_red-fuji.jpg",
+    "width": 3100,
+    "height": 2110,
+    "pd": true
+  },
+  "jp-hiroshige-bashoan": {
+    "file": "jp-hiroshige-bashoan.jpg",
+    "title": "椿山水道橋",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/100_views_edo_040.jpg",
+    "width": 794,
+    "height": 1200,
+    "pd": true
+  },
+  "jp-hiroshige-surugadai": {
+    "file": "jp-hiroshige-surugadai.jpg",
+    "title": "橋與景構圖",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/100_views_edo_063.jpg",
+    "width": 785,
+    "height": 1200,
+    "pd": true
+  },
+  "jp-hoitsu-maple": {
+    "file": "jp-hoitsu-maple.jpg",
+    "title": "琳派楓葉金彩",
+    "license": "Public domain",
+    "artist": "酒井抱一",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maple_Tree_by_Sakai_Hoitsu_(Nomura_Art_Museum).jpg",
+    "width": 1583,
+    "height": 5113,
+    "pd": true
+  },
+  "jp-hoitsu-narihira": {
+    "file": "jp-hoitsu-narihira.jpg",
+    "title": "琳派富士人物",
+    "license": "Public domain",
+    "artist": "酒井抱一",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sakai_H%C5%8Ditsu_-_Narihira_Riding_Below_Fuji_-_74.1.252_-_Minneapolis_Institute_of_Art.jpg",
+    "width": 2044,
+    "height": 3948,
+    "pd": true
+  },
+  "jp-utamaro-bijin": {
+    "file": "jp-utamaro-bijin.jpg",
+    "title": "美人浮世繪",
+    "license": "Public domain",
+    "artist": "喜多川歌麿",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitagawa_Utamaro_ukiyo-e_woodblock_print.jpg",
+    "width": 654,
+    "height": 925,
+    "pd": true
+  },
+  "land-nazca-hummingbird": {
+    "file": "land-nazca-hummingbird.jpg",
+    "title": "蜂鳥地畫空拍",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Diego Delso",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%ADneas_de_Nazca,_Nazca,_Per%C3%BA,_2015-07-29,_DD_52.JPG",
+    "width": 2500,
+    "height": 1517,
+    "pd": true
+  },
+  "land-nazca-monkey": {
+    "file": "land-nazca-monkey.jpg",
+    "title": "猴子地畫空拍",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Diego Delso",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%ADneas_de_Nazca,_Nazca,_Per%C3%BA,_2015-07-29,_DD_49.JPG",
+    "width": 2500,
+    "height": 1663,
+    "pd": true
+  },
+  "land-uluru": {
+    "file": "land-uluru.jpg",
+    "title": "巨石日落",
+    "license": "CC0",
+    "artist": "Weyf",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ulu%E1%B9%9Fu_(Ayers_Rock),_Sunset.jpg",
+    "width": 3573,
+    "height": 2233,
+    "pd": true
+  },
+  "land-mount-kenya": {
+    "file": "land-mount-kenya.jpg",
+    "title": "雪頂山景",
+    "license": "CC-BY 2.5",
+    "artist": "Håkon Dahlmo",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Kenya.jpg",
+    "width": 1536,
+    "height": 1024,
+    "pd": true
+  },
+  "animal-kiwi": {
+    "file": "animal-kiwi.png",
+    "title": "透明背景奇異鳥",
+    "license": "CC-BY 4.0",
+    "artist": "紐西蘭",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiwi_bird_transparent_background.png",
+    "width": 960,
+    "height": 665,
+    "pd": true
+  },
+  "animal-panda": {
+    "file": "animal-panda.jpg",
+    "title": "大貓熊",
+    "license": "Public domain",
+    "artist": "US FWS",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant_panda_(1).jpg",
+    "width": 2100,
+    "height": 1392,
+    "pd": true
+  },
+  "art-dore-lucifer": {
+    "file": "art-dore-lucifer.jpg",
+    "title": "地獄魔王",
+    "license": "Public domain",
+    "artist": "Gustave Doré",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dore_Inferno34.jpg",
+    "width": 1280,
+    "height": 1022,
     "pd": true
   }
 }

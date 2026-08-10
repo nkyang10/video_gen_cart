@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 68,
-    "character_count": 953,
+    "brand_count": 69,
+    "character_count": 968,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -11331,6 +11331,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-hiroshige-bashoan",
+          "name": "廣重芭蕉庵",
+          "name_zh": "廣重芭蕉庵",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-bashoan.jpg",
+          "reference_gallery": [],
+          "appearance": "江戶百景，椿山水道橋。 `江戶百景 椿山水道橋`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-hiroshige-cat",
           "name": "江戶百景神田之貓",
           "name_zh": "江戶百景神田之貓",
@@ -11464,9 +11486,9 @@
         },
         {
           "slug": "jp-hiroshige-nihonbashi",
-          "name": "東海道日本橋",
-          "name_zh": "東海道日本橋",
-          "role": "日式藝術/浮世繪/武士/祭典",
+          "name": "廣重日本橋雪晴",
+          "name_zh": "廣重日本橋雪晴",
+          "role": "日式藝術/浮世繪",
           "first_appearance": "歌川廣重",
           "creator": "歌川廣重",
           "license": {
@@ -11478,11 +11500,11 @@
           "verified": "2026-08-10",
           "image": "assets/img/jp-hiroshige-nihonbashi.jpg",
           "reference_gallery": [],
-          "appearance": "熱鬧行列，大名家臣行列。 `熱鬧行列 大名家臣行列`",
+          "appearance": "江戶百景，雪後街景。 `江戶百景 雪後街景`",
           "dialogue": "",
           "scene": "",
           "personality": "",
-          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-hiroshige-oiso",
@@ -11593,6 +11615,72 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hiroshige-surugadai",
+          "name": "廣重水道橋駿河台",
+          "name_zh": "廣重水道橋駿河台",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-surugadai.jpg",
+          "reference_gallery": [],
+          "appearance": "江戶百景，橋與景構圖。 `江戶百景 橋與景構圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hoitsu-maple",
+          "name": "酒井抱一楓樹圖",
+          "name_zh": "酒井抱一楓樹圖",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "酒井抱一",
+          "creator": "酒井抱一",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hoitsu-maple.jpg",
+          "reference_gallery": [],
+          "appearance": "琳派，琳派楓葉金彩。 `琳派 琳派楓葉金彩`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hoitsu-narihira",
+          "name": "酒井抱一業平出遊",
+          "name_zh": "酒井抱一業平出遊",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "酒井抱一",
+          "creator": "酒井抱一",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hoitsu-narihira.jpg",
+          "reference_gallery": [],
+          "appearance": "琳派，琳派富士人物。 `琳派 琳派富士人物`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-hokkei-manga",
@@ -11765,6 +11853,28 @@
           "image": "assets/img/jp-hokusai-satta.jpg",
           "reference_gallery": [],
           "appearance": "富嶽三十六景，懸崖巨岩海濤。 `富嶽三十六景 懸崖巨岩海濤`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hokusai33",
+          "name": "北齋紅富士變體",
+          "name_zh": "北齋紅富士變體",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "葛飾北齋",
+          "creator": "葛飾北齋",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hokusai33.jpg",
+          "reference_gallery": [],
+          "appearance": "富嶽三十六景，富士構圖變體。 `富嶽三十六景 富士構圖變體`",
           "dialogue": "",
           "scene": "",
           "personality": "",
@@ -12673,6 +12783,28 @@
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-utamaro-bijin",
+          "name": "歌麿美人畫",
+          "name_zh": "歌麿美人畫",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "喜多川歌麿",
+          "creator": "喜多川歌麿",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-utamaro-bijin.jpg",
+          "reference_gallery": [],
+          "appearance": "美人繪，美人浮世繪。 `美人繪 美人浮世繪`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-utamaro-okubi",
           "name": "歌麿大首繪",
           "name_zh": "歌麿大首繪",
@@ -12693,6 +12825,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-yoshitoshi-benkei",
+          "name": "芳年弁慶鎮浪",
+          "name_zh": "芳年弁慶鎮浪",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-yoshitoshi-benkei.jpg",
+          "reference_gallery": [],
+          "appearance": "月百姿，弁慶鎮浪月夜。 `月百姿 弁慶鎮浪月夜`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-yoshitoshi-demon",
@@ -12737,6 +12891,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-yoshitoshi-kenshin",
+          "name": "芳年謙信觀雁",
+          "name_zh": "芳年謙信觀雁",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-yoshitoshi-kenshin.jpg",
+          "reference_gallery": [],
+          "appearance": "月百姿，上杉謙信望雁。 `月百姿 上杉謙信望雁`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-yoshitoshi-moon",
@@ -21569,6 +21745,178 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**場景/角色/背景動畫參考**：區域建築/日本特色/天上聖靈做動畫參考 **注意**：CC0 授權"
+        }
+      ]
+    },
+    {
+      "slug": "regional-landmarks-global-fauna-art",
+      "name": "Regional Landmarks, Global Fauna & Art Systems",
+      "name_zh": "區域地標全球動物與藝術系統",
+      "type": "區域地標 / 全球動物 / 藝術系統",
+      "country": "國際",
+      "era": "1500s-2020s",
+      "creator": "各藝術家/攝影師",
+      "publisher": "各機構/美術館",
+      "first_appearance_year": 1500,
+      "status": "公有領域 / CC0 / CC-BY",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "animal-kiwi",
+          "name": "奇異鳥透明",
+          "name_zh": "奇異鳥透明",
+          "role": "區域地標/全球動物/藝術系統",
+          "first_appearance": "紐西蘭",
+          "creator": "紐西蘭",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-kiwi.png",
+          "reference_gallery": [],
+          "appearance": "透明PNG，透明背景奇異鳥。 `透明PNG 透明背景奇異鳥`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域地標/全球動物/藝術系統做動畫參考 **注意**：CC-BY 4.0 授權"
+        },
+        {
+          "slug": "animal-panda",
+          "name": "大貓熊",
+          "name_zh": "大貓熊",
+          "role": "區域地標/全球動物/藝術系統",
+          "first_appearance": "US FWS",
+          "creator": "US FWS",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-panda.jpg",
+          "reference_gallery": [],
+          "appearance": "政府攝影，大貓熊。 `政府攝影 大貓熊`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域地標/全球動物/藝術系統做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-dore-lucifer",
+          "name": "多雷魔王盧西法",
+          "name_zh": "多雷魔王盧西法",
+          "role": "區域地標/全球動物/藝術系統",
+          "first_appearance": "Gustave Doré",
+          "creator": "Gustave Doré",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-dore-lucifer.jpg",
+          "reference_gallery": [],
+          "appearance": "古典雕版畫，地獄魔王吞三人。 `古典雕版畫 地獄魔王吞三人`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域地標/全球動物/藝術系統做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "land-mount-kenya",
+          "name": "肯亞山",
+          "name_zh": "肯亞山",
+          "role": "區域地標/全球動物/藝術系統",
+          "first_appearance": "Håkon Dahlmo",
+          "creator": "Håkon Dahlmo",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.5"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-mount-kenya.jpg",
+          "reference_gallery": [],
+          "appearance": "實景彩照，雪頂山景。 `實景彩照 雪頂山景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域地標/全球動物/藝術系統做動畫參考 **注意**：CC-BY 2.5 授權"
+        },
+        {
+          "slug": "land-nazca-hummingbird",
+          "name": "納斯卡線蜂鳥",
+          "name_zh": "納斯卡線蜂鳥",
+          "role": "區域地標/全球動物/藝術系統",
+          "first_appearance": "Diego Delso",
+          "creator": "Diego Delso",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-nazca-hummingbird.jpg",
+          "reference_gallery": [],
+          "appearance": "地畫空拍，蜂鳥地畫空拍。 `地畫空拍 蜂鳥地畫空拍`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域地標/全球動物/藝術系統做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "land-nazca-monkey",
+          "name": "納斯卡線猴子",
+          "name_zh": "納斯卡線猴子",
+          "role": "區域地標/全球動物/藝術系統",
+          "first_appearance": "Diego Delso",
+          "creator": "Diego Delso",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-nazca-monkey.jpg",
+          "reference_gallery": [],
+          "appearance": "地畫空拍，猴子地畫空拍。 `地畫空拍 猴子地畫空拍`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域地標/全球動物/藝術系統做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "land-uluru",
+          "name": "烏魯魯日落",
+          "name_zh": "烏魯魯日落",
+          "role": "區域地標/全球動物/藝術系統",
+          "first_appearance": "Weyf",
+          "creator": "Weyf",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-uluru.jpg",
+          "reference_gallery": [],
+          "appearance": "實景彩照，澳洲巨石日落。 `實景彩照 澳洲巨石日落`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：區域地標/全球動物/藝術系統做動畫參考 **注意**：CC0 授權"
         }
       ]
     },
