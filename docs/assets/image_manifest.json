@@ -3388,5 +3388,195 @@
     "width": 900,
     "height": 760,
     "pd": true
+  },
+  "fairytale-red-riding-hood": {
+    "file": "fairytale-red-riding-hood.jpg",
+    "title": "紅斗篷小女孩",
+    "license": "Public domain",
+    "artist": "J.W. Smith",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Little Red Riding Hood - J. W. Smith.jpg",
+    "width": 1280,
+    "height": 1842,
+    "pd": true
+  },
+  "fairytale-three-pigs": {
+    "file": "fairytale-three-pigs.jpg",
+    "title": "三隻小豬稻草屋",
+    "license": "Public domain",
+    "artist": "1904 刊本",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Three little pigs 1904 straw house.jpg",
+    "width": 1280,
+    "height": 1628,
+    "pd": true
+  },
+  "fairytale-goldilocks": {
+    "file": "fairytale-goldilocks.jpg",
+    "title": "金髮女孩",
+    "license": "Public domain",
+    "artist": "Henry Stock",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Henry John Stock - Goldilocks and the Three Bears.jpg",
+    "width": 517,
+    "height": 600,
+    "pd": true
+  },
+  "fairytale-hansel-gretel": {
+    "file": "fairytale-hansel-gretel.jpg",
+    "title": "糖果屋兄妹",
+    "license": "Public domain",
+    "artist": "Arthur Rackham",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hansel-and-gretel-rackham.jpg",
+    "width": 768,
+    "height": 1092,
+    "pd": true
+  },
+  "fairytale-jack-beanstalk": {
+    "file": "fairytale-jack-beanstalk.jpg",
+    "title": "傑克攀魔豆",
+    "license": "Public domain",
+    "artist": "A Child Book",
+    "source_url": "https://commons.wikimedia.org/wiki/File:A Child's Book of Stories Jack and the Bean-stalk.jpg",
+    "width": 1280,
+    "height": 1869,
+    "pd": true
+  },
+  "fairytale-little-mermaid": {
+    "file": "fairytale-little-mermaid.jpg",
+    "title": "人魚",
+    "license": "Public domain",
+    "artist": "Vilhelm Pedersen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vilhelm Pedersen-Little mermaid.jpg",
+    "width": 460,
+    "height": 281,
+    "pd": true
+  },
+  "fairytale-snow-white": {
+    "file": "fairytale-snow-white.png",
+    "title": "白雪公主",
+    "license": "Public domain",
+    "artist": "舞台刊本",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Snow White and the Seven Dwarfs, play (illustration facing page 214 crop).png",
+    "width": 1280,
+    "height": 1815,
+    "pd": true
+  },
+  "fairytale-mother-goose": {
+    "file": "fairytale-mother-goose.jpg",
+    "title": "鵝媽媽",
+    "license": "Public domain",
+    "artist": "Blanche Wright",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The Real Mother Goose pg 2.jpg",
+    "width": 1072,
+    "height": 1282,
+    "pd": true
+  },
+  "myth-medusa": {
+    "file": "myth-medusa.jpg",
+    "title": "蛇髮女怪",
+    "license": "Public domain",
+    "artist": "Bernini",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Medusa Bernini Musei Capitolini MC1166 n2.jpg",
+    "width": 1280,
+    "height": 1591,
+    "pd": true
+  },
+  "myth-pegasus": {
+    "file": "myth-pegasus.jpg",
+    "title": "有翼駿馬",
+    "license": "Public domain",
+    "artist": "Johann Bayer",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pegasus - Johann Bayer.jpg",
+    "width": 1280,
+    "height": 966,
+    "pd": true
+  },
+  "myth-phoenix": {
+    "file": "myth-phoenix.jpg",
+    "title": "不死鳥",
+    "license": "Public domain",
+    "artist": "Aberdeen Bestiary",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Phoenix detail from Aberdeen Bestiary.jpg",
+    "width": 884,
+    "height": 976,
+    "pd": true
+  },
+  "myth-cerberus": {
+    "file": "myth-cerberus.jpg",
+    "title": "三頭犬",
+    "license": "Public domain",
+    "artist": "William Blake",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cerberus-Blake.jpeg",
+    "width": 1024,
+    "height": 725,
+    "pd": true
+  },
+  "myth-sphinx": {
+    "file": "myth-sphinx.jpg",
+    "title": "獅身人面",
+    "license": "CC0",
+    "artist": "MET",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Oedipus and the Sphinx MET DP-14201-023.jpg",
+    "width": 1280,
+    "height": 2471,
+    "pd": true
+  },
+  "myth-odins-ravens": {
+    "file": "myth-odins-ravens.jpg",
+    "title": "歐丁雙鴉",
+    "license": "Public domain",
+    "artist": "Frølich",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Odin, Sleipnir, Geri, Freki, Huginn and Muninn by Frølich.jpg",
+    "width": 332,
+    "height": 288,
+    "pd": true
+  },
+  "illust-rackham": {
+    "file": "illust-rackham.png",
+    "title": "哥德水彩風格",
+    "license": "Public domain",
+    "artist": "Arthur Rackham",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hush-a-bye (The Real Mother Goose).png",
+    "width": 1269,
+    "height": 1329,
+    "pd": true
+  },
+  "illust-nielsen": {
+    "file": "illust-nielsen.jpg",
+    "title": "裝飾藝術風格",
+    "license": "Public domain",
+    "artist": "Kay Nielsen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kay Nielsen - East of the sun and west of the moon - The north wind goes over the sea.jpg",
+    "width": 481,
+    "height": 800,
+    "pd": true
+  },
+  "illust-dulac": {
+    "file": "illust-dulac.jpg",
+    "title": "波斯華麗風格",
+    "license": "Public domain",
+    "artist": "Edmund Dulac",
+    "source_url": "https://commons.wikimedia.org/wiki/File:MU KPB 042 - Edmund Dulac - Edmund Dulac's fairy-book - 0020.jpg",
+    "width": 1280,
+    "height": 1692,
+    "pd": true
+  },
+  "fable-tortoise-hare": {
+    "file": "fable-tortoise-hare.jpg",
+    "title": "龜兔賽跑",
+    "license": "Public domain",
+    "artist": "Arthur Rackham",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tortoise and hare rackham.jpg",
+    "width": 1280,
+    "height": 1661,
+    "pd": true
+  },
+  "fable-fox-crow": {
+    "file": "fable-fox-crow.jpg",
+    "title": "狐狸與烏鴉",
+    "license": "Public domain",
+    "artist": "J. Steen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aesop's Fable- The Fox and the Crow - Google Art Project.jpg",
+    "width": 1280,
+    "height": 1407,
+    "pd": true
   }
 }
