@@ -6058,5 +6058,125 @@
     "width": 772,
     "height": 1145,
     "pd": true
+  },
+  "motion-running-jaguar": {
+    "file": "motion-running-jaguar.jpg",
+    "title": "美洲豹奔馳",
+    "license": "Public domain",
+    "artist": "Barye",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Antoine-Louis_Barye_-_Running_Jaguar_-_Walters_37820.jpg",
+    "width": 1088,
+    "height": 867,
+    "pd": true
+  },
+  "motion-dog-gallop": {
+    "file": "motion-dog-gallop.gif",
+    "title": "獵犬奔馳",
+    "license": "Public domain",
+    "artist": "Muybridge",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dog_galloping.gif",
+    "width": 213,
+    "height": 105,
+    "pd": true
+  },
+  "motion-monarch-glen": {
+    "file": "motion-monarch-glen.png",
+    "title": "紅鹿站姿",
+    "license": "Public domain",
+    "artist": "Landseer",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Monarch_of_the_Glen,_Edwin_Landseer,_1851.png",
+    "width": 5209,
+    "height": 5131,
+    "pd": true
+  },
+  "emotion-lebrun": {
+    "file": "emotion-lebrun.jpg",
+    "title": "表情圖譜",
+    "license": "Public domain",
+    "artist": "Charles Le Brun",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Le_Brun_-Caract%C3%A8res_des_passions.jpg",
+    "width": 3279,
+    "height": 4511,
+    "pd": true
+  },
+  "emotion-passions": {
+    "file": "emotion-passions.jpg",
+    "title": "表情研究",
+    "license": "Public domain",
+    "artist": "Charles Le Brun",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Le_Brun_-_Expressions_of_the_Passions_of_the_Soul_-_WGA12555.jpg",
+    "width": 750,
+    "height": 997,
+    "pd": true
+  },
+  "hand-praying": {
+    "file": "hand-praying.jpg",
+    "title": "雙手合十",
+    "license": "Public domain",
+    "artist": "Dürer",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Albrecht_D%C3%BCrer_-_Praying_Hands%2C_1508_-_Google_Art_Project.jpg",
+    "width": 2680,
+    "height": 3900,
+    "pd": true
+  },
+  "hand-clasp-frames": {
+    "file": "hand-clasp-frames.jpg",
+    "title": "手動作逐幀",
+    "license": "Public domain",
+    "artist": "Muybridge",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Animal_Locomotion-_(24_frames_of_hands_clasping,_plate_533)_LCCN2003663780.jpg",
+    "width": 1536,
+    "height": 1054,
+    "pd": true
+  },
+  "silhouette-dore-forest": {
+    "file": "silhouette-dore-forest.jpg",
+    "title": "逆光剪影",
+    "license": "Public domain",
+    "artist": "Gustave Doré",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dore_Inferno1.jpg",
+    "width": 2360,
+    "height": 3158,
+    "pd": true
+  },
+  "silhouette-dore-charon": {
+    "file": "silhouette-dore-charon.jpg",
+    "title": "群魂剪影",
+    "license": "Public domain",
+    "artist": "Gustave Doré",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dor%C3%A9_-_Dante_Alighieri_-_Inferno_-_Plate_9_(Canto_III_-_Charon).jpg",
+    "width": 4696,
+    "height": 6458,
+    "pd": true
+  },
+  "silhouette-lucifer": {
+    "file": "silhouette-lucifer.jpg",
+    "title": "魔鬼剪影",
+    "license": "Public domain",
+    "artist": "Gustave Doré",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/DVinfernoLuciferKingOfHell_m.jpg",
+    "width": 2020,
+    "height": 1588,
+    "pd": true
+  },
+  "silhouette-saved": {
+    "file": "silhouette-saved.jpg",
+    "title": "風雪逆光剪影",
+    "license": "Public domain",
+    "artist": "Landseer",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Landseer_Saved.jpg",
+    "width": 720,
+    "height": 464,
+    "pd": true
+  },
+  "motion-audubon-kite": {
+    "file": "motion-audubon-kite.jpg",
+    "title": "密西西比鳶",
+    "license": "Public domain",
+    "artist": "Audubon",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/117_Mississippi_Kite.jpg",
+    "width": 1743,
+    "height": 2500,
+    "pd": true
   }
 }

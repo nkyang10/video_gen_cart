@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 54,
-    "character_count": 654,
+    "brand_count": 55,
+    "character_count": 666,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -12049,6 +12049,288 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        }
+      ]
+    },
+    {
+      "slug": "motion-emotion-hands-silhouette",
+      "name": "Motion, Emotion, Hands & Silhouette",
+      "name_zh": "動物動態表情手勢剪影",
+      "type": "動物動態 / 表情 / 手勢 / 剪影光影",
+      "country": "國際",
+      "era": "1500s-1900s",
+      "creator": "各經典藝術家",
+      "publisher": "各美術館/博物館",
+      "first_appearance_year": 1508,
+      "status": "公有領域 / CC-BY",
+      "license": {
+        "type": "UNKNOWN",
+        "code": ""
+      },
+      "characters": [
+        {
+          "slug": "emotion-lebrun",
+          "name": "Le Brun 表情圖譜",
+          "name_zh": "Le Brun 表情圖譜",
+          "role": "動物動態/表情/手勢/剪影",
+          "first_appearance": "Charles Le Brun",
+          "creator": "Charles Le Brun",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/emotion-lebrun.jpg",
+          "reference_gallery": [],
+          "appearance": "巴洛克表情理論，古典面部表情。 `巴洛克表情理論 古典面部表情`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動作/情緒動畫參考**：動物動態/表情/手勢/剪影做動畫參考 **注意**：公版授權"
+        },
+        {
+          "slug": "emotion-passions",
+          "name": "靈魂激情表情",
+          "name_zh": "靈魂激情表情",
+          "role": "動物動態/表情/手勢/剪影",
+          "first_appearance": "Charles Le Brun",
+          "creator": "Charles Le Brun",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/emotion-passions.jpg",
+          "reference_gallery": [],
+          "appearance": "表情研究，表情綜合研究稿。 `表情研究 表情綜合研究稿`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動作/情緒動畫參考**：動物動態/表情/手勢/剪影做動畫參考 **注意**：公版授權"
+        },
+        {
+          "slug": "hand-clasp-frames",
+          "name": "手交握逐幀",
+          "name_zh": "手交握逐幀",
+          "role": "動物動態/表情/手勢/剪影",
+          "first_appearance": "Muybridge",
+          "creator": "Muybridge",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hand-clasp-frames.jpg",
+          "reference_gallery": [],
+          "appearance": "連續攝影，手動作24幀分解。 `連續攝影 手動作24幀分解`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動作/情緒動畫參考**：動物動態/表情/手勢/剪影做動畫參考 **注意**：公版授權"
+        },
+        {
+          "slug": "hand-praying",
+          "name": "Dürer 祈禱之手",
+          "name_zh": "Dürer 祈禱之手",
+          "role": "動物動態/表情/手勢/剪影",
+          "first_appearance": "Dürer",
+          "creator": "Dürer",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hand-praying.jpg",
+          "reference_gallery": [],
+          "appearance": "文藝復興水墨素描，雙手掌合十。 `文藝復興水墨素描 雙手掌合十`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動作/情緒動畫參考**：動物動態/表情/手勢/剪影做動畫參考 **注意**：公版授權"
+        },
+        {
+          "slug": "motion-audubon-kite",
+          "name": "密西西比鳶猛禽",
+          "name_zh": "密西西比鳶猛禽",
+          "role": "動物動態/表情/手勢/剪影",
+          "first_appearance": "Audubon",
+          "creator": "Audubon",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/motion-audubon-kite.jpg",
+          "reference_gallery": [],
+          "appearance": "博物學銅版彩繪，猛禽獵食飛行。 `博物學銅版彩繪 猛禽獵食飛行`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動作/情緒動畫參考**：動物動態/表情/手勢/剪影做動畫參考 **注意**：公版授權"
+        },
+        {
+          "slug": "motion-dog-gallop",
+          "name": "犬奔馳逐格",
+          "name_zh": "犬奔馳逐格",
+          "role": "動物動態/表情/手勢/剪影",
+          "first_appearance": "Muybridge",
+          "creator": "Muybridge",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/motion-dog-gallop.gif",
+          "reference_gallery": [],
+          "appearance": "連續攝影，獵犬全速奔馳。 `連續攝影 獵犬全速奔馳`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動作/情緒動畫參考**：動物動態/表情/手勢/剪影做動畫參考 **注意**：公版授權"
+        },
+        {
+          "slug": "motion-monarch-glen",
+          "name": "山谷之王雄鹿",
+          "name_zh": "山谷之王雄鹿",
+          "role": "動物動態/表情/手勢/剪影",
+          "first_appearance": "Landseer",
+          "creator": "Landseer",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/motion-monarch-glen.png",
+          "reference_gallery": [],
+          "appearance": "英國動物寫實油畫，紅鹿正面站姿。 `英國動物寫實油畫 紅鹿正面站姿`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動作/情緒動畫參考**：動物動態/表情/手勢/剪影做動畫參考 **注意**：公版授權"
+        },
+        {
+          "slug": "motion-running-jaguar",
+          "name": "奔跑美洲豹",
+          "name_zh": "奔跑美洲豹",
+          "role": "動物動態/表情/手勢/剪影",
+          "first_appearance": "Barye",
+          "creator": "Barye",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/motion-running-jaguar.jpg",
+          "reference_gallery": [],
+          "appearance": "浪漫主義動物水彩，美洲豹山景奔馳。 `浪漫主義動物水彩 美洲豹山景奔馳`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動作/情緒動畫參考**：動物動態/表情/手勢/剪影做動畫參考 **注意**：公版授權"
+        },
+        {
+          "slug": "silhouette-dore-charon",
+          "name": "卡戎渡亡靈",
+          "name_zh": "卡戎渡亡靈",
+          "role": "動物動態/表情/手勢/剪影",
+          "first_appearance": "Gustave Doré",
+          "creator": "Gustave Doré",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/silhouette-dore-charon.jpg",
+          "reference_gallery": [],
+          "appearance": "狂暴浪漫版畫，渡船群魂剪影。 `狂暴浪漫版畫 渡船群魂剪影`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動作/情緒動畫參考**：動物動態/表情/手勢/剪影做動畫參考 **注意**：公版授權"
+        },
+        {
+          "slug": "silhouette-dore-forest",
+          "name": "但丁陰暗森林",
+          "name_zh": "但丁陰暗森林",
+          "role": "動物動態/表情/手勢/剪影",
+          "first_appearance": "Gustave Doré",
+          "creator": "Gustave Doré",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/silhouette-dore-forest.jpg",
+          "reference_gallery": [],
+          "appearance": "狂暴浪漫版畫，迷途者渺小剪影。 `狂暴浪漫版畫 迷途者渺小剪影`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動作/情緒動畫參考**：動物動態/表情/手勢/剪影做動畫參考 **注意**：公版授權"
+        },
+        {
+          "slug": "silhouette-lucifer",
+          "name": "路西法地獄之王",
+          "name_zh": "路西法地獄之王",
+          "role": "動物動態/表情/手勢/剪影",
+          "first_appearance": "Gustave Doré",
+          "creator": "Gustave Doré",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/silhouette-lucifer.jpg",
+          "reference_gallery": [],
+          "appearance": "狂暴浪漫版畫，巨型魔鬼剪影。 `狂暴浪漫版畫 巨型魔鬼剪影`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動作/情緒動畫參考**：動物動態/表情/手勢/剪影做動畫參考 **注意**：公版授權"
+        },
+        {
+          "slug": "silhouette-saved",
+          "name": "被救贖（Landseer）",
+          "name_zh": "被救贖（Landseer）",
+          "role": "動物動態/表情/手勢/剪影",
+          "first_appearance": "Landseer",
+          "creator": "Landseer",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/silhouette-saved.jpg",
+          "reference_gallery": [],
+          "appearance": "故事性油畫，風雪逆光剪影。 `故事性油畫 風雪逆光剪影`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動作/情緒動畫參考**：動物動態/表情/手勢/剪影做動畫參考 **注意**：公版授權"
         }
       ]
     },
