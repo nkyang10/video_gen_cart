@@ -6901,10 +6901,10 @@
   },
   "jp-hokusai-manga2": {
     "file": "jp-hokusai-manga2.jpg",
-    "title": "漫畫詳頁",
+    "title": "人物動態速寫",
     "license": "CC0",
     "artist": "葛飾北齋",
-    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Schetsen_van_Hokusai_-_deel_2_Hokusai_manga_Katsushika_iitsu_iboku_Hokusai_manga_nihen_%28titel_op_object%29%2C_RP-P-2004-510.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Schetsen_van_Hokusai_-_deel_2_Hokusai_manga_Katsushika_iitsu_iboku_Hokusai_manga_nihen_%28titel_op_object%29%2C_RP-P-2004-510.jpg",
     "width": 6046,
     "height": 3952,
     "pd": true
@@ -8587,6 +8587,196 @@
     "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Baklava_-_Turkish_special%2C_80-ply.JPEG",
     "width": 1542,
     "height": 1024,
+    "pd": true
+  },
+  "jp-toyoharu-theater": {
+    "file": "jp-toyoharu-theater.jpg",
+    "title": "劇場透視圖",
+    "license": "Public domain",
+    "artist": "歌川豊春",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Utagawa_Toyoharu_-_Perspective_View_of_the_Theaters_in_Sakai-ch%C5%8D_and_Fukiya-ch%C5%8D_on_Opening_Night.jpg",
+    "width": 2000,
+    "height": 1323,
+    "pd": true
+  },
+  "jp-kunimasa-actor": {
+    "file": "jp-kunimasa-actor.jpg",
+    "title": "役者大首繪",
+    "license": "Public domain",
+    "artist": "歌川国政",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kunimasa_-_taikan%2C_The_actor_Ichikawa_Ebizo_in_a_shibaraku_role%2C_1796.jpg",
+    "width": 580,
+    "height": 857,
+    "pd": true
+  },
+  "jp-yoshitoshi-yugao": {
+    "file": "jp-yoshitoshi-yugao.jpg",
+    "title": "月百姿幽靈",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsukioka_Yoshitoshi_-_The_Spirit_of_the_Deceased_Y%C5%ABgao_Entwined_in_Moonflower_Vines%2C_based_on_the_print_%E2%80%9CThe_Lady_of_the_E_-_2019.40_-_Metropolitan_Museum_of_Art.jpg",
+    "width": 1517,
+    "height": 4000,
+    "pd": true
+  },
+  "jp-oniwakamaru": {
+    "file": "jp-oniwakamaru.jpg",
+    "title": "水下激戰巨鯉",
+    "license": "Public domain",
+    "artist": "歌川國芳",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oniwakamaru_and_the_Giant_Carp_Fight_Underwater_by_Utagawa_Kuniyoshi%2C_1835.jpg",
+    "width": 1082,
+    "height": 1536,
+    "pd": true
+  },
+  "nat-merian-caiman": {
+    "file": "nat-merian-caiman.jpg",
+    "title": "鱷魚假珊瑚蛇",
+    "license": "Public domain",
+    "artist": "Merian",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dwarf_Caiman_and_False_Coral_Snake_from_The_Insects_of_Suriname_by_Maria_Sibylla_Merian.jpg",
+    "width": 751,
+    "height": 522,
+    "pd": true
+  },
+  "nat-merian-moth": {
+    "file": "nat-merian-moth.jpg",
+    "title": "母蛾楊柳",
+    "license": "Public domain",
+    "artist": "Merian",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maria_Merian_Goat_Moth_on_Almond_Willow.jpg",
+    "width": 1105,
+    "height": 1546,
+    "pd": true
+  },
+  "nat-haeckel-lizard": {
+    "file": "nat-haeckel-lizard.jpg",
+    "title": "蜥蜴圖版",
+    "license": "Public domain",
+    "artist": "Ernst Haeckel",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Haeckel_Lacertilia.jpg",
+    "width": 2378,
+    "height": 3320,
+    "pd": true
+  },
+  "nat-donovan-insects": {
+    "file": "nat-donovan-insects.jpg",
+    "title": "中國昆蟲圖版",
+    "license": "Public domain",
+    "artist": "Edward Donovan",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Donovan_-_Insects_of_China%2C_1838_-_pl_39.jpg",
+    "width": 2560,
+    "height": 3512,
+    "pd": true
+  },
+  "cn-dragon-boat": {
+    "file": "cn-dragon-boat.jpg",
+    "title": "龍舟競渡",
+    "license": "CC-BY-SA 3.0",
+    "artist": "端午",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_Dragon_Boat_Festival_2015_Kolkata_%285%29.jpg",
+    "width": 3264,
+    "height": 1836,
+    "pd": true
+  },
+  "cn-jade-pig": {
+    "file": "cn-jade-pig.jpg",
+    "title": "玉豬雕件",
+    "license": "CC-BY-SA 4.0",
+    "artist": "漢代",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jade_carving_of_a_pig_Han_Dynasty_%28206_BCE_-_220_CE%29_Shaanxi_Province_Lantian_County_China.jpg",
+    "width": 4000,
+    "height": 3000,
+    "pd": true
+  },
+  "cn-ming-porcelain": {
+    "file": "cn-ming-porcelain.jpg",
+    "title": "青花瓷罐",
+    "license": "CC0",
+    "artist": "明代",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ming_Porcelain_Blue_%26_White_Pot.jpg",
+    "width": 5184,
+    "height": 3456,
+    "pd": true
+  },
+  "cn-seal-porcelain": {
+    "file": "cn-seal-porcelain.jpg",
+    "title": "篆書紋瓷罐",
+    "license": "CC-BY-SA 4.0",
+    "artist": "清代",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jar%2C_Blue_and_white_porcelain_with_design_of_Chinese_seal_script_characters.jpg",
+    "width": 4240,
+    "height": 2832,
+    "pd": true
+  },
+  "cn-mahjong": {
+    "file": "cn-mahjong.jpg",
+    "title": "麻將牌堆",
+    "license": "CC-BY-SA 4.0",
+    "artist": "中國",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahjong_Tiles_%282%29.jpg",
+    "width": 4000,
+    "height": 3000,
+    "pd": true
+  },
+  "cn-zodiac-tang": {
+    "file": "cn-zodiac-tang.jpg",
+    "title": "十二生肖陶俑",
+    "license": "CC-BY-SA 4.0",
+    "artist": "唐代",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/20250911_Pottery_Figurines_of_Twelve_Zodiac_Animals%2C_Tang.jpg",
+    "width": 1800,
+    "height": 1200,
+    "pd": true
+  },
+  "cn-great-wall": {
+    "file": "cn-great-wall.jpg",
+    "title": "長城山脊全景",
+    "license": "CC0",
+    "artist": "中國",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/20200108_Great_Wall_of_China_view-3.jpg",
+    "width": 5760,
+    "height": 3840,
+    "pd": true
+  },
+  "arch-rose-window": {
+    "file": "arch-rose-window.jpg",
+    "title": "彩繪玫瑰窗",
+    "license": "CC0",
+    "artist": "西班牙",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stained_glass_window%2C_rose_window%2C_west_facade%2C_Le%C3%B3n_Cathedral%2C_Spain.jpg",
+    "width": 2500,
+    "height": 1666,
+    "pd": true
+  },
+  "arch-mosaic-theodora": {
+    "file": "arch-mosaic-theodora.jpg",
+    "title": "金碧馬賽克",
+    "license": "Public domain",
+    "artist": "拜占庭",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosaic_of_Theodora_-_Basilica_San_Vitale%286th_Century%29.jpg",
+    "width": 1785,
+    "height": 2500,
+    "pd": true
+  },
+  "arch-lingering-garden": {
+    "file": "arch-lingering-garden.jpg",
+    "title": "園林庭院",
+    "license": "CC-BY-SA 2.0",
+    "artist": "蘇州",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lingering_Garden%2C_Suzhou.jpg",
+    "width": 2128,
+    "height": 1416,
+    "pd": true
+  },
+  "arch-sistine-ceiling": {
+    "file": "arch-sistine-ceiling.jpg",
+    "title": "創世紀天頂",
+    "license": "CC-BY 2.5",
+    "artist": "Michelangelo",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lightmatter_Sistine_Chapel_ceiling.jpg",
+    "width": 2044,
+    "height": 1533,
     "pd": true
   }
 }

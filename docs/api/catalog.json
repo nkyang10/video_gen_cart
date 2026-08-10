@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 66,
-    "character_count": 913,
+    "brand_count": 67,
+    "character_count": 933,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -11639,6 +11639,28 @@
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-hokusai-manga2",
+          "name": "北齋漫畫第二編",
+          "name_zh": "北齋漫畫第二編",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "葛飾北齋",
+          "creator": "葛飾北齋",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hokusai-manga2.jpg",
+          "reference_gallery": [],
+          "appearance": "北齋漫畫，人物動態速寫集。 `北齋漫畫 人物動態速寫集`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
           "slug": "jp-indian-elephant",
           "name": "天竺丸印度象",
           "name_zh": "天竺丸印度象",
@@ -11859,6 +11881,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-kunimasa-actor",
+          "name": "歌川国政役者大首繪",
+          "name_zh": "歌川国政役者大首繪",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川国政",
+          "creator": "歌川国政",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kunimasa-actor.jpg",
+          "reference_gallery": [],
+          "appearance": "役者繪，役者大首繪動態。 `役者繪 役者大首繪動態`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-kuniyoshi-cats",
           "name": "國芳貓各種姿勢",
           "name_zh": "國芳貓各種姿勢",
@@ -12033,6 +12077,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-oniwakamaru",
+          "name": "國芳鬼若丸巨鯉",
+          "name_zh": "國芳鬼若丸巨鯉",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川國芳",
+          "creator": "歌川國芳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-oniwakamaru.jpg",
+          "reference_gallery": [],
+          "appearance": "武勇繪，水下激戰巨鯉。 `武勇繪 水下激戰巨鯉`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-red-fuji",
@@ -12343,6 +12409,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-toyoharu-theater",
+          "name": "歌川豊春劇場透視",
+          "name_zh": "歌川豊春劇場透視",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川豊春",
+          "creator": "歌川豊春",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-toyoharu-theater.jpg",
+          "reference_gallery": [],
+          "appearance": "浮繪透視法，劇場遠近透視圖。 `浮繪透視法 劇場遠近透視圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-toyokuni3-actor",
           "name": "國貞歌舞伎役者",
           "name_zh": "國貞歌舞伎役者",
@@ -12539,6 +12627,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-yoshitoshi-yugao",
+          "name": "芳年夕顔之靈",
+          "name_zh": "芳年夕顔之靈",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-yoshitoshi-yugao.jpg",
+          "reference_gallery": [],
+          "appearance": "月百姿，月百姿幽靈纏藤。 `月百姿 月百姿幽靈纏藤`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         }
       ]
     },
@@ -17024,6 +17134,354 @@
           "type": "配角",
           "relation": "Mutt 同 Jeff 係一高一矮嘅雙主角拍檔",
           "interaction": "Mutt and Jeff 本質係「雙主角」漫畫——高瘦賭徒 Mutt 同矮仔 Jeff 一齊歷險。佢哋互相係對方最重要嘅「配角」：Mutt 滿腦子發財夢、Jeff 務實吐槽，成日一齊搞發財大計（賽馬、金礦、投資）然後失敗收場。\n"
+        }
+      ]
+    },
+    {
+      "slug": "natural-history-chinese-culture-architecture",
+      "name": "Natural History, Chinese Culture & Architecture Detail",
+      "name_zh": "博物學中國文化與建築細部",
+      "type": "博物學 / 中國文化 / 建築細部",
+      "country": "國際",
+      "era": "1500s-2020s",
+      "creator": "各博物學家/攝影師/藝術家",
+      "publisher": "各美術館/機構",
+      "first_appearance_year": 1500,
+      "status": "公有領域 / CC0 / CC-BY",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "arch-lingering-garden",
+          "name": "蘇州留園",
+          "name_zh": "蘇州留園",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "蘇州",
+          "creator": "蘇州",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-lingering-garden.jpg",
+          "reference_gallery": [],
+          "appearance": "中國園林，太湖石迴廊水景。 `中國園林 太湖石迴廊水景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：CC-BY-SA 2.0 授權"
+        },
+        {
+          "slug": "arch-mosaic-theodora",
+          "name": "拜占庭狄奧多拉馬賽克",
+          "name_zh": "拜占庭狄奧多拉馬賽克",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "拜占庭",
+          "creator": "拜占庭",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-mosaic-theodora.jpg",
+          "reference_gallery": [],
+          "appearance": "拜占庭馬賽克，金碧馬賽克皇后。 `拜占庭馬賽克 金碧馬賽克皇后`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "arch-rose-window",
+          "name": "萊昂玫瑰彩窗",
+          "name_zh": "萊昂玫瑰彩窗",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "西班牙",
+          "creator": "西班牙",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-rose-window.jpg",
+          "reference_gallery": [],
+          "appearance": "彩繪玻璃，彩繪玫瑰窗彩光。 `彩繪玻璃 彩繪玫瑰窗彩光`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "arch-sistine-ceiling",
+          "name": "西斯廷天頂壁畫",
+          "name_zh": "西斯廷天頂壁畫",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "Michelangelo",
+          "creator": "Michelangelo",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.5"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arch-sistine-ceiling.jpg",
+          "reference_gallery": [],
+          "appearance": "濕壁畫，創世紀天頂群像。 `濕壁畫 創世紀天頂群像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：CC-BY 2.5 授權"
+        },
+        {
+          "slug": "cn-dragon-boat",
+          "name": "龍舟比賽",
+          "name_zh": "龍舟比賽",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "端午節",
+          "creator": "端午節",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/cn-dragon-boat.jpg",
+          "reference_gallery": [],
+          "appearance": "實景彩照，龍首船槳手齊劃。 `實景彩照 龍首船槳手齊劃`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "cn-great-wall",
+          "name": "萬里長城",
+          "name_zh": "萬里長城",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "中國",
+          "creator": "中國",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/cn-great-wall.jpg",
+          "reference_gallery": [],
+          "appearance": "實景彩照，長城山脊全景。 `實景彩照 長城山脊全景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "cn-jade-pig",
+          "name": "漢代玉豬",
+          "name_zh": "漢代玉豬",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "漢代",
+          "creator": "漢代",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/cn-jade-pig.jpg",
+          "reference_gallery": [],
+          "appearance": "玉器，白玉豬形玉雕。 `玉器 白玉豬形玉雕`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "cn-mahjong",
+          "name": "麻將牌",
+          "name_zh": "麻將牌",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "中國",
+          "creator": "中國",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/cn-mahjong.jpg",
+          "reference_gallery": [],
+          "appearance": "實景彩照，麻將牌堆雕刻。 `實景彩照 麻將牌堆雕刻`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "cn-ming-porcelain",
+          "name": "明代青花瓷",
+          "name_zh": "明代青花瓷",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "明代",
+          "creator": "明代",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/cn-ming-porcelain.jpg",
+          "reference_gallery": [],
+          "appearance": "青花瓷，青花纏枝紋罐。 `青花瓷 青花纏枝紋罐`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "cn-seal-porcelain",
+          "name": "篆書青花瓷罐",
+          "name_zh": "篆書青花瓷罐",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "清代",
+          "creator": "清代",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/cn-seal-porcelain.jpg",
+          "reference_gallery": [],
+          "appearance": "瓷藝，篆書金字紋瓷罐。 `瓷藝 篆書金字紋瓷罐`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "cn-zodiac-tang",
+          "name": "唐代十二生肖陶俑",
+          "name_zh": "唐代十二生肖陶俑",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "唐代",
+          "creator": "唐代",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/cn-zodiac-tang.jpg",
+          "reference_gallery": [],
+          "appearance": "陶俑，獸首人身陶俑隊列。 `陶俑 獸首人身陶俑隊列`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "nat-donovan-insects",
+          "name": "多諾萬中國昆蟲",
+          "name_zh": "多諾萬中國昆蟲",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "Edward Donovan",
+          "creator": "Edward Donovan",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/nat-donovan-insects.jpg",
+          "reference_gallery": [],
+          "appearance": "19世紀博物學版畫，甲蟲蜻蜓全彩。 `19世紀博物學版畫 甲蟲蜻蜓全彩`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "nat-haeckel-lizard",
+          "name": "海克爾蜥蜴",
+          "name_zh": "海克爾蜥蜴",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "Ernst Haeckel",
+          "creator": "Ernst Haeckel",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/nat-haeckel-lizard.jpg",
+          "reference_gallery": [],
+          "appearance": "新藝術博物學版畫，多種蜥蜴圖版。 `新藝術博物學版畫 多種蜥蜴圖版`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "nat-merian-caiman",
+          "name": "梅里安凱門鱷蛇",
+          "name_zh": "梅里安凱門鱷蛇",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "Merian",
+          "creator": "Merian",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/nat-merian-caiman.jpg",
+          "reference_gallery": [],
+          "appearance": "巴洛克博物學版畫，鱷魚假珊瑚蛇盤踞。 `巴洛克博物學版畫 鱷魚假珊瑚蛇盤踞`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "nat-merian-moth",
+          "name": "梅里安山楊蛾",
+          "name_zh": "梅里安山楊蛾",
+          "role": "博物學/中國文化/建築細部",
+          "first_appearance": "Merian",
+          "creator": "Merian",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/nat-merian-moth.jpg",
+          "reference_gallery": [],
+          "appearance": "巴洛克博物學版畫，母蛾棲楊柳。 `巴洛克博物學版畫 母蛾棲楊柳`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/道具/背景動畫參考**：博物學/中國文化/建築細部做動畫參考 **注意**：Public domain 授權"
         }
       ]
     },
