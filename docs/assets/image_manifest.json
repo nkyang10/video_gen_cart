@@ -3711,12 +3711,12 @@
   },
   "dance-degas": {
     "file": "dance-degas.jpg",
-    "title": "西班牙舞者銅像",
-    "license": "CC-BY-SA 4.0",
+    "title": "芭蕾舞者",
+    "license": "Public domain",
     "artist": "Edgar Degas",
-    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Edgar_degas%2C_ballerina_spagnola%2C_1890_ca._%28fusione_del_1919_o_1937%29_02.jpg",
-    "width": 2232,
-    "height": 5440,
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Edgar_Degas_-_Ballet_%28L%27%C3%89toile%29.jpg",
+    "width": 3652,
+    "height": 5315,
     "pd": true
   },
   "land-pyramids": {
@@ -5377,6 +5377,186 @@
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ryoanji_rock_garden_857.jpg",
     "width": 2496,
     "height": 1664,
+    "pd": true
+  },
+  "dance-flamenco": {
+    "file": "dance-flamenco.jpg",
+    "title": "佛朗明哥",
+    "license": "Public domain",
+    "artist": "John Singer Sargent",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Sargent_John_Singer_Spanish_Dancer.jpg",
+    "width": 793,
+    "height": 1132,
+    "pd": true
+  },
+  "dance-hula": {
+    "file": "dance-hula.jpg",
+    "title": "呼拉舞歷史照",
+    "license": "Public domain",
+    "artist": "Charles Furneaux",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Hawaiian_children_dancing_hula%2C_ca._1890%2C_photograph_by_Charles_Furneaux.jpg",
+    "width": 640,
+    "height": 472,
+    "pd": true
+  },
+  "dance-tango": {
+    "file": "dance-tango.jpg",
+    "title": "雙人探戈",
+    "license": "CC-BY 2.5",
+    "artist": "carlos luque",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Tango_dance_02.jpg",
+    "width": 2616,
+    "height": 3488,
+    "pd": true
+  },
+  "dance-bharatanatyam": {
+    "file": "dance-bharatanatyam.jpg",
+    "title": "婆羅多舞者",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Sumita Roy Dutta",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Indian_Classical_Dancer_at_Sun_Temple%2C_Modhera_DSCN4459_1.jpg",
+    "width": 1800,
+    "height": 2529,
+    "pd": true
+  },
+  "dance-african": {
+    "file": "dance-african.jpg",
+    "title": "西非群舞",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Kayspecta",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/African_dance_1.jpg",
+    "width": 2048,
+    "height": 1536,
+    "pd": true
+  },
+  "inst-koto": {
+    "file": "inst-koto.jpg",
+    "title": "十三絃箏",
+    "license": "CC0",
+    "artist": "大都會博物館",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Koto_MET_DP296080.jpg",
+    "width": 4000,
+    "height": 3000,
+    "pd": true
+  },
+  "inst-sitar": {
+    "file": "inst-sitar.jpg",
+    "title": "西塔琴",
+    "license": "Public domain",
+    "artist": "Sathyadeep",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Sitar3.jpg",
+    "width": 1200,
+    "height": 1800,
+    "pd": true
+  },
+  "inst-erhu": {
+    "file": "inst-erhu.png",
+    "title": "二胡線稿",
+    "license": "Public domain",
+    "artist": "LDHan",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Erhu.png",
+    "width": 192,
+    "height": 593,
+    "pd": true
+  },
+  "inst-shamisen": {
+    "file": "inst-shamisen.jpg",
+    "title": "三味線撥弦",
+    "license": "CC-BY-SA 2.0",
+    "artist": "WONGPOOVARAK",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Fukucho_playing_shamisen.jpg",
+    "width": 6000,
+    "height": 4000,
+    "pd": true
+  },
+  "inst-didgeridoo": {
+    "file": "inst-didgeridoo.jpg",
+    "title": "原住民吹奏",
+    "license": "CC-BY 2.0",
+    "artist": "Noel Feans",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Didgeridoo_street_player-2.jpg",
+    "width": 4987,
+    "height": 3325,
+    "pd": true
+  },
+  "craft-potter": {
+    "file": "craft-potter.jpg",
+    "title": "陶匠拉坯",
+    "license": "Public domain",
+    "artist": "Arthur William Devis",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Arthur_William_Devis_%281762-1822%29_-_Potter_Engaged_in_Throwing_a_Pot_on_a_Wheel_-_F980_-_British_Library.jpg",
+    "width": 944,
+    "height": 701,
+    "pd": true
+  },
+  "craft-weaving": {
+    "file": "craft-weaving.jpg",
+    "title": "浮世繪織布",
+    "license": "CC0",
+    "artist": "喜多川歌麿",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/%E5%A9%A6%E4%BA%BA%E6%89%8B%E6%A5%AD%E6%93%8D%E9%8F%A1-A_Woman_Weaving%2C_Seated_at_a_Hand_Loom_MET_DP143114.jpg",
+    "width": 2614,
+    "height": 3843,
+    "pd": true
+  },
+  "craft-glassblower": {
+    "file": "craft-glassblower.jpg",
+    "title": "吹玻璃",
+    "license": "CC-BY 2.0",
+    "artist": "Archives NZ",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Mr_Tony_Kuepfer%2C_glassblower_shaping_glass.jpg",
+    "width": 900,
+    "height": 686,
+    "pd": true
+  },
+  "craft-calligrapher": {
+    "file": "craft-calligrapher.jpg",
+    "title": "書法家執筆",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Christopher Fynn",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Calligrapher_writing_Gold_Kangyur.jpg",
+    "width": 5504,
+    "height": 5504,
+    "pd": true
+  },
+  "festival-rio": {
+    "file": "festival-rio.jpg",
+    "title": "森巴遊行",
+    "license": "CC-BY-SA 2.0",
+    "artist": "Randal Sheppard",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Samba_Parade_-_Rio%27s_Carnival_2008.jpg",
+    "width": 3072,
+    "height": 2304,
+    "pd": true
+  },
+  "festival-dead": {
+    "file": "festival-dead.jpg",
+    "title": "糖骨骷髏",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Tomascastelazo",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Alfeniques_of_day_of_the_dead.jpg",
+    "width": 4599,
+    "height": 1610,
+    "pd": true
+  },
+  "festival-lion-dance": {
+    "file": "festival-lion-dance.jpg",
+    "title": "舞獅獅頭",
+    "license": "CC-BY 2.0",
+    "artist": "Bob Jagendorf",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Chinese_New_Year_Lion_Dance.jpg",
+    "width": 1419,
+    "height": 1600,
+    "pd": true
+  },
+  "festival-diwali": {
+    "file": "festival-diwali.jpg",
+    "title": "點油燈",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Ajoy Dutta",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Woman_lighting_the_candles_for_the_Festival_of_Lights_in_India_%28cropped%29.jpg",
+    "width": 2850,
+    "height": 2268,
     "pd": true
   }
 }
