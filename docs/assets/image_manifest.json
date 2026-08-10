@@ -2868,5 +2868,125 @@
     "width": 1280,
     "height": 1014,
     "pd": true
+  },
+  "anthro-peter-rabbit": {
+    "file": "anthro-peter-rabbit.jpg",
+    "title": "藍外套兔仔",
+    "license": "Public domain",
+    "artist": "Beatrix Potter",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/An-Original-Illustration-Of-Peter-Rabbit-From-1902-Author-Beatrix-Potter.jpg",
+    "width": 333,
+    "height": 500,
+    "pd": true
+  },
+  "anthro-mr-toad": {
+    "file": "anthro-mr-toad.jpg",
+    "title": "紫衣蛤蟆",
+    "license": "Public domain",
+    "artist": "Paul Bransom",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Wind_in_the_Willows_-_Paul_Bransom_-_Mr_Toad_standing.jpg",
+    "width": 1677,
+    "height": 2426,
+    "pd": true
+  },
+  "anthro-piper-pan": {
+    "file": "anthro-piper-pan.png",
+    "title": "潘神吹笛",
+    "license": "Public domain",
+    "artist": "Grahame",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/The_Piper_at_the_Gates_of_Dawn.PNG",
+    "width": 369,
+    "height": 538,
+    "pd": true
+  },
+  "anthro-brer-rabbit": {
+    "file": "anthro-brer-rabbit.jpg",
+    "title": "帽子背心兔仔",
+    "license": "Public domain",
+    "artist": "A.B. Frost",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Brer_Rabbit_and_Brer_Wolf%2C_1881.jpg",
+    "width": 574,
+    "height": 600,
+    "pd": true
+  },
+  "anthro-little-jack": {
+    "file": "anthro-little-jack.png",
+    "title": "穿衣小兔",
+    "license": "Public domain",
+    "artist": "David Cory",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Little_Jack_Rabbit%27s_Adventures_%28crop_cover%29.png",
+    "width": 630,
+    "height": 970,
+    "pd": true
+  },
+  "anthro-toby-spaniel": {
+    "file": "anthro-toby-spaniel.jpg",
+    "title": "直立西班牙獵犬",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/1928-adventures-of-toby-spaniel.jpg",
+    "width": 1000,
+    "height": 657,
+    "pd": true
+  },
+  "anthro-griset-hare": {
+    "file": "anthro-griset-hare.jpg",
+    "title": "穿衣野兔",
+    "license": "Public domain",
+    "artist": "Ernest Griset",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/GRISET-hare-many-friends.jpg",
+    "width": 650,
+    "height": 986,
+    "pd": true
+  },
+  "anthro-thiele-dogs": {
+    "file": "anthro-thiele-dogs.jpg",
+    "title": "上學狗兒",
+    "license": "Public domain",
+    "artist": "Arthur Thiele",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Arthur_Thiele_Hunde_in_der_Schule.jpg",
+    "width": 1625,
+    "height": 1039,
+    "pd": true
+  },
+  "anthro-bear-warrior": {
+    "file": "anthro-bear-warrior.png",
+    "title": "直立棕熊戰士",
+    "license": "CC0",
+    "artist": "Spring Spring",
+    "source_url": "https://opengameart.org/sites/default/files/bear2_0.png",
+    "width": 800,
+    "height": 468,
+    "pd": true
+  },
+  "anthro-furry-tales": {
+    "file": "anthro-furry-tales.png",
+    "title": "直立兔耳獸人",
+    "license": "CC0",
+    "artist": "Roars Games",
+    "source_url": "https://opengameart.org/sites/default/files/001.PNG",
+    "width": 307,
+    "height": 120,
+    "pd": true
+  },
+  "anthro-german-shepherd": {
+    "file": "anthro-german-shepherd.jpg",
+    "title": "直立德牧半身",
+    "license": "CC-BY 3.0",
+    "artist": "Victoria Miyashiro",
+    "source_url": "https://opengameart.org/sites/default/files/German%20shepherd.jpg",
+    "width": 1600,
+    "height": 1200,
+    "pd": true
+  },
+  "anthro-nice-dog": {
+    "file": "anthro-nice-dog.png",
+    "title": "直立可愛狗",
+    "license": "CC0",
+    "artist": "kotnaszynce",
+    "source_url": "https://opengameart.org/sites/default/files/ddddd01_0.png",
+    "width": 896,
+    "height": 884,
+    "pd": true
   }
 }
