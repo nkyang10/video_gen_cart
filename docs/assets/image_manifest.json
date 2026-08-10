@@ -3471,22 +3471,22 @@
   },
   "myth-medusa": {
     "file": "myth-medusa.jpg",
-    "title": "蛇髮女怪",
+    "title": "梅杜莎斷首",
     "license": "Public domain",
-    "artist": "Bernini",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Medusa Bernini Musei Capitolini MC1166 n2.jpg",
-    "width": 1280,
-    "height": 1591,
+    "artist": "Caravaggio",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caravaggio_-_Medusa_-_Google_Art_Project.jpg",
+    "width": 3369,
+    "height": 3453,
     "pd": true
   },
   "myth-pegasus": {
     "file": "myth-pegasus.jpg",
-    "title": "有翼駿馬",
+    "title": "飛馬騎士斬奇美拉",
     "license": "Public domain",
-    "artist": "Johann Bayer",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Pegasus - Johann Bayer.jpg",
-    "width": 1280,
-    "height": 966,
+    "artist": "Tiepolo",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giovanni_Battista_Tiepolo_-_Bellerophon_on_Pegasus_-_WGA22315.jpg",
+    "width": 986,
+    "height": 1060,
     "pd": true
   },
   "myth-phoenix": {
@@ -8437,6 +8437,156 @@
     "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cranes_made_by_Origami_paper.jpg",
     "width": 3000,
     "height": 1834,
+    "pd": true
+  },
+  "jp-hokusai-kirifuri": {
+    "file": "jp-hokusai-kirifuri.jpg",
+    "title": "瀑布名作",
+    "license": "CC0",
+    "artist": "葛飾北齋",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kirifuri_Waterfall_at_Kurokami_Mountain_in_Shimotsuke_MET_DP141256.jpg",
+    "width": 2716,
+    "height": 3844,
+    "pd": true
+  },
+  "jp-kyosai-cat-frog": {
+    "file": "jp-kyosai-cat-frog.jpg",
+    "title": "貓捕蛙動態",
+    "license": "Public domain",
+    "artist": "河鍋曉齋",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kawanabe_Ky%C5%8Dsai_-_Cat_Catching_a_Frog_-_14.76.61.20_-_Metropolitan_Museum_of_Art.jpg",
+    "width": 2860,
+    "height": 3722,
+    "pd": true
+  },
+  "jp-chikanobu-bijin20": {
+    "file": "jp-chikanobu-bijin20.jpg",
+    "title": "明治美人全身",
+    "license": "Public domain",
+    "artist": "楊洲周延",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Y%C5%8Dsh%C5%AB_Chikanobu_Shin_Bijin_No._20.jpg",
+    "width": 900,
+    "height": 1300,
+    "pd": true
+  },
+  "art-fragonard-swing": {
+    "file": "art-fragonard-swing.jpg",
+    "title": "洛可可花園鞦韆",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Fragonard",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fragonard%2C_The_Swing%2C_Wallace_Collection.jpg",
+    "width": 2595,
+    "height": 3129,
+    "pd": true
+  },
+  "art-watteau-cythera": {
+    "file": "art-watteau-cythera.jpg",
+    "title": "洛可可田園仙境",
+    "license": "Public domain",
+    "artist": "Watteau",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Antoine_Watteau_-_Pilgrimage_to_Cythera_-_WGA25454.jpg",
+    "width": 829,
+    "height": 563,
+    "pd": true
+  },
+  "art-david-horatii": {
+    "file": "art-david-horatii.jpg",
+    "title": "新古典群像",
+    "license": "Public domain",
+    "artist": "David",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques-Louis_David_-_Oath_of_the_Horatii_-_Google_Art_Project.jpg",
+    "width": 6156,
+    "height": 4800,
+    "pd": true
+  },
+  "art-munch-scream": {
+    "file": "art-munch-scream.jpg",
+    "title": "表現主義",
+    "license": "Public domain",
+    "artist": "Munch",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg",
+    "width": 1977,
+    "height": 2500,
+    "pd": true
+  },
+  "art-kandinsky-composition": {
+    "file": "art-kandinsky-composition.jpg",
+    "title": "抽象表現主義",
+    "license": "Public domain",
+    "artist": "Kandinsky",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Composition_VII_-_Wassily_Kandinsky%2C_GAC.jpg",
+    "width": 2500,
+    "height": 1661,
+    "pd": true
+  },
+  "myth-griffin": {
+    "file": "myth-griffin.jpg",
+    "title": "鷹首獅身木刻",
+    "license": "Public domain",
+    "artist": "Sebastian Münster",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Griffin_from_Cosmographia_%281544%29_by_Sebastian_M%C3%BCnster_.jpg",
+    "width": 557,
+    "height": 425,
+    "pd": true
+  },
+  "food-paella": {
+    "file": "food-paella.jpg",
+    "title": "海鮮燉飯",
+    "license": "CC0",
+    "artist": "西班牙",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paella_valenciana%2C_Mazatl%C3%A1n%2C_25_de_abril_de_2023.jpg",
+    "width": 2701,
+    "height": 2322,
+    "pd": true
+  },
+  "food-taco": {
+    "file": "food-taco.jpg",
+    "title": "塔可捲餅",
+    "license": "CC-BY 2.0",
+    "artist": "墨西哥",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/O1_Taco_al_Pastor.jpg",
+    "width": 1024,
+    "height": 683,
+    "pd": true
+  },
+  "food-croissant": {
+    "file": "food-croissant.jpg",
+    "title": "酥皮牛角包",
+    "license": "CC0",
+    "artist": "法國",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Croissants_au_beurre_%2818953292873%29.jpg",
+    "width": 1200,
+    "height": 1600,
+    "pd": true
+  },
+  "food-pizza": {
+    "file": "food-pizza.jpg",
+    "title": "窯烤披薩",
+    "license": "CC-BY-SA 4.0",
+    "artist": "意大利",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pizza_Napoletana_in_Pompei%2C_Italy.jpg",
+    "width": 4032,
+    "height": 3024,
+    "pd": true
+  },
+  "food-pad-thai": {
+    "file": "food-pad-thai.jpg",
+    "title": "炒河粉",
+    "license": "CC-BY-SA 2.0",
+    "artist": "泰國",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pad_Thai_at_Good_Catch_Thai_Urban_Bistro%2C_New_Orleans.jpg",
+    "width": 5472,
+    "height": 3648,
+    "pd": true
+  },
+  "food-baklava": {
+    "file": "food-baklava.jpg",
+    "title": "千層酥甜點",
+    "license": "Public domain",
+    "artist": "土耳其",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Baklava_-_Turkish_special%2C_80-ply.JPEG",
+    "width": 1542,
+    "height": 1024,
     "pd": true
   }
 }

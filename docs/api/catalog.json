@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 65,
-    "character_count": 896,
+    "brand_count": 66,
+    "character_count": 913,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -1159,6 +1159,332 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**擬人動物動畫角色**：經典童書/遊戲擬人動物做動畫參考 **注意**：Public domain 授權"
+        }
+      ]
+    },
+    {
+      "slug": "art-movements-mythical-cuisine",
+      "name": "Art Movements, Mythical Beasts & World Cuisine",
+      "name_zh": "藝術運動神話生物與世界美食",
+      "type": "藝術運動 / 神話生物 / 世界美食",
+      "country": "國際",
+      "era": "1500s-2020s",
+      "creator": "各經典藝術家/攝影師",
+      "publisher": "各美術館/機構",
+      "first_appearance_year": 1500,
+      "status": "公有領域 / CC0 / CC-BY",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "art-david-horatii",
+          "name": "大衛荷拉提兄弟之誓",
+          "name_zh": "大衛荷拉提兄弟之誓",
+          "role": "藝術運動/神話生物/世界美食",
+          "first_appearance": "David",
+          "creator": "David",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-david-horatii.jpg",
+          "reference_gallery": [],
+          "appearance": "新古典主義，三兄弟宣誓群像。 `新古典主義 三兄弟宣誓群像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/角色/背景動畫參考**：藝術運動/神話生物/世界美食做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-fragonard-swing",
+          "name": "福拉哥納爾鞦韆",
+          "name_zh": "福拉哥納爾鞦韆",
+          "role": "藝術運動/神話生物/世界美食",
+          "first_appearance": "Fragonard",
+          "creator": "Fragonard",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-fragonard-swing.jpg",
+          "reference_gallery": [],
+          "appearance": "洛可可，花園鞦韆裙擺飛揚。 `洛可可 花園鞦韆裙擺飛揚`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/角色/背景動畫參考**：藝術運動/神話生物/世界美食做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "art-kandinsky-composition",
+          "name": "康丁斯基構圖七",
+          "name_zh": "康丁斯基構圖七",
+          "role": "藝術運動/神話生物/世界美食",
+          "first_appearance": "Kandinsky",
+          "creator": "Kandinsky",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-kandinsky-composition.jpg",
+          "reference_gallery": [],
+          "appearance": "抽象表現主義，抽象色塊線條。 `抽象表現主義 抽象色塊線條`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/角色/背景動畫參考**：藝術運動/神話生物/世界美食做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-munch-scream",
+          "name": "孟克吶喊",
+          "name_zh": "孟克吶喊",
+          "role": "藝術運動/神話生物/世界美食",
+          "first_appearance": "Munch",
+          "creator": "Munch",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-munch-scream.jpg",
+          "reference_gallery": [],
+          "appearance": "表現主義，扭曲狂躁情感。 `表現主義 扭曲狂躁情感`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/角色/背景動畫參考**：藝術運動/神話生物/世界美食做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-watteau-cythera",
+          "name": "華鐸西苔島朝聖",
+          "name_zh": "華鐸西苔島朝聖",
+          "role": "藝術運動/神話生物/世界美食",
+          "first_appearance": "Watteau",
+          "creator": "Watteau",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-watteau-cythera.jpg",
+          "reference_gallery": [],
+          "appearance": "洛可可，貴族登舟田園仙境。 `洛可可 貴族登舟田園仙境`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/角色/背景動畫參考**：藝術運動/神話生物/世界美食做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "food-baklava",
+          "name": "果仁蜜餅",
+          "name_zh": "果仁蜜餅",
+          "role": "藝術運動/神話生物/世界美食",
+          "first_appearance": "土耳其",
+          "creator": "土耳其",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/food-baklava.jpg",
+          "reference_gallery": [],
+          "appearance": "實景食物照，千層酥甜點。 `實景食物照 千層酥甜點`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/角色/背景動畫參考**：藝術運動/神話生物/世界美食做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "food-croissant",
+          "name": "奶油可頌",
+          "name_zh": "奶油可頌",
+          "role": "藝術運動/神話生物/世界美食",
+          "first_appearance": "法國",
+          "creator": "法國",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/food-croissant.jpg",
+          "reference_gallery": [],
+          "appearance": "實景食物照，層層酥皮牛角包。 `實景食物照 層層酥皮牛角包`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/角色/背景動畫參考**：藝術運動/神話生物/世界美食做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "food-pad-thai",
+          "name": "泰式炒金邊粉",
+          "name_zh": "泰式炒金邊粉",
+          "role": "藝術運動/神話生物/世界美食",
+          "first_appearance": "泰國",
+          "creator": "泰國",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/food-pad-thai.jpg",
+          "reference_gallery": [],
+          "appearance": "實景食物照，蝦仁豆芽炒河粉。 `實景食物照 蝦仁豆芽炒河粉`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/角色/背景動畫參考**：藝術運動/神話生物/世界美食做動畫參考 **注意**：CC-BY-SA 2.0 授權"
+        },
+        {
+          "slug": "food-paella",
+          "name": "瓦倫西亞海鮮燉飯",
+          "name_zh": "瓦倫西亞海鮮燉飯",
+          "role": "藝術運動/神話生物/世界美食",
+          "first_appearance": "西班牙",
+          "creator": "西班牙",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/food-paella.jpg",
+          "reference_gallery": [],
+          "appearance": "實景食物照，海鮮米飯橙黃。 `實景食物照 海鮮米飯橙黃`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/角色/背景動畫參考**：藝術運動/神話生物/世界美食做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "food-pizza",
+          "name": "那不勒斯披薩",
+          "name_zh": "那不勒斯披薩",
+          "role": "藝術運動/神話生物/世界美食",
+          "first_appearance": "意大利",
+          "creator": "意大利",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/food-pizza.jpg",
+          "reference_gallery": [],
+          "appearance": "實景食物照，窯烤焦斑披薩。 `實景食物照 窯烤焦斑披薩`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/角色/背景動畫參考**：藝術運動/神話生物/世界美食做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "food-taco",
+          "name": "墨西哥塔可牧羊豬",
+          "name_zh": "墨西哥塔可牧羊豬",
+          "role": "藝術運動/神話生物/世界美食",
+          "first_appearance": "墨西哥",
+          "creator": "墨西哥",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/food-taco.jpg",
+          "reference_gallery": [],
+          "appearance": "實景食物照，立式烤豬塔可。 `實景食物照 立式烤豬塔可`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/角色/背景動畫參考**：藝術運動/神話生物/世界美食做動畫參考 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "myth-griffin",
+          "name": "孟斯特格里芬",
+          "name_zh": "孟斯特格里芬",
+          "role": "藝術運動/神話生物/世界美食",
+          "first_appearance": "Sebastian Münster",
+          "creator": "Sebastian Münster",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-griffin.jpg",
+          "reference_gallery": [],
+          "appearance": "16世紀古木刻，鷹首獅身。 `16世紀古木刻 鷹首獅身`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/角色/背景動畫參考**：藝術運動/神話生物/世界美食做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "myth-medusa",
+          "name": "卡拉瓦喬梅杜莎",
+          "name_zh": "卡拉瓦喬梅杜莎",
+          "role": "藝術運動/神話生物/世界美食",
+          "first_appearance": "Caravaggio",
+          "creator": "Caravaggio",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-medusa.jpg",
+          "reference_gallery": [],
+          "appearance": "巴洛克明暗，梅杜莎斷首蛇髮。 `巴洛克明暗 梅杜莎斷首蛇髮`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/角色/背景動畫參考**：藝術運動/神話生物/世界美食做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "myth-pegasus",
+          "name": "蒂也波羅飛馬",
+          "name_zh": "蒂也波羅飛馬",
+          "role": "藝術運動/神話生物/世界美食",
+          "first_appearance": "Tiepolo",
+          "creator": "Tiepolo",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/myth-pegasus.jpg",
+          "reference_gallery": [],
+          "appearance": "洛可可神話，飛馬騎士斬奇美拉。 `洛可可神話 飛馬騎士斬奇美拉`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/角色/背景動畫參考**：藝術運動/神話生物/世界美食做動畫參考 **注意**：Public domain 授權"
         }
       ]
     },
@@ -10675,6 +11001,28 @@
       },
       "characters": [
         {
+          "slug": "jp-chikanobu-bijin20",
+          "name": "周延新美人合20",
+          "name_zh": "周延新美人合20",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "楊洲周延",
+          "creator": "楊洲周延",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-chikanobu-bijin20.jpg",
+          "reference_gallery": [],
+          "appearance": "美人繪，明治美人全身像。 `美人繪 明治美人全身像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-chikanobu-ikebana",
           "name": "周延插花",
           "name_zh": "周延插花",
@@ -11203,6 +11551,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-hokusai-kirifuri",
+          "name": "北齋霧降瀑布",
+          "name_zh": "北齋霧降瀑布",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "葛飾北齋",
+          "creator": "葛飾北齋",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hokusai-kirifuri.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪風景，諸國瀧廻瀑布名作。 `浮世繪風景 諸國瀧廻瀑布名作`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
           "slug": "jp-hokusai-manga-01",
           "name": "北齋漫畫 01",
           "name_zh": "北齋漫畫 01",
@@ -11619,6 +11989,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-kyosai-cat-frog",
+          "name": "曉齋貓捕蛙",
+          "name_zh": "曉齋貓捕蛙",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "河鍋曉齋",
+          "creator": "河鍋曉齋",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kyosai-cat-frog.jpg",
+          "reference_gallery": [],
+          "appearance": "戲畫動態動物，貓捕蛙動態瞬間。 `戲畫動態動物 貓捕蛙動態瞬間`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-maneki-neko",
