@@ -10028,5 +10028,165 @@
     "width": 4024,
     "height": 6048,
     "pd": true
+  },
+  "jp-yokohama-wharves": {
+    "file": "jp-yokohama-wharves.jpg",
+    "title": "碼頭外國商船",
+    "license": "CC0",
+    "artist": "横浜繪",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Yokohama_hatoba_keshiki-A_View_of_the_Wharves_in_Yokohama_MET_DP148058.jpg",
+    "width": 3926,
+    "height": 2939,
+    "pd": true
+  },
+  "jp-hollanders-yokohama": {
+    "file": "jp-hollanders-yokohama.jpg",
+    "title": "異邦人互動群像",
+    "license": "CC0",
+    "artist": "横浜繪",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Hollanders_op_stap_op_een_vrije_dag_in_Yokohama_Yokohama_kyujitsu_Oranda-jin_yuko_%28serietitel%29%2C_NG-663-3.jpg",
+    "width": 3912,
+    "height": 5700,
+    "pd": true
+  },
+  "jp-kuniyoshi-monkey": {
+    "file": "jp-kuniyoshi-monkey.jpg",
+    "title": "武士斬妖猴",
+    "license": "Public domain",
+    "artist": "歌川國芳",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Usui_Matagoro_slays_a_giant_monkey_Utagawa_Kuniyoshi.jpg",
+    "width": 1694,
+    "height": 2485,
+    "pd": true
+  },
+  "jp-kuniyoshi-hakkenden": {
+    "file": "jp-kuniyoshi-hakkenden.png",
+    "title": "屋頂群像武打",
+    "license": "Public domain",
+    "artist": "歌川國芳",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Fight-atop-Horyukaku-the-Hakkenden-Tale-Utagawa-Kuniyoshi-c1840.png",
+    "width": 3200,
+    "height": 1571,
+    "pd": true
+  },
+  "jp-zeshin-cicada": {
+    "file": "jp-zeshin-cicada.jpg",
+    "title": "蟬與線靜物",
+    "license": "Public domain",
+    "artist": "柴田是真",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Shibata_Zeshin_-_Cicada_on_a_String_-_66.223_-_Detroit_Institute_of_Arts.jpg",
+    "width": 2000,
+    "height": 1358,
+    "pd": true
+  },
+  "land-chichen-itza": {
+    "file": "land-chichen-itza.jpg",
+    "title": "階梯金字塔",
+    "license": "CC-BY-SA 3.0",
+    "artist": "馬雅",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Chichen_Itza_Pyramid_of_Kuk%C3%BAlcan.jpg",
+    "width": 1024,
+    "height": 768,
+    "pd": true
+  },
+  "land-copan-stela": {
+    "file": "land-copan-stela.jpg",
+    "title": "石碑雕刻",
+    "license": "CC0",
+    "artist": "馬雅",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Cop%C3%A1n_Stela_A_01.jpg",
+    "width": 3024,
+    "height": 4032,
+    "pd": true
+  },
+  "land-tikal-skulls": {
+    "file": "land-tikal-skulls.jpg",
+    "title": "叢林神殿",
+    "license": "CC-BY-SA 4.0",
+    "artist": "馬雅",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Tikal_Structure_5D-87_%28Temple_of_the_Skulls%29_01.jpg",
+    "width": 4000,
+    "height": 3000,
+    "pd": true
+  },
+  "land-palmyra": {
+    "file": "land-palmyra.jpg",
+    "title": "沙漠柱廊全景",
+    "license": "CC0",
+    "artist": "敘利亞",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Palmyra_ruins_from_the_west.jpg",
+    "width": 2500,
+    "height": 326,
+    "pd": true
+  },
+  "land-ephesus-library": {
+    "file": "land-ephesus-library.jpg",
+    "title": "立面柱廊",
+    "license": "CC-BY-SA 3.0",
+    "artist": "羅馬",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Ephesus_Celsus_Library_Fa%C3%A7ade.jpg",
+    "width": 2500,
+    "height": 1937,
+    "pd": true
+  },
+  "land-karnak-hypostyle": {
+    "file": "land-karnak-hypostyle.jpg",
+    "title": "巨型石柱廳",
+    "license": "CC-BY 4.0",
+    "artist": "埃及",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Luxor%2C_Egypt%2C_Karnak%2C_Great_Hypostyle_Hall.jpg",
+    "width": 2048,
+    "height": 3072,
+    "pd": true
+  },
+  "land-abu-simbel": {
+    "file": "land-abu-simbel.jpg",
+    "title": "岩石巨像神廟",
+    "license": "CC-BY-SA 4.0",
+    "artist": "埃及",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Templo_de_Rams%C3%A9s_II%2C_Abu_Simbel%2C_Egipto%2C_2022-04-02%2C_DD_74-76_HDR.jpg",
+    "width": 2500,
+    "height": 1453,
+    "pd": true
+  },
+  "land-dendera-zodiac": {
+    "file": "land-dendera-zodiac.jpg",
+    "title": "天文浮雕圖",
+    "license": "Public domain",
+    "artist": "埃及",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Description_of_Egypt._2nd_edition._1822._Vol._4._Pl._21_%28Dendera_Circular_Zodiac%29.jpg",
+    "width": 1024,
+    "height": 1377,
+    "pd": true
+  },
+  "animal-audubon-elk": {
+    "file": "animal-audubon-elk.jpg",
+    "title": "大型鹿科",
+    "license": "Public domain",
+    "artist": "Audubon",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/American_Elk_-_John_J._Audubon_-_hi-res.jpg",
+    "width": 2500,
+    "height": 1875,
+    "pd": true
+  },
+  "animal-bodmer-bison": {
+    "file": "animal-bodmer-bison.jpg",
+    "title": "印第安追擊牛群",
+    "license": "Public domain",
+    "artist": "Karl Bodmer",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Tableau_31_Indians_hunting_the_bison_by_Karl_Bodmer.jpg",
+    "width": 2437,
+    "height": 1840,
+    "pd": true
+  },
+  "animal-blacktip-shark": {
+    "file": "animal-blacktip-shark.jpg",
+    "title": "海中鯊魚",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Moorea",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Blacktip_reef_shark_%28Carcharhinus_melanopterus%29_Moorea_4.jpg",
+    "width": 6000,
+    "height": 4000,
+    "pd": true
   }
 }

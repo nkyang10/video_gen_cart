@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 74,
-    "character_count": 1059,
+    "brand_count": 75,
+    "character_count": 1075,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -12533,6 +12533,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-hollanders-yokohama",
+          "name": "荷蘭人横浜出遊",
+          "name_zh": "荷蘭人横浜出遊",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "横浜繪",
+          "creator": "横浜繪",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hollanders-yokohama.jpg",
+          "reference_gallery": [],
+          "appearance": "横浜繪，異邦人互動群像。 `横浜繪 異邦人互動群像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
           "slug": "jp-indian-elephant",
           "name": "天竺丸印度象",
           "name_zh": "天竺丸印度象",
@@ -12863,6 +12885,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-kuniyoshi-hakkenden",
+          "name": "國芳八犬傳屋頂戰",
+          "name_zh": "國芳八犬傳屋頂戰",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川國芳",
+          "creator": "歌川國芳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kuniyoshi-hakkenden.png",
+          "reference_gallery": [],
+          "appearance": "合戰圖，屋頂群像武打。 `合戰圖 屋頂群像武打`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-kuniyoshi-inada",
           "name": "稻田九郎進助",
           "name_zh": "稻田九郎進助",
@@ -12883,6 +12927,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-kuniyoshi-monkey",
+          "name": "國芳斬巨猿",
+          "name_zh": "國芳斬巨猿",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川國芳",
+          "creator": "歌川國芳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kuniyoshi-monkey.jpg",
+          "reference_gallery": [],
+          "appearance": "武者繪，武士斬妖猴。 `武者繪 武士斬妖猴`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-kuniyoshi-samurai-triptych",
@@ -13897,6 +13963,28 @@
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-yokohama-wharves",
+          "name": "横浜碼頭景色",
+          "name_zh": "横浜碼頭景色",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "横浜繪",
+          "creator": "横浜繪",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-yokohama-wharves.jpg",
+          "reference_gallery": [],
+          "appearance": "横浜繪，碼頭外國商船。 `横浜繪 碼頭外國商船`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
           "slug": "jp-yoshitoshi-benkei",
           "name": "芳年弁慶鎮浪",
           "name_zh": "芳年弁慶鎮浪",
@@ -14067,6 +14155,28 @@
           "image": "assets/img/jp-yoshitoshi-yugao.jpg",
           "reference_gallery": [],
           "appearance": "月百姿，月百姿幽靈纏藤。 `月百姿 月百姿幽靈纏藤`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-zeshin-cicada",
+          "name": "柴田是真線上蟬",
+          "name_zh": "柴田是真線上蟬",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "柴田是真",
+          "creator": "柴田是真",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-zeshin-cicada.jpg",
+          "reference_gallery": [],
+          "appearance": "是真繪，蟬與線靜物。 `是真繪 蟬與線靜物`",
           "dialogue": "",
           "scene": "",
           "personality": "",
@@ -18099,6 +18209,266 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**風格/角色/場景動畫參考**：名畫/城市/動物/神話生物做動畫參考 **注意**：Public domain 授權"
+        }
+      ]
+    },
+    {
+      "slug": "maya-landmarks-american-natural-history",
+      "name": "Maya Landmarks & American Natural History",
+      "name_zh": "馬雅地標與美洲自然史",
+      "type": "馬雅地標 / 古文明 / 美洲自然史",
+      "country": "美洲",
+      "era": "公元前-1900s",
+      "creator": "各文明/博物學家",
+      "publisher": "各博物館/機構",
+      "first_appearance_year": -2600,
+      "status": "公有領域 / CC0 / CC-BY",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "animal-audubon-elk",
+          "name": "歐杜邦美洲麋鹿",
+          "name_zh": "歐杜邦美洲麋鹿",
+          "role": "馬雅地標/古文明/美洲自然史",
+          "first_appearance": "Audubon",
+          "creator": "Audubon",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-audubon-elk.jpg",
+          "reference_gallery": [],
+          "appearance": "博物學版畫，大型鹿科。 `博物學版畫 大型鹿科`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：馬雅地標/古文明/美洲自然史做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "animal-blacktip-shark",
+          "name": "黑鳍礁鯊",
+          "name_zh": "黑鳍礁鯊",
+          "role": "馬雅地標/古文明/美洲自然史",
+          "first_appearance": "Moorea",
+          "creator": "Moorea",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-blacktip-shark.jpg",
+          "reference_gallery": [],
+          "appearance": "實景照片，海中鯊魚。 `實景照片 海中鯊魚`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：馬雅地標/古文明/美洲自然史做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "animal-bodmer-bison",
+          "name": "波特曼印第安獵野牛",
+          "name_zh": "波特曼印第安獵野牛",
+          "role": "馬雅地標/古文明/美洲自然史",
+          "first_appearance": "Karl Bodmer",
+          "creator": "Karl Bodmer",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-bodmer-bison.jpg",
+          "reference_gallery": [],
+          "appearance": "民族誌版畫，印第安追擊牛群。 `民族誌版畫 印第安追擊牛群`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：馬雅地標/古文明/美洲自然史做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "land-abu-simbel",
+          "name": "阿布辛貝神廟",
+          "name_zh": "阿布辛貝神廟",
+          "role": "馬雅地標/古文明/美洲自然史",
+          "first_appearance": "埃及",
+          "creator": "埃及",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-abu-simbel.jpg",
+          "reference_gallery": [],
+          "appearance": "實景照片，岩石巨像神廟。 `實景照片 岩石巨像神廟`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：馬雅地標/古文明/美洲自然史做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "land-chichen-itza",
+          "name": "奇琴伊察庫庫爾坎",
+          "name_zh": "奇琴伊察庫庫爾坎",
+          "role": "馬雅地標/古文明/美洲自然史",
+          "first_appearance": "馬雅",
+          "creator": "馬雅",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-chichen-itza.jpg",
+          "reference_gallery": [],
+          "appearance": "實景照片，階梯金字塔。 `實景照片 階梯金字塔`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：馬雅地標/古文明/美洲自然史做動畫參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "land-copan-stela",
+          "name": "科潘石碑A",
+          "name_zh": "科潘石碑A",
+          "role": "馬雅地標/古文明/美洲自然史",
+          "first_appearance": "馬雅",
+          "creator": "馬雅",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-copan-stela.jpg",
+          "reference_gallery": [],
+          "appearance": "實景照片，石碑雕刻。 `實景照片 石碑雕刻`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：馬雅地標/古文明/美洲自然史做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "land-dendera-zodiac",
+          "name": "丹德拉黃道十二宮",
+          "name_zh": "丹德拉黃道十二宮",
+          "role": "馬雅地標/古文明/美洲自然史",
+          "first_appearance": "埃及",
+          "creator": "埃及",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-dendera-zodiac.jpg",
+          "reference_gallery": [],
+          "appearance": "版畫，天文浮雕圖。 `版畫 天文浮雕圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：馬雅地標/古文明/美洲自然史做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "land-ephesus-library",
+          "name": "以弗所塞爾蘇斯圖書館",
+          "name_zh": "以弗所塞爾蘇斯圖書館",
+          "role": "馬雅地標/古文明/美洲自然史",
+          "first_appearance": "羅馬",
+          "creator": "羅馬",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-ephesus-library.jpg",
+          "reference_gallery": [],
+          "appearance": "實景照片，立面柱廊。 `實景照片 立面柱廊`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：馬雅地標/古文明/美洲自然史做動畫參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "land-karnak-hypostyle",
+          "name": "卡納克多柱廳",
+          "name_zh": "卡納克多柱廳",
+          "role": "馬雅地標/古文明/美洲自然史",
+          "first_appearance": "埃及",
+          "creator": "埃及",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-karnak-hypostyle.jpg",
+          "reference_gallery": [],
+          "appearance": "實景照片，巨型石柱廳。 `實景照片 巨型石柱廳`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：馬雅地標/古文明/美洲自然史做動畫參考 **注意**：CC-BY 4.0 授權"
+        },
+        {
+          "slug": "land-palmyra",
+          "name": "巴爾米拉遺蹟",
+          "name_zh": "巴爾米拉遺蹟",
+          "role": "馬雅地標/古文明/美洲自然史",
+          "first_appearance": "敘利亞",
+          "creator": "敘利亞",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-palmyra.jpg",
+          "reference_gallery": [],
+          "appearance": "實景照片，沙漠柱廊全景。 `實景照片 沙漠柱廊全景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：馬雅地標/古文明/美洲自然史做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "land-tikal-skulls",
+          "name": "提卡爾骷髏神殿",
+          "name_zh": "提卡爾骷髏神殿",
+          "role": "馬雅地標/古文明/美洲自然史",
+          "first_appearance": "馬雅",
+          "creator": "馬雅",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-tikal-skulls.jpg",
+          "reference_gallery": [],
+          "appearance": "實景照片，叢林神殿。 `實景照片 叢林神殿`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：馬雅地標/古文明/美洲自然史做動畫參考 **注意**：CC-BY-SA 4.0 授權"
         }
       ]
     },
