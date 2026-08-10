@@ -2041,10 +2041,10 @@
   },
   "jp-daruma": {
     "file": "jp-daruma.jpg",
-    "title": "紅色達摩不倒翁",
+    "title": "京都不倒翁",
     "license": "CC0",
     "artist": "Brücke-Osteuropa",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Daruma_Doll.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Daruma_Doll.jpg",
     "width": 1612,
     "height": 1848,
     "pd": true
@@ -5217,6 +5217,166 @@
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/French_Fashion_Bisque_Doll_with_Green_and_White_Striped_Dress.jpg",
     "width": 2912,
     "height": 4368,
+    "pd": true
+  },
+  "jp-hokusai-manga-05": {
+    "file": "jp-hokusai-manga-05.jpg",
+    "title": "盲人力士動態",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Hokusai_Manga_05.jpg",
+    "width": 2312,
+    "height": 1488,
+    "pd": true
+  },
+  "jp-hokusai-manga-01": {
+    "file": "jp-hokusai-manga-01.jpg",
+    "title": "人物動態速寫",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Hokusai_Manga_01.jpg",
+    "width": 1080,
+    "height": 1504,
+    "pd": true
+  },
+  "jp-hokusai-manga-04": {
+    "file": "jp-hokusai-manga-04.jpg",
+    "title": "人物生物動態",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Hokusai_Manga_04.jpg",
+    "width": 927,
+    "height": 1309,
+    "pd": true
+  },
+  "jp-red-fuji": {
+    "file": "jp-red-fuji.jpg",
+    "title": "赤富士",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Red_Fuji_southern_wind_clear_morning.jpg",
+    "width": 4400,
+    "height": 2937,
+    "pd": true
+  },
+  "jp-hiroshige-fox-fires": {
+    "file": "jp-hiroshige-fox-fires.jpg",
+    "title": "狐狸怪火夜景",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Hiroshige-100-views-of-edo-fox-fires.jpg",
+    "width": 447,
+    "height": 662,
+    "pd": true
+  },
+  "jp-hiroshige-cat": {
+    "file": "jp-hiroshige-cat.jpg",
+    "title": "屋頂貓餅",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/100_views_edo_101.jpg",
+    "width": 790,
+    "height": 1200,
+    "pd": true
+  },
+  "jp-kuniyoshi-cats": {
+    "file": "jp-kuniyoshi-cats.jpg",
+    "title": "貓各種姿勢",
+    "license": "Public domain",
+    "artist": "歌川國芳",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Kuniyoshi_Utagawa%2C_For_cats_in_different_poses.jpg",
+    "width": 2126,
+    "height": 3117,
+    "pd": true
+  },
+  "jp-kuniyoshi-tokaido": {
+    "file": "jp-kuniyoshi-tokaido.jpg",
+    "title": "貓擬人驛站",
+    "license": "Public domain",
+    "artist": "歌川國芳",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Cats_suggested_as_the_fifty-three_stations_of_the_Tokaido.jpg",
+    "width": 3829,
+    "height": 1901,
+    "pd": true
+  },
+  "jp-utamaro-beauties": {
+    "file": "jp-utamaro-beauties.jpg",
+    "title": "三美人全身",
+    "license": "Public domain",
+    "artist": "喜多川歌麿",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Utamaro_%281793%29_Three_Beauties_of_the_Present_Time%2C_MFAB_21.6382.jpg",
+    "width": 960,
+    "height": 1410,
+    "pd": true
+  },
+  "jp-utamaro-okubi": {
+    "file": "jp-utamaro-okubi.jpg",
+    "title": "美人頭像",
+    "license": "Public domain",
+    "artist": "喜多川歌麿",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Kitagawa_Utamaro_-_Untitled_-_Google_Art_Project.jpg",
+    "width": 2802,
+    "height": 4243,
+    "pd": true
+  },
+  "jp-yoshitoshi-moon": {
+    "file": "jp-yoshitoshi-moon.jpg",
+    "title": "牛若丸弁慶",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Tsukioka_Yoshitoshi_%28188%3F%29_Tsuki_hyaku_shi_-_Goj%C5%8Dbashi_no_tsuki-.jpg",
+    "width": 4997,
+    "height": 7249,
+    "pd": true
+  },
+  "jp-sesshu-haboku": {
+    "file": "jp-sesshu-haboku.jpg",
+    "title": "破墨山水卷軸",
+    "license": "Public domain",
+    "artist": "雪舟",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Sesshu_-_Haboku-Sansui.jpg",
+    "width": 6976,
+    "height": 10784,
+    "pd": true
+  },
+  "jp-sesshu-seasons": {
+    "file": "jp-sesshu-seasons.jpg",
+    "title": "四季山水墨畫",
+    "license": "Public domain",
+    "artist": "雪舟",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/SesshuToyo.jpg",
+    "width": 4775,
+    "height": 7432,
+    "pd": true
+  },
+  "jp-jakuchu-parrot": {
+    "file": "jp-jakuchu-parrot.jpg",
+    "title": "花鳥畫",
+    "license": "CC-BY-SA 3.0",
+    "artist": "伊藤若冲",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Jakuchu_Roses_and_Parrot.jpg",
+    "width": 814,
+    "height": 591,
+    "pd": true
+  },
+  "jp-maneki-neko": {
+    "file": "jp-maneki-neko.jpg",
+    "title": "白三花招財貓",
+    "license": "CC0",
+    "artist": "DimiTalen",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Maneki_neko_close-up.jpg",
+    "width": 6016,
+    "height": 4000,
+    "pd": true
+  },
+  "jp-ryoanji": {
+    "file": "jp-ryoanji.jpg",
+    "title": "枯山水石庭",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Carla Antonini",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ryoanji_rock_garden_857.jpg",
+    "width": 2496,
+    "height": 1664,
     "pd": true
   }
 }
