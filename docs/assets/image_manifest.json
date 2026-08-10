@@ -3881,10 +3881,10 @@
   },
   "costume-hanfu": {
     "file": "costume-hanfu.jpg",
-    "title": "漢服",
+    "title": "男性漢服",
     "license": "Public domain",
-    "artist": "佚名",
-    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Hanfu_1.jpg",
+    "artist": "Supersentai",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanfu_1.jpg",
     "width": 650,
     "height": 488,
     "pd": true
@@ -7387,6 +7387,136 @@
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mitsukuni_defying_the_skeleton_spectre_invoked_by_princess_Takiyasha.jpg",
     "width": 3829,
     "height": 1847,
+    "pd": true
+  },
+  "costume-native-american": {
+    "file": "costume-native-american.jpg",
+    "title": "平原印地安服飾",
+    "license": "Public domain",
+    "artist": "19世紀攝影",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Native-American-traditional-dress.jpg",
+    "width": 473,
+    "height": 635,
+    "pd": true
+  },
+  "costume-dahuting": {
+    "file": "costume-dahuting.jpg",
+    "title": "漢服仕女",
+    "license": "Public domain",
+    "artist": "東漢壁畫",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dahuting_Tomb_mural_of_women_dressed_in_Hanfu%2C_Eastern_Han_Dynasty_%28crop1%29.jpg",
+    "width": 1131,
+    "height": 2183,
+    "pd": true
+  },
+  "costume-sari": {
+    "file": "costume-sari.jpg",
+    "title": "沙麗風格",
+    "license": "Public domain",
+    "artist": "India",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Styles_of_Sari.jpg",
+    "width": 824,
+    "height": 1600,
+    "pd": true
+  },
+  "costume-kokoshnik": {
+    "file": "costume-kokoshnik.jpg",
+    "title": "Kokoshnik頭飾",
+    "license": "Public domain",
+    "artist": "俄國攝影",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%92_%D0%B3%D0%BE%D1%81%D1%82%D0%B8.jpg",
+    "width": 702,
+    "height": 1000,
+    "pd": true
+  },
+  "land-yosemite-spires": {
+    "file": "land-yosemite-spires.jpg",
+    "title": "峽谷巨岩",
+    "license": "Public domain",
+    "artist": "Carleton Watkins",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carleton_e_watkins_cathedral_spires_yosemite_1865-1866024721_.jpg",
+    "width": 2526,
+    "height": 3200,
+    "pd": true
+  },
+  "land-prismatic-spring": {
+    "file": "land-prismatic-spring.jpg",
+    "title": "彩虹色泉水",
+    "license": "Public domain",
+    "artist": "Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_prismatic_spring.jpg",
+    "width": 1999,
+    "height": 1277,
+    "pd": true
+  },
+  "animal-falconry": {
+    "file": "animal-falconry.jpg",
+    "title": "獵鷹狩獵",
+    "license": "CC0",
+    "artist": "Abd al-Samad",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abd_al-Samad_-_Hunting_with_Falcons_in_a_Landscape_-_2013.292.a_-_Cleveland_Museum_of_Art.tif",
+    "width": 1597,
+    "height": 2500,
+    "pd": true
+  },
+  "animal-vangogh-shepherd": {
+    "file": "animal-vangogh-shepherd.jpg",
+    "title": "牧羊人羊群",
+    "license": "Public domain",
+    "artist": "Van Gogh",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_van_Gogh_-_Shepherd_with_a_Flock_of_Sheep_%281884%29_-_F42.jpg",
+    "width": 2500,
+    "height": 1279,
+    "pd": true
+  },
+  "animal-mauve-sheep": {
+    "file": "animal-mauve-sheep.jpg",
+    "title": "雪地牧羊",
+    "license": "Public domain",
+    "artist": "Anton Mauve",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anton_Mauve_-_Flock_of_sheep_with_shepherd_in_the_snow_-_Google_Art_Project.jpg",
+    "width": 2500,
+    "height": 1187,
+    "pd": true
+  },
+  "animal-mounted-officer": {
+    "file": "animal-mounted-officer.jpg",
+    "title": "騎馬軍官",
+    "license": "Public domain",
+    "artist": "British Official",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_mounted_officer_at_a_London_military_parade_after_World_War_I%2C_1919_%283057286552%29.jpg",
+    "width": 5070,
+    "height": 4025,
+    "pd": true
+  },
+  "prop-hiroshige-rain": {
+    "file": "prop-hiroshige-rain.jpg",
+    "title": "雨中撐傘",
+    "license": "CC0",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ando_Hiroshige_-_Driving_Rain_at_Shono_%28Station_46%29_from_the_series_Fifty-Three_Stations_of_-_1948.306_-_Cleveland_Museum_of_Art.tif",
+    "width": 2500,
+    "height": 1668,
+    "pd": true
+  },
+  "prop-coorte-hourglass": {
+    "file": "prop-coorte-hourglass.jpg",
+    "title": "沙漏頭骨",
+    "license": "Public domain",
+    "artist": "Adriaen Coorte",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adriaen_Coorte_-_Vanitas_Still_Life_with_skull_and_hourglass.jpg",
+    "width": 2282,
+    "height": 2836,
+    "pd": true
+  },
+  "prop-chardin-basket": {
+    "file": "prop-chardin-basket.jpg",
+    "title": "籃具陶罐",
+    "license": "Public domain",
+    "artist": "Chardin",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Still_Life_with_Ray_and_Basket_of_Onions_-_Jean_Sim%C3%A9on_Chardin_-_Google_Cultural_Institute.jpg",
+    "width": 4392,
+    "height": 5548,
     "pd": true
   }
 }

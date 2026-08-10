@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 60,
-    "character_count": 787,
+    "brand_count": 61,
+    "character_count": 801,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -3364,6 +3364,332 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**影片背景/風格參考**：城市/歷史/地圖/動物做動畫背景或風格參考 **注意**：Public domain 授權"
+        }
+      ]
+    },
+    {
+      "slug": "costumes-landscapes-work-animals-props",
+      "name": "Costumes, Landscapes, Work Animals & Props",
+      "name_zh": "民族服飾地景工作動物與道具",
+      "type": "民族服飾 / 地景 / 工作動物 / 道具",
+      "country": "國際",
+      "era": "1500s-1900s",
+      "creator": "各藝術家/攝影師",
+      "publisher": "各美術館/檔案館",
+      "first_appearance_year": 1500,
+      "status": "公有領域 / CC0",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "animal-falconry",
+          "name": "蒙兀兒獵鷹狩獵",
+          "name_zh": "蒙兀兒獵鷹狩獵",
+          "role": "民族服飾/地景/工作動物/道具",
+          "first_appearance": "Abd al-Samad",
+          "creator": "Abd al-Samad",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-falconry.jpg",
+          "reference_gallery": [],
+          "appearance": "波斯蒙兀兒細密畫，帝王獵鷹狩獵。 `波斯蒙兀兒細密畫 帝王獵鷹狩獵`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景/道具動畫參考**：民族服飾/地景/工作動物/道具做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "animal-mauve-sheep",
+          "name": "Mauve雪中牧羊",
+          "name_zh": "Mauve雪中牧羊",
+          "role": "民族服飾/地景/工作動物/道具",
+          "first_appearance": "Anton Mauve",
+          "creator": "Anton Mauve",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-mauve-sheep.jpg",
+          "reference_gallery": [],
+          "appearance": "荷蘭風景油畫，雪地驅趕羊群。 `荷蘭風景油畫 雪地驅趕羊群`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景/道具動畫參考**：民族服飾/地景/工作動物/道具做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "animal-mounted-officer",
+          "name": "倫敦閱兵騎警",
+          "name_zh": "倫敦閱兵騎警",
+          "role": "民族服飾/地景/工作動物/道具",
+          "first_appearance": "British Official",
+          "creator": "British Official",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-mounted-officer.jpg",
+          "reference_gallery": [],
+          "appearance": "黑白新聞攝影，騎馬軍官。 `黑白新聞攝影 騎馬軍官`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景/道具動畫參考**：民族服飾/地景/工作動物/道具做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "animal-vangogh-shepherd",
+          "name": "梵谷牧羊人羊群",
+          "name_zh": "梵谷牧羊人羊群",
+          "role": "民族服飾/地景/工作動物/道具",
+          "first_appearance": "Van Gogh",
+          "creator": "Van Gogh",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/animal-vangogh-shepherd.jpg",
+          "reference_gallery": [],
+          "appearance": "後印象派油畫，牧羊人羊群。 `後印象派油畫 牧羊人羊群`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景/道具動畫參考**：民族服飾/地景/工作動物/道具做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "costume-dahuting",
+          "name": "東漢墓室漢服仕女",
+          "name_zh": "東漢墓室漢服仕女",
+          "role": "民族服飾/地景/工作動物/道具",
+          "first_appearance": "東漢壁畫",
+          "creator": "東漢壁畫",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/costume-dahuting.jpg",
+          "reference_gallery": [],
+          "appearance": "古代墓室壁畫，漢服仕女。 `古代墓室壁畫 漢服仕女`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景/道具動畫參考**：民族服飾/地景/工作動物/道具做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "costume-hanfu",
+          "name": "中國漢服",
+          "name_zh": "中國漢服",
+          "role": "民族服飾/地景/工作動物/道具",
+          "first_appearance": "Supersentai",
+          "creator": "Supersentai",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/costume-hanfu.jpg",
+          "reference_gallery": [],
+          "appearance": "彩色照片，男性漢服正面。 `彩色照片 男性漢服正面`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景/道具動畫參考**：民族服飾/地景/工作動物/道具做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "costume-kokoshnik",
+          "name": "俄國柯科什尼克",
+          "name_zh": "俄國柯科什尼克",
+          "role": "民族服飾/地景/工作動物/道具",
+          "first_appearance": "俄國攝影",
+          "creator": "俄國攝影",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/costume-kokoshnik.jpg",
+          "reference_gallery": [],
+          "appearance": "黑白老照片，婦女傳統服與大冠飾。 `黑白老照片 婦女傳統服與大冠飾`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景/道具動畫參考**：民族服飾/地景/工作動物/道具做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "costume-native-american",
+          "name": "美洲原住民服飾",
+          "name_zh": "美洲原住民服飾",
+          "role": "民族服飾/地景/工作動物/道具",
+          "first_appearance": "19世紀攝影",
+          "creator": "19世紀攝影",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/costume-native-american.jpg",
+          "reference_gallery": [],
+          "appearance": "黑白老照片，平原印地安水牛皮珠飾。 `黑白老照片 平原印地安水牛皮珠飾`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景/道具動畫參考**：民族服飾/地景/工作動物/道具做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "costume-sari",
+          "name": "印度沙麗穿搭",
+          "name_zh": "印度沙麗穿搭",
+          "role": "民族服飾/地景/工作動物/道具",
+          "first_appearance": "India",
+          "creator": "India",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/costume-sari.jpg",
+          "reference_gallery": [],
+          "appearance": "印度水彩插圖，沙麗多種穿搭。 `印度水彩插圖 沙麗多種穿搭`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景/道具動畫參考**：民族服飾/地景/工作動物/道具做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "land-prismatic-spring",
+          "name": "黃石大棱鏡溫泉",
+          "name_zh": "黃石大棱鏡溫泉",
+          "role": "民族服飾/地景/工作動物/道具",
+          "first_appearance": "Commons",
+          "creator": "Commons",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-prismatic-spring.jpg",
+          "reference_gallery": [],
+          "appearance": "現代彩色空拍，彩虹色溫泉水體。 `現代彩色空拍 彩虹色溫泉水體`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景/道具動畫參考**：民族服飾/地景/工作動物/道具做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "land-yosemite-spires",
+          "name": "優勝美地修士尖塔",
+          "name_zh": "優勝美地修士尖塔",
+          "role": "民族服飾/地景/工作動物/道具",
+          "first_appearance": "Carleton Watkins",
+          "creator": "Carleton Watkins",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-yosemite-spires.jpg",
+          "reference_gallery": [],
+          "appearance": "19世紀黑白風景攝影，峽谷尖塔巨岩。 `19世紀黑白風景攝影 峽谷尖塔巨岩`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景/道具動畫參考**：民族服飾/地景/工作動物/道具做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "prop-chardin-basket",
+          "name": "夏丹魟魚洋蔥",
+          "name_zh": "夏丹魟魚洋蔥",
+          "role": "民族服飾/地景/工作動物/道具",
+          "first_appearance": "Chardin",
+          "creator": "Chardin",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/prop-chardin-basket.jpg",
+          "reference_gallery": [],
+          "appearance": "法國寫實靜物，一籃蔬果陶罐。 `法國寫實靜物 一籃蔬果陶罐`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景/道具動畫參考**：民族服飾/地景/工作動物/道具做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "prop-coorte-hourglass",
+          "name": "Coorte頭骨沙漏",
+          "name_zh": "Coorte頭骨沙漏",
+          "role": "民族服飾/地景/工作動物/道具",
+          "first_appearance": "Adriaen Coorte",
+          "creator": "Adriaen Coorte",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/prop-coorte-hourglass.jpg",
+          "reference_gallery": [],
+          "appearance": "荷蘭虛空靜物，沙漏頭骨書本。 `荷蘭虛空靜物 沙漏頭骨書本`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景/道具動畫參考**：民族服飾/地景/工作動物/道具做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "prop-hiroshige-rain",
+          "name": "廣重庄野驟雨",
+          "name_zh": "廣重庄野驟雨",
+          "role": "民族服飾/地景/工作動物/道具",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/prop-hiroshige-rain.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪木版，雨中撐傘行人。 `浮世繪木版 雨中撐傘行人`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色/場景/道具動畫參考**：民族服飾/地景/工作動物/道具做動畫參考 **注意**：CC0 授權"
         }
       ]
     },
