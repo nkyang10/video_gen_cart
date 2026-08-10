@@ -2988,5 +2988,85 @@
     "width": 896,
     "height": 884,
     "pd": true
+  },
+  "prop-shuriken": {
+    "file": "prop-shuriken.png",
+    "title": "手裡劍 3D",
+    "license": "CC0",
+    "artist": "Quaternius",
+    "source_url": "https://opengameart.org/sites/default/files/shuriken_pack-v2.zip",
+    "width": 1920,
+    "height": 1080,
+    "pd": true
+  },
+  "prop-medieval-weapons": {
+    "file": "prop-medieval-weapons.png",
+    "title": "中世紀武器套",
+    "license": "CC0",
+    "artist": "Quaternius",
+    "source_url": "https://opengameart.org/sites/default/files/MedievalPack.zip",
+    "width": 32,
+    "height": 32,
+    "pd": true
+  },
+  "prop-rpg-items": {
+    "file": "prop-rpg-items.png",
+    "title": "RPG 道具",
+    "license": "CC0",
+    "artist": "Jetrel",
+    "source_url": "https://opengameart.org/sites/default/files/props_0.png",
+    "width": 512,
+    "height": 224,
+    "pd": true
+  },
+  "prop-laser-bullets": {
+    "file": "prop-laser-bullets.png",
+    "title": "雷射光彈特效",
+    "license": "CC0",
+    "artist": "Wenrexa",
+    "source_url": "https://opengameart.org/sites/default/files/sprites_-_lasers_bullets_1_66v2.5.zip",
+    "width": 126,
+    "height": 121,
+    "pd": true
+  },
+  "prop-guns": {
+    "file": "prop-guns.png",
+    "title": "32x32 槍械",
+    "license": "CC0",
+    "artist": "SnoopethDuckDuck",
+    "source_url": "https://opengameart.org/sites/default/files/snoopeths_guns.zip",
+    "width": 244,
+    "height": 139,
+    "pd": true
+  },
+  "prop-magic-crystals": {
+    "file": "prop-magic-crystals.png",
+    "title": "魔法水晶 88 張",
+    "license": "CC0",
+    "artist": "Wenrexa",
+    "source_url": "https://opengameart.org/sites/default/files/CrystalPackWenrexa.zip",
+    "width": 114,
+    "height": 146,
+    "pd": true
+  },
+  "prop-tablet": {
+    "file": "prop-tablet.png",
+    "title": "平板電腦",
+    "license": "CC-BY 3.0",
+    "artist": "XCVG/andyjt",
+    "source_url": "https://opengameart.org/sites/default/files/TabletAndroidGameLoading.png",
+    "width": 177,
+    "height": 233,
+    "pd": true
+  },
+  "prop-candy": {
+    "file": "prop-candy.png",
+    "title": "300+ 甜點",
+    "license": "Public domain",
+    "artist": "M484 Games",
+    "source_url": "https://opengameart.org/sites/default/files/M484SuperCandySetV2.png",
+    "width": 690,
+    "height": 1224,
+    "pd": true
   }
 }
