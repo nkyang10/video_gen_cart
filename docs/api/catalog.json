@@ -3,7 +3,7 @@
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
     "brand_count": 55,
-    "character_count": 666,
+    "character_count": 681,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -9565,6 +9565,28 @@
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-hiroshige-fireworks",
+          "name": "兩國煙花",
+          "name_zh": "兩國煙花",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-fireworks.jpg",
+          "reference_gallery": [],
+          "appearance": "江戶百景夜景，漫天煙花蓋兩國橋。 `江戶百景夜景 漫天煙花蓋兩國橋`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-hiroshige-fox-fires",
           "name": "江戶百景狐狸怪火",
           "name_zh": "江戶百景狐狸怪火",
@@ -9585,6 +9607,138 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hiroshige-irises",
+          "name": "堀切菖蒲園",
+          "name_zh": "堀切菖蒲園",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-irises.jpg",
+          "reference_gallery": [],
+          "appearance": "花卉圖騰，菖蒲盛開池畔。 `花卉圖騰 菖蒲盛開池畔`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hiroshige-nihonbashi",
+          "name": "東海道日本橋",
+          "name_zh": "東海道日本橋",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-nihonbashi.jpg",
+          "reference_gallery": [],
+          "appearance": "熱鬧行列，大名家臣行列。 `熱鬧行列 大名家臣行列`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hiroshige-oiso",
+          "name": "東海道大磯虎之雨",
+          "name_zh": "東海道大磯虎之雨",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-oiso.jpg",
+          "reference_gallery": [],
+          "appearance": "抒情雨景，情人傘下煙雨。 `抒情雨景 情人傘下煙雨`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hiroshige-plum",
+          "name": "亀戸梅園",
+          "name_zh": "亀戸梅園",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-plum.jpg",
+          "reference_gallery": [],
+          "appearance": "江戶百景梅花，白梅老幹斜出。 `江戶百景梅花 白梅老幹斜出`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hiroshige-ryogoku",
+          "name": "兩國橋夏夜煙火",
+          "name_zh": "兩國橋夏夜煙火",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-ryogoku.jpg",
+          "reference_gallery": [],
+          "appearance": "名所繪，夏夜煙火祭典。 `名所繪 夏夜煙火祭典`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hiroshige-shower",
+          "name": "大橋安宅夕立",
+          "name_zh": "大橋安宅夕立",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-shower.jpg",
+          "reference_gallery": [],
+          "appearance": "名所繪雨景，大橋驟雨撐傘。 `名所繪雨景 大橋驟雨撐傘`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-hokusai-manga-01",
@@ -9697,6 +9851,72 @@
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-kuniyoshi-inada",
+          "name": "稻田九郎進助",
+          "name_zh": "稻田九郎進助",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kuniyoshi-inada.jpg",
+          "reference_gallery": [],
+          "appearance": "武者繪，武士決鬥斬殺。 `武者繪 武士決鬥斬殺`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-kuniyoshi-samurai-triptych",
+          "name": "平家武者復仇",
+          "name_zh": "平家武者復仇",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "歌川國芳",
+          "creator": "歌川國芳",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kuniyoshi-samurai-triptych.jpg",
+          "reference_gallery": [],
+          "appearance": "武士三聯畫，武士鎧甲復仇。 `武士三聯畫 武士鎧甲復仇`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-kuniyoshi-skeleton",
+          "name": "妖怪骨骼武士",
+          "name_zh": "妖怪骨骼武士",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "歌川國芳",
+          "creator": "歌川國芳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kuniyoshi-skeleton.jpg",
+          "reference_gallery": [],
+          "appearance": "武者妖怪繪，武士對骸骨妖怪。 `武者妖怪繪 武士對骸骨妖怪`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-kuniyoshi-tokaido",
           "name": "國芳貓東海道五十三次",
           "name_zh": "國芳貓東海道五十三次",
@@ -9717,6 +9937,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-kuniyoshi-yang-chun",
+          "name": "白花蛇楊春",
+          "name_zh": "白花蛇楊春",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "歌川國芳",
+          "creator": "歌川國芳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kuniyoshi-yang-chun.jpg",
+          "reference_gallery": [],
+          "appearance": "神魔筋肉武者，肌肉武者紋身勇士。 `神魔筋肉武者 肌肉武者紋身勇士`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-maneki-neko",
@@ -9783,6 +10025,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "jp-samurai-armor",
+          "name": "武士全副盔甲",
+          "name_zh": "武士全副盔甲",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "Wellcome",
+          "creator": "Wellcome",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-samurai-armor.jpg",
+          "reference_gallery": [],
+          "appearance": "19世紀武士水彩，武士大鎧兜刀。 `19世紀武士水彩 武士大鎧兜刀`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：CC-BY 4.0 授權"
         },
         {
           "slug": "jp-sesshu-haboku",
@@ -9873,6 +10137,50 @@
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-yoshitoshi-demon",
+          "name": "逢魔時遇鬼",
+          "name_zh": "逢魔時遇鬼",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-yoshitoshi-demon.jpg",
+          "reference_gallery": [],
+          "appearance": "妖怪合戰，武士背女鬼顯形。 `妖怪合戰 武士背女鬼顯形`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-yoshitoshi-enlightenment",
+          "name": "地獄太夫悟道",
+          "name_zh": "地獄太夫悟道",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-yoshitoshi-enlightenment.jpg",
+          "reference_gallery": [],
+          "appearance": "怪談幽靈，幽靈遊女列隊。 `怪談幽靈 幽靈遊女列隊`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-yoshitoshi-moon",
           "name": "月百姿五條橋之月",
           "name_zh": "月百姿五條橋之月",
@@ -9893,6 +10201,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-yoshitoshi-moon33",
+          "name": "月百姿第33景",
+          "name_zh": "月百姿第33景",
+          "role": "日式藝術/浮世繪/武士/祭典",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-yoshitoshi-moon33.jpg",
+          "reference_gallery": [],
+          "appearance": "月百姿，滿月配人物剪影。 `月百姿 滿月配人物剪影`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
         }
       ]
     },

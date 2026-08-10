@@ -6178,5 +6178,155 @@
     "width": 1743,
     "height": 2500,
     "pd": true
+  },
+  "jp-hiroshige-fireworks": {
+    "file": "jp-hiroshige-fireworks.jpg",
+    "title": "漫天煙花",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/100%20views%20edo%20098.jpg",
+    "width": 780,
+    "height": 1200,
+    "pd": true
+  },
+  "jp-hiroshige-oiso": {
+    "file": "jp-hiroshige-oiso.jpg",
+    "title": "虎之雨傘下",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiroshige-53-Stations-Hoeido-09-Oiso-BM.jpg",
+    "width": 720,
+    "height": 468,
+    "pd": true
+  },
+  "jp-hiroshige-nihonbashi": {
+    "file": "jp-hiroshige-nihonbashi.jpg",
+    "title": "大名家行列",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiroshige-53-Stations-Hoeido-01-Nihonbashi-BM-03.jpg",
+    "width": 1600,
+    "height": 1067,
+    "pd": true
+  },
+  "jp-yoshitoshi-enlightenment": {
+    "file": "jp-yoshitoshi-enlightenment.jpg",
+    "title": "幽靈遊女",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshitoshi%20The%20Enlightenment.jpg",
+    "width": 1130,
+    "height": 1680,
+    "pd": true
+  },
+  "jp-yoshitoshi-demon": {
+    "file": "jp-yoshitoshi-demon.jpg",
+    "title": "武士背女鬼",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshitoshi%20Encountering%20a%20Demon.jpg",
+    "width": 1383,
+    "height": 2001,
+    "pd": true
+  },
+  "jp-yoshitoshi-moon33": {
+    "file": "jp-yoshitoshi-moon33.jpg",
+    "title": "滿月人物",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshitoshi%20-%20100%20Aspects%20of%20the%20Moon%20-%2033.jpg",
+    "width": 1712,
+    "height": 2288,
+    "pd": true
+  },
+  "jp-kuniyoshi-inada": {
+    "file": "jp-kuniyoshi-inada.jpg",
+    "title": "武士決鬥",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Inada%20Kyuzo%20Shinsuke.jpg",
+    "width": 919,
+    "height": 1358,
+    "pd": true
+  },
+  "jp-kuniyoshi-samurai-triptych": {
+    "file": "jp-kuniyoshi-samurai-triptych.jpg",
+    "title": "武士鎧甲復仇",
+    "license": "CC0",
+    "artist": "歌川國芳",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/MET%20DP146823.jpg",
+    "width": 3939,
+    "height": 1986,
+    "pd": true
+  },
+  "jp-kuniyoshi-skeleton": {
+    "file": "jp-kuniyoshi-skeleton.jpg",
+    "title": "武士對骸骨妖",
+    "license": "Public domain",
+    "artist": "歌川國芳",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Triptych%20print%20%28BM%201915,0823,0.915-916%201%29.jpg",
+    "width": 1060,
+    "height": 1600,
+    "pd": true
+  },
+  "jp-kuniyoshi-yang-chun": {
+    "file": "jp-kuniyoshi-yang-chun.jpg",
+    "title": "肌肉武者",
+    "license": "Public domain",
+    "artist": "歌川國芳",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakkaja%20Yoshun%20%E7%99%BD%E8%8A%B1%E8%9B%87%E6%A5%8A%E6%98%A5%20%28White%20Spotted%20Serpent%20Yang%20Chun%29%20%28BM%202008,3037.10207%29.jpg",
+    "width": 1128,
+    "height": 1600,
+    "pd": true
+  },
+  "jp-samurai-armor": {
+    "file": "jp-samurai-armor.jpg",
+    "title": "武士大鎧",
+    "license": "CC-BY 4.0",
+    "artist": "Wellcome",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20Japanese%20Samurai%20warrior%20in%20his%20armour.%20Watercolour.%20Wellcome%20V0043803.jpg",
+    "width": 3043,
+    "height": 2620,
+    "pd": true
+  },
+  "jp-hiroshige-ryogoku": {
+    "file": "jp-hiroshige-ryogoku.jpg",
+    "title": "夏夜煙火",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Utagawa%20Hiroshige%20-%20Enjoying%20the%20fireworks%20and%20the%20cool%20of%20the%20evening%20at%20Ryogoku%20bridge%20in%20the%20Eastern%20Capital%20-%20Google%20Art%20Project.jpg",
+    "width": 2349,
+    "height": 3508,
+    "pd": true
+  },
+  "jp-hiroshige-plum": {
+    "file": "jp-hiroshige-plum.jpg",
+    "title": "白梅老幹",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Plum%20garden%20at%20Kameido%20%28Kameido%20umeyashiki%29%20%28CBL%20J%202693%29.jpg",
+    "width": 4565,
+    "height": 6638,
+    "pd": true
+  },
+  "jp-hiroshige-shower": {
+    "file": "jp-hiroshige-shower.jpg",
+    "title": "大橋驟雨",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Utagawa%20Hiroshige%20-%20Evening%20Shower%20at%20Atake%20and%20the%20Great%20Bridge.jpg",
+    "width": 6300,
+    "height": 9200,
+    "pd": true
+  },
+  "jp-hiroshige-irises": {
+    "file": "jp-hiroshige-irises.jpg",
+    "title": "菖蒲花卉",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/100%20views%20edo%20056.jpg",
+    "width": 788,
+    "height": 1200,
+    "pd": true
   }
 }
