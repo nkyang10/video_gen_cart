@@ -2538,5 +2538,105 @@
     "width": 2339,
     "height": 3213,
     "pd": true
+  },
+  "intl-max-moritz": {
+    "file": "intl-max-moritz.png",
+    "title": "Max & Moritz（德）",
+    "license": "Public domain",
+    "artist": "Wilhelm Busch",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Max_und_Moritz_%28Busch%29_089.png",
+    "width": 2520,
+    "height": 1560,
+    "pd": true
+  },
+  "intl-struwwelpeter": {
+    "file": "intl-struwwelpeter.jpg",
+    "title": "Struwwelpeter（德）",
+    "license": "Public domain",
+    "artist": "Heinrich Hoffmann",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Struwwelpeter_1.jpg",
+    "width": 757,
+    "height": 837,
+    "pd": true
+  },
+  "intl-ally-sloper": {
+    "file": "intl-ally-sloper.jpg",
+    "title": "Ally Sloper（英）",
+    "license": "Public domain",
+    "artist": "Charles Ross/Marie Duval",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ally_Sloper_by_W._G._Baxter.jpg",
+    "width": 1152,
+    "height": 863,
+    "pd": true
+  },
+  "intl-john-bull": {
+    "file": "intl-john-bull.jpg",
+    "title": "John Bull（英）",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/John_Bull_and_his_Friends_1900.jpg",
+    "width": 8439,
+    "height": 5943,
+    "pd": true
+  },
+  "intl-tagosaku-mokube": {
+    "file": "intl-tagosaku-mokube.jpg",
+    "title": "田鄉與目久部（日）",
+    "license": "Public domain",
+    "artist": "北澤樂天",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Tagosaku_to_Mokube_no_Tokyo_Kenbutsu.jpg",
+    "width": 600,
+    "height": 853,
+    "pd": true
+  },
+  "intl-okamoto-flapper": {
+    "file": "intl-okamoto-flapper.jpg",
+    "title": "摩登女郎（Okamoto Ippei）（日）",
+    "license": "Public domain",
+    "artist": "岡本一平",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Cafe_and_Flapper_%281927%29%E2%80%99_by_Okamoto_Ippei%2C_Honolulu_Museum_of_Art.jpg",
+    "width": 800,
+    "height": 570,
+    "pd": true
+  },
+  "intl-snegurochka": {
+    "file": "intl-snegurochka.jpg",
+    "title": "雪姑娘（Snegurochka）（俄）",
+    "license": "Public domain",
+    "artist": "Viktor Vasnetsov",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Snegurochka_by_Vasnetsov_-_study_%281899%2C_Vyatka%29.jpg",
+    "width": 495,
+    "height": 341,
+    "pd": true
+  },
+  "intl-cinderella-dore": {
+    "file": "intl-cinderella-dore.jpg",
+    "title": "灰姑娘（Doré）（法）",
+    "license": "Public domain",
+    "artist": "Gustave Doré",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Gustave_dore_cendrillon4.JPG",
+    "width": 1000,
+    "height": 1288,
+    "pd": true
+  },
+  "intl-frog-prince": {
+    "file": "intl-frog-prince.jpg",
+    "title": "青蛙王子（Rackham）（英）",
+    "license": "Public domain",
+    "artist": "Arthur Rackham",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Arthur_Rackham_Frog_Prince.jpg",
+    "width": 800,
+    "height": 1173,
+    "pd": true
+  },
+  "intl-becassine": {
+    "file": "intl-becassine.jpg",
+    "title": "貝卡西娜（Bécassine）（法）",
+    "license": "Public domain",
+    "artist": "Caumery/Pinchon",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/B%C3%A9cassine%2C_vue_par_une_admiratrice_%28d%C3%A9tail%29.jpg",
+    "width": 2592,
+    "height": 1944,
+    "pd": true
   }
 }

@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 31,
-    "character_count": 261,
+    "brand_count": 32,
+    "character_count": 271,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -2587,6 +2587,244 @@
           "type": "路人",
           "relation": "Happy 嘅女友同佢隻狗",
           "interaction": "Suzanne 係 Happy 嘅女友（卡巴萊公爵嘅女），狗 Flip 係佢嘅寵物。佢哋係 Happy 生活嘅溫暖配角，Suzanne 唔嫌棄 Happy 嘅破落，係少數對佢好嘅角色。\n"
+        }
+      ]
+    },
+    {
+      "slug": "international-pd-characters",
+      "name": "International PD Characters",
+      "name_zh": "國際公版角色",
+      "type": "各國公版漫畫/童話角色",
+      "country": "國際",
+      "era": "1800s-1920s",
+      "creator": "各國名家",
+      "publisher": "各國出版",
+      "first_appearance_year": 1712,
+      "status": "公版（PD-Art / PD-US）",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "intl-ally-sloper",
+          "name": "艾利斯洛珀（Ally Sloper）",
+          "name_zh": "艾利斯洛珀（Ally Sloper）",
+          "role": "國際公版角色",
+          "first_appearance": "1867",
+          "creator": "Charles Ross/Marie Duval",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期公版版本；後期彩色版可能仍受版權",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/intl-ally-sloper.jpg",
+          "reference_gallery": [],
+          "appearance": "英式滑稽漫畫風格，圓頂帽、絡腮鬍、條紋褲紳士。 `英式滑稽漫畫 vintage character, 圓頂帽、絡腮鬍、條紋褲紳士`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版版本做復古動畫參考 **⚠️ 注意**：只用早期公版版本，唔用後期再創作彩色版（可能仍受版權）"
+        },
+        {
+          "slug": "intl-becassine",
+          "name": "貝卡西娜（Bécassine）",
+          "name_zh": "貝卡西娜（Bécassine）",
+          "role": "國際公版角色",
+          "first_appearance": "1905",
+          "creator": "Caumery/Pinchon",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期公版版本；後期彩色版可能仍受版權",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/intl-becassine.jpg",
+          "reference_gallery": [],
+          "appearance": "法式童書插畫風格，布列塔尼女僕、頭巾長裙。 `法式童書插畫 vintage character, 布列塔尼女僕、頭巾長裙`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版版本做復古動畫參考 **⚠️ 注意**：只用早期公版版本，唔用後期再創作彩色版（可能仍受版權）"
+        },
+        {
+          "slug": "intl-cinderella-dore",
+          "name": "灰姑娘（Cinderella，Doré）",
+          "name_zh": "灰姑娘（Cinderella，Doré）",
+          "role": "國際公版角色",
+          "first_appearance": "1862",
+          "creator": "Gustave Doré",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期公版版本；後期彩色版可能仍受版權",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/intl-cinderella-dore.jpg",
+          "reference_gallery": [],
+          "appearance": "多雷式雕版風格，宮廷舞會奇幻雕版。 `多雷式雕版 vintage character, 宮廷舞會奇幻雕版`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版版本做復古動畫參考 **⚠️ 注意**：只用早期公版版本，唔用後期再創作彩色版（可能仍受版權）"
+        },
+        {
+          "slug": "intl-frog-prince",
+          "name": "青蛙王子（Frog Prince，Rackham）",
+          "name_zh": "青蛙王子（Frog Prince，Rackham）",
+          "role": "國際公版角色",
+          "first_appearance": "1931前",
+          "creator": "Arthur Rackham",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期公版版本；後期彩色版可能仍受版權",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/intl-frog-prince.jpg",
+          "reference_gallery": [],
+          "appearance": "拉克姆水彩風格，幽暗森林精靈風水彩。 `拉克姆水彩 vintage character, 幽暗森林精靈風水彩`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版版本做復古動畫參考 **⚠️ 注意**：只用早期公版版本，唔用後期再創作彩色版（可能仍受版權）"
+        },
+        {
+          "slug": "intl-john-bull",
+          "name": "約翰布爾（John Bull）",
+          "name_zh": "約翰布爾（John Bull）",
+          "role": "國際公版角色",
+          "first_appearance": "1712",
+          "creator": "佚名",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期公版版本；後期彩色版可能仍受版權",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/intl-john-bull.jpg",
+          "reference_gallery": [],
+          "appearance": "英國國家化身風格，壯碩農夫、米字花呢、高禮帽。 `英國國家化身 vintage character, 壯碩農夫、米字花呢、高禮帽`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版版本做復古動畫參考 **⚠️ 注意**：只用早期公版版本，唔用後期再創作彩色版（可能仍受版權）"
+        },
+        {
+          "slug": "intl-max-moritz",
+          "name": "馬克斯與莫里茨（Max & Moritz）",
+          "name_zh": "馬克斯與莫里茨（Max & Moritz）",
+          "role": "國際公版角色",
+          "first_appearance": "1865",
+          "creator": "Wilhelm Busch",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期公版版本；後期彩色版可能仍受版權",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/intl-max-moritz.png",
+          "reference_gallery": [],
+          "appearance": "德式幽默線條風格，兩個調皮男童、弔帶短褲小帽。 `德式幽默線條 vintage character, 兩個調皮男童、弔帶短褲小帽`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版版本做復古動畫參考 **⚠️ 注意**：只用早期公版版本，唔用後期再創作彩色版（可能仍受版權）"
+        },
+        {
+          "slug": "intl-okamoto-flapper",
+          "name": "摩登女郎（Cafe and Flapper）",
+          "name_zh": "摩登女郎（Cafe and Flapper）",
+          "role": "國際公版角色",
+          "first_appearance": "1927",
+          "creator": "岡本一平",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期公版版本；後期彩色版可能仍受版權",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/intl-okamoto-flapper.jpg",
+          "reference_gallery": [],
+          "appearance": "昭和時尚素描風格，大正摩登少女（moga）。 `昭和時尚素描 vintage character, 大正摩登少女（moga）`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版版本做復古動畫參考 **⚠️ 注意**：只用早期公版版本，唔用後期再創作彩色版（可能仍受版權）"
+        },
+        {
+          "slug": "intl-snegurochka",
+          "name": "雪姑娘（Snegurochka）",
+          "name_zh": "雪姑娘（Snegurochka）",
+          "role": "國際公版角色",
+          "first_appearance": "1899",
+          "creator": "Viktor Vasnetsov",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期公版版本；後期彩色版可能仍受版權",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/intl-snegurochka.jpg",
+          "reference_gallery": [],
+          "appearance": "俄國民俗油畫風格，白裘少女雪夜營火。 `俄國民俗油畫 vintage character, 白裘少女雪夜營火`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版版本做復古動畫參考 **⚠️ 注意**：只用早期公版版本，唔用後期再創作彩色版（可能仍受版權）"
+        },
+        {
+          "slug": "intl-struwwelpeter",
+          "name": "蓬頭彼得（Struwwelpeter）",
+          "name_zh": "蓬頭彼得（Struwwelpeter）",
+          "role": "國際公版角色",
+          "first_appearance": "1845",
+          "creator": "Heinrich Hoffmann",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期公版版本；後期彩色版可能仍受版權",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/intl-struwwelpeter.jpg",
+          "reference_gallery": [],
+          "appearance": "手繪童書插圖風格，蓬張亂髮、長指甲頑童。 `手繪童書插圖 vintage character, 蓬張亂髮、長指甲頑童`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版版本做復古動畫參考 **⚠️ 注意**：只用早期公版版本，唔用後期再創作彩色版（可能仍受版權）"
+        },
+        {
+          "slug": "intl-tagosaku-mokube",
+          "name": "田鄉與目久部（Tagosaku & Mokube）",
+          "name_zh": "田鄉與目久部（Tagosaku & Mokube）",
+          "role": "國際公版角色",
+          "first_appearance": "1902",
+          "creator": "北澤樂天",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期公版版本；後期彩色版可能仍受版權",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/intl-tagosaku-mokube.jpg",
+          "reference_gallery": [],
+          "appearance": "諷刺連環畫風格，明治西服與和服二人組。 `諷刺連環畫 vintage character, 明治西服與和服二人組`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版版本做復古動畫參考 **⚠️ 注意**：只用早期公版版本，唔用後期再創作彩色版（可能仍受版權）"
         }
       ]
     },
