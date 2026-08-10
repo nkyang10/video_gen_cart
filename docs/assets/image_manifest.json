@@ -10458,5 +10458,135 @@
     "width": 4372,
     "height": 2906,
     "pd": true
+  },
+  "jp-hokusai-thunder": {
+    "file": "jp-hokusai-thunder.jpg",
+    "title": "富士黑雲閃電",
+    "license": "CC-BY 3.0",
+    "artist": "葛飾北齋",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Katsushika_Hokusai%2C_tempesta_sotto_la_vetta%2C_dalla_serie_delle_36_vedute_del_monte_fuji%2C_1831_ca.jpg",
+    "width": 3780,
+    "height": 2556,
+    "pd": true
+  },
+  "jp-kuniyoshi-tiger": {
+    "file": "jp-kuniyoshi-tiger.jpg",
+    "title": "猛虎全身像",
+    "license": "Public domain",
+    "artist": "歌川國芳",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Tora_%E5%AF%85_%28Tiger%29_%28BM_2008%2C3037.01001%29.jpg",
+    "width": 594,
+    "height": 1600,
+    "pd": true
+  },
+  "jp-kuniyoshi-tiger-dragon": {
+    "file": "jp-kuniyoshi-tiger-dragon.jpg",
+    "title": "虎龍相鬥",
+    "license": "Public domain",
+    "artist": "歌川國芳",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Tora%2C_tatsu_%E5%AF%85%E9%BE%8D_%28Tiger_and_dragon%29_%28BM_2008%2C3037.02402%29.jpg",
+    "width": 1058,
+    "height": 1600,
+    "pd": true
+  },
+  "jp-kuniyoshi-coxinga": {
+    "file": "jp-kuniyoshi-coxinga.jpg",
+    "title": "英雄持械戰虎",
+    "license": "Public domain",
+    "artist": "歌川國芳",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Coxinga_attacking_the_tiger.jpg",
+    "width": 3200,
+    "height": 1563,
+    "pd": true
+  },
+  "jp-hiroshige-takanawa": {
+    "file": "jp-hiroshige-takanawa.jpg",
+    "title": "月夜海邊舟影",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Takanawa_tsuki_no_kei_LCCN2009615469.jpg",
+    "width": 2500,
+    "height": 1754,
+    "pd": true
+  },
+  "jp-nihonga-kannon": {
+    "file": "jp-nihonga-kannon.jpg",
+    "title": "慈悲觀音金背光",
+    "license": "Public domain",
+    "artist": "日本畫",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Hibo_Kannon_%28%E6%82%B2%E6%AF%8D%E8%A6%B3%E9%9F%B3%29_Original_on_Silk_Scroll.jpg",
+    "width": 2424,
+    "height": 5600,
+    "pd": true
+  },
+  "jp-yamakawa-bijinga": {
+    "file": "jp-yamakawa-bijinga.jpg",
+    "title": "和服美人立姿",
+    "license": "Public domain",
+    "artist": "山川秀峰",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Bijinga_by_Yamakawa_Sh%C5%ABh%C5%8D_02.jpg",
+    "width": 1690,
+    "height": 2400,
+    "pd": true
+  },
+  "egypt-mastaba-ti": {
+    "file": "egypt-mastaba-ti.jpg",
+    "title": "貴族僕從浮雕",
+    "license": "Public domain",
+    "artist": "古埃及",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Mastaba_Ti_07.jpg",
+    "width": 845,
+    "height": 634,
+    "pd": true
+  },
+  "egypt-winged-scarab": {
+    "file": "egypt-winged-scarab.jpg",
+    "title": "有翼聖甲蟲護符",
+    "license": "CC0",
+    "artist": "埃及",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Winged_Scarab_Amulet_MET_LC-25_5_1a_EGDP028099.jpg",
+    "width": 4000,
+    "height": 2249,
+    "pd": true
+  },
+  "greece-alexander-mosaic": {
+    "file": "greece-alexander-mosaic.jpg",
+    "title": "亞歷山大戰大流士",
+    "license": "Public domain",
+    "artist": "希臘化",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Battle_of_Issus_mosaic_-_Museo_Archeologico_Nazionale_-_Naples_2013-05-16_16-25-06_BW.jpg",
+    "width": 3562,
+    "height": 2133,
+    "pd": true
+  },
+  "greece-red-figure-cup": {
+    "file": "greece-red-figure-cup.jpg",
+    "title": "紅繪人像杯",
+    "license": "Public domain",
+    "artist": "希臘",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Cup_Apatouria_Louvre_G138.jpg",
+    "width": 2427,
+    "height": 2014,
+    "pd": true
+  },
+  "greece-tanagra-lady": {
+    "file": "greece-tanagra-lady.jpg",
+    "title": "彩陶女子像",
+    "license": "Public domain",
+    "artist": "希臘",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Lady_in_blue_Louvre_MNB907.jpg",
+    "width": 1350,
+    "height": 3175,
+    "pd": true
+  },
+  "rome-capitoline-wolf": {
+    "file": "rome-capitoline-wolf.jpg",
+    "title": "母狼哺乳雙子",
+    "license": "CC0",
+    "artist": "古羅馬",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Lupa_Capitolina%2C_Rome.jpg",
+    "width": 2500,
+    "height": 1627,
+    "pd": true
   }
 }

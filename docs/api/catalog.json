@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 77,
-    "character_count": 1102,
+    "brand_count": 78,
+    "character_count": 1115,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -4903,6 +4903,156 @@
           "type": "路人",
           "relation": "米奇喺船上嘅「樂器」",
           "interaction": "1928《Steamboat Willie》入面隻山羊食咗米奇嘅琴譜，之後米奇就「扭」山羊條尾當搖杆、攞佢當留聲機/樂器演奏《Turkey in the Straw》。山羊係默片喜劇嘅「工具型配角」，反映 1928 年代嘅動物樂器笑話。\n"
+        }
+      ]
+    },
+    {
+      "slug": "egyptian-greek-roman-antiquity",
+      "name": "Egyptian, Greek & Roman Antiquity",
+      "name_zh": "埃及希臘羅馬古文明",
+      "type": "埃及 / 希臘 / 羅馬古藝術",
+      "country": "地中海",
+      "era": "公元前-400AD",
+      "creator": "各古文明工匠",
+      "publisher": "各博物館",
+      "first_appearance_year": -2600,
+      "status": "公有領域 / CC0",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "egypt-mastaba-ti",
+          "name": "埃及提群像墓浮雕",
+          "name_zh": "埃及提群像墓浮雕",
+          "role": "埃及/希臘/羅馬古藝術",
+          "first_appearance": "古埃及",
+          "creator": "古埃及",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/egypt-mastaba-ti.jpg",
+          "reference_gallery": [],
+          "appearance": "古王國浮雕，貴族僕從浮雕。 `古王國浮雕 貴族僕從浮雕`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：埃及/希臘/羅馬古藝術做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "egypt-winged-scarab",
+          "name": "埃及有翼聖甲蟲",
+          "name_zh": "埃及有翼聖甲蟲",
+          "role": "埃及/希臘/羅馬古藝術",
+          "first_appearance": "埃及",
+          "creator": "埃及",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/egypt-winged-scarab.jpg",
+          "reference_gallery": [],
+          "appearance": "護符形制，有翼聖甲蟲護符。 `護符形制 有翼聖甲蟲護符`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：埃及/希臘/羅馬古藝術做動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "greece-alexander-mosaic",
+          "name": "希臘亞歷山大鑲嵌畫",
+          "name_zh": "希臘亞歷山大鑲嵌畫",
+          "role": "埃及/希臘/羅馬古藝術",
+          "first_appearance": "希臘化",
+          "creator": "希臘化",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/greece-alexander-mosaic.jpg",
+          "reference_gallery": [],
+          "appearance": "馬賽克鑲嵌，亞歷山大戰大流士。 `馬賽克鑲嵌 亞歷山大戰大流士`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：埃及/希臘/羅馬古藝術做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "greece-red-figure-cup",
+          "name": "希臘紅繪杯",
+          "name_zh": "希臘紅繪杯",
+          "role": "埃及/希臘/羅馬古藝術",
+          "first_appearance": "希臘",
+          "creator": "希臘",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/greece-red-figure-cup.jpg",
+          "reference_gallery": [],
+          "appearance": "紅繪陶，紅繪人像杯。 `紅繪陶 紅繪人像杯`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：埃及/希臘/羅馬古藝術做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "greece-tanagra-lady",
+          "name": "希臘藍衣女陶俑",
+          "name_zh": "希臘藍衣女陶俑",
+          "role": "埃及/希臘/羅馬古藝術",
+          "first_appearance": "希臘",
+          "creator": "希臘",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/greece-tanagra-lady.jpg",
+          "reference_gallery": [],
+          "appearance": "希臘陶俑，彩陶女子像。 `希臘陶俑 彩陶女子像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：埃及/希臘/羅馬古藝術做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "rome-capitoline-wolf",
+          "name": "羅馬卡比托利歐母狼",
+          "name_zh": "羅馬卡比托利歐母狼",
+          "role": "埃及/希臘/羅馬古藝術",
+          "first_appearance": "古羅馬",
+          "creator": "古羅馬",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/rome-capitoline-wolf.jpg",
+          "reference_gallery": [],
+          "appearance": "紋章雕塑，母狼哺乳雙子。 `紋章雕塑 母狼哺乳雙子`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：埃及/希臘/羅馬古藝術做動畫參考 **注意**：CC0 授權"
         }
       ]
     },
@@ -12507,6 +12657,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-hiroshige-takanawa",
+          "name": "廣重高輪月之景",
+          "name_zh": "廣重高輪月之景",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-takanawa.jpg",
+          "reference_gallery": [],
+          "appearance": "月景，月夜海邊舟影。 `月景 月夜海邊舟影`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-hoitsu-maple",
           "name": "酒井抱一楓樹圖",
           "name_zh": "酒井抱一楓樹圖",
@@ -12791,6 +12963,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hokusai-thunder",
+          "name": "北齋山下白雨",
+          "name_zh": "北齋山下白雨",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "葛飾北齋",
+          "creator": "葛飾北齋",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hokusai-thunder.jpg",
+          "reference_gallery": [],
+          "appearance": "名所繪，富士黑雲閃電。 `名所繪 富士黑雲閃電`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC-BY 3.0 授權"
         },
         {
           "slug": "jp-hokusai33",
@@ -13211,6 +13405,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-kuniyoshi-coxinga",
+          "name": "國芳國姓爺打虎",
+          "name_zh": "國芳國姓爺打虎",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川國芳",
+          "creator": "歌川國芳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kuniyoshi-coxinga.jpg",
+          "reference_gallery": [],
+          "appearance": "武者繪，英雄持械戰虎。 `武者繪 英雄持械戰虎`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-kuniyoshi-hakkenden",
           "name": "國芳八犬傳屋頂戰",
           "name_zh": "國芳八犬傳屋頂戰",
@@ -13359,6 +13575,50 @@
           "image": "assets/img/jp-kuniyoshi-surimono.jpg",
           "reference_gallery": [],
           "appearance": "surimono摺物，私人訂製摺物。 `surimono摺物 私人訂製摺物`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-kuniyoshi-tiger-dragon",
+          "name": "國芳虎與龍",
+          "name_zh": "國芳虎與龍",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川國芳",
+          "creator": "歌川國芳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kuniyoshi-tiger-dragon.jpg",
+          "reference_gallery": [],
+          "appearance": "戲畫，虎龍相鬥。 `戲畫 虎龍相鬥`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-kuniyoshi-tiger",
+          "name": "國芳虎",
+          "name_zh": "國芳虎",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川國芳",
+          "creator": "歌川國芳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kuniyoshi-tiger.jpg",
+          "reference_gallery": [],
+          "appearance": "武者繪，猛虎全身像。 `武者繪 猛虎全身像`",
           "dialogue": "",
           "scene": "",
           "personality": "",
@@ -13539,6 +13799,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-nihonga-kannon",
+          "name": "悲母觀音金屏",
+          "name_zh": "悲母觀音金屏",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "日本畫",
+          "creator": "日本畫",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-nihonga-kannon.jpg",
+          "reference_gallery": [],
+          "appearance": "日本畫，慈悲觀音金背光。 `日本畫 慈悲觀音金背光`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-oniwakamaru",
@@ -14397,6 +14679,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-yamakawa-bijinga",
+          "name": "山川秀峰美人畫",
+          "name_zh": "山川秀峰美人畫",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "山川秀峰",
+          "creator": "山川秀峰",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-yamakawa-bijinga.jpg",
+          "reference_gallery": [],
+          "appearance": "美人畫，和服美人立姿。 `美人畫 和服美人立姿`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-yokohama-wharves",
