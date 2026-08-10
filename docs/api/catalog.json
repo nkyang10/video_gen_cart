@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 24,
-    "character_count": 61,
+    "brand_count": 25,
+    "character_count": 101,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -1686,6 +1686,310 @@
       ]
     },
     {
+      "slug": "japanese-anime-backgrounds",
+      "name": "Japanese Anime Backgrounds",
+      "name_zh": "日式動漫背景素材",
+      "type": "背景 / 場景參考素材",
+      "country": "日本",
+      "era": "2000s-",
+      "creator": "各開放創作者",
+      "publisher": "Wikimedia Commons",
+      "first_appearance_year": 2000,
+      "status": "CC0 / CC-BY / CC-BY-SA / 公版 自由授權",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "bg-akihabara",
+          "name": "Akihabara Street",
+          "name_zh": "Akihabara Street",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "DLKR",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-akihabara.jpg",
+          "reference_gallery": [],
+          "appearance": "攝影城景。 `anime city street background, Akihabara modern and retro buildings, urban scenery`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC0 授權"
+        },
+        {
+          "slug": "bg-anime-beach",
+          "name": "Anime Beach Scene",
+          "name_zh": "Anime Beach Scene",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Niabot",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-anime-beach.jpg",
+          "reference_gallery": [],
+          "appearance": "動漫風格數位繪。 `anime style beach scene, ocean and sand, umbrella and towel, digital painting`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "bg-fuji-sakura",
+          "name": "Fuji + Sakura",
+          "name_zh": "Fuji + Sakura",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Midori",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-fuji-sakura.png",
+          "reference_gallery": [],
+          "appearance": "攝影風景。 `Mount Fuji with cherry blossoms and lake, Japanese spring sakura scene`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY 3.0 授權"
+        },
+        {
+          "slug": "bg-ginkakuji",
+          "name": "Ginkaku-ji Temple",
+          "name_zh": "Ginkaku-ji Temple",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Basile Morin",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-ginkakuji.jpg",
+          "reference_gallery": [],
+          "appearance": "攝影風景。 `crepuscular rays over Ginkaku-ji temple, Kyoto, traditional Japanese architecture`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "bg-huntington-garden",
+          "name": "Huntington Japanese Garden",
+          "name_zh": "Huntington Japanese Garden",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Flickr",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-huntington-garden.jpg",
+          "reference_gallery": [],
+          "appearance": "攝影。 `Japanese garden pond with stone lantern and bonsai, traditional garden`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 2.0 授權"
+        },
+        {
+          "slug": "bg-japanese-garden",
+          "name": "Japanese Garden with Koi",
+          "name_zh": "Japanese Garden with Koi",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Th",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-japanese-garden.jpg",
+          "reference_gallery": [],
+          "appearance": "攝影。 `Japanese garden with koi pond and bridge, traditional garden background`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY 4.0 授權"
+        },
+        {
+          "slug": "bg-kobe-night",
+          "name": "Kobe Night Cityscape",
+          "name_zh": "Kobe Night Cityscape",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Laitr Keiows",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-kobe-night.jpg",
+          "reference_gallery": [],
+          "appearance": "攝影夜景。 `anime night city scene, glowing city lights, Kobe at night`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "bg-mint-sakura",
+          "name": "Sakura at Japan Mint",
+          "name_zh": "Sakura at Japan Mint",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Suicasmo",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-mint-sakura.jpg",
+          "reference_gallery": [],
+          "appearance": "攝影季節。 `sakura cherry blossoms in full bloom, Japanese spring scene`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "bg-rail-sakura",
+          "name": "Rail Through Sakura",
+          "name_zh": "Rail Through Sakura",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "掬茶",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-rail-sakura.jpg",
+          "reference_gallery": [],
+          "appearance": "攝影風景。 `train tracks lined with full-bloom cherry trees, anime sakura train scene`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "bg-saga-city",
+          "name": "Furuyu Saga Cityscape",
+          "name_zh": "Furuyu Saga Cityscape",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Peka",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-saga-city.jpg",
+          "reference_gallery": [],
+          "appearance": "攝影風景。 `anime seaside town background, low-rise city from hill, Japanese townscape`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "bg-shinto-shrine",
+          "name": "Shinto Shrine Landscape",
+          "name_zh": "Shinto Shrine Landscape",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Benlisquare",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-shinto-shrine.png",
+          "reference_gallery": [],
+          "appearance": "動漫插圖。 `anime style Shinto shrine in forest with mountains, Gensokyo landscape, illustration`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "bg-skytree",
+          "name": "Tokyo Skytree Worm-Eye",
+          "name_zh": "Tokyo Skytree Worm-Eye",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Basile Morin",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-skytree.jpg",
+          "reference_gallery": [],
+          "appearance": "攝影建築。 `anime dramatic perspective, Tokyo Skytree looking up, vertical symmetry`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "bg-torii-waterfall",
+          "name": "On the Edge",
+          "name_zh": "On the Edge",
+          "role": "背景素材",
+          "first_appearance": "開放創作者",
+          "creator": "Niabot",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/bg-torii-waterfall.jpg",
+          "reference_gallery": [],
+          "appearance": "動漫/漫畫賽璐璐風數位繪。 `anime style landscape with torii gate and waterfall, cel-shaded digital painting, manga background`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**動畫背景**：日式場景做動畫背景基底 **注意**：CC-BY-SA 3.0 授權"
+        }
+      ]
+    },
+    {
       "slug": "japanese-anime-design-sheets",
       "name": "Japanese Anime Design Sheets",
       "name_zh": "日式動漫設計圖庫",
@@ -1701,6 +2005,28 @@
         "code": "public-domain"
       },
       "characters": [
+        {
+          "slug": "1920-storm",
+          "name": "1920 - before the storm",
+          "name_zh": "1920 - before the storm",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Jakub Różalski",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/1920-storm.jpg",
+          "reference_gallery": [],
+          "appearance": "柴油龐克戰爭機甲插畫 原創機甲。 `柴油龐克戰爭機甲插畫 original mecha design, concept art`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY-SA 4.0 授權"
+        },
         {
           "slug": "1d-model-sheet",
           "name": "1D (Blender mascot)",
@@ -1722,6 +2048,138 @@
           "scene": "角色設定表 動畫製作教材",
           "personality": "",
           "ai_usage": "**吉祥物設計**：多角度設定參考 **注意**：CC-BY 3.0，需署名"
+        },
+        {
+          "slug": "angry-anime-girl",
+          "name": "Angry Anime Girl (tsundere)",
+          "name_zh": "Angry Anime Girl (tsundere)",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "snoopingasusual",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/angry-anime-girl.png",
+          "reference_gallery": [],
+          "appearance": "動漫表情 日式動漫角色。 `動漫表情 風格、原創角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC0 1.0 授權"
+        },
+        {
+          "slug": "anime-girl",
+          "name": "Anime Girl",
+          "name_zh": "Anime Girl",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Niabot",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/anime-girl.png",
+          "reference_gallery": [],
+          "appearance": "扁平向量動漫 日式動漫角色。 `扁平向量動漫 風格、原創角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY 3.0 授權"
+        },
+        {
+          "slug": "anime-kitty",
+          "name": "Anime Kitty",
+          "name_zh": "Anime Kitty",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Niabot",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/anime-kitty.png",
+          "reference_gallery": [],
+          "appearance": "chibi/向量 日式動漫角色。 `chibi/向量 風格、原創角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY 3.0 授權"
+        },
+        {
+          "slug": "anime-verde",
+          "name": "Anime Verdolaga",
+          "name_zh": "Anime Verdolaga",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "EdGoTru",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/anime-verde.png",
+          "reference_gallery": [],
+          "appearance": "動漫插圖 日式動漫角色。 `動漫插圖 風格、原創角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "arigato-usagi",
+          "name": "Great Arigato Usagi",
+          "name_zh": "Great Arigato Usagi",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "norahiko",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/arigato-usagi.png",
+          "reference_gallery": [],
+          "appearance": "可愛動漫兔機甲 原創機甲。 `可愛動漫兔機甲 original mecha design, concept art`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC0 1.0 授權"
+        },
+        {
+          "slug": "battle-galaxy",
+          "name": "Battle for the Galaxy units",
+          "name_zh": "Battle for the Galaxy units",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "AMT Games",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/battle-galaxy.jpg",
+          "reference_gallery": [],
+          "appearance": "科幻 RTS 單位設計 原創機甲。 `科幻 RTS 單位設計 original mecha design, concept art`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY-SA 3.0 授權"
         },
         {
           "slug": "beast-mech",
@@ -1768,6 +2226,72 @@
           "ai_usage": "**機設參考**：人形機甲設計基準 **注意**：CC-BY 2.0，需署名"
         },
         {
+          "slug": "charge-robot",
+          "name": "Charge robot concept",
+          "name_zh": "Charge robot concept",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Blender Foundation",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/charge-robot.png",
+          "reference_gallery": [],
+          "appearance": "科幻角色概念藝術 原創機甲。 `科幻角色概念藝術 original mecha design, concept art`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY 4.0 授權"
+        },
+        {
+          "slug": "charon-assault",
+          "name": "Charon Assault Mech",
+          "name_zh": "Charon Assault Mech",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Justin Nichol",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/charon-assault.png",
+          "reference_gallery": [],
+          "appearance": "動漫/軍事機甲設計稿 原創機甲。 `動漫/軍事機甲設計稿 original mecha design, concept art`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "chibi-anime-child",
+          "name": "Chibi Anime Child",
+          "name_zh": "Chibi Anime Child",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "stilg4r",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/chibi-anime-child.png",
+          "reference_gallery": [],
+          "appearance": "簡單 chibi 向量 日式動漫角色。 `簡單 chibi 向量 風格、原創角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC0 1.0 授權"
+        },
+        {
           "slug": "david-revoy-char",
           "name": "David Revoy Character Lineart",
           "name_zh": "David Revoy 角色線稿設計",
@@ -1788,6 +2312,50 @@
           "scene": "角色設計教學 線稿參考",
           "personality": "",
           "ai_usage": "**角色線稿參考**：開放教學風格 **注意**：CC-BY 4.0，需署名"
+        },
+        {
+          "slug": "dojikko",
+          "name": "Dojikko",
+          "name_zh": "Dojikko",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Niabot",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/dojikko.png",
+          "reference_gallery": [],
+          "appearance": "半扁平動漫 日式動漫角色。 `半扁平動漫 風格、原創角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "eff-mecha-poster",
+          "name": "EFF 20th mecha poster",
+          "name_zh": "EFF 20th mecha poster",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Hugh DAndrade",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/eff-mecha-poster.jpg",
+          "reference_gallery": [],
+          "appearance": "網版印刷海報機甲 原創機甲。 `網版印刷海報機甲 original mecha design, concept art`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY 3.0 授權"
         },
         {
           "slug": "fig-model-sheet",
@@ -1834,6 +2402,94 @@
           "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC0，可任意使用無需署名"
         },
         {
+          "slug": "hyou-chan",
+          "name": "Hyou-chan",
+          "name_zh": "Hyou-chan",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Brianna Floss",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/hyou-chan.png",
+          "reference_gallery": [],
+          "appearance": "可愛動漫/貓娘 日式動漫角色。 `可愛動漫/貓娘 風格、原創角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY 3.0 授權"
+        },
+        {
+          "slug": "icecat-girl",
+          "name": "Icecat Anime Girl",
+          "name_zh": "Icecat Anime Girl",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "asrafil",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/icecat-girl.png",
+          "reference_gallery": [],
+          "appearance": "扁平向量漫畫/貓娘 日式動漫角色。 `扁平向量漫畫/貓娘 風格、原創角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC0 1.0 授權"
+        },
+        {
+          "slug": "impmech-s",
+          "name": "ImpMech S",
+          "name_zh": "ImpMech S",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Justin Nichol",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/impmech-s.png",
+          "reference_gallery": [],
+          "appearance": "動漫風格遊戲機甲 原創機甲。 `動漫風格遊戲機甲 original mecha design, concept art`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "ink-robot",
+          "name": "Ink and Marker Robot",
+          "name_zh": "Ink and Marker Robot",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Jonathan Barker",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/ink-robot.jpg",
+          "reference_gallery": [],
+          "appearance": "手繪墨水機械設計 原創機甲。 `手繪墨水機械設計 original mecha design, concept art`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
           "slug": "iron-mecha",
           "name": "Iron Mecha",
           "name_zh": "鐵製裝甲機甲",
@@ -1854,6 +2510,28 @@
           "scene": "機設圖 原創機甲概念",
           "personality": "",
           "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC0，可任意使用無需署名"
+        },
+        {
+          "slug": "kemonomimi-chibi",
+          "name": "Kemonomimi Girl (Chibi)",
+          "name_zh": "Kemonomimi Girl (Chibi)",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Niabot",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/kemonomimi-chibi.png",
+          "reference_gallery": [],
+          "appearance": "chibi/kemonomimi 向量 日式動漫角色。 `chibi/kemonomimi 向量 風格、原創角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC-BY-SA 3.0 授權"
         },
         {
           "slug": "kiki-cyber-squirrel",
@@ -1966,6 +2644,116 @@
           "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY 2.0，需遵守授權"
         },
         {
+          "slug": "mecha-chibis",
+          "name": "3D Printed Mecha Chibis",
+          "name_zh": "3D Printed Mecha Chibis",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Kevin Blackburn",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/mecha-chibis.jpg",
+          "reference_gallery": [],
+          "appearance": "chibi 可愛機甲模型 原創機甲。 `chibi 可愛機甲模型 original mecha design, concept art`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "mecha-samurai",
+          "name": "Mecha Samurai",
+          "name_zh": "Mecha Samurai",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "danny_warfield",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 2.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/mecha-samurai.jpg",
+          "reference_gallery": [],
+          "appearance": "動漫機甲插畫 原創機甲。 `動漫機甲插畫 original mecha design, concept art`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "mecha-warrior",
+          "name": "Mecha Warrior",
+          "name_zh": "Mecha Warrior",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "edsonsantos",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/mecha-warrior.png",
+          "reference_gallery": [],
+          "appearance": "扁平向量機甲線稿 原創機甲。 `扁平向量機甲線稿 original mecha design, concept art`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "moe-manga-lady",
+          "name": "Moe Manga Lady",
+          "name_zh": "Moe Manga Lady",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "jsks",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/moe-manga-lady.png",
+          "reference_gallery": [],
+          "appearance": "扁平 moe 插圖 日式動漫角色。 `扁平 moe 插圖 風格、原創角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC0 1.0 授權"
+        },
+        {
+          "slug": "moe-sailor-fuku",
+          "name": "Moe Anime Girl (Akane)",
+          "name_zh": "Moe Anime Girl (Akane)",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Akane-K",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/moe-sailor-fuku.png",
+          "reference_gallery": [],
+          "appearance": "moe 動漫插圖 日式動漫角色。 `moe 動漫插圖 風格、原創角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC0 1.0 授權"
+        },
+        {
           "slug": "n1-nj4-mech",
           "name": "N1-NJ4 Ninja Class Mech",
           "name_zh": "忍者級輕裝機甲",
@@ -2010,6 +2798,50 @@
           "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC0，可任意使用無需署名"
         },
         {
+          "slug": "purple-moe-girl",
+          "name": "Purple-haired Moe Girl",
+          "name_zh": "Purple-haired Moe Girl",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "GDJ",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/purple-moe-girl.png",
+          "reference_gallery": [],
+          "appearance": "向量 moe 日式動漫角色。 `向量 moe 風格、原創角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC0 1.0 授權"
+        },
+        {
+          "slug": "robot-bridge",
+          "name": "Robot-bridge 011",
+          "name_zh": "Robot-bridge 011",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "David Revoy",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/robot-bridge.png",
+          "reference_gallery": [],
+          "appearance": "數位繪科幻機械人 原創機甲。 `數位繪科幻機械人 original mecha design, concept art`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY 3.0 授權"
+        },
+        {
           "slug": "sh0-6un-mech",
           "name": "SH0-6UN Class Mech",
           "name_zh": "SH0-6UN 級戰鬥機甲",
@@ -2052,6 +2884,72 @@
           "scene": "機設圖 原創機甲概念",
           "personality": "",
           "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC0，可任意使用無需署名"
+        },
+        {
+          "slug": "sylva",
+          "name": "Sylva",
+          "name_zh": "Sylva",
+          "role": "角色人設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Cyastis",
+          "license": {
+            "type": "CC",
+            "code": "CC0 1.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/sylva.png",
+          "reference_gallery": [],
+          "appearance": "向量線稿動漫角色 日式動漫角色。 `向量線稿動漫角色 風格、原創角色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**角色設定**：日式動漫角色參考 **注意**：CC0 1.0 授權"
+        },
+        {
+          "slug": "the-kappa",
+          "name": "The Kappa",
+          "name_zh": "The Kappa",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "Justin Nichol",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/the-kappa.png",
+          "reference_gallery": [],
+          "appearance": "日式民間傳說風格機甲 原創機甲。 `日式民間傳說風格機甲 original mecha design, concept art`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "thom-simulator",
+          "name": "Thom-simulator robot",
+          "name_zh": "Thom-simulator robot",
+          "role": "機設圖",
+          "first_appearance": "開放創作者",
+          "creator": "David Revoy",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權條款）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/thom-simulator.png",
+          "reference_gallery": [],
+          "appearance": "註解式科幻機設 原創機甲。 `註解式科幻機設 original mecha design, concept art`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**機設參考**：原創機甲設計基準 **注意**：CC-BY 3.0 授權"
         },
         {
           "slug": "wikipetan",

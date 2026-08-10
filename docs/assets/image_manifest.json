@@ -568,5 +568,415 @@
     "width": 960,
     "height": 376,
     "pd": true
+  },
+  "sylva": {
+    "file": "sylva.png",
+    "title": "Sylva",
+    "license": "CC0",
+    "artist": "Cyastis",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Sylva_vector_art.svg",
+    "width": 1200,
+    "height": 1697,
+    "pd": true
+  },
+  "moe-sailor-fuku": {
+    "file": "moe-sailor-fuku.png",
+    "title": "Moe Anime Girl Sailor Fuku",
+    "license": "CC0",
+    "artist": "Akane-K",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Moe_anime_girl_in_sailor_fuku.png",
+    "width": 2415,
+    "height": 2927,
+    "pd": true
+  },
+  "kemonomimi-chibi": {
+    "file": "kemonomimi-chibi.png",
+    "title": "Kemonomimi Girl Chibi",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Niabot",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Kemonomimi_girl_in_chibi_style.svg",
+    "width": 1200,
+    "height": 1454,
+    "pd": true
+  },
+  "anime-kitty": {
+    "file": "anime-kitty.png",
+    "title": "Anime Kitty laughing",
+    "license": "CC-BY 3.0",
+    "artist": "Niabot",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Anime_Kitty_-_laughing.svg",
+    "width": 1200,
+    "height": 1451,
+    "pd": true
+  },
+  "chibi-anime-child": {
+    "file": "chibi-anime-child.png",
+    "title": "Chibi Anime Child",
+    "license": "CC0",
+    "artist": "stilg4r",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Chibi_anime_child.svg",
+    "width": 1200,
+    "height": 1510,
+    "pd": true
+  },
+  "anime-girl": {
+    "file": "anime-girl.png",
+    "title": "Anime Girl",
+    "license": "CC-BY 3.0",
+    "artist": "Niabot",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Anime_Girl.svg",
+    "width": 1200,
+    "height": 849,
+    "pd": true
+  },
+  "icecat-girl": {
+    "file": "icecat-girl.png",
+    "title": "Icecat Anime Girl",
+    "license": "CC0",
+    "artist": "asrafil",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Icecat_anime_girl.svg",
+    "width": 1200,
+    "height": 1697,
+    "pd": true
+  },
+  "hyou-chan": {
+    "file": "hyou-chan.png",
+    "title": "Hyou-chan FITcon mascot",
+    "license": "CC-BY 3.0",
+    "artist": "Brianna Floss",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Hyou-chan.png",
+    "width": 439,
+    "height": 600,
+    "pd": true
+  },
+  "dojikko": {
+    "file": "dojikko.png",
+    "title": "Dojikko clumsy girl",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Niabot",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Dojikko.png",
+    "width": 2700,
+    "height": 1800,
+    "pd": true
+  },
+  "moe-manga-lady": {
+    "file": "moe-manga-lady.png",
+    "title": "Moe Manga Lady",
+    "license": "CC0",
+    "artist": "jsks",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Moe_Manga_Lady.png",
+    "width": 1280,
+    "height": 883,
+    "pd": true
+  },
+  "angry-anime-girl": {
+    "file": "angry-anime-girl.png",
+    "title": "Angry Anime Girl tsundere",
+    "license": "CC0",
+    "artist": "snoopingasusual",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Angry_anime_girl.png",
+    "width": 2400,
+    "height": 2206,
+    "pd": true
+  },
+  "purple-moe-girl": {
+    "file": "purple-moe-girl.png",
+    "title": "Purple-haired Moe Girl",
+    "license": "CC0",
+    "artist": "GDJ",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Purple_Haired_Anime_Girl_With_Star_Background.svg",
+    "width": 1200,
+    "height": 829,
+    "pd": true
+  },
+  "anime-verde": {
+    "file": "anime-verde.png",
+    "title": "Anime Verdolaga",
+    "license": "CC-BY-SA 4.0",
+    "artist": "EdGoTru",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Anime_Verdolaga.png",
+    "width": 2176,
+    "height": 3506,
+    "pd": true
+  },
+  "charon-assault": {
+    "file": "charon-assault.png",
+    "title": "Charon Assault Mech",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Justin Nichol",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Charon_Assault_Mech.png",
+    "width": 600,
+    "height": 670,
+    "pd": true
+  },
+  "impmech-s": {
+    "file": "impmech-s.png",
+    "title": "ImpMech S",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Justin Nichol",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/ImpMech_S.png",
+    "width": 417,
+    "height": 600,
+    "pd": true
+  },
+  "the-kappa": {
+    "file": "the-kappa.png",
+    "title": "The Kappa",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Justin Nichol",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/The_Kappa.png",
+    "width": 600,
+    "height": 670,
+    "pd": true
+  },
+  "1920-storm": {
+    "file": "1920-storm.jpg",
+    "title": "1920 - before the storm",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Jakub Różalski",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/1920_-_before_the_storm.jpg",
+    "width": 2244,
+    "height": 1183,
+    "pd": true
+  },
+  "battle-galaxy": {
+    "file": "battle-galaxy.jpg",
+    "title": "Battle for the Galaxy units",
+    "license": "CC-BY-SA 3.0",
+    "artist": "AMT Games",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Battle_for_the_Galaxy%2C_units_used_for_attacks.jpg",
+    "width": 960,
+    "height": 640,
+    "pd": true
+  },
+  "eff-mecha-poster": {
+    "file": "eff-mecha-poster.jpg",
+    "title": "EFF 20th mecha poster",
+    "license": "CC-BY 3.0",
+    "artist": "Hugh DAndrade",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Electronic_Frontier_Foundation_20th_anniversary_mecha_poster.jpg",
+    "width": 3900,
+    "height": 5700,
+    "pd": true
+  },
+  "mecha-samurai": {
+    "file": "mecha-samurai.jpg",
+    "title": "Mecha Samurai",
+    "license": "CC-BY 2.0",
+    "artist": "danny_warfield",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Mecha_samurai.jpg",
+    "width": 452,
+    "height": 640,
+    "pd": true
+  },
+  "charge-robot": {
+    "file": "charge-robot.png",
+    "title": "Charge robot concept",
+    "license": "CC-BY 4.0",
+    "artist": "Blender Foundation",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Charge-concept_art-robot_01.png",
+    "width": 4096,
+    "height": 1716,
+    "pd": true
+  },
+  "robot-bridge": {
+    "file": "robot-bridge.png",
+    "title": "Robot-bridge 011",
+    "license": "CC-BY 3.0",
+    "artist": "David Revoy",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Robot-bridge_011.png",
+    "width": 3082,
+    "height": 2500,
+    "pd": true
+  },
+  "thom-simulator": {
+    "file": "thom-simulator.png",
+    "title": "Thom-simulator robot",
+    "license": "CC-BY 3.0",
+    "artist": "David Revoy",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Thom-simulator-robot_tooltips_mango_concept-art.png",
+    "width": 7232,
+    "height": 6080,
+    "pd": true
+  },
+  "ink-robot": {
+    "file": "ink-robot.jpg",
+    "title": "Ink and Marker Robot",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Jonathan Barker",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Ink_and_Marker_Robot_Illustration_21.jpg",
+    "width": 2000,
+    "height": 2592,
+    "pd": true
+  },
+  "mecha-chibis": {
+    "file": "mecha-chibis.jpg",
+    "title": "3D Printed Mecha Chibis",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Kevin Blackburn",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/3D_Printed_Mecha_Chibis.jpg",
+    "width": 3840,
+    "height": 2160,
+    "pd": true
+  },
+  "mecha-warrior": {
+    "file": "mecha-warrior.png",
+    "title": "Mecha Warrior",
+    "license": "Public domain",
+    "artist": "edsonsantos",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Mecha_Warrior.svg",
+    "width": 1200,
+    "height": 1707,
+    "pd": true
+  },
+  "arigato-usagi": {
+    "file": "arigato-usagi.png",
+    "title": "Great Arigato Usagi",
+    "license": "CC0 1.0",
+    "artist": "norahiko",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Great_arigato_usagi.svg",
+    "width": 1200,
+    "height": 1200,
+    "pd": true
+  },
+  "mecha-girl": {
+    "file": "mecha-girl.png",
+    "title": "Mecha-girl",
+    "license": "Public domain",
+    "artist": "狄の用務員",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mecha-girl.png",
+    "width": 1024,
+    "height": 1024,
+    "pd": true
+  },
+  "bg-torii-waterfall": {
+    "file": "bg-torii-waterfall.jpg",
+    "title": "On the Edge (torii+waterfall)",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Niabot",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/On_the_edge_-_free_world_version.jpg",
+    "width": 3855,
+    "height": 3000,
+    "pd": true
+  },
+  "bg-anime-beach": {
+    "file": "bg-anime-beach.jpg",
+    "title": "Anime girl at beach",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Niabot",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Anime_girl_at_beach.jpg",
+    "width": 2200,
+    "height": 3200,
+    "pd": true
+  },
+  "bg-shinto-shrine": {
+    "file": "bg-shinto-shrine.png",
+    "title": "Shinto shrine landscape",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Benlisquare",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Algorithmically-generated_landscape_artwork_of_forest_with_Shinto_shrine.png",
+    "width": 4096,
+    "height": 2048,
+    "pd": true
+  },
+  "bg-akihabara": {
+    "file": "bg-akihabara.jpg",
+    "title": "Akihabara urban street",
+    "license": "CC0",
+    "artist": "DLKR",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Urban_Landscape_Modern_and_Retro_Architecture_in_Akihabara_-_Kanda-Matsunagach%C5%8D_%26_Kanda-Neribeich%C5%8D_%28Chiyoda_ward%29%2C_and_Akihabara_%28Taito_ward%29%2C_Tokyo_%28uploaded_on_2024-04-25_by_DLKR_%40Flickr_53678232944%29.jpg",
+    "width": 4356,
+    "height": 5809,
+    "pd": true
+  },
+  "bg-saga-city": {
+    "file": "bg-saga-city.jpg",
+    "title": "Furuyu Saga cityscape",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Peka",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Cityscape_of_Furuyu%2C_Saga.jpg",
+    "width": 4032,
+    "height": 2688,
+    "pd": true
+  },
+  "bg-kobe-night": {
+    "file": "bg-kobe-night.jpg",
+    "title": "Kobe night cityscape",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Laitr Keiows",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Night_view_of_Rokk%C5%8D_Island_and_Higashinada-ku%2C_Kobe%2C_Japan.jpg",
+    "width": 5616,
+    "height": 3744,
+    "pd": true
+  },
+  "bg-skytree": {
+    "file": "bg-skytree.jpg",
+    "title": "Tokyo Skytree worm-eye",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Basile Morin",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Worm%27s-eye_view_of_Tokyo_Skytree_with_vertical_symmetry_impression%2C_a_sunny_day%2C_in_Japan.jpg",
+    "width": 6241,
+    "height": 4161,
+    "pd": true
+  },
+  "bg-fuji-sakura": {
+    "file": "bg-fuji-sakura.png",
+    "title": "Lake Kawaguchiko sakura+Fuji",
+    "license": "CC-BY 3.0",
+    "artist": "Midori",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Lake_Kawaguchiko_Sakura_Mount_Fuji_4.JPG",
+    "width": 3872,
+    "height": 2592,
+    "pd": true
+  },
+  "bg-rail-sakura": {
+    "file": "bg-rail-sakura.jpg",
+    "title": "Rail tracks + cherry trees",
+    "license": "CC-BY-SA 4.0",
+    "artist": "掬茶",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Rail_tracks_and_cherry_trees_in_Ashino_Park.jpg",
+    "width": 6000,
+    "height": 4000,
+    "pd": true
+  },
+  "bg-mint-sakura": {
+    "file": "bg-mint-sakura.jpg",
+    "title": "Sakura in Japan Mint",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Suicasmo",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sakura_in_Japan_Mint_20160410-1.jpg",
+    "width": 5184,
+    "height": 3456,
+    "pd": true
+  },
+  "bg-ginkakuji": {
+    "file": "bg-ginkakuji.jpg",
+    "title": "Ginkaku-ji Temple Kyoto",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Basile Morin",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sunlight_through_clouds_and_view_of_Ginkaku-ji_Temple_from_above%2C_Kyoto%2C_Japan.jpg",
+    "width": 6720,
+    "height": 4480,
+    "pd": true
+  },
+  "bg-japanese-garden": {
+    "file": "bg-japanese-garden.jpg",
+    "title": "Normandale Japanese Garden with Koi.jpg",
+    "license": "CC-BY 4.0",
+    "artist": "Th",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Normandale_Japanese_Garden_with_Koi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2252,
+    "height": 4000,
+    "pd": true
+  },
+  "bg-huntington-garden": {
+    "file": "bg-huntington-garden.jpg",
+    "title": "Japanese Garden, Huntington Library, CA 9-08 (15339641796).jpg",
+    "license": "CC-BY-SA 2.0",
+    "artist": "Flickr",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Japanese_Garden%2C_Huntington_Library%2C_CA_9-08_%2815339641796%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2450,
+    "height": 1633,
+    "pd": true
   }
 }
