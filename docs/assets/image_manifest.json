@@ -2468,5 +2468,75 @@
     "width": 400,
     "height": 300,
     "pd": true
+  },
+  "pd-gandy-goose": {
+    "file": "pd-gandy-goose.png",
+    "title": "白鵝、吊帶、憨厚",
+    "license": "Public domain",
+    "artist": "Terrytoons",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Terrytoons_-_Hook_Line_and_Sinker_%281939%29.png",
+    "width": 582,
+    "height": 432,
+    "pd": true
+  },
+  "pd-sourpuss": {
+    "file": "pd-sourpuss.png",
+    "title": "黑貓、臭臉、毒舌",
+    "license": "Public domain",
+    "artist": "Terrytoons",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Terrytoons_-_Hook_Line_and_Sinker_%281939%29.png",
+    "width": 582,
+    "height": 432,
+    "pd": true
+  },
+  "pd-papa-bear": {
+    "file": "pd-papa-bear.jpg",
+    "title": "三隻擬人熊",
+    "license": "Public domain",
+    "artist": "Ub Iwerks",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Ub_Iwerks_-_ComiColor_-_The_Three_Bears_%281935%29_-_Title_Card.jpg",
+    "width": 640,
+    "height": 480,
+    "pd": true
+  },
+  "pd-jack-frost": {
+    "file": "pd-jack-frost.jpg",
+    "title": "冬之神",
+    "license": "Public domain",
+    "artist": "Ub Iwerks",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Ub_Iwerks_-_ComiColor_-_Jack_Frost_%281934%29_-_Title_Card.jpg",
+    "width": 576,
+    "height": 432,
+    "pd": true
+  },
+  "pd-marys-lamb": {
+    "file": "pd-marys-lamb.jpg",
+    "title": "少女與小羊",
+    "license": "Public domain",
+    "artist": "Ub Iwerks",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Ub_Iwerks_-_ComiColor_-_Mary%27s_Little_Lamb_%281935%29_-_Title_Card.jpg",
+    "width": 640,
+    "height": 480,
+    "pd": true
+  },
+  "pd-hunky-spunky": {
+    "file": "pd-hunky-spunky.jpg",
+    "title": "母驢與小驢",
+    "license": "Public domain",
+    "artist": "Fleischer",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/HunkyandSpunkyCC1938.jpg",
+    "width": 640,
+    "height": 480,
+    "pd": true
+  },
+  "pd-mighty-mouse": {
+    "file": "pd-mighty-mouse.jpg",
+    "title": "紅斗篷超人鼠（粉絲繪）",
+    "license": "CC-BY-SA 2.0",
+    "artist": "Terrytoons",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Mighty_Mouse_%283763396430%29.jpg",
+    "width": 2339,
+    "height": 3213,
+    "pd": true
   }
 }

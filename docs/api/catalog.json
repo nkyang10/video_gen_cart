@@ -3,7 +3,7 @@
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
     "brand_count": 31,
-    "character_count": 254,
+    "character_count": 261,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -8575,6 +8575,72 @@
           "ai_usage": "**復古動畫角色**：早期公版短片做復古動畫參考 **⚠️ 注意**：角色名可能係商標；只用早期黑白短片，唔用後期受版權版本"
         },
         {
+          "slug": "pd-gandy-goose",
+          "name": "甘迪鵝（Gandy Goose）",
+          "name_zh": "甘迪鵝（Gandy Goose）",
+          "role": "公版早期動畫角色",
+          "first_appearance": "1938",
+          "creator": "Terrytoons",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期短片；⚠️ 只可用未續期短片（Doomsday/Plane Goofy/Hook Line），出道片 1965 續期",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/pd-gandy-goose.png",
+          "reference_gallery": [],
+          "appearance": "橡皮管動畫風風格，白鵝、圓肚、黃嘴、吊帶、憨厚。 `橡皮管動畫風 1930s cartoon, 白鵝、圓肚、黃嘴、吊帶、憨厚`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期短片做復古動畫參考 **⚠️ 注意**：⚠️ 只可用未續期短片（Doomsday/Plane Goofy/Hook Line），出道片 1965 續期"
+        },
+        {
+          "slug": "pd-hunky-spunky",
+          "name": "夯奇與斯朋奇（Hunky & Spunky）",
+          "name_zh": "夯奇與斯朋奇（Hunky & Spunky）",
+          "role": "公版早期動畫角色",
+          "first_appearance": "1938",
+          "creator": "Fleischer",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期短片；1938 奧斯卡提名，PD-US-not-renewed",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/pd-hunky-spunky.jpg",
+          "reference_gallery": [],
+          "appearance": "Technicolor風格，母驢 Hunky + 小驢 Spunky。 `Technicolor 1930s cartoon, 母驢 Hunky + 小驢 Spunky`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期短片做復古動畫參考 **⚠️ 注意**：1938 奧斯卡提名，PD-US-not-renewed"
+        },
+        {
+          "slug": "pd-jack-frost",
+          "name": "霜精傑克（Jack Frost）",
+          "name_zh": "霜精傑克（Jack Frost）",
+          "role": "公版早期動畫角色",
+          "first_appearance": "1934",
+          "creator": "Ub Iwerks",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期短片；ComiColor 系列，PD-US-not-renewed",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/pd-jack-frost.jpg",
+          "reference_gallery": [],
+          "appearance": "Iwerks 彩色卡通風格，冬之神、藍白衣、冰霜。 `Iwerks 彩色卡通 1930s cartoon, 冬之神、藍白衣、冰霜`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期短片做復古動畫參考 **⚠️ 注意**：ComiColor 系列，PD-US-not-renewed"
+        },
+        {
           "slug": "pd-koko",
           "name": "可可小丑（Ko-Ko）",
           "name_zh": "可可小丑（Ko-Ko）",
@@ -8595,6 +8661,94 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**復古動畫角色**：早期公版短片做復古動畫參考 **⚠️ 注意**：角色名可能係商標；只用早期黑白短片，唔用後期受版權版本"
+        },
+        {
+          "slug": "pd-marys-lamb",
+          "name": "瑪麗的小羊（Mary's Little Lamb）",
+          "name_zh": "瑪麗的小羊（Mary's Little Lamb）",
+          "role": "公版早期動畫角色",
+          "first_appearance": "1935",
+          "creator": "Ub Iwerks",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期短片；ComiColor 系列，PD-US-not-renewed",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/pd-marys-lamb.jpg",
+          "reference_gallery": [],
+          "appearance": "Iwerks 彩色卡通風格，少女與捲毛小羊。 `Iwerks 彩色卡通 1930s cartoon, 少女與捲毛小羊`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期短片做復古動畫參考 **⚠️ 注意**：ComiColor 系列，PD-US-not-renewed"
+        },
+        {
+          "slug": "pd-mighty-mouse",
+          "name": "威力鼠（Mighty Mouse）",
+          "name_zh": "威力鼠（Mighty Mouse）",
+          "role": "公版早期動畫角色",
+          "first_appearance": "1942",
+          "creator": "Terrytoons",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 2.0"
+          },
+          "protected_portion": "早期短片；⚠️ 只有粉絲繪（CC-BY-SA），1942 原片未入公版，僅當設計參考",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/pd-mighty-mouse.jpg",
+          "reference_gallery": [],
+          "appearance": "超級英雄風格，紅斗篷超人鼠。 `超級英雄 1930s cartoon, 紅斗篷超人鼠`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期短片做復古動畫參考 **⚠️ 注意**：⚠️ 只有粉絲繪（CC-BY-SA），1942 原片未入公版，僅當設計參考"
+        },
+        {
+          "slug": "pd-papa-bear",
+          "name": "三隻熊（Three Bears）",
+          "name_zh": "三隻熊（Three Bears）",
+          "role": "公版早期動畫角色",
+          "first_appearance": "1935",
+          "creator": "Ub Iwerks",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期短片；ComiColor 系列，PD-US-not-renewed",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/pd-papa-bear.jpg",
+          "reference_gallery": [],
+          "appearance": "Iwerks 橡膠管風風格，三隻擬人熊、圓滾彩色。 `Iwerks 橡膠管風 1930s cartoon, 三隻擬人熊、圓滾彩色`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期短片做復古動畫參考 **⚠️ 注意**：ComiColor 系列，PD-US-not-renewed"
+        },
+        {
+          "slug": "pd-sourpuss",
+          "name": "酸臉貓（Sourpuss）",
+          "name_zh": "酸臉貓（Sourpuss）",
+          "role": "公版早期動畫角色",
+          "first_appearance": "1939",
+          "creator": "Terrytoons",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "早期短片；⚠️ 只可用所屬 PD 短片畫面",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/pd-sourpuss.png",
+          "reference_gallery": [],
+          "appearance": "毒舌搭檔風風格，黑貓、瘦長、尖臉、臭臉。 `毒舌搭檔風 1930s cartoon, 黑貓、瘦長、尖臉、臭臉`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期短片做復古動畫參考 **⚠️ 注意**：⚠️ 只可用所屬 PD 短片畫面"
         },
         {
           "slug": "pd-vanbeuren-tj",
