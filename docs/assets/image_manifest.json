@@ -2318,5 +2318,55 @@
     "width": 1920,
     "height": 1080,
     "pd": true
+  },
+  "vintage-dick-tracy": {
+    "file": "vintage-dick-tracy.jpg",
+    "title": "警探硬漢 1931",
+    "license": "Public domain",
+    "artist": "Chester Gould",
+    "source_url": "https://commons.wikimedia.org/wiki/File:First_strip_of_Dick_Tracy.webp",
+    "width": 1080,
+    "height": 333,
+    "pd": true
+  },
+  "vintage-blondie": {
+    "file": "vintage-blondie.png",
+    "title": "金髮女郎 1930",
+    "license": "Public domain",
+    "artist": "Chic Young",
+    "source_url": "https://commons.wikimedia.org/wiki/File:First_Blondie_comic_strip_(1930-09-08).png",
+    "width": 1548,
+    "height": 400,
+    "pd": true
+  },
+  "vintage-popeye-first": {
+    "file": "vintage-popeye-first.jpg",
+    "title": "獨眼水手 1929",
+    "license": "Public domain",
+    "artist": "E.C. Segar",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Popeye,_first_appearance,_Jan_17,_1929.jpg",
+    "width": 777,
+    "height": 213,
+    "pd": true
+  },
+  "vintage-harold-teen": {
+    "file": "vintage-harold-teen.jpg",
+    "title": "少年學生 1928",
+    "license": "Public domain",
+    "artist": "Carl Ed",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Harold_Teen_(1928)_-_1.jpg",
+    "width": 601,
+    "height": 785,
+    "pd": true
+  },
+  "vintage-gasoline-alley": {
+    "file": "vintage-gasoline-alley.jpg",
+    "title": "汽車/家庭日常 1918",
+    "license": "Public domain",
+    "artist": "Frank King",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gasolinealley31233.jpg",
+    "width": 1200,
+    "height": 1780,
+    "pd": true
   }
 }

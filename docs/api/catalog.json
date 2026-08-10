@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 29,
-    "character_count": 238,
+    "brand_count": 30,
+    "character_count": 244,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -8883,6 +8883,156 @@
           "type": "配角",
           "relation": "Yellow Kid 喺後巷嘅一班小夥伴",
           "interaction": "Yellow Kid 混喺下東區一群衣衫襤褸嘅頑童裡，成日率領佢哋一齊搗亂、嘲弄上流社會。呢群頑童係《Hogan's Alley》群像主角之一，滿坑滿谷嘅頑童係漫畫標誌性構圖。**注意**：原著係 1890s 移民貧民刻板，現代創作應去刻板化。\n"
+        }
+      ]
+    },
+    {
+      "slug": "vintage-comic-strips",
+      "name": "Vintage Comic Strips",
+      "name_zh": "復古連環漫畫",
+      "type": "公版連環漫畫角色",
+      "country": "美國",
+      "era": "1910s-1930s",
+      "creator": "各連環漫畫名家",
+      "publisher": "各大報業辛迪加",
+      "first_appearance_year": 1918,
+      "status": "早期格圖公有領域（PD-US）",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "vintage-blondie",
+          "name": "布朗黛（Blondie）",
+          "name_zh": "布朗黛（Blondie）",
+          "role": "公版連環漫畫角色",
+          "first_appearance": "1930",
+          "creator": "Chic Young",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "只限此單一早期格圖；角色現代設計仍受版權/商標",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/vintage-blondie.png",
+          "reference_gallery": [],
+          "appearance": "簡潔溫暖線條風格，金髮女郎、圓帽、家居喜劇。 `簡潔溫暖線條 vintage comic strip character, 金髮女郎、圓帽、家居喜劇`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版格圖做復古動畫參考 **⚠️ 注意**：只用此早期格圖，唔用現代角色設計（角色本身版權/商標仍有效）"
+        },
+        {
+          "slug": "vintage-dick-tracy",
+          "name": "迪克崔西（Dick Tracy）",
+          "name_zh": "迪克崔西（Dick Tracy）",
+          "role": "公版連環漫畫角色",
+          "first_appearance": "1931",
+          "creator": "Chester Gould",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "只限此單一早期格圖；角色現代設計仍受版權/商標",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/vintage-dick-tracy.jpg",
+          "reference_gallery": [],
+          "appearance": "黑白硬邊偵探風風格，硬漢警探、黃色雨衣、鋼筆刺鼻。 `黑白硬邊偵探風 vintage comic strip character, 硬漢警探、黃色雨衣、鋼筆刺鼻`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版格圖做復古動畫參考 **⚠️ 注意**：只用此早期格圖，唔用現代角色設計（角色本身版權/商標仍有效）"
+        },
+        {
+          "slug": "vintage-gasoline-alley",
+          "name": "汽油巷（Gasoline Alley）",
+          "name_zh": "汽油巷（Gasoline Alley）",
+          "role": "公版連環漫畫角色",
+          "first_appearance": "1918",
+          "creator": "Frank King",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "只限此單一早期格圖；角色現代設計仍受版權/商標",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/vintage-gasoline-alley.jpg",
+          "reference_gallery": [],
+          "appearance": "寫實細膩素描風格，汽車、嬰兒、家庭日常。 `寫實細膩素描 vintage comic strip character, 汽車、嬰兒、家庭日常`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版格圖做復古動畫參考 **⚠️ 注意**：只用此早期格圖，唔用現代角色設計（角色本身版權/商標仍有效）"
+        },
+        {
+          "slug": "vintage-harold-teen",
+          "name": "哈洛德特恩（Harold Teen）",
+          "name_zh": "哈洛德特恩（Harold Teen）",
+          "role": "公版連環漫畫角色",
+          "first_appearance": "1919",
+          "creator": "Carl Ed",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "只限此單一早期格圖；角色現代設計仍受版權/商標",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/vintage-harold-teen.jpg",
+          "reference_gallery": [],
+          "appearance": "Roaring Twenties 造型風格，少年學生、平頂帽、校園喜劇。 `Roaring Twenties 造型 vintage comic strip character, 少年學生、平頂帽、校園喜劇`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版格圖做復古動畫參考 **⚠️ 注意**：只用此早期格圖，唔用現代角色設計（角色本身版權/商標仍有效）"
+        },
+        {
+          "slug": "vintage-popeye-first",
+          "name": "大力水手初登場（Popeye 1929）",
+          "name_zh": "大力水手初登場（Popeye 1929）",
+          "role": "公版連環漫畫角色",
+          "first_appearance": "1929",
+          "creator": "E.C. Segar",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "只限此單一早期格圖；角色現代設計仍受版權/商標",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": "assets/img/vintage-popeye-first.jpg",
+          "reference_gallery": [],
+          "appearance": "1930 黑白線稿風格，獨眼水手、歪嘴煙斗、肌肉。 `1930 黑白線稿 vintage comic strip character, 獨眼水手、歪嘴煙斗、肌肉`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版格圖做復古動畫參考 **⚠️ 注意**：只用此早期格圖，唔用現代角色設計（角色本身版權/商標仍有效）"
+        },
+        {
+          "slug": "vintage-tarzan",
+          "name": "泰山（Tarzan）",
+          "name_zh": "泰山（Tarzan）",
+          "role": "公版連環漫畫角色",
+          "first_appearance": "1929",
+          "creator": "Burne Hogarth/ER Burroughs",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "只限此單一早期格圖；角色現代設計仍受版權/商標",
+          "trademark": "角色名可能係商標",
+          "verified": "2026-08-10",
+          "image": null,
+          "reference_gallery": [],
+          "appearance": "美式插畫線稿風格，泰山與猿群、叢林冒險、劍與藤蔓。 `美式插畫線稿 vintage comic strip character, 泰山與猿群、叢林冒險、劍與藤蔓`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**復古動畫角色**：早期公版格圖做復古動畫參考 **⚠️ 注意**：只用此早期格圖，唔用現代角色設計（角色本身版權/商標仍有效）"
         }
       ]
     },
