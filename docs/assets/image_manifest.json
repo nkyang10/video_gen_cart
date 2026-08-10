@@ -3338,5 +3338,55 @@
     "width": 400,
     "height": 552,
     "pd": true
+  },
+  "jp-fumiko": {
+    "file": "jp-fumiko.png",
+    "title": "JRPG 像素女武士 charset",
+    "license": "CC0",
+    "artist": "sylvius fischer",
+    "source_url": "https://opengameart.org/sites/default/files/Fumiko.png",
+    "width": 864,
+    "height": 256,
+    "pd": true
+  },
+  "jp-halloween-pack": {
+    "file": null,
+    "title": "原創動漫角色立繪",
+    "license": "CC0",
+    "artist": "DastashIArt",
+    "source_url": "https://opengameart.org/sites/default/files/dastashiart.7z",
+    "width": 0,
+    "height": 0,
+    "pd": true
+  },
+  "jp-codel": {
+    "file": "jp-codel.png",
+    "title": "動漫風女孩立繪",
+    "license": "CC-BY 4.0",
+    "artist": "LisadiKaprio",
+    "source_url": "https://opengameart.org/sites/default/files/Codel%20sprite.zip",
+    "width": 1078,
+    "height": 2089,
+    "pd": true
+  },
+  "jp-kuudere": {
+    "file": "jp-kuudere.png",
+    "title": "冷嬌系女角 98 PNG",
+    "license": "CC-BY 4.0",
+    "artist": "LisadiKaprio",
+    "source_url": "https://opengameart.org/sites/default/files/kuudere_lisadikaprio.zip",
+    "width": 510,
+    "height": 1000,
+    "pd": true
+  },
+  "jp-lpc-portrait": {
+    "file": "jp-lpc-portrait.png",
+    "title": "動漫風角色頭像",
+    "license": "CC-BY-SA 3.0",
+    "artist": "ZeNeRIA29",
+    "source_url": "https://opengameart.org/sites/default/files/LPCportrait1.png",
+    "width": 900,
+    "height": 760,
+    "pd": true
   }
 }
