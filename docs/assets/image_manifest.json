@@ -5718,5 +5718,175 @@
     "width": 2500,
     "height": 1570,
     "pd": true
+  },
+  "arch-potala": {
+    "file": "arch-potala.jpg",
+    "title": "布達拉宮",
+    "license": "CC0",
+    "artist": "Commons",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Potala_Palace_%2820230729%29.jpg",
+    "width": 8160,
+    "height": 6120,
+    "pd": true
+  },
+  "arch-golden-gate": {
+    "file": "arch-golden-gate.jpg",
+    "title": "金門大橋",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Bgag",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Golden_Gate_Bridge%2C_SF.jpg",
+    "width": 6217,
+    "height": 1852,
+    "pd": true
+  },
+  "arch-sagrada": {
+    "file": "arch-sagrada.jpg",
+    "title": "聖家堂",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Alvesgaspar",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Sagrada_Familia_March_2015-10a.jpg",
+    "width": 6249,
+    "height": 4698,
+    "pd": true
+  },
+  "arch-notre-dame": {
+    "file": "arch-notre-dame.jpg",
+    "title": "聖母院",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Commons",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Paris%2C_Notre_Dame_--_2014_--_1458-65.jpg",
+    "width": 19300,
+    "height": 3252,
+    "pd": true
+  },
+  "arch-blue-mosque": {
+    "file": "arch-blue-mosque.jpg",
+    "title": "藍色清真寺",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Moonik",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Exterior_of_Sultan_Ahmed_I_Mosque_in_Istanbul%2C_Turkey_002.jpg",
+    "width": 4238,
+    "height": 2766,
+    "pd": true
+  },
+  "flower-lotus": {
+    "file": "flower-lotus.jpg",
+    "title": "蓮花特寫",
+    "license": "CC0",
+    "artist": "Hong Zhang",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Lotus_flower_%28978659%29.jpg",
+    "width": 3267,
+    "height": 2178,
+    "pd": true
+  },
+  "flower-wu-changshuo": {
+    "file": "flower-wu-changshuo.jpg",
+    "title": "寫意花卉",
+    "license": "Public domain",
+    "artist": "吳昌碩",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Peonies_and_Daffodils_by_Wu_Changshuo.jpg",
+    "width": 915,
+    "height": 1875,
+    "pd": true
+  },
+  "flower-faes": {
+    "file": "flower-faes.jpg",
+    "title": "荷蘭花卉靜物",
+    "license": "Public domain",
+    "artist": "Pieter Faes",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Pieter_Faes_-_Still_Life_of_roses%2C_peonies%2C_tulips%2C_narcissus%2C_and_other_flowers_in_a_terracotta_vase%2C_with_grapes_and_a_peach.jpg",
+    "width": 1439,
+    "height": 1901,
+    "pd": true
+  },
+  "flower-fuji-sakura": {
+    "file": "flower-fuji-sakura.jpg",
+    "title": "櫻花富士山",
+    "license": "Public domain",
+    "artist": "DPLA",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Mt._Fuji_framed_by_cherry_blossoms_-_DPLA_-_3cf87944c325cc6f50ab7b02fa020484.jpeg",
+    "width": 2840,
+    "height": 1900,
+    "pd": true
+  },
+  "food-dim-sum": {
+    "file": "food-dim-sum.jpg",
+    "title": "蒸籠點心",
+    "license": "CC0",
+    "artist": "Mshuang",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Three_dim_sum_in_steamer_basket.jpg",
+    "width": 4608,
+    "height": 3456,
+    "pd": true
+  },
+  "food-big-mac": {
+    "file": "food-big-mac.jpg",
+    "title": "大麥克",
+    "license": "CC0",
+    "artist": "Evan-Amos",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Big_Mac_hamburger.jpg",
+    "width": 2640,
+    "height": 2280,
+    "pd": true
+  },
+  "food-spaghetti": {
+    "file": "food-spaghetti.jpg",
+    "title": "肉丸義大利麵",
+    "license": "CC-BY-SA 4.0",
+    "artist": "Liat Portal",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Liat_Portal_for_Foodie_Disorder_-_Spaghetti_Bolognese_with_peas_and_broccoli.jpg",
+    "width": 4032,
+    "height": 3024,
+    "pd": true
+  },
+  "food-sushi": {
+    "file": "food-sushi.jpg",
+    "title": "壽司拼盤",
+    "license": "CC-BY-SA 2.0",
+    "artist": "Ishikawa Ken",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sushi_platter.jpg",
+    "width": 1614,
+    "height": 1614,
+    "pd": true
+  },
+  "weather-lightning": {
+    "file": "weather-lightning.jpg",
+    "title": "地面閃電",
+    "license": "CC0",
+    "artist": "Brandon Morgan",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Lightning_Ground_Storm_%28Unsplash%29.jpg",
+    "width": 2088,
+    "height": 3152,
+    "pd": true
+  },
+  "weather-rainbow": {
+    "file": "weather-rainbow.jpg",
+    "title": "彩虹海灣",
+    "license": "CC-BY-SA 4.0",
+    "artist": "MB-one",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Rainbow%2C_Sundische_Wiesen%2C_Zingst_%28P1090153%29.jpg",
+    "width": 3456,
+    "height": 4608,
+    "pd": true
+  },
+  "weather-drought": {
+    "file": "weather-drought.jpg",
+    "title": "乾旱龜裂",
+    "license": "Public domain",
+    "artist": "Andrew Cattoir",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Dry_Cracked_Mud_%284957b8b2-f52c-43b0-acc2-ead42cf6f03b%29.jpg",
+    "width": 5472,
+    "height": 3648,
+    "pd": true
+  },
+  "weather-sandstorm": {
+    "file": "weather-sandstorm.jpg",
+    "title": "沙塵暴油畫",
+    "license": "Public domain",
+    "artist": "Max Slevogt",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Max_Slevogt_-_Sandstorm_in_the_Libyan_Desert_-_Google_Art_Project.jpg",
+    "width": 4659,
+    "height": 3639,
+    "pd": true
   }
 }
