@@ -36,6 +36,66 @@ nav.brand-tabs a {
 }
 nav.brand-tabs a:hover { border-color: var(--forest); }
 nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+/* ---------- Scaled catalog: 分類導航 ---------- */
+nav.cat-nav {
+  display: flex; gap: 4px; flex-wrap: wrap; margin: 16px 0 4px;
+  padding-top: 12px; border-top: 1px solid var(--border);
+}
+nav.cat-nav a {
+  padding: 7px 14px; border-radius: 8px; border: 1px solid transparent;
+  color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 600;
+  transition: all .12s ease;
+}
+nav.cat-nav a:hover { color: var(--forest); background: #f2eee4; }
+nav.cat-nav a.active { color: var(--forest); background: #e9f0e9; border-color: var(--border); }
+nav.cat-nav .cat-count { color: var(--terracotta); font-weight: 700; font-size: .78rem; margin-left: 3px; }
+/* 分類英雄 / 區塊 */
+.cat-hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 22px 26px; margin-bottom: 26px; }
+.cat-hero h1.page { margin-bottom: 6px; }
+.cat-hero p { color: var(--muted); max-width: 72ch; }
+.cat-block { margin-bottom: 34px; }
+.cat-block-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.cat-block-head h2 { margin-top: 0; border: none; }
+.cat-block-head .cat-desc { color: var(--muted); font-size: .9rem; }
+.cat-block-head .cat-jump { color: var(--forest); font-size: .85rem; text-decoration: none; font-weight: 600; }
+/* 搜尋 */
+.searchbar { max-width: 640px; margin: 20px 0 6px; position: relative; }
+.searchbar input {
+  width: 100%; padding: 13px 18px 13px 44px; border: 1px solid var(--border);
+  border-radius: 12px; font-size: 1rem; background: #fff; color: var(--ink);
+  outline: none; transition: border-color .12s ease, box-shadow .12s ease;
+}
+.searchbar input:focus { border-color: var(--forest); box-shadow: 0 0 0 3px rgba(62,92,75,.12); }
+.searchbar .search-icon {
+  position: absolute; left: 15px; top: 50%; transform: translateY(-50%);
+  color: var(--muted); font-size: 1.05rem; pointer-events: none;
+}
+.search-hint { color: var(--muted); font-size: .82rem; margin: 8px 2px 0; }
+/* 分類品牌卡（有縮圖） */
+.brand-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 16px; }
+.brand-card {
+  display: flex; gap: 14px; align-items: stretch; background: var(--card);
+  border: 1px solid var(--border); border-radius: 12px; padding: 14px;
+  text-decoration: none; color: var(--ink); transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.brand-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.brand-card .b-thumb {
+  width: 84px; min-width: 84px; height: 84px; border-radius: 9px; overflow: hidden;
+  background: #eee7db; display: flex; align-items: center; justify-content: center;
+}
+.brand-card .b-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.brand-card .b-thumb .noimg { color: var(--muted); font-size: 1.5rem; }
+.brand-card .b-body { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.brand-card .b-name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1rem; line-height: 1.35; }
+.brand-card .b-zh { color: var(--muted); font-size: .8rem; }
+.brand-card .b-desc { color: var(--muted); font-size: .82rem; margin-top: 5px; flex: 1; }
+.brand-card .b-meta { display: flex; align-items: center; gap: 8px; margin-top: 9px; flex-wrap: wrap; }
+.brand-card .b-count { color: var(--terracotta); font-weight: 700; font-size: .82rem; }
+.brand-card .lic-row { display: flex; gap: 4px; flex-wrap: wrap; }
+/* 過濾隱藏（搜尋用） */
+.filter-hidden { display: none !important; }
+.no-result { display: none; color: var(--muted); padding: 24px; text-align: center; }
+
 .breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
 .breadcrumb a { color: var(--forest); text-decoration: none; }
 h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }

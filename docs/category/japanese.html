@@ -1,0 +1,353 @@
+<!DOCTYPE html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日式動漫 · 浮世繪 — Video Gen Cart</title>
+<style>:root {
+  --paper: #f7f4ef;
+  --ink: #2b2b28;
+  --muted: #6b6a63;
+  --forest: #3e5c4b;
+  --terracotta: #c05f3c;
+  --border: #e2dcd0;
+  --card: #ffffff;
+  --tag-bg: #efe9dd;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+               "PingFang TC", "Microsoft JhengHei", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  padding-bottom: 60px;
+}
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 22px; }
+header.site {
+  border-bottom: 1px solid var(--border);
+  padding: 26px 0 18px;
+  margin-bottom: 30px;
+  background: #fffdf9;
+}
+header.site .wrap { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+header.site h1 { font-size: 1.5rem; letter-spacing: 0.02em; }
+header.site h1 a { color: var(--ink); text-decoration: none; }
+header.site h1 span { color: var(--terracotta); }
+header.site .sub { color: var(--muted); font-size: 0.85rem; }
+nav.brand-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 6px; }
+nav.brand-tabs a {
+  padding: 6px 14px; border-radius: 8px; border: 1px solid var(--border);
+  background: #fff; color: var(--ink); text-decoration: none; font-size: 0.9rem;
+}
+nav.brand-tabs a:hover { border-color: var(--forest); }
+nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+/* ---------- Scaled catalog: 分類導航 ---------- */
+nav.cat-nav {
+  display: flex; gap: 4px; flex-wrap: wrap; margin: 16px 0 4px;
+  padding-top: 12px; border-top: 1px solid var(--border);
+}
+nav.cat-nav a {
+  padding: 7px 14px; border-radius: 8px; border: 1px solid transparent;
+  color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 600;
+  transition: all .12s ease;
+}
+nav.cat-nav a:hover { color: var(--forest); background: #f2eee4; }
+nav.cat-nav a.active { color: var(--forest); background: #e9f0e9; border-color: var(--border); }
+nav.cat-nav .cat-count { color: var(--terracotta); font-weight: 700; font-size: .78rem; margin-left: 3px; }
+/* 分類英雄 / 區塊 */
+.cat-hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 22px 26px; margin-bottom: 26px; }
+.cat-hero h1.page { margin-bottom: 6px; }
+.cat-hero p { color: var(--muted); max-width: 72ch; }
+.cat-block { margin-bottom: 34px; }
+.cat-block-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.cat-block-head h2 { margin-top: 0; border: none; }
+.cat-block-head .cat-desc { color: var(--muted); font-size: .9rem; }
+.cat-block-head .cat-jump { color: var(--forest); font-size: .85rem; text-decoration: none; font-weight: 600; }
+/* 搜尋 */
+.searchbar { max-width: 640px; margin: 20px 0 6px; position: relative; }
+.searchbar input {
+  width: 100%; padding: 13px 18px 13px 44px; border: 1px solid var(--border);
+  border-radius: 12px; font-size: 1rem; background: #fff; color: var(--ink);
+  outline: none; transition: border-color .12s ease, box-shadow .12s ease;
+}
+.searchbar input:focus { border-color: var(--forest); box-shadow: 0 0 0 3px rgba(62,92,75,.12); }
+.searchbar .search-icon {
+  position: absolute; left: 15px; top: 50%; transform: translateY(-50%);
+  color: var(--muted); font-size: 1.05rem; pointer-events: none;
+}
+.search-hint { color: var(--muted); font-size: .82rem; margin: 8px 2px 0; }
+/* 分類品牌卡（有縮圖） */
+.brand-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 16px; }
+.brand-card {
+  display: flex; gap: 14px; align-items: stretch; background: var(--card);
+  border: 1px solid var(--border); border-radius: 12px; padding: 14px;
+  text-decoration: none; color: var(--ink); transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.brand-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.brand-card .b-thumb {
+  width: 84px; min-width: 84px; height: 84px; border-radius: 9px; overflow: hidden;
+  background: #eee7db; display: flex; align-items: center; justify-content: center;
+}
+.brand-card .b-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.brand-card .b-thumb .noimg { color: var(--muted); font-size: 1.5rem; }
+.brand-card .b-body { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.brand-card .b-name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1rem; line-height: 1.35; }
+.brand-card .b-zh { color: var(--muted); font-size: .8rem; }
+.brand-card .b-desc { color: var(--muted); font-size: .82rem; margin-top: 5px; flex: 1; }
+.brand-card .b-meta { display: flex; align-items: center; gap: 8px; margin-top: 9px; flex-wrap: wrap; }
+.brand-card .b-count { color: var(--terracotta); font-weight: 700; font-size: .82rem; }
+.brand-card .lic-row { display: flex; gap: 4px; flex-wrap: wrap; }
+/* 過濾隱藏（搜尋用） */
+.filter-hidden { display: none !important; }
+.no-result { display: none; color: var(--muted); padding: 24px; text-align: center; }
+
+.breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
+.breadcrumb a { color: var(--forest); text-decoration: none; }
+h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }
+h2 { font-family: "Noto Serif TC", Georgia, serif; color: var(--forest);
+     font-size: 1.25rem; margin: 34px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+h3 { color: var(--ink); font-size: 1.05rem; margin: 20px 0 8px; }
+p { margin: 8px 0; }
+ul, ol { margin: 8px 0 8px 24px; }
+li { margin: 4px 0; }
+blockquote { border-left: 3px solid var(--terracotta); background: #fffdf9;
+             padding: 8px 14px; margin: 10px 0; color: var(--ink); border-radius: 0 6px 6px 0; }
+a { color: var(--forest); }
+.meta-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.92rem; }
+.meta-table td { padding: 7px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.meta-table td:first-child { width: 34%; color: var(--muted); font-weight: 600; }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+.badge.pd { background: #dcebdd; color: #2c5e3a; }
+.badge.cc { background: #dfe7f5; color: #2c4a7c; }
+.badge.partial { background: #f5e8d3; color: #8a5a1e; }
+.badge.verify { background: #f4dcd9; color: #963a2e; }
+.lic-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.character-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 18px; }
+.character-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 16px; text-decoration: none; color: var(--ink); display: block;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.character-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.character-card .name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1.05rem; }
+.character-card .thumb { width: 100%; height: 120px; overflow: hidden; border-radius: 8px; margin-bottom: 10px; background: #eee7db; }
+.character-card .thumb img { width: 100%; height: 100%; object-fit: cover; }
+.character-card .zh { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
+.character-card .desc { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+.character-card .badge { margin-top: 10px; }
+.copyright-box { background: #f2efea; border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
+.copyright-box h3 { color: var(--terracotta); margin-top: 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: .04em; }
+.copyright-box ul { margin-left: 20px; }
+.char-hero { display: flex; gap: 22px; align-items: flex-start; margin-bottom: 24px; flex-wrap: wrap; }
+.char-hero img { width: 280px; max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--border); background:#fff; }
+.char-hero .captions { flex: 1; min-width: 220px; font-size: 0.85rem; color: var(--muted); }
+.char-hero .captions p { margin: 4px 0; }
+.img-credit { font-size: 0.75rem; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+.img-credit a { color: var(--forest); }
+.footer-note { color: var(--muted); font-size: 0.8rem; margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--border); }
+.hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 26px; margin-bottom: 28px; }
+.hero h2 { border: none; margin-top: 0; font-size: 1.5rem; }
+.hero p { color: var(--muted); max-width: 70ch; }
+.stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
+.stat { font-size: 0.9rem; }
+.stat b { color: var(--forest); font-size: 1.2rem; }
+/* 配角 / 路人互動面板 */
+.support-panel { margin-top: 22px; display: grid; gap: 10px; }
+.support-item { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.support-item summary {
+  cursor: pointer; padding: 13px 18px; list-style: none; display: flex; align-items: center; gap: 12px;
+  font-weight: 600; color: var(--ink); transition: background .12s ease; user-select: none;
+}
+.support-item summary::-webkit-details-marker { display: none; }
+.support-item summary:hover { background: #f3efe6; }
+.support-item summary .caret { color: var(--terracotta); transition: transform .18s ease; margin-left: auto; }
+.support-item[open] summary .caret { transform: rotate(90deg); }
+.support-item summary .sup-name { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.05rem; }
+.support-item summary .sup-type { font-size: .72rem; color: var(--forest); background: var(--tag-bg); padding: 2px 10px; border-radius: 20px; font-weight: 600; }
+.support-item summary .sup-zh { color: var(--muted); font-size: .85rem; font-weight: 400; }
+.support-body { padding: 4px 18px 16px; border-top: 1px solid var(--tag-bg); }
+.support-body .sup-relation { margin: 10px 0 4px; color: var(--forest); font-size: .88rem; font-weight: 600; }
+.support-body p, .support-body ul { font-size: .92rem; margin: 6px 0; }
+.support-body .sup-label { color: var(--terracotta); font-weight: 700; font-size: .8rem; letter-spacing: .03em; margin-top: 10px; text-transform: uppercase; }
+.support-body blockquote { font-size: .9rem; }
+.support-hint { color: var(--muted); font-size: .85rem; margin-top: 6px; }
+/* 參考圖庫（動畫用多角度） */
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-top: 18px; }
+.gallery figure { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 0; }
+.gallery figure img { width: 100%; height: 170px; object-fit: cover; display: block; background: #fff; }
+.gallery figcaption { padding: 8px 12px; font-size: .82rem; color: var(--ink); }
+.gallery figcaption .g-angle { font-weight: 700; color: var(--forest); }
+.gallery figcaption .g-meta { color: var(--muted); font-size: .72rem; margin-top: 3px; }
+.gallery-hint { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+/* ---------- Lightbox ---------- */
+.lightbox { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.88); cursor: zoom-out; }
+.lightbox.open { display: flex; align-items: center; justify-content: center; }
+.lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; background: #000; border-radius: 6px; box-shadow: 0 8px 40px rgba(0,0,0,.6); }
+.lightbox .lb-cap { position: absolute; bottom: 18px; left: 0; right: 0; text-align: center; color: #ddd; font-size: .85rem; padding: 0 20px; }
+.lightbox .lb-close { position: absolute; top: 14px; right: 22px; color: #fff; font-size: 2rem; line-height: 1; cursor: pointer; }
+a.zoom { display: inline-block; cursor: zoom-in; }
+.gallery figure img { cursor: zoom-in; }
+</style></head><body>
+<header class="site"><div class="wrap">
+  <h1><a href="../index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
+  <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
+</div><nav class="cat-nav"><a href="../index.html" class="">全部 <span class="cat-count">78</span></a><a href="../category/japanese.html" class="active">日式動漫 · 浮世繪 <span class="cat-count">10</span></a><a href="../category/comics.html" class="">公版卡通 · 連環漫畫 <span class="cat-count">27</span></a><a href="../category/art.html" class="">世界名畫 · 藝術風格 <span class="cat-count">14</span></a><a href="../category/world.html" class="">世界文化 · 地標 · 自然 <span class="cat-count">16</span></a><a href="../category/scenes.html" class="">場景 · 道具 · 角色原型 <span class="cat-count">5</span></a><a href="../category/opensource.html" class="">開源 · 素材包 <span class="cat-count">6</span></a></nav></header>
+<div class="wrap"><div class="breadcrumb"><a href="../index.html">全部品牌</a> › 日式動漫 · 浮世繪</div><div class="cat-hero"><h1 class="page">日式動漫 · 浮世繪 <span style="color:var(--muted);font-size:1rem;font-weight:400">10 品牌 · 369 角色</span></h1><p>浮世繪大師、日本妖怪、動漫設計圖與背景、和風藝術</p></div><div class="searchbar"><span class="search-icon">⌕</span>
+      <input type="text" id="brand-search" placeholder="搜尋品牌 / 角色名… (e.g. 北齋, 妖怪, Popeye)" autocomplete="off"></div>
+      <div class="search-hint">搜尋會即時篩選以下品牌（比對品牌名＋旗下角色名）。</div><div class="wrap"><div class="brand-grid"><div data-search="Japanese Anime Backgrounds 日式動漫背景素材 Akihabara Street Anime Beach Scene 紅葉楓（Rikugien Maple） 道頓堀（Dotonbori Osaka） Fuji + Sakura 伏見稻荷（Fushimi Inari） Ginkaku-ji Temple 祇園巷（Gion Alley） 白世界（Blue Sky White World） 北海道雪路（Hokkaido Road） 北海道雪神社（Hokkaido Jingu） Huntington Japanese Garden Japanese Garden with Koi 歌舞伎町紅門（Kabukicho Gate） 和服森林（Kimono Forest） Kobe Night Cityscape 北海道駒岳（Komagatake Winter） Sakura at Japan Mint 青森ねぶた祭（Nebuta Festival） 大阪城夜景（Osaka Castle） Rail Through Sakura Furuyu Saga Cityscape 澀谷十字路口（Shibuya Crossing） 新宿藍色時段（Shinjuku Blue Hour） 新宿霓虹（Shinjuku Neon） Shinto Shrine Landscape Tokyo Skytree Worm-Eye 渡月橋黃昏（Togetsu-kyo） On the Edge 八坂通（Yasaka-dori Kyoto）"><a class="brand-card" href="../brands/japanese-anime-backgrounds/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/bg-akihabara.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Japanese Anime Backgrounds</div>
+    <div class="b-zh">日式動漫背景素材</div>
+    <div class="b-desc">2000s-</div>
+    <div class="b-meta">
+      <span class="b-count">30 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Japanese Anime Design Sheets 日式動漫設計圖庫 1920 - before the storm 1D (Blender mascot) Angry Anime Girl (tsundere) Anime Boy Sword Anime Girl Anime Kitty Anime Verdolaga Great Arigato Usagi Battle for the Galaxy units Beast Mech Brendo Magical Girl Brigadier Mk.3 Charge robot concept Charon Assault Mech Chibi Anime Child Chibi Hair &amp; Color Chibi (mira) David Revoy Character Lineart Dojikko EFF 20th mecha poster Fig. Character Design Model Sheet A/B/C Garter-Belt Otokonoko Sketch Gorilla Mecha Husky Chibi (Nunzia) Hyou-chan Icecat Anime Girl ImpMech S Ink and Marker Robot Iron Mecha Kemonomimi Girl (Chibi) Kiki the Cyber Squirrel Kraken S Kuuma Defense Mascot Libbie (Tyson Tan) Otokonoko「Lucero」Reference Sheet Machnia Mecha Manga School Boy 3D Printed Mecha Chibis Mecha-Girl Mecha Samurai Mecha Warrior Mesugaki Moe Character Chieru Kio Moe Manga Lady Moe Anime Girl (Akane) Monami Gentsuki and Friends Monfer Chibi N1-NJ4 Ninja Class Mech Naughty Catgirl Sketch Owl-Class Scout Mecha Purple-haired Moe Girl Robot-bridge 011 SH0-6UN Class Mech Soviet Mecha Bay Sylva The Kappa Thom-simulator robot Gijinka of Wikipedia Wikipe-tan Wuffle Character Model Sheets"><a class="brand-card" href="../brands/japanese-anime-design-sheets/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/1920-storm.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Japanese Anime Design Sheets</div>
+    <div class="b-zh">日式動漫設計圖庫</div>
+    <div class="b-desc">2000s-</div>
+    <div class="b-meta">
+      <span class="b-count">60 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Japanese Anime Extra Sources 日式動漫額外來源 Codel 女角立繪 Fumiko 女武士 VN 萬聖節包 Anima 動漫模型 HuggingFace 動漫公版集 OpenGameArt-CC0 資料集 Aiko 動漫立繪 Miki 動漫立繪 Retro Anime SFX sutemo 角色 Kenney Mini Characters Kenney Roguelike Kenney RPG pack Kenney Toon Characters Kuudere 冷嬌女角 LPC 動漫頭像 Quaternius Ultimate Characters Quaternius Universal Base"><a class="brand-card" href="../brands/japanese-anime-extra-sources/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/jp-codel.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Japanese Anime Extra Sources</div>
+    <div class="b-zh">日式動漫額外來源</div>
+    <div class="b-desc">2010s-</div>
+    <div class="b-meta">
+      <span class="b-count">18 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span> <span class="badge verify">❓ 需核實</span> <span class="badge pd">✔ 公版</span> <span class="badge verify">❓ 需核實</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Japanese Anime Style Reference 日式動漫風格參考 動漫構圖草稿（Anime Drafting） 動漫眼（Anime Eyes） 動漫線稿（Anime Line Drawing） 行書書法（Gyousyo） 復古日式街頭字（Vintage Signs） 日式水彩動漫（Watercolor Posters） 日式公眾告示字（Public Signage） 楷書書法（Kaisho） 草書書法（Sousyo） 維基娘全身（Wikipe-tan Full）"><a class="brand-card" href="../brands/japanese-anime-style-reference/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/style-anime-drafting.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Japanese Anime Style Reference</div>
+    <div class="b-zh">日式動漫風格參考</div>
+    <div class="b-desc">2000s-</div>
+    <div class="b-meta">
+      <span class="b-count">10 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Japanese Art Collection 日式藝術精選 亞歐堂田善世界地圖 周延新美人合20 周延插花 周延六月行事 周延時代鏡 福祿壽與丹頂鶴 達摩不倒翁 漆盒食物繪曆 英泉田川屋餐館 榮昌御所車 英山持杯遊女 芳年飛翔惡魔 伏見稻荷千本鳥居 源氏物語繪卷宿木 飛鳥山花見 隅田川賞櫻 春信美人圖 春信非望之瀧 等伯松林圖屏風 柱繪見立繪 巴水根津雪景 芳年藤原秀鄉 姬路城晨光 軍宅雛祭 廣重芭蕉庵 江戶百景神田之貓 廣重櫻花花鳥 兩國煙花 廣重兩國花火 江戶百景狐狸怪火 堀切菖蒲園 廣重龜戶梅屋鋪 廣重日本橋雪晴 東海道大磯虎之雨 亀戸梅園 廣重兩國涼閣花火 廣重莊野白雨 廣重大橋驟雨 廣重五十三次雪景 廣重水道橋駿河台 廣重燕子紫藤 廣重高輪月之景 酒井抱一楓樹圖 酒井抱一業平出遊 北渓漫畫一編 北齋駿州江尻 北齋霧降瀑布 北齋漫畫 01 北齋漫畫 04 北齋漫畫 05 北齋漫畫第二編 北齋深川萬年橋 北齋駿州薩埵嶺 北齋節分鬼 北齋漁夫妻子之夢 北齋山下白雨 北齋紅富士變體 荷蘭人横浜出遊 天竺丸印度象 一寸法師繪卷 若冲薔薇與鸚鵡 春信赫夜姬 河童相撲 金閣寺 芳年金太郎乘鯉 芳年金太郎鬥大鯉 宗近得狐助鍛刀 錦鯉躍瀑 湖龍齋吉原美人 国周武士役者 歌川国政役者大首繪 國政市川海老藏 國直夏季美人 國貞櫻樹美人 國芳貓擬東海道 國芳國姓爺打虎 國芳八犬傳屋頂戰 稻田九郎進助 國芳斬巨猿 平家武者復仇 國芳瀧夜叉姬大骸骨 國芳水滸豪傑 國芳摺物 國芳虎與龍 國芳虎 國芳貓東海道五十三次 國芳吳用魁星 白花蛇楊春 曉齋貓捕蛙 招財貓 國芳派日本美人魚 長崎繪荷蘭貴婦 長崎繪外國船 悲母觀音金屏 國芳鬼若丸巨鯉 凱風快晴赤富士 轆轤首女妖 龍安寺枯山水 武士全副盔甲 竹內栖鳳保津川 神坂雪佳拾葉 雪舟破墨山水 雪舟四季山水 寫樂大谷鬼次 司馬江漢洋風畫 重政藝伎侍從 重政鳶尾禽鳥 窪俊滿櫻花松果 窪俊滿風帶鼠繪曆 窪俊滿櫻花吸煙女子 春章役者立姿 春章室內場景 春章市村右宇蔵九世 大骸骨妖 橫山大觀生々流轉 江戶百景七夕祭 初午祭狸妖 北條高時驅天狗 虎與龍 歌川豊春劇場透視 豐國一世雙戀人 豐國二代持扇役者 豐國二代富波番 國貞歌舞伎役者 月見插花 團扇繪團十郎 團扇繪稻荷美人 團扇繪相撲力士 芳年浦島太郎 歌麿三美人 歌麿三美人 歌麿美人畫 歌麿大首繪 山川秀峰美人畫 横浜碼頭景色 芳年安達原垰 芳年弁慶鎮浪 芳年金神長五郎鬼怪 地獄太夫悟道 芳年謙信觀雁 月百姿五條橋之月 月百姿第33景 芳年月百姿第4幅 芳年月百姿74 芳年夕顔之靈 柴田是真線上蟬"><a class="brand-card" href="../brands/japanese-art-collection/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/jp-aodo-denzen.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Japanese Art Collection</div>
+    <div class="b-zh">日式藝術精選</div>
+    <div class="b-desc">1700s-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">146 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Japanese Theme Illustrations 日式主題插畫 茶道（Chado） 櫻花（Cherry Blossom） 隅田川賞櫻（Mukojima 1910） 達摩向量（Daruma Vector） 達摩不倒翁（Daruma） 狐狸面具（Fox Masks） 和服正背面（Kimono 1910） 和服摺疊（Kimono Folding） 小袖和服版型（Kosode） 月兔（Moon Rabbit） 御守（Omamori） 摺紙鶴（Origami Crane） 千羽鶴（Origami Cranes） 動漫拉麵（Ramen） 櫻花（Sakura） 壽司（Sushi） 茶道木版畫（Tea Ceremony） 維基醬（Wikipe-tan）"><a class="brand-card" href="../brands/japanese-theme-illustrations/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/jp-chado.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Japanese Theme Illustrations</div>
+    <div class="b-zh">日式主題插畫</div>
+    <div class="b-desc">江戶-現代</div>
+    <div class="b-meta">
+      <span class="b-count">18 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Japanese Yokai 日本妖怪 姫路城（Himeji Castle） 嚴島鳥居（Itsukushima Hiroshige） 嚴島弁天社（Itsukushima Benten） 嚴島浮繪（Ukie Itsukushima） 嚴島雪景（Miyajima Snow） 阿麻比（Amabie） 妖（Ayakashi） 化貓（Bakeneko） 升天日本龍（Ryu sho ten） 土蜘蛛召喚群妖（Earth Spider） 狐火狐狸（Fox by Mystic Fire） 狐火（Foxfires Chikanobu） 狐火（Foxfires Yoshitoshi） 北齋天狗（Hokusai Tengu） 瓢箪小僧（Hyōtankozō） 鎌鼬（Kamaitachi） 剪髮妖怪（Kamikiri） 蟹坊主（Kanibozu） 河童水妖（Kappa） 麒麟（Kirin） 狐仙花園稻荷（Kitsune of Hanazono Inari） 狐嫁（Fox Wedding） 目目連（Mokumokuren） 九尾狐（Nine-tailed Fox） 野槌（Nozuchi） 儀式鬼面（Ritual Oni Mask） 彈三味線嘅鬼（Oni with Shamisen） 八岐大蛇（Yamata no Orochi） 芝天（Shibaten 天狗場景） 不知火（Shiranui） 鍾馗驅鬼（Shoki the Demon Queller） 廣尾祭天狗面具（Tengu Festival） 天狗王訓練弟子（Tengu King） 品川神社天狗（Tengu Shrine） 釣瓶火（Tsurube-bi） 滿月白狐（White Fox on Moonlit Night） 白狐立於鳥居（White Fox over Torii Gate）"><a class="brand-card" href="../brands/japanese-yokai/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/arch-himeji-castle.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Japanese Yokai</div>
+    <div class="b-zh">日本妖怪</div>
+    <div class="b-desc">江戶/明治時代</div>
+    <div class="b-meta">
+      <span class="b-count">37 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Regional Architecture, Japan Scenes &amp; Celestials 區域建築日本特色與天上聖靈 蒲甘阿南達寺 婆羅浮屠 通布圖傑內雷貝清真寺 大辛巴威 拉利貝拉岩鑿教堂 波斯波利斯 普蘭巴南 川瀨鶯飼 雪猴溫泉 佩魯吉諾奏樂天使 拉斐爾西斯汀雙天使 提香維納斯小天使"><a class="brand-card" href="../brands/regional-architecture-japan-celestials/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/arch-bagan-ananda.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Regional Architecture, Japan Scenes &amp; Celestials</div>
+    <div class="b-zh">區域建築日本特色與天上聖靈</div>
+    <div class="b-desc">1500s-2020s</div>
+    <div class="b-meta">
+      <span class="b-count">12 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Ukiyo-e Nouveau Fantasy &amp; Markets 浮世繪新藝術奇幻與市集 伯恩瓊斯玫瑰美人 摩羅朱庇特塞梅勒 慕夏四季水果 慕夏吉絲夢達海報 沃特豪斯許拉斯寧芙 沃特豪斯夏洛特夫人 比亞茲萊高潮 多雷神曲卡戎 杜拉克一千零一夜 拉克漢灰姑娘剪影 阿爾岑肉攤 貝克拉爾市集場景 布魯格爾婚禮舞會 夏丹廚房用具 國芳水滸傳豪傑 國芳東海道五十三次 曉齋天照大神 曉齋地獄太夫 芳年紫式部石山月 芳年須佐之男"><a class="brand-card" href="../brands/ukiyoe-nouveau-fantasy-markets/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/art-burnejones-rosamund.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Ukiyo-e Nouveau Fantasy &amp; Markets</div>
+    <div class="b-zh">浮世繪新藝術奇幻與市集</div>
+    <div class="b-desc">1700s-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">20 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Wildlife, Ukiyo-e, Children&#x27;s Books &amp; Mood 野生動物浮世繪童書與氛圍 杜拉克童話書 凱尼爾森北歐童話 拉克漢青蛙王子 拉克漢糖果屋 拉克漢長髮公主 天尼爾愛麗絲豬嬰 北齋漫畫沐浴人群 北齋漫畫卷二 國貞相撲浮世繪 河鍋曉齋戲謔妖怪 月岡芳年達摩 月百姿之十二 弗里德里希霧海旅人 廣重阪下夕雨 泰納雪暴 魚類自然史圖版59 梅里安變態圖版LX 梅里安蝶蛾圖"><a class="brand-card" href="../brands/wildlife-ukiyoe-childrens-mood/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/book-dulac-fairy.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Wildlife, Ukiyo-e, Children&#x27;s Books &amp; Mood</div>
+    <div class="b-zh">野生動物浮世繪童書與氛圍</div>
+    <div class="b-desc">1600s-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">18 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div></div><div class="no-result" id="no-result">搵唔到符合嘅品牌 / 角色。</div></div></div><div class="wrap">
+  <div class="footer-note">
+    Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
+  </div>
+</div>
+<div class="lightbox" id="lightbox" aria-hidden="true"><span class="lb-close" id="lb-close">&times;</span><img src="" alt="" id="lb-img"><div class="lb-cap" id="lb-cap"></div></div>
+<script>
+(function(){
+  var lb=document.getElementById('lightbox'), img=document.getElementById('lb-img'), cap=document.getElementById('lb-cap');
+  function open(src,alt){ img.src=src; img.alt=alt; cap.textContent=alt; lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); }
+  function close(){ lb.classList.remove('open'); img.src=''; lb.setAttribute('aria-hidden','true'); }
+  document.addEventListener('click', function(e){
+    var t=e.target.closest('a.zoom, .gallery figure img, .char-hero img');
+    if(t && t.tagName!=='IMG'){ t=e.target; }
+    if(t && t.tagName==='IMG' && (t.closest('a.zoom') || t.closest('.gallery') || t.closest('.char-hero'))){
+      e.preventDefault(); var src=t.getAttribute('data-full')||t.currentSrc||t.src;
+      open(src, t.getAttribute('alt')||'');
+    }
+  });
+  lb.addEventListener('click', function(e){ if(e.target===lb||e.target.id==='lb-close') close(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+})();
+</script>
+<script>
+(function(){
+  var box=document.getElementById('brand-search');
+  if(!box) return;
+  box.addEventListener('input', function(){
+    var q=box.value.trim().toLowerCase();
+    var cards=document.querySelectorAll('.brand-card');
+    var any=false;
+    cards.forEach(function(c){
+      var holder=c.parentElement;
+      var hay=(holder&&holder.getAttribute('data-search')||'').toLowerCase();
+      var show=!q||hay.indexOf(q)!==-1;
+      holder.classList.toggle('filter-hidden', !show);
+      if(show) any=true;
+    });
+    var blocks=document.querySelectorAll('.cat-block');
+    blocks.forEach(function(bl){
+      var hasVisible=[].some.call(bl.querySelectorAll('.brand-card'), function(c){return !c.parentElement.classList.contains('filter-hidden');});
+      bl.classList.toggle('filter-hidden', !hasVisible && q!=='');
+      if(hasVisible) any=true;
+    });
+    var nr=document.getElementById('no-result');
+    if(nr) nr.style.display = q && !any ? 'block' : 'none';
+  });
+})();
+</script>

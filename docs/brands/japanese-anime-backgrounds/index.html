@@ -39,6 +39,66 @@ nav.brand-tabs a {
 }
 nav.brand-tabs a:hover { border-color: var(--forest); }
 nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+/* ---------- Scaled catalog: 分類導航 ---------- */
+nav.cat-nav {
+  display: flex; gap: 4px; flex-wrap: wrap; margin: 16px 0 4px;
+  padding-top: 12px; border-top: 1px solid var(--border);
+}
+nav.cat-nav a {
+  padding: 7px 14px; border-radius: 8px; border: 1px solid transparent;
+  color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 600;
+  transition: all .12s ease;
+}
+nav.cat-nav a:hover { color: var(--forest); background: #f2eee4; }
+nav.cat-nav a.active { color: var(--forest); background: #e9f0e9; border-color: var(--border); }
+nav.cat-nav .cat-count { color: var(--terracotta); font-weight: 700; font-size: .78rem; margin-left: 3px; }
+/* 分類英雄 / 區塊 */
+.cat-hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 22px 26px; margin-bottom: 26px; }
+.cat-hero h1.page { margin-bottom: 6px; }
+.cat-hero p { color: var(--muted); max-width: 72ch; }
+.cat-block { margin-bottom: 34px; }
+.cat-block-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.cat-block-head h2 { margin-top: 0; border: none; }
+.cat-block-head .cat-desc { color: var(--muted); font-size: .9rem; }
+.cat-block-head .cat-jump { color: var(--forest); font-size: .85rem; text-decoration: none; font-weight: 600; }
+/* 搜尋 */
+.searchbar { max-width: 640px; margin: 20px 0 6px; position: relative; }
+.searchbar input {
+  width: 100%; padding: 13px 18px 13px 44px; border: 1px solid var(--border);
+  border-radius: 12px; font-size: 1rem; background: #fff; color: var(--ink);
+  outline: none; transition: border-color .12s ease, box-shadow .12s ease;
+}
+.searchbar input:focus { border-color: var(--forest); box-shadow: 0 0 0 3px rgba(62,92,75,.12); }
+.searchbar .search-icon {
+  position: absolute; left: 15px; top: 50%; transform: translateY(-50%);
+  color: var(--muted); font-size: 1.05rem; pointer-events: none;
+}
+.search-hint { color: var(--muted); font-size: .82rem; margin: 8px 2px 0; }
+/* 分類品牌卡（有縮圖） */
+.brand-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 16px; }
+.brand-card {
+  display: flex; gap: 14px; align-items: stretch; background: var(--card);
+  border: 1px solid var(--border); border-radius: 12px; padding: 14px;
+  text-decoration: none; color: var(--ink); transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.brand-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.brand-card .b-thumb {
+  width: 84px; min-width: 84px; height: 84px; border-radius: 9px; overflow: hidden;
+  background: #eee7db; display: flex; align-items: center; justify-content: center;
+}
+.brand-card .b-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.brand-card .b-thumb .noimg { color: var(--muted); font-size: 1.5rem; }
+.brand-card .b-body { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.brand-card .b-name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1rem; line-height: 1.35; }
+.brand-card .b-zh { color: var(--muted); font-size: .8rem; }
+.brand-card .b-desc { color: var(--muted); font-size: .82rem; margin-top: 5px; flex: 1; }
+.brand-card .b-meta { display: flex; align-items: center; gap: 8px; margin-top: 9px; flex-wrap: wrap; }
+.brand-card .b-count { color: var(--terracotta); font-weight: 700; font-size: .82rem; }
+.brand-card .lic-row { display: flex; gap: 4px; flex-wrap: wrap; }
+/* 過濾隱藏（搜尋用） */
+.filter-hidden { display: none !important; }
+.no-result { display: none; color: var(--muted); padding: 24px; text-align: center; }
+
 .breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
 .breadcrumb a { color: var(--forest); text-decoration: none; }
 h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }
@@ -129,7 +189,7 @@ a.zoom { display: inline-block; cursor: zoom-in; }
 <header class="site"><div class="wrap">
   <h1><a href="../../index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
   <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
-</div><nav class="brand-tabs"><a href="../../brands/ancient-civilizations-performance-scripts/" class="">Ancient Civilizations, Performance &amp; Scripts</a><a href="../../brands/ancient-traditions-interiors-flora/" class="">Ancient Traditions, Regional Interiors &amp; Flora</a><a href="../../brands/animation-backgrounds-general/" class="">Animation Backgrounds (General)</a><a href="../../brands/anthropomorphic-animals/" class="">Anthropomorphic Animals</a><a href="../../brands/art-movements-mythical-cuisine/" class="">Art Movements, Mythical Beasts &amp; World Cuisine</a><a href="../../brands/barney-google/" class="">Barney Google</a><a href="../../brands/blender-open-movies/" class="">Blender Open Movies</a><a href="../../brands/jiggs/" class="">Bringing Up Father</a><a href="../../brands/buck-rogers/" class="">Buck Rogers</a><a href="../../brands/buster-brown/" class="">Buster Brown</a><a href="../../brands/cc0-original-characters/" class="">CC0 Original Characters</a><a href="../../brands/cityscapes-historical-scenes/" class="">Cityscapes &amp; Historical Scenes</a><a href="../../brands/costumes-landscapes-work-animals-props/" class="">Costumes, Landscapes, Work Animals &amp; Props</a><a href="../../brands/dance-instruments-crafts-festivals/" class="">Dance, Instruments, Crafts &amp; Festivals</a><a href="../../brands/disney-silent/" class="">Disney Silent Era (Mickey &amp; Friends)</a><a href="../../brands/egyptian-greek-roman-antiquity/" class="">Egyptian, Greek &amp; Roman Antiquity</a><a href="../../brands/fairy-tales-mythology/" class="">Fairy Tales &amp; Mythology</a><a href="../../brands/felix-the-cat/" class="">Felix the Cat</a><a href="../../brands/flags-interiors-landmarks-biomes/" class="">Flags, Interiors, Landmarks &amp; Biomes</a><a href="../../brands/fleischer-betty-boop/" class="">Fleischer Studios (Betty Boop)</a><a href="../../brands/free-asset-sources/" class="">Free Asset Sources</a><a href="../../brands/genre-life-trades-legendary-heroes/" class="">Genre Life, Trades &amp; Legendary Heroes</a><a href="../../brands/global-art-traditions-props-science/" class="">Global Art Traditions, Props &amp; Natural Science</a><a href="../../brands/global-cultural-traditions-landmarks/" class="">Global Cultural Traditions &amp; Landmarks</a><a href="../../brands/happy-hooligan/" class="">Happy Hooligan</a><a href="../../brands/historical-props-golden-age/" class="">Historical Props &amp; Golden-Age Art</a><a href="../../brands/international-pd-characters/" class="">International PD Characters</a><a href="../../brands/japanese-anime-backgrounds/" class="active">Japanese Anime Backgrounds</a><a href="../../brands/japanese-anime-design-sheets/" class="">Japanese Anime Design Sheets</a><a href="../../brands/japanese-anime-extra-sources/" class="">Japanese Anime Extra Sources</a><a href="../../brands/japanese-anime-style-reference/" class="">Japanese Anime Style Reference</a><a href="../../brands/japanese-art-collection/" class="">Japanese Art Collection</a><a href="../../brands/japanese-theme-illustrations/" class="">Japanese Theme Illustrations</a><a href="../../brands/japanese-yokai/" class="">Japanese Yokai</a><a href="../../brands/krazy-kat/" class="">Krazy Kat</a><a href="../../brands/landmarks-exotic-fauna-japanese-culture/" class="">Landmarks, Exotic Fauna &amp; Japanese Culture</a><a href="../../brands/little-nemo/" class="">Little Nemo in Slumberland</a><a href="../../brands/marine-masterpieces-astronomy/" class="">Marine, Masterpieces &amp; Astronomy</a><a href="../../brands/master-paintings-cities-marine/" class="">Master Paintings, Cities &amp; Marine Activities</a><a href="../../brands/master-paintings-natural-wonders-mythical/" class="">Master Paintings, Natural Wonders &amp; Mythical Beasts</a><a href="../../brands/masterpieces-cities-archetypes-feasts/" class="">Masterpieces, Cities, Archetypes &amp; Feasts</a><a href="../../brands/masterpieces-cities-fauna-mythical/" class="">Masterpieces, Cities, Fauna &amp; Mythical Beasts</a><a href="../../brands/maya-landmarks-american-natural-history/" class="">Maya Landmarks &amp; American Natural History</a><a href="../../brands/motion-emotion-hands-silhouette/" class="">Motion, Emotion, Hands &amp; Silhouette</a><a href="../../brands/musicians-scientists-performing/" class="">Musicians, Scientists &amp; Performing Arts</a><a href="../../brands/mutt-jeff/" class="">Mutt and Jeff</a><a href="../../brands/natural-history-chinese-culture-architecture/" class="">Natural History, Chinese Culture &amp; Architecture Detail</a><a href="../../brands/non-western-mythology/" class="">Non-Western Mythology &amp; Cultural Art</a><a href="../../brands/occupations-monsters/" class="">Occupations &amp; Monsters</a><a href="../../brands/olive-oyl/" class="">Olive Oyl (Thimble Theatre)</a><a href="../../brands/open-source-mascots/" class="">Open-Source Mascots</a><a href="../../brands/oss-software-mascots/" class="">OSS Software Mascots</a><a href="../../brands/oswald/" class="">Oswald the Lucky Rabbit</a><a href="../../brands/pd-childrens-book-illustrators/" class="">PD Children&#x27;s Book Illustrators</a><a href="../../brands/pd-golden-age-superheroes/" class="">PD Golden-Age Superheroes</a><a href="../../brands/pd-literature-folklore/" class="">PD Literature &amp; Folklore</a><a href="../../brands/polly-pals/" class="">Polly and Her Pals</a><a href="../../brands/popeye/" class="">Popeye</a><a href="../../brands/props-weapons/" class="">Props &amp; Weapons</a><a href="../../brands/pd-animation-1920s30s/" class="">Public-Domain Animation (1920-30s)</a><a href="../../brands/realism-postimpressionism-masterpieces/" class="">Realism &amp; Post-Impressionism Masterpieces</a><a href="../../brands/regional-architecture-japan-celestials/" class="">Regional Architecture, Japan Scenes &amp; Celestials</a><a href="../../brands/regional-landmarks-global-fauna-art/" class="">Regional Landmarks, Global Fauna &amp; Art Systems</a><a href="../../brands/retro-modern-instruments-marine-cities/" class="">Retro-Modern, Instruments, Marine &amp; Cities</a><a href="../../brands/scifi-art-dramatic-scenes/" class="">Sci-Fi Art &amp; Dramatic Scenes</a><a href="../../brands/sculpture-engraving-fauna-sports/" class="">Sculpture, Engraving, Regional Fauna &amp; Sports</a><a href="../../brands/skippy/" class="">Skippy</a><a href="../../brands/textiles-heraldry-ships-weapons/" class="">Textiles, Heraldry, Ships &amp; Weapons</a><a href="../../brands/andy-gump/" class="">The Gumps</a><a href="../../brands/katzenjammer-kids/" class="">The Katzenjammer Kids</a><a href="../../brands/yellow-kid/" class="">The Yellow Kid</a><a href="../../brands/ukiyoe-nouveau-fantasy-markets/" class="">Ukiyo-e Nouveau Fantasy &amp; Markets</a><a href="../../brands/vehicles-landmarks/" class="">Vehicles &amp; Landmarks</a><a href="../../brands/vintage-comic-strips/" class="">Vintage Comic Strips</a><a href="../../brands/wildlife-ukiyoe-childrens-mood/" class="">Wildlife, Ukiyo-e, Children&#x27;s Books &amp; Mood</a><a href="../../brands/winnie-the-pooh/" class="">Winnie-the-Pooh (Original Book)</a><a href="../../brands/world-architecture-flora-cuisine-weather/" class="">World Architecture, Flora, Cuisine &amp; Weather</a><a href="../../brands/world-costumes-asian-folk-art/" class="">World Costumes &amp; Asian Folk Art</a></nav></header>
+</div><nav class="cat-nav"><a href="../../index.html" class="">全部 <span class="cat-count">78</span></a><a href="../../category/japanese.html" class="active">日式動漫 · 浮世繪 <span class="cat-count">10</span></a><a href="../../category/comics.html" class="">公版卡通 · 連環漫畫 <span class="cat-count">27</span></a><a href="../../category/art.html" class="">世界名畫 · 藝術風格 <span class="cat-count">14</span></a><a href="../../category/world.html" class="">世界文化 · 地標 · 自然 <span class="cat-count">16</span></a><a href="../../category/scenes.html" class="">場景 · 道具 · 角色原型 <span class="cat-count">5</span></a><a href="../../category/opensource.html" class="">開源 · 素材包 <span class="cat-count">6</span></a></nav></header>
 <div class="wrap"><div class="breadcrumb"><a href="../../index.html">全部品牌</a> › Japanese Anime Backgrounds</div><h1 class="page">Japanese Anime Backgrounds <span style="color:var(--muted);font-size:1rem;font-weight:400">日式動漫背景素材</span></h1><table class="meta-table"><tr><td>出品</td><td>日本</td></tr><tr><td>年代</td><td>2000s-</td></tr><tr><td>原創作者</td><td>各開放創作者</td></tr><tr><td>原發行商</td><td>Wikimedia Commons</td></tr><tr><td>首次登場</td><td>2000</td></tr><tr><td>類型</td><td>背景 / 場景參考素材</td></tr><tr><td>版權狀態</td><td><span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span> CC0 / CC-BY / CC-BY-SA / 公版 自由授權</td></tr></table><p>呢個品牌收錄<strong>日式風格背景/場景參考圖</strong>，供 AI 動畫製作做背景基底：</p>
 <ul>
 <li><strong>真·動漫風格場景</strong>：torii 鳥居+瀑布、Shinto 神社動漫風景（Niabot / Benlisquare）</li>
@@ -139,152 +199,152 @@ a.zoom { display: inline-block; cursor: zoom-in; }
 </ul>
 <p>全部自由授權（CC0 / CC-BY / CC-BY-SA / 公版），可直接做動畫背景參考基底。</p><h2>旗下公版角色 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(30)</span></h2><div class="character-grid"><a class="character-card" href="bg-akihabara.html">
               <div class="thumb"><img src="../../assets/img/bg-akihabara.jpg" alt=""></div>
-              <div><span class="name">Akihabara Street</span><span class="zh">Akihabara Street</span></div>
+              <div><span class="name">Akihabara Street</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="bg-anime-beach.html">
               <div class="thumb"><img src="../../assets/img/bg-anime-beach.jpg" alt=""></div>
-              <div><span class="name">Anime Beach Scene</span><span class="zh">Anime Beach Scene</span></div>
+              <div><span class="name">Anime Beach Scene</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-autumn-maple.html">
               <div class="thumb"><img src="../../assets/img/bg-autumn-maple.jpg" alt=""></div>
-              <div><span class="name">紅葉楓（Rikugien Maple）</span><span class="zh">紅葉楓（Rikugien Maple）</span></div>
+              <div><span class="name">紅葉楓（Rikugien Maple）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY</span>
             </a><a class="character-card" href="bg-dotonbori.html">
               <div class="thumb"><img src="../../assets/img/bg-dotonbori.jpg" alt=""></div>
-              <div><span class="name">道頓堀（Dotonbori Osaka）</span><span class="zh">道頓堀（Dotonbori Osaka）</span></div>
+              <div><span class="name">道頓堀（Dotonbori Osaka）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-fuji-sakura.html">
               <div class="thumb"><img src="../../assets/img/bg-fuji-sakura.png" alt=""></div>
-              <div><span class="name">Fuji + Sakura</span><span class="zh">Fuji + Sakura</span></div>
+              <div><span class="name">Fuji + Sakura</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY</span>
             </a><a class="character-card" href="bg-fushimi-inari.html">
               <div class="thumb"><img src="../../assets/img/bg-fushimi-inari.jpg" alt=""></div>
-              <div><span class="name">伏見稻荷（Fushimi Inari）</span><span class="zh">伏見稻荷（Fushimi Inari）</span></div>
+              <div><span class="name">伏見稻荷（Fushimi Inari）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-ginkakuji.html">
               <div class="thumb"><img src="../../assets/img/bg-ginkakuji.jpg" alt=""></div>
-              <div><span class="name">Ginkaku-ji Temple</span><span class="zh">Ginkaku-ji Temple</span></div>
+              <div><span class="name">Ginkaku-ji Temple</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-gion-alley.html">
               <div class="thumb"><img src="../../assets/img/bg-gion-alley.jpg" alt=""></div>
-              <div><span class="name">祇園巷（Gion Alley）</span><span class="zh">祇園巷（Gion Alley）</span></div>
+              <div><span class="name">祇園巷（Gion Alley）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-hokkaido-field.html">
               <div class="thumb"><img src="../../assets/img/bg-hokkaido-field.jpeg" alt=""></div>
-              <div><span class="name">白世界（Blue Sky White World）</span><span class="zh">白世界（Blue Sky White World）</span></div>
+              <div><span class="name">白世界（Blue Sky White World）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY</span>
             </a><a class="character-card" href="bg-hokkaido-road.html">
               <div class="thumb"><img src="../../assets/img/bg-hokkaido-road.jpg" alt=""></div>
-              <div><span class="name">北海道雪路（Hokkaido Road）</span><span class="zh">北海道雪路（Hokkaido Road）</span></div>
+              <div><span class="name">北海道雪路（Hokkaido Road）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-hokkaido-snow.html">
               <div class="thumb"><img src="../../assets/img/bg-hokkaido-snow.jpg" alt=""></div>
-              <div><span class="name">北海道雪神社（Hokkaido Jingu）</span><span class="zh">北海道雪神社（Hokkaido Jingu）</span></div>
+              <div><span class="name">北海道雪神社（Hokkaido Jingu）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-huntington-garden.html">
               <div class="thumb"><img src="../../assets/img/bg-huntington-garden.jpg" alt=""></div>
-              <div><span class="name">Huntington Japanese Garden</span><span class="zh">Huntington Japanese Garden</span></div>
+              <div><span class="name">Huntington Japanese Garden</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-japanese-garden.html">
               <div class="thumb"><img src="../../assets/img/bg-japanese-garden.jpg" alt=""></div>
-              <div><span class="name">Japanese Garden with Koi</span><span class="zh">Japanese Garden with Koi</span></div>
+              <div><span class="name">Japanese Garden with Koi</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY</span>
             </a><a class="character-card" href="bg-kabukicho-neon.html">
               <div class="thumb"><img src="../../assets/img/bg-kabukicho-neon.jpg" alt=""></div>
-              <div><span class="name">歌舞伎町紅門（Kabukicho Gate）</span><span class="zh">歌舞伎町紅門（Kabukicho Gate）</span></div>
+              <div><span class="name">歌舞伎町紅門（Kabukicho Gate）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-kimono-forest.html">
               <div class="thumb"><img src="../../assets/img/bg-kimono-forest.jpg" alt=""></div>
-              <div><span class="name">和服森林（Kimono Forest）</span><span class="zh">和服森林（Kimono Forest）</span></div>
+              <div><span class="name">和服森林（Kimono Forest）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-kobe-night.html">
               <div class="thumb"><img src="../../assets/img/bg-kobe-night.jpg" alt=""></div>
-              <div><span class="name">Kobe Night Cityscape</span><span class="zh">Kobe Night Cityscape</span></div>
+              <div><span class="name">Kobe Night Cityscape</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-komagatake.html">
               <div class="thumb"><img src="../../assets/img/bg-komagatake.jpg" alt=""></div>
-              <div><span class="name">北海道駒岳（Komagatake Winter）</span><span class="zh">北海道駒岳（Komagatake Winter）</span></div>
+              <div><span class="name">北海道駒岳（Komagatake Winter）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-mint-sakura.html">
               <div class="thumb"><img src="../../assets/img/bg-mint-sakura.jpg" alt=""></div>
-              <div><span class="name">Sakura at Japan Mint</span><span class="zh">Sakura at Japan Mint</span></div>
+              <div><span class="name">Sakura at Japan Mint</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-nebuta-festival.html">
               <div class="thumb"><img src="../../assets/img/bg-nebuta-festival.jpg" alt=""></div>
-              <div><span class="name">青森ねぶた祭（Nebuta Festival）</span><span class="zh">青森ねぶた祭（Nebuta Festival）</span></div>
+              <div><span class="name">青森ねぶた祭（Nebuta Festival）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY</span>
             </a><a class="character-card" href="bg-osaka-castle.html">
               <div class="thumb"><img src="../../assets/img/bg-osaka-castle.jpg" alt=""></div>
-              <div><span class="name">大阪城夜景（Osaka Castle）</span><span class="zh">大阪城夜景（Osaka Castle）</span></div>
+              <div><span class="name">大阪城夜景（Osaka Castle）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-rail-sakura.html">
               <div class="thumb"><img src="../../assets/img/bg-rail-sakura.jpg" alt=""></div>
-              <div><span class="name">Rail Through Sakura</span><span class="zh">Rail Through Sakura</span></div>
+              <div><span class="name">Rail Through Sakura</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-saga-city.html">
               <div class="thumb"><img src="../../assets/img/bg-saga-city.jpg" alt=""></div>
-              <div><span class="name">Furuyu Saga Cityscape</span><span class="zh">Furuyu Saga Cityscape</span></div>
+              <div><span class="name">Furuyu Saga Cityscape</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-shibuya-crossing.html">
               <div class="thumb"><img src="../../assets/img/bg-shibuya-crossing.jpg" alt=""></div>
-              <div><span class="name">澀谷十字路口（Shibuya Crossing）</span><span class="zh">澀谷十字路口（Shibuya Crossing）</span></div>
+              <div><span class="name">澀谷十字路口（Shibuya Crossing）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="bg-shinjuku-bluehour.html">
               <div class="thumb"><img src="../../assets/img/bg-shinjuku-bluehour.jpg" alt=""></div>
-              <div><span class="name">新宿藍色時段（Shinjuku Blue Hour）</span><span class="zh">新宿藍色時段（Shinjuku Blue Hour）</span></div>
+              <div><span class="name">新宿藍色時段（Shinjuku Blue Hour）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-shinjuku-neon.html">
               <div class="thumb"><img src="../../assets/img/bg-shinjuku-neon.jpg" alt=""></div>
-              <div><span class="name">新宿霓虹（Shinjuku Neon）</span><span class="zh">新宿霓虹（Shinjuku Neon）</span></div>
+              <div><span class="name">新宿霓虹（Shinjuku Neon）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-shinto-shrine.html">
               <div class="thumb"><img src="../../assets/img/bg-shinto-shrine.png" alt=""></div>
-              <div><span class="name">Shinto Shrine Landscape</span><span class="zh">Shinto Shrine Landscape</span></div>
+              <div><span class="name">Shinto Shrine Landscape</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-skytree.html">
               <div class="thumb"><img src="../../assets/img/bg-skytree.jpg" alt=""></div>
-              <div><span class="name">Tokyo Skytree Worm-Eye</span><span class="zh">Tokyo Skytree Worm-Eye</span></div>
+              <div><span class="name">Tokyo Skytree Worm-Eye</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-togetsukyo-dusk.html">
               <div class="thumb"><img src="../../assets/img/bg-togetsukyo-dusk.jpg" alt=""></div>
-              <div><span class="name">渡月橋黃昏（Togetsu-kyo）</span><span class="zh">渡月橋黃昏（Togetsu-kyo）</span></div>
+              <div><span class="name">渡月橋黃昏（Togetsu-kyo）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-torii-waterfall.html">
               <div class="thumb"><img src="../../assets/img/bg-torii-waterfall.jpg" alt=""></div>
-              <div><span class="name">On the Edge</span><span class="zh">On the Edge</span></div>
+              <div><span class="name">On the Edge</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="bg-yasaka-dori.html">
               <div class="thumb"><img src="../../assets/img/bg-yasaka-dori.jpg" alt=""></div>
-              <div><span class="name">八坂通（Yasaka-dori Kyoto）</span><span class="zh">八坂通（Yasaka-dori Kyoto）</span></div>
+              <div><span class="name">八坂通（Yasaka-dori Kyoto）</span></div>
               <div class="desc">背景素材</div>
               <span class="badge cc">CC-BY-SA</span>
             </a></div></div><div class="wrap">

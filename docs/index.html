@@ -39,6 +39,66 @@ nav.brand-tabs a {
 }
 nav.brand-tabs a:hover { border-color: var(--forest); }
 nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+/* ---------- Scaled catalog: 分類導航 ---------- */
+nav.cat-nav {
+  display: flex; gap: 4px; flex-wrap: wrap; margin: 16px 0 4px;
+  padding-top: 12px; border-top: 1px solid var(--border);
+}
+nav.cat-nav a {
+  padding: 7px 14px; border-radius: 8px; border: 1px solid transparent;
+  color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 600;
+  transition: all .12s ease;
+}
+nav.cat-nav a:hover { color: var(--forest); background: #f2eee4; }
+nav.cat-nav a.active { color: var(--forest); background: #e9f0e9; border-color: var(--border); }
+nav.cat-nav .cat-count { color: var(--terracotta); font-weight: 700; font-size: .78rem; margin-left: 3px; }
+/* 分類英雄 / 區塊 */
+.cat-hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 22px 26px; margin-bottom: 26px; }
+.cat-hero h1.page { margin-bottom: 6px; }
+.cat-hero p { color: var(--muted); max-width: 72ch; }
+.cat-block { margin-bottom: 34px; }
+.cat-block-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.cat-block-head h2 { margin-top: 0; border: none; }
+.cat-block-head .cat-desc { color: var(--muted); font-size: .9rem; }
+.cat-block-head .cat-jump { color: var(--forest); font-size: .85rem; text-decoration: none; font-weight: 600; }
+/* 搜尋 */
+.searchbar { max-width: 640px; margin: 20px 0 6px; position: relative; }
+.searchbar input {
+  width: 100%; padding: 13px 18px 13px 44px; border: 1px solid var(--border);
+  border-radius: 12px; font-size: 1rem; background: #fff; color: var(--ink);
+  outline: none; transition: border-color .12s ease, box-shadow .12s ease;
+}
+.searchbar input:focus { border-color: var(--forest); box-shadow: 0 0 0 3px rgba(62,92,75,.12); }
+.searchbar .search-icon {
+  position: absolute; left: 15px; top: 50%; transform: translateY(-50%);
+  color: var(--muted); font-size: 1.05rem; pointer-events: none;
+}
+.search-hint { color: var(--muted); font-size: .82rem; margin: 8px 2px 0; }
+/* 分類品牌卡（有縮圖） */
+.brand-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 16px; }
+.brand-card {
+  display: flex; gap: 14px; align-items: stretch; background: var(--card);
+  border: 1px solid var(--border); border-radius: 12px; padding: 14px;
+  text-decoration: none; color: var(--ink); transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.brand-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.brand-card .b-thumb {
+  width: 84px; min-width: 84px; height: 84px; border-radius: 9px; overflow: hidden;
+  background: #eee7db; display: flex; align-items: center; justify-content: center;
+}
+.brand-card .b-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.brand-card .b-thumb .noimg { color: var(--muted); font-size: 1.5rem; }
+.brand-card .b-body { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.brand-card .b-name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1rem; line-height: 1.35; }
+.brand-card .b-zh { color: var(--muted); font-size: .8rem; }
+.brand-card .b-desc { color: var(--muted); font-size: .82rem; margin-top: 5px; flex: 1; }
+.brand-card .b-meta { display: flex; align-items: center; gap: 8px; margin-top: 9px; flex-wrap: wrap; }
+.brand-card .b-count { color: var(--terracotta); font-weight: 700; font-size: .82rem; }
+.brand-card .lic-row { display: flex; gap: 4px; flex-wrap: wrap; }
+/* 過濾隱藏（搜尋用） */
+.filter-hidden { display: none !important; }
+.no-result { display: none; color: var(--muted); padding: 24px; text-align: center; }
+
 .breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
 .breadcrumb a { color: var(--forest); text-decoration: none; }
 h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }
@@ -129,8 +189,886 @@ a.zoom { display: inline-block; cursor: zoom-in; }
 <header class="site"><div class="wrap">
   <h1><a href="index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
   <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
-</div><nav class="brand-tabs"><a href="brands/ancient-civilizations-performance-scripts/" class="">Ancient Civilizations, Performance &amp; Scripts</a><a href="brands/ancient-traditions-interiors-flora/" class="">Ancient Traditions, Regional Interiors &amp; Flora</a><a href="brands/animation-backgrounds-general/" class="">Animation Backgrounds (General)</a><a href="brands/anthropomorphic-animals/" class="">Anthropomorphic Animals</a><a href="brands/art-movements-mythical-cuisine/" class="">Art Movements, Mythical Beasts &amp; World Cuisine</a><a href="brands/barney-google/" class="">Barney Google</a><a href="brands/blender-open-movies/" class="">Blender Open Movies</a><a href="brands/jiggs/" class="">Bringing Up Father</a><a href="brands/buck-rogers/" class="">Buck Rogers</a><a href="brands/buster-brown/" class="">Buster Brown</a><a href="brands/cc0-original-characters/" class="">CC0 Original Characters</a><a href="brands/cityscapes-historical-scenes/" class="">Cityscapes &amp; Historical Scenes</a><a href="brands/costumes-landscapes-work-animals-props/" class="">Costumes, Landscapes, Work Animals &amp; Props</a><a href="brands/dance-instruments-crafts-festivals/" class="">Dance, Instruments, Crafts &amp; Festivals</a><a href="brands/disney-silent/" class="">Disney Silent Era (Mickey &amp; Friends)</a><a href="brands/egyptian-greek-roman-antiquity/" class="">Egyptian, Greek &amp; Roman Antiquity</a><a href="brands/fairy-tales-mythology/" class="">Fairy Tales &amp; Mythology</a><a href="brands/felix-the-cat/" class="">Felix the Cat</a><a href="brands/flags-interiors-landmarks-biomes/" class="">Flags, Interiors, Landmarks &amp; Biomes</a><a href="brands/fleischer-betty-boop/" class="">Fleischer Studios (Betty Boop)</a><a href="brands/free-asset-sources/" class="">Free Asset Sources</a><a href="brands/genre-life-trades-legendary-heroes/" class="">Genre Life, Trades &amp; Legendary Heroes</a><a href="brands/global-art-traditions-props-science/" class="">Global Art Traditions, Props &amp; Natural Science</a><a href="brands/global-cultural-traditions-landmarks/" class="">Global Cultural Traditions &amp; Landmarks</a><a href="brands/happy-hooligan/" class="">Happy Hooligan</a><a href="brands/historical-props-golden-age/" class="">Historical Props &amp; Golden-Age Art</a><a href="brands/international-pd-characters/" class="">International PD Characters</a><a href="brands/japanese-anime-backgrounds/" class="">Japanese Anime Backgrounds</a><a href="brands/japanese-anime-design-sheets/" class="">Japanese Anime Design Sheets</a><a href="brands/japanese-anime-extra-sources/" class="">Japanese Anime Extra Sources</a><a href="brands/japanese-anime-style-reference/" class="">Japanese Anime Style Reference</a><a href="brands/japanese-art-collection/" class="">Japanese Art Collection</a><a href="brands/japanese-theme-illustrations/" class="">Japanese Theme Illustrations</a><a href="brands/japanese-yokai/" class="">Japanese Yokai</a><a href="brands/krazy-kat/" class="">Krazy Kat</a><a href="brands/landmarks-exotic-fauna-japanese-culture/" class="">Landmarks, Exotic Fauna &amp; Japanese Culture</a><a href="brands/little-nemo/" class="">Little Nemo in Slumberland</a><a href="brands/marine-masterpieces-astronomy/" class="">Marine, Masterpieces &amp; Astronomy</a><a href="brands/master-paintings-cities-marine/" class="">Master Paintings, Cities &amp; Marine Activities</a><a href="brands/master-paintings-natural-wonders-mythical/" class="">Master Paintings, Natural Wonders &amp; Mythical Beasts</a><a href="brands/masterpieces-cities-archetypes-feasts/" class="">Masterpieces, Cities, Archetypes &amp; Feasts</a><a href="brands/masterpieces-cities-fauna-mythical/" class="">Masterpieces, Cities, Fauna &amp; Mythical Beasts</a><a href="brands/maya-landmarks-american-natural-history/" class="">Maya Landmarks &amp; American Natural History</a><a href="brands/motion-emotion-hands-silhouette/" class="">Motion, Emotion, Hands &amp; Silhouette</a><a href="brands/musicians-scientists-performing/" class="">Musicians, Scientists &amp; Performing Arts</a><a href="brands/mutt-jeff/" class="">Mutt and Jeff</a><a href="brands/natural-history-chinese-culture-architecture/" class="">Natural History, Chinese Culture &amp; Architecture Detail</a><a href="brands/non-western-mythology/" class="">Non-Western Mythology &amp; Cultural Art</a><a href="brands/occupations-monsters/" class="">Occupations &amp; Monsters</a><a href="brands/olive-oyl/" class="">Olive Oyl (Thimble Theatre)</a><a href="brands/open-source-mascots/" class="">Open-Source Mascots</a><a href="brands/oss-software-mascots/" class="">OSS Software Mascots</a><a href="brands/oswald/" class="">Oswald the Lucky Rabbit</a><a href="brands/pd-childrens-book-illustrators/" class="">PD Children&#x27;s Book Illustrators</a><a href="brands/pd-golden-age-superheroes/" class="">PD Golden-Age Superheroes</a><a href="brands/pd-literature-folklore/" class="">PD Literature &amp; Folklore</a><a href="brands/polly-pals/" class="">Polly and Her Pals</a><a href="brands/popeye/" class="">Popeye</a><a href="brands/props-weapons/" class="">Props &amp; Weapons</a><a href="brands/pd-animation-1920s30s/" class="">Public-Domain Animation (1920-30s)</a><a href="brands/realism-postimpressionism-masterpieces/" class="">Realism &amp; Post-Impressionism Masterpieces</a><a href="brands/regional-architecture-japan-celestials/" class="">Regional Architecture, Japan Scenes &amp; Celestials</a><a href="brands/regional-landmarks-global-fauna-art/" class="">Regional Landmarks, Global Fauna &amp; Art Systems</a><a href="brands/retro-modern-instruments-marine-cities/" class="">Retro-Modern, Instruments, Marine &amp; Cities</a><a href="brands/scifi-art-dramatic-scenes/" class="">Sci-Fi Art &amp; Dramatic Scenes</a><a href="brands/sculpture-engraving-fauna-sports/" class="">Sculpture, Engraving, Regional Fauna &amp; Sports</a><a href="brands/skippy/" class="">Skippy</a><a href="brands/textiles-heraldry-ships-weapons/" class="">Textiles, Heraldry, Ships &amp; Weapons</a><a href="brands/andy-gump/" class="">The Gumps</a><a href="brands/katzenjammer-kids/" class="">The Katzenjammer Kids</a><a href="brands/yellow-kid/" class="">The Yellow Kid</a><a href="brands/ukiyoe-nouveau-fantasy-markets/" class="">Ukiyo-e Nouveau Fantasy &amp; Markets</a><a href="brands/vehicles-landmarks/" class="">Vehicles &amp; Landmarks</a><a href="brands/vintage-comic-strips/" class="">Vintage Comic Strips</a><a href="brands/wildlife-ukiyoe-childrens-mood/" class="">Wildlife, Ukiyo-e, Children&#x27;s Books &amp; Mood</a><a href="brands/winnie-the-pooh/" class="">Winnie-the-Pooh (Original Book)</a><a href="brands/world-architecture-flora-cuisine-weather/" class="">World Architecture, Flora, Cuisine &amp; Weather</a><a href="brands/world-costumes-asian-folk-art/" class="">World Costumes &amp; Asian Folk Art</a></nav></header>
-<div class="wrap"><div class="hero"><h2>自由創作卡通素材庫</h2><p>收集網上現屬公版 / 自由使用、過去受歡迎嘅卡通人物同素材，方便自由創作者攞嚟做 AI 創意。以「劇集品牌 → 角色」分類，每項齊備圖片、場景、文字、性格、對話等素材。</p><div class="stat-row"><div class="stat"><b>78</b> 個品牌</div><div class="stat"><b>1115</b> 個角色</div></div></div><h2 style="margin-left:22px">全部品牌</h2><div class="wrap"><div class="character-grid"><a class="character-card" href="brands/ancient-civilizations-performance-scripts/index.html"><div><span class="name">Ancient Civilizations, Performance &amp; Scripts</span><span class="zh">古代文明傳統表演與文字</span></div><div class="desc">公元前-1900s · 18 個角色</div><div class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY</span></div></a><a class="character-card" href="brands/ancient-traditions-interiors-flora/index.html"><div><span class="name">Ancient Traditions, Regional Interiors &amp; Flora</span><span class="zh">古代傳統區域內景與植物</span></div><div class="desc">公元前-1900s · 8 個角色</div><div class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge verify">❓ 需核實</span> <span class="badge cc">CC-BY</span></div></a><a class="character-card" href="brands/animation-backgrounds-general/index.html"><div><span class="name">Animation Backgrounds (General)</span><span class="zh">動畫背景素材（通用）</span></div><div class="desc">2000s- · 15 個角色</div><div class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/anthropomorphic-animals/index.html"><div><span class="name">Anthropomorphic Animals</span><span class="zh">擬人動物角色</span></div><div class="desc">1900s-2020s · 17 個角色</div><div class="lic-row"><span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY</span></div></a><a class="character-card" href="brands/art-movements-mythical-cuisine/index.html"><div><span class="name">Art Movements, Mythical Beasts &amp; World Cuisine</span><span class="zh">藝術運動神話生物與世界美食</span></div><div class="desc">1500s-2020s · 14 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></div></a><a class="character-card" href="brands/barney-google/index.html"><div><span class="name">Barney Google</span><span class="zh">巴尼古高（Barney Google）</span></div><div class="desc">1919- · 2 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/blender-open-movies/index.html"><div><span class="name">Blender Open Movies</span><span class="zh">Blender 開放電影角色</span></div><div class="desc">2006- · 4 個角色</div><div class="lic-row"><span class="badge cc">CC-BY</span></div></a><a class="character-card" href="brands/jiggs/index.html"><div><span class="name">Bringing Up Father</span><span class="zh">扶養父親（Bringing Up Father）</span></div><div class="desc">1913- · 2 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/buck-rogers/index.html"><div><span class="name">Buck Rogers</span><span class="zh">巴克羅渣士（Buck Rogers）</span></div><div class="desc">1928-1929 · 1 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/buster-brown/index.html"><div><span class="name">Buster Brown</span><span class="zh">巴斯特布朗（Buster Brown）</span></div><div class="desc">1902- · 1 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/cc0-original-characters/index.html"><div><span class="name">CC0 Original Characters</span><span class="zh">CC0 原創角色（社群）</span></div><div class="desc">2010s- · 40 個角色</div><div class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></div></a><a class="character-card" href="brands/cityscapes-historical-scenes/index.html"><div><span class="name">Cityscapes &amp; Historical Scenes</span><span class="zh">城市天際線與歷史場景</span></div><div class="desc">1500s-1930s · 16 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/costumes-landscapes-work-animals-props/index.html"><div><span class="name">Costumes, Landscapes, Work Animals &amp; Props</span><span class="zh">民族服飾地景工作動物與道具</span></div><div class="desc">1500s-1900s · 14 個角色</div><div class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/dance-instruments-crafts-festivals/index.html"><div><span class="name">Dance, Instruments, Crafts &amp; Festivals</span><span class="zh">全球舞蹈樂器工匠節慶</span></div><div class="desc">1600s-2000s · 19 個角色</div><div class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/disney-silent/index.html"><div><span class="name">Disney Silent Era (Mickey &amp; Friends)</span><span class="zh">迪士尼默片年代（米奇同朋友）</span></div><div class="desc">1928-1930s · 3 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/egyptian-greek-roman-antiquity/index.html"><div><span class="name">Egyptian, Greek &amp; Roman Antiquity</span><span class="zh">埃及希臘羅馬古文明</span></div><div class="desc">公元前-400AD · 6 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/fairy-tales-mythology/index.html"><div><span class="name">Fairy Tales &amp; Mythology</span><span class="zh">童話與神話角色</span></div><div class="desc">古代-1910s · 19 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/felix-the-cat/index.html"><div><span class="name">Felix the Cat</span><span class="zh">菲力貓（Felix the Cat）</span></div><div class="desc">1919-1930s · 1 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/flags-interiors-landmarks-biomes/index.html"><div><span class="name">Flags, Interiors, Landmarks &amp; Biomes</span><span class="zh">旗幟室內地標棲地動物</span></div><div class="desc">1600s-2000s · 18 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/fleischer-betty-boop/index.html"><div><span class="name">Fleischer Studios (Betty Boop)</span><span class="zh">Fleischer 製片廠（Betty Boop）</span></div><div class="desc">1930s · 1 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/free-asset-sources/index.html"><div><span class="name">Free Asset Sources</span><span class="zh">自由素材來源庫</span></div><div class="desc">2010s- · 7 個角色</div><div class="lic-row"><span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/genre-life-trades-legendary-heroes/index.html"><div><span class="name">Genre Life, Trades &amp; Legendary Heroes</span><span class="zh">市井生活昔日職業與傳奇英雄</span></div><div class="desc">1500s-1920s · 17 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/global-art-traditions-props-science/index.html"><div><span class="name">Global Art Traditions, Props &amp; Natural Science</span><span class="zh">全球藝術傳統器物與自然科學</span></div><div class="desc">公元前-1900s · 11 個角色</div><div class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/global-cultural-traditions-landmarks/index.html"><div><span class="name">Global Cultural Traditions &amp; Landmarks</span><span class="zh">全球文化傳統與地標</span></div><div class="desc">公元前-2000s · 6 個角色</div><div class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></div></a><a class="character-card" href="brands/happy-hooligan/index.html"><div><span class="name">Happy Hooligan</span><span class="zh">開心流浪漢（Happy Hooligan）</span></div><div class="desc">1900- · 1 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/historical-props-golden-age/index.html"><div><span class="name">Historical Props &amp; Golden-Age Art</span><span class="zh">歷史道具與黃金年代藝術</span></div><div class="desc">500BC-1900s · 25 個角色</div><div class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC-BY-SA</span></div></a><a class="character-card" href="brands/international-pd-characters/index.html"><div><span class="name">International PD Characters</span><span class="zh">國際公版角色</span></div><div class="desc">1800s-1920s · 10 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/japanese-anime-backgrounds/index.html"><div><span class="name">Japanese Anime Backgrounds</span><span class="zh">日式動漫背景素材</span></div><div class="desc">2000s- · 30 個角色</div><div class="lic-row"><span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span></div></a><a class="character-card" href="brands/japanese-anime-design-sheets/index.html"><div><span class="name">Japanese Anime Design Sheets</span><span class="zh">日式動漫設計圖庫</span></div><div class="desc">2000s- · 60 個角色</div><div class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/japanese-anime-extra-sources/index.html"><div><span class="name">Japanese Anime Extra Sources</span><span class="zh">日式動漫額外來源</span></div><div class="desc">2010s- · 18 個角色</div><div class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span> <span class="badge verify">❓ 需核實</span> <span class="badge pd">✔ 公版</span> <span class="badge verify">❓ 需核實</span> <span class="badge cc">CC-BY-SA</span></div></a><a class="character-card" href="brands/japanese-anime-style-reference/index.html"><div><span class="name">Japanese Anime Style Reference</span><span class="zh">日式動漫風格參考</span></div><div class="desc">2000s- · 10 個角色</div><div class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge cc">CC-BY-SA</span></div></a><a class="character-card" href="brands/japanese-art-collection/index.html"><div><span class="name">Japanese Art Collection</span><span class="zh">日式藝術精選</span></div><div class="desc">1700s-1900s · 146 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC-BY-SA</span></div></a><a class="character-card" href="brands/japanese-theme-illustrations/index.html"><div><span class="name">Japanese Theme Illustrations</span><span class="zh">日式主題插畫</span></div><div class="desc">江戶-現代 · 18 個角色</div><div class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></div></a><a class="character-card" href="brands/japanese-yokai/index.html"><div><span class="name">Japanese Yokai</span><span class="zh">日本妖怪</span></div><div class="desc">江戶/明治時代 · 37 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span></div></a><a class="character-card" href="brands/krazy-kat/index.html"><div><span class="name">Krazy Kat</span><span class="zh">瘋貓（Krazy Kat）</span></div><div class="desc">1913-1944 · 2 個角色</div><div class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/landmarks-exotic-fauna-japanese-culture/index.html"><div><span class="name">Landmarks, Exotic Fauna &amp; Japanese Culture</span><span class="zh">地標異國動物日式文化與海洋</span></div><div class="desc">1800s-2020s · 18 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span></div></a><a class="character-card" href="brands/little-nemo/index.html"><div><span class="name">Little Nemo in Slumberland</span><span class="zh">夢境國度嘅小尼莫（Little Nemo）</span></div><div class="desc">1905-1927 · 1 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/marine-masterpieces-astronomy/index.html"><div><span class="name">Marine, Masterpieces &amp; Astronomy</span><span class="zh">海洋生物名畫天文</span></div><div class="desc">1500s-2010s · 16 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/master-paintings-cities-marine/index.html"><div><span class="name">Master Paintings, Cities &amp; Marine Activities</span><span class="zh">名畫城市與海洋活動</span></div><div class="desc">1600s-1900s · 12 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/master-paintings-natural-wonders-mythical/index.html"><div><span class="name">Master Paintings, Natural Wonders &amp; Mythical Beasts</span><span class="zh">名畫自然奇觀與神話生物</span></div><div class="desc">1500s-2000s · 12 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></div></a><a class="character-card" href="brands/masterpieces-cities-archetypes-feasts/index.html"><div><span class="name">Masterpieces, Cities, Archetypes &amp; Feasts</span><span class="zh">名畫城市角色與美食</span></div><div class="desc">1500s-2000s · 18 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span></div></a><a class="character-card" href="brands/masterpieces-cities-fauna-mythical/index.html"><div><span class="name">Masterpieces, Cities, Fauna &amp; Mythical Beasts</span><span class="zh">大師名畫城市動物與神話生物</span></div><div class="desc">1500s-1900s · 21 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/maya-landmarks-american-natural-history/index.html"><div><span class="name">Maya Landmarks &amp; American Natural History</span><span class="zh">馬雅地標與美洲自然史</span></div><div class="desc">公元前-1900s · 11 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></div></a><a class="character-card" href="brands/motion-emotion-hands-silhouette/index.html"><div><span class="name">Motion, Emotion, Hands &amp; Silhouette</span><span class="zh">動物動態表情手勢剪影</span></div><div class="desc">1500s-1900s · 12 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/musicians-scientists-performing/index.html"><div><span class="name">Musicians, Scientists &amp; Performing Arts</span><span class="zh">音樂家科學家與表演藝術</span></div><div class="desc">1600s-1950s · 25 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></div></a><a class="character-card" href="brands/mutt-jeff/index.html"><div><span class="name">Mutt and Jeff</span><span class="zh">馬特與傑夫（Mutt and Jeff）</span></div><div class="desc">1907- · 2 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/natural-history-chinese-culture-architecture/index.html"><div><span class="name">Natural History, Chinese Culture &amp; Architecture Detail</span><span class="zh">博物學中國文化與建築細部</span></div><div class="desc">1500s-2020s · 15 個角色</div><div class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></div></a><a class="character-card" href="brands/non-western-mythology/index.html"><div><span class="name">Non-Western Mythology &amp; Cultural Art</span><span class="zh">非西方神話與文化藝術</span></div><div class="desc">公元前-1900s · 13 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span></div></a><a class="character-card" href="brands/occupations-monsters/index.html"><div><span class="name">Occupations &amp; Monsters</span><span class="zh">職業角色與怪獸</span></div><div class="desc">1500s-1930s · 13 個角色</div><div class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/olive-oyl/index.html"><div><span class="name">Olive Oyl (Thimble Theatre)</span><span class="zh">奧麗芙（Olive Oyl）</span></div><div class="desc">1919- · 1 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/open-source-mascots/index.html"><div><span class="name">Open-Source Mascots</span><span class="zh">開放源碼吉祥物</span></div><div class="desc">2000s- · 2 個角色</div><div class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/oss-software-mascots/index.html"><div><span class="name">OSS Software Mascots</span><span class="zh">開源軟體吉祥物</span></div><div class="desc">1990s-2010s · 39 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge verify">❓ 需核實</span> <span class="badge cc">CC-BY</span> <span class="badge verify">❓ 需核實</span> <span class="badge cc">CC-BY-SA</span> <span class="badge verify">❓ 需核實</span> <span class="badge verify">❓ 需核實</span> <span class="badge verify">❓ 需核實</span></div></a><a class="character-card" href="brands/oswald/index.html"><div><span class="name">Oswald the Lucky Rabbit</span><span class="zh">幸運兔奧斯華（Oswald the Lucky Rabbit）</span></div><div class="desc">1927-1928 · 1 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/pd-childrens-book-illustrators/index.html"><div><span class="name">PD Children&#x27;s Book Illustrators</span><span class="zh">公版童書插畫家</span></div><div class="desc">1870s-1930s · 7 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/pd-golden-age-superheroes/index.html"><div><span class="name">PD Golden-Age Superheroes</span><span class="zh">公版黃金年代超級英雄</span></div><div class="desc">1930s-1940s · 14 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/pd-literature-folklore/index.html"><div><span class="name">PD Literature &amp; Folklore</span><span class="zh">公版文學與民俗角色</span></div><div class="desc">1600s-1910s · 13 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/polly-pals/index.html"><div><span class="name">Polly and Her Pals</span><span class="zh">波莉同佢班朋友（Polly and Her Pals）</span></div><div class="desc">1912- · 1 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/popeye/index.html"><div><span class="name">Popeye</span><span class="zh">大力水手（Popeye）</span></div><div class="desc">1929-1930s · 1 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/props-weapons/index.html"><div><span class="name">Props &amp; Weapons</span><span class="zh">道具/武器素材</span></div><div class="desc">2000s- · 18 個角色</div><div class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span> <span class="badge verify">❓ 需核實</span> <span class="badge cc">CC-BY</span></div></a><a class="character-card" href="brands/pd-animation-1920s30s/index.html"><div><span class="name">Public-Domain Animation (1920-30s)</span><span class="zh">公版動畫角色（1920-30s）</span></div><div class="desc">1920s-1930s · 17 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></div></a><a class="character-card" href="brands/realism-postimpressionism-masterpieces/index.html"><div><span class="name">Realism &amp; Post-Impressionism Masterpieces</span><span class="zh">寫實主義與後印象派名畫</span></div><div class="desc">1800s-1900s · 6 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/regional-architecture-japan-celestials/index.html"><div><span class="name">Regional Architecture, Japan Scenes &amp; Celestials</span><span class="zh">區域建築日本特色與天上聖靈</span></div><div class="desc">1500s-2020s · 12 個角色</div><div class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/regional-landmarks-global-fauna-art/index.html"><div><span class="name">Regional Landmarks, Global Fauna &amp; Art Systems</span><span class="zh">區域地標全球動物與藝術系統</span></div><div class="desc">1500s-2020s · 7 個角色</div><div class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/retro-modern-instruments-marine-cities/index.html"><div><span class="name">Retro-Modern, Instruments, Marine &amp; Cities</span><span class="zh">復古現代樂器海洋與城市</span></div><div class="desc">1600s-1990s · 19 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/scifi-art-dramatic-scenes/index.html"><div><span class="name">Sci-Fi Art &amp; Dramatic Scenes</span><span class="zh">科幻藝術與戲劇性場景</span></div><div class="desc">1700s-1950s · 16 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></div></a><a class="character-card" href="brands/sculpture-engraving-fauna-sports/index.html"><div><span class="name">Sculpture, Engraving, Regional Fauna &amp; Sports</span><span class="zh">雕塑版畫區域動物與運動</span></div><div class="desc">公元前-2000s · 20 個角色</div><div class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/skippy/index.html"><div><span class="name">Skippy</span><span class="zh">斯基皮（Skippy）</span></div><div class="desc">1923- · 1 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/textiles-heraldry-ships-weapons/index.html"><div><span class="name">Textiles, Heraldry, Ships &amp; Weapons</span><span class="zh">紡織紋章船艦武器</span></div><div class="desc">1500s-1900s · 16 個角色</div><div class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></div></a><a class="character-card" href="brands/andy-gump/index.html"><div><span class="name">The Gumps</span><span class="zh">古普一家（The Gumps）</span></div><div class="desc">1917- · 1 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/katzenjammer-kids/index.html"><div><span class="name">The Katzenjammer Kids</span><span class="zh">凱曾加默小孩（Katzenjammer Kids）</span></div><div class="desc">1897- · 2 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/yellow-kid/index.html"><div><span class="name">The Yellow Kid</span><span class="zh">黃孩子（The Yellow Kid）</span></div><div class="desc">1895-1898 · 1 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/ukiyoe-nouveau-fantasy-markets/index.html"><div><span class="name">Ukiyo-e Nouveau Fantasy &amp; Markets</span><span class="zh">浮世繪新藝術奇幻與市集</span></div><div class="desc">1700s-1930s · 20 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></div></a><a class="character-card" href="brands/vehicles-landmarks/index.html"><div><span class="name">Vehicles &amp; Landmarks</span><span class="zh">交通工具與地標建築</span></div><div class="desc">1600s-1900s · 17 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></div></a><a class="character-card" href="brands/vintage-comic-strips/index.html"><div><span class="name">Vintage Comic Strips</span><span class="zh">復古連環漫畫</span></div><div class="desc">1910s-1930s · 10 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/wildlife-ukiyoe-childrens-mood/index.html"><div><span class="name">Wildlife, Ukiyo-e, Children&#x27;s Books &amp; Mood</span><span class="zh">野生動物浮世繪童書與氛圍</span></div><div class="desc">1600s-1900s · 18 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></div></a><a class="character-card" href="brands/winnie-the-pooh/index.html"><div><span class="name">Winnie-the-Pooh (Original Book)</span><span class="zh">小熊維尼（原著小說版）</span></div><div class="desc">1926 · 4 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/world-architecture-flora-cuisine-weather/index.html"><div><span class="name">World Architecture, Flora, Cuisine &amp; Weather</span><span class="zh">世界建築花卉美食天氣</span></div><div class="desc">1700s-2020s · 17 個角色</div><div class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></div></a><a class="character-card" href="brands/world-costumes-asian-folk-art/index.html"><div><span class="name">World Costumes &amp; Asian Folk Art</span><span class="zh">世界服飾與亞洲民間美術</span></div><div class="desc">12-19 世紀 · 8 個角色</div><div class="lic-row"><span class="badge pd">✔ 公版</span></div></a></div></div><div class="wrap">
+</div><nav class="cat-nav"><a href="index.html" class="active">全部 <span class="cat-count">78</span></a><a href="category/japanese.html" class="">日式動漫 · 浮世繪 <span class="cat-count">10</span></a><a href="category/comics.html" class="">公版卡通 · 連環漫畫 <span class="cat-count">27</span></a><a href="category/art.html" class="">世界名畫 · 藝術風格 <span class="cat-count">14</span></a><a href="category/world.html" class="">世界文化 · 地標 · 自然 <span class="cat-count">16</span></a><a href="category/scenes.html" class="">場景 · 道具 · 角色原型 <span class="cat-count">5</span></a><a href="category/opensource.html" class="">開源 · 素材包 <span class="cat-count">6</span></a></nav></header>
+<div class="wrap"><div class="hero"><h2>自由創作卡通素材庫</h2><p>收集網上現屬公版 / 自由使用、過去受歡迎嘅卡通人物同素材，方便自由創作者攞嚟做 AI 創意。以「分類 → 品牌 → 角色」三層瀏覽，每項齊備圖片、場景、文字、性格、對話等素材。</p><div class="stat-row"><div class="stat"><b>78</b> 個品牌</div><div class="stat"><b>1115</b> 個角色</div><div class="stat"><b>6</b> 個分類</div></div></div><div class="searchbar"><span class="search-icon">⌕</span>
+      <input type="text" id="brand-search" placeholder="搜尋品牌 / 角色名… (e.g. 北齋, 妖怪, Popeye)" autocomplete="off"></div>
+      <div class="search-hint">搜尋會即時篩選以下分類同品牌（比對品牌名＋旗下角色名）。</div><div class="wrap cat-block"><div class="cat-block-head">
+          <h2>日式動漫 · 浮世繪 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(10 品牌 · 369 角色)</span></h2>
+          <span class="cat-desc">浮世繪大師、日本妖怪、動漫設計圖與背景、和風藝術</span>
+          <a class="cat-jump" href="category/japanese.html">查看全部 →</a></div><div class="brand-grid"><div data-search="Japanese Anime Backgrounds 日式動漫背景素材 Akihabara Street Anime Beach Scene 紅葉楓（Rikugien Maple） 道頓堀（Dotonbori Osaka） Fuji + Sakura 伏見稻荷（Fushimi Inari） Ginkaku-ji Temple 祇園巷（Gion Alley） 白世界（Blue Sky White World） 北海道雪路（Hokkaido Road） 北海道雪神社（Hokkaido Jingu） Huntington Japanese Garden Japanese Garden with Koi 歌舞伎町紅門（Kabukicho Gate） 和服森林（Kimono Forest） Kobe Night Cityscape 北海道駒岳（Komagatake Winter） Sakura at Japan Mint 青森ねぶた祭（Nebuta Festival） 大阪城夜景（Osaka Castle） Rail Through Sakura Furuyu Saga Cityscape 澀谷十字路口（Shibuya Crossing） 新宿藍色時段（Shinjuku Blue Hour） 新宿霓虹（Shinjuku Neon） Shinto Shrine Landscape Tokyo Skytree Worm-Eye 渡月橋黃昏（Togetsu-kyo） On the Edge 八坂通（Yasaka-dori Kyoto）"><a class="brand-card" href="brands/japanese-anime-backgrounds/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/bg-akihabara.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Japanese Anime Backgrounds</div>
+    <div class="b-zh">日式動漫背景素材</div>
+    <div class="b-desc">2000s-</div>
+    <div class="b-meta">
+      <span class="b-count">30 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Japanese Anime Design Sheets 日式動漫設計圖庫 1920 - before the storm 1D (Blender mascot) Angry Anime Girl (tsundere) Anime Boy Sword Anime Girl Anime Kitty Anime Verdolaga Great Arigato Usagi Battle for the Galaxy units Beast Mech Brendo Magical Girl Brigadier Mk.3 Charge robot concept Charon Assault Mech Chibi Anime Child Chibi Hair &amp; Color Chibi (mira) David Revoy Character Lineart Dojikko EFF 20th mecha poster Fig. Character Design Model Sheet A/B/C Garter-Belt Otokonoko Sketch Gorilla Mecha Husky Chibi (Nunzia) Hyou-chan Icecat Anime Girl ImpMech S Ink and Marker Robot Iron Mecha Kemonomimi Girl (Chibi) Kiki the Cyber Squirrel Kraken S Kuuma Defense Mascot Libbie (Tyson Tan) Otokonoko「Lucero」Reference Sheet Machnia Mecha Manga School Boy 3D Printed Mecha Chibis Mecha-Girl Mecha Samurai Mecha Warrior Mesugaki Moe Character Chieru Kio Moe Manga Lady Moe Anime Girl (Akane) Monami Gentsuki and Friends Monfer Chibi N1-NJ4 Ninja Class Mech Naughty Catgirl Sketch Owl-Class Scout Mecha Purple-haired Moe Girl Robot-bridge 011 SH0-6UN Class Mech Soviet Mecha Bay Sylva The Kappa Thom-simulator robot Gijinka of Wikipedia Wikipe-tan Wuffle Character Model Sheets"><a class="brand-card" href="brands/japanese-anime-design-sheets/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/1920-storm.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Japanese Anime Design Sheets</div>
+    <div class="b-zh">日式動漫設計圖庫</div>
+    <div class="b-desc">2000s-</div>
+    <div class="b-meta">
+      <span class="b-count">60 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Japanese Anime Extra Sources 日式動漫額外來源 Codel 女角立繪 Fumiko 女武士 VN 萬聖節包 Anima 動漫模型 HuggingFace 動漫公版集 OpenGameArt-CC0 資料集 Aiko 動漫立繪 Miki 動漫立繪 Retro Anime SFX sutemo 角色 Kenney Mini Characters Kenney Roguelike Kenney RPG pack Kenney Toon Characters Kuudere 冷嬌女角 LPC 動漫頭像 Quaternius Ultimate Characters Quaternius Universal Base"><a class="brand-card" href="brands/japanese-anime-extra-sources/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/jp-codel.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Japanese Anime Extra Sources</div>
+    <div class="b-zh">日式動漫額外來源</div>
+    <div class="b-desc">2010s-</div>
+    <div class="b-meta">
+      <span class="b-count">18 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span> <span class="badge verify">❓ 需核實</span> <span class="badge pd">✔ 公版</span> <span class="badge verify">❓ 需核實</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Japanese Anime Style Reference 日式動漫風格參考 動漫構圖草稿（Anime Drafting） 動漫眼（Anime Eyes） 動漫線稿（Anime Line Drawing） 行書書法（Gyousyo） 復古日式街頭字（Vintage Signs） 日式水彩動漫（Watercolor Posters） 日式公眾告示字（Public Signage） 楷書書法（Kaisho） 草書書法（Sousyo） 維基娘全身（Wikipe-tan Full）"><a class="brand-card" href="brands/japanese-anime-style-reference/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/style-anime-drafting.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Japanese Anime Style Reference</div>
+    <div class="b-zh">日式動漫風格參考</div>
+    <div class="b-desc">2000s-</div>
+    <div class="b-meta">
+      <span class="b-count">10 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Japanese Art Collection 日式藝術精選 亞歐堂田善世界地圖 周延新美人合20 周延插花 周延六月行事 周延時代鏡 福祿壽與丹頂鶴 達摩不倒翁 漆盒食物繪曆 英泉田川屋餐館 榮昌御所車 英山持杯遊女 芳年飛翔惡魔 伏見稻荷千本鳥居 源氏物語繪卷宿木 飛鳥山花見 隅田川賞櫻 春信美人圖 春信非望之瀧 等伯松林圖屏風 柱繪見立繪 巴水根津雪景 芳年藤原秀鄉 姬路城晨光 軍宅雛祭 廣重芭蕉庵 江戶百景神田之貓 廣重櫻花花鳥 兩國煙花 廣重兩國花火 江戶百景狐狸怪火 堀切菖蒲園 廣重龜戶梅屋鋪 廣重日本橋雪晴 東海道大磯虎之雨 亀戸梅園 廣重兩國涼閣花火 廣重莊野白雨 廣重大橋驟雨 廣重五十三次雪景 廣重水道橋駿河台 廣重燕子紫藤 廣重高輪月之景 酒井抱一楓樹圖 酒井抱一業平出遊 北渓漫畫一編 北齋駿州江尻 北齋霧降瀑布 北齋漫畫 01 北齋漫畫 04 北齋漫畫 05 北齋漫畫第二編 北齋深川萬年橋 北齋駿州薩埵嶺 北齋節分鬼 北齋漁夫妻子之夢 北齋山下白雨 北齋紅富士變體 荷蘭人横浜出遊 天竺丸印度象 一寸法師繪卷 若冲薔薇與鸚鵡 春信赫夜姬 河童相撲 金閣寺 芳年金太郎乘鯉 芳年金太郎鬥大鯉 宗近得狐助鍛刀 錦鯉躍瀑 湖龍齋吉原美人 国周武士役者 歌川国政役者大首繪 國政市川海老藏 國直夏季美人 國貞櫻樹美人 國芳貓擬東海道 國芳國姓爺打虎 國芳八犬傳屋頂戰 稻田九郎進助 國芳斬巨猿 平家武者復仇 國芳瀧夜叉姬大骸骨 國芳水滸豪傑 國芳摺物 國芳虎與龍 國芳虎 國芳貓東海道五十三次 國芳吳用魁星 白花蛇楊春 曉齋貓捕蛙 招財貓 國芳派日本美人魚 長崎繪荷蘭貴婦 長崎繪外國船 悲母觀音金屏 國芳鬼若丸巨鯉 凱風快晴赤富士 轆轤首女妖 龍安寺枯山水 武士全副盔甲 竹內栖鳳保津川 神坂雪佳拾葉 雪舟破墨山水 雪舟四季山水 寫樂大谷鬼次 司馬江漢洋風畫 重政藝伎侍從 重政鳶尾禽鳥 窪俊滿櫻花松果 窪俊滿風帶鼠繪曆 窪俊滿櫻花吸煙女子 春章役者立姿 春章室內場景 春章市村右宇蔵九世 大骸骨妖 橫山大觀生々流轉 江戶百景七夕祭 初午祭狸妖 北條高時驅天狗 虎與龍 歌川豊春劇場透視 豐國一世雙戀人 豐國二代持扇役者 豐國二代富波番 國貞歌舞伎役者 月見插花 團扇繪團十郎 團扇繪稻荷美人 團扇繪相撲力士 芳年浦島太郎 歌麿三美人 歌麿三美人 歌麿美人畫 歌麿大首繪 山川秀峰美人畫 横浜碼頭景色 芳年安達原垰 芳年弁慶鎮浪 芳年金神長五郎鬼怪 地獄太夫悟道 芳年謙信觀雁 月百姿五條橋之月 月百姿第33景 芳年月百姿第4幅 芳年月百姿74 芳年夕顔之靈 柴田是真線上蟬"><a class="brand-card" href="brands/japanese-art-collection/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/jp-aodo-denzen.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Japanese Art Collection</div>
+    <div class="b-zh">日式藝術精選</div>
+    <div class="b-desc">1700s-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">146 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Japanese Theme Illustrations 日式主題插畫 茶道（Chado） 櫻花（Cherry Blossom） 隅田川賞櫻（Mukojima 1910） 達摩向量（Daruma Vector） 達摩不倒翁（Daruma） 狐狸面具（Fox Masks） 和服正背面（Kimono 1910） 和服摺疊（Kimono Folding） 小袖和服版型（Kosode） 月兔（Moon Rabbit） 御守（Omamori） 摺紙鶴（Origami Crane） 千羽鶴（Origami Cranes） 動漫拉麵（Ramen） 櫻花（Sakura） 壽司（Sushi） 茶道木版畫（Tea Ceremony） 維基醬（Wikipe-tan）"><a class="brand-card" href="brands/japanese-theme-illustrations/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/jp-chado.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Japanese Theme Illustrations</div>
+    <div class="b-zh">日式主題插畫</div>
+    <div class="b-desc">江戶-現代</div>
+    <div class="b-meta">
+      <span class="b-count">18 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Japanese Yokai 日本妖怪 姫路城（Himeji Castle） 嚴島鳥居（Itsukushima Hiroshige） 嚴島弁天社（Itsukushima Benten） 嚴島浮繪（Ukie Itsukushima） 嚴島雪景（Miyajima Snow） 阿麻比（Amabie） 妖（Ayakashi） 化貓（Bakeneko） 升天日本龍（Ryu sho ten） 土蜘蛛召喚群妖（Earth Spider） 狐火狐狸（Fox by Mystic Fire） 狐火（Foxfires Chikanobu） 狐火（Foxfires Yoshitoshi） 北齋天狗（Hokusai Tengu） 瓢箪小僧（Hyōtankozō） 鎌鼬（Kamaitachi） 剪髮妖怪（Kamikiri） 蟹坊主（Kanibozu） 河童水妖（Kappa） 麒麟（Kirin） 狐仙花園稻荷（Kitsune of Hanazono Inari） 狐嫁（Fox Wedding） 目目連（Mokumokuren） 九尾狐（Nine-tailed Fox） 野槌（Nozuchi） 儀式鬼面（Ritual Oni Mask） 彈三味線嘅鬼（Oni with Shamisen） 八岐大蛇（Yamata no Orochi） 芝天（Shibaten 天狗場景） 不知火（Shiranui） 鍾馗驅鬼（Shoki the Demon Queller） 廣尾祭天狗面具（Tengu Festival） 天狗王訓練弟子（Tengu King） 品川神社天狗（Tengu Shrine） 釣瓶火（Tsurube-bi） 滿月白狐（White Fox on Moonlit Night） 白狐立於鳥居（White Fox over Torii Gate）"><a class="brand-card" href="brands/japanese-yokai/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/arch-himeji-castle.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Japanese Yokai</div>
+    <div class="b-zh">日本妖怪</div>
+    <div class="b-desc">江戶/明治時代</div>
+    <div class="b-meta">
+      <span class="b-count">37 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Regional Architecture, Japan Scenes &amp; Celestials 區域建築日本特色與天上聖靈 蒲甘阿南達寺 婆羅浮屠 通布圖傑內雷貝清真寺 大辛巴威 拉利貝拉岩鑿教堂 波斯波利斯 普蘭巴南 川瀨鶯飼 雪猴溫泉 佩魯吉諾奏樂天使 拉斐爾西斯汀雙天使 提香維納斯小天使"><a class="brand-card" href="brands/regional-architecture-japan-celestials/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/arch-bagan-ananda.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Regional Architecture, Japan Scenes &amp; Celestials</div>
+    <div class="b-zh">區域建築日本特色與天上聖靈</div>
+    <div class="b-desc">1500s-2020s</div>
+    <div class="b-meta">
+      <span class="b-count">12 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Ukiyo-e Nouveau Fantasy &amp; Markets 浮世繪新藝術奇幻與市集 伯恩瓊斯玫瑰美人 摩羅朱庇特塞梅勒 慕夏四季水果 慕夏吉絲夢達海報 沃特豪斯許拉斯寧芙 沃特豪斯夏洛特夫人 比亞茲萊高潮 多雷神曲卡戎 杜拉克一千零一夜 拉克漢灰姑娘剪影 阿爾岑肉攤 貝克拉爾市集場景 布魯格爾婚禮舞會 夏丹廚房用具 國芳水滸傳豪傑 國芳東海道五十三次 曉齋天照大神 曉齋地獄太夫 芳年紫式部石山月 芳年須佐之男"><a class="brand-card" href="brands/ukiyoe-nouveau-fantasy-markets/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/art-burnejones-rosamund.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Ukiyo-e Nouveau Fantasy &amp; Markets</div>
+    <div class="b-zh">浮世繪新藝術奇幻與市集</div>
+    <div class="b-desc">1700s-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">20 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Wildlife, Ukiyo-e, Children&#x27;s Books &amp; Mood 野生動物浮世繪童書與氛圍 杜拉克童話書 凱尼爾森北歐童話 拉克漢青蛙王子 拉克漢糖果屋 拉克漢長髮公主 天尼爾愛麗絲豬嬰 北齋漫畫沐浴人群 北齋漫畫卷二 國貞相撲浮世繪 河鍋曉齋戲謔妖怪 月岡芳年達摩 月百姿之十二 弗里德里希霧海旅人 廣重阪下夕雨 泰納雪暴 魚類自然史圖版59 梅里安變態圖版LX 梅里安蝶蛾圖"><a class="brand-card" href="brands/wildlife-ukiyoe-childrens-mood/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/book-dulac-fairy.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Wildlife, Ukiyo-e, Children&#x27;s Books &amp; Mood</div>
+    <div class="b-zh">野生動物浮世繪童書與氛圍</div>
+    <div class="b-desc">1600s-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">18 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div></div></div><div class="wrap cat-block"><div class="cat-block-head">
+          <h2>公版卡通 · 連環漫畫 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(27 品牌 · 120 角色)</span></h2>
+          <span class="cat-desc">黃金年代報紙漫畫、默片動畫、童話與公版角色</span>
+          <a class="cat-jump" href="category/comics.html">查看全部 →</a></div><div class="brand-grid"><div data-search="Barney Google 巴尼古高（Barney Google） Barney Google Spark Plug"><a class="brand-card" href="brands/barney-google/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/barney-google.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Barney Google</div>
+    <div class="b-zh">巴尼古高（Barney Google）</div>
+    <div class="b-desc">1919-</div>
+    <div class="b-meta">
+      <span class="b-count">2 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Bringing Up Father 扶養父親（Bringing Up Father） Jiggs Maggie"><a class="brand-card" href="brands/jiggs/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/jiggs.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Bringing Up Father</div>
+    <div class="b-zh">扶養父親（Bringing Up Father）</div>
+    <div class="b-desc">1913-</div>
+    <div class="b-meta">
+      <span class="b-count">2 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Buck Rogers 巴克羅渣士（Buck Rogers） Buck Rogers (Anthony Rogers)"><a class="brand-card" href="brands/buck-rogers/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/buck-rogers.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Buck Rogers</div>
+    <div class="b-zh">巴克羅渣士（Buck Rogers）</div>
+    <div class="b-desc">1928-1929</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Buster Brown 巴斯特布朗（Buster Brown） Buster Brown"><a class="brand-card" href="brands/buster-brown/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/buster-brown.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Buster Brown</div>
+    <div class="b-zh">巴斯特布朗（Buster Brown）</div>
+    <div class="b-desc">1902-</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Disney Silent Era (Mickey &amp; Friends) 迪士尼默片年代（米奇同朋友） Mickey Mouse (1928 version) Minnie Mouse (1928 version) Pluto / Rover (1930 version)"><a class="brand-card" href="brands/disney-silent/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/mickey-1928.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Disney Silent Era (Mickey &amp; Friends)</div>
+    <div class="b-zh">迪士尼默片年代（米奇同朋友）</div>
+    <div class="b-desc">1928-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">3 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Fairy Tales &amp; Mythology 童話與神話角色 狐狸與烏鴉（Fox &amp; Crow） 龜兔賽跑（Tortoise &amp; Hare） 金髮女孩（Goldilocks） 糖果屋兄妹（Hansel &amp; Gretel） 傑克與魔豆（Jack） 小美人魚（Little Mermaid） 鵝媽媽（Mother Goose） 小紅帽（Little Red Riding Hood） 白雪公主（Snow White） 三隻小豬（Three Little Pigs） 杜拉克風格（Edmund Dulac） 尼爾森風格（Kay Nielsen） 拉克姆風格（Rackham） 三頭犬（Cerberus） 梅杜莎（Medusa） 歐丁雙鴉（Huginn &amp; Muninn） 天馬（Pegasus） 不死鳥（Phoenix） 史芬克斯（Sphinx）"><a class="brand-card" href="brands/fairy-tales-mythology/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/fable-fox-crow.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Fairy Tales &amp; Mythology</div>
+    <div class="b-zh">童話與神話角色</div>
+    <div class="b-desc">古代-1910s</div>
+    <div class="b-meta">
+      <span class="b-count">19 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Felix the Cat 菲力貓（Felix the Cat） Felix the Cat (early version)"><a class="brand-card" href="brands/felix-the-cat/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/felix-early-hero.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Felix the Cat</div>
+    <div class="b-zh">菲力貓（Felix the Cat）</div>
+    <div class="b-desc">1919-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Fleischer Studios (Betty Boop) Fleischer 製片廠（Betty Boop） Betty Boop (1930 original version)"><a class="brand-card" href="brands/fleischer-betty-boop/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/betty-boop-1930.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Fleischer Studios (Betty Boop)</div>
+    <div class="b-zh">Fleischer 製片廠（Betty Boop）</div>
+    <div class="b-desc">1930s</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Happy Hooligan 開心流浪漢（Happy Hooligan） Happy Hooligan"><a class="brand-card" href="brands/happy-hooligan/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/happy-hooligan.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Happy Hooligan</div>
+    <div class="b-zh">開心流浪漢（Happy Hooligan）</div>
+    <div class="b-desc">1900-</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="International PD Characters 國際公版角色 艾利斯洛珀（Ally Sloper） 貝卡西娜（Bécassine） 灰姑娘（Cinderella，Doré） 青蛙王子（Frog Prince，Rackham） 約翰布爾（John Bull） 馬克斯與莫里茨（Max &amp; Moritz） 摩登女郎（Cafe and Flapper） 雪姑娘（Snegurochka） 蓬頭彼得（Struwwelpeter） 田鄉與目久部（Tagosaku &amp; Mokube）"><a class="brand-card" href="brands/international-pd-characters/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/intl-ally-sloper.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">International PD Characters</div>
+    <div class="b-zh">國際公版角色</div>
+    <div class="b-desc">1800s-1920s</div>
+    <div class="b-meta">
+      <span class="b-count">10 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Krazy Kat 瘋貓（Krazy Kat） Ignatz Mouse Krazy Kat"><a class="brand-card" href="brands/krazy-kat/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/krazy-kat.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Krazy Kat</div>
+    <div class="b-zh">瘋貓（Krazy Kat）</div>
+    <div class="b-desc">1913-1944</div>
+    <div class="b-meta">
+      <span class="b-count">2 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Little Nemo in Slumberland 夢境國度嘅小尼莫（Little Nemo） Little Nemo"><a class="brand-card" href="brands/little-nemo/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/little-nemo.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Little Nemo in Slumberland</div>
+    <div class="b-zh">夢境國度嘅小尼莫（Little Nemo）</div>
+    <div class="b-desc">1905-1927</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Mutt and Jeff 馬特與傑夫（Mutt and Jeff） Jeff Mutt"><a class="brand-card" href="brands/mutt-jeff/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/mutt-jeff.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Mutt and Jeff</div>
+    <div class="b-zh">馬特與傑夫（Mutt and Jeff）</div>
+    <div class="b-desc">1907-</div>
+    <div class="b-meta">
+      <span class="b-count">2 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Olive Oyl (Thimble Theatre) 奧麗芙（Olive Oyl） Olive Oyl"><a class="brand-card" href="brands/olive-oyl/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/olive-oyl.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Olive Oyl (Thimble Theatre)</div>
+    <div class="b-zh">奧麗芙（Olive Oyl）</div>
+    <div class="b-desc">1919-</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Oswald the Lucky Rabbit 幸運兔奧斯華（Oswald the Lucky Rabbit） Oswald the Lucky Rabbit (1927 version)"><a class="brand-card" href="brands/oswald/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/oswald-1927.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Oswald the Lucky Rabbit</div>
+    <div class="b-zh">幸運兔奧斯華（Oswald the Lucky Rabbit）</div>
+    <div class="b-desc">1927-1928</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="PD Children&#x27;s Book Illustrators 公版童書插畫家 科爾德科特（Caldecott） 霍華派爾（Howard Pyle） 潔西史密斯（Jessie Smith） 凱特格林威（Kate Greenaway） 沃爾特克蘭（Walter Crane） 旺達佳格（Wanda Gag） N.C. 懷思（Robin Hood）"><a class="brand-card" href="brands/pd-childrens-book-illustrators/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/illust-caldecott.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">PD Children&#x27;s Book Illustrators</div>
+    <div class="b-zh">公版童書插畫家</div>
+    <div class="b-desc">1870s-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">7 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="PD Golden-Age Superheroes 公版黃金年代超級英雄 空中男孩（Airboy） 驚奇之人（Amazing-Man） 黑色恐怖（Black Terror） 藍甲蟲原版（Blue Beetle 1939） 藍電光（Blue Bolt） 午夜隊長（Captain Midnight） 貓人（Cat-Man） 無畏（Daredevil 1941） 鬥士揚基（Fighting Yank） 烈焰人（The Flame） 綠龜俠（The Green Turtle） 火焰狂人（Pyroman） 間諜剋星（Spy Smasher） 奇蹟人（Wonder Man）"><a class="brand-card" href="brands/pd-golden-age-superheroes/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/hero-airboy.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">PD Golden-Age Superheroes</div>
+    <div class="b-zh">公版黃金年代超級英雄</div>
+    <div class="b-desc">1930s-1940s</div>
+    <div class="b-meta">
+      <span class="b-count">14 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="PD Literature &amp; Folklore 公版文學與民俗角色 愛麗絲（Alice） 芭芭雅嘎（Baba Yaga） 柴郡貓（Cheshire Cat） 唐吉訶德（Don Quixote） 格列佛（Gulliver） 福爾摩斯（Sherlock Holmes） 霜精傑克（Jack Frost） 長靴海盜（Long John Silver） 莫里亞提（Moriarty） 彼得潘（Peter Pan） 皮諾丘（Pinocchio） 耶誕老人（Santa Claus） 綠野仙蹤（Wizard of Oz）"><a class="brand-card" href="brands/pd-literature-folklore/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/lit-alice.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">PD Literature &amp; Folklore</div>
+    <div class="b-zh">公版文學與民俗角色</div>
+    <div class="b-desc">1600s-1910s</div>
+    <div class="b-meta">
+      <span class="b-count">13 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Polly and Her Pals 波莉同佢班朋友（Polly and Her Pals） Polly (Perkins Family)"><a class="brand-card" href="brands/polly-pals/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/polly-pals.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Polly and Her Pals</div>
+    <div class="b-zh">波莉同佢班朋友（Polly and Her Pals）</div>
+    <div class="b-desc">1912-</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Popeye 大力水手（Popeye） Popeye (1929 original version)"><a class="brand-card" href="brands/popeye/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/popeye-1929.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Popeye</div>
+    <div class="b-zh">大力水手（Popeye）</div>
+    <div class="b-desc">1929-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Public-Domain Animation (1920-30s) 公版動畫角色（1920-30s） 伊索寓言卡通（Aesop Fables） 賓波（Bimbo） 卜斯科（Bosko） 查利鮑沃斯（Charley Bowers） 叮奇多多（Dinky Doodle） 阿爾大哥（Farmer Al Falfa） 跳蛙（Flip the Frog） 甘迪鵝（Gandy Goose） 夯奇與斯朋奇（Hunky &amp; Spunky） 霜精傑克（Jack Frost） 可可小丑（Ko-Ko） 瑪麗的小羊（Mary&#x27;s Little Lamb） 威力鼠（Mighty Mouse） 三隻熊（Three Bears） 酸臉貓（Sourpuss） 凡貝倫湯姆傑瑞（Tom &amp; Jerry） 鬆餅與唐（Waffles &amp; Don）"><a class="brand-card" href="brands/pd-animation-1920s30s/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/pd-aesop.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Public-Domain Animation (1920-30s)</div>
+    <div class="b-zh">公版動畫角色（1920-30s）</div>
+    <div class="b-desc">1920s-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">17 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Skippy 斯基皮（Skippy） Skippy Skinner"><a class="brand-card" href="brands/skippy/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/skippy.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Skippy</div>
+    <div class="b-zh">斯基皮（Skippy）</div>
+    <div class="b-desc">1923-</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="The Gumps 古普一家（The Gumps） Andy Gump"><a class="brand-card" href="brands/andy-gump/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/andy-gump-hero.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">The Gumps</div>
+    <div class="b-zh">古普一家（The Gumps）</div>
+    <div class="b-desc">1917-</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="The Katzenjammer Kids 凱曾加默小孩（Katzenjammer Kids） Der Captain Hans &amp; Fritz (Katzenjammer Kids)"><a class="brand-card" href="brands/katzenjammer-kids/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/katzenjammer-kids.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">The Katzenjammer Kids</div>
+    <div class="b-zh">凱曾加默小孩（Katzenjammer Kids）</div>
+    <div class="b-desc">1897-</div>
+    <div class="b-meta">
+      <span class="b-count">2 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="The Yellow Kid 黃孩子（The Yellow Kid） The Yellow Kid (Mickey Dugan)"><a class="brand-card" href="brands/yellow-kid/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/yellow-kid.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">The Yellow Kid</div>
+    <div class="b-zh">黃孩子（The Yellow Kid）</div>
+    <div class="b-desc">1895-1898</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Vintage Comic Strips 復古連環漫畫 小安妮（Little Orphan Annie） 月穆林斯（Moon Mullins） 海巫婆（Sea Hag） 溫妮溫克爾（Winnie Winkle） 布朗黛（Blondie） 迪克崔西（Dick Tracy） 汽油巷（Gasoline Alley） 哈洛德特恩（Harold Teen） 大力水手初登場（Popeye 1929） 泰山（Tarzan）"><a class="brand-card" href="brands/vintage-comic-strips/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/comic-annie.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Vintage Comic Strips</div>
+    <div class="b-zh">復古連環漫畫</div>
+    <div class="b-desc">1910s-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">10 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Winnie-the-Pooh (Original Book) 小熊維尼（原著小說版） Christopher Robin Eeyore Piglet Winnie-the-Pooh (1926 original)"><a class="brand-card" href="brands/winnie-the-pooh/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/pooh-1926.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Winnie-the-Pooh (Original Book)</div>
+    <div class="b-zh">小熊維尼（原著小說版）</div>
+    <div class="b-desc">1926</div>
+    <div class="b-meta">
+      <span class="b-count">4 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div></div></div><div class="wrap cat-block"><div class="cat-block-head">
+          <h2>世界名畫 · 藝術風格 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(14 品牌 · 205 角色)</span></h2>
+          <span class="cat-desc">大師名畫、藝術運動、雕塑版畫、科幻藝術</span>
+          <a class="cat-jump" href="category/art.html">查看全部 →</a></div><div class="brand-grid"><div data-search="Art Movements, Mythical Beasts &amp; World Cuisine 藝術運動神話生物與世界美食 大衛荷拉提兄弟之誓 福拉哥納爾鞦韆 康丁斯基構圖七 孟克吶喊 華鐸西苔島朝聖 果仁蜜餅 奶油可頌 泰式炒金邊粉 瓦倫西亞海鮮燉飯 那不勒斯披薩 墨西哥塔可牧羊豬 孟斯特格里芬 卡拉瓦喬梅杜莎 蒂也波羅飛馬"><a class="brand-card" href="brands/art-movements-mythical-cuisine/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/art-david-horatii.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Art Movements, Mythical Beasts &amp; World Cuisine</div>
+    <div class="b-zh">藝術運動神話生物與世界美食</div>
+    <div class="b-desc">1500s-2020s</div>
+    <div class="b-meta">
+      <span class="b-count">14 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Cityscapes &amp; Historical Scenes 城市天際線與歷史場景 Audubon 禿鷹 Rosa Bonheur 馬市 Géricault 賽馬 香港 1900 維多利亞港 倫敦天際線（Canaletto） 紐約自由女神揭幕 巴黎新橋（Pissarro） 東京隅田川（Hasui） 拿破崙加冕禮 美國獨立宣言 自由引導人民 梅杜薩之筏 滑鐵盧會戰 北天星圖（Cellarius） 麥卡托世界地圖 托勒密地心圖"><a class="brand-card" href="brands/cityscapes-historical-scenes/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/animal-audubon-eagle.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Cityscapes &amp; Historical Scenes</div>
+    <div class="b-zh">城市天際線與歷史場景</div>
+    <div class="b-desc">1500s-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">16 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Egyptian, Greek &amp; Roman Antiquity 埃及希臘羅馬古文明 埃及提群像墓浮雕 埃及有翼聖甲蟲 希臘亞歷山大鑲嵌畫 希臘紅繪杯 希臘藍衣女陶俑 羅馬卡比托利歐母狼"><a class="brand-card" href="brands/egyptian-greek-roman-antiquity/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/egypt-mastaba-ti.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Egyptian, Greek &amp; Roman Antiquity</div>
+    <div class="b-zh">埃及希臘羅馬古文明</div>
+    <div class="b-desc">公元前-400AD</div>
+    <div class="b-meta">
+      <span class="b-count">6 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Global Art Traditions, Props &amp; Natural Science 全球藝術傳統器物與自然科學 貝南青銅飾板 韓幹照夜白 人力車轎 Kangra克利須那 暖簾店門簾 貝維斯天體圖 海克爾海葵 海克爾貝類 海克爾放射蟲 波斯魯斯塔姆戰惡魔 西藏唐卡釋迦牟尼"><a class="brand-card" href="brands/global-art-traditions-props-science/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/africa-benin-bronze.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Global Art Traditions, Props &amp; Natural Science</div>
+    <div class="b-zh">全球藝術傳統器物與自然科學</div>
+    <div class="b-desc">公元前-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">11 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Historical Props &amp; Golden-Age Art 歷史道具與黃金年代藝術 奧杜邦白胸鳾（Nuthatch） 雷杜特百合圖譜（Liliacées） 雷杜特百葉薔薇（Redouté） 德希姆《水果靜物》 赫達《火腿宴會》 聖安妮彩繪玻璃 聖維特彩繪玻璃 德國聯邦徽 美國國徽 雅典娜貓頭鷹銀幣 皮諾丘木偶（1883） 巴黎歌劇院大階梯 聖日內維耶圖書館 凡爾賽鏡廳 維也納歌劇院內部 巴克胡伊森《風暴帆船》 泰納《漢尼拔雪暴》 泰納《沉船》 泰納《無畏號》 謝雷《紅磨坊》（Chéret） 羅德列克《紅磨坊》（La Goulue） 慕夏《班尼迪克》（Mucha Benedictine） 慕夏《茶花女》（Camélias） 1900 巴黎世博會海報 摩爾達維亞公牛郵票"><a class="brand-card" href="brands/historical-props-golden-age/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/botanical-audubon-nuthatch.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Historical Props &amp; Golden-Age Art</div>
+    <div class="b-zh">歷史道具與黃金年代藝術</div>
+    <div class="b-desc">500BC-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">25 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Marine, Masterpieces &amp; Astronomy 海洋生物名畫天文 佛拉馬利翁版畫 赫維留斯月球地圖 創生之柱 珊瑚礁 北露脊海豚 Haeckel 海葵 Haeckel 海鞘 Haeckel 水母 Haeckel 箱魨 座頭鯨 維納斯的誕生 最後的晚餐 蒙娜麗莎 戴珍珠耳環少女 吶喊 梵谷自畫像"><a class="brand-card" href="brands/marine-masterpieces-astronomy/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/astro-flammarion.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Marine, Masterpieces &amp; Astronomy</div>
+    <div class="b-zh">海洋生物名畫天文</div>
+    <div class="b-desc">1500s-2010s</div>
+    <div class="b-meta">
+      <span class="b-count">16 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Master Paintings, Cities &amp; Marine Activities 名畫城市與海洋活動 康斯特勃乾草車 根茲博羅安德魯斯夫婦 哈爾斯酒宴歡樂者 安格爾大宮女 雷斯達爾哈勒姆風光 維梅爾代夫特一景 布宜諾斯艾利斯港 三代廣重銀座通 里約熱內盧全景 艾瓦佐夫斯基月光海 採珠場 斯托克捕鯨遠征"><a class="brand-card" href="brands/master-paintings-cities-marine/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/art-constable-haywain.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Master Paintings, Cities &amp; Marine Activities</div>
+    <div class="b-zh">名畫城市與海洋活動</div>
+    <div class="b-desc">1600s-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">12 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Master Paintings, Natural Wonders &amp; Mythical Beasts 名畫自然奇觀與神話生物 竇加烏克蘭舞者 哈爾斯笑的騎士 吐魯斯羅特列克紅磨坊 林布蘭夜巡 羅塞提普羅瑟芬 提香聖母升天 委拉斯開茲侍女們 羚羊峽谷 大藍洞 烏尤尼鹽沼 張家界武陵源 沃特豪斯塞壬"><a class="brand-card" href="brands/master-paintings-natural-wonders-mythical/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/art-degas-dancers.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Master Paintings, Natural Wonders &amp; Mythical Beasts</div>
+    <div class="b-zh">名畫自然奇觀與神話生物</div>
+    <div class="b-desc">1500s-2000s</div>
+    <div class="b-meta">
+      <span class="b-count">12 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Masterpieces, Cities, Archetypes &amp; Feasts 名畫城市角色與美食 布勒哲爾巴別塔 波希人間樂園 米開朗基羅創世亞當 哥雅《狗》 林布蘭夜巡 拉斐爾雅典學院 提香烏爾比諾維納斯 阿姆斯特丹運河 倫敦大笨鐘 新加坡濱海灣 雪梨歌劇院 廣重江戶駿河町 威尼斯大運河 Claesz早餐靜物 Heda黑莓派早餐桌 林布蘭猶太新娘 林布蘭使徒保羅 林布蘭畫家自畫像"><a class="brand-card" href="brands/masterpieces-cities-archetypes-feasts/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/art-babel.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Masterpieces, Cities, Archetypes &amp; Feasts</div>
+    <div class="b-zh">名畫城市角色與美食</div>
+    <div class="b-desc">1500s-2000s</div>
+    <div class="b-meta">
+      <span class="b-count">18 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Masterpieces, Cities, Fauna &amp; Mythical Beasts 大師名畫城市動物與神話生物 阿加西長頸鹿 蒙蒂切利火烈鳥 斯塔布斯斑馬 卡拉瓦喬聖馬太蒙召 卡薩特孩童沐浴 塞尚大浴女 艾爾葛雷柯托雷多 雷諾瓦煎餅磨坊舞會 盧梭弄蛇人 魯本斯帕里斯的裁決 薩金特Boit家族女兒 秀拉大碗島 西斯萊莫雷教堂 伊斯坦堡君士坦丁堡 京都嵐山滿花 布拉格全景 羅馬競技場 波提且利帕拉斯與半人馬 伯恩瓊斯牛頭怪 塔尼斯獅身人面像 貴婦與獨角獸掛毯"><a class="brand-card" href="brands/masterpieces-cities-fauna-mythical/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/animal-agasse-giraffe.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Masterpieces, Cities, Fauna &amp; Mythical Beasts</div>
+    <div class="b-zh">大師名畫城市動物與神話生物</div>
+    <div class="b-desc">1500s-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">21 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Non-Western Mythology &amp; Cultural Art 非西方神話與文化藝術 1892 時裝版畫 錯視陷阱畫（Trompe） 阿努比斯雕像 中國御龍帛畫 伊費青銅頭像 日本龍（Chinese school） 吹笛奎師那 奎師那牧牛女 羽蛇神（Quetzalcoatl） 死者之書稱心 約魯巴面具 法國素瓷娃娃 木搖搖馬"><a class="brand-card" href="brands/non-western-mythology/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/fashion-1892.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Non-Western Mythology &amp; Cultural Art</div>
+    <div class="b-zh">非西方神話與文化藝術</div>
+    <div class="b-desc">公元前-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">13 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Realism &amp; Post-Impressionism Masterpieces 寫實主義與後印象派名畫 庫爾貝碎石工 高更我們從哪裡來 羅特列克紅磨坊海報 米勒晚禱 米勒拾穗 秀拉大碗島"><a class="brand-card" href="brands/realism-postimpressionism-masterpieces/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/art-courbet-stonebreakers.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Realism &amp; Post-Impressionism Masterpieces</div>
+    <div class="b-zh">寫實主義與後印象派名畫</div>
+    <div class="b-desc">1800s-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">6 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Retro-Modern, Instruments, Marine &amp; Cities 復古現代樂器海洋與城市 卡耶博特雨天巴黎 多雷霧中鐵路 霍普夜鷹 搖弦琴琴手 Kodo太鼓 拉圖爾搖弦琴 彈魯特琴女子 東京銀座1904 銀座1933街景 川上澄生夜銀座 銀座行人 川瀬巴水夜雨 九段鳥居 艾瓦佐夫斯基月夜燈塔 艾瓦佐夫斯基北海沉船 北齋山下白雨 霍默墨西哥灣流 霍默東點燈塔 透納沉船"><a class="brand-card" href="brands/retro-modern-instruments-marine-cities/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/city-caillebotte-rain.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Retro-Modern, Instruments, Marine &amp; Cities</div>
+    <div class="b-zh">復古現代樂器海洋與城市</div>
+    <div class="b-desc">1600s-1990s</div>
+    <div class="b-meta">
+      <span class="b-count">19 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Sci-Fi Art &amp; Dramatic Scenes 科幻藝術與戲劇性場景 北齋《神奈川沖浪裏》 格里斯《畢卡索肖像》 康丁斯基《印象 III》 克利《Senecio》 莫內《印象日出》 梅拉皮火山（Saleh） 舊金山地震廢墟 龍捲風 維蘇威火山（Dahl） 維蘇威火山（Wright） 極光（Church） 老忠實噴泉 黃石大峽谷 優勝美地 Amazing Stories 1926 Amazing Stories 1927"><a class="brand-card" href="brands/scifi-art-dramatic-scenes/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/art-great-wave.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Sci-Fi Art &amp; Dramatic Scenes</div>
+    <div class="b-zh">科幻藝術與戲劇性場景</div>
+    <div class="b-desc">1700s-1950s</div>
+    <div class="b-meta">
+      <span class="b-count">16 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div></div></div><div class="wrap cat-block"><div class="cat-block-head">
+          <h2>世界文化 · 地標 · 自然 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(16 品牌 · 229 角色)</span></h2>
+          <span class="cat-desc">古文明、地標建築、動物植物、自然史、服飾</span>
+          <a class="cat-jump" href="category/world.html">查看全部 →</a></div><div class="brand-grid"><div data-search="Ancient Civilizations, Performance &amp; Scripts 古代文明傳統表演與文字 羅馬競技場黃昏 馬丘比丘暮色 摩亨佐達羅遺址 帕德嫩神廟 尼姆嘉德水道橋 吉薩獅身人面像 烏爾大神塔 貝爾電話送話器 火箭號蒸氣機車 瓦特蒸氣機 萊特兄弟首飛 峇里島舞者 歌舞伎澤村宗十郎 印度奧迪西古典舞 旋轉苦行僧 凱爾斯之書 羅塞塔石碑 維京盧恩石碑"><a class="brand-card" href="brands/ancient-civilizations-performance-scripts/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/ancient-colosseum-dusk.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Ancient Civilizations, Performance &amp; Scripts</div>
+    <div class="b-zh">古代文明傳統表演與文字</div>
+    <div class="b-desc">公元前-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">18 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Ancient Traditions, Regional Interiors &amp; Flora 古代傳統區域內景與植物 伊什塔爾門走獅 龐貝奧菲斯之家壁畫 龐貝維提之家壁畫 烏爾旗戰爭面 阿爾罕布拉宮藻井 齋浦爾風之宮 銀杏秋葉 巨人柱仙人掌"><a class="brand-card" href="brands/ancient-traditions-interiors-flora/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/ancient-ishtar-gate.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Ancient Traditions, Regional Interiors &amp; Flora</div>
+    <div class="b-zh">古代傳統區域內景與植物</div>
+    <div class="b-desc">公元前-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">8 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge verify">❓ 需核實</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Anthropomorphic Animals 擬人動物角色 熊戰士（Bear Warrior） 鳥女僕（Bird Maid） 布雷爾兔（Brer Rabbit） 狗人（Doggo） 福克斯素體（Fox Bases） Furry Tales 德國牧羊犬（German Shepherd） 葛里塞特野兔（Griset Hare） 小傑克兔（Little Jack Rabbit） 野豬人戰士（LPC Boarman） 蛤蟆先生（Mr. Toad） 擬人狗狗（Nice Dog） 彼得兔（Peter Rabbit） 黎明吹笛人（Pan） 鼠人（Rat） 狄勒上學狗兒（Thiele Dogs） 托比西班牙獵犬（Toby Spaniel）"><a class="brand-card" href="brands/anthropomorphic-animals/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/anthro-bear-warrior.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Anthropomorphic Animals</div>
+    <div class="b-zh">擬人動物角色</div>
+    <div class="b-desc">1900s-2020s</div>
+    <div class="b-meta">
+      <span class="b-count">17 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Costumes, Landscapes, Work Animals &amp; Props 民族服飾地景工作動物與道具 蒙兀兒獵鷹狩獵 Mauve雪中牧羊 倫敦閱兵騎警 梵谷牧羊人羊群 東漢墓室漢服仕女 中國漢服 俄國柯科什尼克 美洲原住民服飾 印度沙麗穿搭 黃石大棱鏡溫泉 優勝美地修士尖塔 夏丹魟魚洋蔥 Coorte頭骨沙漏 廣重庄野驟雨"><a class="brand-card" href="brands/costumes-landscapes-work-animals-props/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/animal-falconry.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Costumes, Landscapes, Work Animals &amp; Props</div>
+    <div class="b-zh">民族服飾地景工作動物與道具</div>
+    <div class="b-desc">1500s-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">14 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Dance, Instruments, Crafts &amp; Festivals 全球舞蹈樂器工匠節慶 金剛經書法家 玻璃師傅吹製 陶輪製陶 歌麿織布 非洲風情舞 印度婆羅多舞 竇加《星星》芭蕾 薩金特西班牙舞者 夏威夷呼拉舞 阿根廷探戈 亡靈節糖骨骷髏 印度排燈節 中國新年舞獅 里約嘉年華 狄吉里杜管 二胡 Erhu 古箏 Koto 三味線演奏 西塔琴 Sitar"><a class="brand-card" href="brands/dance-instruments-crafts-festivals/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/craft-calligrapher.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Dance, Instruments, Crafts &amp; Festivals</div>
+    <div class="b-zh">全球舞蹈樂器工匠節慶</div>
+    <div class="b-desc">1600s-2000s</div>
+    <div class="b-meta">
+      <span class="b-count">19 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Flags, Interiors, Landmarks &amp; Biomes 旗幟室內地標棲地動物 長頸鹿 美洲豹 緋紅金鋼鸚鵡 北極熊 海象 法蘭西奧里芙蘭姆旗 維京渡鴉旗 梵谷夜晚咖啡座 德維特教堂內景 凡爾賽鏡廳 斯特拉霍夫修道院圖書館 吳哥窟 羅馬競技場 聖母峰 NASA 馬丘比丘 1911 尼加拉瀑布 塞倫蓋提大遷徙 維多利亞瀑布"><a class="brand-card" href="brands/flags-interiors-landmarks-biomes/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/biome-giraffe.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Flags, Interiors, Landmarks &amp; Biomes</div>
+    <div class="b-zh">旗幟室內地標棲地動物</div>
+    <div class="b-desc">1600s-2000s</div>
+    <div class="b-meta">
+      <span class="b-count">18 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Global Cultural Traditions &amp; Landmarks 全球文化傳統與地標 阿善提金秤錘 金弘道山水冊頁 杜拜哈里發塔 吉薩大金字塔 毛利船首雕飾 澳洲汪地納岩畫"><a class="brand-card" href="brands/global-cultural-traditions-landmarks/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/africa-ashanti-goldweight.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Global Cultural Traditions &amp; Landmarks</div>
+    <div class="b-zh">全球文化傳統與地標</div>
+    <div class="b-desc">公元前-2000s</div>
+    <div class="b-meta">
+      <span class="b-count">6 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Landmarks, Exotic Fauna &amp; Japanese Culture 地標異國動物日式文化與海洋 Gould鴯鶓 Gould蜂鳥 Haeckel章魚 Haeckel海星 Haeckel海龜 摺紙千羽鶴 摺紙鶴單隻 丹頂鶴國鳥 和風折扇 和菓子 雅典衛城帕特農 聖米歇爾山 新天鵝堡 佩特拉寶庫 聖托里尼藍頂教堂 藍鯨全貌 裸胸鱔 虎鯨躍出"><a class="brand-card" href="brands/landmarks-exotic-fauna-japanese-culture/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/animal-gould-emu.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Landmarks, Exotic Fauna &amp; Japanese Culture</div>
+    <div class="b-zh">地標異國動物日式文化與海洋</div>
+    <div class="b-desc">1800s-2020s</div>
+    <div class="b-meta">
+      <span class="b-count">18 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Maya Landmarks &amp; American Natural History 馬雅地標與美洲自然史 歐杜邦美洲麋鹿 黑鳍礁鯊 波特曼印第安獵野牛 阿布辛貝神廟 奇琴伊察庫庫爾坎 科潘石碑A 丹德拉黃道十二宮 以弗所塞爾蘇斯圖書館 卡納克多柱廳 巴爾米拉遺蹟 提卡爾骷髏神殿"><a class="brand-card" href="brands/maya-landmarks-american-natural-history/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/animal-audubon-elk.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Maya Landmarks &amp; American Natural History</div>
+    <div class="b-zh">馬雅地標與美洲自然史</div>
+    <div class="b-desc">公元前-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">11 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Natural History, Chinese Culture &amp; Architecture Detail 博物學中國文化與建築細部 蘇州留園 拜占庭狄奧多拉馬賽克 萊昂玫瑰彩窗 西斯廷天頂壁畫 龍舟比賽 萬里長城 漢代玉豬 麻將牌 明代青花瓷 篆書青花瓷罐 唐代十二生肖陶俑 多諾萬中國昆蟲 海克爾蜥蜴 梅里安凱門鱷蛇 梅里安山楊蛾"><a class="brand-card" href="brands/natural-history-chinese-culture-architecture/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/arch-lingering-garden.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Natural History, Chinese Culture &amp; Architecture Detail</div>
+    <div class="b-zh">博物學中國文化與建築細部</div>
+    <div class="b-desc">1500s-2020s</div>
+    <div class="b-meta">
+      <span class="b-count">15 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Regional Landmarks, Global Fauna &amp; Art Systems 區域地標全球動物與藝術系統 奇異鳥透明 大貓熊 多雷魔王盧西法 肯亞山 納斯卡線蜂鳥 納斯卡線猴子 烏魯魯日落"><a class="brand-card" href="brands/regional-landmarks-global-fauna-art/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/animal-kiwi.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Regional Landmarks, Global Fauna &amp; Art Systems</div>
+    <div class="b-zh">區域地標全球動物與藝術系統</div>
+    <div class="b-desc">1500s-2020s</div>
+    <div class="b-meta">
+      <span class="b-count">7 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Sculpture, Engraving, Regional Fauna &amp; Sports 雕塑版畫區域動物與運動 水豚 皇帝企鵝 白掌長臂猿 美洲豹 紅腹食人魚 鴨嘴獸 南美貘 白犀牛母子 袋熊 郭熙早春圖 杜勒騎士死神魔鬼 林布蘭入墓蝕刻 達蓋爾坦普爾大道 尼埃普斯第一張照片 貝尼尼大衛 擲鐵餅者 米開朗基羅大衛像 米洛的維納斯 網球揮拍 希臘羅馬式角力"><a class="brand-card" href="brands/sculpture-engraving-fauna-sports/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/animal-capybara.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Sculpture, Engraving, Regional Fauna &amp; Sports</div>
+    <div class="b-zh">雕塑版畫區域動物與運動</div>
+    <div class="b-desc">公元前-2000s</div>
+    <div class="b-meta">
+      <span class="b-count">20 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Textiles, Heraldry, Ships &amp; Weapons 紡織紋章船艦武器 鎌田家家紋 斐利二世紋章 土佐桐家紋 COURSER 快帆船 維京龍頭長船 西班牙大帆船 斯庫勒萊夫維京船 絲綢提花織錦 艾卡特織錦 和服圖案集 派斯利花樣 高地格紋呢 歐洲十字弩 長柄戟 持戟衛兵群像 晨星錘鏈枷"><a class="brand-card" href="brands/textiles-heraldry-ships-weapons/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/heraldry-kamata.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Textiles, Heraldry, Ships &amp; Weapons</div>
+    <div class="b-zh">紡織紋章船艦武器</div>
+    <div class="b-desc">1500s-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">16 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Vehicles &amp; Landmarks 交通工具與地標建築 奧杜邦雪鴞（Audubon Owl） 擱淺鯨魚（Beached Whale） 達文西馬（da Vinci Horse） 抱貓老婦（Old Woman with Cat） Stubbs 馬 竇加舞者（Degas Ballerina） 吉薩金字塔（Pyramids） 巨石陣（Stonehenge） 泰姬陵（Taj Mahal） 三桅帆船（Clipper） 哈雷機車（Harley-Davidson） 前大後小單車（Penny-Farthing） 1875 蒸氣火車 鐵達尼號（RMS Titanic） 蒙帕納斯出軌（Train Wreck） 萊特 1903 飛行器（Wright Flyer） 齊柏林飛船（Zeppelin）"><a class="brand-card" href="brands/vehicles-landmarks/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/anim-audubon-owl.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Vehicles &amp; Landmarks</div>
+    <div class="b-zh">交通工具與地標建築</div>
+    <div class="b-desc">1600s-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">17 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="World Architecture, Flora, Cuisine &amp; Weather 世界建築花卉美食天氣 藍色清真寺 金門大橋 巴黎聖母院 布達拉宮 聖家堂 Faes 花卉靜物 櫻花映富士山 蓮花 吳昌碩牡丹水仙 大麥克漢堡 中式點心蒸籠 肉丸義大利麵 壽司拼盤 乾旱龜裂大地 閃電風暴 彩虹夕照海灣 沙塵暴油畫"><a class="brand-card" href="brands/world-architecture-flora-cuisine-weather/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/arch-blue-mosque.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">World Architecture, Flora, Cuisine &amp; Weather</div>
+    <div class="b-zh">世界建築花卉美食天氣</div>
+    <div class="b-desc">1700s-2020s</div>
+    <div class="b-meta">
+      <span class="b-count">17 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="World Costumes &amp; Asian Folk Art 世界服飾與亞洲民間美術 日本妖怪繪卷（Emakimono） 韓國民畫（Minhwa） 中國年畫（Nianhua） 孫悟空（Wukong） 漢服（Hanfu） 克雷奇美爾服飾（Kretschmer） 清代朝服（Qianlong） 拉西內服飾（Racinet）"><a class="brand-card" href="brands/world-costumes-asian-folk-art/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/asia-minhwa.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">World Costumes &amp; Asian Folk Art</div>
+    <div class="b-zh">世界服飾與亞洲民間美術</div>
+    <div class="b-desc">12-19 世紀</div>
+    <div class="b-meta">
+      <span class="b-count">8 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div></div></div><div class="wrap cat-block"><div class="cat-block-head">
+          <h2>場景 · 道具 · 角色原型 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(5 品牌 · 85 角色)</span></h2>
+          <span class="cat-desc">背景、職業角色、道具武器、節慶、動態手勢</span>
+          <a class="cat-jump" href="category/scenes.html">查看全部 →</a></div><div class="brand-grid"><div data-search="Genre Life, Trades &amp; Legendary Heroes 市井生活昔日職業與傳奇英雄 台夫特宅院中庭 布魯塞爾雪中獵人 布魯塞爾農民舞會 布魯塞爾農民婚禮 亞瑟王 Excalibur 貝奧武夫斬格倫德爾 熙德 El Cid 白衣騎士於磨坊 托爾大戰巨神 少年亞瑟王 藥劑師店（Barbieri） 鐵匠鋪 織布工（阿曼） 沙漠駝隊 馬拉消防水車 耕牛拉犁（Tito） 戰象"><a class="brand-card" href="brands/genre-life-trades-legendary-heroes/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/genre-hooch-courtyard.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Genre Life, Trades &amp; Legendary Heroes</div>
+    <div class="b-zh">市井生活昔日職業與傳奇英雄</div>
+    <div class="b-desc">1500s-1920s</div>
+    <div class="b-meta">
+      <span class="b-count">17 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Motion, Emotion, Hands &amp; Silhouette 動物動態表情手勢剪影 Le Brun 表情圖譜 靈魂激情表情 手交握逐幀 Dürer 祈禱之手 密西西比鳶猛禽 犬奔馳逐格 山谷之王雄鹿 奔跑美洲豹 卡戎渡亡靈 但丁陰暗森林 路西法地獄之王 被救贖（Landseer）"><a class="brand-card" href="brands/motion-emotion-hands-silhouette/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/emotion-lebrun.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Motion, Emotion, Hands &amp; Silhouette</div>
+    <div class="b-zh">動物動態表情手勢剪影</div>
+    <div class="b-desc">1500s-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">12 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Musicians, Scientists &amp; Performing Arts 音樂家科學家與表演藝術 撲克牌（Playing Cards） 西洋棋盤（Chess Set） 費金（Fagin） 福爾摩斯（Holmes） 哈克貝利費恩（Huck Finn） 尼摩船長（Captain Nemo） 史古治（Scrooge） 路易斯阿姆斯壯（Louis Armstrong） 貝西伯爵（Count Basie） 比莉哈樂黛（Billie Holiday） 艾拉費茲潔拉（Ella Fitzgerald） 艾靈頓公爵（Duke Ellington） 邁爾斯戴維斯（Miles Davis） 查理帕克（Charlie Parker） 走鋼索（Blondin） 卓別林（Charlie Chaplin） 馬戲團小丑（Clowns） 胡迪尼（Harry Houdini） 居禮夫人（Marie Curie） 達爾文（Darwin） 達文西（da Vinci） 愛迪生（Edison） 愛因斯坦（Einstein） 牛頓（Newton） 特斯拉（Tesla）"><a class="brand-card" href="brands/musicians-scientists-performing/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/game-cards.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Musicians, Scientists &amp; Performing Arts</div>
+    <div class="b-zh">音樂家科學家與表演藝術</div>
+    <div class="b-desc">1600s-1950s</div>
+    <div class="b-meta">
+      <span class="b-count">25 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Occupations &amp; Monsters 職業角色與怪獸 西部牛仔（Cowboy） 屠龍騎士（St George &amp; Dragon） 大象（Elephant） 大白鯊（Great White） 全甲騎士（Knight） 綠野小仙人（Leprechaun） 大都會機器人（Metropolis） 忍者自來也（Jiraiya） 帝王企鵝（Penguin） Dürer 犀牛（Rhino） 孟加拉虎（Tiger） 西部硬漢（Western Hardman） 萬聖節女巫（Witch）"><a class="brand-card" href="brands/occupations-monsters/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/gap-cowboy.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Occupations &amp; Monsters</div>
+    <div class="b-zh">職業角色與怪獸</div>
+    <div class="b-desc">1500s-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">13 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Props &amp; Weapons 道具/武器素材 藍武士刀（Blue Katana） 超甜點套裝（Super Candy） 彩色藥水（含動畫） 飲料圖示包 風格化奇幻武器 CC0 食物圖示 槍械集（Guns） 86 件居家道具 武士刀（Katana） 雷射彈道（Laser Bullets） 魔法水晶（Magic Crystals） 中世紀武器（Medieval Weapons） CC0 藥水圖示 16-bit 藥水瓶包 RPG 物品集（RPG Item Set） 手裡劍包（Shuriken Pack） 平板電腦（Android Tablet） 小型槍械圖示"><a class="brand-card" href="brands/props-weapons/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/prop-candy.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Props &amp; Weapons</div>
+    <div class="b-zh">道具/武器素材</div>
+    <div class="b-desc">2000s-</div>
+    <div class="b-meta">
+      <span class="b-count">18 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span> <span class="badge verify">❓ 需核實</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div></div></div><div class="wrap cat-block"><div class="cat-block-head">
+          <h2>開源 · 素材包 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(6 品牌 · 107 角色)</span></h2>
+          <span class="cat-desc">開源吉祥物、CC0 原創角色、免費素材來源</span>
+          <a class="cat-jump" href="category/opensource.html">查看全部 →</a></div><div class="brand-grid"><div data-search="Animation Backgrounds (General) 動畫背景素材（通用） 復古太空船（Retro Spaceship） 阿拉斯加極光（Aurora） 居家臥室（Home Bedroom） 山丘城堡（Castle on Hill） 奇幻世界（Fantasy World） 中世紀房屋包 中世紀村莊 MegaKit 暮色山脈（Mountain at Dusk） 科幻背景（Sci-Fi） 伺服器機房（Server Room） 太空背景集（Space） 太空船內部（Spaceship Interior） 星空之夜（Starry Night） 海底潛水（Underwater） 城市景觀（Urban Landscape）"><a class="brand-card" href="brands/animation-backgrounds-general/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/bg-retro-spaceship.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Animation Backgrounds (General)</div>
+    <div class="b-zh">動畫背景素材（通用）</div>
+    <div class="b-desc">2000s-</div>
+    <div class="b-meta">
+      <span class="b-count">15 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Blender Open Movies Blender 開放電影角色 Big Buck Bunny Koro Oti Sintel"><a class="brand-card" href="brands/blender-open-movies/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/big-buck-bunny.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Blender Open Movies</div>
+    <div class="b-zh">Blender 開放電影角色</div>
+    <div class="b-desc">2006-</div>
+    <div class="b-meta">
+      <span class="b-count">4 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="CC0 Original Characters CC0 原創角色（社群） Duskako Flyman Stand Spikeman Stand Lexi 2D Samurai Chibi Anime Characters Generic Anime Face Anime Female Body Anime Girl Portrait Anime Girl Walk Anime Portraits Base Male Fighter Box Warrior Set Cartoon Space Robot Chibi Monsters Set 01 Chibi RPG Characters Chibi Swordman Cute Girl Sprites Cartoon Dinosaur Characters Fox Bases Character Sheet LPC Barbarian Base Magic Girl Anime Male Warrior Sprite Mecha Model Full Mechs 64x64 Modular 64x Robots Ninja Adventure Sprite Ninja NPC Sprite Sheet Pepper&amp;Carrot Characters Pixel Rabbit People Robot Character Space Ship &amp; Mech Kit Trainee Knight White Probe Bot Youji Bot Routhwick the Tanuki SODABYTES Kemono Furry Theophilus Xenia the Linux Vixen Zora the Snep"><a class="brand-card" href="brands/cc0-original-characters/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/duskako.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">CC0 Original Characters</div>
+    <div class="b-zh">CC0 原創角色（社群）</div>
+    <div class="b-desc">2010s-</div>
+    <div class="b-meta">
+      <span class="b-count">40 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Free Asset Sources 自由素材來源庫 Kenney Blocky Characters Kenney Mini Characters Kenney Platformer Characters Kenney Toon Characters Quaternius Animated Mech Quaternius Sushi Restaurant Kit Quaternius Ultimate Character Pack"><a class="brand-card" href="brands/free-asset-sources/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/kenney-blocky-characters.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Free Asset Sources</div>
+    <div class="b-zh">自由素材來源庫</div>
+    <div class="b-desc">2010s-</div>
+    <div class="b-meta">
+      <span class="b-count">7 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Open-Source Mascots 開放源碼吉祥物 Kiki the Cyber Human Wapuu"><a class="brand-card" href="brands/open-source-mascots/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/kiki.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Open-Source Mascots</div>
+    <div class="b-zh">開放源碼吉祥物</div>
+    <div class="b-desc">2000s-</div>
+    <div class="b-meta">
+      <span class="b-count">2 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="OSS Software Mascots 開源軟體吉祥物 Ansible Arch Linux Captain Kube（K8s 指揮官） Clojure Apache CouchDB Dart Docker Moby Elasticsearch Elixir GNU Emacs Erlang Geeko（openSUSE） Git Go Logo Goldie（Go Gopher） Hazel（Helm 刺蝟） Java Duke Julia Kodee（Kotlin 吉祥物） Linky（Linkerd 龍蝦） Lua MariaDB MongoDB Nim Node.js OCaml Phippy（K8s 長頸鹿） Python R Redis Ruby Sakila（MySQL 海豚） Scala Slonik（PostgreSQL 大象） SQLite Swift TypeScript Vim Zee（etcd 鰻魚）"><a class="brand-card" href="brands/oss-software-mascots/index.html">
+  <div class="b-thumb"><img src="assets/img/thumbs/oss-ansible.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">OSS Software Mascots</div>
+    <div class="b-zh">開源軟體吉祥物</div>
+    <div class="b-desc">1990s-2010s</div>
+    <div class="b-meta">
+      <span class="b-count">39 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge verify">❓ 需核實</span> <span class="badge cc">CC-BY</span> <span class="badge verify">❓ 需核實</span> <span class="badge cc">CC-BY-SA</span> <span class="badge verify">❓ 需核實</span> <span class="badge verify">❓ 需核實</span> <span class="badge verify">❓ 需核實</span></span>
+    </div>
+  </div>
+</a></div></div></div><div class="wrap no-result" id="no-result">搵唔到符合嘅品牌 / 角色。</div><div class="wrap">
   <div class="footer-note">
     Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
   </div>
@@ -151,5 +1089,31 @@ a.zoom { display: inline-block; cursor: zoom-in; }
   });
   lb.addEventListener('click', function(e){ if(e.target===lb||e.target.id==='lb-close') close(); });
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+})();
+</script>
+<script>
+(function(){
+  var box=document.getElementById('brand-search');
+  if(!box) return;
+  box.addEventListener('input', function(){
+    var q=box.value.trim().toLowerCase();
+    var cards=document.querySelectorAll('.brand-card');
+    var any=false;
+    cards.forEach(function(c){
+      var holder=c.parentElement;
+      var hay=(holder&&holder.getAttribute('data-search')||'').toLowerCase();
+      var show=!q||hay.indexOf(q)!==-1;
+      holder.classList.toggle('filter-hidden', !show);
+      if(show) any=true;
+    });
+    var blocks=document.querySelectorAll('.cat-block');
+    blocks.forEach(function(bl){
+      var hasVisible=[].some.call(bl.querySelectorAll('.brand-card'), function(c){return !c.parentElement.classList.contains('filter-hidden');});
+      bl.classList.toggle('filter-hidden', !hasVisible && q!=='');
+      if(hasVisible) any=true;
+    });
+    var nr=document.getElementById('no-result');
+    if(nr) nr.style.display = q && !any ? 'block' : 'none';
+  });
 })();
 </script>

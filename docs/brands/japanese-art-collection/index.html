@@ -39,6 +39,66 @@ nav.brand-tabs a {
 }
 nav.brand-tabs a:hover { border-color: var(--forest); }
 nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+/* ---------- Scaled catalog: 分類導航 ---------- */
+nav.cat-nav {
+  display: flex; gap: 4px; flex-wrap: wrap; margin: 16px 0 4px;
+  padding-top: 12px; border-top: 1px solid var(--border);
+}
+nav.cat-nav a {
+  padding: 7px 14px; border-radius: 8px; border: 1px solid transparent;
+  color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 600;
+  transition: all .12s ease;
+}
+nav.cat-nav a:hover { color: var(--forest); background: #f2eee4; }
+nav.cat-nav a.active { color: var(--forest); background: #e9f0e9; border-color: var(--border); }
+nav.cat-nav .cat-count { color: var(--terracotta); font-weight: 700; font-size: .78rem; margin-left: 3px; }
+/* 分類英雄 / 區塊 */
+.cat-hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 22px 26px; margin-bottom: 26px; }
+.cat-hero h1.page { margin-bottom: 6px; }
+.cat-hero p { color: var(--muted); max-width: 72ch; }
+.cat-block { margin-bottom: 34px; }
+.cat-block-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.cat-block-head h2 { margin-top: 0; border: none; }
+.cat-block-head .cat-desc { color: var(--muted); font-size: .9rem; }
+.cat-block-head .cat-jump { color: var(--forest); font-size: .85rem; text-decoration: none; font-weight: 600; }
+/* 搜尋 */
+.searchbar { max-width: 640px; margin: 20px 0 6px; position: relative; }
+.searchbar input {
+  width: 100%; padding: 13px 18px 13px 44px; border: 1px solid var(--border);
+  border-radius: 12px; font-size: 1rem; background: #fff; color: var(--ink);
+  outline: none; transition: border-color .12s ease, box-shadow .12s ease;
+}
+.searchbar input:focus { border-color: var(--forest); box-shadow: 0 0 0 3px rgba(62,92,75,.12); }
+.searchbar .search-icon {
+  position: absolute; left: 15px; top: 50%; transform: translateY(-50%);
+  color: var(--muted); font-size: 1.05rem; pointer-events: none;
+}
+.search-hint { color: var(--muted); font-size: .82rem; margin: 8px 2px 0; }
+/* 分類品牌卡（有縮圖） */
+.brand-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 16px; }
+.brand-card {
+  display: flex; gap: 14px; align-items: stretch; background: var(--card);
+  border: 1px solid var(--border); border-radius: 12px; padding: 14px;
+  text-decoration: none; color: var(--ink); transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.brand-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.brand-card .b-thumb {
+  width: 84px; min-width: 84px; height: 84px; border-radius: 9px; overflow: hidden;
+  background: #eee7db; display: flex; align-items: center; justify-content: center;
+}
+.brand-card .b-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.brand-card .b-thumb .noimg { color: var(--muted); font-size: 1.5rem; }
+.brand-card .b-body { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.brand-card .b-name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1rem; line-height: 1.35; }
+.brand-card .b-zh { color: var(--muted); font-size: .8rem; }
+.brand-card .b-desc { color: var(--muted); font-size: .82rem; margin-top: 5px; flex: 1; }
+.brand-card .b-meta { display: flex; align-items: center; gap: 8px; margin-top: 9px; flex-wrap: wrap; }
+.brand-card .b-count { color: var(--terracotta); font-weight: 700; font-size: .82rem; }
+.brand-card .lic-row { display: flex; gap: 4px; flex-wrap: wrap; }
+/* 過濾隱藏（搜尋用） */
+.filter-hidden { display: none !important; }
+.no-result { display: none; color: var(--muted); padding: 24px; text-align: center; }
+
 .breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
 .breadcrumb a { color: var(--forest); text-decoration: none; }
 h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }
@@ -129,7 +189,7 @@ a.zoom { display: inline-block; cursor: zoom-in; }
 <header class="site"><div class="wrap">
   <h1><a href="../../index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
   <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
-</div><nav class="brand-tabs"><a href="../../brands/ancient-civilizations-performance-scripts/" class="">Ancient Civilizations, Performance &amp; Scripts</a><a href="../../brands/ancient-traditions-interiors-flora/" class="">Ancient Traditions, Regional Interiors &amp; Flora</a><a href="../../brands/animation-backgrounds-general/" class="">Animation Backgrounds (General)</a><a href="../../brands/anthropomorphic-animals/" class="">Anthropomorphic Animals</a><a href="../../brands/art-movements-mythical-cuisine/" class="">Art Movements, Mythical Beasts &amp; World Cuisine</a><a href="../../brands/barney-google/" class="">Barney Google</a><a href="../../brands/blender-open-movies/" class="">Blender Open Movies</a><a href="../../brands/jiggs/" class="">Bringing Up Father</a><a href="../../brands/buck-rogers/" class="">Buck Rogers</a><a href="../../brands/buster-brown/" class="">Buster Brown</a><a href="../../brands/cc0-original-characters/" class="">CC0 Original Characters</a><a href="../../brands/cityscapes-historical-scenes/" class="">Cityscapes &amp; Historical Scenes</a><a href="../../brands/costumes-landscapes-work-animals-props/" class="">Costumes, Landscapes, Work Animals &amp; Props</a><a href="../../brands/dance-instruments-crafts-festivals/" class="">Dance, Instruments, Crafts &amp; Festivals</a><a href="../../brands/disney-silent/" class="">Disney Silent Era (Mickey &amp; Friends)</a><a href="../../brands/egyptian-greek-roman-antiquity/" class="">Egyptian, Greek &amp; Roman Antiquity</a><a href="../../brands/fairy-tales-mythology/" class="">Fairy Tales &amp; Mythology</a><a href="../../brands/felix-the-cat/" class="">Felix the Cat</a><a href="../../brands/flags-interiors-landmarks-biomes/" class="">Flags, Interiors, Landmarks &amp; Biomes</a><a href="../../brands/fleischer-betty-boop/" class="">Fleischer Studios (Betty Boop)</a><a href="../../brands/free-asset-sources/" class="">Free Asset Sources</a><a href="../../brands/genre-life-trades-legendary-heroes/" class="">Genre Life, Trades &amp; Legendary Heroes</a><a href="../../brands/global-art-traditions-props-science/" class="">Global Art Traditions, Props &amp; Natural Science</a><a href="../../brands/global-cultural-traditions-landmarks/" class="">Global Cultural Traditions &amp; Landmarks</a><a href="../../brands/happy-hooligan/" class="">Happy Hooligan</a><a href="../../brands/historical-props-golden-age/" class="">Historical Props &amp; Golden-Age Art</a><a href="../../brands/international-pd-characters/" class="">International PD Characters</a><a href="../../brands/japanese-anime-backgrounds/" class="">Japanese Anime Backgrounds</a><a href="../../brands/japanese-anime-design-sheets/" class="">Japanese Anime Design Sheets</a><a href="../../brands/japanese-anime-extra-sources/" class="">Japanese Anime Extra Sources</a><a href="../../brands/japanese-anime-style-reference/" class="">Japanese Anime Style Reference</a><a href="../../brands/japanese-art-collection/" class="active">Japanese Art Collection</a><a href="../../brands/japanese-theme-illustrations/" class="">Japanese Theme Illustrations</a><a href="../../brands/japanese-yokai/" class="">Japanese Yokai</a><a href="../../brands/krazy-kat/" class="">Krazy Kat</a><a href="../../brands/landmarks-exotic-fauna-japanese-culture/" class="">Landmarks, Exotic Fauna &amp; Japanese Culture</a><a href="../../brands/little-nemo/" class="">Little Nemo in Slumberland</a><a href="../../brands/marine-masterpieces-astronomy/" class="">Marine, Masterpieces &amp; Astronomy</a><a href="../../brands/master-paintings-cities-marine/" class="">Master Paintings, Cities &amp; Marine Activities</a><a href="../../brands/master-paintings-natural-wonders-mythical/" class="">Master Paintings, Natural Wonders &amp; Mythical Beasts</a><a href="../../brands/masterpieces-cities-archetypes-feasts/" class="">Masterpieces, Cities, Archetypes &amp; Feasts</a><a href="../../brands/masterpieces-cities-fauna-mythical/" class="">Masterpieces, Cities, Fauna &amp; Mythical Beasts</a><a href="../../brands/maya-landmarks-american-natural-history/" class="">Maya Landmarks &amp; American Natural History</a><a href="../../brands/motion-emotion-hands-silhouette/" class="">Motion, Emotion, Hands &amp; Silhouette</a><a href="../../brands/musicians-scientists-performing/" class="">Musicians, Scientists &amp; Performing Arts</a><a href="../../brands/mutt-jeff/" class="">Mutt and Jeff</a><a href="../../brands/natural-history-chinese-culture-architecture/" class="">Natural History, Chinese Culture &amp; Architecture Detail</a><a href="../../brands/non-western-mythology/" class="">Non-Western Mythology &amp; Cultural Art</a><a href="../../brands/occupations-monsters/" class="">Occupations &amp; Monsters</a><a href="../../brands/olive-oyl/" class="">Olive Oyl (Thimble Theatre)</a><a href="../../brands/open-source-mascots/" class="">Open-Source Mascots</a><a href="../../brands/oss-software-mascots/" class="">OSS Software Mascots</a><a href="../../brands/oswald/" class="">Oswald the Lucky Rabbit</a><a href="../../brands/pd-childrens-book-illustrators/" class="">PD Children&#x27;s Book Illustrators</a><a href="../../brands/pd-golden-age-superheroes/" class="">PD Golden-Age Superheroes</a><a href="../../brands/pd-literature-folklore/" class="">PD Literature &amp; Folklore</a><a href="../../brands/polly-pals/" class="">Polly and Her Pals</a><a href="../../brands/popeye/" class="">Popeye</a><a href="../../brands/props-weapons/" class="">Props &amp; Weapons</a><a href="../../brands/pd-animation-1920s30s/" class="">Public-Domain Animation (1920-30s)</a><a href="../../brands/realism-postimpressionism-masterpieces/" class="">Realism &amp; Post-Impressionism Masterpieces</a><a href="../../brands/regional-architecture-japan-celestials/" class="">Regional Architecture, Japan Scenes &amp; Celestials</a><a href="../../brands/regional-landmarks-global-fauna-art/" class="">Regional Landmarks, Global Fauna &amp; Art Systems</a><a href="../../brands/retro-modern-instruments-marine-cities/" class="">Retro-Modern, Instruments, Marine &amp; Cities</a><a href="../../brands/scifi-art-dramatic-scenes/" class="">Sci-Fi Art &amp; Dramatic Scenes</a><a href="../../brands/sculpture-engraving-fauna-sports/" class="">Sculpture, Engraving, Regional Fauna &amp; Sports</a><a href="../../brands/skippy/" class="">Skippy</a><a href="../../brands/textiles-heraldry-ships-weapons/" class="">Textiles, Heraldry, Ships &amp; Weapons</a><a href="../../brands/andy-gump/" class="">The Gumps</a><a href="../../brands/katzenjammer-kids/" class="">The Katzenjammer Kids</a><a href="../../brands/yellow-kid/" class="">The Yellow Kid</a><a href="../../brands/ukiyoe-nouveau-fantasy-markets/" class="">Ukiyo-e Nouveau Fantasy &amp; Markets</a><a href="../../brands/vehicles-landmarks/" class="">Vehicles &amp; Landmarks</a><a href="../../brands/vintage-comic-strips/" class="">Vintage Comic Strips</a><a href="../../brands/wildlife-ukiyoe-childrens-mood/" class="">Wildlife, Ukiyo-e, Children&#x27;s Books &amp; Mood</a><a href="../../brands/winnie-the-pooh/" class="">Winnie-the-Pooh (Original Book)</a><a href="../../brands/world-architecture-flora-cuisine-weather/" class="">World Architecture, Flora, Cuisine &amp; Weather</a><a href="../../brands/world-costumes-asian-folk-art/" class="">World Costumes &amp; Asian Folk Art</a></nav></header>
+</div><nav class="cat-nav"><a href="../../index.html" class="">全部 <span class="cat-count">78</span></a><a href="../../category/japanese.html" class="active">日式動漫 · 浮世繪 <span class="cat-count">10</span></a><a href="../../category/comics.html" class="">公版卡通 · 連環漫畫 <span class="cat-count">27</span></a><a href="../../category/art.html" class="">世界名畫 · 藝術風格 <span class="cat-count">14</span></a><a href="../../category/world.html" class="">世界文化 · 地標 · 自然 <span class="cat-count">16</span></a><a href="../../category/scenes.html" class="">場景 · 道具 · 角色原型 <span class="cat-count">5</span></a><a href="../../category/opensource.html" class="">開源 · 素材包 <span class="cat-count">6</span></a></nav></header>
 <div class="wrap"><div class="breadcrumb"><a href="../../index.html">全部品牌</a> › Japanese Art Collection</div><h1 class="page">Japanese Art Collection <span style="color:var(--muted);font-size:1rem;font-weight:400">日式藝術精選</span></h1><table class="meta-table"><tr><td>出品</td><td>日本</td></tr><tr><td>年代</td><td>1700s-1900s</td></tr><tr><td>原創作者</td><td>各浮世繪/水墨大師</td></tr><tr><td>原發行商</td><td>各出版社/美術館</td></tr><tr><td>首次登場</td><td>江戶時代</td></tr><tr><td>類型</td><td>浮世繪 / 水墨 / 花鳥 / 和風道具</td></tr><tr><td>版權狀態</td><td><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC-BY-SA</span> 公有領域 / CC0 / CC-BY-SA</td></tr></table><p>呢個品牌收錄<strong>日式動畫核心視覺基因</strong>：</p>
 <ul>
 <li>✍️ <strong>北齋漫畫線稿</strong>（動畫關鍵格金礦）</li>
@@ -141,732 +201,732 @@ a.zoom { display: inline-block; cursor: zoom-in; }
 </ul>
 <p>全部<strong>公版/CC0/CC-BY-SA</strong>。</p><h2>旗下公版角色 <span style="font-size:.85rem;color:var(--muted);font-weight:400">(146)</span></h2><div class="character-grid"><a class="character-card" href="jp-aodo-denzen.html">
               <div class="thumb"><img src="../../assets/img/jp-aodo-denzen.jpg" alt=""></div>
-              <div><span class="name">亞歐堂田善世界地圖</span><span class="zh">亞歐堂田善世界地圖</span></div>
+              <div><span class="name">亞歐堂田善世界地圖</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-chikanobu-bijin20.html">
               <div class="thumb"><img src="../../assets/img/jp-chikanobu-bijin20.jpg" alt=""></div>
-              <div><span class="name">周延新美人合20</span><span class="zh">周延新美人合20</span></div>
+              <div><span class="name">周延新美人合20</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-chikanobu-ikebana.html">
               <div class="thumb"><img src="../../assets/img/jp-chikanobu-ikebana.jpg" alt=""></div>
-              <div><span class="name">周延插花</span><span class="zh">周延插花</span></div>
+              <div><span class="name">周延插花</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-chikanobu-june.html">
               <div class="thumb"><img src="../../assets/img/jp-chikanobu-june.jpg" alt=""></div>
-              <div><span class="name">周延六月行事</span><span class="zh">周延六月行事</span></div>
+              <div><span class="name">周延六月行事</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-chikanobu-mirror.html">
               <div class="thumb"><img src="../../assets/img/jp-chikanobu-mirror.jpg" alt=""></div>
-              <div><span class="name">周延時代鏡</span><span class="zh">周延時代鏡</span></div>
+              <div><span class="name">周延時代鏡</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-crane-fukurokuju.html">
               <div class="thumb"><img src="../../assets/img/jp-crane-fukurokuju.jpg" alt=""></div>
-              <div><span class="name">福祿壽與丹頂鶴</span><span class="zh">福祿壽與丹頂鶴</span></div>
+              <div><span class="name">福祿壽與丹頂鶴</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-daruma.html">
               <div class="thumb"><img src="../../assets/img/jp-daruma.jpg" alt=""></div>
-              <div><span class="name">達摩不倒翁</span><span class="zh">達摩不倒翁</span></div>
+              <div><span class="name">達摩不倒翁</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-egoyomi-lacquer.html">
               <div class="thumb"><img src="../../assets/img/jp-egoyomi-lacquer.jpg" alt=""></div>
-              <div><span class="name">漆盒食物繪曆</span><span class="zh">漆盒食物繪曆</span></div>
+              <div><span class="name">漆盒食物繪曆</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-eisen-tagawaya.html">
               <div class="thumb"><img src="../../assets/img/jp-eisen-tagawaya.jpg" alt=""></div>
-              <div><span class="name">英泉田川屋餐館</span><span class="zh">英泉田川屋餐館</span></div>
+              <div><span class="name">英泉田川屋餐館</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-eisho-goshoguruma.html">
               <div class="thumb"><img src="../../assets/img/jp-eisho-goshoguruma.jpg" alt=""></div>
-              <div><span class="name">榮昌御所車</span><span class="zh">榮昌御所車</span></div>
+              <div><span class="name">榮昌御所車</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-eizan-courtesan.html">
               <div class="thumb"><img src="../../assets/img/jp-eizan-courtesan.jpg" alt=""></div>
-              <div><span class="name">英山持杯遊女</span><span class="zh">英山持杯遊女</span></div>
+              <div><span class="name">英山持杯遊女</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-flying-demon.html">
               <div class="thumb"><img src="../../assets/img/jp-flying-demon.jpg" alt=""></div>
-              <div><span class="name">芳年飛翔惡魔</span><span class="zh">芳年飛翔惡魔</span></div>
+              <div><span class="name">芳年飛翔惡魔</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-fushimi-torii.html">
               <div class="thumb"><img src="../../assets/img/jp-fushimi-torii.jpg" alt=""></div>
-              <div><span class="name">伏見稻荷千本鳥居</span><span class="zh">伏見稻荷千本鳥居</span></div>
+              <div><span class="name">伏見稻荷千本鳥居</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-genji-emaki.html">
               <div class="thumb"><img src="../../assets/img/jp-genji-emaki.jpg" alt=""></div>
-              <div><span class="name">源氏物語繪卷宿木</span><span class="zh">源氏物語繪卷宿木</span></div>
+              <div><span class="name">源氏物語繪卷宿木</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hanami-kiyonaga.html">
               <div class="thumb"><img src="../../assets/img/jp-hanami-kiyonaga.jpg" alt=""></div>
-              <div><span class="name">飛鳥山花見</span><span class="zh">飛鳥山花見</span></div>
+              <div><span class="name">飛鳥山花見</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hanami-toyokuni.html">
               <div class="thumb"><img src="../../assets/img/jp-hanami-toyokuni.jpg" alt=""></div>
-              <div><span class="name">隅田川賞櫻</span><span class="zh">隅田川賞櫻</span></div>
+              <div><span class="name">隅田川賞櫻</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-harunobu-courtesan.html">
               <div class="thumb"><img src="../../assets/img/jp-harunobu-courtesan.jpg" alt=""></div>
-              <div><span class="name">春信美人圖</span><span class="zh">春信美人圖</span></div>
+              <div><span class="name">春信美人圖</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge cc">CC-BY</span>
             </a><a class="character-card" href="jp-harunobu-nonobiki.html">
               <div class="thumb"><img src="../../assets/img/jp-harunobu-nonobiki.jpg" alt=""></div>
-              <div><span class="name">春信非望之瀧</span><span class="zh">春信非望之瀧</span></div>
+              <div><span class="name">春信非望之瀧</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hasegawa-pines.html">
               <div class="thumb"><img src="../../assets/img/jp-hasegawa-pines.jpg" alt=""></div>
-              <div><span class="name">等伯松林圖屏風</span><span class="zh">等伯松林圖屏風</span></div>
+              <div><span class="name">等伯松林圖屏風</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hashira-e.html">
               <div class="thumb"><img src="../../assets/img/jp-hashira-e.jpg" alt=""></div>
-              <div><span class="name">柱繪見立繪</span><span class="zh">柱繪見立繪</span></div>
+              <div><span class="name">柱繪見立繪</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hasui-nezu-snow.html">
               <div class="thumb"><img src="../../assets/img/jp-hasui-nezu-snow.jpg" alt=""></div>
-              <div><span class="name">巴水根津雪景</span><span class="zh">巴水根津雪景</span></div>
+              <div><span class="name">巴水根津雪景</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-hidesato.html">
               <div class="thumb"><img src="../../assets/img/jp-hidesato.jpg" alt=""></div>
-              <div><span class="name">芳年藤原秀鄉</span><span class="zh">芳年藤原秀鄉</span></div>
+              <div><span class="name">芳年藤原秀鄉</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-himeji-castle.html">
               <div class="thumb"><img src="../../assets/img/jp-himeji-castle.jpg" alt=""></div>
-              <div><span class="name">姬路城晨光</span><span class="zh">姬路城晨光</span></div>
+              <div><span class="name">姬路城晨光</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hina-matsuri.html">
               <div class="thumb"><img src="../../assets/img/jp-hina-matsuri.jpg" alt=""></div>
-              <div><span class="name">軍宅雛祭</span><span class="zh">軍宅雛祭</span></div>
+              <div><span class="name">軍宅雛祭</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-bashoan.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-bashoan.jpg" alt=""></div>
-              <div><span class="name">廣重芭蕉庵</span><span class="zh">廣重芭蕉庵</span></div>
+              <div><span class="name">廣重芭蕉庵</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-cat.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-cat.jpg" alt=""></div>
-              <div><span class="name">江戶百景神田之貓</span><span class="zh">江戶百景神田之貓</span></div>
+              <div><span class="name">江戶百景神田之貓</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-cherry.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-cherry.jpg" alt=""></div>
-              <div><span class="name">廣重櫻花花鳥</span><span class="zh">廣重櫻花花鳥</span></div>
+              <div><span class="name">廣重櫻花花鳥</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-fireworks.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-fireworks.jpg" alt=""></div>
-              <div><span class="name">兩國煙花</span><span class="zh">兩國煙花</span></div>
+              <div><span class="name">兩國煙花</span></div>
               <div class="desc">日式藝術/浮世繪/武士/祭典</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-fireworks2.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-fireworks2.jpg" alt=""></div>
-              <div><span class="name">廣重兩國花火</span><span class="zh">廣重兩國花火</span></div>
+              <div><span class="name">廣重兩國花火</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-hiroshige-fox-fires.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-fox-fires.jpg" alt=""></div>
-              <div><span class="name">江戶百景狐狸怪火</span><span class="zh">江戶百景狐狸怪火</span></div>
+              <div><span class="name">江戶百景狐狸怪火</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-irises.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-irises.jpg" alt=""></div>
-              <div><span class="name">堀切菖蒲園</span><span class="zh">堀切菖蒲園</span></div>
+              <div><span class="name">堀切菖蒲園</span></div>
               <div class="desc">日式藝術/浮世繪/武士/祭典</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-kameido.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-kameido.jpg" alt=""></div>
-              <div><span class="name">廣重龜戶梅屋鋪</span><span class="zh">廣重龜戶梅屋鋪</span></div>
+              <div><span class="name">廣重龜戶梅屋鋪</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-nihonbashi.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-nihonbashi.jpg" alt=""></div>
-              <div><span class="name">廣重日本橋雪晴</span><span class="zh">廣重日本橋雪晴</span></div>
+              <div><span class="name">廣重日本橋雪晴</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-oiso.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-oiso.jpg" alt=""></div>
-              <div><span class="name">東海道大磯虎之雨</span><span class="zh">東海道大磯虎之雨</span></div>
+              <div><span class="name">東海道大磯虎之雨</span></div>
               <div class="desc">日式藝術/浮世繪/武士/祭典</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-plum.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-plum.jpg" alt=""></div>
-              <div><span class="name">亀戸梅園</span><span class="zh">亀戸梅園</span></div>
+              <div><span class="name">亀戸梅園</span></div>
               <div class="desc">日式藝術/浮世繪/武士/祭典</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-ryogoku.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-ryogoku.jpg" alt=""></div>
-              <div><span class="name">廣重兩國涼閣花火</span><span class="zh">廣重兩國涼閣花火</span></div>
+              <div><span class="name">廣重兩國涼閣花火</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-shono.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-shono.jpg" alt=""></div>
-              <div><span class="name">廣重莊野白雨</span><span class="zh">廣重莊野白雨</span></div>
+              <div><span class="name">廣重莊野白雨</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-shower.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-shower.jpg" alt=""></div>
-              <div><span class="name">廣重大橋驟雨</span><span class="zh">廣重大橋驟雨</span></div>
+              <div><span class="name">廣重大橋驟雨</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-snow.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-snow.jpg" alt=""></div>
-              <div><span class="name">廣重五十三次雪景</span><span class="zh">廣重五十三次雪景</span></div>
+              <div><span class="name">廣重五十三次雪景</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-surugadai.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-surugadai.jpg" alt=""></div>
-              <div><span class="name">廣重水道橋駿河台</span><span class="zh">廣重水道橋駿河台</span></div>
+              <div><span class="name">廣重水道橋駿河台</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-swallow.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-swallow.jpg" alt=""></div>
-              <div><span class="name">廣重燕子紫藤</span><span class="zh">廣重燕子紫藤</span></div>
+              <div><span class="name">廣重燕子紫藤</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hiroshige-takanawa.html">
               <div class="thumb"><img src="../../assets/img/jp-hiroshige-takanawa.jpg" alt=""></div>
-              <div><span class="name">廣重高輪月之景</span><span class="zh">廣重高輪月之景</span></div>
+              <div><span class="name">廣重高輪月之景</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hoitsu-maple.html">
               <div class="thumb"><img src="../../assets/img/jp-hoitsu-maple.jpg" alt=""></div>
-              <div><span class="name">酒井抱一楓樹圖</span><span class="zh">酒井抱一楓樹圖</span></div>
+              <div><span class="name">酒井抱一楓樹圖</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hoitsu-narihira.html">
               <div class="thumb"><img src="../../assets/img/jp-hoitsu-narihira.jpg" alt=""></div>
-              <div><span class="name">酒井抱一業平出遊</span><span class="zh">酒井抱一業平出遊</span></div>
+              <div><span class="name">酒井抱一業平出遊</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hokkei-manga.html">
               <div class="thumb"><img src="../../assets/img/jp-hokkei-manga.jpg" alt=""></div>
-              <div><span class="name">北渓漫畫一編</span><span class="zh">北渓漫畫一編</span></div>
+              <div><span class="name">北渓漫畫一編</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hokusai-ejiri.html">
               <div class="thumb"><img src="../../assets/img/jp-hokusai-ejiri.jpg" alt=""></div>
-              <div><span class="name">北齋駿州江尻</span><span class="zh">北齋駿州江尻</span></div>
+              <div><span class="name">北齋駿州江尻</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hokusai-kirifuri.html">
               <div class="thumb"><img src="../../assets/img/jp-hokusai-kirifuri.jpg" alt=""></div>
-              <div><span class="name">北齋霧降瀑布</span><span class="zh">北齋霧降瀑布</span></div>
+              <div><span class="name">北齋霧降瀑布</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-hokusai-manga-01.html">
               <div class="thumb"><img src="../../assets/img/jp-hokusai-manga-01.jpg" alt=""></div>
-              <div><span class="name">北齋漫畫 01</span><span class="zh">北齋漫畫 01</span></div>
+              <div><span class="name">北齋漫畫 01</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hokusai-manga-04.html">
               <div class="thumb"><img src="../../assets/img/jp-hokusai-manga-04.jpg" alt=""></div>
-              <div><span class="name">北齋漫畫 04</span><span class="zh">北齋漫畫 04</span></div>
+              <div><span class="name">北齋漫畫 04</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hokusai-manga-05.html">
               <div class="thumb"><img src="../../assets/img/jp-hokusai-manga-05.jpg" alt=""></div>
-              <div><span class="name">北齋漫畫 05</span><span class="zh">北齋漫畫 05</span></div>
+              <div><span class="name">北齋漫畫 05</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hokusai-manga2.html">
               <div class="thumb"><img src="../../assets/img/jp-hokusai-manga2.jpg" alt=""></div>
-              <div><span class="name">北齋漫畫第二編</span><span class="zh">北齋漫畫第二編</span></div>
+              <div><span class="name">北齋漫畫第二編</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-hokusai-mannen.html">
               <div class="thumb"><img src="../../assets/img/jp-hokusai-mannen.jpg" alt=""></div>
-              <div><span class="name">北齋深川萬年橋</span><span class="zh">北齋深川萬年橋</span></div>
+              <div><span class="name">北齋深川萬年橋</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hokusai-satta.html">
               <div class="thumb"><img src="../../assets/img/jp-hokusai-satta.jpg" alt=""></div>
-              <div><span class="name">北齋駿州薩埵嶺</span><span class="zh">北齋駿州薩埵嶺</span></div>
+              <div><span class="name">北齋駿州薩埵嶺</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hokusai-setsubun.html">
               <div class="thumb"><img src="../../assets/img/jp-hokusai-setsubun.jpg" alt=""></div>
-              <div><span class="name">北齋節分鬼</span><span class="zh">北齋節分鬼</span></div>
+              <div><span class="name">北齋節分鬼</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hokusai-tako-ama.html">
               <div class="thumb"><img src="../../assets/img/jp-hokusai-tako-ama.jpg" alt=""></div>
-              <div><span class="name">北齋漁夫妻子之夢</span><span class="zh">北齋漁夫妻子之夢</span></div>
+              <div><span class="name">北齋漁夫妻子之夢</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hokusai-thunder.html">
               <div class="thumb"><img src="../../assets/img/jp-hokusai-thunder.jpg" alt=""></div>
-              <div><span class="name">北齋山下白雨</span><span class="zh">北齋山下白雨</span></div>
+              <div><span class="name">北齋山下白雨</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge cc">CC-BY</span>
             </a><a class="character-card" href="jp-hokusai33.html">
               <div class="thumb"><img src="../../assets/img/jp-hokusai33.jpg" alt=""></div>
-              <div><span class="name">北齋紅富士變體</span><span class="zh">北齋紅富士變體</span></div>
+              <div><span class="name">北齋紅富士變體</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-hollanders-yokohama.html">
               <div class="thumb"><img src="../../assets/img/jp-hollanders-yokohama.jpg" alt=""></div>
-              <div><span class="name">荷蘭人横浜出遊</span><span class="zh">荷蘭人横浜出遊</span></div>
+              <div><span class="name">荷蘭人横浜出遊</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-indian-elephant.html">
               <div class="thumb"><img src="../../assets/img/jp-indian-elephant.jpg" alt=""></div>
-              <div><span class="name">天竺丸印度象</span><span class="zh">天竺丸印度象</span></div>
+              <div><span class="name">天竺丸印度象</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-issun-boshi.html">
               <div class="thumb"><img src="../../assets/img/jp-issun-boshi.jpg" alt=""></div>
-              <div><span class="name">一寸法師繪卷</span><span class="zh">一寸法師繪卷</span></div>
+              <div><span class="name">一寸法師繪卷</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-jakuchu-parrot.html">
               <div class="thumb"><img src="../../assets/img/jp-jakuchu-parrot.jpg" alt=""></div>
-              <div><span class="name">若冲薔薇與鸚鵡</span><span class="zh">若冲薔薇與鸚鵡</span></div>
+              <div><span class="name">若冲薔薇與鸚鵡</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="jp-kaguya-hime.html">
               <div class="thumb"><img src="../../assets/img/jp-kaguya-hime.jpg" alt=""></div>
-              <div><span class="name">春信赫夜姬</span><span class="zh">春信赫夜姬</span></div>
+              <div><span class="name">春信赫夜姬</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kappa.html">
               <div class="thumb"><img src="../../assets/img/jp-kappa.jpg" alt=""></div>
-              <div><span class="name">河童相撲</span><span class="zh">河童相撲</span></div>
+              <div><span class="name">河童相撲</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kinkakuji.html">
               <div class="thumb"><img src="../../assets/img/jp-kinkakuji.jpg" alt=""></div>
-              <div><span class="name">金閣寺</span><span class="zh">金閣寺</span></div>
+              <div><span class="name">金閣寺</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge cc">CC-BY</span>
             </a><a class="character-card" href="jp-kintaro-carp.html">
               <div class="thumb"><img src="../../assets/img/jp-kintaro-carp.jpg" alt=""></div>
-              <div><span class="name">芳年金太郎乘鯉</span><span class="zh">芳年金太郎乘鯉</span></div>
+              <div><span class="name">芳年金太郎乘鯉</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kintaro-giant-carp.html">
               <div class="thumb"><img src="../../assets/img/jp-kintaro-giant-carp.jpg" alt=""></div>
-              <div><span class="name">芳年金太郎鬥大鯉</span><span class="zh">芳年金太郎鬥大鯉</span></div>
+              <div><span class="name">芳年金太郎鬥大鯉</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kitsune.html">
               <div class="thumb"><img src="../../assets/img/jp-kitsune.jpg" alt=""></div>
-              <div><span class="name">宗近得狐助鍛刀</span><span class="zh">宗近得狐助鍛刀</span></div>
+              <div><span class="name">宗近得狐助鍛刀</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-koi-cascade.html">
               <div class="thumb"><img src="../../assets/img/jp-koi-cascade.jpg" alt=""></div>
-              <div><span class="name">錦鯉躍瀑</span><span class="zh">錦鯉躍瀑</span></div>
+              <div><span class="name">錦鯉躍瀑</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-koryusai-matsu.html">
               <div class="thumb"><img src="../../assets/img/jp-koryusai-matsu.jpg" alt=""></div>
-              <div><span class="name">湖龍齋吉原美人</span><span class="zh">湖龍齋吉原美人</span></div>
+              <div><span class="name">湖龍齋吉原美人</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kunichika-actor.html">
               <div class="thumb"><img src="../../assets/img/jp-kunichika-actor.jpg" alt=""></div>
-              <div><span class="name">国周武士役者</span><span class="zh">国周武士役者</span></div>
+              <div><span class="name">国周武士役者</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kunimasa-actor.html">
               <div class="thumb"><img src="../../assets/img/jp-kunimasa-actor.jpg" alt=""></div>
-              <div><span class="name">歌川国政役者大首繪</span><span class="zh">歌川国政役者大首繪</span></div>
+              <div><span class="name">歌川国政役者大首繪</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kunimasa-ebizo.html">
               <div class="thumb"><img src="../../assets/img/jp-kunimasa-ebizo.jpg" alt=""></div>
-              <div><span class="name">國政市川海老藏</span><span class="zh">國政市川海老藏</span></div>
+              <div><span class="name">國政市川海老藏</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kuninao-summer.html">
               <div class="thumb"><img src="../../assets/img/jp-kuninao-summer.jpg" alt=""></div>
-              <div><span class="name">國直夏季美人</span><span class="zh">國直夏季美人</span></div>
+              <div><span class="name">國直夏季美人</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kunisada-cherry.html">
               <div class="thumb"><img src="../../assets/img/jp-kunisada-cherry.jpg" alt=""></div>
-              <div><span class="name">國貞櫻樹美人</span><span class="zh">國貞櫻樹美人</span></div>
+              <div><span class="name">國貞櫻樹美人</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kuniyoshi-cats.html">
               <div class="thumb"><img src="../../assets/img/jp-kuniyoshi-cats.jpg" alt=""></div>
-              <div><span class="name">國芳貓擬東海道</span><span class="zh">國芳貓擬東海道</span></div>
+              <div><span class="name">國芳貓擬東海道</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kuniyoshi-coxinga.html">
               <div class="thumb"><img src="../../assets/img/jp-kuniyoshi-coxinga.jpg" alt=""></div>
-              <div><span class="name">國芳國姓爺打虎</span><span class="zh">國芳國姓爺打虎</span></div>
+              <div><span class="name">國芳國姓爺打虎</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kuniyoshi-hakkenden.html">
               <div class="thumb"><img src="../../assets/img/jp-kuniyoshi-hakkenden.png" alt=""></div>
-              <div><span class="name">國芳八犬傳屋頂戰</span><span class="zh">國芳八犬傳屋頂戰</span></div>
+              <div><span class="name">國芳八犬傳屋頂戰</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kuniyoshi-inada.html">
               <div class="thumb"><img src="../../assets/img/jp-kuniyoshi-inada.jpg" alt=""></div>
-              <div><span class="name">稻田九郎進助</span><span class="zh">稻田九郎進助</span></div>
+              <div><span class="name">稻田九郎進助</span></div>
               <div class="desc">日式藝術/浮世繪/武士/祭典</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kuniyoshi-monkey.html">
               <div class="thumb"><img src="../../assets/img/jp-kuniyoshi-monkey.jpg" alt=""></div>
-              <div><span class="name">國芳斬巨猿</span><span class="zh">國芳斬巨猿</span></div>
+              <div><span class="name">國芳斬巨猿</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kuniyoshi-samurai-triptych.html">
               <div class="thumb"><img src="../../assets/img/jp-kuniyoshi-samurai-triptych.jpg" alt=""></div>
-              <div><span class="name">平家武者復仇</span><span class="zh">平家武者復仇</span></div>
+              <div><span class="name">平家武者復仇</span></div>
               <div class="desc">日式藝術/浮世繪/武士/祭典</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-kuniyoshi-skeleton.html">
               <div class="thumb"><img src="../../assets/img/jp-kuniyoshi-skeleton.jpg" alt=""></div>
-              <div><span class="name">國芳瀧夜叉姬大骸骨</span><span class="zh">國芳瀧夜叉姬大骸骨</span></div>
+              <div><span class="name">國芳瀧夜叉姬大骸骨</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kuniyoshi-suikoden.html">
               <div class="thumb"><img src="../../assets/img/jp-kuniyoshi-suikoden.jpg" alt=""></div>
-              <div><span class="name">國芳水滸豪傑</span><span class="zh">國芳水滸豪傑</span></div>
+              <div><span class="name">國芳水滸豪傑</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kuniyoshi-surimono.html">
               <div class="thumb"><img src="../../assets/img/jp-kuniyoshi-surimono.jpg" alt=""></div>
-              <div><span class="name">國芳摺物</span><span class="zh">國芳摺物</span></div>
+              <div><span class="name">國芳摺物</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kuniyoshi-tiger-dragon.html">
               <div class="thumb"><img src="../../assets/img/jp-kuniyoshi-tiger-dragon.jpg" alt=""></div>
-              <div><span class="name">國芳虎與龍</span><span class="zh">國芳虎與龍</span></div>
+              <div><span class="name">國芳虎與龍</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kuniyoshi-tiger.html">
               <div class="thumb"><img src="../../assets/img/jp-kuniyoshi-tiger.jpg" alt=""></div>
-              <div><span class="name">國芳虎</span><span class="zh">國芳虎</span></div>
+              <div><span class="name">國芳虎</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kuniyoshi-tokaido.html">
               <div class="thumb"><img src="../../assets/img/jp-kuniyoshi-tokaido.jpg" alt=""></div>
-              <div><span class="name">國芳貓東海道五十三次</span><span class="zh">國芳貓東海道五十三次</span></div>
+              <div><span class="name">國芳貓東海道五十三次</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kuniyoshi-wuyong.html">
               <div class="thumb"><img src="../../assets/img/jp-kuniyoshi-wuyong.jpg" alt=""></div>
-              <div><span class="name">國芳吳用魁星</span><span class="zh">國芳吳用魁星</span></div>
+              <div><span class="name">國芳吳用魁星</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kuniyoshi-yang-chun.html">
               <div class="thumb"><img src="../../assets/img/jp-kuniyoshi-yang-chun.jpg" alt=""></div>
-              <div><span class="name">白花蛇楊春</span><span class="zh">白花蛇楊春</span></div>
+              <div><span class="name">白花蛇楊春</span></div>
               <div class="desc">日式藝術/浮世繪/武士/祭典</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-kyosai-cat-frog.html">
               <div class="thumb"><img src="../../assets/img/jp-kyosai-cat-frog.jpg" alt=""></div>
-              <div><span class="name">曉齋貓捕蛙</span><span class="zh">曉齋貓捕蛙</span></div>
+              <div><span class="name">曉齋貓捕蛙</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-maneki-neko.html">
               <div class="thumb"><img src="../../assets/img/jp-maneki-neko.jpg" alt=""></div>
-              <div><span class="name">招財貓</span><span class="zh">招財貓</span></div>
+              <div><span class="name">招財貓</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-mermaid-kuniyoshi.html">
               <div class="thumb"><img src="../../assets/img/jp-mermaid-kuniyoshi.jpg" alt=""></div>
-              <div><span class="name">國芳派日本美人魚</span><span class="zh">國芳派日本美人魚</span></div>
+              <div><span class="name">國芳派日本美人魚</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge cc">CC-BY</span>
             </a><a class="character-card" href="jp-nagasaki-dutch.html">
               <div class="thumb"><img src="../../assets/img/jp-nagasaki-dutch.jpg" alt=""></div>
-              <div><span class="name">長崎繪荷蘭貴婦</span><span class="zh">長崎繪荷蘭貴婦</span></div>
+              <div><span class="name">長崎繪荷蘭貴婦</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="jp-nagasaki-ships.html">
               <div class="thumb"><img src="../../assets/img/jp-nagasaki-ships.jpg" alt=""></div>
-              <div><span class="name">長崎繪外國船</span><span class="zh">長崎繪外國船</span></div>
+              <div><span class="name">長崎繪外國船</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-nihonga-kannon.html">
               <div class="thumb"><img src="../../assets/img/jp-nihonga-kannon.jpg" alt=""></div>
-              <div><span class="name">悲母觀音金屏</span><span class="zh">悲母觀音金屏</span></div>
+              <div><span class="name">悲母觀音金屏</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-oniwakamaru.html">
               <div class="thumb"><img src="../../assets/img/jp-oniwakamaru.jpg" alt=""></div>
-              <div><span class="name">國芳鬼若丸巨鯉</span><span class="zh">國芳鬼若丸巨鯉</span></div>
+              <div><span class="name">國芳鬼若丸巨鯉</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-red-fuji.html">
               <div class="thumb"><img src="../../assets/img/jp-red-fuji.jpg" alt=""></div>
-              <div><span class="name">凱風快晴赤富士</span><span class="zh">凱風快晴赤富士</span></div>
+              <div><span class="name">凱風快晴赤富士</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-rokurokubi.html">
               <div class="thumb"><img src="../../assets/img/jp-rokurokubi.jpg" alt=""></div>
-              <div><span class="name">轆轤首女妖</span><span class="zh">轆轤首女妖</span></div>
+              <div><span class="name">轆轤首女妖</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-ryoanji.html">
               <div class="thumb"><img src="../../assets/img/jp-ryoanji.jpg" alt=""></div>
-              <div><span class="name">龍安寺枯山水</span><span class="zh">龍安寺枯山水</span></div>
+              <div><span class="name">龍安寺枯山水</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="jp-samurai-armor.html">
               <div class="thumb"><img src="../../assets/img/jp-samurai-armor.jpg" alt=""></div>
-              <div><span class="name">武士全副盔甲</span><span class="zh">武士全副盔甲</span></div>
+              <div><span class="name">武士全副盔甲</span></div>
               <div class="desc">日式藝術/浮世繪/武士/祭典</div>
               <span class="badge cc">CC-BY</span>
             </a><a class="character-card" href="jp-seiho-hozu.html">
               <div class="thumb"><img src="../../assets/img/jp-seiho-hozu.jpg" alt=""></div>
-              <div><span class="name">竹內栖鳳保津川</span><span class="zh">竹內栖鳳保津川</span></div>
+              <div><span class="name">竹內栖鳳保津川</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-sekka-leaves.html">
               <div class="thumb"><img src="../../assets/img/jp-sekka-leaves.jpg" alt=""></div>
-              <div><span class="name">神坂雪佳拾葉</span><span class="zh">神坂雪佳拾葉</span></div>
+              <div><span class="name">神坂雪佳拾葉</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-sesshu-haboku.html">
               <div class="thumb"><img src="../../assets/img/jp-sesshu-haboku.jpg" alt=""></div>
-              <div><span class="name">雪舟破墨山水</span><span class="zh">雪舟破墨山水</span></div>
+              <div><span class="name">雪舟破墨山水</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-sesshu-seasons.html">
               <div class="thumb"><img src="../../assets/img/jp-sesshu-seasons.jpg" alt=""></div>
-              <div><span class="name">雪舟四季山水</span><span class="zh">雪舟四季山水</span></div>
+              <div><span class="name">雪舟四季山水</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-sharaku-oniji.html">
               <div class="thumb"><img src="../../assets/img/jp-sharaku-oniji.jpg" alt=""></div>
-              <div><span class="name">寫樂大谷鬼次</span><span class="zh">寫樂大谷鬼次</span></div>
+              <div><span class="name">寫樂大谷鬼次</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-shiba-kokan.html">
               <div class="thumb"><img src="../../assets/img/jp-shiba-kokan.jpg" alt=""></div>
-              <div><span class="name">司馬江漢洋風畫</span><span class="zh">司馬江漢洋風畫</span></div>
+              <div><span class="name">司馬江漢洋風畫</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-shigemasa-geisha.html">
               <div class="thumb"><img src="../../assets/img/jp-shigemasa-geisha.jpg" alt=""></div>
-              <div><span class="name">重政藝伎侍從</span><span class="zh">重政藝伎侍從</span></div>
+              <div><span class="name">重政藝伎侍從</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-shigemasa-iris.html">
               <div class="thumb"><img src="../../assets/img/jp-shigemasa-iris.jpg" alt=""></div>
-              <div><span class="name">重政鳶尾禽鳥</span><span class="zh">重政鳶尾禽鳥</span></div>
+              <div><span class="name">重政鳶尾禽鳥</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-shunman-cherry.html">
               <div class="thumb"><img src="../../assets/img/jp-shunman-cherry.jpg" alt=""></div>
-              <div><span class="name">窪俊滿櫻花松果</span><span class="zh">窪俊滿櫻花松果</span></div>
+              <div><span class="name">窪俊滿櫻花松果</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-shunman-rat.html">
               <div class="thumb"><img src="../../assets/img/jp-shunman-rat.jpg" alt=""></div>
-              <div><span class="name">窪俊滿風帶鼠繪曆</span><span class="zh">窪俊滿風帶鼠繪曆</span></div>
+              <div><span class="name">窪俊滿風帶鼠繪曆</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-shunman-smoking.html">
               <div class="thumb"><img src="../../assets/img/jp-shunman-smoking.jpg" alt=""></div>
-              <div><span class="name">窪俊滿櫻花吸煙女子</span><span class="zh">窪俊滿櫻花吸煙女子</span></div>
+              <div><span class="name">窪俊滿櫻花吸煙女子</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-shunsho-actor.html">
               <div class="thumb"><img src="../../assets/img/jp-shunsho-actor.jpg" alt=""></div>
-              <div><span class="name">春章役者立姿</span><span class="zh">春章役者立姿</span></div>
+              <div><span class="name">春章役者立姿</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-shunsho-interior.html">
               <div class="thumb"><img src="../../assets/img/jp-shunsho-interior.jpg" alt=""></div>
-              <div><span class="name">春章室內場景</span><span class="zh">春章室內場景</span></div>
+              <div><span class="name">春章室內場景</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-shunsho-uzaemon.html">
               <div class="thumb"><img src="../../assets/img/jp-shunsho-uzaemon.jpg" alt=""></div>
-              <div><span class="name">春章市村右宇蔵九世</span><span class="zh">春章市村右宇蔵九世</span></div>
+              <div><span class="name">春章市村右宇蔵九世</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-skeleton-spectre.html">
               <div class="thumb"><img src="../../assets/img/jp-skeleton-spectre.jpg" alt=""></div>
-              <div><span class="name">大骸骨妖</span><span class="zh">大骸骨妖</span></div>
+              <div><span class="name">大骸骨妖</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-taikan-metempsychosis.html">
               <div class="thumb"><img src="../../assets/img/jp-taikan-metempsychosis.jpg" alt=""></div>
-              <div><span class="name">橫山大觀生々流轉</span><span class="zh">橫山大觀生々流轉</span></div>
+              <div><span class="name">橫山大觀生々流轉</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-tanabata.html">
               <div class="thumb"><img src="../../assets/img/jp-tanabata.jpg" alt=""></div>
-              <div><span class="name">江戶百景七夕祭</span><span class="zh">江戶百景七夕祭</span></div>
+              <div><span class="name">江戶百景七夕祭</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-tanuki.html">
               <div class="thumb"><img src="../../assets/img/jp-tanuki.png" alt=""></div>
-              <div><span class="name">初午祭狸妖</span><span class="zh">初午祭狸妖</span></div>
+              <div><span class="name">初午祭狸妖</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-tengu.html">
               <div class="thumb"><img src="../../assets/img/jp-tengu.jpg" alt=""></div>
-              <div><span class="name">北條高時驅天狗</span><span class="zh">北條高時驅天狗</span></div>
+              <div><span class="name">北條高時驅天狗</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-tiger-dragon.html">
               <div class="thumb"><img src="../../assets/img/jp-tiger-dragon.jpg" alt=""></div>
-              <div><span class="name">虎與龍</span><span class="zh">虎與龍</span></div>
+              <div><span class="name">虎與龍</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-toyoharu-theater.html">
               <div class="thumb"><img src="../../assets/img/jp-toyoharu-theater.jpg" alt=""></div>
-              <div><span class="name">歌川豊春劇場透視</span><span class="zh">歌川豊春劇場透視</span></div>
+              <div><span class="name">歌川豊春劇場透視</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-toyokuni1-lovers.html">
               <div class="thumb"><img src="../../assets/img/jp-toyokuni1-lovers.jpg" alt=""></div>
-              <div><span class="name">豐國一世雙戀人</span><span class="zh">豐國一世雙戀人</span></div>
+              <div><span class="name">豐國一世雙戀人</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-toyokuni2-fan.html">
               <div class="thumb"><img src="../../assets/img/jp-toyokuni2-fan.jpg" alt=""></div>
-              <div><span class="name">豐國二代持扇役者</span><span class="zh">豐國二代持扇役者</span></div>
+              <div><span class="name">豐國二代持扇役者</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-toyokuni2-fuwa.html">
               <div class="thumb"><img src="../../assets/img/jp-toyokuni2-fuwa.jpg" alt=""></div>
-              <div><span class="name">豐國二代富波番</span><span class="zh">豐國二代富波番</span></div>
+              <div><span class="name">豐國二代富波番</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-toyokuni3-actor.html">
               <div class="thumb"><img src="../../assets/img/jp-toyokuni3-actor.jpg" alt=""></div>
-              <div><span class="name">國貞歌舞伎役者</span><span class="zh">國貞歌舞伎役者</span></div>
+              <div><span class="name">國貞歌舞伎役者</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-tsukimi.html">
               <div class="thumb"><img src="../../assets/img/jp-tsukimi.jpg" alt=""></div>
-              <div><span class="name">月見插花</span><span class="zh">月見插花</span></div>
+              <div><span class="name">月見插花</span></div>
               <div class="desc">日式藝術/浮世繪/妖怪/建築</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-uchiwa-danjuro.html">
               <div class="thumb"><img src="../../assets/img/jp-uchiwa-danjuro.jpg" alt=""></div>
-              <div><span class="name">團扇繪團十郎</span><span class="zh">團扇繪團十郎</span></div>
+              <div><span class="name">團扇繪團十郎</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-uchiwa-inoari.html">
               <div class="thumb"><img src="../../assets/img/jp-uchiwa-inoari.jpg" alt=""></div>
-              <div><span class="name">團扇繪稻荷美人</span><span class="zh">團扇繪稻荷美人</span></div>
+              <div><span class="name">團扇繪稻荷美人</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-uchiwa-sumo.html">
               <div class="thumb"><img src="../../assets/img/jp-uchiwa-sumo.jpg" alt=""></div>
-              <div><span class="name">團扇繪相撲力士</span><span class="zh">團扇繪相撲力士</span></div>
+              <div><span class="name">團扇繪相撲力士</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-urashima-taro.html">
               <div class="thumb"><img src="../../assets/img/jp-urashima-taro.jpg" alt=""></div>
-              <div><span class="name">芳年浦島太郎</span><span class="zh">芳年浦島太郎</span></div>
+              <div><span class="name">芳年浦島太郎</span></div>
               <div class="desc">日式藝術/浮世繪/傳說英雄</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-utamaro-3beauties.html">
               <div class="thumb"><img src="../../assets/img/jp-utamaro-3beauties.jpg" alt=""></div>
-              <div><span class="name">歌麿三美人</span><span class="zh">歌麿三美人</span></div>
+              <div><span class="name">歌麿三美人</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-utamaro-beauties.html">
               <div class="thumb"><img src="../../assets/img/jp-utamaro-beauties.jpg" alt=""></div>
-              <div><span class="name">歌麿三美人</span><span class="zh">歌麿三美人</span></div>
+              <div><span class="name">歌麿三美人</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-utamaro-bijin.html">
               <div class="thumb"><img src="../../assets/img/jp-utamaro-bijin.jpg" alt=""></div>
-              <div><span class="name">歌麿美人畫</span><span class="zh">歌麿美人畫</span></div>
+              <div><span class="name">歌麿美人畫</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-utamaro-okubi.html">
               <div class="thumb"><img src="../../assets/img/jp-utamaro-okubi.jpg" alt=""></div>
-              <div><span class="name">歌麿大首繪</span><span class="zh">歌麿大首繪</span></div>
+              <div><span class="name">歌麿大首繪</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-yamakawa-bijinga.html">
               <div class="thumb"><img src="../../assets/img/jp-yamakawa-bijinga.jpg" alt=""></div>
-              <div><span class="name">山川秀峰美人畫</span><span class="zh">山川秀峰美人畫</span></div>
+              <div><span class="name">山川秀峰美人畫</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-yokohama-wharves.html">
               <div class="thumb"><img src="../../assets/img/jp-yokohama-wharves.jpg" alt=""></div>
-              <div><span class="name">横浜碼頭景色</span><span class="zh">横浜碼頭景色</span></div>
+              <div><span class="name">横浜碼頭景色</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge cc">CC0</span>
             </a><a class="character-card" href="jp-yoshitoshi-adachigahara.html">
               <div class="thumb"><img src="../../assets/img/jp-yoshitoshi-adachigahara.jpg" alt=""></div>
-              <div><span class="name">芳年安達原垰</span><span class="zh">芳年安達原垰</span></div>
+              <div><span class="name">芳年安達原垰</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-yoshitoshi-benkei.html">
               <div class="thumb"><img src="../../assets/img/jp-yoshitoshi-benkei.jpg" alt=""></div>
-              <div><span class="name">芳年弁慶鎮浪</span><span class="zh">芳年弁慶鎮浪</span></div>
+              <div><span class="name">芳年弁慶鎮浪</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-yoshitoshi-demon.html">
               <div class="thumb"><img src="../../assets/img/jp-yoshitoshi-demon.jpg" alt=""></div>
-              <div><span class="name">芳年金神長五郎鬼怪</span><span class="zh">芳年金神長五郎鬼怪</span></div>
+              <div><span class="name">芳年金神長五郎鬼怪</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge cc">CC-BY-SA</span>
             </a><a class="character-card" href="jp-yoshitoshi-enlightenment.html">
               <div class="thumb"><img src="../../assets/img/jp-yoshitoshi-enlightenment.jpg" alt=""></div>
-              <div><span class="name">地獄太夫悟道</span><span class="zh">地獄太夫悟道</span></div>
+              <div><span class="name">地獄太夫悟道</span></div>
               <div class="desc">日式藝術/浮世繪/武士/祭典</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-yoshitoshi-kenshin.html">
               <div class="thumb"><img src="../../assets/img/jp-yoshitoshi-kenshin.jpg" alt=""></div>
-              <div><span class="name">芳年謙信觀雁</span><span class="zh">芳年謙信觀雁</span></div>
+              <div><span class="name">芳年謙信觀雁</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-yoshitoshi-moon.html">
               <div class="thumb"><img src="../../assets/img/jp-yoshitoshi-moon.jpg" alt=""></div>
-              <div><span class="name">月百姿五條橋之月</span><span class="zh">月百姿五條橋之月</span></div>
+              <div><span class="name">月百姿五條橋之月</span></div>
               <div class="desc">日式藝術/浮世繪/水墨/道具</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-yoshitoshi-moon33.html">
               <div class="thumb"><img src="../../assets/img/jp-yoshitoshi-moon33.jpg" alt=""></div>
-              <div><span class="name">月百姿第33景</span><span class="zh">月百姿第33景</span></div>
+              <div><span class="name">月百姿第33景</span></div>
               <div class="desc">日式藝術/浮世繪/武士/祭典</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-yoshitoshi-moon4.html">
               <div class="thumb"><img src="../../assets/img/jp-yoshitoshi-moon4.jpg" alt=""></div>
-              <div><span class="name">芳年月百姿第4幅</span><span class="zh">芳年月百姿第4幅</span></div>
+              <div><span class="name">芳年月百姿第4幅</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-yoshitoshi-moon74.html">
               <div class="thumb"><img src="../../assets/img/jp-yoshitoshi-moon74.jpg" alt=""></div>
-              <div><span class="name">芳年月百姿74</span><span class="zh">芳年月百姿74</span></div>
+              <div><span class="name">芳年月百姿74</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-yoshitoshi-yugao.html">
               <div class="thumb"><img src="../../assets/img/jp-yoshitoshi-yugao.jpg" alt=""></div>
-              <div><span class="name">芳年夕顔之靈</span><span class="zh">芳年夕顔之靈</span></div>
+              <div><span class="name">芳年夕顔之靈</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a><a class="character-card" href="jp-zeshin-cicada.html">
               <div class="thumb"><img src="../../assets/img/jp-zeshin-cicada.jpg" alt=""></div>
-              <div><span class="name">柴田是真線上蟬</span><span class="zh">柴田是真線上蟬</span></div>
+              <div><span class="name">柴田是真線上蟬</span></div>
               <div class="desc">日式藝術/浮世繪</div>
               <span class="badge pd">✔ 公版</span>
             </a></div></div><div class="wrap">

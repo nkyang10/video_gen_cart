@@ -1,0 +1,540 @@
+<!DOCTYPE html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>公版卡通 · 連環漫畫 — Video Gen Cart</title>
+<style>:root {
+  --paper: #f7f4ef;
+  --ink: #2b2b28;
+  --muted: #6b6a63;
+  --forest: #3e5c4b;
+  --terracotta: #c05f3c;
+  --border: #e2dcd0;
+  --card: #ffffff;
+  --tag-bg: #efe9dd;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+               "PingFang TC", "Microsoft JhengHei", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  padding-bottom: 60px;
+}
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 22px; }
+header.site {
+  border-bottom: 1px solid var(--border);
+  padding: 26px 0 18px;
+  margin-bottom: 30px;
+  background: #fffdf9;
+}
+header.site .wrap { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+header.site h1 { font-size: 1.5rem; letter-spacing: 0.02em; }
+header.site h1 a { color: var(--ink); text-decoration: none; }
+header.site h1 span { color: var(--terracotta); }
+header.site .sub { color: var(--muted); font-size: 0.85rem; }
+nav.brand-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 6px; }
+nav.brand-tabs a {
+  padding: 6px 14px; border-radius: 8px; border: 1px solid var(--border);
+  background: #fff; color: var(--ink); text-decoration: none; font-size: 0.9rem;
+}
+nav.brand-tabs a:hover { border-color: var(--forest); }
+nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+/* ---------- Scaled catalog: 分類導航 ---------- */
+nav.cat-nav {
+  display: flex; gap: 4px; flex-wrap: wrap; margin: 16px 0 4px;
+  padding-top: 12px; border-top: 1px solid var(--border);
+}
+nav.cat-nav a {
+  padding: 7px 14px; border-radius: 8px; border: 1px solid transparent;
+  color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 600;
+  transition: all .12s ease;
+}
+nav.cat-nav a:hover { color: var(--forest); background: #f2eee4; }
+nav.cat-nav a.active { color: var(--forest); background: #e9f0e9; border-color: var(--border); }
+nav.cat-nav .cat-count { color: var(--terracotta); font-weight: 700; font-size: .78rem; margin-left: 3px; }
+/* 分類英雄 / 區塊 */
+.cat-hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 22px 26px; margin-bottom: 26px; }
+.cat-hero h1.page { margin-bottom: 6px; }
+.cat-hero p { color: var(--muted); max-width: 72ch; }
+.cat-block { margin-bottom: 34px; }
+.cat-block-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.cat-block-head h2 { margin-top: 0; border: none; }
+.cat-block-head .cat-desc { color: var(--muted); font-size: .9rem; }
+.cat-block-head .cat-jump { color: var(--forest); font-size: .85rem; text-decoration: none; font-weight: 600; }
+/* 搜尋 */
+.searchbar { max-width: 640px; margin: 20px 0 6px; position: relative; }
+.searchbar input {
+  width: 100%; padding: 13px 18px 13px 44px; border: 1px solid var(--border);
+  border-radius: 12px; font-size: 1rem; background: #fff; color: var(--ink);
+  outline: none; transition: border-color .12s ease, box-shadow .12s ease;
+}
+.searchbar input:focus { border-color: var(--forest); box-shadow: 0 0 0 3px rgba(62,92,75,.12); }
+.searchbar .search-icon {
+  position: absolute; left: 15px; top: 50%; transform: translateY(-50%);
+  color: var(--muted); font-size: 1.05rem; pointer-events: none;
+}
+.search-hint { color: var(--muted); font-size: .82rem; margin: 8px 2px 0; }
+/* 分類品牌卡（有縮圖） */
+.brand-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 16px; }
+.brand-card {
+  display: flex; gap: 14px; align-items: stretch; background: var(--card);
+  border: 1px solid var(--border); border-radius: 12px; padding: 14px;
+  text-decoration: none; color: var(--ink); transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.brand-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.brand-card .b-thumb {
+  width: 84px; min-width: 84px; height: 84px; border-radius: 9px; overflow: hidden;
+  background: #eee7db; display: flex; align-items: center; justify-content: center;
+}
+.brand-card .b-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.brand-card .b-thumb .noimg { color: var(--muted); font-size: 1.5rem; }
+.brand-card .b-body { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.brand-card .b-name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1rem; line-height: 1.35; }
+.brand-card .b-zh { color: var(--muted); font-size: .8rem; }
+.brand-card .b-desc { color: var(--muted); font-size: .82rem; margin-top: 5px; flex: 1; }
+.brand-card .b-meta { display: flex; align-items: center; gap: 8px; margin-top: 9px; flex-wrap: wrap; }
+.brand-card .b-count { color: var(--terracotta); font-weight: 700; font-size: .82rem; }
+.brand-card .lic-row { display: flex; gap: 4px; flex-wrap: wrap; }
+/* 過濾隱藏（搜尋用） */
+.filter-hidden { display: none !important; }
+.no-result { display: none; color: var(--muted); padding: 24px; text-align: center; }
+
+.breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
+.breadcrumb a { color: var(--forest); text-decoration: none; }
+h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }
+h2 { font-family: "Noto Serif TC", Georgia, serif; color: var(--forest);
+     font-size: 1.25rem; margin: 34px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+h3 { color: var(--ink); font-size: 1.05rem; margin: 20px 0 8px; }
+p { margin: 8px 0; }
+ul, ol { margin: 8px 0 8px 24px; }
+li { margin: 4px 0; }
+blockquote { border-left: 3px solid var(--terracotta); background: #fffdf9;
+             padding: 8px 14px; margin: 10px 0; color: var(--ink); border-radius: 0 6px 6px 0; }
+a { color: var(--forest); }
+.meta-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.92rem; }
+.meta-table td { padding: 7px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.meta-table td:first-child { width: 34%; color: var(--muted); font-weight: 600; }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+.badge.pd { background: #dcebdd; color: #2c5e3a; }
+.badge.cc { background: #dfe7f5; color: #2c4a7c; }
+.badge.partial { background: #f5e8d3; color: #8a5a1e; }
+.badge.verify { background: #f4dcd9; color: #963a2e; }
+.lic-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.character-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 18px; }
+.character-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 16px; text-decoration: none; color: var(--ink); display: block;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.character-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.character-card .name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1.05rem; }
+.character-card .thumb { width: 100%; height: 120px; overflow: hidden; border-radius: 8px; margin-bottom: 10px; background: #eee7db; }
+.character-card .thumb img { width: 100%; height: 100%; object-fit: cover; }
+.character-card .zh { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
+.character-card .desc { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+.character-card .badge { margin-top: 10px; }
+.copyright-box { background: #f2efea; border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
+.copyright-box h3 { color: var(--terracotta); margin-top: 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: .04em; }
+.copyright-box ul { margin-left: 20px; }
+.char-hero { display: flex; gap: 22px; align-items: flex-start; margin-bottom: 24px; flex-wrap: wrap; }
+.char-hero img { width: 280px; max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--border); background:#fff; }
+.char-hero .captions { flex: 1; min-width: 220px; font-size: 0.85rem; color: var(--muted); }
+.char-hero .captions p { margin: 4px 0; }
+.img-credit { font-size: 0.75rem; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+.img-credit a { color: var(--forest); }
+.footer-note { color: var(--muted); font-size: 0.8rem; margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--border); }
+.hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 26px; margin-bottom: 28px; }
+.hero h2 { border: none; margin-top: 0; font-size: 1.5rem; }
+.hero p { color: var(--muted); max-width: 70ch; }
+.stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
+.stat { font-size: 0.9rem; }
+.stat b { color: var(--forest); font-size: 1.2rem; }
+/* 配角 / 路人互動面板 */
+.support-panel { margin-top: 22px; display: grid; gap: 10px; }
+.support-item { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.support-item summary {
+  cursor: pointer; padding: 13px 18px; list-style: none; display: flex; align-items: center; gap: 12px;
+  font-weight: 600; color: var(--ink); transition: background .12s ease; user-select: none;
+}
+.support-item summary::-webkit-details-marker { display: none; }
+.support-item summary:hover { background: #f3efe6; }
+.support-item summary .caret { color: var(--terracotta); transition: transform .18s ease; margin-left: auto; }
+.support-item[open] summary .caret { transform: rotate(90deg); }
+.support-item summary .sup-name { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.05rem; }
+.support-item summary .sup-type { font-size: .72rem; color: var(--forest); background: var(--tag-bg); padding: 2px 10px; border-radius: 20px; font-weight: 600; }
+.support-item summary .sup-zh { color: var(--muted); font-size: .85rem; font-weight: 400; }
+.support-body { padding: 4px 18px 16px; border-top: 1px solid var(--tag-bg); }
+.support-body .sup-relation { margin: 10px 0 4px; color: var(--forest); font-size: .88rem; font-weight: 600; }
+.support-body p, .support-body ul { font-size: .92rem; margin: 6px 0; }
+.support-body .sup-label { color: var(--terracotta); font-weight: 700; font-size: .8rem; letter-spacing: .03em; margin-top: 10px; text-transform: uppercase; }
+.support-body blockquote { font-size: .9rem; }
+.support-hint { color: var(--muted); font-size: .85rem; margin-top: 6px; }
+/* 參考圖庫（動畫用多角度） */
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-top: 18px; }
+.gallery figure { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 0; }
+.gallery figure img { width: 100%; height: 170px; object-fit: cover; display: block; background: #fff; }
+.gallery figcaption { padding: 8px 12px; font-size: .82rem; color: var(--ink); }
+.gallery figcaption .g-angle { font-weight: 700; color: var(--forest); }
+.gallery figcaption .g-meta { color: var(--muted); font-size: .72rem; margin-top: 3px; }
+.gallery-hint { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+/* ---------- Lightbox ---------- */
+.lightbox { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.88); cursor: zoom-out; }
+.lightbox.open { display: flex; align-items: center; justify-content: center; }
+.lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; background: #000; border-radius: 6px; box-shadow: 0 8px 40px rgba(0,0,0,.6); }
+.lightbox .lb-cap { position: absolute; bottom: 18px; left: 0; right: 0; text-align: center; color: #ddd; font-size: .85rem; padding: 0 20px; }
+.lightbox .lb-close { position: absolute; top: 14px; right: 22px; color: #fff; font-size: 2rem; line-height: 1; cursor: pointer; }
+a.zoom { display: inline-block; cursor: zoom-in; }
+.gallery figure img { cursor: zoom-in; }
+</style></head><body>
+<header class="site"><div class="wrap">
+  <h1><a href="../index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
+  <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
+</div><nav class="cat-nav"><a href="../index.html" class="">全部 <span class="cat-count">78</span></a><a href="../category/japanese.html" class="">日式動漫 · 浮世繪 <span class="cat-count">10</span></a><a href="../category/comics.html" class="active">公版卡通 · 連環漫畫 <span class="cat-count">27</span></a><a href="../category/art.html" class="">世界名畫 · 藝術風格 <span class="cat-count">14</span></a><a href="../category/world.html" class="">世界文化 · 地標 · 自然 <span class="cat-count">16</span></a><a href="../category/scenes.html" class="">場景 · 道具 · 角色原型 <span class="cat-count">5</span></a><a href="../category/opensource.html" class="">開源 · 素材包 <span class="cat-count">6</span></a></nav></header>
+<div class="wrap"><div class="breadcrumb"><a href="../index.html">全部品牌</a> › 公版卡通 · 連環漫畫</div><div class="cat-hero"><h1 class="page">公版卡通 · 連環漫畫 <span style="color:var(--muted);font-size:1rem;font-weight:400">27 品牌 · 120 角色</span></h1><p>黃金年代報紙漫畫、默片動畫、童話與公版角色</p></div><div class="searchbar"><span class="search-icon">⌕</span>
+      <input type="text" id="brand-search" placeholder="搜尋品牌 / 角色名… (e.g. 北齋, 妖怪, Popeye)" autocomplete="off"></div>
+      <div class="search-hint">搜尋會即時篩選以下品牌（比對品牌名＋旗下角色名）。</div><div class="wrap"><div class="brand-grid"><div data-search="Barney Google 巴尼古高（Barney Google） Barney Google Spark Plug"><a class="brand-card" href="../brands/barney-google/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/barney-google.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Barney Google</div>
+    <div class="b-zh">巴尼古高（Barney Google）</div>
+    <div class="b-desc">1919-</div>
+    <div class="b-meta">
+      <span class="b-count">2 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Bringing Up Father 扶養父親（Bringing Up Father） Jiggs Maggie"><a class="brand-card" href="../brands/jiggs/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/jiggs.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Bringing Up Father</div>
+    <div class="b-zh">扶養父親（Bringing Up Father）</div>
+    <div class="b-desc">1913-</div>
+    <div class="b-meta">
+      <span class="b-count">2 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Buck Rogers 巴克羅渣士（Buck Rogers） Buck Rogers (Anthony Rogers)"><a class="brand-card" href="../brands/buck-rogers/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/buck-rogers.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Buck Rogers</div>
+    <div class="b-zh">巴克羅渣士（Buck Rogers）</div>
+    <div class="b-desc">1928-1929</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Buster Brown 巴斯特布朗（Buster Brown） Buster Brown"><a class="brand-card" href="../brands/buster-brown/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/buster-brown.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Buster Brown</div>
+    <div class="b-zh">巴斯特布朗（Buster Brown）</div>
+    <div class="b-desc">1902-</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Disney Silent Era (Mickey &amp; Friends) 迪士尼默片年代（米奇同朋友） Mickey Mouse (1928 version) Minnie Mouse (1928 version) Pluto / Rover (1930 version)"><a class="brand-card" href="../brands/disney-silent/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/mickey-1928.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Disney Silent Era (Mickey &amp; Friends)</div>
+    <div class="b-zh">迪士尼默片年代（米奇同朋友）</div>
+    <div class="b-desc">1928-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">3 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Fairy Tales &amp; Mythology 童話與神話角色 狐狸與烏鴉（Fox &amp; Crow） 龜兔賽跑（Tortoise &amp; Hare） 金髮女孩（Goldilocks） 糖果屋兄妹（Hansel &amp; Gretel） 傑克與魔豆（Jack） 小美人魚（Little Mermaid） 鵝媽媽（Mother Goose） 小紅帽（Little Red Riding Hood） 白雪公主（Snow White） 三隻小豬（Three Little Pigs） 杜拉克風格（Edmund Dulac） 尼爾森風格（Kay Nielsen） 拉克姆風格（Rackham） 三頭犬（Cerberus） 梅杜莎（Medusa） 歐丁雙鴉（Huginn &amp; Muninn） 天馬（Pegasus） 不死鳥（Phoenix） 史芬克斯（Sphinx）"><a class="brand-card" href="../brands/fairy-tales-mythology/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/fable-fox-crow.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Fairy Tales &amp; Mythology</div>
+    <div class="b-zh">童話與神話角色</div>
+    <div class="b-desc">古代-1910s</div>
+    <div class="b-meta">
+      <span class="b-count">19 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Felix the Cat 菲力貓（Felix the Cat） Felix the Cat (early version)"><a class="brand-card" href="../brands/felix-the-cat/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/felix-early-hero.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Felix the Cat</div>
+    <div class="b-zh">菲力貓（Felix the Cat）</div>
+    <div class="b-desc">1919-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Fleischer Studios (Betty Boop) Fleischer 製片廠（Betty Boop） Betty Boop (1930 original version)"><a class="brand-card" href="../brands/fleischer-betty-boop/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/betty-boop-1930.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Fleischer Studios (Betty Boop)</div>
+    <div class="b-zh">Fleischer 製片廠（Betty Boop）</div>
+    <div class="b-desc">1930s</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Happy Hooligan 開心流浪漢（Happy Hooligan） Happy Hooligan"><a class="brand-card" href="../brands/happy-hooligan/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/happy-hooligan.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Happy Hooligan</div>
+    <div class="b-zh">開心流浪漢（Happy Hooligan）</div>
+    <div class="b-desc">1900-</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="International PD Characters 國際公版角色 艾利斯洛珀（Ally Sloper） 貝卡西娜（Bécassine） 灰姑娘（Cinderella，Doré） 青蛙王子（Frog Prince，Rackham） 約翰布爾（John Bull） 馬克斯與莫里茨（Max &amp; Moritz） 摩登女郎（Cafe and Flapper） 雪姑娘（Snegurochka） 蓬頭彼得（Struwwelpeter） 田鄉與目久部（Tagosaku &amp; Mokube）"><a class="brand-card" href="../brands/international-pd-characters/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/intl-ally-sloper.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">International PD Characters</div>
+    <div class="b-zh">國際公版角色</div>
+    <div class="b-desc">1800s-1920s</div>
+    <div class="b-meta">
+      <span class="b-count">10 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Krazy Kat 瘋貓（Krazy Kat） Ignatz Mouse Krazy Kat"><a class="brand-card" href="../brands/krazy-kat/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/krazy-kat.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Krazy Kat</div>
+    <div class="b-zh">瘋貓（Krazy Kat）</div>
+    <div class="b-desc">1913-1944</div>
+    <div class="b-meta">
+      <span class="b-count">2 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Little Nemo in Slumberland 夢境國度嘅小尼莫（Little Nemo） Little Nemo"><a class="brand-card" href="../brands/little-nemo/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/little-nemo.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Little Nemo in Slumberland</div>
+    <div class="b-zh">夢境國度嘅小尼莫（Little Nemo）</div>
+    <div class="b-desc">1905-1927</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Mutt and Jeff 馬特與傑夫（Mutt and Jeff） Jeff Mutt"><a class="brand-card" href="../brands/mutt-jeff/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/mutt-jeff.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Mutt and Jeff</div>
+    <div class="b-zh">馬特與傑夫（Mutt and Jeff）</div>
+    <div class="b-desc">1907-</div>
+    <div class="b-meta">
+      <span class="b-count">2 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Olive Oyl (Thimble Theatre) 奧麗芙（Olive Oyl） Olive Oyl"><a class="brand-card" href="../brands/olive-oyl/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/olive-oyl.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Olive Oyl (Thimble Theatre)</div>
+    <div class="b-zh">奧麗芙（Olive Oyl）</div>
+    <div class="b-desc">1919-</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Oswald the Lucky Rabbit 幸運兔奧斯華（Oswald the Lucky Rabbit） Oswald the Lucky Rabbit (1927 version)"><a class="brand-card" href="../brands/oswald/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/oswald-1927.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Oswald the Lucky Rabbit</div>
+    <div class="b-zh">幸運兔奧斯華（Oswald the Lucky Rabbit）</div>
+    <div class="b-desc">1927-1928</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="PD Children&#x27;s Book Illustrators 公版童書插畫家 科爾德科特（Caldecott） 霍華派爾（Howard Pyle） 潔西史密斯（Jessie Smith） 凱特格林威（Kate Greenaway） 沃爾特克蘭（Walter Crane） 旺達佳格（Wanda Gag） N.C. 懷思（Robin Hood）"><a class="brand-card" href="../brands/pd-childrens-book-illustrators/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/illust-caldecott.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">PD Children&#x27;s Book Illustrators</div>
+    <div class="b-zh">公版童書插畫家</div>
+    <div class="b-desc">1870s-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">7 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="PD Golden-Age Superheroes 公版黃金年代超級英雄 空中男孩（Airboy） 驚奇之人（Amazing-Man） 黑色恐怖（Black Terror） 藍甲蟲原版（Blue Beetle 1939） 藍電光（Blue Bolt） 午夜隊長（Captain Midnight） 貓人（Cat-Man） 無畏（Daredevil 1941） 鬥士揚基（Fighting Yank） 烈焰人（The Flame） 綠龜俠（The Green Turtle） 火焰狂人（Pyroman） 間諜剋星（Spy Smasher） 奇蹟人（Wonder Man）"><a class="brand-card" href="../brands/pd-golden-age-superheroes/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/hero-airboy.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">PD Golden-Age Superheroes</div>
+    <div class="b-zh">公版黃金年代超級英雄</div>
+    <div class="b-desc">1930s-1940s</div>
+    <div class="b-meta">
+      <span class="b-count">14 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="PD Literature &amp; Folklore 公版文學與民俗角色 愛麗絲（Alice） 芭芭雅嘎（Baba Yaga） 柴郡貓（Cheshire Cat） 唐吉訶德（Don Quixote） 格列佛（Gulliver） 福爾摩斯（Sherlock Holmes） 霜精傑克（Jack Frost） 長靴海盜（Long John Silver） 莫里亞提（Moriarty） 彼得潘（Peter Pan） 皮諾丘（Pinocchio） 耶誕老人（Santa Claus） 綠野仙蹤（Wizard of Oz）"><a class="brand-card" href="../brands/pd-literature-folklore/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/lit-alice.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">PD Literature &amp; Folklore</div>
+    <div class="b-zh">公版文學與民俗角色</div>
+    <div class="b-desc">1600s-1910s</div>
+    <div class="b-meta">
+      <span class="b-count">13 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Polly and Her Pals 波莉同佢班朋友（Polly and Her Pals） Polly (Perkins Family)"><a class="brand-card" href="../brands/polly-pals/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/polly-pals.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Polly and Her Pals</div>
+    <div class="b-zh">波莉同佢班朋友（Polly and Her Pals）</div>
+    <div class="b-desc">1912-</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Popeye 大力水手（Popeye） Popeye (1929 original version)"><a class="brand-card" href="../brands/popeye/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/popeye-1929.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Popeye</div>
+    <div class="b-zh">大力水手（Popeye）</div>
+    <div class="b-desc">1929-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Public-Domain Animation (1920-30s) 公版動畫角色（1920-30s） 伊索寓言卡通（Aesop Fables） 賓波（Bimbo） 卜斯科（Bosko） 查利鮑沃斯（Charley Bowers） 叮奇多多（Dinky Doodle） 阿爾大哥（Farmer Al Falfa） 跳蛙（Flip the Frog） 甘迪鵝（Gandy Goose） 夯奇與斯朋奇（Hunky &amp; Spunky） 霜精傑克（Jack Frost） 可可小丑（Ko-Ko） 瑪麗的小羊（Mary&#x27;s Little Lamb） 威力鼠（Mighty Mouse） 三隻熊（Three Bears） 酸臉貓（Sourpuss） 凡貝倫湯姆傑瑞（Tom &amp; Jerry） 鬆餅與唐（Waffles &amp; Don）"><a class="brand-card" href="../brands/pd-animation-1920s30s/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/pd-aesop.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Public-Domain Animation (1920-30s)</div>
+    <div class="b-zh">公版動畫角色（1920-30s）</div>
+    <div class="b-desc">1920s-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">17 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Skippy 斯基皮（Skippy） Skippy Skinner"><a class="brand-card" href="../brands/skippy/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/skippy.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Skippy</div>
+    <div class="b-zh">斯基皮（Skippy）</div>
+    <div class="b-desc">1923-</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="The Gumps 古普一家（The Gumps） Andy Gump"><a class="brand-card" href="../brands/andy-gump/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/andy-gump-hero.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">The Gumps</div>
+    <div class="b-zh">古普一家（The Gumps）</div>
+    <div class="b-desc">1917-</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="The Katzenjammer Kids 凱曾加默小孩（Katzenjammer Kids） Der Captain Hans &amp; Fritz (Katzenjammer Kids)"><a class="brand-card" href="../brands/katzenjammer-kids/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/katzenjammer-kids.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">The Katzenjammer Kids</div>
+    <div class="b-zh">凱曾加默小孩（Katzenjammer Kids）</div>
+    <div class="b-desc">1897-</div>
+    <div class="b-meta">
+      <span class="b-count">2 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="The Yellow Kid 黃孩子（The Yellow Kid） The Yellow Kid (Mickey Dugan)"><a class="brand-card" href="../brands/yellow-kid/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/yellow-kid.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">The Yellow Kid</div>
+    <div class="b-zh">黃孩子（The Yellow Kid）</div>
+    <div class="b-desc">1895-1898</div>
+    <div class="b-meta">
+      <span class="b-count">1 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Vintage Comic Strips 復古連環漫畫 小安妮（Little Orphan Annie） 月穆林斯（Moon Mullins） 海巫婆（Sea Hag） 溫妮溫克爾（Winnie Winkle） 布朗黛（Blondie） 迪克崔西（Dick Tracy） 汽油巷（Gasoline Alley） 哈洛德特恩（Harold Teen） 大力水手初登場（Popeye 1929） 泰山（Tarzan）"><a class="brand-card" href="../brands/vintage-comic-strips/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/comic-annie.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Vintage Comic Strips</div>
+    <div class="b-zh">復古連環漫畫</div>
+    <div class="b-desc">1910s-1930s</div>
+    <div class="b-meta">
+      <span class="b-count">10 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Winnie-the-Pooh (Original Book) 小熊維尼（原著小說版） Christopher Robin Eeyore Piglet Winnie-the-Pooh (1926 original)"><a class="brand-card" href="../brands/winnie-the-pooh/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/pooh-1926.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Winnie-the-Pooh (Original Book)</div>
+    <div class="b-zh">小熊維尼（原著小說版）</div>
+    <div class="b-desc">1926</div>
+    <div class="b-meta">
+      <span class="b-count">4 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div></div><div class="no-result" id="no-result">搵唔到符合嘅品牌 / 角色。</div></div></div><div class="wrap">
+  <div class="footer-note">
+    Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
+  </div>
+</div>
+<div class="lightbox" id="lightbox" aria-hidden="true"><span class="lb-close" id="lb-close">&times;</span><img src="" alt="" id="lb-img"><div class="lb-cap" id="lb-cap"></div></div>
+<script>
+(function(){
+  var lb=document.getElementById('lightbox'), img=document.getElementById('lb-img'), cap=document.getElementById('lb-cap');
+  function open(src,alt){ img.src=src; img.alt=alt; cap.textContent=alt; lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); }
+  function close(){ lb.classList.remove('open'); img.src=''; lb.setAttribute('aria-hidden','true'); }
+  document.addEventListener('click', function(e){
+    var t=e.target.closest('a.zoom, .gallery figure img, .char-hero img');
+    if(t && t.tagName!=='IMG'){ t=e.target; }
+    if(t && t.tagName==='IMG' && (t.closest('a.zoom') || t.closest('.gallery') || t.closest('.char-hero'))){
+      e.preventDefault(); var src=t.getAttribute('data-full')||t.currentSrc||t.src;
+      open(src, t.getAttribute('alt')||'');
+    }
+  });
+  lb.addEventListener('click', function(e){ if(e.target===lb||e.target.id==='lb-close') close(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+})();
+</script>
+<script>
+(function(){
+  var box=document.getElementById('brand-search');
+  if(!box) return;
+  box.addEventListener('input', function(){
+    var q=box.value.trim().toLowerCase();
+    var cards=document.querySelectorAll('.brand-card');
+    var any=false;
+    cards.forEach(function(c){
+      var holder=c.parentElement;
+      var hay=(holder&&holder.getAttribute('data-search')||'').toLowerCase();
+      var show=!q||hay.indexOf(q)!==-1;
+      holder.classList.toggle('filter-hidden', !show);
+      if(show) any=true;
+    });
+    var blocks=document.querySelectorAll('.cat-block');
+    blocks.forEach(function(bl){
+      var hasVisible=[].some.call(bl.querySelectorAll('.brand-card'), function(c){return !c.parentElement.classList.contains('filter-hidden');});
+      bl.classList.toggle('filter-hidden', !hasVisible && q!=='');
+      if(hasVisible) any=true;
+    });
+    var nr=document.getElementById('no-result');
+    if(nr) nr.style.display = q && !any ? 'block' : 'none';
+  });
+})();
+</script>

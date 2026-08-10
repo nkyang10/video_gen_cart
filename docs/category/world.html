@@ -1,0 +1,419 @@
+<!DOCTYPE html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>世界文化 · 地標 · 自然 — Video Gen Cart</title>
+<style>:root {
+  --paper: #f7f4ef;
+  --ink: #2b2b28;
+  --muted: #6b6a63;
+  --forest: #3e5c4b;
+  --terracotta: #c05f3c;
+  --border: #e2dcd0;
+  --card: #ffffff;
+  --tag-bg: #efe9dd;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+               "PingFang TC", "Microsoft JhengHei", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  padding-bottom: 60px;
+}
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 22px; }
+header.site {
+  border-bottom: 1px solid var(--border);
+  padding: 26px 0 18px;
+  margin-bottom: 30px;
+  background: #fffdf9;
+}
+header.site .wrap { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+header.site h1 { font-size: 1.5rem; letter-spacing: 0.02em; }
+header.site h1 a { color: var(--ink); text-decoration: none; }
+header.site h1 span { color: var(--terracotta); }
+header.site .sub { color: var(--muted); font-size: 0.85rem; }
+nav.brand-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 6px; }
+nav.brand-tabs a {
+  padding: 6px 14px; border-radius: 8px; border: 1px solid var(--border);
+  background: #fff; color: var(--ink); text-decoration: none; font-size: 0.9rem;
+}
+nav.brand-tabs a:hover { border-color: var(--forest); }
+nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+/* ---------- Scaled catalog: 分類導航 ---------- */
+nav.cat-nav {
+  display: flex; gap: 4px; flex-wrap: wrap; margin: 16px 0 4px;
+  padding-top: 12px; border-top: 1px solid var(--border);
+}
+nav.cat-nav a {
+  padding: 7px 14px; border-radius: 8px; border: 1px solid transparent;
+  color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 600;
+  transition: all .12s ease;
+}
+nav.cat-nav a:hover { color: var(--forest); background: #f2eee4; }
+nav.cat-nav a.active { color: var(--forest); background: #e9f0e9; border-color: var(--border); }
+nav.cat-nav .cat-count { color: var(--terracotta); font-weight: 700; font-size: .78rem; margin-left: 3px; }
+/* 分類英雄 / 區塊 */
+.cat-hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 22px 26px; margin-bottom: 26px; }
+.cat-hero h1.page { margin-bottom: 6px; }
+.cat-hero p { color: var(--muted); max-width: 72ch; }
+.cat-block { margin-bottom: 34px; }
+.cat-block-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.cat-block-head h2 { margin-top: 0; border: none; }
+.cat-block-head .cat-desc { color: var(--muted); font-size: .9rem; }
+.cat-block-head .cat-jump { color: var(--forest); font-size: .85rem; text-decoration: none; font-weight: 600; }
+/* 搜尋 */
+.searchbar { max-width: 640px; margin: 20px 0 6px; position: relative; }
+.searchbar input {
+  width: 100%; padding: 13px 18px 13px 44px; border: 1px solid var(--border);
+  border-radius: 12px; font-size: 1rem; background: #fff; color: var(--ink);
+  outline: none; transition: border-color .12s ease, box-shadow .12s ease;
+}
+.searchbar input:focus { border-color: var(--forest); box-shadow: 0 0 0 3px rgba(62,92,75,.12); }
+.searchbar .search-icon {
+  position: absolute; left: 15px; top: 50%; transform: translateY(-50%);
+  color: var(--muted); font-size: 1.05rem; pointer-events: none;
+}
+.search-hint { color: var(--muted); font-size: .82rem; margin: 8px 2px 0; }
+/* 分類品牌卡（有縮圖） */
+.brand-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 16px; }
+.brand-card {
+  display: flex; gap: 14px; align-items: stretch; background: var(--card);
+  border: 1px solid var(--border); border-radius: 12px; padding: 14px;
+  text-decoration: none; color: var(--ink); transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.brand-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.brand-card .b-thumb {
+  width: 84px; min-width: 84px; height: 84px; border-radius: 9px; overflow: hidden;
+  background: #eee7db; display: flex; align-items: center; justify-content: center;
+}
+.brand-card .b-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.brand-card .b-thumb .noimg { color: var(--muted); font-size: 1.5rem; }
+.brand-card .b-body { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.brand-card .b-name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1rem; line-height: 1.35; }
+.brand-card .b-zh { color: var(--muted); font-size: .8rem; }
+.brand-card .b-desc { color: var(--muted); font-size: .82rem; margin-top: 5px; flex: 1; }
+.brand-card .b-meta { display: flex; align-items: center; gap: 8px; margin-top: 9px; flex-wrap: wrap; }
+.brand-card .b-count { color: var(--terracotta); font-weight: 700; font-size: .82rem; }
+.brand-card .lic-row { display: flex; gap: 4px; flex-wrap: wrap; }
+/* 過濾隱藏（搜尋用） */
+.filter-hidden { display: none !important; }
+.no-result { display: none; color: var(--muted); padding: 24px; text-align: center; }
+
+.breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
+.breadcrumb a { color: var(--forest); text-decoration: none; }
+h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }
+h2 { font-family: "Noto Serif TC", Georgia, serif; color: var(--forest);
+     font-size: 1.25rem; margin: 34px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+h3 { color: var(--ink); font-size: 1.05rem; margin: 20px 0 8px; }
+p { margin: 8px 0; }
+ul, ol { margin: 8px 0 8px 24px; }
+li { margin: 4px 0; }
+blockquote { border-left: 3px solid var(--terracotta); background: #fffdf9;
+             padding: 8px 14px; margin: 10px 0; color: var(--ink); border-radius: 0 6px 6px 0; }
+a { color: var(--forest); }
+.meta-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.92rem; }
+.meta-table td { padding: 7px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.meta-table td:first-child { width: 34%; color: var(--muted); font-weight: 600; }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+.badge.pd { background: #dcebdd; color: #2c5e3a; }
+.badge.cc { background: #dfe7f5; color: #2c4a7c; }
+.badge.partial { background: #f5e8d3; color: #8a5a1e; }
+.badge.verify { background: #f4dcd9; color: #963a2e; }
+.lic-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.character-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 18px; }
+.character-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 16px; text-decoration: none; color: var(--ink); display: block;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.character-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.character-card .name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1.05rem; }
+.character-card .thumb { width: 100%; height: 120px; overflow: hidden; border-radius: 8px; margin-bottom: 10px; background: #eee7db; }
+.character-card .thumb img { width: 100%; height: 100%; object-fit: cover; }
+.character-card .zh { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
+.character-card .desc { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+.character-card .badge { margin-top: 10px; }
+.copyright-box { background: #f2efea; border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
+.copyright-box h3 { color: var(--terracotta); margin-top: 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: .04em; }
+.copyright-box ul { margin-left: 20px; }
+.char-hero { display: flex; gap: 22px; align-items: flex-start; margin-bottom: 24px; flex-wrap: wrap; }
+.char-hero img { width: 280px; max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--border); background:#fff; }
+.char-hero .captions { flex: 1; min-width: 220px; font-size: 0.85rem; color: var(--muted); }
+.char-hero .captions p { margin: 4px 0; }
+.img-credit { font-size: 0.75rem; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+.img-credit a { color: var(--forest); }
+.footer-note { color: var(--muted); font-size: 0.8rem; margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--border); }
+.hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 26px; margin-bottom: 28px; }
+.hero h2 { border: none; margin-top: 0; font-size: 1.5rem; }
+.hero p { color: var(--muted); max-width: 70ch; }
+.stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
+.stat { font-size: 0.9rem; }
+.stat b { color: var(--forest); font-size: 1.2rem; }
+/* 配角 / 路人互動面板 */
+.support-panel { margin-top: 22px; display: grid; gap: 10px; }
+.support-item { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.support-item summary {
+  cursor: pointer; padding: 13px 18px; list-style: none; display: flex; align-items: center; gap: 12px;
+  font-weight: 600; color: var(--ink); transition: background .12s ease; user-select: none;
+}
+.support-item summary::-webkit-details-marker { display: none; }
+.support-item summary:hover { background: #f3efe6; }
+.support-item summary .caret { color: var(--terracotta); transition: transform .18s ease; margin-left: auto; }
+.support-item[open] summary .caret { transform: rotate(90deg); }
+.support-item summary .sup-name { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.05rem; }
+.support-item summary .sup-type { font-size: .72rem; color: var(--forest); background: var(--tag-bg); padding: 2px 10px; border-radius: 20px; font-weight: 600; }
+.support-item summary .sup-zh { color: var(--muted); font-size: .85rem; font-weight: 400; }
+.support-body { padding: 4px 18px 16px; border-top: 1px solid var(--tag-bg); }
+.support-body .sup-relation { margin: 10px 0 4px; color: var(--forest); font-size: .88rem; font-weight: 600; }
+.support-body p, .support-body ul { font-size: .92rem; margin: 6px 0; }
+.support-body .sup-label { color: var(--terracotta); font-weight: 700; font-size: .8rem; letter-spacing: .03em; margin-top: 10px; text-transform: uppercase; }
+.support-body blockquote { font-size: .9rem; }
+.support-hint { color: var(--muted); font-size: .85rem; margin-top: 6px; }
+/* 參考圖庫（動畫用多角度） */
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-top: 18px; }
+.gallery figure { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 0; }
+.gallery figure img { width: 100%; height: 170px; object-fit: cover; display: block; background: #fff; }
+.gallery figcaption { padding: 8px 12px; font-size: .82rem; color: var(--ink); }
+.gallery figcaption .g-angle { font-weight: 700; color: var(--forest); }
+.gallery figcaption .g-meta { color: var(--muted); font-size: .72rem; margin-top: 3px; }
+.gallery-hint { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+/* ---------- Lightbox ---------- */
+.lightbox { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.88); cursor: zoom-out; }
+.lightbox.open { display: flex; align-items: center; justify-content: center; }
+.lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; background: #000; border-radius: 6px; box-shadow: 0 8px 40px rgba(0,0,0,.6); }
+.lightbox .lb-cap { position: absolute; bottom: 18px; left: 0; right: 0; text-align: center; color: #ddd; font-size: .85rem; padding: 0 20px; }
+.lightbox .lb-close { position: absolute; top: 14px; right: 22px; color: #fff; font-size: 2rem; line-height: 1; cursor: pointer; }
+a.zoom { display: inline-block; cursor: zoom-in; }
+.gallery figure img { cursor: zoom-in; }
+</style></head><body>
+<header class="site"><div class="wrap">
+  <h1><a href="../index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
+  <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
+</div><nav class="cat-nav"><a href="../index.html" class="">全部 <span class="cat-count">78</span></a><a href="../category/japanese.html" class="">日式動漫 · 浮世繪 <span class="cat-count">10</span></a><a href="../category/comics.html" class="">公版卡通 · 連環漫畫 <span class="cat-count">27</span></a><a href="../category/art.html" class="">世界名畫 · 藝術風格 <span class="cat-count">14</span></a><a href="../category/world.html" class="active">世界文化 · 地標 · 自然 <span class="cat-count">16</span></a><a href="../category/scenes.html" class="">場景 · 道具 · 角色原型 <span class="cat-count">5</span></a><a href="../category/opensource.html" class="">開源 · 素材包 <span class="cat-count">6</span></a></nav></header>
+<div class="wrap"><div class="breadcrumb"><a href="../index.html">全部品牌</a> › 世界文化 · 地標 · 自然</div><div class="cat-hero"><h1 class="page">世界文化 · 地標 · 自然 <span style="color:var(--muted);font-size:1rem;font-weight:400">16 品牌 · 229 角色</span></h1><p>古文明、地標建築、動物植物、自然史、服飾</p></div><div class="searchbar"><span class="search-icon">⌕</span>
+      <input type="text" id="brand-search" placeholder="搜尋品牌 / 角色名… (e.g. 北齋, 妖怪, Popeye)" autocomplete="off"></div>
+      <div class="search-hint">搜尋會即時篩選以下品牌（比對品牌名＋旗下角色名）。</div><div class="wrap"><div class="brand-grid"><div data-search="Ancient Civilizations, Performance &amp; Scripts 古代文明傳統表演與文字 羅馬競技場黃昏 馬丘比丘暮色 摩亨佐達羅遺址 帕德嫩神廟 尼姆嘉德水道橋 吉薩獅身人面像 烏爾大神塔 貝爾電話送話器 火箭號蒸氣機車 瓦特蒸氣機 萊特兄弟首飛 峇里島舞者 歌舞伎澤村宗十郎 印度奧迪西古典舞 旋轉苦行僧 凱爾斯之書 羅塞塔石碑 維京盧恩石碑"><a class="brand-card" href="../brands/ancient-civilizations-performance-scripts/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/ancient-colosseum-dusk.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Ancient Civilizations, Performance &amp; Scripts</div>
+    <div class="b-zh">古代文明傳統表演與文字</div>
+    <div class="b-desc">公元前-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">18 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Ancient Traditions, Regional Interiors &amp; Flora 古代傳統區域內景與植物 伊什塔爾門走獅 龐貝奧菲斯之家壁畫 龐貝維提之家壁畫 烏爾旗戰爭面 阿爾罕布拉宮藻井 齋浦爾風之宮 銀杏秋葉 巨人柱仙人掌"><a class="brand-card" href="../brands/ancient-traditions-interiors-flora/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/ancient-ishtar-gate.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Ancient Traditions, Regional Interiors &amp; Flora</div>
+    <div class="b-zh">古代傳統區域內景與植物</div>
+    <div class="b-desc">公元前-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">8 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge verify">❓ 需核實</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Anthropomorphic Animals 擬人動物角色 熊戰士（Bear Warrior） 鳥女僕（Bird Maid） 布雷爾兔（Brer Rabbit） 狗人（Doggo） 福克斯素體（Fox Bases） Furry Tales 德國牧羊犬（German Shepherd） 葛里塞特野兔（Griset Hare） 小傑克兔（Little Jack Rabbit） 野豬人戰士（LPC Boarman） 蛤蟆先生（Mr. Toad） 擬人狗狗（Nice Dog） 彼得兔（Peter Rabbit） 黎明吹笛人（Pan） 鼠人（Rat） 狄勒上學狗兒（Thiele Dogs） 托比西班牙獵犬（Toby Spaniel）"><a class="brand-card" href="../brands/anthropomorphic-animals/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/anthro-bear-warrior.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Anthropomorphic Animals</div>
+    <div class="b-zh">擬人動物角色</div>
+    <div class="b-desc">1900s-2020s</div>
+    <div class="b-meta">
+      <span class="b-count">17 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Costumes, Landscapes, Work Animals &amp; Props 民族服飾地景工作動物與道具 蒙兀兒獵鷹狩獵 Mauve雪中牧羊 倫敦閱兵騎警 梵谷牧羊人羊群 東漢墓室漢服仕女 中國漢服 俄國柯科什尼克 美洲原住民服飾 印度沙麗穿搭 黃石大棱鏡溫泉 優勝美地修士尖塔 夏丹魟魚洋蔥 Coorte頭骨沙漏 廣重庄野驟雨"><a class="brand-card" href="../brands/costumes-landscapes-work-animals-props/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/animal-falconry.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Costumes, Landscapes, Work Animals &amp; Props</div>
+    <div class="b-zh">民族服飾地景工作動物與道具</div>
+    <div class="b-desc">1500s-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">14 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Dance, Instruments, Crafts &amp; Festivals 全球舞蹈樂器工匠節慶 金剛經書法家 玻璃師傅吹製 陶輪製陶 歌麿織布 非洲風情舞 印度婆羅多舞 竇加《星星》芭蕾 薩金特西班牙舞者 夏威夷呼拉舞 阿根廷探戈 亡靈節糖骨骷髏 印度排燈節 中國新年舞獅 里約嘉年華 狄吉里杜管 二胡 Erhu 古箏 Koto 三味線演奏 西塔琴 Sitar"><a class="brand-card" href="../brands/dance-instruments-crafts-festivals/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/craft-calligrapher.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Dance, Instruments, Crafts &amp; Festivals</div>
+    <div class="b-zh">全球舞蹈樂器工匠節慶</div>
+    <div class="b-desc">1600s-2000s</div>
+    <div class="b-meta">
+      <span class="b-count">19 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Flags, Interiors, Landmarks &amp; Biomes 旗幟室內地標棲地動物 長頸鹿 美洲豹 緋紅金鋼鸚鵡 北極熊 海象 法蘭西奧里芙蘭姆旗 維京渡鴉旗 梵谷夜晚咖啡座 德維特教堂內景 凡爾賽鏡廳 斯特拉霍夫修道院圖書館 吳哥窟 羅馬競技場 聖母峰 NASA 馬丘比丘 1911 尼加拉瀑布 塞倫蓋提大遷徙 維多利亞瀑布"><a class="brand-card" href="../brands/flags-interiors-landmarks-biomes/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/biome-giraffe.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Flags, Interiors, Landmarks &amp; Biomes</div>
+    <div class="b-zh">旗幟室內地標棲地動物</div>
+    <div class="b-desc">1600s-2000s</div>
+    <div class="b-meta">
+      <span class="b-count">18 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Global Cultural Traditions &amp; Landmarks 全球文化傳統與地標 阿善提金秤錘 金弘道山水冊頁 杜拜哈里發塔 吉薩大金字塔 毛利船首雕飾 澳洲汪地納岩畫"><a class="brand-card" href="../brands/global-cultural-traditions-landmarks/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/africa-ashanti-goldweight.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Global Cultural Traditions &amp; Landmarks</div>
+    <div class="b-zh">全球文化傳統與地標</div>
+    <div class="b-desc">公元前-2000s</div>
+    <div class="b-meta">
+      <span class="b-count">6 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Landmarks, Exotic Fauna &amp; Japanese Culture 地標異國動物日式文化與海洋 Gould鴯鶓 Gould蜂鳥 Haeckel章魚 Haeckel海星 Haeckel海龜 摺紙千羽鶴 摺紙鶴單隻 丹頂鶴國鳥 和風折扇 和菓子 雅典衛城帕特農 聖米歇爾山 新天鵝堡 佩特拉寶庫 聖托里尼藍頂教堂 藍鯨全貌 裸胸鱔 虎鯨躍出"><a class="brand-card" href="../brands/landmarks-exotic-fauna-japanese-culture/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/animal-gould-emu.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Landmarks, Exotic Fauna &amp; Japanese Culture</div>
+    <div class="b-zh">地標異國動物日式文化與海洋</div>
+    <div class="b-desc">1800s-2020s</div>
+    <div class="b-meta">
+      <span class="b-count">18 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Maya Landmarks &amp; American Natural History 馬雅地標與美洲自然史 歐杜邦美洲麋鹿 黑鳍礁鯊 波特曼印第安獵野牛 阿布辛貝神廟 奇琴伊察庫庫爾坎 科潘石碑A 丹德拉黃道十二宮 以弗所塞爾蘇斯圖書館 卡納克多柱廳 巴爾米拉遺蹟 提卡爾骷髏神殿"><a class="brand-card" href="../brands/maya-landmarks-american-natural-history/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/animal-audubon-elk.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Maya Landmarks &amp; American Natural History</div>
+    <div class="b-zh">馬雅地標與美洲自然史</div>
+    <div class="b-desc">公元前-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">11 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Natural History, Chinese Culture &amp; Architecture Detail 博物學中國文化與建築細部 蘇州留園 拜占庭狄奧多拉馬賽克 萊昂玫瑰彩窗 西斯廷天頂壁畫 龍舟比賽 萬里長城 漢代玉豬 麻將牌 明代青花瓷 篆書青花瓷罐 唐代十二生肖陶俑 多諾萬中國昆蟲 海克爾蜥蜴 梅里安凱門鱷蛇 梅里安山楊蛾"><a class="brand-card" href="../brands/natural-history-chinese-culture-architecture/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/arch-lingering-garden.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Natural History, Chinese Culture &amp; Architecture Detail</div>
+    <div class="b-zh">博物學中國文化與建築細部</div>
+    <div class="b-desc">1500s-2020s</div>
+    <div class="b-meta">
+      <span class="b-count">15 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Regional Landmarks, Global Fauna &amp; Art Systems 區域地標全球動物與藝術系統 奇異鳥透明 大貓熊 多雷魔王盧西法 肯亞山 納斯卡線蜂鳥 納斯卡線猴子 烏魯魯日落"><a class="brand-card" href="../brands/regional-landmarks-global-fauna-art/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/animal-kiwi.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Regional Landmarks, Global Fauna &amp; Art Systems</div>
+    <div class="b-zh">區域地標全球動物與藝術系統</div>
+    <div class="b-desc">1500s-2020s</div>
+    <div class="b-meta">
+      <span class="b-count">7 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Sculpture, Engraving, Regional Fauna &amp; Sports 雕塑版畫區域動物與運動 水豚 皇帝企鵝 白掌長臂猿 美洲豹 紅腹食人魚 鴨嘴獸 南美貘 白犀牛母子 袋熊 郭熙早春圖 杜勒騎士死神魔鬼 林布蘭入墓蝕刻 達蓋爾坦普爾大道 尼埃普斯第一張照片 貝尼尼大衛 擲鐵餅者 米開朗基羅大衛像 米洛的維納斯 網球揮拍 希臘羅馬式角力"><a class="brand-card" href="../brands/sculpture-engraving-fauna-sports/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/animal-capybara.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Sculpture, Engraving, Regional Fauna &amp; Sports</div>
+    <div class="b-zh">雕塑版畫區域動物與運動</div>
+    <div class="b-desc">公元前-2000s</div>
+    <div class="b-meta">
+      <span class="b-count">20 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC-BY</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Textiles, Heraldry, Ships &amp; Weapons 紡織紋章船艦武器 鎌田家家紋 斐利二世紋章 土佐桐家紋 COURSER 快帆船 維京龍頭長船 西班牙大帆船 斯庫勒萊夫維京船 絲綢提花織錦 艾卡特織錦 和服圖案集 派斯利花樣 高地格紋呢 歐洲十字弩 長柄戟 持戟衛兵群像 晨星錘鏈枷"><a class="brand-card" href="../brands/textiles-heraldry-ships-weapons/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/heraldry-kamata.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Textiles, Heraldry, Ships &amp; Weapons</div>
+    <div class="b-zh">紡織紋章船艦武器</div>
+    <div class="b-desc">1500s-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">16 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge pd">✔ 公版</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Vehicles &amp; Landmarks 交通工具與地標建築 奧杜邦雪鴞（Audubon Owl） 擱淺鯨魚（Beached Whale） 達文西馬（da Vinci Horse） 抱貓老婦（Old Woman with Cat） Stubbs 馬 竇加舞者（Degas Ballerina） 吉薩金字塔（Pyramids） 巨石陣（Stonehenge） 泰姬陵（Taj Mahal） 三桅帆船（Clipper） 哈雷機車（Harley-Davidson） 前大後小單車（Penny-Farthing） 1875 蒸氣火車 鐵達尼號（RMS Titanic） 蒙帕納斯出軌（Train Wreck） 萊特 1903 飛行器（Wright Flyer） 齊柏林飛船（Zeppelin）"><a class="brand-card" href="../brands/vehicles-landmarks/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/anim-audubon-owl.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Vehicles &amp; Landmarks</div>
+    <div class="b-zh">交通工具與地標建築</div>
+    <div class="b-desc">1600s-1900s</div>
+    <div class="b-meta">
+      <span class="b-count">17 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge cc">CC-BY-SA</span></span>
+    </div>
+  </div>
+</a></div><div data-search="World Architecture, Flora, Cuisine &amp; Weather 世界建築花卉美食天氣 藍色清真寺 金門大橋 巴黎聖母院 布達拉宮 聖家堂 Faes 花卉靜物 櫻花映富士山 蓮花 吳昌碩牡丹水仙 大麥克漢堡 中式點心蒸籠 肉丸義大利麵 壽司拼盤 乾旱龜裂大地 閃電風暴 彩虹夕照海灣 沙塵暴油畫"><a class="brand-card" href="../brands/world-architecture-flora-cuisine-weather/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/arch-blue-mosque.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">World Architecture, Flora, Cuisine &amp; Weather</div>
+    <div class="b-zh">世界建築花卉美食天氣</div>
+    <div class="b-desc">1700s-2020s</div>
+    <div class="b-meta">
+      <span class="b-count">17 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="World Costumes &amp; Asian Folk Art 世界服飾與亞洲民間美術 日本妖怪繪卷（Emakimono） 韓國民畫（Minhwa） 中國年畫（Nianhua） 孫悟空（Wukong） 漢服（Hanfu） 克雷奇美爾服飾（Kretschmer） 清代朝服（Qianlong） 拉西內服飾（Racinet）"><a class="brand-card" href="../brands/world-costumes-asian-folk-art/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/asia-minhwa.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">World Costumes &amp; Asian Folk Art</div>
+    <div class="b-zh">世界服飾與亞洲民間美術</div>
+    <div class="b-desc">12-19 世紀</div>
+    <div class="b-meta">
+      <span class="b-count">8 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div></div><div class="no-result" id="no-result">搵唔到符合嘅品牌 / 角色。</div></div></div><div class="wrap">
+  <div class="footer-note">
+    Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
+  </div>
+</div>
+<div class="lightbox" id="lightbox" aria-hidden="true"><span class="lb-close" id="lb-close">&times;</span><img src="" alt="" id="lb-img"><div class="lb-cap" id="lb-cap"></div></div>
+<script>
+(function(){
+  var lb=document.getElementById('lightbox'), img=document.getElementById('lb-img'), cap=document.getElementById('lb-cap');
+  function open(src,alt){ img.src=src; img.alt=alt; cap.textContent=alt; lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); }
+  function close(){ lb.classList.remove('open'); img.src=''; lb.setAttribute('aria-hidden','true'); }
+  document.addEventListener('click', function(e){
+    var t=e.target.closest('a.zoom, .gallery figure img, .char-hero img');
+    if(t && t.tagName!=='IMG'){ t=e.target; }
+    if(t && t.tagName==='IMG' && (t.closest('a.zoom') || t.closest('.gallery') || t.closest('.char-hero'))){
+      e.preventDefault(); var src=t.getAttribute('data-full')||t.currentSrc||t.src;
+      open(src, t.getAttribute('alt')||'');
+    }
+  });
+  lb.addEventListener('click', function(e){ if(e.target===lb||e.target.id==='lb-close') close(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+})();
+</script>
+<script>
+(function(){
+  var box=document.getElementById('brand-search');
+  if(!box) return;
+  box.addEventListener('input', function(){
+    var q=box.value.trim().toLowerCase();
+    var cards=document.querySelectorAll('.brand-card');
+    var any=false;
+    cards.forEach(function(c){
+      var holder=c.parentElement;
+      var hay=(holder&&holder.getAttribute('data-search')||'').toLowerCase();
+      var show=!q||hay.indexOf(q)!==-1;
+      holder.classList.toggle('filter-hidden', !show);
+      if(show) any=true;
+    });
+    var blocks=document.querySelectorAll('.cat-block');
+    blocks.forEach(function(bl){
+      var hasVisible=[].some.call(bl.querySelectorAll('.brand-card'), function(c){return !c.parentElement.classList.contains('filter-hidden');});
+      bl.classList.toggle('filter-hidden', !hasVisible && q!=='');
+      if(hasVisible) any=true;
+    });
+    var nr=document.getElementById('no-result');
+    if(nr) nr.style.display = q && !any ? 'block' : 'none';
+  });
+})();
+</script>

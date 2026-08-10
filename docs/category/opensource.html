@@ -1,0 +1,309 @@
+<!DOCTYPE html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>開源 · 素材包 — Video Gen Cart</title>
+<style>:root {
+  --paper: #f7f4ef;
+  --ink: #2b2b28;
+  --muted: #6b6a63;
+  --forest: #3e5c4b;
+  --terracotta: #c05f3c;
+  --border: #e2dcd0;
+  --card: #ffffff;
+  --tag-bg: #efe9dd;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+               "PingFang TC", "Microsoft JhengHei", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  padding-bottom: 60px;
+}
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 22px; }
+header.site {
+  border-bottom: 1px solid var(--border);
+  padding: 26px 0 18px;
+  margin-bottom: 30px;
+  background: #fffdf9;
+}
+header.site .wrap { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+header.site h1 { font-size: 1.5rem; letter-spacing: 0.02em; }
+header.site h1 a { color: var(--ink); text-decoration: none; }
+header.site h1 span { color: var(--terracotta); }
+header.site .sub { color: var(--muted); font-size: 0.85rem; }
+nav.brand-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 6px; }
+nav.brand-tabs a {
+  padding: 6px 14px; border-radius: 8px; border: 1px solid var(--border);
+  background: #fff; color: var(--ink); text-decoration: none; font-size: 0.9rem;
+}
+nav.brand-tabs a:hover { border-color: var(--forest); }
+nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+/* ---------- Scaled catalog: 分類導航 ---------- */
+nav.cat-nav {
+  display: flex; gap: 4px; flex-wrap: wrap; margin: 16px 0 4px;
+  padding-top: 12px; border-top: 1px solid var(--border);
+}
+nav.cat-nav a {
+  padding: 7px 14px; border-radius: 8px; border: 1px solid transparent;
+  color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 600;
+  transition: all .12s ease;
+}
+nav.cat-nav a:hover { color: var(--forest); background: #f2eee4; }
+nav.cat-nav a.active { color: var(--forest); background: #e9f0e9; border-color: var(--border); }
+nav.cat-nav .cat-count { color: var(--terracotta); font-weight: 700; font-size: .78rem; margin-left: 3px; }
+/* 分類英雄 / 區塊 */
+.cat-hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 22px 26px; margin-bottom: 26px; }
+.cat-hero h1.page { margin-bottom: 6px; }
+.cat-hero p { color: var(--muted); max-width: 72ch; }
+.cat-block { margin-bottom: 34px; }
+.cat-block-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.cat-block-head h2 { margin-top: 0; border: none; }
+.cat-block-head .cat-desc { color: var(--muted); font-size: .9rem; }
+.cat-block-head .cat-jump { color: var(--forest); font-size: .85rem; text-decoration: none; font-weight: 600; }
+/* 搜尋 */
+.searchbar { max-width: 640px; margin: 20px 0 6px; position: relative; }
+.searchbar input {
+  width: 100%; padding: 13px 18px 13px 44px; border: 1px solid var(--border);
+  border-radius: 12px; font-size: 1rem; background: #fff; color: var(--ink);
+  outline: none; transition: border-color .12s ease, box-shadow .12s ease;
+}
+.searchbar input:focus { border-color: var(--forest); box-shadow: 0 0 0 3px rgba(62,92,75,.12); }
+.searchbar .search-icon {
+  position: absolute; left: 15px; top: 50%; transform: translateY(-50%);
+  color: var(--muted); font-size: 1.05rem; pointer-events: none;
+}
+.search-hint { color: var(--muted); font-size: .82rem; margin: 8px 2px 0; }
+/* 分類品牌卡（有縮圖） */
+.brand-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 16px; }
+.brand-card {
+  display: flex; gap: 14px; align-items: stretch; background: var(--card);
+  border: 1px solid var(--border); border-radius: 12px; padding: 14px;
+  text-decoration: none; color: var(--ink); transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.brand-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.brand-card .b-thumb {
+  width: 84px; min-width: 84px; height: 84px; border-radius: 9px; overflow: hidden;
+  background: #eee7db; display: flex; align-items: center; justify-content: center;
+}
+.brand-card .b-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.brand-card .b-thumb .noimg { color: var(--muted); font-size: 1.5rem; }
+.brand-card .b-body { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.brand-card .b-name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1rem; line-height: 1.35; }
+.brand-card .b-zh { color: var(--muted); font-size: .8rem; }
+.brand-card .b-desc { color: var(--muted); font-size: .82rem; margin-top: 5px; flex: 1; }
+.brand-card .b-meta { display: flex; align-items: center; gap: 8px; margin-top: 9px; flex-wrap: wrap; }
+.brand-card .b-count { color: var(--terracotta); font-weight: 700; font-size: .82rem; }
+.brand-card .lic-row { display: flex; gap: 4px; flex-wrap: wrap; }
+/* 過濾隱藏（搜尋用） */
+.filter-hidden { display: none !important; }
+.no-result { display: none; color: var(--muted); padding: 24px; text-align: center; }
+
+.breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
+.breadcrumb a { color: var(--forest); text-decoration: none; }
+h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }
+h2 { font-family: "Noto Serif TC", Georgia, serif; color: var(--forest);
+     font-size: 1.25rem; margin: 34px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+h3 { color: var(--ink); font-size: 1.05rem; margin: 20px 0 8px; }
+p { margin: 8px 0; }
+ul, ol { margin: 8px 0 8px 24px; }
+li { margin: 4px 0; }
+blockquote { border-left: 3px solid var(--terracotta); background: #fffdf9;
+             padding: 8px 14px; margin: 10px 0; color: var(--ink); border-radius: 0 6px 6px 0; }
+a { color: var(--forest); }
+.meta-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.92rem; }
+.meta-table td { padding: 7px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.meta-table td:first-child { width: 34%; color: var(--muted); font-weight: 600; }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+.badge.pd { background: #dcebdd; color: #2c5e3a; }
+.badge.cc { background: #dfe7f5; color: #2c4a7c; }
+.badge.partial { background: #f5e8d3; color: #8a5a1e; }
+.badge.verify { background: #f4dcd9; color: #963a2e; }
+.lic-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.character-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 18px; }
+.character-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 16px; text-decoration: none; color: var(--ink); display: block;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.character-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.character-card .name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1.05rem; }
+.character-card .thumb { width: 100%; height: 120px; overflow: hidden; border-radius: 8px; margin-bottom: 10px; background: #eee7db; }
+.character-card .thumb img { width: 100%; height: 100%; object-fit: cover; }
+.character-card .zh { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
+.character-card .desc { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+.character-card .badge { margin-top: 10px; }
+.copyright-box { background: #f2efea; border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
+.copyright-box h3 { color: var(--terracotta); margin-top: 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: .04em; }
+.copyright-box ul { margin-left: 20px; }
+.char-hero { display: flex; gap: 22px; align-items: flex-start; margin-bottom: 24px; flex-wrap: wrap; }
+.char-hero img { width: 280px; max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--border); background:#fff; }
+.char-hero .captions { flex: 1; min-width: 220px; font-size: 0.85rem; color: var(--muted); }
+.char-hero .captions p { margin: 4px 0; }
+.img-credit { font-size: 0.75rem; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+.img-credit a { color: var(--forest); }
+.footer-note { color: var(--muted); font-size: 0.8rem; margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--border); }
+.hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 26px; margin-bottom: 28px; }
+.hero h2 { border: none; margin-top: 0; font-size: 1.5rem; }
+.hero p { color: var(--muted); max-width: 70ch; }
+.stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
+.stat { font-size: 0.9rem; }
+.stat b { color: var(--forest); font-size: 1.2rem; }
+/* 配角 / 路人互動面板 */
+.support-panel { margin-top: 22px; display: grid; gap: 10px; }
+.support-item { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.support-item summary {
+  cursor: pointer; padding: 13px 18px; list-style: none; display: flex; align-items: center; gap: 12px;
+  font-weight: 600; color: var(--ink); transition: background .12s ease; user-select: none;
+}
+.support-item summary::-webkit-details-marker { display: none; }
+.support-item summary:hover { background: #f3efe6; }
+.support-item summary .caret { color: var(--terracotta); transition: transform .18s ease; margin-left: auto; }
+.support-item[open] summary .caret { transform: rotate(90deg); }
+.support-item summary .sup-name { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.05rem; }
+.support-item summary .sup-type { font-size: .72rem; color: var(--forest); background: var(--tag-bg); padding: 2px 10px; border-radius: 20px; font-weight: 600; }
+.support-item summary .sup-zh { color: var(--muted); font-size: .85rem; font-weight: 400; }
+.support-body { padding: 4px 18px 16px; border-top: 1px solid var(--tag-bg); }
+.support-body .sup-relation { margin: 10px 0 4px; color: var(--forest); font-size: .88rem; font-weight: 600; }
+.support-body p, .support-body ul { font-size: .92rem; margin: 6px 0; }
+.support-body .sup-label { color: var(--terracotta); font-weight: 700; font-size: .8rem; letter-spacing: .03em; margin-top: 10px; text-transform: uppercase; }
+.support-body blockquote { font-size: .9rem; }
+.support-hint { color: var(--muted); font-size: .85rem; margin-top: 6px; }
+/* 參考圖庫（動畫用多角度） */
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-top: 18px; }
+.gallery figure { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 0; }
+.gallery figure img { width: 100%; height: 170px; object-fit: cover; display: block; background: #fff; }
+.gallery figcaption { padding: 8px 12px; font-size: .82rem; color: var(--ink); }
+.gallery figcaption .g-angle { font-weight: 700; color: var(--forest); }
+.gallery figcaption .g-meta { color: var(--muted); font-size: .72rem; margin-top: 3px; }
+.gallery-hint { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+/* ---------- Lightbox ---------- */
+.lightbox { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.88); cursor: zoom-out; }
+.lightbox.open { display: flex; align-items: center; justify-content: center; }
+.lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; background: #000; border-radius: 6px; box-shadow: 0 8px 40px rgba(0,0,0,.6); }
+.lightbox .lb-cap { position: absolute; bottom: 18px; left: 0; right: 0; text-align: center; color: #ddd; font-size: .85rem; padding: 0 20px; }
+.lightbox .lb-close { position: absolute; top: 14px; right: 22px; color: #fff; font-size: 2rem; line-height: 1; cursor: pointer; }
+a.zoom { display: inline-block; cursor: zoom-in; }
+.gallery figure img { cursor: zoom-in; }
+</style></head><body>
+<header class="site"><div class="wrap">
+  <h1><a href="../index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
+  <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
+</div><nav class="cat-nav"><a href="../index.html" class="">全部 <span class="cat-count">78</span></a><a href="../category/japanese.html" class="">日式動漫 · 浮世繪 <span class="cat-count">10</span></a><a href="../category/comics.html" class="">公版卡通 · 連環漫畫 <span class="cat-count">27</span></a><a href="../category/art.html" class="">世界名畫 · 藝術風格 <span class="cat-count">14</span></a><a href="../category/world.html" class="">世界文化 · 地標 · 自然 <span class="cat-count">16</span></a><a href="../category/scenes.html" class="">場景 · 道具 · 角色原型 <span class="cat-count">5</span></a><a href="../category/opensource.html" class="active">開源 · 素材包 <span class="cat-count">6</span></a></nav></header>
+<div class="wrap"><div class="breadcrumb"><a href="../index.html">全部品牌</a> › 開源 · 素材包</div><div class="cat-hero"><h1 class="page">開源 · 素材包 <span style="color:var(--muted);font-size:1rem;font-weight:400">6 品牌 · 107 角色</span></h1><p>開源吉祥物、CC0 原創角色、免費素材來源</p></div><div class="searchbar"><span class="search-icon">⌕</span>
+      <input type="text" id="brand-search" placeholder="搜尋品牌 / 角色名… (e.g. 北齋, 妖怪, Popeye)" autocomplete="off"></div>
+      <div class="search-hint">搜尋會即時篩選以下品牌（比對品牌名＋旗下角色名）。</div><div class="wrap"><div class="brand-grid"><div data-search="Animation Backgrounds (General) 動畫背景素材（通用） 復古太空船（Retro Spaceship） 阿拉斯加極光（Aurora） 居家臥室（Home Bedroom） 山丘城堡（Castle on Hill） 奇幻世界（Fantasy World） 中世紀房屋包 中世紀村莊 MegaKit 暮色山脈（Mountain at Dusk） 科幻背景（Sci-Fi） 伺服器機房（Server Room） 太空背景集（Space） 太空船內部（Spaceship Interior） 星空之夜（Starry Night） 海底潛水（Underwater） 城市景觀（Urban Landscape）"><a class="brand-card" href="../brands/animation-backgrounds-general/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/bg-retro-spaceship.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Animation Backgrounds (General)</div>
+    <div class="b-zh">動畫背景素材（通用）</div>
+    <div class="b-desc">2000s-</div>
+    <div class="b-meta">
+      <span class="b-count">15 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span> <span class="badge pd">✔ 公版</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Blender Open Movies Blender 開放電影角色 Big Buck Bunny Koro Oti Sintel"><a class="brand-card" href="../brands/blender-open-movies/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/big-buck-bunny.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Blender Open Movies</div>
+    <div class="b-zh">Blender 開放電影角色</div>
+    <div class="b-desc">2006-</div>
+    <div class="b-meta">
+      <span class="b-count">4 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="CC0 Original Characters CC0 原創角色（社群） Duskako Flyman Stand Spikeman Stand Lexi 2D Samurai Chibi Anime Characters Generic Anime Face Anime Female Body Anime Girl Portrait Anime Girl Walk Anime Portraits Base Male Fighter Box Warrior Set Cartoon Space Robot Chibi Monsters Set 01 Chibi RPG Characters Chibi Swordman Cute Girl Sprites Cartoon Dinosaur Characters Fox Bases Character Sheet LPC Barbarian Base Magic Girl Anime Male Warrior Sprite Mecha Model Full Mechs 64x64 Modular 64x Robots Ninja Adventure Sprite Ninja NPC Sprite Sheet Pepper&amp;Carrot Characters Pixel Rabbit People Robot Character Space Ship &amp; Mech Kit Trainee Knight White Probe Bot Youji Bot Routhwick the Tanuki SODABYTES Kemono Furry Theophilus Xenia the Linux Vixen Zora the Snep"><a class="brand-card" href="../brands/cc0-original-characters/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/duskako.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">CC0 Original Characters</div>
+    <div class="b-zh">CC0 原創角色（社群）</div>
+    <div class="b-desc">2010s-</div>
+    <div class="b-meta">
+      <span class="b-count">40 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY-SA</span> <span class="badge cc">CC0</span> <span class="badge cc">CC-BY</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Free Asset Sources 自由素材來源庫 Kenney Blocky Characters Kenney Mini Characters Kenney Platformer Characters Kenney Toon Characters Quaternius Animated Mech Quaternius Sushi Restaurant Kit Quaternius Ultimate Character Pack"><a class="brand-card" href="../brands/free-asset-sources/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/kenney-blocky-characters.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Free Asset Sources</div>
+    <div class="b-zh">自由素材來源庫</div>
+    <div class="b-desc">2010s-</div>
+    <div class="b-meta">
+      <span class="b-count">7 角色</span>
+      <span class="lic-row"><span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="Open-Source Mascots 開放源碼吉祥物 Kiki the Cyber Human Wapuu"><a class="brand-card" href="../brands/open-source-mascots/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/kiki.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">Open-Source Mascots</div>
+    <div class="b-zh">開放源碼吉祥物</div>
+    <div class="b-desc">2000s-</div>
+    <div class="b-meta">
+      <span class="b-count">2 角色</span>
+      <span class="lic-row"><span class="badge cc">CC-BY</span> <span class="badge cc">CC0</span></span>
+    </div>
+  </div>
+</a></div><div data-search="OSS Software Mascots 開源軟體吉祥物 Ansible Arch Linux Captain Kube（K8s 指揮官） Clojure Apache CouchDB Dart Docker Moby Elasticsearch Elixir GNU Emacs Erlang Geeko（openSUSE） Git Go Logo Goldie（Go Gopher） Hazel（Helm 刺蝟） Java Duke Julia Kodee（Kotlin 吉祥物） Linky（Linkerd 龍蝦） Lua MariaDB MongoDB Nim Node.js OCaml Phippy（K8s 長頸鹿） Python R Redis Ruby Sakila（MySQL 海豚） Scala Slonik（PostgreSQL 大象） SQLite Swift TypeScript Vim Zee（etcd 鰻魚）"><a class="brand-card" href="../brands/oss-software-mascots/index.html">
+  <div class="b-thumb"><img src="../assets/img/thumbs/oss-ansible.jpg" alt="" loading="lazy"></div>
+  <div class="b-body">
+    <div class="b-name">OSS Software Mascots</div>
+    <div class="b-zh">開源軟體吉祥物</div>
+    <div class="b-desc">1990s-2010s</div>
+    <div class="b-meta">
+      <span class="b-count">39 角色</span>
+      <span class="lic-row"><span class="badge pd">✔ 公版</span> <span class="badge verify">❓ 需核實</span> <span class="badge cc">CC-BY</span> <span class="badge verify">❓ 需核實</span> <span class="badge cc">CC-BY-SA</span> <span class="badge verify">❓ 需核實</span> <span class="badge verify">❓ 需核實</span> <span class="badge verify">❓ 需核實</span></span>
+    </div>
+  </div>
+</a></div></div><div class="no-result" id="no-result">搵唔到符合嘅品牌 / 角色。</div></div></div><div class="wrap">
+  <div class="footer-note">
+    Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
+  </div>
+</div>
+<div class="lightbox" id="lightbox" aria-hidden="true"><span class="lb-close" id="lb-close">&times;</span><img src="" alt="" id="lb-img"><div class="lb-cap" id="lb-cap"></div></div>
+<script>
+(function(){
+  var lb=document.getElementById('lightbox'), img=document.getElementById('lb-img'), cap=document.getElementById('lb-cap');
+  function open(src,alt){ img.src=src; img.alt=alt; cap.textContent=alt; lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); }
+  function close(){ lb.classList.remove('open'); img.src=''; lb.setAttribute('aria-hidden','true'); }
+  document.addEventListener('click', function(e){
+    var t=e.target.closest('a.zoom, .gallery figure img, .char-hero img');
+    if(t && t.tagName!=='IMG'){ t=e.target; }
+    if(t && t.tagName==='IMG' && (t.closest('a.zoom') || t.closest('.gallery') || t.closest('.char-hero'))){
+      e.preventDefault(); var src=t.getAttribute('data-full')||t.currentSrc||t.src;
+      open(src, t.getAttribute('alt')||'');
+    }
+  });
+  lb.addEventListener('click', function(e){ if(e.target===lb||e.target.id==='lb-close') close(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+})();
+</script>
+<script>
+(function(){
+  var box=document.getElementById('brand-search');
+  if(!box) return;
+  box.addEventListener('input', function(){
+    var q=box.value.trim().toLowerCase();
+    var cards=document.querySelectorAll('.brand-card');
+    var any=false;
+    cards.forEach(function(c){
+      var holder=c.parentElement;
+      var hay=(holder&&holder.getAttribute('data-search')||'').toLowerCase();
+      var show=!q||hay.indexOf(q)!==-1;
+      holder.classList.toggle('filter-hidden', !show);
+      if(show) any=true;
+    });
+    var blocks=document.querySelectorAll('.cat-block');
+    blocks.forEach(function(bl){
+      var hasVisible=[].some.call(bl.querySelectorAll('.brand-card'), function(c){return !c.parentElement.classList.contains('filter-hidden');});
+      bl.classList.toggle('filter-hidden', !hasVisible && q!=='');
+      if(hasVisible) any=true;
+    });
+    var nr=document.getElementById('no-result');
+    if(nr) nr.style.display = q && !any ? 'block' : 'none';
+  });
+})();
+</script>

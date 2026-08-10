@@ -19,6 +19,65 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "brands"
 OUT = ROOT / "docs"
 
+# ---------- 分類系統（scaled catalog：78 brands → 6 個頂層分類） ----------
+CATEGORIES = [
+    {"slug": "japanese", "name": "日式動漫 · 浮世繪",
+     "desc": "浮世繪大師、日本妖怪、動漫設計圖與背景、和風藝術"},
+    {"slug": "comics", "name": "公版卡通 · 連環漫畫",
+     "desc": "黃金年代報紙漫畫、默片動畫、童話與公版角色"},
+    {"slug": "art", "name": "世界名畫 · 藝術風格",
+     "desc": "大師名畫、藝術運動、雕塑版畫、科幻藝術"},
+    {"slug": "world", "name": "世界文化 · 地標 · 自然",
+     "desc": "古文明、地標建築、動物植物、自然史、服飾"},
+    {"slug": "scenes", "name": "場景 · 道具 · 角色原型",
+     "desc": "背景、職業角色、道具武器、節慶、動態手勢"},
+    {"slug": "opensource", "name": "開源 · 素材包",
+     "desc": "開源吉祥物、CC0 原創角色、免費素材來源"},
+]
+
+# slug → 分類（明確、deterministic）
+BRAND_CATEGORY = {
+    "japanese-anime-backgrounds": "japanese", "japanese-anime-design-sheets": "japanese",
+    "japanese-anime-extra-sources": "japanese", "japanese-anime-style-reference": "japanese",
+    "japanese-art-collection": "japanese", "japanese-theme-illustrations": "japanese",
+    "japanese-yokai": "japanese", "ukiyoe-nouveau-fantasy-markets": "japanese",
+    "wildlife-ukiyoe-childrens-mood": "japanese", "regional-architecture-japan-celestials": "japanese",
+    "vintage-comic-strips": "comics", "pd-animation-1920s30s": "comics",
+    "pd-childrens-book-illustrators": "comics", "pd-golden-age-superheroes": "comics",
+    "pd-literature-folklore": "comics", "fairy-tales-mythology": "comics",
+    "international-pd-characters": "comics", "winnie-the-pooh": "comics", "disney-silent": "comics",
+    "barney-google": "comics", "buck-rogers": "comics", "buster-brown": "comics",
+    "felix-the-cat": "comics", "fleischer-betty-boop": "comics", "happy-hooligan": "comics",
+    "jiggs": "comics", "katzenjammer-kids": "comics", "krazy-kat": "comics",
+    "little-nemo": "comics", "mutt-jeff": "comics", "olive-oyl": "comics", "oswald": "comics",
+    "polly-pals": "comics", "popeye": "comics", "skippy": "comics", "andy-gump": "comics",
+    "yellow-kid": "comics",
+    "art-movements-mythical-cuisine": "art", "cityscapes-historical-scenes": "art",
+    "egyptian-greek-roman-antiquity": "art", "global-art-traditions-props-science": "art",
+    "historical-props-golden-age": "art", "marine-masterpieces-astronomy": "art",
+    "master-paintings-cities-marine": "art", "master-paintings-natural-wonders-mythical": "art",
+    "masterpieces-cities-archetypes-feasts": "art", "masterpieces-cities-fauna-mythical": "art",
+    "realism-postimpressionism-masterpieces": "art", "scifi-art-dramatic-scenes": "art",
+    "non-western-mythology": "art", "retro-modern-instruments-marine-cities": "art",
+    "ancient-civilizations-performance-scripts": "world", "ancient-traditions-interiors-flora": "world",
+    "costumes-landscapes-work-animals-props": "world", "dance-instruments-crafts-festivals": "world",
+    "flags-interiors-landmarks-biomes": "world", "global-cultural-traditions-landmarks": "world",
+    "landmarks-exotic-fauna-japanese-culture": "world", "maya-landmarks-american-natural-history": "world",
+    "natural-history-chinese-culture-architecture": "world", "regional-landmarks-global-fauna-art": "world",
+    "sculpture-engraving-fauna-sports": "world", "textiles-heraldry-ships-weapons": "world",
+    "vehicles-landmarks": "world", "world-architecture-flora-cuisine-weather": "world",
+    "world-costumes-asian-folk-art": "world", "anthropomorphic-animals": "world",
+    "genre-life-trades-legendary-heroes": "scenes", "motion-emotion-hands-silhouette": "scenes",
+    "musicians-scientists-performing": "scenes", "occupations-monsters": "scenes",
+    "props-weapons": "scenes",
+    "open-source-mascots": "opensource", "oss-software-mascots": "opensource",
+    "cc0-original-characters": "opensource", "free-asset-sources": "opensource",
+    "blender-open-movies": "opensource", "animation-backgrounds-general": "opensource",
+}
+
+def brand_category(b):
+    return BRAND_CATEGORY.get(b["slug"], "art")
+
 # ---------- Design tokens (casual-professional editorial) ----------
 CSS = """\
 :root {
@@ -59,6 +118,66 @@ nav.brand-tabs a {
 }
 nav.brand-tabs a:hover { border-color: var(--forest); }
 nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+/* ---------- Scaled catalog: 分類導航 ---------- */
+nav.cat-nav {
+  display: flex; gap: 4px; flex-wrap: wrap; margin: 16px 0 4px;
+  padding-top: 12px; border-top: 1px solid var(--border);
+}
+nav.cat-nav a {
+  padding: 7px 14px; border-radius: 8px; border: 1px solid transparent;
+  color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 600;
+  transition: all .12s ease;
+}
+nav.cat-nav a:hover { color: var(--forest); background: #f2eee4; }
+nav.cat-nav a.active { color: var(--forest); background: #e9f0e9; border-color: var(--border); }
+nav.cat-nav .cat-count { color: var(--terracotta); font-weight: 700; font-size: .78rem; margin-left: 3px; }
+/* 分類英雄 / 區塊 */
+.cat-hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 22px 26px; margin-bottom: 26px; }
+.cat-hero h1.page { margin-bottom: 6px; }
+.cat-hero p { color: var(--muted); max-width: 72ch; }
+.cat-block { margin-bottom: 34px; }
+.cat-block-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.cat-block-head h2 { margin-top: 0; border: none; }
+.cat-block-head .cat-desc { color: var(--muted); font-size: .9rem; }
+.cat-block-head .cat-jump { color: var(--forest); font-size: .85rem; text-decoration: none; font-weight: 600; }
+/* 搜尋 */
+.searchbar { max-width: 640px; margin: 20px 0 6px; position: relative; }
+.searchbar input {
+  width: 100%; padding: 13px 18px 13px 44px; border: 1px solid var(--border);
+  border-radius: 12px; font-size: 1rem; background: #fff; color: var(--ink);
+  outline: none; transition: border-color .12s ease, box-shadow .12s ease;
+}
+.searchbar input:focus { border-color: var(--forest); box-shadow: 0 0 0 3px rgba(62,92,75,.12); }
+.searchbar .search-icon {
+  position: absolute; left: 15px; top: 50%; transform: translateY(-50%);
+  color: var(--muted); font-size: 1.05rem; pointer-events: none;
+}
+.search-hint { color: var(--muted); font-size: .82rem; margin: 8px 2px 0; }
+/* 分類品牌卡（有縮圖） */
+.brand-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 16px; }
+.brand-card {
+  display: flex; gap: 14px; align-items: stretch; background: var(--card);
+  border: 1px solid var(--border); border-radius: 12px; padding: 14px;
+  text-decoration: none; color: var(--ink); transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.brand-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.brand-card .b-thumb {
+  width: 84px; min-width: 84px; height: 84px; border-radius: 9px; overflow: hidden;
+  background: #eee7db; display: flex; align-items: center; justify-content: center;
+}
+.brand-card .b-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.brand-card .b-thumb .noimg { color: var(--muted); font-size: 1.5rem; }
+.brand-card .b-body { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.brand-card .b-name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1rem; line-height: 1.35; }
+.brand-card .b-zh { color: var(--muted); font-size: .8rem; }
+.brand-card .b-desc { color: var(--muted); font-size: .82rem; margin-top: 5px; flex: 1; }
+.brand-card .b-meta { display: flex; align-items: center; gap: 8px; margin-top: 9px; flex-wrap: wrap; }
+.brand-card .b-count { color: var(--terracotta); font-weight: 700; font-size: .82rem; }
+.brand-card .lic-row { display: flex; gap: 4px; flex-wrap: wrap; }
+/* 過濾隱藏（搜尋用） */
+.filter-hidden { display: none !important; }
+.no-result { display: none; color: var(--muted); padding: 24px; text-align: center; }
+
 .breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
 .breadcrumb a { color: var(--forest); text-decoration: none; }
 h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }
@@ -228,6 +347,57 @@ def _license_code(cm):
         return "公版"
     return "需核實"
 
+def brand_card(b, prefix=""):
+    """有縮圖嘅品牌卡（scaled catalog 首頁/分類頁用）。"""
+    thumb = IMAGES.get(b["slug"], {}).get("file")
+    if not thumb:
+        for c in characters.get(b["slug"], []):
+            thumb = IMAGES.get(c["slug"], {}).get("file")
+            if thumb: break
+    n = len(characters.get(b["slug"], []))
+    thumb_html = (f'<div class="b-thumb"><img src="{prefix}assets/img/{html.escape(_thumb_for(thumb))}" alt="" loading="lazy"></div>'
+                  if thumb else '<div class="b-thumb"><span class="noimg">🎞</span></div>')
+    return f'''<a class="brand-card" href="{prefix}brands/{b["slug"]}/index.html">
+  {thumb_html}
+  <div class="b-body">
+    <div class="b-name">{html.escape(b["name"])}</div>
+    <div class="b-zh">{html.escape(b.get("brand_zh",""))}</div>
+    <div class="b-desc">{html.escape(str(b.get("era",""))) }</div>
+    <div class="b-meta">
+      <span class="b-count">{n} 角色</span>
+      <span class="lic-row">{brand_license_badges(b)}</span>
+    </div>
+  </div>
+</a>'''
+
+# Client-side 搜尋：篩選所有 .brand-card（data-search 含品牌+角色名）
+SEARCH_JS = """<script>
+(function(){
+  var box=document.getElementById('brand-search');
+  if(!box) return;
+  box.addEventListener('input', function(){
+    var q=box.value.trim().toLowerCase();
+    var cards=document.querySelectorAll('.brand-card');
+    var any=false;
+    cards.forEach(function(c){
+      var holder=c.parentElement;
+      var hay=(holder&&holder.getAttribute('data-search')||'').toLowerCase();
+      var show=!q||hay.indexOf(q)!==-1;
+      holder.classList.toggle('filter-hidden', !show);
+      if(show) any=true;
+    });
+    var blocks=document.querySelectorAll('.cat-block');
+    blocks.forEach(function(bl){
+      var hasVisible=[].some.call(bl.querySelectorAll('.brand-card'), function(c){return !c.parentElement.classList.contains('filter-hidden');});
+      bl.classList.toggle('filter-hidden', !hasVisible && q!=='');
+      if(hasVisible) any=true;
+    });
+    var nr=document.getElementById('no-result');
+    if(nr) nr.style.display = q && !any ? 'block' : 'none';
+  });
+})();
+</script>"""
+
 def brand_license_badges(b):
     """聚合品牌旗下所有角色出現過嘅授權碼（去重），顯示晒出嚟。"""
     seen, out = [], []
@@ -247,14 +417,25 @@ def render_md(text):
     MD.reset()
     return MD.convert(text or "")
 
-def header(title, active_brand=None, page_zh="", jsonld=None, prefix=""):
+def _cat_nav(active_cat=None, prefix=""):
+    """分類導航（scaled catalog 用）— 6 個頂層分類 + 角色數統計。"""
+    links = [f'<a href="{prefix}index.html" class="{"" if active_cat != "all" else "active"}">全部 <span class="cat-count">{len(brands)}</span></a>']
+    for cat in CATEGORIES:
+        n = _cat_brand_count(cat["slug"])
+        cls = "active" if active_cat == cat["slug"] else ""
+        links.append(f'<a href="{prefix}category/{cat["slug"]}.html" class="{cls}">{html.escape(cat["name"])} <span class="cat-count">{n}</span></a>')
+    return f'<nav class="cat-nav">{"".join(links)}</nav>'
+
+def _cat_brand_count(slug):
+    return sum(1 for b in brands.values() if brand_category(b) == slug)
+
+def header(title, active_brand=None, page_zh="", jsonld=None, prefix="", active_cat=None):
     """統一導航 header。prefix 係由當前頁面到 site root 嘅相對路徑：
     根頁 = ''（空），品牌/角色頁 = '../../'。所有連結經 prefix 保證正確。"""
-    brand_links = []
-    for brand in sorted(brands.values(), key=lambda b: b["name"].lower()):
-        cls = "active" if active_brand and brand["slug"] == active_brand else ""
-        brand_links.append(f'<a href="{prefix}brands/{brand["slug"]}/" class="{cls}">{html.escape(brand["name"])}</a>')
-    nav = f'<nav class="brand-tabs">{"".join(brand_links)}</nav>'
+    # 若喺品牌/角色頁，highlight 對應分類
+    if active_cat is None and active_brand and active_brand in brands:
+        active_cat = brand_category(brands[active_brand])
+    nav = _cat_nav(active_cat=active_cat, prefix=prefix)
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
     return f"""<!DOCTYPE html><html lang="zh-Hant"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -265,6 +446,13 @@ def header(title, active_brand=None, page_zh="", jsonld=None, prefix=""):
   <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
 </div>{nav}</header>
 """
+
+def _zh_suffix(c, in_card=True):
+    """若 character_zh 同 name 唔同先輸出中文名，避免重複。"""
+    zh = (c.get("character_zh") or "").strip()
+    if not zh or zh == (c.get("name") or "").strip():
+        return ""
+    return f'<span class="zh">{html.escape(zh)}</span>'
 
 def page_brand_index(brand):
     """品牌頁：列出旗下角色。"""
@@ -289,7 +477,7 @@ def page_brand_index(brand):
             thumb_html = f'<div class="thumb"><img src="../../assets/img/{html.escape(thumb)}" alt=""></div>' if thumb else ''
             body.append(f'''<a class="character-card" href="{c["slug"]}.html">
               {thumb_html}
-              <div><span class="name">{html.escape(c["name"])}</span><span class="zh">{html.escape(c.get("character_zh",""))}</span></div>
+              <div><span class="name">{html.escape(c["name"])}</span>{_zh_suffix(c)}</div>
               <div class="desc">{html.escape(c.get("role",""))}</div>
               {license_badge(c)}
             </a>''')
@@ -324,7 +512,7 @@ def page_brand_index(brand):
 def page_character(brand, c):
     slug = c["slug"]
     body = [f'<div class="wrap"><div class="breadcrumb"><a href="../../index.html">全部品牌</a> › <a href="index.html">{html.escape(brand["name"])}</a> › {html.escape(c["name"])}</div>']
-    body.append(f'<h1 class="page">{html.escape(c["name"])} <span style="color:var(--muted);font-size:1rem;font-weight:400">{html.escape(c.get("character_zh",""))}</span></h1>')
+    body.append(f'<h1 class="page">{html.escape(c["name"])} {_zh_suffix(c)}</h1>')
     # 角色圖片 + 來源
     # 角色頁面圖像：先睇角色 slug，冇就 fallback 到品牌 slug
     img = IMAGES.get(slug) or IMAGES.get(brand["slug"])
@@ -567,28 +755,67 @@ def load():
             chars.append(cm)
         characters[meta["slug"]] = chars
 
+def page_category(cat):
+    """分類索引頁：列出該分類下所有品牌（有縮圖 + 即時搜尋）。"""
+    members = sorted([b for b in brands.values() if brand_category(b) == cat["slug"]],
+                     key=lambda x: x["name"].lower())
+    total_chars = sum(len(characters.get(b["slug"], [])) for b in members)
+    body = [f'<div class="wrap"><div class="breadcrumb"><a href="../index.html">全部品牌</a> › {html.escape(cat["name"])}</div>']
+    body.append(f'<div class="cat-hero"><h1 class="page">{html.escape(cat["name"])} <span style="color:var(--muted);font-size:1rem;font-weight:400">{len(members)} 品牌 · {total_chars} 角色</span></h1>')
+    body.append(f'<p>{html.escape(cat["desc"])}</p></div>')
+    body.append(f'''<div class="searchbar"><span class="search-icon">⌕</span>
+      <input type="text" id="brand-search" placeholder="搜尋品牌 / 角色名… (e.g. 北齋, 妖怪, Popeye)" autocomplete="off"></div>
+      <div class="search-hint">搜尋會即時篩選以下品牌（比對品牌名＋旗下角色名）。</div>''')
+    body.append('<div class="wrap"><div class="brand-grid">')
+    for b in members:
+        search_terms = b["name"] + " " + b.get("brand_zh", "") + " " + \
+                       " ".join(c.get("name", "") for c in characters.get(b["slug"], []))
+        body.append(f'<div data-search="{html.escape(search_terms)}">{brand_card(b, "../")}</div>')
+    body.append('</div><div class="no-result" id="no-result">搵唔到符合嘅品牌 / 角色。</div></div>')
+    body.append('</div>')
+    return "".join(body)
+
 def build():
     load()
     OUT.mkdir(parents=True, exist_ok=True)
     _ensure_thumbs()  # 先生成 thumbnail，HTML 先會引用 thumbs/
-    # index
-    idx = [header("全部品牌")]
-    idx.append('<div class="wrap"><div class="hero"><h2>自由創作卡通素材庫</h2>')
-    idx.append('<p>收集網上現屬公版 / 自由使用、過去受歡迎嘅卡通人物同素材，方便自由創作者攞嚟做 AI 創意。以「劇集品牌 → 角色」分類，每項齊備圖片、場景、文字、性格、對話等素材。</p>')
     total_chars = sum(len(v) for v in characters.values())
-    idx.append(f'<div class="stat-row"><div class="stat"><b>{len(brands)}</b> 個品牌</div><div class="stat"><b>{total_chars}</b> 個角色</div></div>')
+    # ---- index（分類分區 + 搜尋） ----
+    idx = [header("全部品牌", active_cat="all")]
+    idx.append('<div class="wrap"><div class="hero"><h2>自由創作卡通素材庫</h2>')
+    idx.append('<p>收集網上現屬公版 / 自由使用、過去受歡迎嘅卡通人物同素材，方便自由創作者攞嚟做 AI 創意。以「分類 → 品牌 → 角色」三層瀏覽，每項齊備圖片、場景、文字、性格、對話等素材。</p>')
+    idx.append(f'<div class="stat-row"><div class="stat"><b>{len(brands)}</b> 個品牌</div><div class="stat"><b>{total_chars}</b> 個角色</div><div class="stat"><b>{len(CATEGORIES)}</b> 個分類</div></div>')
     idx.append('</div>')
-    idx.append('<h2 style="margin-left:22px">全部品牌</h2>')
-    idx.append('<div class="wrap"><div class="character-grid">')
-    for b in sorted(brands.values(), key=lambda x: x["name"].lower()):
-        n = len(characters.get(b["slug"], []))
-        idx.append(f'<a class="character-card" href="brands/{b["slug"]}/index.html">'
-                   f'<div><span class="name">{html.escape(b["name"])}</span><span class="zh">{html.escape(b.get("brand_zh",""))}</span></div>'
-                   f'<div class="desc">{html.escape(b.get("era",""))} · {n} 個角色</div>'
-                   f'<div class="lic-row">{brand_license_badges(b)}</div></a>')
-    idx.append('</div></div>')
-    idx.append(PAGE_FOOT)
+    idx.append(f'''<div class="searchbar"><span class="search-icon">⌕</span>
+      <input type="text" id="brand-search" placeholder="搜尋品牌 / 角色名… (e.g. 北齋, 妖怪, Popeye)" autocomplete="off"></div>
+      <div class="search-hint">搜尋會即時篩選以下分類同品牌（比對品牌名＋旗下角色名）。</div>''')
+    # 每個分類一個區塊
+    for cat in CATEGORIES:
+        members = sorted([b for b in brands.values() if brand_category(b) == cat["slug"]],
+                         key=lambda x: x["name"].lower())
+        if not members: continue
+        cchars = sum(len(characters.get(b["slug"], [])) for b in members)
+        idx.append('<div class="wrap cat-block">')
+        idx.append(f'''<div class="cat-block-head">
+          <h2>{html.escape(cat["name"])} <span style="font-size:.85rem;color:var(--muted);font-weight:400">({len(members)} 品牌 · {cchars} 角色)</span></h2>
+          <span class="cat-desc">{html.escape(cat["desc"])}</span>
+          <a class="cat-jump" href="category/{cat["slug"]}.html">查看全部 →</a></div>''')
+        idx.append('<div class="brand-grid">')
+        for b in members:
+            search_terms = b["name"] + " " + b.get("brand_zh", "") + " " + \
+                           " ".join(c.get("name", "") for c in characters.get(b["slug"], []))
+            idx.append(f'<div data-search="{html.escape(search_terms)}">{brand_card(b)}</div>')
+        idx.append('</div></div>')
+    idx.append('<div class="wrap no-result" id="no-result">搵唔到符合嘅品牌 / 角色。</div>')
+    idx.append(PAGE_FOOT + SEARCH_JS)
     (OUT / "index.html").write_text("".join(idx), encoding="utf-8")
+    # ---- category pages ----
+    cdir = OUT / "category"
+    cdir.mkdir(parents=True, exist_ok=True)
+    for cat in CATEGORIES:
+        htmlout = header(f'{cat["name"]}', active_cat=cat["slug"], prefix="../") \
+                  + page_category(cat) + PAGE_FOOT + SEARCH_JS
+        (cdir / f'{cat["slug"]}.html').write_text(htmlout, encoding="utf-8")
     # brand pages
     for slug, b in brands.items():
         bdir = OUT / "brands" / slug
