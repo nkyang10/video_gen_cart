@@ -6291,10 +6291,10 @@
   },
   "jp-hiroshige-ryogoku": {
     "file": "jp-hiroshige-ryogoku.jpg",
-    "title": "夏夜煙火",
+    "title": "夜觀煙火涼舟",
     "license": "Public domain",
     "artist": "歌川廣重",
-    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Utagawa%20Hiroshige%20-%20Enjoying%20the%20fireworks%20and%20the%20cool%20of%20the%20evening%20at%20Ryogoku%20bridge%20in%20the%20Eastern%20Capital%20-%20Google%20Art%20Project.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Utagawa_Hiroshige_-_Enjoying_the_fireworks_and_the_cool_of_the_evening_at_Ryogoku_bridge_in_the_Eastern_Capital_-_Google_Art_Project.jpg",
     "width": 2349,
     "height": 3508,
     "pd": true
@@ -8097,6 +8097,176 @@
     "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Sphinx_of_Tanis%2C_Paris_alt.jpg",
     "width": 5209,
     "height": 4603,
+    "pd": true
+  },
+  "jp-sharaku-oniji": {
+    "file": "jp-sharaku-oniji.jpg",
+    "title": "役者大谷鬼次特寫",
+    "license": "CC0",
+    "artist": "東洲齋寫樂",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%89%E4%BB%A3%E7%9B%AE%E5%A4%A7%E8%B0%B7%E9%AC%BC%E6%AC%A1%E3%81%AE%E5%A5%B4%E6%B1%9F%E6%88%B8%E5%85%B5%E8%A1%9B-Kabuki_Actor_%C5%8Ctani_Oniji_III_as_Yakko_Edobei_in_the_Play_The_Colored_Reins_of_a_Loving_Wife_%28Koi_ny%C5%8Db%C5%8D_somewake_tazuna%29_MET_DP130228.jpg",
+    "width": 2538,
+    "height": 3799,
+    "pd": true
+  },
+  "jp-toyokuni3-actor": {
+    "file": "jp-toyokuni3-actor.jpg",
+    "title": "役者繪",
+    "license": "Public domain",
+    "artist": "歌川豊國三",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Utagawa_Kunisada_%28Toyokuni_III%29_-_Kabuki_Actor_-_Google_Art_Project.jpg",
+    "width": 1673,
+    "height": 2401,
+    "pd": true
+  },
+  "jp-shunsho-actor": {
+    "file": "jp-shunsho-actor.jpg",
+    "title": "岩井半四郎立姿",
+    "license": "Public domain",
+    "artist": "勝川春章",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Katsukawa_Shunsho_-_Untitled_-_Google_Art_Project.jpg",
+    "width": 2237,
+    "height": 4852,
+    "pd": true
+  },
+  "jp-chikanobu-mirror": {
+    "file": "jp-chikanobu-mirror.jpg",
+    "title": "時代風俗美人",
+    "license": "Public domain",
+    "artist": "楊洲周延",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Y%C5%8Dsh%C5%AB_Chikanobu_Jidai_Kagami_1.jpg",
+    "width": 725,
+    "height": 1070,
+    "pd": true
+  },
+  "jp-hiroshige-snow": {
+    "file": "jp-hiroshige-snow.jpg",
+    "title": "冬雪街景",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiroshige_Snow_falling_on_a_town.jpg",
+    "width": 2843,
+    "height": 1791,
+    "pd": true
+  },
+  "jp-hiroshige-cherry": {
+    "file": "jp-hiroshige-cherry.jpg",
+    "title": "櫻花枝鳥",
+    "license": "Public domain",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiroshige_Cherry_Blossoms.jpg",
+    "width": 1600,
+    "height": 1040,
+    "pd": true
+  },
+  "jp-hiroshige-fireworks2": {
+    "file": "jp-hiroshige-fireworks2.jpg",
+    "title": "兩國橋煙火",
+    "license": "CC0",
+    "artist": "歌川廣重",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%90%8D%E6%89%80%E6%B1%9F%E6%88%B6%E7%99%BE%E6%99%AF_%E4%B8%A1%E5%9B%BD%E8%8A%B1%E7%81%AB-Fireworks_at_Ry%C5%8Dgoku_Bridge%2C_from_the_series_One_Hundred_Famous_Views_of_Edo_MET_DP121524.jpg",
+    "width": 2617,
+    "height": 3921,
+    "pd": true
+  },
+  "jp-shunsho-interior": {
+    "file": "jp-shunsho-interior.jpg",
+    "title": "榻榻米室內",
+    "license": "CC0",
+    "artist": "勝川春章",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Katsukawa_Shunsho_-_Interior_Scene_-_1916.945_-_Cleveland_Museum_of_Art.jpg",
+    "width": 3400,
+    "height": 2416,
+    "pd": true
+  },
+  "jp-chikanobu-ikebana": {
+    "file": "jp-chikanobu-ikebana.jpg",
+    "title": "女子插花",
+    "license": "Public domain",
+    "artist": "楊洲周延",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Y%C5%8Dsh%C5%AB_Chikanobu_Ikebana.jpg",
+    "width": 1065,
+    "height": 535,
+    "pd": true
+  },
+  "jp-chikanobu-june": {
+    "file": "jp-chikanobu-june.jpg",
+    "title": "六月祭行事",
+    "license": "Public domain",
+    "artist": "楊洲周延",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Y%C5%8Dsh%C5%AB_Chikanobu_6th_month.jpg",
+    "width": 900,
+    "height": 1300,
+    "pd": true
+  },
+  "jp-urashima-taro": {
+    "file": "jp-urashima-taro.jpg",
+    "title": "浦島太郎乘龜",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Urashima_Taro_Returning_on_the_Turtle_LACMA_M.84.31.349.jpg",
+    "width": 2100,
+    "height": 1582,
+    "pd": true
+  },
+  "jp-kintaro-carp": {
+    "file": "jp-kintaro-carp.jpg",
+    "title": "金太郎騎鯉",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kintaro_Riding_the_Carp_LACMA_M.84.31.339.jpg",
+    "width": 2080,
+    "height": 1560,
+    "pd": true
+  },
+  "jp-kintaro-giant-carp": {
+    "file": "jp-kintaro-giant-carp.jpg",
+    "title": "金太郎鬥大鯉",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshitoshi_The_Giant_Carp.jpg",
+    "width": 433,
+    "height": 1335,
+    "pd": true
+  },
+  "jp-flying-demon": {
+    "file": "jp-flying-demon.jpg",
+    "title": "飛行之魔鬼",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshitoshi_The_Flying_Demon.jpg",
+    "width": 468,
+    "height": 708,
+    "pd": true
+  },
+  "jp-hidesato": {
+    "file": "jp-hidesato.jpg",
+    "title": "藤原秀鄉",
+    "license": "Public domain",
+    "artist": "月岡芳年",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshitoshi_Fujiwara_no_Hidesato.jpg",
+    "width": 1263,
+    "height": 1869,
+    "pd": true
+  },
+  "jp-kaguya-hime": {
+    "file": "jp-kaguya-hime.jpg",
+    "title": "竹取物語輝夜姬",
+    "license": "Public domain",
+    "artist": "鈴木春信",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaguya_Hime_LACMA_M.2006.136.25.jpg",
+    "width": 1574,
+    "height": 2100,
+    "pd": true
+  },
+  "jp-issun-boshi": {
+    "file": "jp-issun-boshi.jpg",
+    "title": "一寸法師長卷",
+    "license": "Public domain",
+    "artist": "室町繪卷",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tale_of_Issun_B%C5%8Dshi_from_Otogi-z%C5%8Dshi.jpg",
+    "width": 7564,
+    "height": 2860,
     "pd": true
   }
 }

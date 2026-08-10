@@ -3,7 +3,7 @@
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
     "brand_count": 64,
-    "character_count": 861,
+    "character_count": 878,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -10675,6 +10675,72 @@
       },
       "characters": [
         {
+          "slug": "jp-chikanobu-ikebana",
+          "name": "周延插花",
+          "name_zh": "周延插花",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "楊洲周延",
+          "creator": "楊洲周延",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-chikanobu-ikebana.jpg",
+          "reference_gallery": [],
+          "appearance": "美人畫，女子插花雅致生活。 `美人畫 女子插花雅致生活`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-chikanobu-june",
+          "name": "周延六月行事",
+          "name_zh": "周延六月行事",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "楊洲周延",
+          "creator": "楊洲周延",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-chikanobu-june.jpg",
+          "reference_gallery": [],
+          "appearance": "風俗畫，六月祭行事。 `風俗畫 六月祭行事`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-chikanobu-mirror",
+          "name": "周延時代鏡",
+          "name_zh": "周延時代鏡",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "楊洲周延",
+          "creator": "楊洲周延",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-chikanobu-mirror.jpg",
+          "reference_gallery": [],
+          "appearance": "美人畫，時代風俗仕女。 `美人畫 時代風俗仕女`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-crane-fukurokuju",
           "name": "福祿壽與丹頂鶴",
           "name_zh": "福祿壽與丹頂鶴",
@@ -10717,6 +10783,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-flying-demon",
+          "name": "芳年飛翔惡魔",
+          "name_zh": "芳年飛翔惡魔",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-flying-demon.jpg",
+          "reference_gallery": [],
+          "appearance": "怪異畫，飛行魔鬼。 `怪異畫 飛行魔鬼`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-fushimi-torii",
@@ -10785,6 +10873,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-hidesato",
+          "name": "芳年藤原秀鄉",
+          "name_zh": "芳年藤原秀鄉",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hidesato.jpg",
+          "reference_gallery": [],
+          "appearance": "武者繪名將，藤原秀鄉射蜈蚣。 `武者繪名將 藤原秀鄉射蜈蚣`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-himeji-castle",
           "name": "姬路城晨光",
           "name_zh": "姬路城晨光",
@@ -10851,6 +10961,28 @@
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-hiroshige-cherry",
+          "name": "廣重櫻花花鳥",
+          "name_zh": "廣重櫻花花鳥",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-cherry.jpg",
+          "reference_gallery": [],
+          "appearance": "花鳥畫，櫻花枝鳥近景。 `花鳥畫 櫻花枝鳥近景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-hiroshige-fireworks",
           "name": "兩國煙花",
           "name_zh": "兩國煙花",
@@ -10871,6 +11003,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hiroshige-fireworks2",
+          "name": "廣重兩國花火",
+          "name_zh": "廣重兩國花火",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-fireworks2.jpg",
+          "reference_gallery": [],
+          "appearance": "名所繪夜景，兩國橋煙火。 `名所繪夜景 兩國橋煙火`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：CC0 授權"
         },
         {
           "slug": "jp-hiroshige-fox-fires",
@@ -10984,9 +11138,9 @@
         },
         {
           "slug": "jp-hiroshige-ryogoku",
-          "name": "兩國橋夏夜煙火",
-          "name_zh": "兩國橋夏夜煙火",
-          "role": "日式藝術/浮世繪/武士/祭典",
+          "name": "廣重兩國涼閣花火",
+          "name_zh": "廣重兩國涼閣花火",
+          "role": "日式藝術/浮世繪/傳說英雄",
           "first_appearance": "歌川廣重",
           "creator": "歌川廣重",
           "license": {
@@ -10998,11 +11152,11 @@
           "verified": "2026-08-10",
           "image": "assets/img/jp-hiroshige-ryogoku.jpg",
           "reference_gallery": [],
-          "appearance": "名所繪，夏夜煙火祭典。 `名所繪 夏夜煙火祭典`",
+          "appearance": "名所繪，夜觀煙火涼舟。 `名所繪 夜觀煙火涼舟`",
           "dialogue": "",
           "scene": "",
           "personality": "",
-          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-hiroshige-shower",
@@ -11025,6 +11179,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-hiroshige-snow",
+          "name": "廣重五十三次雪景",
+          "name_zh": "廣重五十三次雪景",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "歌川廣重",
+          "creator": "歌川廣重",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-hiroshige-snow.jpg",
+          "reference_gallery": [],
+          "appearance": "名所繪，冬雪街景。 `名所繪 冬雪街景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-hokusai-manga-01",
@@ -11115,6 +11291,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：CC0 授權"
         },
         {
+          "slug": "jp-issun-boshi",
+          "name": "一寸法師繪卷",
+          "name_zh": "一寸法師繪卷",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "室町繪卷",
+          "creator": "室町繪卷",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-issun-boshi.jpg",
+          "reference_gallery": [],
+          "appearance": "御伽草子繪卷，一寸法師傳奇長卷。 `御伽草子繪卷 一寸法師傳奇長卷`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-jakuchu-parrot",
           "name": "若冲薔薇與鸚鵡",
           "name_zh": "若冲薔薇與鸚鵡",
@@ -11135,6 +11333,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "jp-kaguya-hime",
+          "name": "春信赫夜姬",
+          "name_zh": "春信赫夜姬",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "鈴木春信",
+          "creator": "鈴木春信",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kaguya-hime.jpg",
+          "reference_gallery": [],
+          "appearance": "錦繪美人畫，竹取物語輝夜姬。 `錦繪美人畫 竹取物語輝夜姬`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-kappa",
@@ -11179,6 +11399,50 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：CC-BY 2.0 授權"
+        },
+        {
+          "slug": "jp-kintaro-carp",
+          "name": "芳年金太郎乘鯉",
+          "name_zh": "芳年金太郎乘鯉",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kintaro-carp.jpg",
+          "reference_gallery": [],
+          "appearance": "武者繪傳說，金太郎騎大鯉魚。 `武者繪傳說 金太郎騎大鯉魚`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-kintaro-giant-carp",
+          "name": "芳年金太郎鬥大鯉",
+          "name_zh": "芳年金太郎鬥大鯉",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kintaro-giant-carp.jpg",
+          "reference_gallery": [],
+          "appearance": "武者繪，金太郎搏鬥大鯉魚。 `武者繪 金太郎搏鬥大鯉魚`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-kitsune",
@@ -11511,6 +11775,72 @@
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-sharaku-oniji",
+          "name": "寫樂大谷鬼次",
+          "name_zh": "寫樂大谷鬼次",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "東洲齋寫樂",
+          "creator": "東洲齋寫樂",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-sharaku-oniji.jpg",
+          "reference_gallery": [],
+          "appearance": "役者繪大首繪，役者大谷鬼次表情特寫。 `役者繪大首繪 役者大谷鬼次表情特寫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-shunsho-actor",
+          "name": "春章役者立姿",
+          "name_zh": "春章役者立姿",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "勝川春章",
+          "creator": "勝川春章",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-shunsho-actor.jpg",
+          "reference_gallery": [],
+          "appearance": "役者繪錦繪，岩井半四郎全身立姿。 `役者繪錦繪 岩井半四郎全身立姿`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-shunsho-interior",
+          "name": "春章室內場景",
+          "name_zh": "春章室內場景",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "勝川春章",
+          "creator": "勝川春章",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-shunsho-interior.jpg",
+          "reference_gallery": [],
+          "appearance": "日常風俗畫，榻榻米室內生活。 `日常風俗畫 榻榻米室內生活`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
           "slug": "jp-skeleton-spectre",
           "name": "大骸骨妖",
           "name_zh": "大骸骨妖",
@@ -11621,6 +11951,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
         },
         {
+          "slug": "jp-toyokuni3-actor",
+          "name": "國貞歌舞伎役者",
+          "name_zh": "國貞歌舞伎役者",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "歌川豊國三",
+          "creator": "歌川豊國三",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-toyokuni3-actor.jpg",
+          "reference_gallery": [],
+          "appearance": "役者繪，歌舞伎演員肖像。 `役者繪 歌舞伎演員肖像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-tsukimi",
           "name": "月見插花",
           "name_zh": "月見插花",
@@ -11641,6 +11993,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
+          "slug": "jp-urashima-taro",
+          "name": "芳年浦島太郎",
+          "name_zh": "芳年浦島太郎",
+          "role": "日式藝術/浮世繪/傳說英雄",
+          "first_appearance": "月岡芳年",
+          "creator": "月岡芳年",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-urashima-taro.jpg",
+          "reference_gallery": [],
+          "appearance": "武者繪傳說，浦島太郎乘龜歸來。 `武者繪傳說 浦島太郎乘龜歸來`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-utamaro-beauties",
