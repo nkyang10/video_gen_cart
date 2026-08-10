@@ -3068,5 +3068,135 @@
     "width": 690,
     "height": 1224,
     "pd": true
+  },
+  "lit-alice": {
+    "file": "lit-alice.png",
+    "title": "愛麗絲金髮小女孩",
+    "license": "Public domain",
+    "artist": "John Tenniel",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alice_par_John_Tenniel_04.png",
+    "width": 489,
+    "height": 696,
+    "pd": true
+  },
+  "lit-cheshire-cat": {
+    "file": "lit-cheshire-cat.jpg",
+    "title": "柴郡貓",
+    "license": "Public domain",
+    "artist": "John Tenniel",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alice_com_o_Gato_de_Cheshire.jpg",
+    "width": 863,
+    "height": 1251,
+    "pd": true
+  },
+  "lit-holmes": {
+    "file": "lit-holmes.png",
+    "title": "獵鹿帽偵探",
+    "license": "Public domain",
+    "artist": "Sidney Paget",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paget_holmes.png",
+    "width": 289,
+    "height": 317,
+    "pd": true
+  },
+  "lit-moriarty": {
+    "file": "lit-moriarty.jpg",
+    "title": "莫里亞提教授",
+    "license": "Public domain",
+    "artist": "Sidney Paget",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sherlock_Holmes_and_Professor_Moriarty_at_the_Reichenbach_Falls.jpg",
+    "width": 1234,
+    "height": 1920,
+    "pd": true
+  },
+  "lit-pinocchio": {
+    "file": "lit-pinocchio.jpg",
+    "title": "木偶少年",
+    "license": "Public domain",
+    "artist": "Enrico Mazzanti",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Enrico_Mazzanti_-_the_hanged_Pinocchio_(1883).jpg",
+    "width": 600,
+    "height": 600,
+    "pd": true
+  },
+  "lit-don-quixote": {
+    "file": "lit-don-quixote.jpg",
+    "title": "瘦弱騎士",
+    "license": "Public domain",
+    "artist": "Gustave Doré",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Don_Quixote_1.jpg",
+    "width": 959,
+    "height": 1210,
+    "pd": true
+  },
+  "lit-gulliver": {
+    "file": "lit-gulliver.jpg",
+    "title": "巨人小人國",
+    "license": "Public domain",
+    "artist": "Jonathan Swift",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gulliver's_Travels_into_Lilliput_and_Brobdingnag_14.jpg",
+    "width": 845,
+    "height": 1005,
+    "pd": true
+  },
+  "lit-wizard-of-oz": {
+    "file": "lit-wizard-of-oz.jpg",
+    "title": "桃樂絲/稻草人/錫人/獅子",
+    "license": "Public domain",
+    "artist": "W.W. Denslow",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Wonderful_Wizard_of_Oz_Book_-_p45.jpg",
+    "width": 1280,
+    "height": 1709,
+    "pd": true
+  },
+  "lit-peter-pan": {
+    "file": "lit-peter-pan.jpg",
+    "title": "吹笛小男孩",
+    "license": "Public domain",
+    "artist": "F.D. Bedford",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Peter_pan_1911_pipes.jpg",
+    "width": 1280,
+    "height": 1808,
+    "pd": true
+  },
+  "lit-santa": {
+    "file": "lit-santa.jpg",
+    "title": "圓胖白鬍老人",
+    "license": "Public domain",
+    "artist": "Thomas Nast",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Merry_Old_Santa_Claus,_by_Thomas_Nast,_1881.jpg",
+    "width": 1064,
+    "height": 1512,
+    "pd": true
+  },
+  "lit-jack-frost": {
+    "file": "lit-jack-frost.jpg",
+    "title": "霜精",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jack-frost.jpg",
+    "width": 700,
+    "height": 491,
+    "pd": true
+  },
+  "lit-long-john-silver": {
+    "file": "lit-long-john-silver.png",
+    "title": "獨腳海盜",
+    "license": "Public domain",
+    "artist": "George Roux",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Treasure-island05.png",
+    "width": 700,
+    "height": 961,
+    "pd": true
+  },
+  "lit-baba-yaga": {
+    "file": "lit-baba-yaga.jpg",
+    "title": "俄國女巫",
+    "license": "Public domain",
+    "artist": "Ivan Bilibin",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Baba_Yaga_by_I.Bilibin_(priv.coll).jpg",
+    "width": 640,
+    "height": 465,
+    "pd": true
   }
 }
