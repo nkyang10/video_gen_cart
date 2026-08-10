@@ -5281,12 +5281,12 @@
   },
   "jp-kuniyoshi-cats": {
     "file": "jp-kuniyoshi-cats.jpg",
-    "title": "貓各種姿勢",
+    "title": "貓演繹東海道",
     "license": "Public domain",
     "artist": "歌川國芳",
-    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Kuniyoshi_Utagawa%2C_For_cats_in_different_poses.jpg",
-    "width": 2126,
-    "height": 3117,
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Cats_suggested_as_the_fifty-three_stations_of_the_Tokaido.jpg",
+    "width": 3829,
+    "height": 1901,
     "pd": true
   },
   "jp-kuniyoshi-tokaido": {
@@ -9857,6 +9857,176 @@
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/1750_star_chart_of_the_constellations_Libra%2C_Cancer_and_neighboring_stars_from_John_Bevis%27_Celestial_Atlas.jpg",
     "width": 2500,
     "height": 2125,
+    "pd": true
+  },
+  "jp-utamaro-3beauties": {
+    "file": "jp-utamaro-3beauties.jpg",
+    "title": "寛政三美人",
+    "license": "Public domain",
+    "artist": "喜多川歌麿",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Kitagawa_Utamaro_-_Toji_san_bijin_%28Three_Beauties_of_the_Present_Day%29From_Bijin-ga_%28Pictures_of_Beautiful_Women%29%2C_published_by_Tsutaya_Juzaburo_-_Google_Art_Project.jpg",
+    "width": 1707,
+    "height": 2500,
+    "pd": true
+  },
+  "jp-uchiwa-sumo": {
+    "file": "jp-uchiwa-sumo.jpg",
+    "title": "相撲力士對峙",
+    "license": "Public domain",
+    "artist": "英玉",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Fan_print_%28uchiwa-e%29_of_sum%C5%8D_wrestlers_signed_%E8%8B%B1%E2%BD%9F%E2%BB%AB%3F%E7%94%BB_and_attributed_to_Eigyoku.jpg",
+    "width": 1884,
+    "height": 1770,
+    "pd": true
+  },
+  "jp-uchiwa-danjuro": {
+    "file": "jp-uchiwa-danjuro.jpg",
+    "title": "歌舞伎役者",
+    "license": "Public domain",
+    "artist": "不明",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Fan-print_%28BM_2008%2C3037.22002%29.jpg",
+    "width": 1600,
+    "height": 1231,
+    "pd": true
+  },
+  "jp-uchiwa-inoari": {
+    "file": "jp-uchiwa-inoari.jpg",
+    "title": "稻荷神社美人",
+    "license": "Public domain",
+    "artist": "不明",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Fan-print_%28BM_2008%2C3037.22011%29.jpg",
+    "width": 1600,
+    "height": 1231,
+    "pd": true
+  },
+  "jp-shunman-rat": {
+    "file": "jp-shunman-rat.jpg",
+    "title": "風帶上鼠繪曆",
+    "license": "CC0",
+    "artist": "窪俊滿",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Rat_on_a_F%C5%ABchin%2C_Ornament_with_a_Design_of_Egoyomi_-_DP135745.jpg",
+    "width": 3256,
+    "height": 3329,
+    "pd": true
+  },
+  "jp-egoyomi-lacquer": {
+    "file": "jp-egoyomi-lacquer.jpg",
+    "title": "漆盒食物靜物",
+    "license": "Public domain",
+    "artist": "佚名",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Food_in_a_Lacquer_Box%2C_with_Design_of_egoyomi_%28Pictorial_Calendar%29_%28IA_mma_food_in_a_lacquer_box_with_design_of_egoyomi_pictorial_calendar_54731%29.jpg",
+    "width": 4000,
+    "height": 3053,
+    "pd": true
+  },
+  "jp-kuniyoshi-wuyong": {
+    "file": "jp-kuniyoshi-wuyong.jpg",
+    "title": "水滸吳用",
+    "license": "Public domain",
+    "artist": "歌川國芳",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Utagawa_Kuniyoshi%2C_Portrait_of_Chicasei_Goy%C3%B4_%28Wu_Yong%29_%281827%E2%80%931830%29.jpg",
+    "width": 1928,
+    "height": 2784,
+    "pd": true
+  },
+  "jp-seiho-hozu": {
+    "file": "jp-seiho-hozu.jpg",
+    "title": "保津川山水",
+    "license": "Public domain",
+    "artist": "竹內栖鳳",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/The_Hozu_River_-_Seiho_Takeuchi_-_Google_Cultural_Institute.jpg",
+    "width": 3000,
+    "height": 1293,
+    "pd": true
+  },
+  "jp-taikan-metempsychosis": {
+    "file": "jp-taikan-metempsychosis.jpg",
+    "title": "超長卷生命長卷",
+    "license": "Public domain",
+    "artist": "橫山大觀",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Metempsychosis_by_Yokoyama_Taikan_%28National_Museum_of_Modern_Art_Tokyo%29.jpg",
+    "width": 24141,
+    "height": 322,
+    "pd": true
+  },
+  "ancient-standard-of-ur": {
+    "file": "ancient-standard-of-ur.jpg",
+    "title": "鑲嵌馬賽克戰爭面",
+    "license": "Public domain",
+    "artist": "蘇美人",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Standard_of_Ur_-_War.jpg",
+    "width": 2202,
+    "height": 963,
+    "pd": true
+  },
+  "ancient-ishtar-gate": {
+    "file": "ancient-ishtar-gate.jpg",
+    "title": "釉磚走獅牆面",
+    "license": "CC-BY-SA 4.0",
+    "artist": "新巴比倫",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Istanbul_Ancient_Orient_Museum_Ishtar_Gate_Lion_walking_left_in_2019_32_2176.jpg",
+    "width": 7200,
+    "height": 3611,
+    "pd": true
+  },
+  "ancient-pompeii-vettii": {
+    "file": "ancient-pompeii-vettii.jpg",
+    "title": "羅馬室內壁畫",
+    "license": "CC-BY-SA 4.0",
+    "artist": "羅馬",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Ancient_Roman_frescos_in_the_House_of_the_Vettii_%28Pompeii%29-6.jpg",
+    "width": 4032,
+    "height": 1908,
+    "pd": true
+  },
+  "ancient-pompeii-orpheus": {
+    "file": "ancient-pompeii-orpheus.jpg",
+    "title": "整面彩繪壁畫",
+    "license": "Public domain",
+    "artist": "Discanno",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Yet_another_frescoed_wall_from_the_House_of_Orpheus_Pompeii_by_Geremia_Discanno_1877.jpg",
+    "width": 3627,
+    "height": 2592,
+    "pd": true
+  },
+  "interior-alhambra-ceiling": {
+    "file": "interior-alhambra-ceiling.jpg",
+    "title": "木雕藻井天花",
+    "license": "CC-BY-SA 4.0",
+    "artist": "摩爾式",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Alhambra_Comares_Palace_%28R_Prazeres%29_DSCF7991.jpg",
+    "width": 4000,
+    "height": 3000,
+    "pd": true
+  },
+  "interior-hawa-mahal": {
+    "file": "interior-hawa-mahal.jpg",
+    "title": "蜂巢窗龕立面",
+    "license": "CC-BY-SA 4.0",
+    "artist": "拉傑普特",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Hawa_Mahal_%28The_Palace_of_Winds%29_in_Jaipur%2C_20191218_1210_9197.jpg",
+    "width": 3824,
+    "height": 5936,
+    "pd": true
+  },
+  "plant-ginkgo": {
+    "file": "plant-ginkgo.jpg",
+    "title": "銀杏秋葉簇",
+    "license": "GFDL 1.2",
+    "artist": "佚名",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Ginkgo_Tree_Ginkgo_biloba_Leaves_Cluster_3008px.jpg",
+    "width": 3008,
+    "height": 2000,
+    "pd": true
+  },
+  "plant-saguaro": {
+    "file": "plant-saguaro.jpg",
+    "title": "荒漠暮色仙人掌",
+    "license": "CC-BY 4.0",
+    "artist": "Saguaro NP",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/2022-06-13_USA%2C_AZ%2C_Saguaro_DSC_5309_DxO.jpg",
+    "width": 4024,
+    "height": 6048,
     "pd": true
   }
 }

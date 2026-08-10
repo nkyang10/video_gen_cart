@@ -1,9 +1,9 @@
 ---
-character: "國芳貓各種姿勢"
-character_zh: "國芳貓各種姿勢"
+character: "國芳貓擬東海道"
+character_zh: "國芳貓擬東海道"
 slug: "jp-kuniyoshi-cats"
 brand: "japanese-art-collection"
-role: "日式藝術/浮世繪/水墨/道具"
+role: "日式藝術/浮世繪"
 first_appearance: "歌川國芳"
 creator: "歌川國芳"
 public_domain: true
@@ -16,21 +16,21 @@ trademark: "無"
 verified: "2026-08-10"
 ---
 
-# 國芳貓各種姿勢
+# 國芳貓擬東海道
 
 ## 出處
 歌川國芳 嘅日式藝術素材。**授權 Public domain**。
 
 ## 內容展示
-- 貓不同動作三聯畫
-- 浮世繪動物風格
+- 貓演繹東海道
+- 戲畫風格
 
 ## 外觀描述（AI 圖片/影片 Prompt 用）
-浮世繪動物，貓不同動作三聯畫。
+戲畫，貓演繹東海道。
 
 **Prompt 示例**：
-`浮世繪動物 貓不同動作三聯畫`
+`戲畫 貓演繹東海道`
 
 ## AI 創意用法
-- **日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考
+- **日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考
 - **注意**：Public domain 授權

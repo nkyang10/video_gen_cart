@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 73,
-    "character_count": 1042,
+    "brand_count": 74,
+    "character_count": 1059,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -419,6 +419,200 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**歷史場景/道具動畫參考**：古代文明/表演/發明/文字做動畫參考 **注意**：CC-BY 2.5 授權"
+        }
+      ]
+    },
+    {
+      "slug": "ancient-traditions-interiors-flora",
+      "name": "Ancient Traditions, Regional Interiors & Flora",
+      "name_zh": "古代傳統區域內景與植物",
+      "type": "古代傳統 / 區域內景 / 植物",
+      "country": "國際",
+      "era": "公元前-1900s",
+      "creator": "各文明藝術家/攝影師",
+      "publisher": "各博物館/機構",
+      "first_appearance_year": -2600,
+      "status": "公有領域 / CC0 / CC-BY",
+      "license": {
+        "type": "PD",
+        "code": "public-domain"
+      },
+      "characters": [
+        {
+          "slug": "ancient-ishtar-gate",
+          "name": "伊什塔爾門走獅",
+          "name_zh": "伊什塔爾門走獅",
+          "role": "古代傳統/區域內景/植物",
+          "first_appearance": "新巴比倫",
+          "creator": "新巴比倫",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/ancient-ishtar-gate.jpg",
+          "reference_gallery": [],
+          "appearance": "釉面磚，釉磚走獅牆面。 `釉面磚 釉磚走獅牆面`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：古代傳統/區域內景/植物做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "ancient-pompeii-orpheus",
+          "name": "龐貝奧菲斯之家壁畫",
+          "name_zh": "龐貝奧菲斯之家壁畫",
+          "role": "古代傳統/區域內景/植物",
+          "first_appearance": "Discanno",
+          "creator": "Discanno",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/ancient-pompeii-orpheus.jpg",
+          "reference_gallery": [],
+          "appearance": "羅馬壁畫，整面彩繪壁畫。 `羅馬壁畫 整面彩繪壁畫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：古代傳統/區域內景/植物做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "ancient-pompeii-vettii",
+          "name": "龐貝維提之家壁畫",
+          "name_zh": "龐貝維提之家壁畫",
+          "role": "古代傳統/區域內景/植物",
+          "first_appearance": "羅馬",
+          "creator": "羅馬",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/ancient-pompeii-vettii.jpg",
+          "reference_gallery": [],
+          "appearance": "羅馬壁畫，羅馬室內壁畫。 `羅馬壁畫 羅馬室內壁畫`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：古代傳統/區域內景/植物做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "ancient-standard-of-ur",
+          "name": "烏爾旗戰爭面",
+          "name_zh": "烏爾旗戰爭面",
+          "role": "古代傳統/區域內景/植物",
+          "first_appearance": "蘇美人",
+          "creator": "蘇美人",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/ancient-standard-of-ur.jpg",
+          "reference_gallery": [],
+          "appearance": "蘇美爾鑲嵌，鑲嵌馬賽克戰爭面。 `蘇美爾鑲嵌 鑲嵌馬賽克戰爭面`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：古代傳統/區域內景/植物做動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "interior-alhambra-ceiling",
+          "name": "阿爾罕布拉宮藻井",
+          "name_zh": "阿爾罕布拉宮藻井",
+          "role": "古代傳統/區域內景/植物",
+          "first_appearance": "摩爾式",
+          "creator": "摩爾式",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/interior-alhambra-ceiling.jpg",
+          "reference_gallery": [],
+          "appearance": "摩爾式，木雕藻井天花。 `摩爾式 木雕藻井天花`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：古代傳統/區域內景/植物做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "interior-hawa-mahal",
+          "name": "齋浦爾風之宮",
+          "name_zh": "齋浦爾風之宮",
+          "role": "古代傳統/區域內景/植物",
+          "first_appearance": "拉傑普特",
+          "creator": "拉傑普特",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/interior-hawa-mahal.jpg",
+          "reference_gallery": [],
+          "appearance": "拉傑普特建築，蜂巢窗龕立面。 `拉傑普特建築 蜂巢窗龕立面`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：古代傳統/區域內景/植物做動畫參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "plant-ginkgo",
+          "name": "銀杏秋葉",
+          "name_zh": "銀杏秋葉",
+          "role": "古代傳統/區域內景/植物",
+          "first_appearance": "佚名",
+          "creator": "佚名",
+          "license": {
+            "type": "CC",
+            "code": "GFDL 1.2"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/plant-ginkgo.jpg",
+          "reference_gallery": [],
+          "appearance": "自然實拍，銀杏秋葉簇。 `自然實拍 銀杏秋葉簇`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：古代傳統/區域內景/植物做動畫參考 **注意**：GFDL 1.2 授權"
+        },
+        {
+          "slug": "plant-saguaro",
+          "name": "巨人柱仙人掌",
+          "name_zh": "巨人柱仙人掌",
+          "role": "古代傳統/區域內景/植物",
+          "first_appearance": "Saguaro NP",
+          "creator": "Saguaro NP",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/plant-saguaro.jpg",
+          "reference_gallery": [],
+          "appearance": "沙漠實拍，荒漠暮色仙人掌。 `沙漠實拍 荒漠暮色仙人掌`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**場景/角色/背景動畫參考**：古代傳統/區域內景/植物做動畫參考 **注意**：CC-BY 4.0 授權"
         }
       ]
     },
@@ -11415,6 +11609,28 @@
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：CC0 授權"
         },
         {
+          "slug": "jp-egoyomi-lacquer",
+          "name": "漆盒食物繪曆",
+          "name_zh": "漆盒食物繪曆",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "佚名",
+          "creator": "佚名",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-egoyomi-lacquer.jpg",
+          "reference_gallery": [],
+          "appearance": "繪曆摺物，漆盒食物靜物。 `繪曆摺物 漆盒食物靜物`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-eisen-tagawaya",
           "name": "英泉田川屋餐館",
           "name_zh": "英泉田川屋餐館",
@@ -12626,9 +12842,9 @@
         },
         {
           "slug": "jp-kuniyoshi-cats",
-          "name": "國芳貓各種姿勢",
-          "name_zh": "國芳貓各種姿勢",
-          "role": "日式藝術/浮世繪/水墨/道具",
+          "name": "國芳貓擬東海道",
+          "name_zh": "國芳貓擬東海道",
+          "role": "日式藝術/浮世繪",
           "first_appearance": "歌川國芳",
           "creator": "歌川國芳",
           "license": {
@@ -12640,11 +12856,11 @@
           "verified": "2026-08-10",
           "image": "assets/img/jp-kuniyoshi-cats.jpg",
           "reference_gallery": [],
-          "appearance": "浮世繪動物，貓不同動作三聯畫。 `浮世繪動物 貓不同動作三聯畫`",
+          "appearance": "戲畫，貓演繹東海道。 `戲畫 貓演繹東海道`",
           "dialogue": "",
           "scene": "",
           "personality": "",
-          "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-kuniyoshi-inada",
@@ -12777,6 +12993,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/水墨/花鳥/和風道具做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-kuniyoshi-wuyong",
+          "name": "國芳吳用魁星",
+          "name_zh": "國芳吳用魁星",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "歌川國芳",
+          "creator": "歌川國芳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-kuniyoshi-wuyong.jpg",
+          "reference_gallery": [],
+          "appearance": "武者繪，水滸吳用。 `武者繪 水滸吳用`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-kuniyoshi-yang-chun",
@@ -12977,6 +13215,28 @@
           "ai_usage": "**日式動畫背景/風格參考**：浮世繪/武士/祭典/花卉做日式動畫參考 **注意**：CC-BY 4.0 授權"
         },
         {
+          "slug": "jp-seiho-hozu",
+          "name": "竹內栖鳳保津川",
+          "name_zh": "竹內栖鳳保津川",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "竹內栖鳳",
+          "creator": "竹內栖鳳",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-seiho-hozu.jpg",
+          "reference_gallery": [],
+          "appearance": "近代日本畫，保津川山水。 `近代日本畫 保津川山水`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-sekka-leaves",
           "name": "神坂雪佳拾葉",
           "name_zh": "神坂雪佳拾葉",
@@ -13109,6 +13369,28 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC0 授權"
         },
         {
+          "slug": "jp-shunman-rat",
+          "name": "窪俊滿風帶鼠繪曆",
+          "name_zh": "窪俊滿風帶鼠繪曆",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "窪俊滿",
+          "creator": "窪俊滿",
+          "license": {
+            "type": "CC",
+            "code": "CC0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-shunman-rat.jpg",
+          "reference_gallery": [],
+          "appearance": "繪曆摺物，風帶上鼠繪曆。 `繪曆摺物 風帶上鼠繪曆`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：CC0 授權"
+        },
+        {
           "slug": "jp-shunman-smoking",
           "name": "窪俊滿櫻花吸煙女子",
           "name_zh": "窪俊滿櫻花吸煙女子",
@@ -13195,6 +13477,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-taikan-metempsychosis",
+          "name": "橫山大觀生々流轉",
+          "name_zh": "橫山大觀生々流轉",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "橫山大觀",
+          "creator": "橫山大觀",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-taikan-metempsychosis.jpg",
+          "reference_gallery": [],
+          "appearance": "朦朧體長卷，超長卷生命長卷。 `朦朧體長卷 超長卷生命長卷`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-tanabata",
@@ -13417,6 +13721,72 @@
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/妖怪/建築做日式動畫參考 **注意**：CC0 授權"
         },
         {
+          "slug": "jp-uchiwa-danjuro",
+          "name": "團扇繪團十郎",
+          "name_zh": "團扇繪團十郎",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "不明",
+          "creator": "不明",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-uchiwa-danjuro.jpg",
+          "reference_gallery": [],
+          "appearance": "團扇繪，歌舞伎役者。 `團扇繪 歌舞伎役者`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-uchiwa-inoari",
+          "name": "團扇繪稻荷美人",
+          "name_zh": "團扇繪稻荷美人",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "不明",
+          "creator": "不明",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-uchiwa-inoari.jpg",
+          "reference_gallery": [],
+          "appearance": "團扇繪，稻荷神社美人。 `團扇繪 稻荷神社美人`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-uchiwa-sumo",
+          "name": "團扇繪相撲力士",
+          "name_zh": "團扇繪相撲力士",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "英玉",
+          "creator": "英玉",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-uchiwa-sumo.jpg",
+          "reference_gallery": [],
+          "appearance": "團扇繪，相撲力士對峙。 `團扇繪 相撲力士對峙`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
           "slug": "jp-urashima-taro",
           "name": "芳年浦島太郎",
           "name_zh": "芳年浦島太郎",
@@ -13437,6 +13807,28 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪/傳說英雄做日式動畫參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "jp-utamaro-3beauties",
+          "name": "歌麿三美人",
+          "name_zh": "歌麿三美人",
+          "role": "日式藝術/浮世繪",
+          "first_appearance": "喜多川歌麿",
+          "creator": "喜多川歌麿",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/jp-utamaro-3beauties.jpg",
+          "reference_gallery": [],
+          "appearance": "美人繪，寛政三美人。 `美人繪 寛政三美人`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**日式動畫背景/角色/風格參考**：浮世繪做日式動畫參考 **注意**：Public domain 授權"
         },
         {
           "slug": "jp-utamaro-beauties",
