@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 46,
-    "character_count": 523,
+    "brand_count": 47,
+    "character_count": 539,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -14153,6 +14153,376 @@
           "scene": "",
           "personality": "",
           "ai_usage": "**復古動畫角色**：早期公版短片做復古動畫參考 **⚠️ 注意**：角色名可能係商標；只用早期黑白短片，唔用後期受版權版本"
+        }
+      ]
+    },
+    {
+      "slug": "scifi-art-dramatic-scenes",
+      "name": "Sci-Fi Art & Dramatic Scenes",
+      "name_zh": "科幻藝術與戲劇性場景",
+      "type": "科幻/藝術運動/自然災害/地標",
+      "country": "國際",
+      "era": "1700s-1950s",
+      "creator": "各經典藝術家",
+      "publisher": "各美術館/雜誌",
+      "first_appearance_year": 1770,
+      "status": "公有領域 / CC-BY-SA",
+      "license": {
+        "type": "UNKNOWN",
+        "code": ""
+      },
+      "characters": [
+        {
+          "slug": "art-great-wave",
+          "name": "北齋《神奈川沖浪裏》",
+          "name_zh": "北齋《神奈川沖浪裏》",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "葛飾北齋",
+          "creator": "葛飾北齋",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-great-wave.jpg",
+          "reference_gallery": [],
+          "appearance": "浮世繪，巨浪與舟船富士山。 `浮世繪 巨浪與舟船富士山`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-gris-picasso",
+          "name": "格里斯《畢卡索肖像》",
+          "name_zh": "格里斯《畢卡索肖像》",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "Juan Gris",
+          "creator": "Juan Gris",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-gris-picasso.jpg",
+          "reference_gallery": [],
+          "appearance": "立方主義，幾何切割多視角。 `立方主義 幾何切割多視角`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-kandinsky",
+          "name": "康丁斯基《印象 III》",
+          "name_zh": "康丁斯基《印象 III》",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "Kandinsky",
+          "creator": "Kandinsky",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-kandinsky.jpg",
+          "reference_gallery": [],
+          "appearance": "抽象表現，音樂與色彩聯覺。 `抽象表現 音樂與色彩聯覺`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-klee-senecio",
+          "name": "克利《Senecio》",
+          "name_zh": "克利《Senecio》",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "Paul Klee",
+          "creator": "Paul Klee",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-klee-senecio.jpg",
+          "reference_gallery": [],
+          "appearance": "包浩斯，抽象人像幾何色塊。 `包浩斯 抽象人像幾何色塊`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "art-monet-sunrise",
+          "name": "莫內《印象日出》",
+          "name_zh": "莫內《印象日出》",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "Claude Monet",
+          "creator": "Claude Monet",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/art-monet-sunrise.jpg",
+          "reference_gallery": [],
+          "appearance": "印象派，勒阿弗爾港日出。 `印象派 勒阿弗爾港日出`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "disaster-merapi",
+          "name": "梅拉皮火山（Saleh）",
+          "name_zh": "梅拉皮火山（Saleh）",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "Raden Saleh",
+          "creator": "Raden Saleh",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/disaster-merapi.jpg",
+          "reference_gallery": [],
+          "appearance": "浪漫主義，夜空火山熔岩噴發。 `浪漫主義 夜空火山熔岩噴發`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "disaster-sf-ruin",
+          "name": "舊金山地震廢墟",
+          "name_zh": "舊金山地震廢墟",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "1906 新聞",
+          "creator": "1906 新聞",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/disaster-sf-ruin.jpg",
+          "reference_gallery": [],
+          "appearance": "紀錄攝影，市區大規模廢墟。 `紀錄攝影 市區大規模廢墟`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "disaster-tornado",
+          "name": "龍捲風",
+          "name_zh": "龍捲風",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "NOAA",
+          "creator": "NOAA",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/disaster-tornado.jpg",
+          "reference_gallery": [],
+          "appearance": "寫實攝影，貼地巨型龍捲風。 `寫實攝影 貼地巨型龍捲風`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "disaster-vesuvius-dahl",
+          "name": "維蘇威火山（Dahl）",
+          "name_zh": "維蘇威火山（Dahl）",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "J.C. Dahl",
+          "creator": "J.C. Dahl",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/disaster-vesuvius-dahl.jpg",
+          "reference_gallery": [],
+          "appearance": "北歐浪漫主義，火山照亮海面人群。 `北歐浪漫主義 火山照亮海面人群`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "disaster-vesuvius-wright",
+          "name": "維蘇威火山（Wright）",
+          "name_zh": "維蘇威火山（Wright）",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "Joseph Wright",
+          "creator": "Joseph Wright",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/disaster-vesuvius-wright.jpg",
+          "reference_gallery": [],
+          "appearance": "浪漫主義，夜色火山噴發熔岩。 `浪漫主義 夜色火山噴發熔岩`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "land-aurora-church",
+          "name": "極光（Church）",
+          "name_zh": "極光（Church）",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "Frederic Church",
+          "creator": "Frederic Church",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-aurora-church.jpg",
+          "reference_gallery": [],
+          "appearance": "浪漫主義風景，北極夜空極光。 `浪漫主義風景 北極夜空極光`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "land-old-faithful",
+          "name": "老忠實噴泉",
+          "name_zh": "老忠實噴泉",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "NPS",
+          "creator": "NPS",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 4.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-old-faithful.jpg",
+          "reference_gallery": [],
+          "appearance": "現代風景攝影，噴泉水柱遊客。 `現代風景攝影 噴泉水柱遊客`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：CC-BY-SA 4.0 授權"
+        },
+        {
+          "slug": "land-yellowstone",
+          "name": "黃石大峽谷",
+          "name_zh": "黃石大峽谷",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "Thomas Moran",
+          "creator": "Thomas Moran",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-yellowstone.jpg",
+          "reference_gallery": [],
+          "appearance": "浪漫主義風景，彩色岩壁瀑布。 `浪漫主義風景 彩色岩壁瀑布`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "land-yosemite",
+          "name": "優勝美地",
+          "name_zh": "優勝美地",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "Commons",
+          "creator": "Commons",
+          "license": {
+            "type": "CC",
+            "code": "CC-BY-SA 3.0"
+          },
+          "protected_portion": "無（可自由使用，需遵守授權）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/land-yosemite.jpg",
+          "reference_gallery": [],
+          "appearance": "現代風景攝影，河谷全景。 `現代風景攝影 河谷全景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：CC-BY-SA 3.0 授權"
+        },
+        {
+          "slug": "sf-amazing-1926",
+          "name": "Amazing Stories 1926",
+          "name_zh": "Amazing Stories 1926",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "Frank R. Paul",
+          "creator": "Frank R. Paul",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/sf-amazing-1926.jpg",
+          "reference_gallery": [],
+          "appearance": "pulp 科幻，科幻雜誌封面。 `pulp 科幻 科幻雜誌封面`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
+        },
+        {
+          "slug": "sf-amazing-1927",
+          "name": "Amazing Stories 1927",
+          "name_zh": "Amazing Stories 1927",
+          "role": "科幻/藝術/災害/地標",
+          "first_appearance": "Frank R. Paul",
+          "creator": "Frank R. Paul",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/sf-amazing-1927.jpg",
+          "reference_gallery": [],
+          "appearance": "pulp 科幻，世界大戰封面。 `pulp 科幻 世界大戰封面`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**影片背景/風格參考**：科幻/藝術風格/災害/地標做動畫背景或風格參考 **注意**：Public domain 授權"
         }
       ]
     },

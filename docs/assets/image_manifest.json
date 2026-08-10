@@ -4768,5 +4768,165 @@
     "width": 662,
     "height": 956,
     "pd": true
+  },
+  "sf-amazing-1926": {
+    "file": "sf-amazing-1926.jpg",
+    "title": "科幻雜誌封面",
+    "license": "Public domain",
+    "artist": "Frank R. Paul",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/2612_Amazing_Stories_December_1926.jpg",
+    "width": 832,
+    "height": 1164,
+    "pd": true
+  },
+  "sf-amazing-1927": {
+    "file": "sf-amazing-1927.jpg",
+    "title": "世界大戰封面",
+    "license": "Public domain",
+    "artist": "Frank R. Paul",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Amazing_Stories_1927_08.jpg",
+    "width": 1500,
+    "height": 2000,
+    "pd": true
+  },
+  "art-monet-sunrise": {
+    "file": "art-monet-sunrise.jpg",
+    "title": "印象派",
+    "license": "Public domain",
+    "artist": "Claude Monet",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Monet_-_Impression%2C_Sunrise.jpg",
+    "width": 5773,
+    "height": 4478,
+    "pd": true
+  },
+  "art-great-wave": {
+    "file": "art-great-wave.jpg",
+    "title": "浮世繪",
+    "license": "Public domain",
+    "artist": "葛飾北齋",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Great_Wave_off_Kanagawa.jpg",
+    "width": 4335,
+    "height": 2990,
+    "pd": true
+  },
+  "art-gris-picasso": {
+    "file": "art-gris-picasso.jpg",
+    "title": "立方主義",
+    "license": "Public domain",
+    "artist": "Juan Gris",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Juan_Gris_-_Portrait_of_Pablo_Picasso_-_Google_Art_Project.jpg",
+    "width": 6221,
+    "height": 7913,
+    "pd": true
+  },
+  "art-klee-senecio": {
+    "file": "art-klee-senecio.jpg",
+    "title": "包浩斯",
+    "license": "Public domain",
+    "artist": "Paul Klee",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Paul_Klee%2C_1922%2C_Senecio%2C_oil_on_gauze%2C_40.3_%C3%97_37.4_cm%2C_Kunstmuseum_Basel.jpg",
+    "width": 3712,
+    "height": 4046,
+    "pd": true
+  },
+  "art-kandinsky": {
+    "file": "art-kandinsky.jpg",
+    "title": "抽象",
+    "license": "Public domain",
+    "artist": "Kandinsky",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Wassily_Kandinsky_-_Impression_III_%28Concert%29_-_Google_Art_Project.jpg",
+    "width": 3957,
+    "height": 3085,
+    "pd": true
+  },
+  "disaster-vesuvius-wright": {
+    "file": "disaster-vesuvius-wright.jpg",
+    "title": "火山爆發",
+    "license": "Public domain",
+    "artist": "Joseph Wright",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Joseph_Wright_001.jpg",
+    "width": 2048,
+    "height": 1417,
+    "pd": true
+  },
+  "disaster-vesuvius-dahl": {
+    "file": "disaster-vesuvius-dahl.jpg",
+    "title": "火山爆發",
+    "license": "Public domain",
+    "artist": "J.C. Dahl",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/J.C._Dahl_-_Eruption_of_the_Volcano_Vesuvius_-_Google_Art_Project.jpg",
+    "width": 4319,
+    "height": 3026,
+    "pd": true
+  },
+  "disaster-merapi": {
+    "file": "disaster-merapi.jpg",
+    "title": "火山夜噴",
+    "license": "Public domain",
+    "artist": "Raden Saleh",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Raden_Saleh_-_Merapi_volcano%2C_eruption_at_night%2C_1865.jpg",
+    "width": 1016,
+    "height": 596,
+    "pd": true
+  },
+  "disaster-tornado": {
+    "file": "disaster-tornado.jpg",
+    "title": "龍捲風",
+    "license": "Public domain",
+    "artist": "NOAA",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Tornado_with_DOW.jpg",
+    "width": 1552,
+    "height": 1116,
+    "pd": true
+  },
+  "disaster-sf-ruin": {
+    "file": "disaster-sf-ruin.jpg",
+    "title": "地震廢墟",
+    "license": "Public domain",
+    "artist": "1906 新聞",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/San_Francisco_in_ruin_edit2.jpg",
+    "width": 7000,
+    "height": 2748,
+    "pd": true
+  },
+  "land-yellowstone": {
+    "file": "land-yellowstone.jpg",
+    "title": "黃石國家公園",
+    "license": "Public domain",
+    "artist": "Thomas Moran",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Thomas_Moran_-_Grand_Canyon_of_the_Yellowstone_-_Smithsonian.jpg",
+    "width": 4000,
+    "height": 2287,
+    "pd": true
+  },
+  "land-aurora-church": {
+    "file": "land-aurora-church.jpg",
+    "title": "極光",
+    "license": "Public domain",
+    "artist": "Frederic Church",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Frederic_Edwin_Church_-_Aurora_Borealis_-_Google_Art_Project.jpg",
+    "width": 4001,
+    "height": 2692,
+    "pd": true
+  },
+  "land-yosemite": {
+    "file": "land-yosemite.jpg",
+    "title": "優勝美地河谷",
+    "license": "CC-BY-SA 3.0",
+    "artist": "Commons",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Yosemite_Valley_from_Tunnel_View.jpg",
+    "width": 4169,
+    "height": 1884,
+    "pd": true
+  },
+  "land-old-faithful": {
+    "file": "land-old-faithful.jpg",
+    "title": "老忠實噴泉",
+    "license": "CC-BY-SA 4.0",
+    "artist": "NPS",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Old_Faithful_erupting.jpg",
+    "width": 4320,
+    "height": 3240,
+    "pd": true
   }
 }
