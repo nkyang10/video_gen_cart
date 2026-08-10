@@ -1,0 +1,177 @@
+<!DOCTYPE html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>珊瑚礁 — Video Gen Cart</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "CreativeWork", "name": "珊瑚礁", "alternateName": "珊瑚礁", "description": "角色資料：海洋/名畫/天文。出處 US Fish & Wildlife。授權 Public domain", "keywords": "海洋/名畫/天文, marine-masterpieces-astronomy", "image": "../../assets/img/marine-coral.jpg"}</script><style>:root {
+  --paper: #f7f4ef;
+  --ink: #2b2b28;
+  --muted: #6b6a63;
+  --forest: #3e5c4b;
+  --terracotta: #c05f3c;
+  --border: #e2dcd0;
+  --card: #ffffff;
+  --tag-bg: #efe9dd;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+               "PingFang TC", "Microsoft JhengHei", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  padding-bottom: 60px;
+}
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 22px; }
+header.site {
+  border-bottom: 1px solid var(--border);
+  padding: 26px 0 18px;
+  margin-bottom: 30px;
+  background: #fffdf9;
+}
+header.site .wrap { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+header.site h1 { font-size: 1.5rem; letter-spacing: 0.02em; }
+header.site h1 a { color: var(--ink); text-decoration: none; }
+header.site h1 span { color: var(--terracotta); }
+header.site .sub { color: var(--muted); font-size: 0.85rem; }
+nav.brand-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 6px; }
+nav.brand-tabs a {
+  padding: 6px 14px; border-radius: 8px; border: 1px solid var(--border);
+  background: #fff; color: var(--ink); text-decoration: none; font-size: 0.9rem;
+}
+nav.brand-tabs a:hover { border-color: var(--forest); }
+nav.brand-tabs a.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+.breadcrumb { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
+.breadcrumb a { color: var(--forest); text-decoration: none; }
+h1.page { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.9rem; margin-bottom: 6px; }
+h2 { font-family: "Noto Serif TC", Georgia, serif; color: var(--forest);
+     font-size: 1.25rem; margin: 34px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+h3 { color: var(--ink); font-size: 1.05rem; margin: 20px 0 8px; }
+p { margin: 8px 0; }
+ul, ol { margin: 8px 0 8px 24px; }
+li { margin: 4px 0; }
+blockquote { border-left: 3px solid var(--terracotta); background: #fffdf9;
+             padding: 8px 14px; margin: 10px 0; color: var(--ink); border-radius: 0 6px 6px 0; }
+a { color: var(--forest); }
+.meta-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.92rem; }
+.meta-table td { padding: 7px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.meta-table td:first-child { width: 34%; color: var(--muted); font-weight: 600; }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+.badge.pd { background: #dcebdd; color: #2c5e3a; }
+.badge.cc { background: #dfe7f5; color: #2c4a7c; }
+.badge.partial { background: #f5e8d3; color: #8a5a1e; }
+.badge.verify { background: #f4dcd9; color: #963a2e; }
+.lic-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.character-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 18px; }
+.character-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 16px; text-decoration: none; color: var(--ink); display: block;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.character-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.07); border-color: var(--forest); }
+.character-card .name { font-family: "Noto Serif TC", Georgia, serif; font-weight: 700; font-size: 1.05rem; }
+.character-card .thumb { width: 100%; height: 120px; overflow: hidden; border-radius: 8px; margin-bottom: 10px; background: #eee7db; }
+.character-card .thumb img { width: 100%; height: 100%; object-fit: cover; }
+.character-card .zh { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
+.character-card .desc { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+.character-card .badge { margin-top: 10px; }
+.copyright-box { background: #f2efea; border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
+.copyright-box h3 { color: var(--terracotta); margin-top: 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: .04em; }
+.copyright-box ul { margin-left: 20px; }
+.char-hero { display: flex; gap: 22px; align-items: flex-start; margin-bottom: 24px; flex-wrap: wrap; }
+.char-hero img { width: 280px; max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--border); background:#fff; }
+.char-hero .captions { flex: 1; min-width: 220px; font-size: 0.85rem; color: var(--muted); }
+.char-hero .captions p { margin: 4px 0; }
+.img-credit { font-size: 0.75rem; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+.img-credit a { color: var(--forest); }
+.footer-note { color: var(--muted); font-size: 0.8rem; margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--border); }
+.hero { background: #fffdf9; border: 1px solid var(--border); border-radius: 12px; padding: 26px; margin-bottom: 28px; }
+.hero h2 { border: none; margin-top: 0; font-size: 1.5rem; }
+.hero p { color: var(--muted); max-width: 70ch; }
+.stat-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; }
+.stat { font-size: 0.9rem; }
+.stat b { color: var(--forest); font-size: 1.2rem; }
+/* 配角 / 路人互動面板 */
+.support-panel { margin-top: 22px; display: grid; gap: 10px; }
+.support-item { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.support-item summary {
+  cursor: pointer; padding: 13px 18px; list-style: none; display: flex; align-items: center; gap: 12px;
+  font-weight: 600; color: var(--ink); transition: background .12s ease; user-select: none;
+}
+.support-item summary::-webkit-details-marker { display: none; }
+.support-item summary:hover { background: #f3efe6; }
+.support-item summary .caret { color: var(--terracotta); transition: transform .18s ease; margin-left: auto; }
+.support-item[open] summary .caret { transform: rotate(90deg); }
+.support-item summary .sup-name { font-family: "Noto Serif TC", Georgia, serif; font-size: 1.05rem; }
+.support-item summary .sup-type { font-size: .72rem; color: var(--forest); background: var(--tag-bg); padding: 2px 10px; border-radius: 20px; font-weight: 600; }
+.support-item summary .sup-zh { color: var(--muted); font-size: .85rem; font-weight: 400; }
+.support-body { padding: 4px 18px 16px; border-top: 1px solid var(--tag-bg); }
+.support-body .sup-relation { margin: 10px 0 4px; color: var(--forest); font-size: .88rem; font-weight: 600; }
+.support-body p, .support-body ul { font-size: .92rem; margin: 6px 0; }
+.support-body .sup-label { color: var(--terracotta); font-weight: 700; font-size: .8rem; letter-spacing: .03em; margin-top: 10px; text-transform: uppercase; }
+.support-body blockquote { font-size: .9rem; }
+.support-hint { color: var(--muted); font-size: .85rem; margin-top: 6px; }
+/* 參考圖庫（動畫用多角度） */
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-top: 18px; }
+.gallery figure { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 0; }
+.gallery figure img { width: 100%; height: 170px; object-fit: cover; display: block; background: #fff; }
+.gallery figcaption { padding: 8px 12px; font-size: .82rem; color: var(--ink); }
+.gallery figcaption .g-angle { font-weight: 700; color: var(--forest); }
+.gallery figcaption .g-meta { color: var(--muted); font-size: .72rem; margin-top: 3px; }
+.gallery-hint { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+/* ---------- Lightbox ---------- */
+.lightbox { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.88); cursor: zoom-out; }
+.lightbox.open { display: flex; align-items: center; justify-content: center; }
+.lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; background: #000; border-radius: 6px; box-shadow: 0 8px 40px rgba(0,0,0,.6); }
+.lightbox .lb-cap { position: absolute; bottom: 18px; left: 0; right: 0; text-align: center; color: #ddd; font-size: .85rem; padding: 0 20px; }
+.lightbox .lb-close { position: absolute; top: 14px; right: 22px; color: #fff; font-size: 2rem; line-height: 1; cursor: pointer; }
+a.zoom { display: inline-block; cursor: zoom-in; }
+.gallery figure img { cursor: zoom-in; }
+</style></head><body>
+<header class="site"><div class="wrap">
+  <h1><a href="../../index.html">Video Gen Cart <span>自由創作卡通素材庫</span></a></h1>
+  <div class="sub">公版 / 自由使用卡通人物 · AI 創意素材</div>
+</div><nav class="brand-tabs"><a href="../../brands/animation-backgrounds-general/" class="">Animation Backgrounds (General)</a><a href="../../brands/anthropomorphic-animals/" class="">Anthropomorphic Animals</a><a href="../../brands/barney-google/" class="">Barney Google</a><a href="../../brands/blender-open-movies/" class="">Blender Open Movies</a><a href="../../brands/jiggs/" class="">Bringing Up Father</a><a href="../../brands/buck-rogers/" class="">Buck Rogers</a><a href="../../brands/buster-brown/" class="">Buster Brown</a><a href="../../brands/cc0-original-characters/" class="">CC0 Original Characters</a><a href="../../brands/cityscapes-historical-scenes/" class="">Cityscapes &amp; Historical Scenes</a><a href="../../brands/dance-instruments-crafts-festivals/" class="">Dance, Instruments, Crafts &amp; Festivals</a><a href="../../brands/disney-silent/" class="">Disney Silent Era (Mickey &amp; Friends)</a><a href="../../brands/fairy-tales-mythology/" class="">Fairy Tales &amp; Mythology</a><a href="../../brands/felix-the-cat/" class="">Felix the Cat</a><a href="../../brands/fleischer-betty-boop/" class="">Fleischer Studios (Betty Boop)</a><a href="../../brands/free-asset-sources/" class="">Free Asset Sources</a><a href="../../brands/happy-hooligan/" class="">Happy Hooligan</a><a href="../../brands/historical-props-golden-age/" class="">Historical Props &amp; Golden-Age Art</a><a href="../../brands/international-pd-characters/" class="">International PD Characters</a><a href="../../brands/japanese-anime-backgrounds/" class="">Japanese Anime Backgrounds</a><a href="../../brands/japanese-anime-design-sheets/" class="">Japanese Anime Design Sheets</a><a href="../../brands/japanese-anime-extra-sources/" class="">Japanese Anime Extra Sources</a><a href="../../brands/japanese-anime-style-reference/" class="">Japanese Anime Style Reference</a><a href="../../brands/japanese-art-collection/" class="">Japanese Art Collection</a><a href="../../brands/japanese-theme-illustrations/" class="">Japanese Theme Illustrations</a><a href="../../brands/japanese-yokai/" class="">Japanese Yokai</a><a href="../../brands/krazy-kat/" class="">Krazy Kat</a><a href="../../brands/little-nemo/" class="">Little Nemo in Slumberland</a><a href="../../brands/marine-masterpieces-astronomy/" class="active">Marine, Masterpieces &amp; Astronomy</a><a href="../../brands/musicians-scientists-performing/" class="">Musicians, Scientists &amp; Performing Arts</a><a href="../../brands/mutt-jeff/" class="">Mutt and Jeff</a><a href="../../brands/non-western-mythology/" class="">Non-Western Mythology &amp; Cultural Art</a><a href="../../brands/occupations-monsters/" class="">Occupations &amp; Monsters</a><a href="../../brands/olive-oyl/" class="">Olive Oyl (Thimble Theatre)</a><a href="../../brands/open-source-mascots/" class="">Open-Source Mascots</a><a href="../../brands/oss-software-mascots/" class="">OSS Software Mascots</a><a href="../../brands/oswald/" class="">Oswald the Lucky Rabbit</a><a href="../../brands/pd-childrens-book-illustrators/" class="">PD Children&#x27;s Book Illustrators</a><a href="../../brands/pd-golden-age-superheroes/" class="">PD Golden-Age Superheroes</a><a href="../../brands/pd-literature-folklore/" class="">PD Literature &amp; Folklore</a><a href="../../brands/polly-pals/" class="">Polly and Her Pals</a><a href="../../brands/popeye/" class="">Popeye</a><a href="../../brands/props-weapons/" class="">Props &amp; Weapons</a><a href="../../brands/pd-animation-1920s30s/" class="">Public-Domain Animation (1920-30s)</a><a href="../../brands/scifi-art-dramatic-scenes/" class="">Sci-Fi Art &amp; Dramatic Scenes</a><a href="../../brands/skippy/" class="">Skippy</a><a href="../../brands/andy-gump/" class="">The Gumps</a><a href="../../brands/katzenjammer-kids/" class="">The Katzenjammer Kids</a><a href="../../brands/yellow-kid/" class="">The Yellow Kid</a><a href="../../brands/vehicles-landmarks/" class="">Vehicles &amp; Landmarks</a><a href="../../brands/vintage-comic-strips/" class="">Vintage Comic Strips</a><a href="../../brands/winnie-the-pooh/" class="">Winnie-the-Pooh (Original Book)</a><a href="../../brands/world-costumes-asian-folk-art/" class="">World Costumes &amp; Asian Folk Art</a></nav></header>
+<div class="wrap"><div class="breadcrumb"><a href="../../index.html">全部品牌</a> › <a href="index.html">Marine, Masterpieces &amp; Astronomy</a> › 珊瑚礁</div><h1 class="page">珊瑚礁 <span style="color:var(--muted);font-size:1rem;font-weight:400">珊瑚礁</span></h1><div class="char-hero"><a class="zoom" href="../../assets/img/marine-coral.jpg" data-full="../../assets/img/marine-coral.jpg"><img src="../../assets/img/thumbs/marine-coral.jpg" alt="珊瑚礁" loading="lazy"></a>
+        <div class="captions">
+          <p><b>佛羅里達珊瑚礁</b></p>
+          <p>License: <b>Public domain</b>（公版 ✔）</p>
+          <p>Artist: US Fish &amp; Wildlife</p>
+          <div class="img-credit">來源：<a href="https://commons.wikimedia.org/wiki/Special:FilePath/Coral_Reef.jpg">Wikimedia Commons</a>
+          </div>
+        </div></div></div><div class="wrap"><div class="copyright-box"><h3>⚖️ 版權狀態</h3><ul><li><b>公版</b>：✔️ 屬公版（管轄區：國際）</li><li><b>公版版本</b>：屬公版</li><li><b>受保護部分</b>：無（公版）</li><li><b>Trademark</b>：無</li><li><b>核實日期</b>：2026-08-10</li></ul></div></div><div class="wrap"><h2>出處</h2>
+<p>US Fish &amp; Wildlife 嘅海洋/名畫/天文素材。<strong>屬公有領域</strong>。</p>
+<h2>內容展示</h2>
+<ul>
+<li>佛羅里達珊瑚礁</li>
+<li>寫實生態照片風格</li>
+</ul>
+<h2>外觀描述（AI 圖片/影片 Prompt 用）</h2>
+<p>寫實生態照片，佛羅里達珊瑚礁。</p>
+<p><strong>Prompt 示例</strong>：<br />
+<code>寫實生態照片 佛羅里達珊瑚礁</code></p>
+<h2>AI 創意用法</h2>
+<ul>
+<li><strong>風格/場景動畫參考</strong>：海洋/名畫/天文做動畫風格或背景參考</li>
+<li><strong>注意</strong>：公版授權</li>
+</ul></div><div class="wrap">
+  <div class="footer-note">
+    Video Gen Cart — 公版卡通素材庫。本網站資料只供參考，唔係法律意見；使用前請自行核實你所在地嘅版權 / 商標法例。
+  </div>
+</div>
+<div class="lightbox" id="lightbox" aria-hidden="true"><span class="lb-close" id="lb-close">&times;</span><img src="" alt="" id="lb-img"><div class="lb-cap" id="lb-cap"></div></div>
+<script>
+(function(){
+  var lb=document.getElementById('lightbox'), img=document.getElementById('lb-img'), cap=document.getElementById('lb-cap');
+  function open(src,alt){ img.src=src; img.alt=alt; cap.textContent=alt; lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); }
+  function close(){ lb.classList.remove('open'); img.src=''; lb.setAttribute('aria-hidden','true'); }
+  document.addEventListener('click', function(e){
+    var t=e.target.closest('a.zoom, .gallery figure img, .char-hero img');
+    if(t && t.tagName!=='IMG'){ t=e.target; }
+    if(t && t.tagName==='IMG' && (t.closest('a.zoom') || t.closest('.gallery') || t.closest('.char-hero'))){
+      e.preventDefault(); var src=t.getAttribute('data-full')||t.currentSrc||t.src;
+      open(src, t.getAttribute('alt')||'');
+    }
+  });
+  lb.addEventListener('click', function(e){ if(e.target===lb||e.target.id==='lb-close') close(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+})();
+</script>

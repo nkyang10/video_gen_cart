@@ -2,8 +2,8 @@
   "meta": {
     "name": "Video Gen Cart",
     "description": "公版 / 自由使用卡通人物素材庫，供 AI agent 做 video generation 基礎。",
-    "brand_count": 51,
-    "character_count": 604,
+    "brand_count": 52,
+    "character_count": 620,
     "generated": "2026-08-09",
     "schema_version": "1.0"
   },
@@ -11287,6 +11287,376 @@
           "type": "配角（跟班）",
           "relation": "Nemo 喺糖果島發現嘅跟班",
           "interaction": "Impie 係 Nemo 喺糖果群島發現嘅沉默跟班，幾乎唔講嘢，忠誠咁跟住 Nemo 同行。**⚠️ 時代敏感**：原著係 1900 年代種族歧視刻板印象，現代創作應去刻板化，改做「忠誠逗趣細路」形象。\n"
+        }
+      ]
+    },
+    {
+      "slug": "marine-masterpieces-astronomy",
+      "name": "Marine, Masterpieces & Astronomy",
+      "name_zh": "海洋生物名畫天文",
+      "type": "海洋生物 / 名畫風格 / 天文視覺",
+      "country": "國際",
+      "era": "1500s-2010s",
+      "creator": "各藝術家/科學家/NASA",
+      "publisher": "各美術館/機構",
+      "first_appearance_year": 1480,
+      "status": "公有領域",
+      "license": {
+        "type": "UNKNOWN",
+        "code": ""
+      },
+      "characters": [
+        {
+          "slug": "astro-flammarion",
+          "name": "佛拉馬利翁版畫",
+          "name_zh": "佛拉馬利翁版畫",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "Flammarion",
+          "creator": "Flammarion",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/astro-flammarion.jpg",
+          "reference_gallery": [],
+          "appearance": "文藝復興木刻，旅人掀天穹窺探。 `文藝復興木刻 旅人掀天穹窺探`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "astro-hevelius-moon",
+          "name": "赫維留斯月球地圖",
+          "name_zh": "赫維留斯月球地圖",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "Hevelius",
+          "creator": "Hevelius",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/astro-hevelius-moon.jpg",
+          "reference_gallery": [],
+          "appearance": "17世紀科學插圖，月海隕石坑地圖。 `17世紀科學插圖 月海隕石坑地圖`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "astro-pillars",
+          "name": "創生之柱",
+          "name_zh": "創生之柱",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "NASA/ESA",
+          "creator": "NASA/ESA",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/astro-pillars.jpg",
+          "reference_gallery": [],
+          "appearance": "哈伯星雲影像，鷹星雲創生之柱。 `哈伯星雲影像 鷹星雲創生之柱`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "marine-coral",
+          "name": "珊瑚礁",
+          "name_zh": "珊瑚礁",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "US Fish & Wildlife",
+          "creator": "US Fish & Wildlife",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/marine-coral.jpg",
+          "reference_gallery": [],
+          "appearance": "寫實生態照片，佛羅里達珊瑚礁。 `寫實生態照片 佛羅里達珊瑚礁`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "marine-dolphin",
+          "name": "北露脊海豚",
+          "name_zh": "北露脊海豚",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "NOAA",
+          "creator": "NOAA",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/marine-dolphin.jpg",
+          "reference_gallery": [],
+          "appearance": "寫實生態照片，海豚海面游泳。 `寫實生態照片 海豚海面游泳`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "marine-haeckel-actinia",
+          "name": "Haeckel 海葵",
+          "name_zh": "Haeckel 海葵",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "Ernst Haeckel",
+          "creator": "Ernst Haeckel",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/marine-haeckel-actinia.jpg",
+          "reference_gallery": [],
+          "appearance": "絢麗生物版畫，海葵觸手放射。 `絢麗生物版畫 海葵觸手放射`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "marine-haeckel-ascidia",
+          "name": "Haeckel 海鞘",
+          "name_zh": "Haeckel 海鞘",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "Ernst Haeckel",
+          "creator": "Ernst Haeckel",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/marine-haeckel-ascidia.jpg",
+          "reference_gallery": [],
+          "appearance": "紫紅生物版畫，海鞘管狀構造。 `紫紅生物版畫 海鞘管狀構造`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "marine-haeckel-disco",
+          "name": "Haeckel 水母",
+          "name_zh": "Haeckel 水母",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "Ernst Haeckel",
+          "creator": "Ernst Haeckel",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/marine-haeckel-disco.jpg",
+          "reference_gallery": [],
+          "appearance": "裝飾性生物版畫，水母張傘觸手。 `裝飾性生物版畫 水母張傘觸手`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "marine-haeckel-ostracion",
+          "name": "Haeckel 箱魨",
+          "name_zh": "Haeckel 箱魨",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "Ernst Haeckel",
+          "creator": "Ernst Haeckel",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/marine-haeckel-ostracion.jpg",
+          "reference_gallery": [],
+          "appearance": "裝飾性魚類版畫，硬殼鱗甲箱魨。 `裝飾性魚類版畫 硬殼鱗甲箱魨`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "marine-humpback",
+          "name": "座頭鯨",
+          "name_zh": "座頭鯨",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "NOAA",
+          "creator": "NOAA",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/marine-humpback.jpg",
+          "reference_gallery": [],
+          "appearance": "寫實生態照片，座頭鯨水下游動。 `寫實生態照片 座頭鯨水下游動`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "painting-birth-venus",
+          "name": "維納斯的誕生",
+          "name_zh": "維納斯的誕生",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "Botticelli",
+          "creator": "Botticelli",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/painting-birth-venus.jpg",
+          "reference_gallery": [],
+          "appearance": "文藝復興神話，維納斯誕生波浪。 `文藝復興神話 維納斯誕生波浪`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "painting-last-supper",
+          "name": "最後的晚餐",
+          "name_zh": "最後的晚餐",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "Leonardo da Vinci",
+          "creator": "Leonardo da Vinci",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/painting-last-supper.jpg",
+          "reference_gallery": [],
+          "appearance": "文藝復興敘事，耶穌十二門徒群像。 `文藝復興敘事 耶穌十二門徒群像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "painting-mona-lisa",
+          "name": "蒙娜麗莎",
+          "name_zh": "蒙娜麗莎",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "Leonardo da Vinci",
+          "creator": "Leonardo da Vinci",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/painting-mona-lisa.jpg",
+          "reference_gallery": [],
+          "appearance": "文藝復興肖像，含蓄微笑漸暈法。 `文藝復興肖像 含蓄微笑漸暈法`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "painting-pearl-earring",
+          "name": "戴珍珠耳環少女",
+          "name_zh": "戴珍珠耳環少女",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "Vermeer",
+          "creator": "Vermeer",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/painting-pearl-earring.jpg",
+          "reference_gallery": [],
+          "appearance": "荷蘭黃金時代，光影眼神肖像。 `荷蘭黃金時代 光影眼神肖像`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "painting-scream",
+          "name": "吶喊",
+          "name_zh": "吶喊",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "Edvard Munch",
+          "creator": "Edvard Munch",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/painting-scream.jpg",
+          "reference_gallery": [],
+          "appearance": "表現主義，誇張表情漩渦背景。 `表現主義 誇張表情漩渦背景`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
+        },
+        {
+          "slug": "painting-vangogh-self",
+          "name": "梵谷自畫像",
+          "name_zh": "梵谷自畫像",
+          "role": "海洋/名畫/天文",
+          "first_appearance": "Van Gogh",
+          "creator": "Van Gogh",
+          "license": {
+            "type": "PD",
+            "code": "public-domain"
+          },
+          "protected_portion": "無（公版）",
+          "trademark": "無",
+          "verified": "2026-08-10",
+          "image": "assets/img/painting-vangogh-self.jpg",
+          "reference_gallery": [],
+          "appearance": "後印象派，旋渦筆觸黃藍對比。 `後印象派 旋渦筆觸黃藍對比`",
+          "dialogue": "",
+          "scene": "",
+          "personality": "",
+          "ai_usage": "**風格/場景動畫參考**：海洋/名畫/天文做動畫風格或背景參考 **注意**：公版授權"
         }
       ]
     },
